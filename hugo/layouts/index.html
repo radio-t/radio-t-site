@@ -1,0 +1,27 @@
+{{ partial "head.html" . }}
+
+<div class="blog-index">
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+
+  {{ range $paginator.Pages }}
+    {{ .Render "li" }}
+  {{ end }}
+
+  {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
+    <div class="pagination">
+      {{ if $paginator.HasNext }}
+        <a class="prev" href="{{ .URL }}page/{{ $paginator.Next.PageNumber }}/">&larr; Раньше</a>
+      {{ end }}
+
+      <a href="/archives/">Архивы подкаста</a>
+
+      {{ if $paginator.HasPrev }}
+        <a class="next" href="{{ .URL }}page/{{ $paginator.Prev.PageNumber }}/">Позже &rarr;</a>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+
+{{ partial "sidebar.html" . }}
+
+{{ partial "foot.html" . }}

@@ -1,0 +1,16 @@
+{{ partial "head.html" . }}
+
+<div>
+  <article class="hentry" role="article">
+    <header>
+      <h1 class="entry-title">{{ .Title }}</h1>
+    </header>
+
+    {{ .Content }}
+
+  </article>
+</div>
+
+{{ partial "sidebar.html" . }}
+
+{{ partial "foot.html" . }}

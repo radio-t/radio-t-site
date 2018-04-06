@@ -1,0 +1,11 @@
+    <item>
+      <title><![CDATA[{title}]]></title>
+      <description><![CDATA[{content}]]></description>
+      <link>{url}</link>
+      <guid>{url}</guid>
+      <pubDate>{date}</pubDate>
+      <itunes:author><![CDATA[Umputun, Bobuk, Gray, Ksenks]]></itunes:author>
+      <itunes:summary><![CDATA[{content}]]></itunes:summary>
+      <itunes:image href="{image}" />
+      <enclosure url="http://archive.rucast.net/radio-t/media/{filename}.mp3" type="audio/mp3" />
+    </item>

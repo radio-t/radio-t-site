@@ -1,0 +1,23 @@
+<article>
+  <h1>
+  	<a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h1>
+
+  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" pubdate>
+    <span class="month">{{ index .Site.Data.ru (printf "%d" .Date.Month) }}</span>
+    <span class="day">{{ .Date.Day | printf "%02d" }}</span>
+    <span class="year">{{ .Date.Year }}</span>
+  </time>
+
+  <footer>
+    <span class="categories">метки:
+    {{ with .Params.categories }}
+      <span class="categories">
+      {{ range . }}
+        <a class="category" href="/categories/{{ . }}">{{ . }}</a>
+      {{ end }}
+      </span>
+    {{ end }}
+    </span>
+  </footer>
+</article>

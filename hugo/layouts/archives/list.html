@@ -1,0 +1,36 @@
+{{ partial "head.html" . }}
+
+<div>
+  <article role="article">
+    <header>
+      <h1 class="entry-title">Архивы</h1>
+    </header>
+
+    <div id="blog-archives">
+      {{ range .Site.Pages.GroupByDate "2006" }}
+        {{ $k := .Key }}
+
+        {{ $.Scratch.Add $k 0 }}
+        {{ range .Pages }}
+          {{ if eq .Type "posts" }}
+            {{ $.Scratch.Add $k 1 }}
+          {{ end }}
+        {{ end }}
+
+        {{ if ($.Scratch.Get $k) "!=" 0 }}
+          <h2>{{ .Key }}</h2>
+
+          {{ range .Pages }}
+            {{ if eq .Type "posts" }}
+                {{ .Render "archive_li" }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </article>
+</div>
+
+{{ partial "sidebar.html" . }}
+
+{{ partial "foot.html" . }}

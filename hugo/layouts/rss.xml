@@ -1,0 +1,54 @@
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/">
+
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <atom:link href="{{ .Site.BaseURL }}/index.xml" rel="self" type="application/rss+xml" />
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ .Site.Params.description }}</description>
+    <lastBuildDate>{{ .Date }}</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <copyright>radio-t, {{ with .Site.Copyright }}{{.}}{{ end }}</copyright>
+
+    <language>ru</language>
+    <itunes:author>Umputun, Bobuk, Gray, Ksenks</itunes:author>
+    <itunes:subtitle>{{ .Site.Params.subtitle }}</itunes:subtitle>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Umputun, Bobuk, Gray, Ksenks</itunes:name>
+      <itunes:email>podcast@radio-t.com</itunes:email>
+    </itunes:owner>
+
+    <itunes:image href="https://radio-t.com/images/cover.jpg" />
+    <itunes:summary>{{ .Site.Params.description }}</itunes:summary>
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+
+    <itunes:keywords>hitech,russian,radiot,tech,news,радио-т</itunes:keywords>
+
+    {{ range first 20 .Data.Pages }}
+    <item>
+        <link>{{ .Permalink }}</link>
+        <title>{{ .Title }}</title>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        <description>![CDATA[{{.Content | markdownify }}]]</description>
+
+        <enclosure url="http://cdn.radio-t.com/{{ .Params.filename }}.mp3" type="audio/mpeg" />
+        <guid>{{ .Permalink }}</guid>
+
+        <itunes:author>{{ .Params.author }}</itunes:author>
+        <itunes:summary>{{ .Content | plainify }}</itunes:summary>
+        <itunes:image href="https://radio-t.com/images/cover.jpg" />
+    </item>
+    {{ end }}
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<article>
+  <header>
+    <h1 class="entry-title">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h1>
+
+    <p class="meta">
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" pubdate data-updated="true">
+        {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
+      </time>
+      |
+      <a href="{{ .Permalink }}#disqus_thread">Comments</a>
+    </p>
+  </header>
+
+  <div class="entry-content">
+    {{ .Content }}
+  </div>
+</article>

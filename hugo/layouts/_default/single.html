@@ -1,0 +1,88 @@
+{{ partial "head.html" . }}
+
+<div>
+  <article class="hentry" role="article">
+    <header>
+      <h1 class="entry-title">{{ .Title }}</h1>
+
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
+      <meta name="twitter:url" content="{{ .Site.Params.url }}{{ .URL }}">
+      <meta name="twitter:title" content="{{ .Title }}">
+      <meta name="twitter:description" content="{{ .Site.Params.twitterCardDescription }}">
+      {{ with .Params.image }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+
+      <p class="meta">
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" pubdate data-updated="true">
+          {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
+        </time>
+      </p>
+    </header>
+
+    <div class="entry-content">
+      {{ .Content }}
+    </div>
+
+    <footer>
+      <p class="meta">
+        <span class="byline author vcard">
+          <span class="fn">
+            {{ .Site.Params.author }}
+          </span>
+        </span>
+
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" pubdate data-updated="true">
+          {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
+        </time>
+
+        {{ with .Params.categories }}
+          <span class="categories">
+          {{ range . }}
+            <a class="category" href="/categories/{{ . }}">{{ . }}</a>
+          {{ end }}
+          </span>
+        {{ end }}
+      </p>
+
+      <p class="meta">
+        {{ if .Next }}
+          {{ if eq .Next.Type "posts" }}
+              <a class="basic-alignment letf" href="{{ .Next.Permalink }}" title="Next Post: {{ .Next.Title }}">&laquo; {{ .Next.Title }}</a>
+          {{ end }}
+        {{ end }}
+        {{ if .Prev }}
+          {{ if eq .Prev.Type "posts" }}
+            <a class="basic-alignment right" href="{{ .Prev.Permalink }}" title="Previous Post: {{ .Prev.Title }}">{{ .Prev.Title }} &raquo;</a>
+          {{ end }}
+        {{ end }}
+      </p>
+      <div class="sharing">
+        <div class="likely">
+          <div class="twitter">Твитнуть</div>
+          <div class="facebook">Поделиться</div>
+          <div class="gplus">Плюсануть</div>
+          <div class="vkontakte">Поделиться</div>
+        </div>
+      </div>
+    </footer>
+  </article>
+
+  <section>
+      <div id="comment-policy" class="comment-policy">
+          <p>Тут у нас свобода слова, но за хамство можем забанить.</p>
+          Пожалуйста, прочитайте наши <a href="https://radio-t.com/comment-policy" target="_blank" rel="noopener noreferrer" class="policy-link">правила</a> прежде чем комментировать.
+      </div>
+  </section>
+
+  <section>
+    <div id="disqus_thread" aria-live="polite">
+      <noscript>
+          Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+      </noscript>
+    </div>
+  </section>
+</div>
+
+{{ partial "sidebar.html" . }}
+
+{{ partial "foot.html" . }}
