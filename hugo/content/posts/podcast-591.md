@@ -17,7 +17,7 @@ filename = "rt_podcast591"
 - [Firebase Dynamic Links](https://firebase.google.com/products/dynamic-links/) - *01:14:46*.
 - [Google не любит Kodi](https://www.theverge.com/2018/3/29/17176894/google-removes-kodi-search-autocomplete-anti-piracy) - *01:18:29*.
 - [Apple добавила иконку для приватности](https://thenextweb.com/apple/2018/03/29/apple-ups-transparency-game-avoid-facebook-like-scandal/) - *01:30:47*.
-- [Glitch для техт, кто не осилил](https://thenextweb.com/dd/2018/03/30/glitch-rewind-wants-make-version-control-easy-everyone/) - *01:42:25*.
+- [Glitch для тех, кто не осилил](https://thenextweb.com/dd/2018/03/30/glitch-rewind-wants-make-version-control-easy-everyone/) - *01:42:25*.
 - Темы наших слушателей
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
