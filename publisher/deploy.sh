@@ -7,7 +7,7 @@ echo "generates site"
 num_before=`utils/get-next-rt.py 2>/dev/null`
 
 cd ..
-git pull -u
+git pull
 git add .
 git commit -m "auto episode after $num_before" && git push
 ssh master.radio-t.com "cd /srv/site.hugo && git pull && docker-compose run --rm hugo"
