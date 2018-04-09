@@ -800,6 +800,17 @@ article header p.meta {
   top: 0;
 }
 
+@media only screen and (max-width: 335px) {
+  article header p.meta a {
+    width: 9em;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   article header {
     margin-bottom: 1.5em;
