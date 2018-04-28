@@ -5,7 +5,6 @@ categories = ["podcast"]
 filename = "rt_podcast74"
 +++
 
-
 - Всем говорить только хорошо о ...
 - Google [помогает](http://soft.compulenta.ru/349299/) Wine, а MS – [молодым](http://webplanet.ru/news/soft/2008/02/21/dreamspark.html)
 - [Технологии 2008](http://science.compulenta.ru/349260/) через призму нашего непонимания
@@ -20,9 +19,9 @@ filename = "rt_podcast74"
 - Странные [защитники](http://cnews.ru/news/top/index.shtml?2008/02/19/288851) open source
 - Прощание с [ушедшими в небытие](http://net.compulenta.ru/349422/)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-74/) наших слушателей
-[](http://net.compulenta.ru/349422/)
 
-В качестве компенсации за странности выпуска, предлагаем вашему вниманию фрагмент того, что обычно доступно только для онлайин слушателей (после–шоу). Это НЕ часть подкаста, и прослушивание сего ... хм ...сомнительного звука, очень опционально. Слушать [ **здесь**](http://media.libsyn.com/media/umputun/rt74extra.mp3).
 
-[аудио](http://media.libsyn.com/media/umputun/rt74extra.mp3)
-<audio src="http://media.libsyn.com/media/umputun/rt74extra.mp3" preload="none"></audio>
+В качестве компенсации за странности выпуска, предлагаем вашему вниманию фрагмент того, что обычно доступно только для онлайин слушателей (после–шоу). Это НЕ часть подкаста, и прослушивание сего ... хм ...сомнительного звука, очень опционально. Слушать [ **здесь**](http://archive.rucast.net/radio-t/media/rt74extra.mp3).
+
+[аудио](http://cdn.radio-t.com/rt_podcast74.mp3)
+<audio src="http://cdn.radio-t.com/rt_podcast74.mp3" preload="none"></audio>
