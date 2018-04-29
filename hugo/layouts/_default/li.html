@@ -9,7 +9,7 @@
         {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
       </time>
       |
-      <a href="{{ .Permalink }}#disqus_thread">Comments</a>
+      <a href="{{ .Permalink }}#remark42"><span class="remark42__counter" data-url="{{ .Permalink }}"></span> comments</a>
     </p>
   </header>
 
