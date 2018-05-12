@@ -1559,3 +1559,8 @@ aside.sidebar {
     position: relative;
     overflow: hidden;
 }
+
+/* OVERRIDE REMARK42 STYLES */
+#remark42 .comment_view_preview .comment__username {
+  color: #526f9a !important;
+}
