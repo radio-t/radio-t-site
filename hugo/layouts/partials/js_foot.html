@@ -1,18 +1,24 @@
-<script type="text/javascript">
-  var disqus_shortname = '{{ .Site.Params.disqus }}';
+{{ if or (eq .URL "/") (eq (substr .URL 0 3) "/p/") }}
+<script>
+    var remark_config = {
+      site_id: '{{ .Site.Params.remark42 }}',
+    };
 
-{{ if eq .URL "/" }}
-  var disqus_script = 'count.js';
-{{ else }}
-  var disqus_script = 'embed.js';
-{{ end }}
-
-  (function () {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  }());
+  (function() {
+    var d = document, s = d.createElement('script');
+    var baseurl = 'https://remark42.radio-t.com';
+    
+    {{ if eq .URL "/" }}
+    s.src = baseurl + '/web/counter.js';
+    {{ else if eq (substr .URL 0 3) "/p/" }}
+    s.src = baseurl + '/web/embed.js';
+    {{ end }}
+    
+    s.type = 'text/javascript';
+    (d.head || d.body).appendChild(s);
+  })();
 </script>
+{{ end }}
 
 <script type="text/javascript">
   (function(){
