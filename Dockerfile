@@ -24,5 +24,4 @@ RUN \
  echo "CDT" > /etc/timezone && date && \
  rm -rf /var/cache/apk/*
 
-WORKDIR /srv/hugo
 CMD ["/srv/exec.sh"]
