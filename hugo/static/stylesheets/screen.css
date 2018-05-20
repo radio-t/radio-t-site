@@ -1562,13 +1562,5 @@ aside.sidebar {
 
 /* OVERRIDE REMARK42 STYLES */
 #remark42 .comment_view_preview .comment__username {
-  color: #278697 !important;
-}
-
-#remark42 .comment__score_view_negative {
-  color: #a19f84 !important;
-}
-
-#remark42 .comment__score_view_positive {
-  color: #a19f84 !important;
+    color: #526f9a !important;
 }
