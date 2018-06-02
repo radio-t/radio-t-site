@@ -14,7 +14,7 @@ filename = "rt_podcast600"
 - [Aggregation Pipeline в Compass](https://www.mongodb.com/blog/post/introducing-the-aggregation-pipeline-builder-in-mongodb-compass) - *01:04:37*.
 - [Почему все быстро меняется на фронтенеде](http://www.breck-mckye.com/blog/2018/05/why-is-front-end-development-so-unstable/) - *01:11:57*.
 - [Github Marketplace открыт для всех](https://thenextweb.com/dd/2018/05/31/developers-can-now-upload-apps-to-the-github-marketplace-for-free/) - *01:33:50*.
-- [Первые письма счастья по поводу GDPR и первые жертвы](https://jacquesmattheij.com/so-your-start-up-receive-the-nightmare-gdpr-letter) - *01:46:18*.
+- [Первые жертвы GDPR](https://jacquesmattheij.com/so-your-start-up-receive-the-nightmare-gdpr-letter) - *01:46:18*.
 - Темы наших слушателей
 
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
