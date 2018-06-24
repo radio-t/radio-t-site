@@ -15,11 +15,7 @@
     
     пример: `https://radio-t.com/site-api/search?q=mongo&limit=10` вернет до 10 самых свежих подкастов в описании которых есть слово "mongo"
 
-- `GET /podcast/{num}` - вернуть информацию о подкасте с заданным номером
-
-    пример: `https://radio-t.com/site-api/podcast/223` 
-
-Оба вызова возвращают JSON лист, с элементами вида:
+oба вызова возвращают JSON лист, с элементами вида:
 
 ```go
 type Entry struct {
@@ -42,12 +38,17 @@ type TimeLabel struct {
 }
 ```
 
+- `GET /podcast/{num}` - вернуть информацию о подкасте с заданным номером, возвращает JSON `Entry` 
+
+    пример: `https://radio-t.com/site-api/podcast/223` 
+
+
 #### API новостей news.radio-t.com
 
 Базовый URL `https://news.radio-t.com/api/v1/`
 
 - `GET /news/active/last/{hrs}` - взять темы активированные в последние `{hrs}` часов. Возвращает массив `Article`
-- `GET /news/last/{count}` - возвращает последние добавленные темы.
+- `GET /news/last/{count}` - возвращает последние добавленные темы
 - `GET /news/slug/{slug}` - тема по slug
 - `GET /news/domain/#domain` – темы для домена
 - `GET /news/active` - возвращет активную, в этот момент, тему
