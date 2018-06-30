@@ -9,7 +9,7 @@ filename = "rt_podcast604"
 ![](https://radio-t.com/images/radio-t/rt604.jpg)
 
 - [MongoDB 4](https://www.mongodb.com/press/mongodb-expands-its-leadership-with-a-number-of-new-product-announcements) - *00:04:58*.
-- [Gento хакнули на GitHub](https://nakedsecurity.sophos.com/2018/06/29/linux-distro-hacked-on-github-all-code-considered-compromised/) - *00:19:42*.
+- [Gentoo хакнули на GitHub](https://nakedsecurity.sophos.com/2018/06/29/linux-distro-hacked-on-github-all-code-considered-compromised/) - *00:19:42*.
 - [Apple сттоит новые карты](https://techcrunch.com/2018/06/29/apple-is-rebuilding-maps-from-the-ground-up/) - *00:28:44*.
 - [Alpine 3.8.0](https://alpinelinux.org/posts/Alpine-3.8.0-released.html) - *00:42:22*.
 - [Новое в  Python 3.7 – Real Python](https://realpython.com/python37-new-features/) - *00:47:54*.
