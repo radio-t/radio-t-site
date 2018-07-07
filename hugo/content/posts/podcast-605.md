@@ -14,7 +14,7 @@ filename = "rt_podcast605"
 - [Hugo 5 лет](https://gohugo.io/news/lets-celebrate-hugos-5th-birthday/) - *00:51:00*.
 - [Visual Studio Code June 2018](https://code.visualstudio.com/updates/v1_25) - *01:02:46*.
 - [Bastion для слабаков](https://medium.com/@henriksylvesterpedersen/you-dont-need-that-bastion-host-cd1b1717a9e7) - *01:18:43*.
-- [Яндекс начал индексировать Google Документы с паролями](https://habr.com/post/416219/) - *01:25:24*.
+- [Яндекс начал индексировать Google](https://habr.com/post/416219/) - *01:25:24*.
 - Темы наших слушателей
 
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
