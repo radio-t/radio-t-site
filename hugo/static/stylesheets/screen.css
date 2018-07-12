@@ -1532,6 +1532,10 @@ aside.sidebar {
   background-position: top left;
 }
 
+.gitter-chat-embed {
+  left: 0;
+}
+
 .main-navigation {
   padding-top: 0 !important;
 }
