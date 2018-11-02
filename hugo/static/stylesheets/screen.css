@@ -1354,7 +1354,7 @@ body > footer {
   margin-bottom: 3em;
   border-bottom-left-radius: .4em;
   border-bottom-right-radius: .4em;
-  z-index: 1;
+  z-index: auto;
 }
 
 body > footer a {
