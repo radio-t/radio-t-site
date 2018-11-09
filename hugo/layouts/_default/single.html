@@ -54,6 +54,8 @@
           {{ if eq .Prev.Type "posts" }}
             <a class="basic-alignment right" href="{{ .Prev.Permalink }}" title="Previous Post: {{ .Prev.Title }}">{{ .Prev.Title }} &raquo;</a>
           {{ end }}
+        {{ else if in .Params.categories "podcast" }}
+            <b class="basic-alignment right">сбор тем начинается в среду</b>
         {{ end }}
       </p>
       <div class="sharing">
