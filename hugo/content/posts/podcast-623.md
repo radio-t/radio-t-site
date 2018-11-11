@@ -11,7 +11,7 @@ filename = "rt_podcast623"
 - [2018 Mac Mini](https://marco.org/2018/11/06/mac-mini-2018-review) - *00:06:00*.
 - [Apple iPad Pro 2018](https://www.theverge.com/2018/11/5/18062612/apple-ipad-pro-review-2018-screen-usb-c-pencil-price-features) - *00:27:32*.
 - [GitHub преодолел рубеж в 100 млн репозиториев](http://www.opennet.ru/opennews/art.shtml?num=49580) - *00:47:22*.
-- [Amazon начибает продавать пордукты Apple](https://mashable.com/article/amazon-apple-sell-iphones-no-homepod/) - *01:16:12*.
+- [Amazon начинает продавать продукты Apple](https://mashable.com/article/amazon-apple-sell-iphones-no-homepod/) - *01:16:12*.
 - [Samsung показал телефона с гибким дисплеем](https://techcrunch.com/2018/11/07/samsung-shares-a-glimpse-of-its-folding-infinity-flex-display-smartphone/) - *01:29:03*.
 - [Складные экраны надолго или это мода](https://mashable.com/article/foldable-phones-fad/) - *01:33:21*.
 - Темы наших слушателей
