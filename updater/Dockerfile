@@ -4,7 +4,7 @@ ENV \
     TERM=xterm-color           \
     TIME_ZONE=America/Chicago  \
     MYUSER=app                 \
-    MYUID=1000
+    MYUID=1001
 
 RUN \
     apk add --no-cache --update su-exec tzdata curl openssl && \
