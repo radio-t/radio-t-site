@@ -8,6 +8,7 @@ LOCAL=$(git rev-parse HEAD);
 REMOTE=$(git rev-parse @{u});
 
 if [ $LOCAL != $REMOTE ]; then
+    sleep 5
     echo "$(date) git update detected"
     git pull origin master
     docker-compose run --rm hugo
