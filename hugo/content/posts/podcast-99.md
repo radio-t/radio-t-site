@@ -20,7 +20,7 @@ filename = "rt_podcast99"
 - Цифровая темя выпуска
 - Темы наших слушателей
 
-***_ [Лог чата](/chat/logs/radio-t-99.html)_**
+***_ [Лог чата](http://chat.radio-t.com/logs/radio-t-99.html)_**
 
 [аудио](http://cdn.radio-t.com/rt_podcast99.mp3)
 <audio src="http://cdn.radio-t.com/rt_podcast99.mp3" preload="none"></audio>

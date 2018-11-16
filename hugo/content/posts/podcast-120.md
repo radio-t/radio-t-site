@@ -20,7 +20,7 @@ filename = "rt_podcast120"
 - Плазма [против](http://www.engadget.com/2009/01/16/lcd-vs-plasma-in-2009/) и [21:9 за](http://hitech.tomsk.ru/hitech/11202-pervyjj-v-mire-televizor-s-sootnosheniem-storon.html)[мебели](http://mebeli-new.free.bg/)
 - [QT](http://www.linux.org.ru/view-message.jsp?msgid=3410434) с новой лицензией
 
-[_Лог чата_](/chat/logs/radio-t-120.html)
+[_Лог чата_](http://chat.radio-t.com/logs/radio-t-120.html)
 
 [аудио](http://cdn.radio-t.com/rt_podcast120.mp3)
 <audio src="http://cdn.radio-t.com/rt_podcast120.mp3" preload="none"></audio>

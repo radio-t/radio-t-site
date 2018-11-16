@@ -34,9 +34,7 @@ filename = "rt_podcast119"
 
 
 
-* Лог онлайн–чата [_доступен_](http://radio-t.com/chat/logs/radio-t-119.html)
-
-**[](http://radio-t.com/chat/logs/radio-t-119.html)**
+* Лог онлайн–чата [_доступен_](http://chat.radio-t.com/logs/radio-t-119.html)
 
 [аудио](http://cdn.radio-t.com/rt_podcast119.mp3)
 <audio src="http://cdn.radio-t.com/rt_podcast119.mp3" preload="none"></audio>

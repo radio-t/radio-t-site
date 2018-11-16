@@ -9,7 +9,7 @@ filename = "rt_podcast100"
 
 
 
-* **_ [Лог чата](/chat/logs/radio-t-100.html)_**
+* **_ [Лог чата](http://chat.radio-t.com/logs/radio-t-100.html)_**
 ** Спасибо macsyk за юбилейню картинку
 *** Сайт **[Пираты–РТ](http://pirate.radio-t.com/)**
 
