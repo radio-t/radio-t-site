@@ -18,7 +18,7 @@ filename = "rt_podcast97"
 - 8 зомби вокруг нас
 - Темы наших слушателей
 
-***_ [Лог чата](/chat/logs/radio-t-97.html)_**
+***_ [Лог чата](http://chat.radio-t.com/logs/radio-t-97.html)_**
 
 [аудио](http://cdn.radio-t.com/rt_podcast97.mp3)
 <audio src="http://cdn.radio-t.com/rt_podcast97.mp3" preload="none"></audio>

@@ -20,7 +20,7 @@ filename = "rt_podcast103"
 - Писатели против электронных книг
 - Темы наших слушателей
 
-* **_ [Лог чата](/chat/logs/radio-t-103.html)_**
+* **_ [Лог чата](http://chat.radio-t.com/logs/radio-t-103.html)_**
 
 [аудио](http://cdn.radio-t.com/rt_podcast103.mp3)
 <audio src="http://cdn.radio-t.com/rt_podcast103.mp3" preload="none"></audio>

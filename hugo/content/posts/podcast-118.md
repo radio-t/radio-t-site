@@ -36,12 +36,12 @@ filename = "rt_podcast118"
 
 
 
-* Лог онлайн–чата **[доступен](http://radio-t.com/chat/logs/radio-t-118.html)**
+* Лог онлайн–чата **[доступен](http://chat.radio-t.com/logs/radio-t-118.html)**
 
 
 
 
-**[](http://radio-t.com/chat/logs/radio-t-118.html)_** Спасибо Stavor за шоуноты_**
+**[](http://chat.radio-t.com/logs/radio-t-118.html)_** Спасибо Stavor за шоуноты_**
 
 [аудио](http://cdn.radio-t.com/rt_podcast118.mp3)
 <audio src="http://cdn.radio-t.com/rt_podcast118.mp3" preload="none"></audio>

@@ -19,7 +19,7 @@ filename = "rt_podcast107"
 - Новый ОО доступен
 - Полные шоу в YouTube
 
-* **_ [Лог чата](/chat/logs/radio-t-107.html)_**
+* **_ [Лог чата](http://chat.radio-t.com/logs/radio-t-107.html)_**
 
 [аудио](http://cdn.radio-t.com/rt_podcast107.mp3)
 <audio src="http://cdn.radio-t.com/rt_podcast107.mp3" preload="none"></audio>

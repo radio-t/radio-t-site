@@ -18,7 +18,7 @@ filename = "rt_podcast92"
 - Программистов в начальники
 - Темы наших слушателей
 
-* [Лог чата](/chat/logs/radio-t-92.html)
+* [Лог чата](http://chat.radio-t.com/logs/radio-t-92.html)
 
 [аудио](http://cdn.radio-t.com/rt_podcast92.mp3)
 <audio src="http://cdn.radio-t.com/rt_podcast92.mp3" preload="none"></audio>
