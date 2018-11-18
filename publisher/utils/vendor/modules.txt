@@ -1,0 +1,18 @@
+# github.com/jcs/id3-go v0.0.0-20170531013608-1c3fc9101a81
+github.com/jcs/id3-go
+github.com/jcs/id3-go/v2
+github.com/jcs/id3-go/v1
+github.com/jcs/id3-go/encodedbytes
+# github.com/jessevdk/go-flags v1.4.0
+github.com/jessevdk/go-flags
+# github.com/pkg/errors v0.8.0
+github.com/pkg/errors
+# golang.org/x/text v0.3.0
+golang.org/x/text/encoding
+golang.org/x/text/encoding/charmap
+golang.org/x/text/encoding/unicode
+golang.org/x/text/transform
+golang.org/x/text/encoding/internal/identifier
+golang.org/x/text/encoding/internal
+golang.org/x/text/internal/utf8internal
+golang.org/x/text/runes

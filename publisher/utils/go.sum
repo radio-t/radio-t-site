@@ -1,0 +1,8 @@
+github.com/jcs/id3-go v0.0.0-20170531013608-1c3fc9101a81 h1:fXgMFt2wcMe/+XOB7wzvo7qEcZLZoD3ORYePoDExkfE=
+github.com/jcs/id3-go v0.0.0-20170531013608-1c3fc9101a81/go.mod h1:axMqcScJoVi4eS4uMZltJK5cuJtKxfgZBH4sWhD/i7M=
+github.com/jessevdk/go-flags v1.4.0 h1:4IU2WS7AumrZ/40jfhf4QVDMsQwqA7VEHozFRrGARJA=
+github.com/jessevdk/go-flags v1.4.0/go.mod h1:4FA24M0QyGHXBuZZK/XkWh8h0e1EYbRYJSGM75WSRxI=
+github.com/pkg/errors v0.8.0 h1:WdK/asTD0HN+q6hsWO3/vpuAkAr+tw6aNJNDFFf0+qw=
+github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+golang.org/x/text v0.3.0 h1:g61tztE5qeGQ89tm6NTjjM9VPIm088od1l6aSorWRWg=
+golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
