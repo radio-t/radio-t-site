@@ -7,8 +7,7 @@ filename = "rt_podcast242"
 
 ![](https://radio-t.com/images/radio-t/rt242.jpg)
 
-[
-](http://new.radio- t.com/2011/06/242_12.html)- Microsoft готова передать ФСБ [почти все](http://habrahabr.ru/blogs/skype/120890/)
+- Microsoft готова передать ФСБ [почти все](http://habrahabr.ru/blogs/skype/120890/)
 - Россия заняла почетное второе [место ](http://hitech.tomsk.ru/newsinternet/18566-rossijane-stali-vtorymi-po-provodimomu-v.html)
 - Забавный, но нехитрый гик [попался](http://habrahabr.ru/blogs/infosecurity/120986/)
 - [WWDC](http://thenextweb.com/wwdc/2011/06/06/everything-you-need-to-know-from-wwdc-2011-in-one-handy-list/) и невнятные новинки [OSX](http://techcrunch.com/2011/06/06/top-10-new-mac-ox-lion-desktop-features/)

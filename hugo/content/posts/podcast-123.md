@@ -8,14 +8,6 @@ filename = "rt_podcast123"
 ![](https://radio-t.com/images/radio-t/rt123.jpg)
 
 
-
-
-
-
-
-
-
-
 - Безобразия с [уязвимостями](http://www.opennet.ru/opennews/art.shtml?num=20125)
 - Mail.ru и то, что [плохо](http://habrahabr.ru/blogs/im/51041/) лежит
 - Надо ли нам много [линуксов](http://www.osnews.com/story/20912/Torvalds_Multiple_Distributions)?
@@ -27,9 +19,6 @@ filename = "rt_podcast123"
 - Виртуальная [атака](http://habrahabr.ru/blogs/spam/51283/) из реальности
 - [Гугловые](http://internetno.net/2009/02/06/gcal-gets-offline-support/) радости ([№ 1](http://lifehacker.com/5145527/gmail-adds-new-move-to-and-labels-drop+downs-autocomplete), [№2](http://www.techcrunch.com/2009/02/05/gmail-adds-support-for-multiple-pane-viewing/)) и [странности](http://habrahabr.ru/blogs/google/51062/)
 - Что за топ без [топа](http://internetno.net/2009/02/05/top4top/)?
-
-
-
 
 
 *[ Лог чата](http://chat.radio-t.com/logs/radio-t-123.html)

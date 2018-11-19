@@ -7,8 +7,8 @@ filename = "rt_podcast238"
 
 ![](https://radio-t.com/images/radio-t/rt238.jpg)
 
-[
-](http://new.radio- t.com/2011/05/238_08.html)- Нет, мы не Software Engineer, мы скульпторы
+
+- Нет, мы не Software Engineer, мы скульпторы
 - Не надо комментариев в коде
 - Зачем нужна Java если есть C++
 - Oracle вернет то, что уже не нужно

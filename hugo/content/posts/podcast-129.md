@@ -8,14 +8,6 @@ filename = "rt_podcast129"
 ![](https://radio-t.com/images/radio-t/rt129.png)
 
 
-
-
-
-
-
-
-
-
 - Sun на [продажу](http://www.linux.org.ru/view-message.jsp?msgid=3571479), в очередной раз
 - IE8 [вышел](http://hitech.tomsk.ru/newssoftware/12045-finalnaja-versi-internet-explorer-8-oficialno.html) тихо
 - [Убийца](http://www.engadget.com/2009/03/17/dell-adamo-to-also-come-in-2-699-1-4ghz-model-with-3g/) всего мелкого от Dell?
@@ -29,11 +21,7 @@ filename = "rt_podcast129"
 - Настоящее HD в [iTS](http://www.crunchgear.com/2009/03/19/apple-adds-hd-to-itunes-20-for-a-movie-5-for-rental/)
 
 
-
-
 * в подкасте присутствует спойлер последней серии BSG!
-
-
 
 
 [аудио](http://cdn.radio-t.com/rt_podcast129.mp3)

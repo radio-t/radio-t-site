@@ -8,14 +8,6 @@ filename = "rt_podcast136"
 ![](https://radio-t.com/images/radio-t/rt136.png)
 
 
-
-
-
-
-
-
-
-
 - [Козлы](http://dp.ru/4/a/2009/05/07/Na_rabotu_v_Google_prinjal) спасут хайтек
 - Гигабитный [WiFi](http://webplanet.ru/news/telecom/2009/05/08/wigig.html) видимо будет
 - Главный [гаджет](http://onegadget.ru/og/3671) недели от onegadget.ru
@@ -28,8 +20,6 @@ filename = "rt_podcast136"
 - [Ирония](http://www.crunchgear.com/2009/05/05/laptop-hunters-ads-edited-on-macs/) рекламных творцов
 - [Яндекс](http://internetno.net/2009/05/05/yandex-wdgt/) кастомизируется для понимающих
 - BlackBerry [смеется](http://www.engadget.com/2009/05/04/blackberry-curve-83xx-overtakes-iphone-3g-in-us-smartphone-ranki/) над iPhone
-
-
 
 
 [аудио](http://cdn.radio-t.com/rt_podcast136.mp3)

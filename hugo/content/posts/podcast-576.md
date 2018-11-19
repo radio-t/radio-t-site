@@ -15,7 +15,7 @@ filename = "rt_podcast576"
 - [HTTPS важен везде](https://www.troyhunt.com/im-sorry-you-feel-this-way-natwest-but-https-on-your-landing-page-is-important/) - *01:07:55*.
 - [Let's Encrypt опубликовал планы на 2018](http://www.opennet.ru/opennews/art.shtml?num=47713) - *01:10:37*.
 - [iMac Pro вышел](https://www.theverge.com/2017/12/14/16775156/apple-imac-pro-photos-xeon-radeon-power-vr-final-cut-8k) - *01:21:05*.
-- [Amazon начинает продажу Apple T и Google Chromecasts](https://hellogiggles.com/lifestyle/technology/amazon-will-now-sell-apple-tvs-and-google-chromecasts/) - *01:28:07*.
+- [Amazon начинает продажу Apple TV и Google Chromecast](https://hellogiggles.com/lifestyle/technology/amazon-will-now-sell-apple-tvs-and-google-chromecasts/) - *01:28:07*.
 - [Федеральное агентство по связи США отменяет правила сетевого нейтралитета](http://www.opennet.ru/opennews/art.shtml?num=47747) - *01:33:42*.
 - Темы наших слушателей
 

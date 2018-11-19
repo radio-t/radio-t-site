@@ -8,14 +8,6 @@ filename = "rt_podcast138"
 ![](https://radio-t.com/images/radio-t/rt138.jpg)
 
 
-
-
-
-
-
-
-
-
 - Пустая ИТ-неделя
 - 2й хром увидел свет
 - [Вирус](http://soft.compulenta.ru/428055/) против ФБР
@@ -25,8 +17,6 @@ filename = "rt_podcast138"
 - [Часы](http://www.engadget.com/2009/05/18/phosphor-intros-new-line-of-curved-e-ink-watches/) на любителя
 - Много разговорчиков о разном
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-138/) наших слушателей
-
-
 
 
 [аудио](http://cdn.radio-t.com/rt_podcast138.mp3)

@@ -7,8 +7,7 @@ filename = "rt_podcast246"
 
 ![](https://radio-t.com/images/radio-t/rt246.jpg)
 
-[
-](http://new.radio- t.com/2011/07/246_10.html)- Hotmail исполнилось [15 лет](http://internet.cnews.ru/news/line/index.shtml?2011/07/06/446620)
+- Hotmail исполнилось [15 лет](http://internet.cnews.ru/news/line/index.shtml?2011/07/06/446620)
 - Долой [PowerPoint](http://www.securitylab.ru/news/406211.php)
 - Восход [Google+ ](http://www.stevestreeting.com/2011/07/04/google/)
 - Amazon готовит свою [таблетку](http://thenextweb.com/mobile/2011/07/09/why-an-amazon-tablet-can-rival-the-ipad/?awesm=tnw.to_19uMs)

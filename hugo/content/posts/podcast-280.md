@@ -8,8 +8,7 @@ filename = "rt_podcast280"
 ![](https://radio-t.com/images/radio-t/rt280.jpg)
 
 - Раскрытие секретов [Amazon](http://www.wired.com/wiredenterprise/2012/03/amazon-ec2/)
-[
-](http://cdn.radio-t.com/rt_podcast280.mp3)- Яндекс.[Навигатор](http://habrahabr.ru/blogs/yandex/139854/) - вполне неплохо, хотя ...
+- Яндекс.[Навигатор](http://habrahabr.ru/blogs/yandex/139854/) - вполне неплохо, хотя...
 - Дороги России с участием [Google](http://habrahabr.ru/post/140022/#habracut)
 - В [Китае](http://kp.ru/daily/25851.4/2820855/) ввели паспортный интернет
 - [Posterous](http://www.engadget.com/2012/03/12/twitter-snatches-up-posterous/) захвчен злобным Twitter

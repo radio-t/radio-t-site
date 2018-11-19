@@ -8,14 +8,6 @@ filename = "rt_podcast130"
 ![](https://radio-t.com/images/radio-t/rt130.png)
 
 
-
-
-
-
-
-
-
-
 - [Linux 2.6.29](http://www.opennet.ru/opennews/art.shtml?num=20897), много всего хорошего
 - [iPhone](http://www.engadget.com/2009/03/27/iphone-3g-finally-available-contract-free/) без контракта и со [Skype](http://gigaom.com/2009/03/26/skype-for-iphone-to-be-released-next-week/)
 - [Sun](http://www.linux.org.ru/view-message.jsp?msgid=3587460) почти продается
@@ -31,8 +23,6 @@ filename = "rt_podcast130"
 - Русские [против](http://webplanet.ru/news/soft/2009/03/25/mdc.html) AOL, а пираты через [VPN](http://www.crunchgear.com/2009/03/24/the-pirate-bay-to-launch-vpn-service-to-keep-prying-eyes-away-from-your-torrenting/)
 
 * _Спасибо **Stavor** за облагораживание шоунот ссылкам__и_
-
-
 
 
 [аудио](http://cdn.radio-t.com/rt_podcast130.mp3)

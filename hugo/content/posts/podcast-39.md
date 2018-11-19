@@ -9,7 +9,7 @@ filename = "rt_podcast39"
 
 
 - Выход Camino 1.5 и Qt Jambi
-- Новые Vmware Fusion и Paralles 3
+- Новые Vmware Fusion и Parallels 3
 - iDOT NanoBook
 - Правильные клавиши
 - Утечки по поводу iPhone

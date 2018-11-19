@@ -8,14 +8,6 @@ filename = "rt_podcast131"
 ![](https://radio-t.com/images/radio-t/rt131.jpg)
 
 
-
-
-
-
-
-
-
-
 - IT [шуточки](http://www.opennet.ru/opennews/art.shtml?num=21040)
 - Праздник [Gmail](http://tech.slashdot.org/article.pl?sid=09/04/03/0652215&from=rss) не для всех
 - [Evernote](http://webplanet.ru/news/service/2009/04/03/evernote.html) теперь и для нас
@@ -28,8 +20,6 @@ filename = "rt_podcast131"
 - Позорная новость о [Chrome](http://digg.com/d1nVco)
 - На подходе [офис](http://soft.compulenta.ru/416040/) для iPhone
 - Вспоминая традиции: числительные [отмазки](http://savasplace.com/2008/10/20-things-programmers-say-when-something-is-not-working/)
-
-
 
 
 [аудио](http://cdn.radio-t.com/rt_podcast131.mp3)

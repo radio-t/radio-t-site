@@ -9,8 +9,7 @@ filename = "rt_podcast251"
 
 - Яндекс [упал](http://www.thg.ru/technews/20110819_223200.html). И неплохо упал
 - Краткая лекция по особенностям маршрутизации
-[
-](http://new.radio-t.com/2011/08/251_21.html)- [Google](http://www.opennet.ru/opennews/art.shtml?num=31484) купил Motorola Mobility, для патентов?
+- [Google](http://www.opennet.ru/opennews/art.shtml?num=31484) купил Motorola Mobility, для патентов?
 - Начало конца [TouchPads](http://arstechnica.com/gadgets/news/2011/08/best-buy-wants-to-give-up-on-hp-touchpad-has-sold-fewer-than-25000-units.ars)
 - Конец конца [TouchPads](http://thisismynext.com/2011/08/18/hp-discontinue-webos-operations/)
 - Закат эпохи [PC](http://gigaom.com/2011/08/18/the-end-of-the-pc-era/)

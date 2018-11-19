@@ -7,8 +7,7 @@ filename = "rt_podcast254"
 
 ![](https://radio-t.com/images/radio-t/rt254.png)
 
-[
-](http://new.radio- t.com/2011/09/254_11.html)- Гости из Parallels против злобных нас
+- Гости из Parallels против злобных нас
 - [Google 13 лет](http://mashable.com/2011/09/04/google-happy-birthday-13-years/) и наши поздравления
 - Массовое, но понятное [убийство продуктов](http://www.digitaltrends.com/web/google-shuts-down-google-desktop-and-nine-other-projects/)
 - [Amazon](http://techcrunch.com/2011/09/02/amazon-kindle-tablet/) видимо опять сможет

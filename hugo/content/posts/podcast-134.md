@@ -8,14 +8,6 @@ filename = "rt_podcast134"
 ![](https://radio-t.com/images/radio-t/rt134.png)
 
 
-
-
-
-
-
-
-
-
 - Новость недели! Оracle [поглощает](http://www.macrumors.com/2009/04/21/oracle-to-acquire-sun-for-7-4-billion/) Sun
 - Выход [Ubuntu 9.04](http://soft.compulenta.ru/421880/), Jaunty Jackalope
 - У [ФСБ](http://webplanet.ru/news/law/2009/04/24/radarix.html) длинные руки
@@ -28,8 +20,6 @@ filename = "rt_podcast134"
 - Куплю Nokia за [$30К](http://www.engadget.com/2009/04/21/nokia-1100-seemingly-hackable-making-a-big-comeback/)
 - [Aнтиплагиату](http://webplanet.ru/news/law/2009/04/20/turitin.html) быть
 - Все цвета [MSI](http://www.engadget.com/2009/04/21/msi-debuts-atom-n280-equipped-wind-u100-plus-netbook/)
-
-
 
 
 [аудио](http://cdn.radio-t.com/rt_podcast134.mp3)

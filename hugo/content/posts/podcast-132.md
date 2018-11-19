@@ -8,14 +8,6 @@ filename = "rt_podcast132"
 ![](https://radio-t.com/images/radio-t/rt132.png)
 
 
-
-
-
-
-
-
-
-
 - Вся правда [о слонах](http://evernote.com)
 - Sun [не продается](http://habrahabr.ru/blogs/Sun/56613/)!
 - [Продайте](http://www.techcrunch.com/2009/04/10/report-founders-want-to-buy-skype-from-ebay/) Skype обратно
@@ -28,8 +20,6 @@ filename = "rt_podcast132"
 
 * [ Лог чата](http://chat.radio-t.com/logs/radio-t-132.html)
 ** Картинка от [enze](http://enze.livejournal.com/34218.html)
-
-
 
 
 [аудио](http://cdn.radio-t.com/rt_podcast132.mp3)

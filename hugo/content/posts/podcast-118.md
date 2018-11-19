@@ -34,8 +34,6 @@ filename = "rt_podcast118"
 - Интересный жук - [Juick.com](http://juick.com/)
 
 
-
-
 * Лог онлайн–чата **[доступен](http://chat.radio-t.com/logs/radio-t-118.html)**
 
 

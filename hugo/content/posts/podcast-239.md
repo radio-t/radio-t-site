@@ -9,8 +9,7 @@ filename = "rt_podcast239"
 
 - Нас опять [продали](http://internetno.net/2011/05/13/sdelka-microsoft-i-skype-analiz-perspektiv-mnenijj-ocenok/), оптом
 - Русской [Википедии ](http://habrahabr.ru/blogs/wikipedia/119105/)10 лет
-[
-](http://new.radio-t.com/2011/05/239_15.html)- Грустная история Skype, и как оно дальше будет
+- Грустная история Skype, и как оно дальше будет
 - Хромобуки неплохо, но поздно
 - Еще один признак умирания [RSS](http://habrahabr.ru/blogs/microformats/119188/)
 - Лавры амазона [разделил ](http://networkeffect.allthingsd.com/20110513/long-blogger-outage-almost-over-google-says-back-to-normal-soon/)гугл с blogger

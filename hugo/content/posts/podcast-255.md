@@ -7,8 +7,7 @@ filename = "rt_podcast255"
 
 ![](https://radio-t.com/images/radio-t/rt255.png)
 
-[
-](http://new.radio- t.com/2011/09/255_18.html)- С Днем программиста!
+- С Днем программиста!
 - Возвращение программистских работ
 - Windows 8 - прорыв или наоборот?
 - А гики против!
