@@ -8,9 +8,6 @@ filename = "rt_podcast170"
 ![](https://radio-t.com/images/radio-t/rt170.jpg)
 
 
-
-
-
 - кризис как бы [закончился](http://cnews.ru/news/top/index.shtml?2010/01/14/376091)
 - а был ли мальчик [убыток](http://business.compulenta.ru/495153/) у iTunes?
 - [ошибки ](http://cnews.ru/news/line/index.shtml?2010/01/14/376159)Nexus One

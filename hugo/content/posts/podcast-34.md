@@ -9,7 +9,7 @@ filename = "rt_podcast34"
 
 
 - Смертельный номер - прямой эфир
-- Joost на подьеме а Digg под ударом
+- Joost на подьеме, а Digg под ударом
 - Версионная FS: Ext3cow
 - Приятные открывания (MySQL utils от Google, Core CLR от MS и FLEX от Adobe)
 - Перспективы новых дисплеев в MacBook Pro

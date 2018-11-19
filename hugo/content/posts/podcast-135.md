@@ -8,14 +8,6 @@ filename = "rt_podcast135"
 ![](https://radio-t.com/images/radio-t/rt135.png)
 
 
-
-
-
-
-
-
-
-
 - Полный [конец](http://www.osnews.com/story/21412/2012_The_End_of_the_Internet) интернета и закат всего
 - Рывок линукса на [десктопы](http://www.opennet.ru/opennews/art.shtml?num=21546)
 - Все на [велосипеды](http://www.engadget.com/2009/04/29/ciclotte-exercise-bike-for-the-big-wheel-enthusiast/), круглые и с моторчиком
@@ -28,8 +20,6 @@ filename = "rt_podcast135"
 - [NetBSD](http://www.osnews.com/story/21403/NetBSD_5_0_Released_Brings_Major_SMP_Improvements) 5.0 совсем не линукс
 - [ВВС](http://www.engadget.com/2009/05/01/air-force-now-using-super-secure-version-of-windows-xp/) под угрозой зависания
 - Как стать котиком для [тестеров](http://www.testandtry.com/2009/04/29/7-ways-to-be-good-developer-from-tester-point-of-view/)
-
-
 
 
 [аудио](http://cdn.radio-t.com/rt_podcast135.mp3)

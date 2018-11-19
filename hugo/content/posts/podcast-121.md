@@ -8,15 +8,6 @@ filename = "rt_podcast121"
 ![](https://radio-t.com/images/radio-t/rt121.jpg)
 
 
-
-
-
-
-
-
-
-
-
 - [Страсти](http://www.opennet.ru/opennews/art.shtml?num=19883) по ICQ
 - [Телефонный](http://www.mobile-review.com/fullnews/main/2009/January/23.shtml#22843) разворот с гостем
 - OpenSource в правящей [элите](http://www.opennet.ru/opennews/art.shtml?num=19917)
@@ -26,11 +17,6 @@ filename = "rt_podcast121"
 - [Федора](http://www.opennet.ru/opennews/art.shtml?num=19912) обещает Ехт4
 - [CISCO](http://hard.compulenta.ru/395730/) выходит на чуждый рынок
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-121/) наших слушателей
-
-
-
-
-
 
 
 ** [лог чата](http://chat.radio-t.com/logs/radio-t-121.html)

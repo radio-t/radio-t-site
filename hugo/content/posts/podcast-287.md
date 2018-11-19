@@ -11,7 +11,7 @@ filename = "rt_podcast287"
 - [Oracle](http://www.drdobbs.com/jvm/232901227) и конец привычного мира
 - [Позиция](http://nighthacks.com/roller/jag/entry/my_attitude_on_oracle_v) Госслинга не очень последовательна
 - IP это не паспорт, но [другое](http://torrentfreak.com/judge-an-ip-address-doesnt-identify-a-person-120503/)
-- Почему [FP](http://rebelscience.blogspot.se/2007/09/functional-programming-is-worse-than.html) это ужас и кусок ... кошмара
+- Почему [FP](http://rebelscience.blogspot.se/2007/09/functional-programming-is-worse-than.html) это ужас и кусок... кошмара
 - Что там под капотом [addmeto.cc](http://addmeto.cc/) и [ukeeper.com](http://ukeeper.com/)
 - И в [питоне](http://www.linuxforu.com/2012/05/functional-programming-and-python/) много функциональщины
 - Темы наших слушателей

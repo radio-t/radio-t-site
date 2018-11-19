@@ -11,7 +11,7 @@ filename = "rt_podcast319"
 * У нас в гостях основатель [правильного музея](http://www.cultofmac.com/195205/more-macs-than-they-can-count-inside-the-moscow-apple-museum-gallery/).
 * Google запустил [Maps для iOS](http://techcrunch.com/2012/12/12/take-that-apple-maps/).
 * [YotaPhone - это ой!](http://www.engadget.com/2012/12/13/yotaphone-dualscreen-android-hands-on/).
-* Рождественская почти сказка про [Best Buy и iPad](http://gizmodo.com/5966898/best-buy-screw up-results-in-an-amazing-buy-one-get-five-deal-on-ipads).
+* Рождественская почти сказка про [Best Buy и iPad](http://gizmodo.com/5966898/best-buy-screw-up-results-in-an-amazing-buy-one-get-five-deal-on-ipads).
 * [Galaxy S3 победил iPhone](http://www.cnet.com/8301-33506_1-57557848-306/galaxy-s3-beats-iphone-5-for-best-device-of-2012/) в очередной раз.
 * [Windows упала до 20%](http://www.theregister.co.uk/2012/12/13/windows_market_share_just_20percent/).
 * Нечто новое в [Dropbox 2.0](http://thenextweb.com/apps/2012/12/14/dropbox-updates-with-a-fresh-mobile-look-and-refined-photo-experience-on-ios/).

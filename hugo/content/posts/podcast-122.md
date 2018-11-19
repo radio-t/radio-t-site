@@ -8,15 +8,6 @@ filename = "rt_podcast122"
 ![](https://radio-t.com/images/radio-t/rt122.png)
 
 
-
-
-
-
-
-
-
-
-
 - Внезапный, но приятный гость
 - Гугловые нетипичные [неприятности](http://www.techcrunch.com/2009/01/31/google-flags-whole-internet-as-malware/)
 - Skype [на продажу](http://business.compulenta.ru/398035/) опять
@@ -29,11 +20,6 @@ filename = "rt_podcast122"
 - [Кризис](http://webplanet.ru/news/business/2009/01/30/it_shortering.html) в русском ИТ
 - Прощай, [KDE](http://www.opennet.ru/opennews/art.shtml?num=19972)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-122/) наших слушателей
-
-
-
-
-
 
 
 *[ Лог чата](http://chat.radio-t.com/logs/radio-t-122.html)

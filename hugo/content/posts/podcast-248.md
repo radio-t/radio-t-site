@@ -8,8 +8,7 @@ filename = "rt_podcast248"
 ![](https://radio-t.com/images/radio-t/rt248.jpg)
 
 - [Nginx](http://nginx.org/) будет красивым и богатым
-[
-](http://new.radio-t.com/2011/07/248_24.html)- Новый [язык](http://habrahabr.ru/blogs/java/124494/) от тех, кто не вызывал подозрений
+- Новый [язык](http://habrahabr.ru/blogs/java/124494/) от тех, кто не вызывал подозрений
 - Выход [Lion](http://www.engadget.com/2011/07/20/apple-os-x-lion-10-7-review/) и наше неоднозначное впечатление
 - Новые [железки](http://www.engadget.com/2011/07/20/dnp-stub-apple-refreshes-macbook-air-with-sandy-bridge-thunderb/) от [Apple](http://www.engadget.com/2011/07/20/apple-rolls-out-27-inch-thunderbolt-display-with-facetime-hd-cam/)
 - Как Яндекс злобно проиндексировал [смс](http://gorod48.ru/news/45676/)

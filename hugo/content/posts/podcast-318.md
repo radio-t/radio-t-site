@@ -6,10 +6,13 @@ image = "https://radio-t.com/images/radio-t/rt318.jpg"
 filename = "rt_podcast318"
 +++
 
+
+![](https://radio-t.com/images/radio-t/rt318.jpg)
+
+
 * [Creative Commons](http://www.opennet.ru/opennews/art.shtml?num=35536) празднует десятилетие
 * Vitrum [браузер для iPad](http://ain.ua/2012/11/22/102844) от украинских разработчиков
 * [Communities в Google+](http://techcrunch.com/2012/12/06/google-introduces-communities-to-replace-old-school-groups-forums-and-message-boards/) хороши
-![](https://radio-t.com/images/radio-t/rt318.jpg)
 * [Столлман против Ubuntu](http://www.linux.org.ru/news/gnu/8561770)
 * Van Rossum [теперь с Dropbox](http://techcrunch.com/2012/12/07/dropbox-guido-van-rossum-python/)
 * [Apple вернется домой?](http://www.forbes.com/sites/davidthier/2012/12/06/coming-home-apple-bringing-manufacturing-back-to-the-us/)

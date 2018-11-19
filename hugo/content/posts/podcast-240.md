@@ -8,8 +8,7 @@ filename = "rt_podcast240"
 ![](https://radio-t.com/images/radio-t/rt240.png)
 
 - 20 лет стукнуло [интер-вебу](http://habrahabr.ru/blogs/internet/119473/)
-[
-](http://new.radio-t.com/2011/05/240_29.html)- Более скромный юбилей [хабра](http://habrahabr.ru/blogs/social_networks/119984/)
+- Более скромный юбилей [хабра](http://habrahabr.ru/blogs/social_networks/119984/)
 - MS наложит лапу на [Nokia](http://gigaom.com/mobile/why-a-microsoft-takeover-of-nokia-could-pay-off/)
 - Очень страшный [вирус ](http://www.pcworld.com/businesscenter/article/228251/mac_defender_crashes_apple_security_myth.html)против глупых
 - Skype [упал](http://internet.cnews.ru/news/top/index.shtml?2011/05/26/441581). Это все происки империи зла

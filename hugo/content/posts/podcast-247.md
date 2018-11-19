@@ -8,8 +8,6 @@ filename = "rt_podcast247"
 ![](https://radio-t.com/images/radio-t/rt247.png)
 
 
-
-
 - [Mozilla Foundation](http://habrahabr.ru/blogs/mozilla/124276/) исполнилось 8 лет
 - Twitter празднует [5ю годовщину](http://www.fastcompany.com/1767242/happy-5th-birthday-twitter-love-google-facebook-aol). Где деньги?
 - Что не так с [электронными книгами](http://habrahabr.ru/blogs/ebooks/123853/)

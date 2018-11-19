@@ -17,7 +17,7 @@ filename = "rt_podcast439"
 * [Из Google Authenticator и Authy в 1Password](http://prsm.tc/FP8Z86).
 * [BareMetal SSD в облаке](http://instantcloud.io).
 * [VirtualBox пробудился](http://prsm.tc/beyyTw).
-* [Google показaл 4 хромбука и Chrome OS на палочке](http://www.linux.com/news/hardware/laptops/820930-google-unveils-4-new-chromebooks-and-chrome-os-on-a-stick/).
+* [Google показал 4 хромбука и Chrome OS на палочке](http://www.linux.com/news/hardware/laptops/820930-google-unveils-4-new-chromebooks-and-chrome-os-on-a-stick/).
 - Темы наших слушателей.
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_

@@ -7,8 +7,7 @@ filename = "rt_podcast249"
 
 ![](https://radio-t.com/images/radio-t/rt249.jpg)
 
-[
-](http://new.radio- t.com/2011/07/249_31.html)- 30 лет [MS-DOS ](http://www.extremetech.com/computing/91202-ms-dos-is-30-years-old-today)
+- 30 лет [MS-DOS ](http://www.extremetech.com/computing/91202-ms-dos-is-30-years-old-today)
 - Google [ускорит](http://techcrunch.com/2011/07/28/google-page-speed-service/) весь интернет
 - У [Apple](http://www.bbc.co.uk/news/technology-14340470) слишком много денег
 - [Девчонки](http://blog.fogcreek.com/girls-go-geek-again/) вернутся в IT сферу

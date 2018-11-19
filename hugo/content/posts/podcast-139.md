@@ -8,14 +8,6 @@ filename = "rt_podcast139"
 ![](https://radio-t.com/images/radio-t/rt139.png)
 
 
-
-
-
-
-
-
-
-
 - [Поиск](http://internetno.net/2009/06/01/bing/) от MS прекрасен
 - Проект [Natal](http://habrahabr.ru/blogs/the_future_is_here/61106/): MS опять радует
 - [ФАС](http://www.fas.gov.ru/news/n_24516.shtml?print) против висты, но за XP
@@ -27,9 +19,6 @@ filename = "rt_podcast139"
 - [CrunchPad](http://www.engadget.com/2009/06/04/first-working-crunchpad-prototypes-a-few-weeks-away/) становится реальностью
 - [Индикатор-6](http://www.engadget.com/2009/06/04/indicator-6-nixie-clock-is-handsome-functional-khruschev-appro/), это надо видеть
 - [iRex](http://www.engadget.com/2009/06/03/irex-to-release-color-e-reader-in-2011/) для любителей читать красиво
-
-
-
 
 
 * Спонсор этого выпуска - [**softkey.ru**](http://www.softkey.ru/news_detail.php?ID=8264)

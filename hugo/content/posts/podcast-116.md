@@ -7,10 +7,6 @@ categories = ["podcast"]
 ![](https://radio-t.com/images/radio-t/rt116.png)
 
 
-
-
-
-
 - Гость, который в ответе за все
 - Гугл делающий странное
 - Рейтинг запросов за 2008

@@ -8,14 +8,6 @@ filename = "rt_podcast119"
 ![](https://radio-t.com/images/radio-t/rt119.jpg)
 
 
-
-
-
-
-
-
-
-
 - Главная новость от [Apple](http://www.mobile-review.com/fullnews/main/2009/January/07.shtml#22631)
 - Вторая главная новость от [Palm](http://habrahabr.ru/blogs/palm/48616/)
 - [Лучше](http://www.techcrunch.com/2009/01/08/tweetvisor-a-contender-for-best-alternate-twitter-interface/) чем твитер ?
@@ -29,9 +21,6 @@ filename = "rt_podcast119"
 - Непонятный [топ10](http://internetno.net/2008/12/29/best2008/) рунета
 - Самый популярный амазоновский [гаджет](http://culture.compulenta.ru/392982/)
 [](http://culture.compulenta.ru/392982/)- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-rt119/) наших слушателей
-
-
-
 
 
 * Лог онлайн–чата [_доступен_](http://chat.radio-t.com/logs/radio-t-119.html)

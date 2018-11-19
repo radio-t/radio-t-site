@@ -8,8 +8,6 @@ filename = "rt_podcast283"
 ![](https://radio-t.com/images/radio-t/rt283.png)
 
 
-
-
 - Совершеннолетний [.RU](http://habrahabr.ru/company/regru/blog/141627/)
 - Только [C++](http://blog.achrissmith.com/2012/03/if-your-software-matters-you-will-write.html) для настоящих проектов
 - [Статически типизированные](http://habrahabr.ru/post/141640/) против динамической типизации
