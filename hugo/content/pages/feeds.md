@@ -11,4 +11,5 @@
 - Подписка на [архивные выпуски](https://radio-t.com/podcast-archives.rss)
 - Подписка только [на гиковские выпуски](http://feeds.rucast.net/radio-t-special)
 - Подкаст в [Google Music](https://play.google.com/music/m/Ivrwbk7epyisvafnu45f3zp57oi?t=-)
-- Подкаст на [Spotify](https://open.spotify.com/show/30bhUtGOjPlzIbDKuErRq4?si=0B-dMAX7T0We92F7MqfG2A)
+- В [Google Podcasts](https://www.google.com/podcasts?feed=aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL3JhZGlvLXQ%3D)
+  Подкаст на [Spotify](https://open.spotify.com/show/30bhUtGOjPlzIbDKuErRq4?si=0B-dMAX7T0We92F7MqfG2A)
