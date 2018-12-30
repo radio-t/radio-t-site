@@ -10,7 +10,7 @@ filename = "rt_podcast630"
 
 - [Подкасты на Яндекс.Немузыка](https://yandex.ru/blog/company/yandeks-nemuzyka) - *00:02:57*.
 - [Фальшивый бэкдора в ядре Linux](http://www.opennet.ru/opennews/art.shtml?num=49833) - *00:13:47*.
-- [Безликий код убьет программирование, и ничего мы с этим не сделаем](https://habr.com/post/434478/) - *00:21:55*.
+- [Безликий код убьет программирование](https://habr.com/post/434478/) - *00:21:55*.
 - [Лучшие гаджеты 2018](https://www.engadget.com/2018/12/17/best-gadgets-of-2018/) - *00:33:58*.
 - [The Essential Phone закончился](https://www.engadget.com/2018/12/28/essential-phone-wont-be-restocked-discontinued/) - *01:06:01*.
 - [Интернет убыточных вещей](https://habr.com/post/434422/) - *01:12:52*.
