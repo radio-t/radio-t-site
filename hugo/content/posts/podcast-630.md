@@ -15,7 +15,7 @@ filename = "rt_podcast630"
 - [The Essential Phone закончился](https://www.engadget.com/2018/12/28/essential-phone-wont-be-restocked-discontinued/) - *01:06:01*.
 - [Интернет убыточных вещей](https://habr.com/post/434422/) - *01:12:52*.
 - [Выпуск Apache NetBeans 10.0](http://www.opennet.ru/opennews/art.shtml?num=49864) - *01:29:22*.
-- [Темы слушателей 630](https://radio-t.com/p/2018/12/24/prep-630/) - *01:34:13*.
+- [Темы слушателей](https://radio-t.com/p/2018/12/24/prep-630/) - *01:34:13*.
 
 
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
