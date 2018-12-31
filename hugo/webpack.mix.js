@@ -1,7 +1,7 @@
 let mix = require('laravel-mix');
 
 mix.setPublicPath('static/build');
-mix.setResourceRoot('static');
+mix.setResourceRoot('/build');
 Mix.manifest.name = '../../data/manifest.json';
 
 mix.js('assets/js/app.js', '.')

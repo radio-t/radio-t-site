@@ -1,17 +1,17 @@
-{{ define "main" }}
+{{ define "head" }}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
+<meta name="twitter:url" content="{{ .Site.Params.url }}{{ .URL }}">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Site.Params.twitterCardDescription }}">
+{{ with .Params.image }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+{{ end }}
 
+{{ define "main" }}
 <div>
-  <article class="hentry" role="article">
+  <article>
     <header>
       <h1 class="entry-title">{{ .Title }}</h1>
-
-      <meta name="twitter:card" content="summary">
-      <meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
-      <meta name="twitter:url" content="{{ .Site.Params.url }}{{ .URL }}">
-      <meta name="twitter:title" content="{{ .Title }}">
-      <meta name="twitter:description" content="{{ .Site.Params.twitterCardDescription }}">
-      {{ with .Params.image }}<meta name="twitter:image" content="{{ . }}">{{ end }}
-
       <p class="meta">
         <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" pubdate data-updated="true">
           {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
