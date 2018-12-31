@@ -2,20 +2,9 @@
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "variables";
-//@import "bootstrap";
+@import "bootstrap";
 //@import "screen";
 //@import "likely";
-
-a {
-  border-radius: 5px;
-}
-
-.sample {
-  display: flex;
-  transition: all .5s;
-  user-select: none;
-  background: linear-gradient(to bottom, white, black);
-}
 
 //.container-fluid {
 //  max-width: 1200px;

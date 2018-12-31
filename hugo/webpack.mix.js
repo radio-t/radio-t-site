@@ -1,14 +1,13 @@
 let mix = require('laravel-mix');
 
-Mix.manifest.name = '../data/manifest.json';
+mix.setPublicPath('static/build');
+mix.setResourceRoot('static');
+Mix.manifest.name = '../../data/manifest.json';
 
 mix.js('assets/js/app.js', '.')
 mix.sass('assets/scss/app.scss', '.');
 
-mix.setPublicPath('static/build');
-mix.setResourceRoot('static/build');
-
-mix.version();
+// mix.version();
 
 // Full API
 // mix.js(src, output);
