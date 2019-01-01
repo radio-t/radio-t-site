@@ -1,0 +1,13 @@
+- add 'image field' to all podcasts
+
+- remove image from content body
+
+- extract audio and chat links
+
+- use opengraph internal template
+  https://gohugo.io/templates/internal
+
+- Use predefined hugo vars
+  https://gohugo.io/content-management/front-matter/#predefined
+
+-

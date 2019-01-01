@@ -1,17 +1,41 @@
-<article>
-  <header>
-    <h2 class="entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+<article class="posts-list-item py-5">
+  {{ if in .Params.categories "podcast" }}
 
-    <p class="meta">
-      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" pubdate data-updated="true">
-        {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
-      </time>
-      |
-      <a href="{{ .Permalink }}#remark42"><span class="remark42__counter" data-url="{{ .Permalink }}"></span> comments</a>
-    </p>
-  </header>
-
-  <div class="entry-content">
-    {{ .Content }}
+  <div class="row post-podcast posts-list-item-podcast">
+    <div class="col-md-2">
+      <h2 class="no-js" data-controller="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <p class="post-time posts-list-item-time small text-muted">
+        <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
+          {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
+        </time>
+      </p>
+      {{ partial "comments-counter" .Permalink }}
+    </div>
+    <div class="post-podcast-cover col-md-3 order-md-3">
+      <div class="cover-image-wrapper">
+        <div class="post-podcast-cover-image" style="background-image: url('{{ .Params.image }}');"></div>
+      </div>
+    </div>
+    <div class="post-podcast-content text-content col-md-4 offset-md-1 no-js" data-controller="podcast-content">
+      {{ .Content }}
+    </div>
   </div>
+
+  {{ else if in .Params.categories "prep" }}
+
+  <div class="row post-prep posts-list-item-prep">
+    <div class="col-md-2">
+      <h2 class="no-js" data-controller="title"><a class="text-muted" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    </div>
+    <div class="col-md">
+      <p class="post-time posts-list-item-time small text-muted">
+        <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
+          {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
+        </time>
+      </p>
+      {{ partial "comments-counter" .Permalink }}
+    </div>
+  </div>
+
+  {{ end }}
 </article>

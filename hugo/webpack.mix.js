@@ -1,11 +1,56 @@
-let mix = require('laravel-mix');
+const mix = require('laravel-mix');
+const ModernizrWebpackPlugin = require('modernizr-webpack-plugin');
 
-mix.setPublicPath('static/build');
-mix.setResourceRoot('/build');
-Mix.manifest.name = '../../data/manifest.json';
+// mix.setPublicPath('static/build');
+// mix.setResourceRoot('/build');
+// Mix.manifest.name = '../../data/manifest.json';
 
-mix.js('assets/js/app.js', '.')
-mix.sass('assets/scss/app.scss', '.');
+mix.js('src/js/app.js', '.');
+mix.sass('src/scss/app.scss', '.');
+
+mix.babelConfig({
+  plugins: [
+    ['@babel/plugin-transform-react-jsx', {'pragma': 'h'}],
+    '@babel/plugin-proposal-class-properties',
+  ],
+});
+
+mix.webpackConfig({
+  plugins: [
+    new ModernizrWebpackPlugin(require('./.modernizr')),
+  ],
+});
+
+if (!mix.inProduction()) {
+  mix.setPublicPath('dev/build');
+  mix.setResourceRoot('/build');
+
+  mix.sourceMaps();
+  mix.webpackConfig({devtool: 'inline-source-map'});
+
+  mix.browserSync({
+    // host: 'localhost',
+    // port: 3000,
+    serveStatic: ['./dev'],
+    proxy: {
+      target: 'localhost:1313',
+      ws: true, // support websockets for hugo live-reload
+    },
+    files: ['dev/build/app.css', 'dev/build/app.js'],
+    // watch: true,
+    open: false, // don't open in browser
+    ignore: ['mix-manifest.json'],
+
+    // snippetOptions: {
+    //   rule: {
+    //     match: /(<\/body>|<\/pre>)/i,
+    //     fn: function (snippet, match) {
+    //       return snippet + match;
+    //     },
+    //   },
+    // },
+  });
+}
 
 // mix.version();
 

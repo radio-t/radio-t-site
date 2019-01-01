@@ -1,33 +1,28 @@
 {{ define "main" }}
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-8">
-      <div class="blog-index">
-        {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+{{ partial "jumbotron" . }}
 
-        {{ range $paginator.Pages }}
-        {{ .Render "li" }}
-        {{ end }}
+<div class="container-fluid py-3 py-md-5">
+  <div class="posts-list">
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
 
-        {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
-        <div class="pagination">
-          {{ if $paginator.HasNext }}
-          <a class="prev" href="{{ .URL }}page/{{ $paginator.Next.PageNumber }}/">&larr; Раньше</a>
-          {{ end }}
+    {{ range $paginator.Pages }}
+    {{ .Render "li" }}
+    {{ end }}
 
-          <a href="/archives/">Архивы подкаста</a>
+    {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
+    <div class="pagination">
+      {{ if $paginator.HasNext }}
+      <a class="prev" href="{{ .URL }}page/{{ $paginator.Next.PageNumber }}/">&larr; Раньше</a>
+      {{ end }}
 
-          {{ if $paginator.HasPrev }}
-          <a class="next" href="{{ .URL }}page/{{ $paginator.Prev.PageNumber }}/">Позже &rarr;</a>
-          {{ end }}
-        </div>
-        {{ end }}
-      </div>
+      <a href="/archives/">Архивы подкаста</a>
+
+      {{ if $paginator.HasPrev }}
+      <a class="next" href="{{ .URL }}page/{{ $paginator.Prev.PageNumber }}/">Позже &rarr;</a>
+      {{ end }}
     </div>
-    <div class="col-md-4">
-      {{ partial "sidebar.html" . }}
-    </div>
+    {{ end }}
   </div>
 </div>
 

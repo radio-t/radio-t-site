@@ -1,0 +1,202 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "variables";
+@import "../../node_modules/bootstrap/scss/variables";
+
+@import "bootstrap";
+//@import "screen";
+//@import "likely";
+body {
+  margin-right: 60px;
+  @media (prefers-color-scheme: dark) {
+    background-color: #000;
+    filter: invert(1) hue-rotate(180deg);
+    img, .post-podcast-cover-image {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+  &[dark] {
+  }
+}
+html.js {
+  .no-js {
+    visibility: hidden;
+  }
+}
+@mixin link-transition {
+  transition: all 350ms ease;
+  transition-delay: 25ms;
+}
+@mixin link-hover-transition {
+  transition-duration: 20ms;
+  transition-delay: 0ms;
+}
+@mixin link-hover {
+  color: #fff;
+  background-color: $link-hover-color;
+  //border-bottom-color: transparent;
+  @include link-hover-transition;
+}
+@mixin link ($selector: '&') {
+  #{$selector} {
+    @include link-transition;
+    //border-bottom: .25em solid rgba($link-hover-color, .15);
+  }
+  @include hover {
+    #{$selector} {
+      @include link-hover;
+    }
+  }
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+p, .jumbotron, .text-content {
+  a:not(.btn):not(.nav-link) {
+    @include link;
+  }
+}
+
+.container-fluid {
+  max-width: 1200px;
+}
+.navbar {
+  font-weight: bold;
+  @include media-breakpoint-up('lg') {
+    .nav-item {
+      padding: 0;
+    }
+    .nav-link {
+      position: relative;
+      padding: $spacer ($spacer / 2) !important;
+      transition: all 150ms;
+      &:after {
+        content: '';
+        position: absolute;
+        left: ($spacer / 2);
+        right: ($spacer / 2);
+        bottom: 0;
+        height: 0;
+        background-color: $primary;
+        transition: all 150ms;
+      }
+      &:hover:after {
+        height: 3px;
+      }
+    }
+  }
+}
+.navbar-brand {
+  display: inline-block;
+  margin: -30px 0 -34px -15px;
+  width: 120px;
+  height: 56px;
+  background: transparent url('../images/rt-header-logo.svg') no-repeat center;
+  background-size: contain;
+}
+input[type="search"] {
+  border-radius: 500px;
+}
+.blog-index {
+  article + article {
+  }
+}
+$jumbotron-arc-height: 5%;
+$jumbotron-arc-width: 120%;
+.jumbotron {
+  position: relative;
+  margin-bottom: ($jumbotron-arc-height / 2);
+}
+.jumbotron-arc {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  padding-bottom: $jumbotron-arc-height;
+  margin-bottom: -($jumbotron-arc-height / 2);
+  &:after {
+    content: '';
+    position: absolute;
+    width: $jumbotron-arc-width;
+    height: 100%;
+    background-color: $jumbotron-bg;
+    border-radius: 50%;
+    margin: 0 (-($jumbotron-arc-width - 100) / 2);
+  }
+}
+.page__footer {}
+.title-processed {
+  margin-top: -.4rem;
+  > a {
+    transition: none !important;
+    border-bottom: none !important;
+    @include link('> span');
+    @include hover {
+      background-color: transparent !important;
+      border-bottom: 0 !important;
+    }
+  }
+}
+.podcast-title-prefix {
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-size: 60%;
+}
+.podcast-title-number {
+  display: inline;
+}
+.posts-list {
+  .post-podcast-content {
+    > * {
+      display: none;
+    }
+    ul:first-of-type {
+      display: block !important;
+    }
+  }
+}
+.post-podcast-content {
+  ul:first-of-type {
+    padding: 0;
+    list-style: none none;
+    li {
+      position: relative;
+      margin-bottom: $line-height-base * .5em;
+      em {
+        position: absolute;
+        top: 0;
+        left: -27%;
+        opacity: .5;
+        font-style: normal;
+        font-family: $font-family-monospace;
+        &[data-action] {
+          cursor: pointer;
+          @include hover {
+            color: $link-hover-color;
+          }
+        }
+      }
+    }
+  }
+}
+.cover-image-wrapper {
+  border: 10px solid $gray-200;
+  border-radius: 4px;
+}
+.post-podcast-cover-image {
+  width: 100%;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.posts-list-item {
+  & + & {
+    border-top: 1px solid $border-color;
+  }
+}
+//.post-prep-title {
+//}

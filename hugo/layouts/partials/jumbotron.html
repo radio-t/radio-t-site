@@ -1,0 +1,17 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1>
+          Подкаст выходного дня
+          <small class="d-block my-md-2">Импровизации на темы высоких технологий</small>
+        </h1>
+        <p>{{ .Site.Params.longDescription }}</p>
+      </div>
+      <div class="col-md-5 ml-md-auto small">
+        {{ with .Site.GetPage "/feeds" }}{{ .Content }}{{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron-arc" role="presentation"></div>
+</div>

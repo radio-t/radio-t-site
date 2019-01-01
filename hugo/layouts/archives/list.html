@@ -1,34 +1,29 @@
 {{ define "main" }}
 
-<div>
-  <article role="article">
-    <header>
-      <h1 class="entry-title">Архивы</h1>
-    </header>
+<div class="container-fluid">
+  <h1>Архивы</h1>
+  <div class="blog-archives">
+    {{ range .Site.Pages.GroupByDate "2006" }}
+    {{ $k := .Key }}
 
-    <div id="blog-archives">
-      {{ range .Site.Pages.GroupByDate "2006" }}
-        {{ $k := .Key }}
+    {{ $.Scratch.Add $k 0 }}
+    {{ range .Pages }}
+    {{ if eq .Type "posts" }}
+    {{ $.Scratch.Add $k 1 }}
+    {{ end }}
+    {{ end }}
 
-        {{ $.Scratch.Add $k 0 }}
-        {{ range .Pages }}
-          {{ if eq .Type "posts" }}
-            {{ $.Scratch.Add $k 1 }}
-          {{ end }}
-        {{ end }}
+    {{ if ($.Scratch.Get $k) "!=" 0 }}
+    <h2>{{ .Key }}</h2>
 
-        {{ if ($.Scratch.Get $k) "!=" 0 }}
-          <h2>{{ .Key }}</h2>
-
-          {{ range .Pages }}
-            {{ if eq .Type "posts" }}
-                {{ .Render "archive_li" }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-    </div>
-  </article>
+    {{ range .Pages }}
+    {{ if eq .Type "posts" }}
+    {{ .Render "archive_li" }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+  </div>
 </div>
 
 {{ partial "sidebar.html" . }}

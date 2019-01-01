@@ -1,13 +1,12 @@
 {{ define "main" }}
-
 <div>
-  <article class="hentry" role="article">
-    <header>
-      <h1 class="entry-title">{{ .Title }}</h1>
+  <article class="article">
+    <header class="article__header">
+      <h1 class="article__title article__page-title">{{ .Title }}</h1>
     </header>
-
-    {{ .Content }}
-
+    <div class="article-content article__content">
+      {{ .Content }}
+    </div>
   </article>
 </div>
 

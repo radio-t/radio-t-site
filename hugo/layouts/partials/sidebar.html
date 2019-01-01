@@ -1,63 +1,12 @@
 <aside class="sidebar">
   <section>
-    <h1 class="h5"><a href="/" class="text-body">Подкаст выходного дня – импровизации на темы высоких технологий</a></h1>
-    <p class="aboutpod">{{ .Site.Params.longDescription }}</p>
-  </section>
-
-  <section>
-      <h2>Полезное</h2>
-
-      <ul class="links">
-          <li><a href="/info/">Информация о подкасте и ведущих</a></li>
-          <li><a href="/online/">Online вещание по субботам с 23:00</a></li>
-          <li><a href="http://chat.radio-t.com">Чат подкаста</a></li>
-          <li><a href="http://pirates.radio-t.com">Дочерний подкаст Пираты РТ</a></li>
-          <li><a href="http://friends.radio-t.com">Друзья подкаста Радио-Т</a></li>
-          <li><a href="/apps/">Программы для Радио-Т</a></li>
-          <li><a href="https://news.radio-t.com">Темы выпусков от авторов Радио-Т</a></li>
-          <li><a href="/api-docs/">API Радио-Т</a></li>
-          <li>Twitter - <a href="https://twitter.com/radio_t">@radio_t</a> и <a href="https://twitter.com/radiot_news">@radiot_news</a></li>
-          <li>Комментарии <a href="https://twitter.com/radiot_comments">твитер</a> и <a href="https://t.me/radiot_comments">телеграмм</a></li>
-          <li><a href="https://www.amazon.com/Lalala-Radio-T/dp/B07C56W9WD">Подкаст на Alexa</a> </li>
-          <li><a href="/advertising/">Реклама в Радио-Т</a></li>
-      </ul>
-  </section>
-
-
-  <section>
     <center>
-       <div id="div-gpt-ad-1454186750673-0" style="height:400px; width:240px;">
-          <script type="text/javascript">
-            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1454186750673-0'); });
-          </script>
-       </div>
+      <div id="div-gpt-ad-1454186750673-0" style="height:400px; width:240px;">
+        <script type="text/javascript">
+          googletag.cmd.push(function () { googletag.display('div-gpt-ad-1454186750673-0'); });
+        </script>
+      </div>
     </center>
-  </section>
-
-  <section>
-    <center>
-      <a href="http://feeds.rucast.net/radio-t"><img align="absmiddle" src="/images/podcast-feed.png"></a>
-      <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=256504435"><img align="absmiddle" src="/images/itunes-feed.png"></a>
-    </center>
-  </section>
-
-  <section>
-    <table>
-      <tbody>
-        <tr>
-          <td>
-            <a href="http://friends.radio-t.com/"><img src="/images/any.gif" width="70px"></a>
-          </td>
-          <td>&nbsp;</td>
-          <td>
-            <br/>
-            <h5 class="helppod" id="helppod" style="margin-top:5px; font-size:11pt; font-weight: normal; text-transform: none; color: #5e5e5e">
-            Вы можете <a href="http://friends.radio-t.com/">помочь</a> любимому подкасту любой суммой
-            </h5>
-          </td>
-        </tr>
-      </tbody>
-    </table>
   </section>
 
   <section>
@@ -65,41 +14,22 @@
 
     <div class="remark42__last-comments" data-max="25"></div>
     <script>
-        var remark_config = {
-          site_id: '{{ .Site.Params.remark42 }}',
-        };
-    
-        (function() {
-          var d = document, s = d.createElement('script');
-          var baseurl = 'https://remark42.radio-t.com';
-          s.src = baseurl + '/web/last-comments.js';
-          s.type = 'text/javascript';
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
+      var remark_config = {
+        site_id: '{{ .Site.Params.remark42 }}',
+      };
+
+      (function () {
+        var d = document, s = d.createElement('script');
+        var baseurl = 'https://remark42.radio-t.com';
+        s.src = baseurl + '/web/last-comments.js';
+        s.type = 'text/javascript';
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
   </section>
 
   <section>
-    <a class="twitter-timeline" href="//twitter.com/{{ .Site.Params.twitter }}" data-widget-id="{{ .Site.Params.twitterWidgetId }}">@{{ .Site.Params.twitter }}</a>
-  </section>
-
-  <section>
-    <table>
-      <tr>
-        <td>
-          <a rel="license" href="/license/" rel="nofollow"><img alt="Creative Commons License" style="border-width:0" align="left" hspace="1" margin="3px" paging="3px" src="/images/88x30.png" float="left"></a>
-        </td>
-        <td>&nbsp;&nbsp;&nbsp;</td>
-        <td>
-          Подкаст распространяется под <a href="/license/">лицензией</a> CC
-        </td>
-      </tr>
-    </table>
-
-    <br/>
-
-    <h3>
-      Авторы и гости высказывают свое профессиональное и исключительно субъективное мнение. Смиритесь с тем, что оно может не совпадать с вашим мнением и наслаждайтесь.
-    </h3>
+    <a class="twitter-timeline" href="//twitter.com/{{ .Site.Params.twitter }}"
+       data-widget-id="{{ .Site.Params.twitterWidgetId }}">@{{ .Site.Params.twitter }}</a>
   </section>
 </aside>

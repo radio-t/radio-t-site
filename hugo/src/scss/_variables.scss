@@ -5,17 +5,17 @@
 //
 //// Color system
 //
-//$white:    #fff;
-//$gray-100: #f8f9fa;
-//$gray-200: #e9ecef;
-//$gray-300: #dee2e6;
-//$gray-400: #ced4da;
-//$gray-500: #adb5bd;
-//$gray-600: #6c757d;
-//$gray-700: #495057;
-//$gray-800: #343a40;
-//$gray-900: #212529;
-//$black:    #000;
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #eef2f5; //#e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
 //
 //$grays: ();
 //// stylelint-disable-next-line scss/dollar-variable-default
@@ -34,7 +34,7 @@
 //    $grays
 //);
 //
-$blue: #507cc0;
+$blue: #6bbced; //#507cc0;
 //$indigo:  #6610f2;
 //$purple:  #6f42c1;
 //$pink:    #e83e8c;
@@ -72,7 +72,7 @@ $primary:       $blue;
 //$info:          $cyan;
 //$warning:       $yellow;
 //$danger:        $red;
-//$light:         $gray-100;
+$light:         $gray-200;
 //$dark:          $gray-800;
 //
 //$theme-colors: ();
@@ -124,8 +124,11 @@ $primary:       $blue;
 //// variables. Mostly focused on spacing.
 //// You can add more entries to the $spacers map, should you need more variation.
 //
-//$spacer: 1rem;
-//$spacers: ();
+$spacer: 1rem;
+$spacers: (
+  6: ($spacer * 4.5),
+  7: ($spacer * 6),
+);
 //// stylelint-disable-next-line scss/dollar-variable-default
 //$spacers: map-merge(
 //    (
@@ -159,17 +162,17 @@ $primary:       $blue;
 //// Settings for the `<body>` element.
 //
 //$body-bg:                   $white;
-//$body-color:                $gray-900;
+$body-color:                $gray-700;
 //
 //
 //// Links
 ////
 //// Style anchor elements.
 //
-$link-color:                              $primary; //theme-color("primary");
+$link-color:                              $black; //$primary; //theme-color("primary");
 //$link-decoration:                         none;
-$link-hover-color:                        darken($link-color, 15%);
-//$link-hover-decoration:                   underline;
+$link-hover-color:                        darken($primary, 5%);
+$link-hover-decoration:                   none; //underline;
 //// Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 //$emphasized-link-hover-darken-percentage: 15%;
 //
@@ -280,20 +283,20 @@ $link-hover-color:                        darken($link-color, 15%);
 //$font-family-base:            $font-family-sans-serif;
 //// stylelint-enable value-keyword-case
 //
-//$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
 //$font-size-lg:                ($font-size-base * 1.25);
 //$font-size-sm:                ($font-size-base * .875);
 //
 //$font-weight-lighter:         lighter;
 //$font-weight-light:           300;
 //$font-weight-normal:          400;
-//$font-weight-bold:            700;
+$font-weight-bold:            700;
 //$font-weight-bolder:          bolder;
 //
 //$font-weight-base:            $font-weight-normal;
 //$line-height-base:            1.5;
 //
-$h1-font-size:                $font-size-base * 1.5;
+$h1-font-size:                $font-size-base * 1.8;
 $h2-font-size:                $font-size-base * 1.4;
 $h3-font-size:                $font-size-base * 1.3;
 $h4-font-size:                $font-size-base * 1.2;
@@ -304,7 +307,7 @@ $h6-font-size:                $font-size-base;
 //$headings-font-family:        inherit;
 $headings-font-weight:        $font-weight-bold;
 $headings-line-height:        1.3;
-//$headings-color:              inherit;
+$headings-color:              $gray-900;
 //
 //$display1-size:               6rem;
 //$display2-size:               5.5rem;
@@ -314,7 +317,7 @@ $headings-line-height:        1.3;
 //$display1-weight:             300;
 //$display2-weight:             300;
 //$display3-weight:             300;
-//$display4-weight:             300;
+$display4-weight:             $font-weight-bold;
 //$display-line-height:         $headings-line-height;
 //
 //$lead-font-size:              ($font-size-base * 1.25);
@@ -322,7 +325,7 @@ $headings-line-height:        1.3;
 //
 //$small-font-size:             80%;
 //
-//$text-muted:                  $gray-600;
+$text-muted:                  $gray-500;
 //
 //$blockquote-small-color:      $gray-600;
 //$blockquote-small-font-size:  $small-font-size;
