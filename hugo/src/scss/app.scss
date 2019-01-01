@@ -2,7 +2,6 @@
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "variables";
 @import "../../node_modules/bootstrap/scss/variables";
-
 @import "bootstrap";
 //@import "screen";
 //@import "likely";
@@ -37,7 +36,7 @@ html.js {
   //border-bottom-color: transparent;
   @include link-hover-transition;
 }
-@mixin link ($selector: '&') {
+@mixin link($selector: '&') {
   #{$selector} {
     @include link-transition;
     //border-bottom: .25em solid rgba($link-hover-color, .15);
@@ -55,7 +54,6 @@ p, .jumbotron, .text-content {
     @include link;
   }
 }
-
 .container-fluid {
   max-width: 1200px;
 }
@@ -126,7 +124,8 @@ $jumbotron-arc-width: 120%;
     margin: 0 (-($jumbotron-arc-width - 100) / 2);
   }
 }
-.page__footer {}
+.page__footer {
+}
 .title-processed {
   margin-top: -.4rem;
   > a {

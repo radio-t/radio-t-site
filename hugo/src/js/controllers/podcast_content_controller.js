@@ -3,19 +3,17 @@ import filter from 'lodash/filter';
 import find from 'lodash/find';
 
 export default class extends Controller {
-  // static targets = ['time'];
-
   initialize() {
-    this.fixTopics();
+    this.timeLabels();
     this.element.classList.remove('no-js');
   }
 
-  fixTopics() {
+  timeLabels() {
     for (let li of this.element.querySelectorAll('ul:first-of-type li')) {
       const timeLabel = find(li.children, (child) => child.tagName === 'EM' && child.textContent.match(/^\d+:\d+:\d+$/));
       if (!timeLabel) continue;
       // timeLabel.dataset.target = `${this.identifier}.time`;
-      timeLabel.dataset.action = `click->${this.identifier}#gototime`;
+      timeLabel.dataset.action = `click->${this.identifier}#jumpTime`;
 
       li.insertBefore(timeLabel, li.firstChild);
 
@@ -28,7 +26,7 @@ export default class extends Controller {
     }
   }
 
-  gototime(e) {
-    console.log(e);
+  jumpTime(e) {
+    console.log(`Jump to time ${e.target.textContent}`);
   }
 }
