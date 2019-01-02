@@ -252,11 +252,11 @@ $jumbotron-arc-width: 120%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: .9;
-  transition: 250ms;
+  //opacity: .9;
+  transition: 150ms;
   cursor: pointer;
   &:hover {
-    opacity: 1;
+    //opacity: 1;
     .play-button {
       opacity: 1;
       transform: scale(1);
@@ -312,3 +312,35 @@ $jumbotron-arc-width: 120%;
 }
 //.post-prep-title {
 //}
+.podcast-player-container {
+  position: sticky;
+  bottom: 0;
+  padding-bottom: 2rem;
+  > .container-fluid {
+    max-width: 800px;
+  }
+}
+.podcast-player {
+  background-color: $white;
+  border: 2px solid $primary;
+}
+.podcast-player-seek {
+  background-color: currentColor;
+  //height: 4px;
+  position: relative;
+  border: solid transparent;
+  border-width: 10px 0;
+  background-clip: padding-box;
+  &:hover {}
+}
+.podcast-player-seek-thumb {
+  position: relative;
+  background-color: currentColor;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  margin: -6px;
+}
+.player-time {
+  font-family: $font-family-monospace;
+}

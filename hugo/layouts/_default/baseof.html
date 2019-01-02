@@ -37,80 +37,112 @@
   {{ partial "js_head.html" . }}
   {{ end }}
 </head>
-<body>
+<body data-controller="player">
 
 {{ partial "navbar.html" . }}
 
-<div class="main">
-  {{ block "main" . }}{{ end }}
-</div>
+<div class="page" >
+  <div class="main">
+    {{ block "main" . }}{{ end }}
+  </div>
 
-<footer class="page__footer small text-muted mt-5 py-4 border-top">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3">
-        <h6>Радио-Т, {{ .Site.LastChange.Year }}</h6>
-        <a href="http://feeds.rucast.net/radio-t"><img align="absmiddle" src="/images/podcast-feed.png"></a>
-        <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=256504435"><img align="absmiddle" src="/images/itunes-feed.png"></a>
-        <table>
-          <tr>
-            <td>
-              <a rel="license" href="/license/" rel="nofollow"><img alt="Creative Commons License" style="border-width:0" align="left" hspace="1" margin="3px" paging="3px" src="/images/88x30.png" float="left"></a>
-            </td>
-            <td>&nbsp;&nbsp;&nbsp;</td>
-            <td>
-              Подкаст распространяется под <a href="/license/">лицензией</a> CC
-            </td>
-          </tr>
-        </table>
+  <footer class="page__footer small text-muted mt-5 py-4 border-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <h6>Радио-Т, {{ .Site.LastChange.Year }}</h6>
+          <a href="http://feeds.rucast.net/radio-t"><img align="absmiddle" src="/images/podcast-feed.png"></a>
+          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=256504435"><img align="absmiddle" src="/images/itunes-feed.png"></a>
+          <table>
+            <tr>
+              <td>
+                <a rel="license" href="/license/" rel="nofollow"><img alt="Creative Commons License" style="border-width:0" align="left" hspace="1" margin="3px" paging="3px" src="/images/88x30.png" float="left"></a>
+              </td>
+              <td>&nbsp;&nbsp;&nbsp;</td>
+              <td>
+                Подкаст распространяется под <a href="/license/">лицензией</a> CC
+              </td>
+            </tr>
+          </table>
 
-      </div>
-      <div class="col-md-3">
-        <div>Пишите нам на <a href="mailto:{{ .Site.Params.author }}">{{ .Site.Params.author }}</a></div>
-        <div>Авторы и гости высказывают свое профессиональное и исключительно субъективное мнение. Смиритесь с тем, что оно может не совпадать с вашим мнением и наслаждайтесь.</div>
+        </div>
+        <div class="col-md-3">
+          <div>Пишите нам на <a href="mailto:{{ .Site.Params.author }}">{{ .Site.Params.author }}</a></div>
+          <div>Авторы и гости высказывают свое профессиональное и исключительно субъективное мнение. Смиритесь с тем, что оно может не совпадать с вашим мнением и наслаждайтесь.</div>
 
-        <table>
-          <tbody>
-          <tr>
-            <td>
-              <a href="http://friends.radio-t.com/"><img src="/images/any.gif" width="70px"></a>
-            </td>
-            <td>&nbsp;</td>
-            <td>
-              <br/>
-              <h5 class="helppod" id="helppod" style="margin-top:5px; font-size:11pt; font-weight: normal; text-transform: none; color: #5e5e5e">
-                Вы можете <a href="http://friends.radio-t.com/">помочь</a> любимому подкасту любой суммой
-              </h5>
-            </td>
-          </tr>
-          </tbody>
-        </table>
+          <table>
+            <tbody>
+            <tr>
+              <td>
+                <a href="http://friends.radio-t.com/"><img src="/images/any.gif" width="70px"></a>
+              </td>
+              <td>&nbsp;</td>
+              <td>
+                <br/>
+                <h5 class="helppod" id="helppod" style="margin-top:5px; font-size:11pt; font-weight: normal; text-transform: none; color: #5e5e5e">
+                  Вы можете <a href="http://friends.radio-t.com/">помочь</a> любимому подкасту любой суммой
+                </h5>
+              </td>
+            </tr>
+            </tbody>
+          </table>
 
-        <p><span class="credit">Powered by <a href="https://gohugo.io">Hugo</a></span></p>
-      </div>
-      <div class="col-md-3">
-        <ul class="footer__links">
-          <li><a href="/info/">Информация о подкасте и ведущих</a></li>
-          <li><a href="/online/">Online вещание по субботам с 23:00</a></li>
-          <li><a href="http://chat.radio-t.com">Чат подкаста</a></li>
-          <li><a href="http://pirates.radio-t.com">Дочерний подкаст Пираты РТ</a></li>
-          <li><a href="http://friends.radio-t.com">Друзья подкаста Радио-Т</a></li>
-          <li><a href="/apps/">Программы для Радио-Т</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3">
-        <ul class="footer-links">
-          <li><a href="https://news.radio-t.com">Темы выпусков от авторов Радио-Т</a></li>
-          <li><a href="/api-docs/">API Радио-Т</a></li>
-          <li>Twitter - <a href="https://twitter.com/radio_t">@radio_t</a> и <a href="https://twitter.com/radiot_news">@radiot_news</a></li>
-          <li>Комментарии <a href="https://twitter.com/radiot_comments">твитер</a> и <a href="https://t.me/radiot_comments">телеграмм</a></li>
-          <li><a href="https://www.amazon.com/Lalala-Radio-T/dp/B07C56W9WD">Подкаст на Alexa</a> </li>
-          <li><a href="/advertising/">Реклама в Радио-Т</a></li>
-        </ul>
+          <p><span class="credit">Powered by <a href="https://gohugo.io">Hugo</a></span></p>
+        </div>
+        <div class="col-md-3">
+          <ul class="footer__links">
+            <li><a href="/info/">Информация о подкасте и ведущих</a></li>
+            <li><a href="/online/">Online вещание по субботам с 23:00</a></li>
+            <li><a href="http://chat.radio-t.com">Чат подкаста</a></li>
+            <li><a href="http://pirates.radio-t.com">Дочерний подкаст Пираты РТ</a></li>
+            <li><a href="http://friends.radio-t.com">Друзья подкаста Радио-Т</a></li>
+            <li><a href="/apps/">Программы для Радио-Т</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="footer-links">
+            <li><a href="https://news.radio-t.com">Темы выпусков от авторов Радио-Т</a></li>
+            <li><a href="/api-docs/">API Радио-Т</a></li>
+            <li>Twitter - <a href="https://twitter.com/radio_t">@radio_t</a> и <a href="https://twitter.com/radiot_news">@radiot_news</a></li>
+            <li>Комментарии <a href="https://twitter.com/radiot_comments">твитер</a> и <a href="https://t.me/radiot_comments">телеграмм</a></li>
+            <li><a href="https://www.amazon.com/Lalala-Radio-T/dp/B07C56W9WD">Подкаст на Alexa</a> </li>
+            <li><a href="/advertising/">Реклама в Радио-Т</a></li>
+          </ul>
+        </div>
       </div>
     </div>
+  </footer>
+
+  <div id="player" class="podcast-player-container" data-turbolinks-permanent>
+    <div class="container-fluid">
+      <div class="podcast-player">
+        <div class="btn-toolbar align-items-center" role="toolbar">
+          <h2 class="ml-2 my-0">629</h2>
+          <div class="btn-group mx-3" role="group">
+            <button type="button" class="btn btn-link px-1" data-action="player#seekBack"><i class="fas fa-fw fa-undo-alt"></i></button>
+            <button type="button" class="btn btn-link px-1" data-target="player.play"><i class="fas fa-fw fa-play"></i></button>
+            <button type="button" class="btn btn-link px-1" data-target="player.pause"><i class="fas fa-fw fa-pause"></i></button>
+            <button type="button" class="btn btn-link px-1" data-action="player#seekForward"><i class="fas fa-fw fa-redo-alt"></i></button>
+          </div>
+          <div class="player-time" data-target="player.currentTime">00:00:00</div>
+          <div class="podcast-player-seek flex-grow-1 mx-3" data-action="click->player#seek">
+            <div class="podcast-player-seek-thumb" data-target="player.seek"></div>
+          </div>
+          <div class="player-time mr-3">02:14:37</div>
+        </div>
+      </div>
+      <audio
+        data-target="player.audio"
+        data-action="timeupdate->player#timeupdate"
+        data-action="durationchange->player#durationchange"
+        data-action="play->player#play"
+        data-action="pause->player#pause"
+        data-action="ended->player#ended"
+        controls
+      ></audio>
+    </div>
   </div>
-</footer>
+</div>
 
 {{ partial "js_foot.html" . }}
 

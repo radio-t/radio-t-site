@@ -14,7 +14,7 @@ export default class extends Controller {
 
       if (timeLabel) {
         timeLabel.remove();
-        timeLabel.dataset.action = `click->podcast#jumpTime`;
+        timeLabel.dataset.action = `click->podcast#seek`;
         const icon = document.createElement('i');
         icon.className = 'fas fa-step-forward fa-fw';
         timeLabel.prepend(icon);
