@@ -12,7 +12,7 @@ export default class extends Controller {
     if (match) {
       titleElement.innerHTML =
         `<span class="podcast-title-prefix">${match[1]}</span><br>
-        <span class="podcast-title-number display-4">${match[2]}</span>`;
+        <span class="podcast-title-number display-4" data-target="podcast.number">${match[2]}</span>`;
     } else {
       titleElement.innerHTML = `<span>${title}</span>`;
     }

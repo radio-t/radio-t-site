@@ -1,40 +1,49 @@
 import { Controller } from 'stimulus';
-import Player from './player_controller'
-import filter from 'lodash/filter';
-import find from 'lodash/find';
+import Player from './player_controller';
 
 /**
  * @property playButtonTarget
- * @property audioTarget
+ * @property {Audio} audioTarget
  */
 export default class extends Controller {
-  static targets = ['playButton'];
+  static targets = ['playButton', 'number', 'cover', 'audio'];
 
   initialize() {
+    // Set up audio target
     const audio = this.element.querySelector('audio');
-    if (audio) {
+    if (audio && audio.src) {
       audio.dataset.target = `${this.identifier}.audio`;
-      this.element.classList.add('has-audio');
-      this.data.set('src', audio.src);
       this.playButtonTarget.classList.remove('d-none');
+      this.element.classList.add('has-audio');
     }
   }
 
-  seek(e) {
-    this.getPlayerController().timeLabel(this.data.get('src'), e.target.textContent);
-    // console.log(`Jump to time ${e.target.textContent}`);
+  connect() {
+    this.element.dispatchEvent(new CustomEvent('podcast-connected', {bubbles: true}));
   }
 
-  play(e) {
+  play(e, timeLabel = null) {
     e.preventDefault();
     e.stopPropagation();
-    this.getPlayerController().playPause(this.data.get('src'));
+    this.element.dispatchEvent(new CustomEvent('podcast-play', {
+      bubbles: true,
+      detail: {
+        ...this.getPodcastInfo(),
+        ...(timeLabel ? {timeLabel} : {}),
+      },
+    }));
   }
 
-  /**
-   * @returns {Player}
-   */
-  getPlayerController() {
-    return this.application.getControllerForElementAndIdentifier(document.body, 'player');
+  goToTimeLabel(e) {
+    this.play(e, e.target.textContent);
+  }
+
+  getPodcastInfo() {
+    return {
+      src: this.audioTarget.src,
+      url: this.data.get('url'),
+      image: this.coverTarget.style.backgroundImage,
+      number: this.numberTarget.textContent,
+    };
   }
 }

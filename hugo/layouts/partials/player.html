@@ -1,0 +1,38 @@
+<div
+  data-controller="player"
+  data-target="connect.player"
+  id="player"
+  data-turbolinks-permanent
+  class="podcast-player-container d-none"
+>
+  <div class="container-fluid">
+    <div class="podcast-player">
+      <div class="btn-toolbar align-items-center" role="toolbar">
+        <div class="podcast-player-cover cover-image-wrapper">
+          <a class="cover-image" data-target="player.cover player.link"></a>
+        </div>
+        <h3 class="player-number ml-2 my-0"><a data-target="player.number player.link"></a></h3>
+        <div class="btn-group mx-3" role="group">
+          <button type="button" class="btn btn-link px-1" data-action="player#seekBack">
+            <i class="fas fa-fw fa-undo-alt"></i>
+          </button>
+          <button type="button" class="btn btn-link px-1" data-target="player.play" data-action="player#playPause">
+            <i class="fas fa-fw fa-play"></i>
+          </button>
+          <button type="button" class="btn btn-link px-1" data-target="player.pause" data-action="player#playPause">
+            <i class="fas fa-fw fa-pause"></i>
+          </button>
+          <button type="button" class="btn btn-link px-1" data-action="player#seekForward">
+            <i class="fas fa-fw fa-redo-alt"></i>
+          </button>
+        </div>
+        <div class="player-time" data-target="player.currentTime">00:00:00</div>
+        <div class="podcast-player-seek flex-grow-1 mx-3" data-action="click->player#seek">
+          <div class="podcast-player-seek-thumb" data-target="player.seek"></div>
+        </div>
+        <div class="player-time mr-3" data-target="player.duration"></div>
+      </div>
+    </div>
+    <audio data-target="player.audio" class="d-none"></audio>
+  </div>
+</div>

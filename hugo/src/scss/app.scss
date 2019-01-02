@@ -14,7 +14,7 @@ body {
   @media (prefers-color-scheme: dark) {
     background-color: #000;
     filter: invert(1) hue-rotate(180deg);
-    img, .post-podcast-cover-image {
+    img, .cover-image {
       filter: invert(1) hue-rotate(180deg);
     }
   }
@@ -206,12 +206,15 @@ $jumbotron-arc-width: 120%;
         font-size: $small-font-size;
         flex-shrink: 0;
         min-width: 5.5em;
-
-        &[data-action] {
+        .fas {
+          display: none;
+        }
+        .has-audio &[data-action] {
           cursor: pointer;
           transition: transform 200ms;
           transform: translateX(0);
           .fas {
+            display: inline-block;
             opacity: 0;
             margin-left: -(1.25em + .3em);
             margin-right: .3em;
@@ -239,70 +242,68 @@ $jumbotron-arc-width: 120%;
   }
 }
 .cover-image-wrapper {
-  //border: 10px solid $gray-200;
   overflow: hidden;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba($black, .33);
 }
-.post-podcast-cover-image {
+.cover-image {
   display: block;
   position: relative;
   width: 100%;
   padding-bottom: 100%;
+  background-image: url('../images/default-cover.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  //opacity: .9;
   transition: 150ms;
   cursor: pointer;
   &:hover {
-    //opacity: 1;
-    .play-button {
+    .cover-play-button {
       opacity: 1;
       transform: scale(1);
     }
   }
-  .play-button {
-    $play-button-size: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: $play-button-size;
-    height: $play-button-size;
-    top: (100% - $play-button-size) / 2;
-    left: (100% - $play-button-size) / 2;
-    position: absolute;
-    background-color: rgba($white, .85);
-    border: none;
-    backdrop-filter: blur(5px);
-    border-radius: 50%;
-    color: $body-color;
-    opacity: 0;
-    transform: scale(.8);
-    transition: 100ms;
+}
+.cover-play-button {
+  $play-button-size: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: $play-button-size;
+  height: $play-button-size;
+  top: (100% - $play-button-size) / 2;
+  left: (100% - $play-button-size) / 2;
+  position: absolute;
+  background-color: rgba($white, .85);
+  border: none;
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
+  color: $body-color;
+  opacity: 0;
+  transform: scale(.8);
+  transition: 100ms;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba($black, .33);
+  &:hover {
+    transform: scale(1.05);
+    color: $link-hover-color;
+    box-shadow: 0 5px 20px rgba($black, .67);
+    background-color: rgba($white, .95);
+  }
+  &:active {
+    transform: scale(.95);
+    box-shadow: 0 3px 10px rgba($black, .67);
+  }
+  .icon {
+    width: 65%;
+    fill: currentColor;
     cursor: pointer;
-    box-shadow: 0 3px 6px rgba($black, .33);
-    &:hover {
-      transform: scale(1.05);
-      color: $link-hover-color;
-      box-shadow: 0 5px 20px rgba($black, .67);
-      background-color: rgba($white, .95);
-    }
-    &:active {
-      transform: scale(.95);
-      box-shadow: 0 3px 10px rgba($black, .67);
-    }
-    .icon {
-      width: 65%;
-      fill: currentColor;
-      cursor: pointer;
-    }
-    .play-icon {
-      margin-left: 10%;
-    }
-    .pause-icon {
-      display: none;
-    }
+  }
+  .play-icon {
+    margin-left: 10%;
+  }
+  .pause-icon {
+    display: none;
   }
 }
 .posts-list-item {
@@ -322,25 +323,43 @@ $jumbotron-arc-width: 120%;
 }
 .podcast-player {
   background-color: $white;
-  border: 2px solid $primary;
+  color: $black;
+  border: 2px solid $black;
+  .btn {
+    font-size: 1.2em;
+  }
 }
+$podcast-player-seek-height: 2px;
+$podcast-player-seek-thumb-height: 16px;
+$podcast-player-seek-thumb-width: 4px;
 .podcast-player-seek {
-  background-color: currentColor;
-  //height: 4px;
+  background-color: $black;
   position: relative;
   border: solid transparent;
   border-width: 10px 0;
   background-clip: padding-box;
-  &:hover {}
+  cursor: pointer;
+  &:hover {
+    color: $link-hover-color;
+  }
 }
 .podcast-player-seek-thumb {
   position: relative;
   background-color: currentColor;
-  height: 16px;
-  width: 16px;
-  border-radius: 50%;
-  margin: -6px;
+  height: $podcast-player-seek-thumb-height;
+  width: $podcast-player-seek-thumb-width;
+  margin: -($podcast-player-seek-thumb-height - $podcast-player-seek-height)/2 -2px;
 }
 .player-time {
   font-family: $font-family-monospace;
+  font-weight: $font-weight-bold;
+  font-size: $small-font-size;
+}
+.player-number {
+  font-weight: $font-weight-bold;
+  font-size: 1.2em;
+}
+.podcast-player-cover {
+  width: 2.5rem;
+  margin: .3rem;
 }

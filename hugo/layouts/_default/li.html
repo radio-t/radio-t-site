@@ -1,7 +1,12 @@
 <article class="posts-list-item py-5">
   {{ if in .Params.categories "podcast" }}
 
-  <div class="row post-podcast posts-list-item-podcast" data-controller="podcast">
+  <div
+    class="row post-podcast"
+    data-controller="podcast"
+    data-target="connect.podcast"
+    data-podcast-url="{{ .Permalink }}"
+  >
     <div class="col-md-2">
       <h2 class="no-js" data-controller="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
       <p class="post-time posts-list-item-time small">
@@ -14,10 +19,13 @@
     <div class="post-podcast-cover col-md-3 order-md-3">
       <div class="cover-image-wrapper">
         <a
-          href="{{ .Permalink }}" class="post-podcast-cover-image"
-          style="background-image: url('{{ .Params.image }}');"
+          data-target="podcast.cover"
+          href="{{ .Permalink }}" class="cover-image"
+          {{ with .Params.image }}
+          style="background-image: url('{{ . }}');"
+          {{ end }}
         >
-          <button class="play-button fas d-none" data-target="podcast.playButton" data-action="podcast#play">
+          <button class="cover-play-button fas d-none" data-target="podcast.playButton" data-action="podcast#play">
             <svg class="icon play-icon" viewBox="0 0 18 18"><text x="2" y="15.2">&#xf04b;</text></svg>
             <svg class="icon pause-icon" viewBox="0 0 18 18"><text x="2" y="15.2">&#xf04c;</text></svg>
           </button>
@@ -65,7 +73,7 @@
       </div>
       <!--<div class="post-podcast-cover col-md-3 order-md-3">-->
       <!--<div class="cover-image-wrapper">-->
-      <!--<div class="post-podcast-cover-image" style="background-image: url('{{ .Params.image }}');"></div>-->
+      <!--<div class="cover-image" style="background-image: url('{{ .Params.image }}');"></div>-->
       <!--</div>-->
       <!--</div>-->
       <div class="text-content col-md-8" data-controller="highlight">

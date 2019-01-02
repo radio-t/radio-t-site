@@ -37,11 +37,11 @@
   {{ partial "js_head.html" . }}
   {{ end }}
 </head>
-<body data-controller="player">
+<body data-controller="connect" data-action="podcast-play->connect#playPodcast podcast-connected->connect#updatePodcasts">
 
 {{ partial "navbar.html" . }}
 
-<div class="page" >
+<div class="page">
   <div class="main">
     {{ block "main" . }}{{ end }}
   </div>
@@ -113,35 +113,7 @@
     </div>
   </footer>
 
-  <div id="player" class="podcast-player-container" data-turbolinks-permanent>
-    <div class="container-fluid">
-      <div class="podcast-player">
-        <div class="btn-toolbar align-items-center" role="toolbar">
-          <h2 class="ml-2 my-0">629</h2>
-          <div class="btn-group mx-3" role="group">
-            <button type="button" class="btn btn-link px-1" data-action="player#seekBack"><i class="fas fa-fw fa-undo-alt"></i></button>
-            <button type="button" class="btn btn-link px-1" data-target="player.play"><i class="fas fa-fw fa-play"></i></button>
-            <button type="button" class="btn btn-link px-1" data-target="player.pause"><i class="fas fa-fw fa-pause"></i></button>
-            <button type="button" class="btn btn-link px-1" data-action="player#seekForward"><i class="fas fa-fw fa-redo-alt"></i></button>
-          </div>
-          <div class="player-time" data-target="player.currentTime">00:00:00</div>
-          <div class="podcast-player-seek flex-grow-1 mx-3" data-action="click->player#seek">
-            <div class="podcast-player-seek-thumb" data-target="player.seek"></div>
-          </div>
-          <div class="player-time mr-3">02:14:37</div>
-        </div>
-      </div>
-      <audio
-        data-target="player.audio"
-        data-action="timeupdate->player#timeupdate"
-        data-action="durationchange->player#durationchange"
-        data-action="play->player#play"
-        data-action="pause->player#pause"
-        data-action="ended->player#ended"
-        controls
-      ></audio>
-    </div>
-  </div>
+  {{ partial "player" . }}
 </div>
 
 {{ partial "js_foot.html" . }}
