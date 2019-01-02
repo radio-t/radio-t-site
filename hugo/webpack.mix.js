@@ -40,15 +40,14 @@ if (!mix.inProduction()) {
     // watch: true,
     open: false, // don't open in browser
     ignore: ['mix-manifest.json'],
-
-    // snippetOptions: {
-    //   rule: {
-    //     match: /(<\/body>|<\/pre>)/i,
-    //     fn: function (snippet, match) {
-    //       return snippet + match;
-    //     },
-    //   },
-    // },
+    snippetOptions: {
+      rule: {
+        match: /<\/head>/i,
+        fn: function (snippet, match) {
+          return snippet + match;
+        }
+      }
+    },
   });
 }
 

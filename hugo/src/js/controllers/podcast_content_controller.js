@@ -14,8 +14,7 @@ export default class extends Controller {
 
       if (timeLabel) {
         timeLabel.remove();
-        timeLabel.dataset.action = `click->${this.identifier}#jumpTime`;
-        // timeLabel.dataset.target = `${this.identifier}.time`;
+        timeLabel.dataset.action = `click->podcast#jumpTime`;
         const icon = document.createElement('i');
         icon.className = 'fas fa-step-forward fa-fw';
         timeLabel.prepend(icon);
@@ -38,9 +37,5 @@ export default class extends Controller {
       li.append(timeLabel);
       li.append(wrapper);
     }
-  }
-
-  jumpTime(e) {
-    console.log(`Jump to time ${e.target.textContent}`);
   }
 }

@@ -33,7 +33,9 @@
   </script>
   {{ end }}
 
+  {{ if eq (getenv "HUGO_ENV") "production" }}
   {{ partial "js_head.html" . }}
+  {{ end }}
 </head>
 <body>
 
