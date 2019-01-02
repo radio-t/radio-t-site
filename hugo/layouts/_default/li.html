@@ -4,7 +4,7 @@
   <div class="row post-podcast posts-list-item-podcast">
     <div class="col-md-2">
       <h2 class="no-js" data-controller="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      <p class="post-time posts-list-item-time small text-muted">
+      <p class="post-time posts-list-item-time small">
         <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
           {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
         </time>
@@ -13,11 +13,17 @@
     </div>
     <div class="post-podcast-cover col-md-3 order-md-3">
       <div class="cover-image-wrapper">
+        <!--suppress CssUnknownTarget -->
         <div class="post-podcast-cover-image" style="background-image: url('{{ .Params.image }}');"></div>
       </div>
     </div>
-    <div class="post-podcast-content text-content col-md-4 offset-md-1 no-js" data-controller="podcast-content">
+    <div class="post-podcast-content text-content col-md-7 col-lg-5 no-js" data-controller="podcast-content">
       {{ .Content }}
+    </div>
+    <div class="col-lg-2 order-md-4">
+      <p>Sponsor</p>
+      <p>Audio</p>
+      <p>Chat logs</p>
     </div>
   </div>
 
@@ -28,7 +34,7 @@
       <h2 class="no-js" data-controller="title"><a class="text-muted" href="{{ .Permalink }}">{{ .Title }}</a></h2>
     </div>
     <div class="col-md">
-      <p class="post-time posts-list-item-time small text-muted">
+      <p class="post-time posts-list-item-time small">
         <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
           {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
         </time>
@@ -43,7 +49,7 @@
     <h2 class="display-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     <div class="row">
       <div class="col-md-2">
-        <p class="post-time posts-list-item-time small text-muted">
+        <p class="post-time posts-list-item-time small">
           <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
             {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
           </time>

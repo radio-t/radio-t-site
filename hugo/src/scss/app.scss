@@ -3,6 +3,10 @@
 @import "variables";
 @import "../../node_modules/bootstrap/scss/variables";
 @import "bootstrap";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
 //@import "screen";
 //@import "likely";
 body {
@@ -14,8 +18,7 @@ body {
       filter: invert(1) hue-rotate(180deg);
     }
   }
-  &[dark] {
-  }
+  &[dark] {}
 }
 html.js {
   .no-js {
@@ -41,9 +44,15 @@ html.js {
     @include link-transition;
     //border-bottom: .25em solid rgba($link-hover-color, .15);
   }
-  @include hover {
+  &:hover {
     #{$selector} {
       @include link-hover;
+    }
+    &:active {
+      #{$selector} {
+        color: #fff;
+        background-color: darken($link-hover-color, 10%);
+      }
     }
   }
 }
@@ -52,6 +61,18 @@ h1, h2, h3, h4, h5, h6,
 p, .jumbotron, .text-content {
   a:not(.btn):not(.nav-link) {
     @include link;
+  }
+}
+.text-light {
+  color: rgba(#fff, .7);
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #fff;
+  }
+}
+.text-content {
+  a:visited {
+    color: #430093;
   }
 }
 .container-fluid {
@@ -103,6 +124,16 @@ $jumbotron-arc-width: 120%;
 .jumbotron {
   position: relative;
   margin-bottom: ($jumbotron-arc-height / 2);
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin-bottom: .3rem;
+      i {
+        margin-right: .5em;
+      }
+    }
+  }
 }
 .jumbotron-arc {
   position: absolute;
@@ -132,7 +163,7 @@ $jumbotron-arc-width: 120%;
     transition: none !important;
     border-bottom: none !important;
     @include link('> span');
-    @include hover {
+    &:hover {
       background-color: transparent !important;
       border-bottom: 0 !important;
     }
@@ -162,21 +193,47 @@ $jumbotron-arc-width: 120%;
     padding: 0;
     list-style: none none;
     li {
-      position: relative;
+      display: flex;
+      align-items: baseline;
       margin-bottom: $line-height-base * .5em;
-      em {
-        position: absolute;
-        top: 0;
-        left: -27%;
-        opacity: .5;
+      > em {
+        display: block;
+        white-space: nowrap;
+        width: 18%;
+        color: $text-muted;
         font-style: normal;
         font-family: $font-family-monospace;
+        font-size: $small-font-size;
+        flex-shrink: 0;
+        min-width: 5.5em;
+
         &[data-action] {
           cursor: pointer;
-          @include hover {
+          transition: transform 200ms;
+          transform: translateX(0);
+          .fas {
+            opacity: 0;
+            margin-left: -(1.25em + .3em);
+            margin-right: .3em;
+            pointer-events: none;
+            transform: translateX(.8em);
+            transition-duration: 150ms;
+            transition-property: transform, opacity;
+          }
+          &:hover {
             color: $link-hover-color;
+            transform: translateX(.1em);
+            .fas {
+              opacity: .5;
+              pointer-events: none;
+              transform: translateX(0);
+            }
           }
         }
+      }
+      > div {
+        flex-grow: 1;
+        margin-left: 15px;
       }
     }
   }

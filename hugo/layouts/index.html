@@ -6,8 +6,14 @@
   <div class="posts-list">
     {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
 
-    {{ range $paginator.Pages }}
-    {{ .Render "li" }}
+    {{ range $index, $_ := $paginator.Pages }}
+      {{ .Render "li" }}
+
+      {{ if (eq $index 1) }}
+        {{ if (eq $paginator.PageNumber 1) }}
+          {{ partial "online-banner" . }}
+        {{ end }}
+      {{ end }}
     {{ end }}
 
     {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
