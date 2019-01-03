@@ -25,15 +25,15 @@ html.js {
   #{$selector} {
     transition: all 350ms ease;
     transition-delay: 25ms;
-    //border-bottom: .15em solid rgba($link-hover-color, .15);
+    border-bottom: 2px solid rgba($link-hover-color, .2);
   }
   &:hover {
     #{$selector} {
-      color: #fff;
-      background-color: $link-hover-color;
-      transition-duration: 20ms;
+      color: darken($link-hover-color, 10%);
+      background-color: rgba($link-hover-color, .1);
+      transition-duration: 50ms;
       transition-delay: 0ms;
-      //border-bottom-color: transparent;
+      border-bottom-color: rgba($link-hover-color, .1);
     }
     &:active {
       #{$selector} {
@@ -52,7 +52,7 @@ p, .jumbotron, .text-content {
 }
 .text-content {
   a:visited {
-    color: #430093;
+    //color: #430093;
   }
 }
 .text-light {
@@ -150,6 +150,9 @@ $jumbotron-arc-width: 120%;
     transition: none !important;
     border-bottom: none !important;
     @include link('> span');
+    > span {
+      border-bottom: none;
+    }
     &:hover {
       background-color: transparent !important;
       border-bottom: 0 !important;
