@@ -2,10 +2,12 @@
 
 # Symlink html files to gohtml extension to take advantage of go template idea plugin
 
-set -ex
+set -e
 
-for f in $(find layouts -type d); do 
-    mkdir -p go$f
+rm -rf golayouts
+
+for f in $(find layouts -type d); do
+    mkdir -p "go$f"
 done
 
 for f in $(find layouts -name *.html); do 
