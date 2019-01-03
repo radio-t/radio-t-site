@@ -8,7 +8,7 @@
     data-podcast-url="{{ .Permalink }}"
   >
     <div class="col-md-2">
-      <h2 class="no-js" data-controller="title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <h2 class="number-title"><a href="{{ .Permalink }}">{{ partial "number-title" . }}</a></h2>
       <p class="post-time posts-list-item-time small">
         <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
           {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
@@ -46,7 +46,7 @@
 
   <div class="row post-prep posts-list-item-prep">
     <div class="col-md-2">
-      <h2 class="no-js" data-controller="title"><a class="text-muted" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <h2 class="number-title"><a class="text-muted" href="{{ .Permalink }}">{{ partial "number-title" . }}</a></h2>
     </div>
     <div class="col-md">
       <p class="post-time posts-list-item-time small">
