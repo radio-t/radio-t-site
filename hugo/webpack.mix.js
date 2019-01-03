@@ -1,9 +1,12 @@
 const mix = require('laravel-mix');
 const ModernizrWebpackPlugin = require('modernizr-webpack-plugin');
 
+const USE_NODE_SASS = true; // faster https://github.com/JeffreyWay/laravel-mix/issues/1832
+const useNodeSass = USE_NODE_SASS ? { implementation: require('node-sass') } : {};
+
 mix.js('src/js/app.js', '.');
-mix.sass('src/scss/app.scss', '.');
-mix.sass('src/scss/vendor.scss', '.');
+mix.sass('src/scss/app.scss', '.', useNodeSass);
+mix.sass('src/scss/vendor.scss', '.', useNodeSass);
 
 // ['@babel/plugin-transform-react-jsx', {'pragma': 'h'}], // add this to babel to support preact
 mix.babelConfig({plugins: ['@babel/plugin-proposal-class-properties']});

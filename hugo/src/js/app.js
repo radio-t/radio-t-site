@@ -1,4 +1,4 @@
-// require('./polyfills')
+require('./polyfills')
 require('./stimulus')
 
 if (process.env.NODE_ENV === 'production' || process.env.MIX_TURBO) {
