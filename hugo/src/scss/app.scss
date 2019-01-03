@@ -21,28 +21,19 @@ html.js {
     visibility: hidden;
   }
 }
-@mixin link-transition {
-  transition: all 350ms ease;
-  transition-delay: 25ms;
-}
-@mixin link-hover-transition {
-  transition-duration: 20ms;
-  transition-delay: 0ms;
-}
-@mixin link-hover {
-  color: #fff;
-  background-color: $link-hover-color;
-  //border-bottom-color: transparent;
-  @include link-hover-transition;
-}
 @mixin link($selector: '&') {
   #{$selector} {
-    @include link-transition;
-    //border-bottom: .25em solid rgba($link-hover-color, .15);
+    transition: all 350ms ease;
+    transition-delay: 25ms;
+    //border-bottom: .15em solid rgba($link-hover-color, .15);
   }
   &:hover {
     #{$selector} {
-      @include link-hover;
+      color: #fff;
+      background-color: $link-hover-color;
+      transition-duration: 20ms;
+      transition-delay: 0ms;
+      //border-bottom-color: transparent;
     }
     &:active {
       #{$selector} {
@@ -59,16 +50,16 @@ p, .jumbotron, .text-content {
     @include link;
   }
 }
+.text-content {
+  a:visited {
+    color: #430093;
+  }
+}
 .text-light {
   color: rgba(#fff, .7);
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #fff;
-  }
-}
-.text-content {
-  a:visited {
-    color: #430093;
   }
 }
 .container-fluid {
