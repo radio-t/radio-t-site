@@ -1,93 +1,104 @@
 {{ define "head" }}
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
-<meta name="twitter:url" content="{{ .Site.Params.url }}{{ .URL }}">
-<meta name="twitter:title" content="{{ .Title }}">
-<meta name="twitter:description" content="{{ .Site.Params.twitterCardDescription }}">
-{{ with .Params.image }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
+  <meta name="twitter:url" content="{{ .Site.Params.url }}{{ .URL }}">
+  <meta name="twitter:title" content="{{ .Title }}">
+  <meta name="twitter:description" content="{{ .Site.Params.twitterCardDescription }}">
+  {{ with .Params.image }}
+    <meta name="twitter:image" content="{{ . }}">
+  {{ end }}
 {{ end }}
 
 {{ define "main" }}
-<div>
-  {{ $classes := apply .Params.categories "printf" "article--%s" "." }}
-  <article class="article {{ delimit $classes " " }}">
-    <header>
-      <h1 class="article__title">{{ .Title }}</h1>
-      <p class="article__meta">
-        <time class="article__datetime" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" pubdate data-updated="true">
-          {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
-        </time>
-      </p>
-    </header>
+  <div>
+    {{ $classes := apply .Params.categories "printf" "article--%s" "." }}
+    <article class="article {{ delimit $classes " " }}">
+      <header>
+        <h1 class="article__title">{{ .Title }}</h1>
+        <p class="article__meta">
+          <time class="article__datetime" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}"
+                pubdate data-updated="true">
+            {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}
+            , {{ .Date.Year }} - {{ .Date.Unix }}
+          </time>
+        </p>
+      </header>
 
-    <div class="article-content article__content">
-      {{ .Content }}
-    </div>
+      <div class="article-content article__content">
+        {{ .Content }}
+      </div>
 
-    <footer class="article__footer">
-      <p class="article__footer-meta">
+      <footer class="article__footer">
+        <p class="article__footer-meta">
         <span class="byline author vcard article__footer-meta-item">
           <span class="fn">
             {{ .Site.Params.author }}
           </span>
         </span>
 
-        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" pubdate data-updated="true">
-          {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
-        </time>
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+            {{ index .Site.Data.ru (printf "%d" .Date.Month) }}
+            {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
+          </time>
 
-        {{ with .Params.categories }}
-          <span class="categories">
+          {{ with .Params.categories }}
+            <span class="categories">
           {{ range . }}
             <a class="category" href="/categories/{{ . }}">{{ . }}</a>
           {{ end }}
           </span>
-        {{ end }}
-      </p>
+          {{ end }}
+        </p>
 
-      <p class="meta">
-        {{ if .PrevPage }}
-          {{ if eq .PrevPage.Type "posts" }}
-              <a href="{{ .PrevPage.Permalink }}" title="Next Post: {{ .PrevPage.Title }}">&laquo; {{ .PrevPage.Title }}</a>
+        <p class="meta">
+          {{ if .PrevPage }}
+            {{ if eq .PrevPage.Type "posts" }}
+              <a href="{{ .PrevPage.Permalink }}"
+                 title="Next Post: {{ .PrevPage.Title }}">&laquo; {{ .PrevPage.Title }}</a>
+            {{ end }}
           {{ end }}
-        {{ end }}
-        {{ if .PrevPage }}
-          {{ if eq .PrevPage.Type "posts" }}
-            <a href="{{ .PrevPage.Permalink }}" title="Previous Post: {{ .PrevPage.Title }}">{{ .PrevPage.Title }} &raquo;</a>
+          {{ if .PrevPage }}
+            {{ if eq .PrevPage.Type "posts" }}
+              <a href="{{ .PrevPage.Permalink }}"
+                 title="Previous Post: {{ .PrevPage.Title }}">{{ .PrevPage.Title }} &raquo;</a>
+            {{ end }}
+          {{ else if in .Params.categories "podcast" }}
+            <strong>Сбор тем начинается в среду</strong>
           {{ end }}
-        {{ else if in .Params.categories "podcast" }}
-            <strong>сбор тем начинается в среду</strong>
-        {{ end }}
-      </p>
-      <div class="sharing">
-        <div class="likely">
-          <div class="twitter">Твитнуть</div>
-          <div class="facebook">Поделиться</div>
-          <div class="vkontakte">Поделиться</div>
+        </p>
+        <div class="sharing">
+          <div class="likely">
+            <div class="twitter">Твитнуть</div>
+            <div class="facebook">Поделиться</div>
+            <div class="vkontakte">Поделиться</div>
+          </div>
         </div>
-      </div>
-    </footer>
-  </article>
+      </footer>
+    </article>
 
-  <section>
-    <div id="comment-policy" class="comment-policy">
-      <p>Тут у нас свобода слова, но за хамство можем забанить.</p>
-      <p>
-        Пожалуйста, прочитайте наши
-        <a href="https://radio-t.com/comment-policy" target="_blank" rel="noopener noreferrer" class="policy-link">правила</a>
-        прежде чем комментировать.
-      </p>
-  </section>
+    <section>
+      <div id="comment-policy" class="comment-policy">
+        <p>Тут у нас свобода слова, но за хамство можем забанить.</p>
+        <p>
+          Пожалуйста, прочитайте наши
+          <a
+            href="https://radio-t.com/comment-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="policy-link">правила</a>
+          прежде чем комментировать.
+        </p>
+    </section>
 
-  <section>
-    <div id="remark42">
-      <noscript>
+    <section>
+      <div id="remark42">
+        <noscript>
           Please enable JavaScript to view the comments powered by Remark42.
-      </noscript>
-    </div>
-  </section>
-</div>
+        </noscript>
+      </div>
+    </section>
+  </div>
 
-{{ partial "sidebar.html" . }}
+  {{ partial "sidebar.html" . }}
 
 {{ end }}

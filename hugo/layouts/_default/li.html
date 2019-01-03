@@ -1,87 +1,95 @@
 <article class="posts-list-item py-5">
   {{ if in .Params.categories "podcast" }}
 
-  <div
-    class="row post-podcast"
-    data-controller="podcast"
-    data-target="connect.podcast"
-    data-podcast-url="{{ .Permalink }}"
-  >
-    <div class="col-md-2">
-      <h2 class="number-title"><a href="{{ .Permalink }}">{{ partial "number-title" . }}</a></h2>
-      <p class="post-time posts-list-item-time small">
-        <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
-          {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
-        </time>
-      </p>
-      {{ partial "comments-counter" .Permalink }}
-    </div>
-    <div class="post-podcast-cover col-md-3 order-md-3">
-      <div class="cover-image-wrapper">
-        <a
-          data-target="podcast.cover"
-          href="{{ .Permalink }}" class="cover-image"
-          {{ with .Params.image }}
-          style="background-image: url('{{ . }}');"
-          {{ end }}
-        >
-          <button class="cover-play-button fas d-none" data-target="podcast.playButton" data-action="podcast#play">
-            <svg class="icon play-icon" viewBox="0 0 18 18"><text x="2" y="15.2">&#xf04b;</text></svg>
-            <svg class="icon pause-icon" viewBox="0 0 18 18"><text x="2" y="15.2">&#xf04c;</text></svg>
-          </button>
-        </a>
-      </div>
-    </div>
-    <div class="post-podcast-content text-content col-md-7 col-lg-5 no-js" data-controller="podcast-content">
-      {{ .Content }}
-    </div>
-    <div class="col-lg-2 order-md-4">
-      <p>Sponsor</p>
-      <p>Audio</p>
-      <p>Chat logs</p>
-    </div>
-  </div>
-
-  {{ else if in .Params.categories "prep" }}
-
-  <div class="row post-prep posts-list-item-prep">
-    <div class="col-md-2">
-      <h2 class="number-title"><a class="text-muted" href="{{ .Permalink }}">{{ partial "number-title" . }}</a></h2>
-    </div>
-    <div class="col-md">
-      <p class="post-time posts-list-item-time small">
-        <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
-          {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
-        </time>
-      </p>
-      {{ partial "comments-counter" .Permalink }}
-    </div>
-  </div>
-
-  {{ else }}
-
-  <div class="post-news posts-list-item-news">
-    <h2 class="display-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <div class="row">
+    <div
+      class="row post-podcast"
+      data-controller="podcast"
+      data-target="connect.podcast"
+      data-podcast-url="{{ .Permalink }}"
+    >
       <div class="col-md-2">
+        <h2 class="number-title"><a href="{{ .Permalink }}">{{ partial "number-title" . }}</a></h2>
         <p class="post-time posts-list-item-time small">
           <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
-            {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
+            {{ index .Site.Data.ru (printf "%d" .Date.Month) }}
+            {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
           </time>
         </p>
         {{ partial "comments-counter" .Permalink }}
       </div>
-      <!--<div class="post-podcast-cover col-md-3 order-md-3">-->
-      <!--<div class="cover-image-wrapper">-->
-      <!--<div class="cover-image" style="background-image: url('{{ .Params.image }}');"></div>-->
-      <!--</div>-->
-      <!--</div>-->
-      <div class="text-content col-md-8" data-controller="highlight">
+      <div class="post-podcast-cover col-md-3 order-md-3">
+        <div class="cover-image-wrapper">
+          <a
+            data-target="podcast.cover"
+            href="{{ .Permalink }}" class="cover-image"
+            {{ with .Params.image }}
+              style="background-image: url('{{ . }}');"
+            {{ end }}
+          >
+            <button
+              class="cover-play-button fas d-none"
+              data-target="podcast.playButton"
+              data-action="podcast#play"
+            >
+              {{/* https://css-tricks.com/fitting-text-to-a-container/#article-header-id-7 */}}
+              <svg class="icon play-icon" viewBox="0 0 18 18">
+                <text x="2" y="15.2">&#xf04b;</text>
+              </svg>
+              <svg class="icon pause-icon" viewBox="0 0 18 18">
+                <text x="2" y="15.2">&#xf04c;</text>
+              </svg>
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="post-podcast-content text-content col-md-7 col-lg-5 no-js" data-controller="podcast-content">
         {{ .Content }}
       </div>
+      <div class="col-lg-2 order-md-4">
+        <p>Sponsor</p>
+        <p>Audio</p>
+        <p>Chat logs</p>
+      </div>
     </div>
-  </div>
 
+  {{ else if in .Params.categories "prep" }}
+
+    <div class="row post-prep posts-list-item-prep">
+      <div class="col-md-2">
+        <h2 class="number-title">
+          <a class="text-muted" href="{{ .Permalink }}">{{ partial "number-title" . }}</a>
+        </h2>
+      </div>
+      <div class="col-md">
+        <p class="post-time posts-list-item-time small">
+          <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
+            {{ index .Site.Data.ru (printf "%d" .Date.Month) }}
+            {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
+          </time>
+        </p>
+        {{ partial "comments-counter" .Permalink }}
+      </div>
+    </div>
+
+  {{ else }}
+
+    <div class="post-news posts-list-item-news">
+      <h2 class="display-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <div class="row">
+        <div class="col-md-2">
+          <p class="post-time posts-list-item-time small">
+            <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
+              {{ index .Site.Data.ru (printf "%d" .Date.Month) }}
+              {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
+            </time>
+          </p>
+          {{ partial "comments-counter" .Permalink }}
+        </div>
+        <div class="text-content col-md-8" data-controller="highlight">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
 
   {{ end }}
 </article>

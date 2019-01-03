@@ -1,13 +1,13 @@
 {{ if eq (getenv "NODE_ENV") "development" }}
-<link href="/build/vendor.css" rel="stylesheet">
-<link href="/build/app.css" rel="stylesheet">
-<script src="/build/modernizr-bundle.js"></script>
-<script src="/build/app.js"></script>
+  <link href="/build/vendor.css" rel="stylesheet">
+  <link href="/build/app.css" rel="stylesheet">
+  <script src="/build/modernizr-bundle.js"></script>
+  <script src="/build/app.js"></script>
 {{ else }}
-<link href="/build{{ index .Site.Data.manifest "/vendor.css" }}" rel="stylesheet">
-<link href="/build{{ index .Site.Data.manifest "/app.css" }}" rel="stylesheet">
-<script src="/build{{ index .Site.Data.manifest "/modernizr-bundle.js" }}"></script>
-<script src="/build{{ index .Site.Data.manifest "/manifest.js" }}"></script>
-<script src="/build{{ index .Site.Data.manifest "/vendor.js" }}"></script>
-<script src="/build{{ index .Site.Data.manifest "/app.js" }}"></script>
+  <link href="/build{{ index .Site.Data.manifest "/vendor.css" }}" rel="stylesheet">
+  <link href="/build{{ index .Site.Data.manifest "/app.css" }}" rel="stylesheet">
+  <script src="/build{{ index .Site.Data.manifest "/modernizr-bundle.js" }}"></script>
+  <script src="/build{{ index .Site.Data.manifest "/manifest.js" }}"></script>
+  <script src="/build{{ index .Site.Data.manifest "/vendor.js" }}"></script>
+  <script src="/build{{ index .Site.Data.manifest "/app.js" }}"></script>
 {{ end }}

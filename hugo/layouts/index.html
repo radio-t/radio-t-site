@@ -1,35 +1,35 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" . }}
+  {{ partial "jumbotron" . }}
 
-<div class="container-fluid py-3 py-md-5">
-  <div class="posts-list">
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+  <div class="container-fluid py-3 py-md-5">
+    <div class="posts-list">
+      {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
 
-    {{ range $index, $_ := $paginator.Pages }}
-      {{ .Render "li" }}
+      {{ range $index, $_ := $paginator.Pages }}
+        {{ .Render "li" }}
 
-      {{ if (eq $index 1) }}
-        {{ if (eq $paginator.PageNumber 1) }}
-          {{ partial "online-banner" . }}
+        {{ if (eq $index 1) }}
+          {{ if (eq $paginator.PageNumber 1) }}
+            {{ partial "online-banner" . }}
+          {{ end }}
         {{ end }}
       {{ end }}
-    {{ end }}
 
-    {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
-    <div class="pagination">
-      {{ if $paginator.HasNext }}
-      <a class="prev" href="{{ .URL }}page/{{ $paginator.Next.PageNumber }}/">&larr; Раньше</a>
-      {{ end }}
+      {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
+        <div class="pagination">
+          {{ if $paginator.HasNext }}
+            <a class="prev" href="{{ .URL }}page/{{ $paginator.Next.PageNumber }}/">&larr; Раньше</a>
+          {{ end }}
 
-      <a href="/archives/">Архивы подкаста</a>
+          <a href="/archives/">Архивы подкаста</a>
 
-      {{ if $paginator.HasPrev }}
-      <a class="next" href="{{ .URL }}page/{{ $paginator.Prev.PageNumber }}/">Позже &rarr;</a>
+          {{ if $paginator.HasPrev }}
+            <a class="next" href="{{ .URL }}page/{{ $paginator.Prev.PageNumber }}/">Позже &rarr;</a>
+          {{ end }}
+        </div>
       {{ end }}
     </div>
-    {{ end }}
   </div>
-</div>
 
 {{ end }}

@@ -24,18 +24,21 @@
   {{ partial "assets" . }}
 
   {{ if ne .Title "Слушать Online вещание"}}
-  <script type="text/javascript">
-    // audiojs.events.ready(function() {
-    //   var as = audiojs.createAll();
-    // });
-  </script>
+    <script type="text/javascript">
+      // audiojs.events.ready(function() {
+      //   var as = audiojs.createAll();
+      // });
+    </script>
   {{ end }}
 
   {{ if eq (getenv "HUGO_ENV") "production" }}
-  {{ partial "js_head.html" . }}
+    {{ partial "js_head.html" . }}
   {{ end }}
 </head>
-<body data-controller="connect" data-action="podcast-play->connect#playPodcast podcast-connected->connect#updatePodcasts">
+<body
+  data-controller="connect"
+  data-action="podcast-play->connect#playPodcast podcast-connected->connect#updatePodcasts"
+>
 
 {{ partial "navbar.html" . }}
 
@@ -49,12 +52,25 @@
       <div class="row">
         <div class="col-md-3">
           <h6>Радио-Т, {{ .Site.LastChange.Year }}</h6>
-          <a href="http://feeds.rucast.net/radio-t"><img align="absmiddle" src="/images/podcast-feed.png"></a>
-          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=256504435"><img align="absmiddle" src="/images/itunes-feed.png"></a>
+          <a href="http://feeds.rucast.net/radio-t">
+            <img src="/images/podcast-feed.png">
+          </a>
+          <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=256504435">
+            <img src="/images/itunes-feed.png">
+          </a>
           <table>
             <tr>
               <td>
-                <a rel="license" href="/license/" rel="nofollow"><img alt="Creative Commons License" style="border-width:0" align="left" hspace="1" margin="3px" paging="3px" src="/images/88x30.png" float="left"></a>
+                <a rel="license" href="/license/" rel="nofollow">
+                  <img
+                    alt="Creative Commons License"
+                    style="border-width:0"
+                    align="left" hspace="1"
+                    margin="3px" paging="3px"
+                    src="/images/88x30.png"
+                    float="left"
+                  >
+                </a>
               </td>
               <td>&nbsp;&nbsp;&nbsp;</td>
               <td>
@@ -66,7 +82,10 @@
         </div>
         <div class="col-md-3">
           <div>Пишите нам на <a href="mailto:{{ .Site.Params.author }}">{{ .Site.Params.author }}</a></div>
-          <div>Авторы и гости высказывают свое профессиональное и исключительно субъективное мнение. Смиритесь с тем, что оно может не совпадать с вашим мнением и наслаждайтесь.</div>
+          <div>
+            Авторы и гости высказывают свое профессиональное и исключительно субъективное мнение. Смиритесь
+            с тем, что оно может не совпадать с вашим мнением и наслаждайтесь.
+          </div>
 
           <table>
             <tbody>
@@ -77,8 +96,10 @@
               <td>&nbsp;</td>
               <td>
                 <br/>
-                <h5 class="helppod" id="helppod" style="margin-top:5px; font-size:11pt; font-weight: normal; text-transform: none; color: #5e5e5e">
-                  Вы можете <a href="http://friends.radio-t.com/">помочь</a> любимому подкасту любой суммой
+                <h5 class="helppod" id="helppod"
+                    style="margin-top:5px; font-size:11pt; font-weight: normal; text-transform: none; color: #5e5e5e">
+                  Вы можете <a href="http://friends.radio-t.com/">помочь</a> любимому подкасту любой
+                  суммой
                 </h5>
               </td>
             </tr>
@@ -101,9 +122,11 @@
           <ul class="footer-links">
             <li><a href="https://news.radio-t.com">Темы выпусков от авторов Радио-Т</a></li>
             <li><a href="/api-docs/">API Радио-Т</a></li>
-            <li>Twitter - <a href="https://twitter.com/radio_t">@radio_t</a> и <a href="https://twitter.com/radiot_news">@radiot_news</a></li>
-            <li>Комментарии <a href="https://twitter.com/radiot_comments">твитер</a> и <a href="https://t.me/radiot_comments">телеграмм</a></li>
-            <li><a href="https://www.amazon.com/Lalala-Radio-T/dp/B07C56W9WD">Подкаст на Alexa</a> </li>
+            <li>Twitter - <a href="https://twitter.com/radio_t">@radio_t</a> и <a
+                href="https://twitter.com/radiot_news">@radiot_news</a></li>
+            <li>Комментарии <a href="https://twitter.com/radiot_comments">твитер</a> и <a
+                href="https://t.me/radiot_comments">телеграмм</a></li>
+            <li><a href="https://www.amazon.com/Lalala-Radio-T/dp/B07C56W9WD">Подкаст на Alexa</a></li>
             <li><a href="/advertising/">Реклама в Радио-Т</a></li>
           </ul>
         </div>
