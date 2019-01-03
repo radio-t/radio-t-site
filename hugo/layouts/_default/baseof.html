@@ -32,28 +32,27 @@
   {{ end }}
 
   {{ if eq (getenv "HUGO_ENV") "production" }}
-    {{ partial "js_head.html" . }}
+    {{ partial "js_head" . }}
   {{ end }}
 </head>
 <body
-  data-controller="connect"
-  data-action="podcast-play->connect#playPodcast podcast-connected->connect#updatePodcasts"
+  class="d-flex flex-column"
+  data-controller="page"
+  data-action="podcast-play->page#playPodcast podcast-connected->page#updatePodcasts"
 >
 
 {{ partial "navbar.html" . }}
 
-<div class="page">
-  <div class="main">
-    {{ block "main" . }}{{ end }}
-  </div>
-
-  <footer class="page-footer small text-muted text-content mt-5 py-5 border-top">
-    {{ partial "footer" . }}
-    {{ partial "player" . }}
-  </footer>
+<div class="page flex-grow-1">
+  {{ block "main" . }}{{ end }}
 </div>
 
-{{ partial "js_foot.html" . }}
+<footer class="page-footer py-5 border-top">
+  {{ partial "footer" . }}
+  {{ partial "player" . }}
+</footer>
+
+{{ partial "js_foot" . }}
 
 </body>
 </html>

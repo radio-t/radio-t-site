@@ -10,89 +10,71 @@
 {{ end }}
 
 {{ define "main" }}
-  <div>
-    {{ $classes := apply .Params.categories "printf" "article--%s" "." }}
-    <article class="article {{ delimit $classes " " }}">
-      <header>
-        <h1 class="article__title">{{ .Title }}</h1>
-        <p class="article__meta">
-          <time class="article__datetime" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}"
-                pubdate data-updated="true">
-            {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}
-            , {{ .Date.Year }} - {{ .Date.Unix }}
-          </time>
-        </p>
-      </header>
 
-      <div class="article-content article__content">
-        {{ .Content }}
+  <div class="pt-4 pt-lg-6 {{ delimit (apply .Params.categories "printf" "category-%s" ".") " " }}">
+
+    {{ if in .Params.categories "podcast" }}
+
+      <div class="container-fluid">
+        <div
+          class="row post-podcast"
+          data-controller="podcast"
+          data-target="page.podcast"
+          data-podcast-url="{{ .Permalink }}"
+        >
+          <div class="col-md-2 d-flex flex-column justify-content-between">
+            <div>
+              <h1 class="number-title">{{ partial "number-title" . }}</h1>
+              <p class="post-time small">{{ partial "post-time" . }}</p>
+            </div>
+            {{ partial "share" }}
+          </div>
+          <div class="col-md-3 order-md-3">{{ partial "podcast-cover" . }}</div>
+          <div class="post-podcast-content text-content col-md-7 col-lg-5 no-js" data-controller="podcast-content highlight">
+            {{ .Content }}
+          </div>
+          <div class="col-lg-2 order-md-4">
+            <p>Sponsor</p>
+            <p>Audio</p>
+            <p>Chat logs</p>
+          </div>
+        </div>
+        {{ partial "post-footer" . }}
+      </div>
+      {{ partial "comments-block" }}
+
+    {{ else if in .Params.categories "prep" }}
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <h1 class="number-title">{{ partial "number-title" . }}</h1>
+            <p class="post-time small">{{ partial "post-time" . }}</p>
+          </div>
+          <div class="col-md">
+            {{ partial "comments" }}
+          </div>
+          <div class="col-md-2">{{ partial "share" }}</div>
+        </div>
+        {{ partial "post-footer" . }}
       </div>
 
-      <footer class="article__footer">
-        <p class="article__footer-meta">
-        <span class="byline author vcard article__footer-meta-item">
-          <span class="fn">
-            {{ .Site.Params.author }}
-          </span>
-        </span>
+    {{ else }}
 
-          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-            {{ index .Site.Data.ru (printf "%d" .Date.Month) }}
-            {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
-          </time>
-
-          {{ with .Params.categories }}
-            <span class="categories">
-          {{ range . }}
-            <a class="category" href="/categories/{{ . }}">{{ . }}</a>
-          {{ end }}
-          </span>
-          {{ end }}
-        </p>
-
-        <p class="meta">
-          {{ if .PrevPage }}
-            {{ if eq .PrevPage.Type "posts" }}
-              <a href="{{ .PrevPage.Permalink }}"
-                 title="Next Post: {{ .PrevPage.Title }}">&laquo; {{ .PrevPage.Title }}</a>
-            {{ end }}
-          {{ end }}
-          {{ if .PrevPage }}
-            {{ if eq .PrevPage.Type "posts" }}
-              <a href="{{ .PrevPage.Permalink }}"
-                 title="Previous Post: {{ .PrevPage.Title }}">{{ .PrevPage.Title }} &raquo;</a>
-            {{ end }}
-          {{ else if in .Params.categories "podcast" }}
-            <strong>Сбор тем начинается в среду</strong>
-          {{ end }}
-        </p>
-        {{ partial "share" }}
-      </footer>
-    </article>
-
-    <section>
-      <div id="comment-policy" class="comment-policy">
-        <p>Тут у нас свобода слова, но за хамство можем забанить.</p>
-        <p>
-          Пожалуйста, прочитайте наши
-          <a
-            href="https://radio-t.com/comment-policy"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="policy-link">правила</a>
-          прежде чем комментировать.
-        </p>
-    </section>
-
-    <section>
-      <div id="remark42">
-        <noscript>
-          Please enable JavaScript to view the comments powered by Remark42.
-        </noscript>
+      <div class="container-fluid">
+        <h1 class="display-4 mb-4">{{ .Title }}</h1>
+        <div class="row">
+          <div class="col-md-2">
+            <p class="post-time small">{{ partial "post-time" . }}</p>
+            {{ partial "share" }}
+          </div>
+          <div class="text-content col-md-8" data-controller="highlight">
+            {{ .Content }}
+          </div>
+        </div>
+        {{ partial "post-footer" . }}
       </div>
-    </section>
+      {{ partial "comments-block" }}
+    {{ end }}
   </div>
-
-  {{ partial "sidebar.html" . }}
-
 {{ end }}

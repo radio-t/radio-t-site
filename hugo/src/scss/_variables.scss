@@ -75,7 +75,9 @@ $primary:       $blue;
 $light:         $gray-200;
 //$dark:          $gray-800;
 //
-//$theme-colors: ();
+$theme-colors: (
+  //"lighter": $gray-100,
+);
 //// stylelint-disable-next-line scss/dollar-variable-default
 //$theme-colors: map-merge(
 //    (

@@ -1,6 +1,6 @@
 <div
   data-controller="player"
-  data-target="connect.player"
+  data-target="page.player"
   id="player"
   data-turbolinks-permanent
   class="d-none"
@@ -10,23 +10,21 @@
     <div class="container-fluid">
       <div class="podcast-player">
         <div class="btn-toolbar align-items-center" role="toolbar">
-          <div class="podcast-player-cover cover-image-wrapper">
+          <div class="podcast-player-cover podcast-cover">
             <a class="cover-image" data-target="player.cover player.link"></a>
           </div>
           <h3 class="player-number ml-2 my-0"><a data-target="player.number player.link"></a></h3>
           <div class="btn-group mx-3" role="group">
-            <button type="button" class="btn btn-link px-1" data-action="player#seekBack">
+            <button class="btn btn-link" data-action="player#seekBack">
               <i class="fas fa-fw fa-undo-alt"></i>
             </button>
-            <button type="button" class="btn btn-link px-1" data-target="player.play"
-                    data-action="player#playPause">
+            <button class="btn btn-link" data-target="player.play" data-action="player#playPause">
               <i class="fas fa-fw fa-play"></i>
             </button>
-            <button type="button" class="btn btn-link px-1" data-target="player.pause"
-                    data-action="player#playPause">
+            <button class="btn btn-link" data-target="player.pause" data-action="player#playPause">
               <i class="fas fa-fw fa-pause"></i>
             </button>
-            <button type="button" class="btn btn-link px-1" data-action="player#seekForward">
+            <button class="btn btn-link" data-action="player#seekForward">
               <i class="fas fa-fw fa-redo-alt"></i>
             </button>
           </div>

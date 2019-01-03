@@ -9,9 +9,12 @@
       {{ range $index, $_ := $paginator.Pages }}
         {{ .Render "li" }}
 
-        {{ if (eq $index 1) }}
-          {{ if (eq $paginator.PageNumber 1) }}
-            {{ partial "online-banner" . }}
+        {{ if (eq $paginator.PageNumber 1) }}
+          {{ if (eq $index 1) }}
+            {{ partial "banner-broadcast" . }}
+          {{ end }}
+          {{ if (eq $index 5) }}
+            {{ partial "banner-links" . }}
           {{ end }}
         {{ end }}
       {{ end }}
@@ -19,13 +22,11 @@
       {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
         <div class="pagination">
           {{ if $paginator.HasNext }}
-            <a class="prev" href="{{ .URL }}page/{{ $paginator.Next.PageNumber }}/">&larr; Раньше</a>
+            <a href="{{ .URL }}page/{{ $paginator.Next.PageNumber }}/">&larr; Раньше</a>
           {{ end }}
-
           <a href="/archives/">Архивы подкаста</a>
-
           {{ if $paginator.HasPrev }}
-            <a class="next" href="{{ .URL }}page/{{ $paginator.Prev.PageNumber }}/">Позже &rarr;</a>
+            <a href="{{ .URL }}page/{{ $paginator.Prev.PageNumber }}/">Позже &rarr;</a>
           {{ end }}
         </div>
       {{ end }}

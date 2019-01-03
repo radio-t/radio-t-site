@@ -1,6 +1,11 @@
-- add 'image field' to all podcasts
+- regular page
+- archives
 
-- remove image from content body
+===
+
+- в теле подкаста скрывается все, кроме первого маркированного списка, который считается списком тем
+
+- add 'image field' to all podcasts
 
 - extract audio and chat links
 
@@ -14,13 +19,12 @@ AUDIO
 + add cover image and podcast number with link to podcast page
 - handle audio events
 - show playing state and pause on podcast covers
-- dont show player until play()
-- create preact component for player?
++ dont show player until play()
 
 + build for production
 
 + likely
-- remark
++ remark
 - add comments avatars to prep posts
 
 - если идет воспроизведение, то открывать все внешние ссылки в новом окне (если нет turbolinks, то и внутренние тоже)

@@ -1,0 +1,24 @@
+<div class="podcast-cover">
+  <a
+    class="cover-image"
+    data-target="podcast.cover"
+    href="{{ .Permalink }}"
+    {{ with .Params.image }}
+      style="background-image: url('{{ . }}');"
+    {{ end }}
+  >
+    <button
+      class="cover-play-button fas d-none"
+      data-target="podcast.playButton"
+      data-action="podcast#play"
+    >
+      {{/* https://css-tricks.com/fitting-text-to-a-container/#article-header-id-7 */}}
+      <svg class="icon play-icon" viewBox="0 0 18 18">
+        <text x="2" y="15.2">&#xf04b;</text>
+      </svg>
+      <svg class="icon pause-icon" viewBox="0 0 18 18">
+        <text x="2" y="15.2">&#xf04c;</text>
+      </svg>
+    </button>
+  </a>
+</div>
