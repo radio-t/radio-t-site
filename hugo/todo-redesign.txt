@@ -1,5 +1,10 @@
 - regular page
 - archives
+- show playing state on podcast covers
+- deploy to netlify
+- open PR
+- search
+- inline svg icons
 
 ===
 
@@ -17,8 +22,7 @@
 
 AUDIO
 + add cover image and podcast number with link to podcast page
-- handle audio events
-- show playing state and pause on podcast covers
+- handle audio events: end, seeking, show loaded areas
 + dont show player until play()
 
 + build for production
