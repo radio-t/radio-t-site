@@ -1,14 +1,20 @@
 @import "boot";
+@import "likely";
+@mixin dark {
+  background-color: #000;
+  filter: invert(1) hue-rotate(180deg);
+  img, .cover-image, .img {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
 body {
   margin-right: 60px;
   @media (prefers-color-scheme: dark) {
-    background-color: #000;
-    filter: invert(1) hue-rotate(180deg);
-    img, .cover-image {
-      filter: invert(1) hue-rotate(180deg);
-    }
+    @include dark;
   }
-  &[dark] {}
+  &[dark] {
+    @include dark;
+  }
 }
 html.js {
   .no-js {
@@ -175,6 +181,7 @@ $jumbotron-arc-width: 120%;
     }
     ul:first-of-type {
       display: block !important;
+      margin: 0;
     }
   }
 }
@@ -185,7 +192,9 @@ $jumbotron-arc-width: 120%;
     li {
       display: flex;
       align-items: baseline;
-      margin-bottom: $line-height-base * .5em;
+      & + li {
+        margin-top: $line-height-base * .5em;
+      }
       > em {
         display: block;
         white-space: nowrap;
@@ -304,7 +313,9 @@ $jumbotron-arc-width: 120%;
 //.post-prep-title {
 //}
 .podcast-player-container {
-  position: sticky;
+  //position: sticky;
+  position: fixed;
+  width: 100%;
   bottom: 0;
   padding-bottom: 2rem;
   > .container-fluid {

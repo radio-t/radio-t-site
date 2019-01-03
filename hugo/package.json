@@ -17,6 +17,7 @@
     "custom-event-polyfill": "^1.0.6",
     "highlight.js": "^9.13.1",
     "howler": "^2.1.1",
+    "ilyabirman-likely": "^2.3.1",
     "laravel-mix": "^4.0.12",
     "lodash": "^4.17.11",
     "node-sass": "^4.11.0",

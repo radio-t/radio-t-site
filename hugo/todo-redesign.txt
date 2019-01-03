@@ -11,10 +11,14 @@
   https://gohugo.io/content-management/front-matter/#predefined
 
 AUDIO
-- add cover image and podcast number with link to podcast page
++ add cover image and podcast number with link to podcast page
 - handle audio events
 - show playing state and pause on podcast covers
 - dont show player until play()
 - create preact component for player?
 
-- build for production
++ build for production
+
++ likely
+- remark
+- add comments avatars to prep posts

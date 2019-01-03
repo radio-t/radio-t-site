@@ -52,7 +52,9 @@ export default class extends Controller {
     this.pauseTarget.classList.add('d-none');
   }
 
-  onEnded() {}
+  onEnded() {
+    // @todo:
+  }
 
   playPodcast(detail) {
     if (this.loadPodcast(detail)) {

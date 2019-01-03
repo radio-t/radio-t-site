@@ -7,15 +7,20 @@
       data-target="connect.podcast"
       data-podcast-url="{{ .Permalink }}"
     >
-      <div class="col-md-2">
-        <h2 class="number-title"><a href="{{ .Permalink }}">{{ partial "number-title" . }}</a></h2>
-        <p class="post-time posts-list-item-time small">
-          <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
-            {{ index .Site.Data.ru (printf "%d" .Date.Month) }}
-            {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
-          </time>
-        </p>
-        {{ partial "comments-counter" .Permalink }}
+      <div class="col-md-2 d-flex flex-column justify-content-between">
+        <div>
+          <h2 class="number-title"><a href="{{ .Permalink }}">{{ partial "number-title" . }}</a></h2>
+          <p class="post-time posts-list-item-time small">
+            <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
+              {{ index .Site.Data.ru (printf "%d" .Date.Month) }}
+              {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
+            </time>
+          </p>
+          {{ partial "comments-counter" .Permalink }}
+        </div>
+        <div>
+          {{ partial "share" }}
+        </div>
       </div>
       <div class="post-podcast-cover col-md-3 order-md-3">
         <div class="cover-image-wrapper">
