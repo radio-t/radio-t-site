@@ -18,13 +18,15 @@ export default class extends Controller {
     }
   }
 
-  connect() {
-    this.element.dispatchEvent(new CustomEvent('podcast-connected', {bubbles: true}));
-  }
+  // connect() {
+  //   this.element.dispatchEvent(new CustomEvent('podcast-connected', {bubbles: true}));
+  // }
 
   play(e, timeLabel = null) {
     e.preventDefault();
     e.stopPropagation();
+
+    // see https://github.com/stimulusjs/stimulus/issues/200#issuecomment-434731830
     this.element.dispatchEvent(new CustomEvent('podcast-play', {
       bubbles: true,
       detail: {

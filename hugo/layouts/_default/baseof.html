@@ -21,9 +21,7 @@
 
   <link type="application/rss+xml" rel="alternate" title="{{ .Site.Title }}" href="http://feeds.rucast.net/radio-t"/>
 
-  <link href="/build/app.css" rel="stylesheet">
-  <script src="/build/modernizr-bundle.js"></script>
-  <script src="/build/app.js"></script>
+  {{ partial "assets" . }}
 
   {{ if ne .Title "Слушать Online вещание"}}
   <script type="text/javascript">

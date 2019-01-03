@@ -1,0 +1,10 @@
+// Load variables and mixins
+// Produces no css output
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "variables";
+@import "../../node_modules/bootstrap/scss/variables";
+
+@import "~@fortawesome/fontawesome-free/scss/variables";
+@import "~@fortawesome/fontawesome-free/scss/mixins";

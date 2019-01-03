@@ -1,14 +1,4 @@
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/mixins";
-@import "variables";
-@import "../../node_modules/bootstrap/scss/variables";
-@import "bootstrap";
-@import "~@fortawesome/fontawesome-free/scss/fontawesome";
-@import "~@fortawesome/fontawesome-free/scss/brands";
-@import "~@fortawesome/fontawesome-free/scss/regular";
-@import "~@fortawesome/fontawesome-free/scss/solid";
-//@import "screen";
-//@import "likely";
+@import "boot";
 body {
   margin-right: 60px;
   @media (prefers-color-scheme: dark) {

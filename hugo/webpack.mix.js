@@ -1,27 +1,21 @@
 const mix = require('laravel-mix');
 const ModernizrWebpackPlugin = require('modernizr-webpack-plugin');
 
-// mix.setPublicPath('static/build');
-// mix.setResourceRoot('/build');
-// Mix.manifest.name = '../../data/manifest.json';
-
 mix.js('src/js/app.js', '.');
 mix.sass('src/scss/app.scss', '.');
+mix.sass('src/scss/vendor.scss', '.');
 
-mix.babelConfig({
-  plugins: [
-    ['@babel/plugin-transform-react-jsx', {'pragma': 'h'}],
-    '@babel/plugin-proposal-class-properties',
-  ],
-});
+// ['@babel/plugin-transform-react-jsx', {'pragma': 'h'}], // add this to babel to support preact
+mix.babelConfig({plugins: ['@babel/plugin-proposal-class-properties']});
+mix.webpackConfig({plugins: [new ModernizrWebpackPlugin(require('./.modernizr'))]});
 
-mix.webpackConfig({
-  plugins: [
-    new ModernizrWebpackPlugin(require('./.modernizr')),
-  ],
-});
-
-if (!mix.inProduction()) {
+if (mix.inProduction()) {
+  mix.setPublicPath('static/build');
+  mix.setResourceRoot('/build');
+  mix.extract();
+  mix.version(['static/build/modernizr-bundle.js']);
+  Mix.manifest.name = '../../data/manifest.json';
+} else {
   mix.setPublicPath('dev/build');
   mix.setResourceRoot('/build');
 
@@ -29,14 +23,17 @@ if (!mix.inProduction()) {
   mix.webpackConfig({devtool: 'inline-source-map'});
 
   mix.browserSync({
-    // host: 'localhost',
-    // port: 3000,
+    host: process.env.DEV_HOST || 'localhost',
+    port: process.env.DEV_PORT || 3000,
     serveStatic: ['./dev'],
     proxy: {
-      target: 'localhost:1313',
+      target: `localhost:${process.env.HUGO_PORT || 1313}`,
       ws: true, // support websockets for hugo live-reload
     },
-    files: ['dev/build/app.css', 'dev/build/app.js'],
+    files: [ // watch files
+      'dev/build/*.css',
+      'dev/build/*.js',
+    ],
     // watch: true,
     open: false, // don't open in browser
     ignore: ['mix-manifest.json'],
@@ -45,8 +42,8 @@ if (!mix.inProduction()) {
         match: /<\/head>/i,
         fn: function (snippet, match) {
           return snippet + match;
-        }
-      }
+        },
+      },
     },
   });
 }
