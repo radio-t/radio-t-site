@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# Symlink html files to gohtml extension to take advantage of go template idea plugin
+
+set -ex
+
+for f in $(find layouts -type d); do 
+    mkdir -p go$f
+done
+
+for f in $(find layouts -name *.html); do 
+    ln -sf $PWD/$f "go$(dirname "$f")/$(basename "$f" .html).gohtml"
+done
