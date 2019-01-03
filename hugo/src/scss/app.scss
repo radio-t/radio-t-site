@@ -142,7 +142,13 @@ $jumbotron-arc-width: 120%;
     margin: 0 (-($jumbotron-arc-width - 100) / 2);
   }
 }
-.page__footer {
+.page-footer {
+  background-color: $gray-100;
+}
+.page-footer-links {
+  > li + li {
+    margin-top: .5em;
+  }
 }
 .number-title {
   margin-top: -.4rem;
@@ -168,7 +174,7 @@ $jumbotron-arc-width: 120%;
 .podcast-title-number {
   display: inline;
 }
-.posts-list {
+//.posts-list { // todo: revert
   .post-podcast-content {
     > * {
       display: none;
@@ -178,7 +184,7 @@ $jumbotron-arc-width: 120%;
       margin: 0;
     }
   }
-}
+//}
 .post-podcast-content {
   ul:first-of-type {
     padding: 0;
@@ -197,6 +203,7 @@ $jumbotron-arc-width: 120%;
         font-style: normal;
         font-family: $font-family-monospace;
         font-size: $small-font-size;
+        font-weight: $font-weight-bold;
         flex-shrink: 0;
         min-width: 5.5em;
         .fas {
@@ -306,22 +313,37 @@ $jumbotron-arc-width: 120%;
 }
 //.post-prep-title {
 //}
+.player-placeholder {
+  height: 2.5rem;
+}
 .podcast-player-container {
   //position: sticky;
   position: fixed;
   width: 100%;
-  bottom: 0;
-  padding-bottom: 2rem;
+  bottom: 1rem;
+  height: 0;
   > .container-fluid {
+    position: relative;
     max-width: 800px;
   }
 }
 .podcast-player {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: $white;
   color: $black;
   border: 2px solid $black;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba($black, .33);
   .btn {
-    font-size: 1.2em;
+    font-size: 1.4em;
+    transform: scale(1);
+    transition: all 150ms;
+    &:active {
+      transform: scale(.9);
+    }
   }
 }
 $podcast-player-seek-height: 2px;
@@ -348,13 +370,13 @@ $podcast-player-seek-thumb-width: 4px;
 .player-time {
   font-family: $font-family-monospace;
   font-weight: $font-weight-bold;
-  font-size: $small-font-size;
+  //font-size: $small-font-size;
 }
 .player-number {
   font-weight: $font-weight-bold;
   font-size: 1.2em;
 }
 .podcast-player-cover {
-  width: 2.5rem;
-  margin: .3rem;
+  width: 2.2rem;
+  margin: .15rem;
 }

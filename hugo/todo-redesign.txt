@@ -22,3 +22,5 @@ AUDIO
 + likely
 - remark
 - add comments avatars to prep posts
+
+- если идет воспроизведение, то открывать все внешние ссылки в новом окне (если нет turbolinks, то и внутренние тоже)
