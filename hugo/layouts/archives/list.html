@@ -23,7 +23,7 @@
         <div class="container-fluid">
           <nav class="nav nav-underline">
             {{ range $archives.Get "years" }}
-              <a class="nav-link" href="#yeah-{{ .year }}">
+              <a class="nav-link" href="#year-{{ .year }}">
                 <div class="nav-blog-archives-year">{{ .year }}</div>
                 <div class="nav-blog-archives-range" data-target="archives.range">&nbsp;</div>
               </a>
@@ -35,7 +35,7 @@
       <div class="container-fluid">
         {{ range $archives.Get "years" }}
           <div class="blog-archives-year">
-            <a class="blog-archives-year-anchor" name="yeah-{{ .year }}">{{ .year }}</a>
+            <a class="blog-archives-year-anchor" name="year-{{ .year }}">{{ .year }}</a>
             <h2 class="blog-archives-year-title">{{ .year }}</h2>
             <div class="blog-archives-year-list row" data-target="archives.list">
               {{ range .pages }}
