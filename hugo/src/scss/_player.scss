@@ -29,9 +29,12 @@ $podcast-player-cover-margin: .15rem;
   box-shadow: 0 3px 6px rgba($black, .33);
   .btn {
     padding: .25rem .25rem;
-    font-size: 1.4em;
+    font-size: 1.2em;
     transform: scale(1);
     transition: all 150ms;
+    &:hover {
+      transform: scale(1.05);
+    }
     &:active {
       transform: scale(.9);
     }

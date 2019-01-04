@@ -68,7 +68,8 @@ p, .jumbotron, .text-content {
   }
 }
 .container-fluid {
-  max-width: 1200px;
+  max-width: 1280px;
+  width: 90%;
 }
 .navbar {
   font-weight: bold;
@@ -200,12 +201,12 @@ $jumbotron-arc-width: 120%;
       display: flex;
       align-items: baseline;
       & + li {
-        margin-top: $line-height-base * .5em;
+        margin-top: $line-height-base * .33em;
       }
       > em {
         display: block;
         white-space: nowrap;
-        width: 18%;
+        width: calc((100% + 30px) / 5 - 15px);
         color: $text-muted;
         font-style: normal;
         font-family: $font-family-monospace;
