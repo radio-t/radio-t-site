@@ -59,7 +59,7 @@ module.exports = {
     // 'css/checked',
     // 'css/chunit',
     // 'css/columns',
-    // 'css/cssgrid',
+    'css/cssgrid',
     // 'css/cubicbezierrange',
     // 'css/displayrunin',
     // 'css/displaytable',

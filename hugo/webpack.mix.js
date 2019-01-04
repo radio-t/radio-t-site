@@ -35,7 +35,7 @@ if (mix.inProduction()) {
     },
     files: [ // watch files
       'dev/build/*.css',
-      'dev/build/*.js',
+      'dev/build/app.js',
     ],
     // watch: true,
     open: false, // don't open in browser
