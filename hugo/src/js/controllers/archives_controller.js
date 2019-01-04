@@ -6,8 +6,10 @@ import findLast from 'lodash/findLast';
 export default class extends Controller {
   static targets = ['range', 'list'];
 
+  ranges;
+
   initialize() {
-    const ranges = this.listTargets.map((list) => {
+    this.ranges = this.listTargets.map((list) => {
       const latest = find(list.children, (post) => post.querySelector('.podcast-title-number'));
       const earliest = findLast(list.children, (post) => post.querySelector('.podcast-title-number'));
       return uniq([earliest, latest]).map((post) => {
@@ -15,10 +17,22 @@ export default class extends Controller {
       }).filter(s => s).join(' – ');
     });
 
-    ranges.forEach((range, index) => {
-      this.rangeTargets[index].textContent = range;
-      this.rangeTargets[index].style.transitionDelay = `${index * 50}ms`;
-      this.rangeTargets[index].classList.add('in');
+    this.rangeTargets.forEach((target, index) => target.textContent = this.ranges[index]);
+  }
+
+  connect() {
+    this.rangeTargets.forEach((target, index) => {
+      target.style.transitionDelay = `${350 + index * 50}ms`;
+      target.style.transitionDuration = `200ms`;
+      target.style.transitionProperty = 'opacity';
+      target.style.opacity = 1;
+    });
+  }
+
+  disconnect() {
+    this.rangeTargets.forEach((target) => {
+      target.style.transitionDelay = `0ms`;
+      target.style.opacity = 0;
     });
   }
 }

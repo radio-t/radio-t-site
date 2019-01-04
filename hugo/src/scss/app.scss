@@ -441,10 +441,6 @@ $jumbotron-arc-width: 120%;
 .nav-blog-archives-range {
   opacity: 0;
   font-size: 65%;
-  &.in {
-    opacity: 1;
-    transition: opacity 150ms;
-  }
 }
 .blog-archives-post {
   position: relative;
