@@ -481,10 +481,10 @@ $text-muted:                  $gray-500;
 //$input-border-radius-sm:                $border-radius-sm;
 //
 //$input-focus-bg:                        $input-bg;
-//$input-focus-border-color:              lighten($component-active-bg, 25%);
+$input-focus-border-color:              $primary; //lighten($component-active-bg, 25%);
 //$input-focus-color:                     $input-color;
 //$input-focus-width:                     $input-btn-focus-width;
-//$input-focus-box-shadow:                $input-btn-focus-box-shadow;
+$input-focus-box-shadow:                0 0 0 2px $primary; //$input-btn-focus-box-shadow;
 //
 //$input-placeholder-color:               $gray-600;
 //$input-plaintext-color:                 $body-color;

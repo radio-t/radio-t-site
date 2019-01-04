@@ -71,28 +71,33 @@ p, .jumbotron, .text-content {
   max-width: 1280px;
   width: 90%;
 }
-.navbar {
+.navbar {}
+.navbar-nav {
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-size: 85%;
   @include media-breakpoint-up('lg') {
     .nav-item {
       padding: 0;
     }
     .nav-link {
       position: relative;
-      padding: $spacer ($spacer / 2) !important;
+      padding: $spacer * 2 ($spacer / 2) !important;
       transition: all 150ms;
       &:after {
         content: '';
         position: absolute;
         left: ($spacer / 2);
         right: ($spacer / 2);
-        bottom: 0;
+        top: 0;
+        //bottom: 0;
         height: 0;
         background-color: $primary;
         transition: all 150ms;
       }
       &:hover:after {
-        height: 3px;
+        height: 5px;
       }
     }
   }
@@ -100,8 +105,8 @@ p, .jumbotron, .text-content {
 .navbar-brand {
   display: inline-block;
   margin: -30px 0 -34px -15px;
-  width: 120px;
-  height: 56px;
+  width: 130px;
+  height: 64px;
   background: transparent url('../images/rt-header-logo.svg') no-repeat center;
   background-size: contain;
 }
