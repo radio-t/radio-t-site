@@ -1,1 +1,4 @@
 @import "~ilyabirman-likely/release/likely.css";
+.likely__widget:not(:hover) {
+  fill: $body-color;
+}
