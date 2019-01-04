@@ -23,7 +23,7 @@
         <div class="container-fluid">
           <nav class="nav nav-underline">
             {{ range $archives.Get "years" }}
-              <a class="nav-link" href="#year-{{ .year }}">
+              <a class="nav-link" href="#year-{{ .year }}" data-turbolinks="false">
                 <div class="nav-blog-archives-year">{{ .year }}</div>
                 <div class="nav-blog-archives-range" data-target="archives.range">&nbsp;</div>
               </a>
