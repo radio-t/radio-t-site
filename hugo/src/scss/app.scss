@@ -151,6 +151,7 @@ $jumbotron-arc-width: 120%;
   background-color: $gray-100;
 }
 .page-footer-links {
+  padding: 0;
   > li + li {
     margin-top: .5em;
   }
@@ -322,4 +323,39 @@ $jumbotron-arc-width: 120%;
 .post-footer {}
 .post-comments {
   background-color: $gray-100;
+}
+.page-cover-image {
+  display: block;
+  width: 100%;
+  padding-bottom: (100% / 3);
+  background-color: $gray-200;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.page-with-cover-image {
+  .page-share {
+    margin-top: map_get($spacers, 4);
+  }
+  .text-content {
+    @include media-breakpoint-up('md') {
+      background-color: $white;
+      margin: -8% -4% 0;
+      padding: 2em 4%;
+    }
+  }
+}
+.about-authors {
+  margin: 1rem 0;
+  text-align: center;
+  img {
+    display: block;
+    margin: 0 auto .5rem;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 120px;
+  }
+}
+.about-authors-item {
+  padding: 1rem 0;
 }

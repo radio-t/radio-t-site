@@ -1,15 +1,19 @@
 {{ define "main" }}
-  <div>
-    <article class="article">
-      <header class="article__header">
-        <h1 class="article__title article__page-title">{{ .Title }}</h1>
-      </header>
-      <div class="article-content article__content">
-        {{ .Content }}
+  <div class="py-4 py-lg-6 {{ if .Params.image }}page-with-cover-image{{ end }}">
+    <div class="container-fluid">
+      <h1 class="display-4 mb-4">{{ .Title }}</h1>
+      {{ if .Params.image }}
+        <div
+          class="page-cover-image"
+          style="background-image:url('{{ .Params.image }}');"
+        ></div>
+      {{ end }}
+      <div class="row">
+        <div class="col-md-8 order-md-2" data-controller="highlight">
+          <div class="text-content">{{ .Content }}</div>
+        </div>
+        <div class="page-share col-md-2 order-md-1">{{ partial "share" }}</div>
       </div>
-    </article>
+    </div>
   </div>
-
-  {{ partial "sidebar.html" . }}
-
 {{ end }}

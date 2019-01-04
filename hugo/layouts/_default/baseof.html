@@ -36,7 +36,7 @@
   {{ end }}
 </head>
 <body
-  class="d-flex flex-column"
+  class="d-flex flex-column {{ delimit (apply .Params.categories "printf" "category-%s" ".") " " }}"
   data-controller="page"
   data-action="podcast-play->page#playPodcast podcast-connected->page#updatePodcasts"
 >

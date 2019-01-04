@@ -30,10 +30,12 @@ export default class extends Controller {
         return child.nodeName === '#text' && child.textContent.match(/^[ \-.]+$/);
       }).forEach((node) => node.remove());
 
+      // Wrap all content except time label
       const wrapper = document.createElement('div');
       wrapper.classList.add('podcast-topic-label');
       while (li.firstChild) wrapper.append(li.firstChild);
 
+      // Put into dom
       li.append(timeLabel);
       li.append(wrapper);
     }
