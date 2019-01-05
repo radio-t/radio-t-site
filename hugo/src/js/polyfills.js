@@ -1,5 +1,10 @@
 require('custom-event-polyfill');
 
+// https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Polyfill
+if (window.NodeList && !NodeList.prototype.forEach) {
+  NodeList.prototype.forEach = Array.prototype.forEach;
+}
+
 // from:https://github.com/jserz/js_piece/blob/master/DOM/ChildNode/remove()/remove().md
 (function (arr) {
   arr.forEach(function (item) {

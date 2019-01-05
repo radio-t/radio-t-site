@@ -1,39 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="ru">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>
-    {{ if eq .URL "/" }}{{ .Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}
-  </title>
-
-  <meta name="description" content="{{ .Site.Params.description }}">
-  <meta name="keywords" content="{{ .Site.Params.keywords }}">
-  <meta name="author" content="{{ .Site.Params.author }}">
-
+  {{ partial "head" . }}
   {{ block "head" . }}{{ end }}
-
-  <!-- <meta name="google-site-verification" content="pLcR_MdStXodoLp6CHNHNRlrvyokHov1zoR_gWeflQo"> -->
-  <!-- <meta name="yandex-verification" content="43172e34fa5a4627"> -->
-
-  <link href="/favicon.ico" rel="shortcut icon">
-  <link href="{{ .Site.Params.url }}" rel="canonical">
-
-  <link type="application/rss+xml" rel="alternate" title="{{ .Site.Title }}" href="http://feeds.rucast.net/radio-t"/>
-
-  {{ partial "assets" . }}
-
-  {{ if ne .Title "Слушать Online вещание"}}
-    <script type="text/javascript">
-      // audiojs.events.ready(function() {
-      //   var as = audiojs.createAll();
-      // });
-    </script>
-  {{ end }}
-
-  {{ if eq (getenv "HUGO_ENV") "production" }}
-    {{ partial "js_head" . }}
-  {{ end }}
 </head>
 <body
   class="d-flex flex-column {{ delimit (apply .Params.categories "printf" "category-%s" ".") " " }}"
