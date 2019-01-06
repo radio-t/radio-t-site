@@ -6,8 +6,6 @@ image = "https://radio-t.com/images/radio-t/rt631.jpg"
 filename = "rt_podcast631"
 +++
 
-![](https://radio-t.com/images/radio-t/rt631.jpg)
-
 - [20 лет первому Jabber серверу](https://fr.movim.eu/?blog/debacle@movim.eu/happy-birthday-xmpp-20th-anniversary-of-1st-jabber-server-IBmtu8) - *00:01:55*.
 - [Google против Visual Studio Code](https://www.geekwire.com/2019/microsoft-declines-back-cmos-statement-majority-google-developers-using-visual-studio-code/) - *00:36:15*.
 - [Microsoft выбирает кандидатов по новому](https://www.businessinsider.fr/us/microsoft-new-developer-interview-process-2018-12/) - *00:48:18*.
