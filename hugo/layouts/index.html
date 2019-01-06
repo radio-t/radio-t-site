@@ -1,10 +1,19 @@
 {{ define "main" }}
 
-  {{ partial "jumbotron" . }}
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+  {{ .Scratch.Set "paginator" $paginator }}
+
+  {{ if (eq $paginator.PageNumber 1) }}
+    {{ partial "jumbotron" . }}
+  {{ end }}
 
   <div class="container-fluid py-3 py-md-5">
     <div class="posts-list">
-      {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+      {{ if (ne $paginator.PageNumber 1) }}
+        <div class="py-3 border-bottom">
+          {{ partial "paginator" . }}
+        </div>
+      {{ end }}
 
       {{ range $index, $_ := $paginator.Pages }}
         {{ .Render "li" }}
@@ -19,17 +28,9 @@
         {{ end }}
       {{ end }}
 
-      {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
-        <div class="pagination">
-          {{ if $paginator.HasNext }}
-            <a href="{{ .URL }}page/{{ $paginator.Next.PageNumber }}/">&larr; Раньше</a>
-          {{ end }}
-          <a href="/archives/">Архивы подкаста</a>
-          {{ if $paginator.HasPrev }}
-            <a href="{{ .URL }}page/{{ $paginator.Prev.PageNumber }}/">Позже &rarr;</a>
-          {{ end }}
-        </div>
-      {{ end }}
+      <div class="mt-5 py-3 border-top">
+        {{ partial "paginator" . }}
+      </div>
     </div>
   </div>
 

@@ -59,6 +59,16 @@ p, .jumbotron, .text-content {
   a:visited {
     //color: #430093;
   }
+  pre {
+    margin-left: calc((100vw - 100%) / -4);
+    margin-right: calc((100vw - 100%) / -4);
+    > code {
+      display: block;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 .text-light {
   color: rgba(#fff, .7);
@@ -112,10 +122,6 @@ p, .jumbotron, .text-content {
 }
 input[type="search"] {
   border-radius: 500px;
-}
-.blog-index {
-  article + article {
-  }
 }
 $jumbotron-arc-height: 5%;
 $jumbotron-arc-width: 120%;
@@ -231,7 +237,7 @@ $jumbotron-arc-width: 120%;
         }
         .has-audio &[data-action] {
           cursor: pointer;
-          transition: transform 30ms;
+          transition: transform 50ms;
           transform: translateX(0) scale(1.0001);
           .fas {
             display: inline-block;
