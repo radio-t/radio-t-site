@@ -1,4 +1,10 @@
-import debug from 'debug';
+let debug;
+
+if (process.env.NODE_ENV === 'production') {
+  debug = () => () => {};
+} else {
+  debug = require('debug');
+}
 
 const pool = {};
 

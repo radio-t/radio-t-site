@@ -27,10 +27,10 @@ export default class extends Controller {
   ];
 
   static getState() {
-    return this.state
+    return this.state;
   }
 
-  updateState (state) {
+  updateState(state) {
     Object.assign(this.constructor.state, state);
     this.dispatchEvent(this.element, new CustomEvent('player-state', {
       detail: {state: this.constructor.state},
@@ -45,10 +45,17 @@ export default class extends Controller {
 
   addEventListeners() {
     const events = ['timeupdate', 'durationchange', 'play', 'pause', 'ended'];
-    events.forEach((event) => {
+    events.forEach(event => {
       const handlerName = `on${capitalizeFirstLetter(event)}`;
       if (this[handlerName]) this.audioTarget.addEventListener(event, this[handlerName].bind(this));
     });
+
+    ['seeking', 'stalled', 'waiting', 'loadstart'].forEach(event => this.audioTarget.addEventListener(event, () => {
+      this.element.classList.add('player-loading');
+    }));
+    ['playing', 'seeked'].forEach(event => this.audioTarget.addEventListener(event, () => {
+      this.element.classList.remove('player-loading');
+    }));
   }
 
   playPodcast(detail) {

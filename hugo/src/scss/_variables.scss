@@ -955,14 +955,14 @@ $jumbotron-padding:                 1.5rem;
 //
 //// Progress bars
 //
-//$progress-height:                   1rem;
+$progress-height:                   3rem;
 //$progress-font-size:                ($font-size-base * .75);
 //$progress-bg:                       $gray-200;
 //$progress-border-radius:            $border-radius;
 //$progress-box-shadow:               inset 0 .1rem .1rem rgba($black, .1);
 //$progress-bar-color:                $white;
 //$progress-bar-bg:                   theme-color("primary");
-//$progress-bar-animation-timing:     1s linear infinite;
+$progress-bar-animation-timing:     5s linear infinite;
 //$progress-bar-transition:           width .6s ease;
 //
 //
