@@ -1,6 +1,10 @@
 // Load variables and mixins
 // Produces no css output
 
+@function px($px) {
+  @return $px * 1rem / 15;
+}
+
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "variables";

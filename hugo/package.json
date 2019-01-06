@@ -22,6 +22,7 @@
     "highlight.js": "^9.13.1",
     "howler": "^2.1.1",
     "ilyabirman-likely": "^2.3.1",
+    "input-range-scss": "^1.5.1",
     "intersection-observer": "^0.5.1",
     "laravel-mix": "^4.0.12",
     "lodash": "^4.17.11",

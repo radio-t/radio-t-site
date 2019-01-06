@@ -130,4 +130,9 @@ export default class extends Controller {
     }
   }
 
+  close() {
+    this.audioTarget.stop();
+    this.element.classList.add('d-none');
+  }
+
 }
