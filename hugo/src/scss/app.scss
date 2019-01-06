@@ -203,6 +203,20 @@ $jumbotron-arc-width: 120%;
     margin-top: $topic-spacer;
   }
 }
+.comments-counter-avatars {
+  margin-top: 1.3rem;
+}
+.comments-counter-avatars-item {
+  display: inline-block;
+  vertical-align: middle;
+  width: 2rem;
+  height: 2rem;
+  margin-right: .5rem;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 500px;
+}
 // Show only first ul in podcast content in list
 .posts-list {
   .post-podcast-content {

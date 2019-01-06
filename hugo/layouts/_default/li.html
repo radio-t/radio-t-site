@@ -33,6 +33,7 @@
       </div>
       <div class="col-md">
         {{ partial "comments-counter" .Permalink }}
+        <div class="comments-counter-avatars" data-controller="avatars" data-avatars-url="{{ .Permalink }}"></div>
       </div>
     </div>
 

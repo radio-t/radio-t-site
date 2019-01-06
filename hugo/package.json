@@ -13,6 +13,8 @@
     "start-turbo": "cross-env NODE_ENV=development cross-env MIX_TURBO=1 run-p watch hugo-no-live"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "axios-extensions": "^3.0.5",
     "bootstrap": "^4.2.1",
     "cross-env": "^5.2.0",
     "custom-event-polyfill": "^1.0.6",
