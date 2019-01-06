@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 464"
 date = "2015-10-03T18:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt464.jpg"
 filename = "rt_podcast464"
-+++
 
-![](https://radio-t.com/images/radio-t/rt464.jpg)
++++
 
 * [Otto заменяет Vagrant](https://www.ottoproject.io/intro/index.html).
 * [Nomad - кластер от HashiCorp](https://hashicorp.com/blog/nomad.html).

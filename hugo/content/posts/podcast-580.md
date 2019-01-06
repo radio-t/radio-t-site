@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 580"
 date = "2018-01-13T17:48:47"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt580.jpg"
 filename = "rt_podcast580"
-+++
 
-![](https://radio-t.com/images/radio-t/rt580.jpg)
++++
 
 - [Лучшее на CES 2018 по версии mashable](http://mashable.com/2018/01/09/best-tech-ces-2018/) - *00:02:18*.
 - [Лучшее на CES 2018 по версии WIRED](https://www.wired.com/gallery/best-of-ces-2018/) - *00:49:55*.

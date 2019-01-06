@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 539"
 date = "2017-03-25T18:06:45"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt539.jpg"
 filename = "rt_podcast539"
-+++
 
-![](https://radio-t.com/images/radio-t/rt539.jpg)
++++
 
 - [Обзор IntelliJ IDEA 2017.1](https://habrahabr.ru/company/JetBrains/blog/324578/) - *00:04:12*.
 - [Свежий Gogland](https://blog.jetbrains.com/go/2017/03/22/gogland-eap-7-faster-completion-package-rename-2017-1-platform-features-plugin-and-more/) - *01:07:33*.

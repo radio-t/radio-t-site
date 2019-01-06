@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 356"
 date = "2013-09-07T17:58:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt356.jpg"
 filename = "rt_podcast356"
-+++
 
-![](https://radio-t.com/images/radio-t/rt356.jpg)
++++
 
 * [Мифы о NoSQL](http://www.itexto.com.br/devkico/en/?p=20)
 * Новое [вокруг AWS](http://aws.typepad.com/aws/2013/09/new-aws-command-line-interface-cli.html)

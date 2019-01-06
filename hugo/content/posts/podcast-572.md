@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 572"
 date = "2017-11-18T17:36:44"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt572.jpg"
 filename = "rt_podcast572"
-+++
 
-![](https://radio-t.com/images/radio-t/rt572.jpg)
++++
 
 - [Firefox вернулся](http://mashable.com/2017/11/14/firefox-quantum-release/)!
 - [Mozilla и их странный договор с Yahoo](https://techcrunch.com/2017/11/14/mozilla-terminates-its-deal-with-yahoo-and-makes-google-the-default-in-firefox-again/).

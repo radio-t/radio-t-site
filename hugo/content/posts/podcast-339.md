@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 339"
 date = "2013-05-04T17:48:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt339.jpg"
 filename = "rt_podcast339"
-+++
 
-![](https://radio-t.com/images/radio-t/rt339.jpg)
++++
 
 * Конец [OOP уже наступил](http://blogs.msdn.com/b/alfredth/archive/2011/03/22/object-oriented-programming-is-dead.aspx).
 * [Polymorphism и Inheritance](http://www.javacodegeeks.com/2013/04/polymorphism-and-inheritance-are-independent-of-each-other.html) это не очень связанные понятия.

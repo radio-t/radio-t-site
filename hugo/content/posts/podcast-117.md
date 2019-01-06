@@ -1,12 +1,11 @@
 +++
 title = "Радио–Т 117"
 date = "2008-12-21T10:42:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast117"
+image = "https://radio-t.com/images/radio-t/rt117.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt117.jpg)
-
 
 - Предновогодние железки для радости
 - Почему Gmail лучше всех

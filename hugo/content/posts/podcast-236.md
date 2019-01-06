@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 236"
 date = "2011-04-24T03:00:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast236"
+image = "https://radio-t.com/images/radio-t/rt236.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt236.jpg)
-
 
 - [Skynet ](http://www.readwriteweb.com/archives/skynet_has_gone_live_everything_is_fine.php)не так уж и страшен
 - Серьезное [падение ](http://habrahabr.ru/blogs/cloud_computing/118001/)амазона

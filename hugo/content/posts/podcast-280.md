@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 280"
 date = "2012-03-18T02:55:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast280"
-+++
+image = "https://radio-t.com/images/radio-t/rt280.jpg"
 
-![](https://radio-t.com/images/radio-t/rt280.jpg)
++++
 
 - Раскрытие секретов [Amazon](http://www.wired.com/wiredenterprise/2012/03/amazon-ec2/)
 - Яндекс.[Навигатор](http://habrahabr.ru/blogs/yandex/139854/) - вполне неплохо, хотя...

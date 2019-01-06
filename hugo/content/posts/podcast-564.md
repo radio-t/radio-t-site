@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 564"
 date = "2017-09-23T18:48:07"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt564.jpg"
 filename = "rt_podcast564"
-+++
 
-![](https://radio-t.com/images/radio-t/rt564.jpg)
++++
 
 - [Java 9 наступила](https://blogs.oracle.com/java/java-9-release-now-available) - *00:02:51*.
 - [Apple выпустила Swift 4.0](http://www.opennet.ru/opennews/art.shtml?num=47235) - *00:12:15*.

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 336"
 date = "2013-04-13T18:04:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt336.jpg"
 filename = "rt_podcast336"
-+++
 
-![](https://radio-t.com/images/radio-t/rt336.jpg)
++++
 
 * [GitHub 5 лет](http://www.slashgear.com/github-turns-five-boasts-3-5-million-users-11277490/) и 3.5М пользователей.
 * 9 лет [Gmail](http://www.androidauthority.com/google-celebrates-9-years-gmail-infographic-188396/) с этапами большого пути.

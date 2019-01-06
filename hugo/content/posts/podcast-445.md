@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 445"
 date = "2015-05-23T17:40:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt445.jpg"
 filename = "rt_podcast445"
-+++
 
-![](https://radio-t.com/images/radio-t/rt445.jpg)
++++
 
 * [Java через 20 лет](http://www.javaworld.com/article/2924046/scripting-jvm-languages/java-at-20-jvm-javas-other-big-legacy.html).
 * [Библиотеке Qt исполнилось 20 лет](http://www.opennet.ru/opennews/art.shtml?num=42264).

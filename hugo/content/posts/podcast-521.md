@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 521"
 date = "2016-11-12T18:25:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt521.jpg"
 filename = "rt_podcast521"
-+++
 
-![](https://radio-t.com/images/radio-t/rt521.jpg)
++++
 
 - [Facebook всех похоронил](http://www.theverge.com/2016/11/11/13602824/facebook-just-killed-everyone) - *00:02:16*.
 - [Строим ботов](https://github.com/umputun/rt-bot) - *00:12:09*.

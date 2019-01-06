@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 75"
 date = "2008-03-02T11:07:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast75"
-+++
 
++++
 
 - Каптча [против](http://pcnews.ru/news/gmail-captcha-windows-live-websense-completely-automated-public-turing-test-to-tell-computers-215421.html) человечества
 - [Концепт](http://hitech.tomsk.ru/hitech/6909-momenta-pc-kompjuter-novogo-pokolenija.html) компьютера счастья

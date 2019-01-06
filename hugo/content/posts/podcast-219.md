@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 219"
 date = "2010-12-26T04:46:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast219"
-+++
+image = "https://radio-t.com/images/radio-t/rt219.jpg"
 
-![](https://radio-t.com/images/radio-t/rt219.jpg)
++++
 
 - [Net neutrality](http://www.readwriteweb.com/archives/fcc_passes_net_neutrality_everyone_delighted.php) почти тут. Оно нам надо?
 - Что случилось со [Skype](http://www.readwriteweb.com/archives/skype_apologizes_explains_todays_downtime.php)

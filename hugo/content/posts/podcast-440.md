@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 440"
 date = "2015-04-18T19:06:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt440.jpg"
 filename = "rt_podcast440"
-+++
 
-![](https://radio-t.com/images/radio-t/rt440.jpg)
++++
 
 * [Memex на смену Google-killer?](http://prsm.tc/6OJDts)
 * [Работать на спине](http://prsm.tc/Y7Za6u).

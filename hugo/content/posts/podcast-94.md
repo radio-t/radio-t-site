@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 94"
 date = "2008-07-13T08:53:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast94"
-+++
 
++++
 
 - Разговор со специальным гостем о мобильных хай–теках
 - Удар Apple по нашей лояльности

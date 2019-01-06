@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 203"
 date = "2010-09-05T04:12:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast203"
-+++
+image = "https://radio-t.com/images/radio-t/rt203.png"
 
-![](https://radio-t.com/images/radio-t/rt203.png)
++++
 
 - Специально о специальном [событии](http://habrahabr.ru/blogs/apple/103304/)
 - [Убийца](http://www.crunchgear.com/2010/09/03/the-samsung-galaxy-tab-can-set-its-own-price-no-need-to-directly-compete-with-the-ipads-500-price/) от Samsung на удивление хорош

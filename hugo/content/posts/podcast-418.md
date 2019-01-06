@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 418"
 date = "2014-11-15T17:23:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt418.jpg"
 filename = "rt_podcast418"
-+++
 
-![](https://radio-t.com/images/radio-t/rt418.jpg)
++++
 
 * [DigitalOcean теперь #3](http://prsm.tc/5TH0px)
 * [Amazon Aurora](http://aws.amazon.com/blogs/aws/highly-scalable-mysql-compat-rds-db-engine)

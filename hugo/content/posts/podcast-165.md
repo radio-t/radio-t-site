@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 165"
 date = "2009-12-13T07:42:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast165"
-+++
+image = "https://radio-t.com/images/radio-t/rt165.jpg"
 
-![](https://radio-t.com/images/radio-t/rt165.jpg)
++++
 
 - Гугловые [подарки ](http://habrahabr.ru/company/google/blog/77766/)прибыли
 - Еще и еще [таблетка](http://webplanet.ru/news/gadgets/2009/12/11/v_tablo.html)

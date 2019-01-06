@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 340"
 date = "2013-05-11T18:18:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt340.jpg"
 filename = "rt_podcast340"
-+++
 
-![](https://radio-t.com/images/radio-t/rt340.jpg)
++++
 
 * [Debian 7.0 Wheezy](http://bits.debian.org/2013/05/wheezy-released.html) вышла в свет.
 * Debian стала [системой для Google Compute Engine](http://techcrunch.com/2013/05/08/debian-will-serve-as-the-default-os-for-google-compute-engine/).

@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 93"
 date = "2008-07-06T09:19:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast93"
-+++
 
++++
 
 - Интернет сломался, или зачем Бобук туда ходит
 - SSD ест скорее много, чем мало

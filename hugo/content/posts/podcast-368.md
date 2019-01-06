@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 368"
 date = "2013-11-30T15:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt368.jpg"
 filename = "rt_podcast368"
-+++
 
-![](https://radio-t.com/images/radio-t/rt368.jpg)
++++
 
 * С днем [рожденья DNS](http://www.circleid.com/posts/20131127_the_30th_birthday_of_dns/)
 * [Вынос мозга от Yahoo](http://allthingsd.com/20131124/while-users-lament-only-25-percent-of-yahoos-willing-eat-mail-dogfood-memo/)

@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 197"
 date = "2010-07-25T06:22:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast197"
-+++
+image = "https://radio-t.com/images/radio-t/rt197.jpg"
 
-![](https://radio-t.com/images/radio-t/rt197.jpg)
++++
 
 - Убитые деревья проигрывают [битву](http://mashable.com/2010/07/19/amazon-kindle-sales/)
 - Украденный [код](http://www.opennet.ru/opennews/art.shtml?num=27269) представлен по истерический хохот

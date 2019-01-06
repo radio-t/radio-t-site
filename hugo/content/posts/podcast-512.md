@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 512"
 date = "2016-09-10T17:43:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt512.jpg"
 filename = "rt_podcast512"
-+++
 
-![](https://radio-t.com/images/radio-t/rt512.jpg)
++++
 
 - [Что нам показл Apple](http://gizmodo.com/everything-apple-announced-today-1786299295?rev=1473274955918) - *00:00:08*.
 - [Лучшие дни смартфонов прошли](http://billbennett.co.nz/2016/09/08/smartphone-glory-years/) - *00:37:48*.

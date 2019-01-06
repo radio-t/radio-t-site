@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 579"
 date = "2018-01-06T18:23:14"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt579.jpg"
 filename = "rt_podcast579"
-+++
 
-![](https://radio-t.com/images/radio-t/rt579.jpg)
++++
 
 - [Ужас Meltdown и Spectre](https://techcrunch.com/2018/01/03/kernel-panic-what-are-meltdown-and-spectre-the-bugs-affecting-nearly-every-computer-and-device/) - *00:02:56*.
 - [Докер мертв](https://habrahabr.ru/company/itsumma/blog/345976/?utm_source=habrahabr) - *00:53:19*.

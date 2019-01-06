@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 359"
 date = "2013-09-28T17:30:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt359.jpg"
 filename = "rt_podcast359"
-+++
 
-![](https://radio-t.com/images/radio-t/rt359.jpg)
++++
 
 * [30 лет проекту GNU](http://habrahabr.ru/post/195478/)
 * [Google Hummingbird](http://www.theguardian.com/technology/2013/sep/27/google-biggest-algorithm-change-hummingbird)

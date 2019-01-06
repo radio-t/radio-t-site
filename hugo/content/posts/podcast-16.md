@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 16"
 date = "2006-12-26T04:46:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast16"
-+++
 
++++
 
 Последний (в этом году), предпразничный и оооочень длинный выпуск
 

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 622"
 date = "2018-11-03T18:12:55"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt622.jpg"
 filename = "rt_podcast622"
-+++
 
-![](https://radio-t.com/images/radio-t/rt622.jpg)
++++
 
 - [Red Hat + IBM](https://www.redhat.com/en/blog/red-hat-ibm-creating-leading-hybrid-cloud-provider).
 - [IBM борется за облачный рынок](https://stratechery.com/2018/ibms-old-playbook/).

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 354"
 date = "2013-08-24T19:21:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt354.jpg"
 filename = "rt_podcast354"
-+++
 
-![](https://radio-t.com/images/radio-t/rt354.jpg)
++++
 
 * [Ballmer уходит](http://www.nytimes.com/2013/08/24/technology/ballmer-announces-retirement-from-microsoft.html)
 * В чем [корень проблем Apple](http://venturebeat.com/2013/08/23/the-core-of-apples-problem-is-tim-cook-scoble-says/)

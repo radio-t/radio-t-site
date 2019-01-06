@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 562"
 date = "2017-09-09T19:10:17"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt562.jpg"
 filename = "rt_podcast562"
-+++
 
-![](https://radio-t.com/images/radio-t/rt562.jpg)
++++
 
 - [Что Apple нам покажет](http://www.refinery29.com/2017/09/171454/apple-iphone-8-event-predictions-2017) - *00:02:35*.
 - [NGINX Unit](https://www.nginx.com/products/nginx-unit/) - *00:19:46*.

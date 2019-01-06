@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 610"
 date = "2018-08-11T18:37:37"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt610.jpg"
 filename = "rt_podcast610"
-+++
 
-![](https://radio-t.com/images/radio-t/rt610.jpg)
++++
 
 - [Утечка Snapchat](https://thenextweb.com/security/2018/08/07/hacker-swipes-snapchats-source-code-publishes-it-on-github/) - *00:02:24*.
 - [Amazon Aurora Serverless](https://sdtimes.com/cloud/amazon-aurora-serverless-now-generally-available/) - *00:19:28*.

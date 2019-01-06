@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 277"
 date = "2012-02-26T02:25:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast277"
+image = "https://radio-t.com/images/radio-t/rt277.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt277.png)
-
 
 - И вдруг показали [OS X Mountain Lion](http://habrahabr.ru/blogs/apple/138346/#habracut)
 - [Яндек(с)](http://techcrunch.com/2012/02/20/yandex-googles-russian-rival-is-twitters-newest-real-time-search-partner/) дружит с твитером и иногда находит людей

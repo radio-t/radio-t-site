@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 152"
 date = "2009-09-06T12:14:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast152"
-+++
+image = "https://radio-t.com/images/radio-t/rt152.png"
 
-![](https://radio-t.com/images/radio-t/rt152.png)
++++
 
 - [Итоги](http://habrahabr.ru/blogs/google_chrome/68665/) первого года Хрома
 - Неделя проблем у [больших](http://internetno.net/2009/09/02/gmail-fail/) и [менее больших](http://webplanet.ru/news/life/2009/09/02/outage.html)

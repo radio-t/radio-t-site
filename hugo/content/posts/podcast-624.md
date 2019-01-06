@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 624"
 date = "2018-11-17T17:31:06"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt624.jpg"
 filename = "rt_podcast624"
-+++
 
-![](https://radio-t.com/images/radio-t/rt624.jpg)
++++
 
 - [Время поддержки Ubuntu 18.04 увеличено до 10 лет](http://www.opennet.ru/opennews/art.shtml?num=49615) - *00:04:02*.
 - [HTTP поверх протокола QUIC будет HTTP/3](http://www.opennet.ru/opennews/art.shtml?num=49594) - *00:13:11*.

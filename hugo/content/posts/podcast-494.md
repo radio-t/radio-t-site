@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 494"
 date = "2016-05-07T18:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt494.jpg"
 filename = "rt_podcast494"
-+++
 
-![](https://radio-t.com/images/radio-t/rt494.jpg)
++++
 
 - [Command Line для DigitalOcean](https://www.digitalocean.com/company/blog/introducing-doctl/) - *00:01:04*.
 - [IBM запускает QAAS](http://techcrunch.com/2016/05/03/ibm-brings-experimental-quantum-computing-to-the-cloud/) - *00:13:01*.

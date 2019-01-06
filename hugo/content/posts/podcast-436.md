@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 436"
 date = "2015-03-21T18:00:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt436.jpg"
 filename = "rt_podcast436"
-+++
 
-![](https://radio-t.com/images/radio-t/rt436.jpg)
++++
 
 * [Опять новый Apple TV](http://prsm.tc/wVTUTB).
 * [Amazon опробует дроны](http://prsm.tc/BDNKJ8).

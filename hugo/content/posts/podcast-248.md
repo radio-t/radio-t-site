@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 248"
 date = "2011-07-24T01:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast248"
-+++
+image = "https://radio-t.com/images/radio-t/rt248.jpg"
 
-![](https://radio-t.com/images/radio-t/rt248.jpg)
++++
 
 - [Nginx](http://nginx.org/) будет красивым и богатым
 - Новый [язык](http://habrahabr.ru/blogs/java/124494/) от тех, кто не вызывал подозрений

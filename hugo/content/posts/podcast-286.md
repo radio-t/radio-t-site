@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 286"
 date = "2012-04-29T02:12:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast286"
+image = "https://radio-t.com/images/radio-t/rt286.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt286.jpg)
-
 
 - 30 лет [Sinclair ZX Spectrum](http://www.engadget.com/2012/04/23/zx-spectrum-google-doodle/)
 - Запуск [Google Drive](http://habrahabr.ru/post/142750/). Зачем это и кто виноват.

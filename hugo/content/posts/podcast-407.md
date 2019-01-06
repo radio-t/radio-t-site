@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 407"
 date = "2014-08-30T17:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt407.jpg"
 filename = "rt_podcast407"
-+++
 
-![](https://radio-t.com/images/radio-t/rt407.jpg)
++++
 
 * [Dropbox Pro](http://prsm.tc/jm5KaB) теперь дешево.
 * [Analytics Dashboard](http://techcrunch.com/2014/08/27/how-many-people-see-your-tweets-twitter-opens-its-nifty-analytics-dashboard-to-everyone/) открыт для всех.

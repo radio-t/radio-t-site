@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 371"
 date = "2013-12-21T16:27:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt371.jpg"
 filename = "rt_podcast371"
-+++
 
-![](https://radio-t.com/images/radio-t/rt371.jpg)
++++
 
 * [10 технических провалов 2013](http://readwrite.com/2013/12/20/top-10-tech-failures-of-2013)
 * 10 успешных проектов [на Kickstarter](http://www.makeuseof.com/tag/10-successful-kickstarter-projects-in-2013-for-our-everyday-lives/)

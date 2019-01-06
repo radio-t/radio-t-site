@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 432"
 date = "2015-02-21T16:57:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt432.jpg"
 filename = "rt_podcast432"
-+++
 
-![](https://radio-t.com/images/radio-t/rt432.jpg)
++++
 
 * [Как падает Google Cloud](https://status.cloud.google.com/incident/compute/15045)
 * [Яндех говорит - Do not be evil](http://habrahabr.ru/post/250887/)

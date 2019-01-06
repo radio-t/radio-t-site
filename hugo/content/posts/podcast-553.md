@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 553"
 date = "2017-07-08T17:58:49"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt553.jpg"
 filename = "rt_podcast553"
-+++
 
-![](https://radio-t.com/images/radio-t/rt553.jpg)
++++
 
 - [Docker 17.06 CE](https://blog.docker.com/2017/06/announcing-docker-17-06-community-edition-ce/) - *00:04:15*.
 - [Go kit - фреймворк или нет](https://gokit.io/) - *00:20:55*?

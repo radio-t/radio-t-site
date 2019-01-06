@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 456"
 date = "2015-08-08T17:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt456.jpg"
 filename = "rt_podcast456"
-+++
 
-![](https://radio-t.com/images/radio-t/rt456.jpg)
++++
 
 * [Windows 10](http://www.theverge.com/2015/7/28/9045331/microsoft-windows-10-review).
 * [Удалять или оставить в покое](http://liberatum.ru/exclusive/windows-10-license)?

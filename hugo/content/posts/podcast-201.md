@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 201"
 date = "2010-08-22T07:49:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast201"
-+++
+image = "https://radio-t.com/images/radio-t/rt201.png"
 
-![](https://radio-t.com/images/radio-t/rt201.png)
++++
 
 - [Debian](http://digitizor.com/2010/08/16/happy-17th-birthday-debian-and-some-interesting-history/) можно наливать
 - Intel купил себе [антивирус](http://www.osnews.com/story/23705/Intel_To_Acquire_McAfee)

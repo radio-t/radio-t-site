@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 396"
 date = "2014-06-14T23:59:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt396.jpg"
 filename = "rt_podcast396"
-+++
 
-![](https://radio-t.com/images/radio-t/rt396.jpg)
++++
 
 - [Тетрису — 30](http://habrahabr.ru/post/225429/)
 - Amazon [запустил свою музыку](http://techcrunch.com/2014/06/11/amazon-turns-on-prime-music-streaming-sans-current-hits/)

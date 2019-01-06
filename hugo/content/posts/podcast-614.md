@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 614"
 date = "2018-09-08T18:49:30"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt614.jpg"
 filename = "rt_podcast614"
-+++
 
-![](https://radio-t.com/images/radio-t/rt614.jpg)
++++
 
 - [Яндекс.Облако](https://cloud.yandex.ru/docs) - *00:02:18*.
 - [Релиз Chrome 69 с переработанным интерфейсом](http://www.opennet.ru/opennews/art.shtml?num=49227) - *00:39:59*.

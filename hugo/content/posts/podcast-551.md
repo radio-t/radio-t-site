@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 551"
 date = "2017-06-24T18:36:49"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt551.jpg"
 filename = "rt_podcast551"
-+++
 
-![](https://radio-t.com/images/radio-t/rt551.jpg)
++++
 
 - [Object Storage для DigitalOcean](https://www.digitalocean.com/products/storage/object-storage/) - *00:04:29*.
 - [Google прекратит читать Gmail почту](https://techcrunch.com/2017/06/23/google-has-all-the-data-it-needs-will-stop-scanning-gmail-inboxes/) - *00:10:48*.

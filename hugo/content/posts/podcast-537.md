@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 537"
 date = "2017-03-11T17:34:07"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt537.jpg"
 filename = "rt_podcast537"
-+++
 
-![](https://radio-t.com/images/radio-t/rt537.jpg)
++++
 
 - [Visual Studio 2017](https://habrahabr.ru/company/microsoft/blog/323452/) - *00:00:26*.
 - [И некоторые детали](http://venturebeat.com/2017/03/07/microsoft-launches-visual-studio-2017/) - *00:03:52*.

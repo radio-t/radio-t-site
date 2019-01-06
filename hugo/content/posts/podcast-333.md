@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 333"
 date = "2013-03-23T18:36:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt333.jpg"
 filename = "rt_podcast333"
-+++
 
-![](https://radio-t.com/images/radio-t/rt333.jpg)
++++
 
 * [Tom Cruise](http://www.eonline.com/news/400660/tom-cruise-joins-russian-social-networking-site-thanks-fans-for-warm-welcome) теперь вконтакте с вами.
 * Выход [MongoDB 2.4](http://css.dzone.com/articles/mongodb-24-out?buffer_share=fb004).

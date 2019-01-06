@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 405"
 date = "2014-08-16T17:11:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt405.jpg"
 filename = "rt_podcast405"
-+++
 
-![](https://radio-t.com/images/radio-t/rt405.jpg)
++++
 
 * [BGP достиг рубежа](http://www.opennet.ru/opennews/art.shtml?num=40384).
 * [Slice из Raspberry](http://prsm.tc/52lkwT).

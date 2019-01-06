@@ -1,11 +1,10 @@
 +++
 title = "Радио–Т 104"
 date = "2008-09-21T06:58:00"
-categories = ["podcast"]
+categories = [ "podcast",]
+image = "https://radio-t.com/images/radio-t/rt104.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt104.png)
-
 
 - Подходим к правильной конференции
 - Праздники и юбилеи прошедшей недели

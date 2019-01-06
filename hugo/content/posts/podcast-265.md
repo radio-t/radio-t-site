@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 265"
 date = "2011-11-27T02:08:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast265"
+image = "https://radio-t.com/images/radio-t/rt265.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt265.jpg)
-
 
 - Ubuntu уже не так модно
 - Исчез самый знатный пользователь CouchDB

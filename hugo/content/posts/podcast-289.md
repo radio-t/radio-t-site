@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 289"
 date = "2012-05-20T03:37:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast289"
+image = "https://radio-t.com/images/radio-t/rt289.jpeg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt289.jpeg)
-
 
 - Рекордное IPO [Facebook](http://www.bloomberg.com/news/2012-05-17/facebook-raises-16-billion-in-biggest-technology-ipo-on-record.html)
 - [Chrome 19](http://techcrunch.com/2012/05/15/chrome-19-launches-now-features-built-in-tab-syncing/) вышел

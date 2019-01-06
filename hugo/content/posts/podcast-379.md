@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 379"
 date = "2014-02-15T16:13:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt379.jpg"
 filename = "rt_podcast379"
-+++
 
-![](https://radio-t.com/images/radio-t/rt379.jpg)
++++
 
 * Взлет и падение [Flappy Bird](http://www.wired.co.uk/news/archive/2014-02/13/flappy-bird)
 * [Microsoft чинит Skype](http://www.theverge.com/2014/2/13/5407762/skype-message-sync-fixes-features)

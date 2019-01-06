@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 383"
 date = "2014-03-15T16:46:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt383.jpg"
 filename = "rt_podcast383"
-+++
 
-![](https://radio-t.com/images/radio-t/rt383.jpg)
++++
 
 * День рожденья [World Wide Web!](http://www.w3.org/blog/news/archives/3715).
 * [Amazon AWS](http://gigaom.com/2014/03/14/amazons-ginormous-public-cloud-turns-8-today/) тоже празднует.

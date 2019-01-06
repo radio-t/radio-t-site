@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 620"
 date = "2018-10-20T18:17:33"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt620.jpg"
 filename = "rt_podcast620"
-+++
 
-![](https://radio-t.com/images/radio-t/rt620.jpg)
++++
 
 - [GitHub добавил Actions](https://techcrunch.com/2018/10/16/github-launches-actions-its-workflow-automation-tool/) - *00:04:00*.
 - [MongoDB поменяла лицензию](https://techcrunch.com/2018/10/16/mongodb-switches-up-its-open-source-license/) - *00:49:29*.

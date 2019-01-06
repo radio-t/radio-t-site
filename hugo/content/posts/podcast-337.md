@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 337"
 date = "2013-04-20T17:49:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt337.jpg"
 filename = "rt_podcast337"
-+++
 
-![](https://radio-t.com/images/radio-t/rt337.jpg)
++++
 
 * [Самые желаемые технологии](http://www.mpa-2007.org/top-5-items-most-wanted-in-computer-technology-at-home/) для дома.
 * Взрывной рост [Amazon S3](http://gigaom.com/2013/04/18/amazon-s3-goes-exponential-now-stores-2-trillion-objects/).

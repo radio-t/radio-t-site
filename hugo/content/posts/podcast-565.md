@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 565"
 date = "2017-09-30T19:13:44"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt565.jpg"
 filename = "rt_podcast565"
-+++
 
-![](https://radio-t.com/images/radio-t/rt565.jpg)
++++
 
 - [20 лет Яндексу](https://yandex.ru/20/) - *00:02:11*.
 - [Новый сервис доставки данных](https://flypigeon.co) - *00:13:46*.

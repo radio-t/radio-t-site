@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 510"
 date = "2016-08-27T18:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt510.jpg"
 filename = "rt_podcast510"
-+++
 
-![](https://radio-t.com/images/radio-t/rt510.jpg)
++++
 
 - 10 лет вместе с вами!
 - [Linux 25 лет](https://geektimes.ru/post/279756/).

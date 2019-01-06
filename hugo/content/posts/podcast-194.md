@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 194"
 date = "2010-07-04T06:32:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast194"
-+++
+image = "https://radio-t.com/images/radio-t/rt194.png"
 
-![](https://radio-t.com/images/radio-t/rt194.png)
++++
 
 - [Проблема](http://www.readwriteweb.com/archives/apple_admits_to_iphone_4_antenna_problems_sort_of.php) вроде есть, а на самом деле ее нет
 - Правильные [мишени](http://mashable.com/2010/06/29/iphone-4-ipad-shot-then-returned/) для тренировки

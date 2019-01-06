@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 470"
 date = "2015-11-14T16:53:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt470.jpg"
 filename = "rt_podcast470"
-+++
 
-![](https://radio-t.com/images/radio-t/rt470.jpg)
++++
 
 * [6 лет Go](http://blog.golang.org/6years).
 * Разговор с [вменяемым гостем](http://nodir.io) про Go.

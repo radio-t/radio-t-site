@@ -1,14 +1,11 @@
 +++
 title = "Радио-Т 318"
 date = "2012-12-08T17:15:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt318.jpg"
 filename = "rt_podcast318"
+
 +++
-
-
-![](https://radio-t.com/images/radio-t/rt318.jpg)
-
 
 * [Creative Commons](http://www.opennet.ru/opennews/art.shtml?num=35536) празднует десятилетие
 * Vitrum [браузер для iPad](http://ain.ua/2012/11/22/102844) от украинских разработчиков

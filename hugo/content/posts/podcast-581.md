@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 581"
 date = "2018-01-20T16:45:40"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt581.jpg"
 filename = "rt_podcast581"
-+++
 
-![](https://radio-t.com/images/radio-t/rt581.jpg)
++++
 
 - [Новые цены и новые дроплеты у DO](https://blog.digitalocean.com/new-droplet-plans/) - *00:05:08*.
 - [Взгляд на микросервисы в 2018](http://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/) - *00:26:22*.

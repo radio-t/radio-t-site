@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 293"
 date = "2012-06-16T18:09:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast293"
-+++
+image = "https://radio-t.com/images/radio-t/rt293.jpeg"
 
-![](https://radio-t.com/images/radio-t/rt293.jpeg)
++++
 
 - [WWDC 2012](http://www.engadget.com/2012/06/11/wwdc-2012-keynote-roundup/) вполне хороша!
 - Новый [Air]( http://www.engadget.com/2012/06/11/apple-macbook-air-refresh-2012/). Все согласны.

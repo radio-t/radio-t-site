@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 290"
 date = "2012-05-27T02:19:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast290"
+image = "https://radio-t.com/images/radio-t/rt290.jpeg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt290.jpeg)
-
 
 - [ДР Хабра](http://habrahabr.ru/post/144586/)
 - [Chrome](http://mashable.com/2012/05/21/chrome-is-tops/) можно поздравить, молодцы!

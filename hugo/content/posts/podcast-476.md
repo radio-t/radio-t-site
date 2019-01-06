@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 476"
 date = "2015-12-26T16:31:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt476.jpg"
 filename = "rt_podcast476"
-+++
 
-![](https://radio-t.com/images/radio-t/rt476.jpg)
++++
 
 - [Что случилось с google public dns?](http://habrahabr.ru/post/274095/)
 - [25 лет первому сайту](http://www.engadget.com/2015/12/20/first-website-is-25-years-old/).

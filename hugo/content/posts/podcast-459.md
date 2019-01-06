@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 459"
 date = "2015-08-29T18:09:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt459.jpg"
 filename = "rt_podcast459"
-+++
 
-![](https://radio-t.com/images/radio-t/rt459.jpg)
++++
 
 * [Разблокирование Android жестами не безопасно](http://www.engadget.com/2015/08/22/android-lock-pattern-research/).
 * [iPhone 6S - слухи о новой камере](http://petapixel.com/2015/08/28/iphone-6s-camera-will-shoot-12mp-photos-and-4k-videos-report-says/).

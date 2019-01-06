@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 83"
 date = "2008-04-27T06:52:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast83"
-+++
 
++++
 
 - [Релиз](http://soft.compulenta.ru/355713/) убунты 8.04 плюс мягкое [обновление](http://soft.compulenta.ru/355285/) ядра
 - Свежие яблочные слухи

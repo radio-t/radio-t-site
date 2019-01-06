@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 294"
 date = "2012-06-23T20:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast294"
-+++
+image = "https://radio-t.com/images/radio-t/rt294.jpeg"
 
-![](https://radio-t.com/images/radio-t/rt294.jpeg)
++++
 
 * Взлом [каждого 10](http://www.cnews.ru/reviews/index.shtml?2012/06/19/493446) крупного сайта
 * [Flipboard](http://mashable.com/2012/06/22/flipboard-comes-to-android/) на Android

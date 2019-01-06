@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 268"
 date = "2011-12-18T03:12:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast268"
+image = "https://radio-t.com/images/radio-t/rt268.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt268.png)
-
 
 - Странная [пятерка](http://www.readwriteweb.com/archives/top_5_internet-connected_devices_of_2011.php) 2011 года
 - [16 ожиданий](http://reviews.cnet.com/8301-18438_7-57343942-82/16-most-anticipated-tech-products-of-2012/) 2012

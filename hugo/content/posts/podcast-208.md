@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 208"
 date = "2010-10-10T07:49:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast208"
-+++
+image = "https://radio-t.com/images/radio-t/rt208.jpg"
 
-![](https://radio-t.com/images/radio-t/rt208.jpg)
++++
 
 - Новый релиз старой [ОС](http://www.opennet.ru/opennews/art.shtml?num=28170)
 - Лучшее [2010](http://habrahabr.ru/company/aiken/blog/105516/)

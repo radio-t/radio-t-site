@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 504"
 date = "2016-07-16T18:52:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt504.jpg"
 filename = "rt_podcast504"
-+++
 
-![](https://radio-t.com/images/radio-t/rt504.jpg)
++++
 
 - [DigitalOcean запустил свой EBS](https://techcrunch.com/2016/07/13/digitalocean-launches-block-storage-and-lets-you-store-terabytes-of-data/).
 - [И еще детали](https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/?utm_medium=email).

@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 190"
 date = "2010-06-06T06:18:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast190"
-+++
+image = "https://radio-t.com/images/radio-t/rt190.png"
 
-![](https://radio-t.com/images/radio-t/rt190.png)
++++
 
 - В [гугле](http://lenta.ru/news/2010/06/01/refuse/) не будет виндузов. MS против
 - Почему нет миграции на W7 и как это решить

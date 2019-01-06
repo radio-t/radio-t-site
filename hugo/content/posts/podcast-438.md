@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 438"
 date = "2015-04-04T18:05:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt438.jpg"
 filename = "rt_podcast438"
-+++
 
-![](https://radio-t.com/images/radio-t/rt438.jpg)
++++
 
 * [Гиковские шутки на первое апреля](http://prsm.tc/CpnYxV).
 * [CLion 1.0](http://blog.jetbrains.com/clion/2015/04/clion-1-0-lets-start-the-countdown/).

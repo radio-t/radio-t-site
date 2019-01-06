@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 250"
 date = "2011-08-07T23:45:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast250"
-+++
 
++++
 
 - Гиковский, экстремальный выпуск
 - Темы наших слушателей

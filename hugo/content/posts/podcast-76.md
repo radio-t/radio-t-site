@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 76"
 date = "2008-03-09T12:33:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast76"
-+++
 
++++
 
 - SCO [встает](http://www.linux.org.ru/view-message.jsp?msgid=2584658) из небытия
 - Сервер развлечений [MG-450HD](http://www.hi-def.ru/besprovodnoi-mediatsentr-mediagate-mg450hd)

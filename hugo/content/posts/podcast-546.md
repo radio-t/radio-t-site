@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 546"
 date = "2017-05-20T18:14:18"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt546.jpg"
 filename = "rt_podcast546"
-+++
 
-![](https://radio-t.com/images/radio-t/rt546.jpg)
++++
 
 - [Достоверные слухи о новом iPhone 8](https://bgr.com/2017/05/17/iphone-8-release-date-2017-soon-real-life-photos-exclusive/) - *00:01:12*.
 - [Kotlin для Android: Теперь официально](https://habrahabr.ru/company/JetBrains/blog/329028/) - *00:12:38*.

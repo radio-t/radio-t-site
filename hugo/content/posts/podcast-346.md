@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 346"
 date = "2013-06-29T18:10:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt346.jpg"
 filename = "rt_podcast346"
-+++
 
-![](https://radio-t.com/images/radio-t/rt346.jpg)
++++
 
 * [5 лет Evernote](http://evernote.com/5year/).
 * А [Google+ уже 2 года](http://mashable.com/2013/06/28/google-plus-2-years/).

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 130"
 date = "2009-03-29T10:37:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast130"
+image = "https://radio-t.com/images/radio-t/rt130.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt130.png)
-
 
 - [Linux 2.6.29](http://www.opennet.ru/opennews/art.shtml?num=20897), много всего хорошего
 - [iPhone](http://www.engadget.com/2009/03/27/iphone-3g-finally-available-contract-free/) без контракта и со [Skype](http://gigaom.com/2009/03/26/skype-for-iphone-to-be-released-next-week/)

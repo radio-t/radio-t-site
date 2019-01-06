@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 15"
 date = "2006-12-17T04:50:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast15"
-+++
 
++++
 
 - Ограбленная MS, похищенный MacBook и сюрпризы от Google
 - Главная новость от Sun

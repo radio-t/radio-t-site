@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 482"
 date = "2016-02-06T16:48:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt482.jpg"
 filename = "rt_podcast482"
-+++
 
-![](https://radio-t.com/images/radio-t/rt482.jpg)
++++
 
 - [Разработчики как коты в коробке](http://mikehadlow.blogspot.com/2014/06/heisenberg-developers.html) - *00:04:09*.
 - [GitHub опубликовал отчёт с анализом аварии](http://www.opennet.ru/opennews/art.shtml?num=43817) - *00:32:50*.

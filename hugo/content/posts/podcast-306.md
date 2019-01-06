@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 306"
 date = "2012-09-15T17:20:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast306"
-+++
+image = "https://radio-t.com/images/radio-t/rt306.jpg"
 
-![](https://radio-t.com/images/radio-t/rt306.jpg)
++++
 
 * Большое [шоу от Apple](http://mashable.com/2012/09/12/apple-iphone-5-event-recap/) и что там не так
 * [iPhone 5](http://www.wired.com/gadgetlab/2012/09/the-iphone-5-is-boring-and-amazing/) скучно но солидно

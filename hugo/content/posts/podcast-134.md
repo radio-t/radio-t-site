@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 134"
 date = "2009-04-26T07:41:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast134"
+image = "https://radio-t.com/images/radio-t/rt134.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt134.png)
-
 
 - Новость недели! Оracle [поглощает](http://www.macrumors.com/2009/04/21/oracle-to-acquire-sun-for-7-4-billion/) Sun
 - Выход [Ubuntu 9.04](http://soft.compulenta.ru/421880/), Jaunty Jackalope

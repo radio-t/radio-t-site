@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 398"
 date = "2014-06-28T18:07:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt398.jpg"
 filename = "rt_podcast398"
-+++
 
-![](https://radio-t.com/images/radio-t/rt398.jpg)
++++
 
 * [X Window стукнуло 30](http://prsm.tc/xyFlph)
 * [Вернемся к Amazon Fire](http://www.nytimes.com/2014/06/19/technology/personaltech/amazon-fire-phones-missed-opportunities.html)

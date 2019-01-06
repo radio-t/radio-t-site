@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 347"
 date = "2013-07-06T19:12:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt347.jpg"
 filename = "rt_podcast347"
-+++
 
-![](https://radio-t.com/images/radio-t/rt347.jpg)
++++
 
 * [Вышло ядро Linux 3.10](http://habrahabr.ru/post/185178/) с [ARM big.LITTLE](http://www.engadget.com/2013/07/01/linux-kernel-3-10-arrives/).
 * Почему динамические языки [не подходят](http://williamedwardscoder.tumblr.com/post/54327549368/dynamic-languages-are-unmaintainable-and-unit-testing).

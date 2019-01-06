@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 353"
 date = "2013-08-17T18:08:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt353.jpg"
 filename = "rt_podcast353"
-+++
 
-![](https://radio-t.com/images/radio-t/rt353.jpg)
++++
 
 * [Проекту Debian 20 лет!](http://habrahabr.ru/post/190318/)
 * [Правило 20% больше не действует в Google](http://habrahabr.ru/post/190362/)

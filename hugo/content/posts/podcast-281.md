@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 281"
 date = "2012-03-25T02:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast281"
-+++
+image = "https://radio-t.com/images/radio-t/rt281.jpg"
 
-![](https://radio-t.com/images/radio-t/rt281.jpg)
++++
 
 - Дружно поздравляем [Twitter](http://mashable.com/2012/03/21/happy-6th-birthday-twitter/) и [GCC](https://www.linux.com/news/featured-blogs/196:zonker/556977:the-compiler-that-changed-the-world-turns-25)
 - Consumer Reports жжет про [горячий iPad](http://techcrunch.com/2012/03/20/dangerously-lukewarm/)

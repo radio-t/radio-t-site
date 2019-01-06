@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 179"
 date = "2010-03-22T00:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast179"
+image = "https://radio-t.com/images/radio-t/rt179.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt179.jpg)
-
 
 - Четверть века[ зоне .com](http://internet.cnews.ru/news/line/index.shtml?2010/03/15/382726)
 - Гугл нервно курит на [втором](http://internet.cnews.ru/news/line/index.shtml?2010/03/17/383035) месте

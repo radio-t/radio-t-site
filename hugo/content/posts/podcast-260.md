@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 260"
 date = "2011-10-23T03:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast260"
+image = "https://radio-t.com/images/radio-t/rt260.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt260.png)
-
 
 - [Ubuntu ](http://habrahabr.ru/blogs/ubuntu/130841/)уже 7
 - [Juick ](http://juick.com/juick/1590719)еще 3 года

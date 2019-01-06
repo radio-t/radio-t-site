@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 378"
 date = "2014-02-08T16:01:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt378.jpg"
 filename = "rt_podcast378"
-+++
 
-![](https://radio-t.com/images/radio-t/rt378.jpg)
++++
 
 * Что Сатья [должен сделать прямо сейчас](http://habrahabr.ru/post/211741/).
 * [Sony уходит из читалок](http://gigaom.com/2014/02/06/sony-exits-the-north-american-ebook-business-and-gives-its-customers-to-kobo/),

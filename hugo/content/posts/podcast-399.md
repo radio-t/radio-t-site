@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 399"
 date = "2014-07-05T17:17:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt399.jpg"
 filename = "rt_podcast399"
-+++
 
-![](https://radio-t.com/images/radio-t/rt399.jpg)
++++
 
 * [Увидел свет Eclipse Luna](http://www.opennet.ru/opennews/art.shtml?num=40081).
 * [Обзор достижений контейнерной изоляции](http://www.opennet.ru/opennews/art.shtml?num=40126).

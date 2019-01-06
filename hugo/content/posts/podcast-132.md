@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 132"
 date = "2009-04-12T05:26:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast132"
+image = "https://radio-t.com/images/radio-t/rt132.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt132.png)
-
 
 - Вся правда [о слонах](http://evernote.com)
 - Sun [не продается](http://habrahabr.ru/blogs/Sun/56613/)!

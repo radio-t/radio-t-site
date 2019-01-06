@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 159"
 date = "2009-11-01T08:56:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast159"
+image = "https://radio-t.com/images/radio-t/rt159.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt159.jpg)
-
 
 - Выход [Ubuntu 9.10](http://www.opennet.ru/opennews/art.shtml?num=24033)
 - [Google](http://www.techcrunch.com/2009/10/28/google-redefines-car-gps-navigation-google-maps-navigation-android/) разрушает рынок навигации

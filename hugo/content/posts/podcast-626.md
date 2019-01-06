@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 626"
 date = "2018-12-01T18:11:19"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt626.jpg"
 filename = "rt_podcast626"
-+++
 
-![](https://radio-t.com/images/radio-t/rt626.jpg)
++++
 
 - [Go 2 начинается](https://blog.golang.org/go2-here-we-come) - *00:01:31*.
 - [AWS Transfer for SFTP](https://aws.amazon.com/blogs/aws/new-aws-transfer-for-sftp-fully-managed-sftp-service-for-amazon-s3/) - *00:19:39*.

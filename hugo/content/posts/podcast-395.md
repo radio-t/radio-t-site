@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 395"
 date = "2014-06-07T21:57:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt395.jpg"
 filename = "rt_podcast395"
-+++
 
-![](https://radio-t.com/images/radio-t/rt395.jpg)
++++
 
 - WWDC 2014
 - Новинки OSX

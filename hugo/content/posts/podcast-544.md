@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 544"
 date = "2017-05-06T18:49:37"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt544.jpg"
 filename = "rt_podcast544"
-+++
 
-![](https://radio-t.com/images/radio-t/rt544.jpg)
++++
 
 - [Обучение программированию для нетерпеливых](https://hackernoon.com/the-impatient-programmers-guide-to-learning-e2960d0516a?gi=413f9afc6a75) - *00:07:26*.
 - [Клавиатуры для программистов](https://www.slant.co/topics/1150/~keyboards-for-programming) - *00:34:21*.

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 237"
 date = "2011-05-01T03:35:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast237"
+image = "https://radio-t.com/images/radio-t/rt237.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt237.jpg)
-
 
 - Гость о зарубежном IT визите
 - [Myspace ](http://www.readwriteweb.com/archives/news_corp_has_finally_had_it_accepting_bids_for_my.php)продается

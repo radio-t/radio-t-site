@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 462"
 date = "2015-09-19T18:27:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt462.jpg"
 filename = "rt_podcast462"
-+++
 
-![](https://radio-t.com/images/radio-t/rt462.jpg)
++++
 
 * [Amazon хочет сделать планшеты ширпотребом](http://geektimes.ru/post/262668/).
 * [Microsoft захотел свой собственный Linux](http://www.wired.com/2015/09/microsoft-using-linux-run-cloud/).

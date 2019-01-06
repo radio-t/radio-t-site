@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 595"
 date = "2018-04-28T18:36:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt595.jpg"
 filename = "rt_podcast595"
-+++
 
-![](https://radio-t.com/images/radio-t/rt595.jpg)
++++
 
 - [Новый Gmail](https://www.techradar.com/news/the-new-gmail-is-here-to-tackle-inbox-overload) - *00:06:59*.
 - [Из habrahabr.ru в habr.com](https://habr.com/company/tm/blog/93946/) - *00:22:48*.

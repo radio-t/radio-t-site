@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 422"
 date = "2014-12-13T17:24:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt422.jpg"
 filename = "rt_podcast422"
-+++
 
-![](https://radio-t.com/images/radio-t/rt422.jpg)
++++
 
 * [Google закрывает центр разработки в России](http://geektimes.ru/company/vcstart/blog/242851/)
 * [Maelstrom: веб по p2p](http://blog.bittorrent.com/2014/12/10/project-maelstrom-the-internet-we-build-next/)

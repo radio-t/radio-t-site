@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 567"
 date = "2017-10-14T18:34:26"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt567.jpg"
 filename = "rt_podcast567"
-+++
 
-![](https://radio-t.com/images/radio-t/rt567.jpg)
++++
 
 - [Новый Amazon Kindle с большим экраном](https://www.engadget.com/2017/10/11/amazon-new-kindle-oasis/) - *00:03:01*.
 - [События и новинки с  Pixel 2](https://www.theverge.com/2017/10/4/16418642/2017-google-event-news-pixel-2-xl-home-chromebook) - *00:22:54*.

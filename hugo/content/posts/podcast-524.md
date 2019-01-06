@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 524"
 date = "2016-12-03T17:43:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt524.jpg"
 filename = "rt_podcast524"
-+++
 
-![](https://radio-t.com/images/radio-t/rt524.jpg)
++++
 
 - [Конец MVC?](https://dzone.com/articles/mvc-is-dead-what-comes-next) - *00:20:33*
 - [Amazon Lightsail – убийца VPS](https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/) - *00:57:26*.

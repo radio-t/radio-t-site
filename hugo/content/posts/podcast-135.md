@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 135"
 date = "2009-05-03T07:43:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast135"
+image = "https://radio-t.com/images/radio-t/rt135.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt135.png)
-
 
 - Полный [конец](http://www.osnews.com/story/21412/2012_The_End_of_the_Internet) интернета и закат всего
 - Рывок линукса на [десктопы](http://www.opennet.ru/opennews/art.shtml?num=21546)

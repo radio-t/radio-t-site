@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 542"
 date = "2017-04-22T18:56:30"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt542.jpg"
 filename = "rt_podcast542"
-+++
 
-![](https://radio-t.com/images/radio-t/rt542.jpg)
++++
 
 - [Plastc закрывает лавочку](https://techcrunch.com/2017/04/20/plastc-goes-belly-up/) - *00:13:24*.
 - [Microsoft убила Wunderlist](https://thenextweb.com/apps/2017/04/20/microsoft-just-killed-wunderlist-to-launch-a-new-to-do-app/) - *00:26:31*.

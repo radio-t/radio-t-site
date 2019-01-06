@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 503"
 date = "2016-07-09T17:59:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt503.jpg"
 filename = "rt_podcast503"
-+++
 
-![](https://radio-t.com/images/radio-t/rt503.jpg)
++++
 
 - [Mongo в облаке - чем это хорошо](https://www.mongodb.com/cloud).
 - [WRT54GL Linksys живее всех](http://arstechnica.com/information-technology/2016/07/the-wrt54gl-a-54mbps-router-from-2005-still-makes-millions-for-linksys/).

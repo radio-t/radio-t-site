@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 155"
 date = "2009-09-27T08:27:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast155"
+image = "https://radio-t.com/images/radio-t/rt155.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt155.jpg)
-
 
 - у [твитера ](http://internetno.net/2009/09/25/twitter-2/)теперь много нолей
 - 13 и 12, [Рамблер ](http://habrahabr.ru/company/rambler/blog/70679/)и [Яндекс](http://habrahabr.ru/blogs/yandex/70358/)

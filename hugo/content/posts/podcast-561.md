@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 561"
 date = "2017-09-02T18:39:02"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt561.jpg"
 filename = "rt_podcast561"
-+++
 
-![](https://radio-t.com/images/radio-t/rt561.jpg)
++++
 
 - [Как неправильно готовить личные проекты](https://elsyms.com/the-art-of-over-engineering-your-side-projects/) - *00:03:33*.
 - [Что не так с SPA](https://medium.freecodecamp.org/why-i-hate-your-single-page-app-f08bb4ff9134?gi=dbfc70243139) - *00:22:23*.

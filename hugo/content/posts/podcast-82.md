@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 82"
 date = "2008-04-20T08:01:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast82"
-+++
 
++++
 
 - Главный праздник недели! Надо радоваться
 - RH и рынок домашних линуксов [в опасности](http://soft.compulenta.ru/354858/)

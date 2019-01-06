@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 223"
 date = "2011-01-23T05:52:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast223"
-+++
+image = "https://radio-t.com/images/radio-t/rt223.jpg"
 
-![](https://radio-t.com/images/radio-t/rt223.jpg)
++++
 
 - Немного утекшего HP/Palm’s webOS [устройства](http://www.engadget.com/2011/01/18/exclusive-hp-palms-webos-tablets-pictures-plans-and-mor/)
 - [Bizarre Product](http://mashable.com/2011/01/18/15-million-ipads/) по версии Apple

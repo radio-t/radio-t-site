@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 531"
 date = "2017-01-28T22:46:32"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt531.jpg"
 filename = "rt_podcast531"
-+++
 
-![](https://radio-t.com/images/radio-t/rt531.jpg)
++++
 
 - [Большие планы reddit на 2017](https://www.reddit.com/r/announcements/comments/5q4qmg/out_with_2016_in_with_2017/) - *00:00:31*.
 - [Google+ еще жив и совсем не мертв](http://mashable.com/2017/01/18/who-is-using-google-plus-anyway/) - *00:14:06*.

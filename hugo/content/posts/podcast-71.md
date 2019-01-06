@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 71"
 date = "2008-01-27T07:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast71"
-+++
 
++++
 
 - [Спад](http://business.compulenta.ru/346119/) IT-рынка
 - [Тонкий ноутбук](http://habrahabr.ru/blog/linux/34659.html) с правильной ОС

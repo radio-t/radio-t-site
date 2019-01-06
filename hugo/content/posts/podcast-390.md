@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 390"
 date = "2014-05-03T17:15:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt390.jpg"
 filename = "rt_podcast390"
-+++
 
-![](https://radio-t.com/images/radio-t/rt390.jpg)
++++
 
 * [BASIC стукнуло 50](http://www.engadget.com/2014/05/01/basic-programming-language-50th-birthday/)
 * [Жизнь программистов это ад](http://gizmodo.com/programming-sucks-why-a-job-in-coding-is-absolute-hell-1570227192)

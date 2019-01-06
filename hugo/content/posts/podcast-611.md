@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 611"
 date = "2018-08-18T18:09:02"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt611.jpg"
 filename = "rt_podcast611"
-+++
 
-![](https://radio-t.com/images/radio-t/rt611.jpg)
++++
 
 - [Google признается в страшном](https://www.theverge.com/2018/8/17/17715166/google-location-tracking-history-weather-maps) - *00:01:43*.
 - [Чем эта слежка нам грозит](https://www.engadget.com/2018/08/17/how-google-location-tracking-issue-affects-you/) - *00:10:53*.

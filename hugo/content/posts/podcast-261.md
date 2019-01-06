@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 261"
 date = "2011-10-30T01:55:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast261"
+image = "https://radio-t.com/images/radio-t/rt261.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt261.jpg)
-
 
 - 10 лет iPod с нами
 - Сотовые совсем безопасны и даже полезны

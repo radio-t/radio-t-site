@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 443"
 date = "2015-05-09T18:37:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt443.jpg"
 filename = "rt_podcast443"
-+++
 
-![](https://radio-t.com/images/radio-t/rt443.jpg)
++++
 
 * [Docker через 2 года](https://blog.docker.com/2015/05/dockers-2nd-birthday-by-the-numbers/).
 * [GitHub Atom через год](http://venturebeat.com/2015/05/06/githubs-atom-text-editor-picks-up-750k-downloads-in-its-first-year-with-300k-monthly-users/).

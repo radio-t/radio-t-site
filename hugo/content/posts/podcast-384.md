@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 384"
 date = "2014-03-22T16:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt384.jpg"
 filename = "rt_podcast384"
-+++
 
-![](https://radio-t.com/images/radio-t/rt384.jpg)
++++
 
 * [Выход Java 8](http://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html).
 * [IntelliJ IDEA 13.1](http://habrahabr.ru/company/JetBrains/blog/216667/).

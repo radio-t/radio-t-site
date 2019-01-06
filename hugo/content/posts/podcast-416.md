@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 416"
 date = "2014-11-01T18:43:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt416.jpg"
 filename = "rt_podcast416"
-+++
 
-![](https://radio-t.com/images/radio-t/rt416.jpg)
++++
 
 * [К 20й годовщине Design Patterns](http://www.informit.com/articles/article.aspx?p=2249437)
 * [Consul Template](https://hashicorp.com/blog/introducing-consul-template.html)

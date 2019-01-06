@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 497"
 date = "2016-05-28T17:49:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt497.jpg"
 filename = "rt_podcast497"
-+++
 
-![](https://radio-t.com/images/radio-t/rt497.jpg)
++++
 
 - [25 лет VB](https://blogs.msdn.microsoft.com/dotnet/2016/05/20/happy-25th-birthday-vb/) - *00:01:48*.
 - [Google победил в деле о Java](http://techcrunch.com/2016/05/26/jury-finds-googles-implementation-of-java-in-android-was-fair-use/) - *00:16:19*.

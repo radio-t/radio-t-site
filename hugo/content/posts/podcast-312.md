@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 312"
 date = "2012-10-27T17:58:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast312"
-+++
+image = "https://radio-t.com/images/radio-t/rt312.jpg"
 
-![](https://radio-t.com/images/radio-t/rt312.jpg)
++++
 
 * Apple показала [много всего разного](http://www.engadget.com/2012/10/23/apple-ipad-mini-event-roundup/)
 * [Apple плетется](http://gizmodo.com/5954433/apple-is-a-follower) в хвосте

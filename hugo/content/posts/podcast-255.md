@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 255"
 date = "2011-09-18T02:44:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast255"
-+++
+image = "https://radio-t.com/images/radio-t/rt255.png"
 
-![](https://radio-t.com/images/radio-t/rt255.png)
++++
 
 - С Днем программиста!
 - Возвращение программистских работ

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 411"
 date = "2014-09-27T17:20:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt411.jpg"
 filename = "rt_podcast411"
-+++
 
-![](https://radio-t.com/images/radio-t/rt411.jpg)
++++
 
 * [Ужас Shellshock Bash](http://www.troyhunt.com/2014/09/everything-you-need-to-know-about.html)
 * [Гнутые iPhone](http://www.bbc.co.uk/news/technology-29331349)

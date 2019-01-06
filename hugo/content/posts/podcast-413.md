@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 413"
 date = "2014-10-11T17:19:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt413.jpg"
 filename = "rt_podcast413"
-+++
 
-![](https://radio-t.com/images/radio-t/rt413.jpg)
++++
 
 * [Monit выкатил DMCA наезд](https://news.ycombinator.com/item?id=8416773)
 * [Развитие DynamoDB в сторону документов](http://www.allthingsdistributed.com/2014/10/document-model-dynamodb.html)

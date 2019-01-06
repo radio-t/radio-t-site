@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 488"
 date = "2016-03-19T19:02:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt488.jpg"
 filename = "rt_podcast488"
-+++
 
-![](https://radio-t.com/images/radio-t/rt488.jpg)
++++
 
 - [Atom 1.6 и 1.7 beta](http://blog.atom.io/2016/03/17/atom-1-6-and-1-7-beta.html) - *00:07:41*.
 - [TaskPaper 3](http://www.taskpaper.com/) - *00:17:13*.

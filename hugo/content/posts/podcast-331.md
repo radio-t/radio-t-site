@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 331"
 date = "2013-03-09T16:50:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt331.jpg"
 filename = "rt_podcast331"
-+++
 
-![](https://radio-t.com/images/radio-t/rt331.jpg)
++++
 
 * [Facebook обновился](http://www.bbc.co.uk/news/technology-21698765) не на шутку.
 * Причины [провала Windows 8](http://www.zdnet.com/five-reasons-why-windows-8-has-failed-7000012104/)

@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 454"
 date = "2015-07-26T00:58:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt454.jpg"
 filename = "rt_podcast454"
-+++
 
++++
 
 * [Fire Phone год спустя](http://www.cnet.com/news/fire-phone-one-year-later-why-amazons-smartphone-flamed-out/).
 * [У Амазона всё хорошо с AWS](http://social.techcrunch.com/2015/07/23/amazons-aws-unit-reports-q2-revenue-of-1-8b-391m-profit/).

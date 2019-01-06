@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 56"
 date = "2007-10-14T05:15:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast56"
-+++
 
++++
 
 - Правильная читалка Sony PRS-505
 - Разрушающий мозг WiFi

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 225"
 date = "2011-02-06T06:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast225"
+image = "https://radio-t.com/images/radio-t/rt225.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt225.jpg)
-
 
 - Конец интернета [наступил](http://www.opennet.ru/opennews/art.shtml?num=29489). Как жить дальше?
 - Что происходит с [работой](http://www.networkworld.com/news/2011/020311-it-job-hunting.html?hpg1=bn) в IT

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 582"
 date = "2018-01-27T17:35:02"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt582.jpg"
 filename = "rt_podcast582"
-+++
 
-![](https://radio-t.com/images/radio-t/rt582.jpg)
++++
 
 - [Облако от Hetzner](https://www.hetzner.com/cloud?country=us) - *00:04:11*.
 - [Почему он ушел из гугла](https://medium.com/@steve.yegge/why-i-left-google-to-join-grab-86dfffc0be84) - *00:26:43*.

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 173"
 date = "2010-02-07T06:41:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast173"
+image = "https://radio-t.com/images/radio-t/rt173.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt173.jpg)
-
 
 - Линус Торвальдс в [Top-100](http://www.linux.org.ru/news/linux-general/4519941)
 - [Стек](http://www.opennet.ru/opennews/art.shtml?num=25276) для GUI приложений имени Ubuntu

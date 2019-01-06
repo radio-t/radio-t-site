@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 424"
 date = "2014-12-27T17:48:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt424.jpg"
 filename = "rt_podcast424"
-+++
 
-![](https://radio-t.com/images/radio-t/rt424.jpg)
++++
 
 * [Десятка популярности языков за 2014](http://prsm.tc/9pkpRH)
 * [Linux в 2014](http://www.zdnet.com/article/linux-and-open-source-2014-it-was-the-best-of-years-it-was-the-worst-of-years/)

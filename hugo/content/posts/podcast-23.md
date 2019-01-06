@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 23"
 date = "2007-02-18T04:33:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast23"
-+++
 
++++
 
 - Yahoo добавила месенджер а Google собирается ввести оплату
 - Zune Phone и еще один, Open-Source убийца iPhone

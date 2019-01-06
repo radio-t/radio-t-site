@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 317"
 date = "2012-12-01T16:14:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast317"
-+++
+image = "https://radio-t.com/images/radio-t/rt317.jpg"
 
-![](https://radio-t.com/images/radio-t/rt317.jpg)
++++
 
 * [10 подарков](http://jaxenter.com/10-christmas-gift-ideas-for-developers-45677.html) для гиков
 * Библиотеки [не доллжны быть таким отстоем](http://akkartik.name/blog/libraries2)

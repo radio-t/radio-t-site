@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 70"
 date = "2008-01-20T07:12:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast70"
-+++
 
++++
 
 - Пара слов о [5-ти пунктах Джобса
 ](http://protusi.ru/itogi-macworld-conference-expo-2008/) - [Покупка/продажа MySQL](http://business.compulenta.ru/345168/)

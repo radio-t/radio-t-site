@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 592"
 date = "2018-04-07T18:47:25"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt592.jpg"
 filename = "rt_podcast592"
-+++
 
-![](https://radio-t.com/images/radio-t/rt592.jpg)
++++
 
 - [Быстрый и честный DNS на 1.1.1.1](https://blog.cloudflare.com/announcing-1111/) - *00:03:06*.
 - [История Stack Overflow](https://www.joelonsoftware.com/2018/04/06/the-stack-overflow-age/) - *00:16:34*.

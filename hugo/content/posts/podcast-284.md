@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 284"
 date = "2012-04-15T02:26:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast284"
+image = "https://radio-t.com/images/radio-t/rt284.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt284.png)
-
 
 - 20 лет [редактору](http://www.theverge.com/apps/2012/4/12/2944498/mac-text-editor-bbedit-celebrates-20-year-anniversary)
 - Facebook купил себе [Instagram](http://habrahabr.ru/post/141765/). Весь.

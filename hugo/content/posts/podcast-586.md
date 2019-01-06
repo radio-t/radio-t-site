@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 586"
 date = "2018-02-24T17:48:25"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt586.jpg"
 filename = "rt_podcast586"
-+++
 
-![](https://radio-t.com/images/radio-t/rt586.jpg)
++++
 
 - [MWC 2018: самые ожидаемые смартфоны](https://www.ferra.ru/ru/mobile/review/mwc-2018-rumors/) - *00:13:38*.
 - [Все подробности о Galaxy S9 и S9+](https://www.iguides.ru/main/gadgets/vse_podrobnosti_o_galaxy_s9_i_s9/) - *00:14:54*.

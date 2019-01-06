@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 235"
 date = "2011-04-17T03:31:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast235"
+image = "https://radio-t.com/images/radio-t/rt235.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt235.png)
-
 
 - FTP пошел на 5й десяток
 - [Яндекс.Деньги](http://internet.cnews.ru/news/top/index.shtml?2011/04/15/436734) приоткрыли свой API

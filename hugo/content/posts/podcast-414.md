@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 414"
 date = "2014-10-18T17:17:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt414.jpg"
 filename = "rt_podcast414"
-+++
 
-![](https://radio-t.com/images/radio-t/rt414.jpg)
++++
 
 * [Октябрьские премьеры Apple](http://geektimes.ru/post/240358/)
 * [Docker 1.3](https://blog.docker.com/2014/10/docker-1-3-signed-images-process-injection-security-options-mac-shared-directories/)

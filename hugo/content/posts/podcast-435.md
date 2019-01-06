@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 435"
 date = "2015-03-14T18:30:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt435.jpg"
 filename = "rt_podcast435"
-+++
 
-![](https://radio-t.com/images/radio-t/rt435.jpg)
++++
 
 * [Что наm показала Apple](http://prsm.tc/So7YF2)
 * [Новый Chromebook Pixel](http://prsm.tc/cQiHj1)

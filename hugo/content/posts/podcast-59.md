@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 59"
 date = "2007-11-04T07:08:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast59"
-+++
 
++++
 
 – Конец легенде о защищенности OSX
 – IT способы отьема денег

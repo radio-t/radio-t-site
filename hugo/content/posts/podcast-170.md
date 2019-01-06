@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 170"
 date = "2010-01-17T09:56:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast170"
+image = "https://radio-t.com/images/radio-t/rt170.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt170.jpg)
-
 
 - кризис как бы [закончился](http://cnews.ru/news/top/index.shtml?2010/01/14/376091)
 - а был ли мальчик [убыток](http://business.compulenta.ru/495153/) у iTunes?

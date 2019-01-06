@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 298"
 date = "2012-07-21T16:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast298"
-+++
+image = "https://radio-t.com/images/radio-t/rt298.jpg"
 
-![](https://radio-t.com/images/radio-t/rt298.jpg)
++++
 
 * О виртуализации вообще и Parallels в частности.
 * Марисса Майер стала [новым СЕО Yahoo](http://habrahabr.ru/post/147918/)

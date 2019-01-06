@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 601"
 date = "2018-06-09T18:31:34"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt601.jpg"
 filename = "rt_podcast601"
-+++
 
-![](https://radio-t.com/images/radio-t/rt601.jpg)
++++
 
 - [Apple WWDC 2018](https://www.digitaltrends.com/mobile/wwdc-2018-news/) - *00:00:30*.
 - [Яндекс.Станция с Алисой внутри](https://station.yandex.ru/) - *01:25:25*.

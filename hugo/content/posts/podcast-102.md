@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 102"
 date = "2008-09-07T07:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast102"
+image = "https://radio-t.com/images/radio-t/rt102.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt102.jpg)
-
 
 - Новый продукт для улучшения личной жизни одного из ведущих
 - Шовинисты от хай–тека опять обнаглели

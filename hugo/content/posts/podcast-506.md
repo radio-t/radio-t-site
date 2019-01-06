@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 506"
 date = "2016-07-30T23:21:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt506.jpg"
 filename = "rt_podcast506"
-+++
 
-![](https://radio-t.com/images/radio-t/rt506.jpg)
++++
 
 - [Праздник для исчезающей профессии](https://habrahabr.ru/company/driverpack/blog/306528/).
 - [AWS показал знатные результаты](http://www.digitaltrends.com/web/amazon-earnings-report-q2-2016/)

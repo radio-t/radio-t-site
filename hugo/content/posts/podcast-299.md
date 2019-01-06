@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 299"
 date = "2012-07-28T17:18:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast299"
-+++
+image = "https://radio-t.com/images/radio-t/rt299.jpg"
 
-![](https://radio-t.com/images/radio-t/rt299.jpg)
++++
 
 * Поздравляем с днем [системного администратора](http://habrahabr.ru/company/ideco/blog/148555/)
 * OS X 10.8 [Mountain Lion](http://mac.appstorm.net/reviews/utilities/os-x-10-8-mountain-lion-review/)

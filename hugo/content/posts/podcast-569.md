@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 569"
 date = "2017-10-28T19:45:04"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt569.jpg"
 filename = "rt_podcast569"
-+++
 
-![](https://radio-t.com/images/radio-t/rt569.jpg)
++++
 
 - [Подробно о новом Pixelbook](https://www.theverge.com/2017/10/26/16550908/google-pixelbook-review-chromebook-android-laptop) - *00:11:32*.
 - [Облачная виртуальная инфраструктура от Mail.Ru](https://biz.mail.ru/infra/) - *00:27:10*.

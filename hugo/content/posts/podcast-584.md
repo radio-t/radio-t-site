@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 584"
 date = "2018-02-10T18:26:28"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt584.jpg"
 filename = "rt_podcast584"
-+++
 
-![](https://radio-t.com/images/radio-t/rt584.jpg)
++++
 
 - [Github и его проблемы с безопасностью](https://donatstudios.com/GithubsTotalSecurityFacepalm) - *00:01:47*.
 - [VLC 3.0 с поддержкой Chromecast](https://www.cnet.com/news/vlc-3-0-launches-for-all-platforms-finally-gets-chromecast-support/) - *00:29:17*.

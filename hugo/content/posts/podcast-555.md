@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 555"
 date = "2017-07-22T17:42:29"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt555.jpg"
 filename = "rt_podcast555"
-+++
 
-![](https://radio-t.com/images/radio-t/rt555.jpg)
++++
 
 - [Что нового в IntelliJ IDEA 2017.2](https://habrahabr.ru/company/JetBrains/blog/333648/) - *00:00:16*.
 - [10 главных языков 2017](http://www.techrepublic.com/article/these-10-programming-languages-have-dominated-development-in-2017/) - *00:13:59*.

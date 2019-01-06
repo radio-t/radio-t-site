@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 258"
 date = "2011-10-09T02:03:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast258"
+image = "https://radio-t.com/images/radio-t/rt258.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt258.png)
-
 
 - Серия новинок от [Amazon](http://www.amazon.com/gp/product/B0051QVESA/ref=famstripe_k)
 - Kindle [Fire ](http://www.engadget.com/2011/09/28/amazon-kindle-fire-impressions/)всем хорош

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 283"
 date = "2012-04-08T02:50:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast283"
+image = "https://radio-t.com/images/radio-t/rt283.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt283.png)
-
 
 - Совершеннолетний [.RU](http://habrahabr.ru/company/regru/blog/141627/)
 - Только [C++](http://blog.achrissmith.com/2012/03/if-your-software-matters-you-will-write.html) для настоящих проектов

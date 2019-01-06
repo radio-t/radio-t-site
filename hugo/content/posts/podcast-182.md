@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 182"
 date = "2010-04-11T06:35:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast182"
+image = "https://radio-t.com/images/radio-t/rt182.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt182.jpg)
-
 
 - Удивительные [продажи](http://www.engadget.com/2010/04/08/apples-sold-450-000-ipads-as-of-today-pushed-3-5-million-ipad/) iPad. Кто все эти [люди](http://www.cio.com/article/589775/Who_Bought_Apple_s_300_000_IPads_Take_a_Guess)?
 - Откровения от Apple о [новой OS

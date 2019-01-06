@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 229"
 date = "2011-03-05T21:38:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast229"
+image = "https://radio-t.com/images/radio-t/rt229.gif"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt229.gif)
-
 
 - Питону [20 лет](http://twitter.com/gvanrossum/statuses/40485917399592960), и 3.2 подоспела к юбилею
 - О мифе [стандартов](http://raptureinvenice.com/?p=249) программирования

@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 96"
 date = "2008-07-27T08:31:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast96"
-+++
 
++++
 
 - Главный сисадмин в студии
 - Не обижайте этих людей, сами пожалеете

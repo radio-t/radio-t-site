@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 590"
 date = "2018-03-24T19:07:27"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt590.jpg"
 filename = "rt_podcast590"
-+++
 
-![](https://radio-t.com/images/radio-t/rt590.jpg)
++++
 
 - [Выход Java 10](https://blogs.oracle.com/java-platform-group/introducing-java-se-10) - *00:03:11*.
 - [Graal и Truffle для JVM](https://zeroturnaround.com/rebellabs/graal-and-truffle-for-polyglot-languages-on-jvm/) - *00:25:14*.

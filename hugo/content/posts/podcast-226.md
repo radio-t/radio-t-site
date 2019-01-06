@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 226"
 date = "2011-02-13T04:24:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast226"
+image = "https://radio-t.com/images/radio-t/rt226.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt226.jpg)
-
 
 - HP и ее [новинки](http://habrahabr.ru/blogs/hardware/113483/). Это радует
 - Nokia и ее [новости](http://arstechnica.com/gadgets/news/2011/02/nokia-ceo-company-must-jump-from-burning-platform.ars). Это расстраивает

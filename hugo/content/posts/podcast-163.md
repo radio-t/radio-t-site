@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 163"
 date = "2009-11-29T11:58:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast163"
-+++
+image = "https://radio-t.com/images/radio-t/rt163.jpg"
 
-![](https://radio-t.com/images/radio-t/rt163.jpg)
++++
 
 - Так что же было у [MS](http://www.electronista.com/articles/09/11/20/next.windows.again.on.3.year.schedule/) ?
 - У [гугла ](http://cnews.ru/news/top/index.shtml?2009/11/23/370624)выживет только одна ОС

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 465"
 date = "2015-10-10T17:16:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt465.jpg"
 filename = "rt_podcast465"
-+++
 
-![](https://radio-t.com/images/radio-t/rt465.jpg)
++++
 
 * [Неделя новинок от AWS](https://aws.amazon.com/about-aws/whats-new/2015/).
 * [EC2 Spot Blocks для фиксированного времени жизни](https://aws.amazon.com/blogs/aws/new-ec2-spot-blocks-for-defined-duration-workloads/).

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 402"
 date = "2014-07-26T16:26:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt402.jpg"
 filename = "rt_podcast402"
-+++
 
-![](https://radio-t.com/images/radio-t/rt402.jpg)
++++
 
 * [С днем СисАдмина!](http://en.wikipedia.org/wiki/System_Administrator_Appreciation_Day)
 * [AWS страдает от конкуренции](http://venturebeat.com/2014/07/24/aws-revenue-2q14/)

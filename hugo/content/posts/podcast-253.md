@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 253"
 date = "2011-09-04T01:46:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast253"
+image = "https://radio-t.com/images/radio-t/rt253.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt253.jpg)
-
 
 - У нас юбилей, УРА!
 - [James Gosling](http://venturebeat.com/2011/08/30/java-creator-james-gosling-joins-ocean-robot-maker-liquid-robotics/) уходит под воду. Очень жидко

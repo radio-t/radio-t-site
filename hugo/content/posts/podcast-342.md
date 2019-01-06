@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 342"
 date = "2013-05-25T18:43:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt342.jpg"
 filename = "rt_podcast342"
-+++
 
-![](https://radio-t.com/images/radio-t/rt342.jpg)
++++
 
 * Их обидели [по ошибке](http://www.guardian.co.uk/world/2013/may/24/russian-social-network-site-vkontakte-banned).
 * Чем так хороша [покупка Tumblr](http://allthingsd.com/20130524/why-tumblr-was-a-massive-steal-for-yahoo/).

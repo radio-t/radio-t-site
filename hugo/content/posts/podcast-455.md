@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 455"
 date = "2015-08-01T18:22:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt455.jpg"
 filename = "rt_podcast455"
-+++
 
-![](https://radio-t.com/images/radio-t/rt455.jpg)
++++
 
 * Вводные разговоры.
 * [Amazon Aurora](https://aws.amazon.com/blogs/aws/now-available-amazon-aurora/).

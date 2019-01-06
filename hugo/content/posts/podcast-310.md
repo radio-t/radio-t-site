@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 310"
 date = "2012-10-13T18:31:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast310"
-+++
+image = "https://radio-t.com/images/radio-t/rt310.jpg"
 
-![](https://radio-t.com/images/radio-t/rt310.jpg)
++++
 
 * Линус Торвальдс ответил на вопросы [посетителей slashdot.org](http://www.zdnet.com/linus-torvalds-interviewed-by-slashdot-readers-7000005697/)
 * [Facebook лег](http://thenextweb.com/facebook/2012/10/11/facebook-apparently-down-in-several-countries-worldwide-including-italy-germany-france) и сразу в многих странах

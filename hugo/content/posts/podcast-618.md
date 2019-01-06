@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 618"
 date = "2018-10-06T17:44:05"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt618.jpg"
 filename = "rt_podcast618"
-+++
 
-![](https://radio-t.com/images/radio-t/rt618.jpg)
++++
 
 - [Custom Image теперь и в DigitalOcean](https://blog.digitalocean.com/custom-images/) - *00:13:36*.
 - [Scaleway добавила object storage](https://techcrunch.com/2018/10/05/scaleway-adds-object-storage/) - *00:25:05*.

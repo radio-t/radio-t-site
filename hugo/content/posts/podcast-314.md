@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 314"
 date = "2012-11-10T15:47:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast314"
-+++
+image = "https://radio-t.com/images/radio-t/rt314.jpg"
 
-![](https://radio-t.com/images/radio-t/rt314.jpg)
++++
 
 * Чем [победа Обамы](http://techcrunch.com/2012/11/06/obama-wins-the-election-heres-his-technology-agenda/) грозит хайтеку
 * И [что теперь ждать](http://www.nextgov.com/cio-briefing/2012/11/what-expect-technology-obamas-second-term/59412/) по этому поводу

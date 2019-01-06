@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 72"
 date = "2008-02-03T05:22:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast72"
-+++
 
++++
 
 - [Yahoo](http://lenta.ru/news/2008/02/01/microsoft/) за недорого
 - [Trolltech](http://www.opennet.ru/opennews/art.shtml?num=13890) и [Audible](http://moskalyuk.name/1074) тоже да

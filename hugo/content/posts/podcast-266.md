@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 266"
 date = "2011-12-04T03:00:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast266"
-+++
+image = "https://radio-t.com/images/radio-t/rt266.png"
 
-![](https://radio-t.com/images/radio-t/rt266.png)
++++
 
 - Час [скалы](http://blog.joda.org/2011/11/real-life-scala-feedback-from-yammer.html).
 - За что [ее](http://www.infoq.com/news/2011/11/yammer-scala) пинают и кому это выгодно

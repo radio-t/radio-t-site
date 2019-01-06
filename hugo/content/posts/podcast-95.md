@@ -1,7 +1,8 @@
 +++
 title = "Радио–Т 95"
 date = "2008-07-20T07:22:00"
-categories = ["podcast"]
+categories = [ "podcast",]
+
 +++
 
 - Google помогает Яндексу и сдает своих пользователей

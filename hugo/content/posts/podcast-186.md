@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 186"
 date = "2010-05-09T05:59:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast186"
-+++
+image = "https://radio-t.com/images/radio-t/rt186.jpg"
 
-![](https://radio-t.com/images/radio-t/rt186.jpg)
++++
 
 - Гостей много не бывает
 - [Webby Awards](http://internetno.net/2010/05/05/webby-awards-2010/) нашли героев

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 607"
 date = "2018-07-22T00:09:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt607.jpg"
 filename = "rt_podcast607"
+
 +++
 
 - [MacBook Pro 2018 неприятно удивил](https://www.inverse.com/article/47169-macbook-pro-2018-throttling-complaints-reddit)

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 148"
 date = "2009-08-09T07:31:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast148"
+image = "https://radio-t.com/images/radio-t/rt148.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt148.jpg)
-
 
 - Выход Windows7 и мнения участников
 - [Bing](http://net.compulenta.ru/446893/) уже на втором месте

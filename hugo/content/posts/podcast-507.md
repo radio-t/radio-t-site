@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 507"
 date = "2016-08-06T17:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt507.jpg"
 filename = "rt_podcast507"
-+++
 
-![](https://radio-t.com/images/radio-t/rt507.jpg)
++++
 
 - [Беглый взгляд на Kotlin 1.1](https://blog.jetbrains.com/kotlin/2016/07/first-glimpse-of-kotlin-1-1-coroutines-type-aliases-and-more/) - *00:01:47*.
 - [Какие языки вызывают больше мата](http://blog.asidatascience.com/how-frustrating-is-your-programming-language/) - *00:51:30*.

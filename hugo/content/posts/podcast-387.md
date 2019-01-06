@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 387"
 date = "2014-04-12T17:23:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt387.jpg"
 filename = "rt_podcast387"
-+++
 
-![](https://radio-t.com/images/radio-t/rt387.jpg)
++++
 
 * [Heartbleed - баг века](http://heartbleed.com/).
 * [Немнго технического разговора](http://security.stackexchange.com/questions/55343/how-to-explain-heartbleed-without-technical-terms) на тему.

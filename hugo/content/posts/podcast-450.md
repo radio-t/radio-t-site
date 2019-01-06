@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 450"
 date = "2015-06-27T18:04:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt450.jpg"
 filename = "rt_podcast450"
-+++
 
-![](https://radio-t.com/images/radio-t/rt450.jpg)
++++
 
 * [Все о DockerCon 2015](http://prsm.tc/mpS5xj).
 * [Docker будет что продавать](http://www.theregister.co.uk/2015/06/24/docker_commercial_offering/).

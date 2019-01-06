@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 98"
 date = "2008-08-10T10:39:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast98"
-+++
 
++++
 
 - Что LiveJournal нам готовит? Похоже немного хорошего и больше разного
 - IBM в альянсе за Linux на десктоп

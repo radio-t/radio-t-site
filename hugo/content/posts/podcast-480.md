@@ -1,13 +1,11 @@
 +++
 title = "Радио-Т 480"
 date = "2016-01-23T22:46:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt480.jpg"
 filename = "rt_podcast480"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt480.jpg)
-
 
 - [25 паролей 2015. Идиоты наступают](http://gizmodo.com/the-25-most-popular-passwords-of-2015-were-all-such-id-1753591514) - *00:03:08*.
 - [AWS Certificate Manager – SSL для всех](https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws/) - *00:13:39*.

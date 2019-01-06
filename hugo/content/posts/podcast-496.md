@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 496"
 date = "2016-05-21T17:31:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt496.jpg"
 filename = "rt_podcast496"
-+++
 
-![](https://radio-t.com/images/radio-t/rt496.jpg)
++++
 
 - [RAZR возвращается!](http://www.engadget.com/2016/05/20/moto-razr-flip-phone-teaser/) - *00:01:20*
 - [Наш человек на Google I/O 2016](http://www.techhgeeks.com/2016/05/google-io-2016-round-up.html) - *00:08:29*.

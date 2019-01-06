@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 345"
 date = "2013-06-22T17:24:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt345.jpg"
 filename = "rt_podcast345"
-+++
 
-![](https://radio-t.com/images/radio-t/rt345.jpg)
++++
 
 * [Apple WWDC 2013](http://thenextweb.com/apple/2013/06/10/everything-announced-at-apples-wwdc-2013-keynote-in-one-handy-list/)
 * Пострадавшие [от WWDC](http://www.cultofmac.com/231121/seven-apps-apple-killed/)

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 481"
 date = "2016-01-30T16:48:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt481.jpg"
 filename = "rt_podcast481"
-+++
 
-![](https://radio-t.com/images/radio-t/rt481.jpg)
++++
 
 - [Java аплеты - все](http://mashable.com/2016/01/29/java-plug-in-death/).
 - [Facebook закрывает Parse](http://www.businessinsider.com/facebook-shutting-down-parse-2016-1).

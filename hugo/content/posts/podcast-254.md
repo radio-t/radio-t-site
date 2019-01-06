@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 254"
 date = "2011-09-11T01:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast254"
-+++
+image = "https://radio-t.com/images/radio-t/rt254.png"
 
-![](https://radio-t.com/images/radio-t/rt254.png)
++++
 
 - Гости из Parallels против злобных нас
 - [Google 13 лет](http://mashable.com/2011/09/04/google-happy-birthday-13-years/) и наши поздравления

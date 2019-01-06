@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 528"
 date = "2017-01-07T17:04:24"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt528.jpg"
 filename = "rt_podcast528"
-+++
 
-![](https://radio-t.com/images/radio-t/rt528.jpg)
++++
 
 - [Let’s Encrypt в 2016 году](https://letsencrypt.org//2017/01/06/le-2016-in-review.html) - *00:02:27*.
 - [Minideb для ваших докеров](https://dzone.com/articles/minideb-a-minimalist-debian-based-docker-image) - *00:23:37*.

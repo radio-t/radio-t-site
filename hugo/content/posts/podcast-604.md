@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 604"
 date = "2018-06-30T18:07:32"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt604.jpg"
 filename = "rt_podcast604"
-+++
 
-![](https://radio-t.com/images/radio-t/rt604.jpg)
++++
 
 - [MongoDB 4](https://www.mongodb.com/press/mongodb-expands-its-leadership-with-a-number-of-new-product-announcements) - *00:04:58*.
 - [Gentoo хакнули на GitHub](https://nakedsecurity.sophos.com/2018/06/29/linux-distro-hacked-on-github-all-code-considered-compromised/) - *00:19:42*.

@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 240"
 date = "2011-05-29T02:01:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast240"
-+++
+image = "https://radio-t.com/images/radio-t/rt240.png"
 
-![](https://radio-t.com/images/radio-t/rt240.png)
++++
 
 - 20 лет стукнуло [интер-вебу](http://habrahabr.ru/blogs/internet/119473/)
 - Более скромный юбилей [хабра](http://habrahabr.ru/blogs/social_networks/119984/)

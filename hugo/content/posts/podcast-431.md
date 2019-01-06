@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 431"
 date = "2015-02-14T17:00:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt431.jpg"
 filename = "rt_podcast431"
-+++
 
-![](https://radio-t.com/images/radio-t/rt431.jpg)
++++
 
 * [iWork для всех](http://prsm.tc/dmaOft)
 * [Привет HTTP2, прощай SPDY](http://blog.chromium.org/2015/02/hello-http2-goodbye-spdy-http-is_9.html)

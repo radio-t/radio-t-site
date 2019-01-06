@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 288"
 date = "2012-05-13T02:15:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast288"
+image = "https://radio-t.com/images/radio-t/rt288.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt288.jpg)
-
 
 - Лучший телефон, [два раза](http://www.wired.com/gadgetlab/2012/05/iphone-4s-and-lumia-900/)
 - Весь твитер хакнут, [55к раз](http://news.cnet.com/8301-1009_3-57430475-83/thousands-of-twitter-passwords-exposed/)

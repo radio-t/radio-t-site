@@ -1,12 +1,11 @@
 +++
 title = "Радио-T 38"
 date = "2007-06-02T21:57:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast38"
+image = "https://radio-t.com/images/radio-t/rt38.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt38.jpg)
-
 
 - Выход Fedora7 и Parallels3
 - Новые машинки от Lenova

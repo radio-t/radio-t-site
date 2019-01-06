@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 511"
 date = "2016-09-03T19:02:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt511.jpg"
 filename = "rt_podcast511"
-+++
 
-![](https://radio-t.com/images/radio-t/rt511.jpg)
++++
 
 - [GitLab 8.11](https://habrahabr.ru/company/softmart/blog/308632/) и гость - *00:03:08*.
 - [Distributed Transactions](http://www.grahamlea.com/2016/08/distributed-transactions-microservices-icebergs/) - *01:23:00*.

@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 301"
 date = "2012-08-11T19:11:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast301"
-+++
+image = "https://radio-t.com/images/radio-t/rt301.jpg"
 
-![](https://radio-t.com/images/radio-t/rt301.jpg)
++++
 
 * Первый в мире сайт отметил [21-ю годовщину](http://habrahabr.ru/post/149226/)
 * [SCO совсем кончился](http://www.zdnet.com/sco-is-finally-dead-parrot-dead-7000002357/) и это радует

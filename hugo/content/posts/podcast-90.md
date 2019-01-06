@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 90"
 date = "2008-06-15T07:24:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast90"
-+++
 
++++
 
 - Что же нам такое показали?
 - Движение котов в нужном направлении

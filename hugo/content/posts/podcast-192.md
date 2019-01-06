@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 192"
 date = "2010-06-20T07:23:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast192"
-+++
+image = "https://radio-t.com/images/radio-t/rt192.png"
 
-![](https://radio-t.com/images/radio-t/rt192.png)
++++
 
 - Наше громкое ура [ЛОРу
 ](http://www.linux.org.ru/news/linux-org-ru/5000089)

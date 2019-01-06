@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 401"
 date = "2014-07-19T16:26:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt401.jpg"
 filename = "rt_podcast401"
-+++
 
-![](https://radio-t.com/images/radio-t/rt401.jpg)
++++
 
 * [Microsoft увольняет лишних людей](http://www.zdnet.com/beyond-12500-former-nokia-employees-who-else-is-microsoft-laying-off-7000031726/)
 * [Новый iTerm2](http://www.iterm2.com/news.html)

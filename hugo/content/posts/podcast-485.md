@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 485"
 date = "2016-02-27T17:23:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt485.jpg"
 filename = "rt_podcast485"
+
 +++
-![](https://radio-t.com/images/radio-t/rt485.jpg)
 
 - [Spotify переезжает в Google Cloud](http://www.engadget.com/2016/02/24/spotify-moving-data-to-google-cloud-platform/) - *00:04:18*.
 - [Что именно переехало и откуда](https://news.spotify.com/int/2016/02/23/announcing-spotify-infrastructures-googley-future/) - *00:05:36*.

@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 26"
 date = "2007-03-11T04:28:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast26"
-+++
 
++++
 
 - Концептуальное обновление Picasa Web Albums
 - Apple и Google работают над "еще большим" количеством совместных проектов

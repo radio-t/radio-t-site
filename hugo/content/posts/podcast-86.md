@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 86"
 date = "2008-05-18T10:35:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast86"
-+++
 
++++
 
 - SEO откровения
 - Биржи [выбирают](http://www.opennet.ru/opennews/art.shtml?num=15876) правильную ОС

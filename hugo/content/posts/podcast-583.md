@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 583"
 date = "2018-02-03T17:14:27"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt583.jpg"
 filename = "rt_podcast583"
-+++
 
-![](https://radio-t.com/images/radio-t/rt583.jpg)
++++
 
 - [Отчет 2018 от HackerRank](http://research.hackerrank.com/developer-skills/2018/).
 - [CoreOS сливается с Red Hat](https://coreos.com/blog/coreos-agrees-to-join-red-hat).

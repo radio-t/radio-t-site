@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 311"
 date = "2012-10-20T18:22:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast311"
-+++
+image = "https://radio-t.com/images/radio-t/rt311.jpg"
 
-![](https://radio-t.com/images/radio-t/rt311.jpg)
++++
 
 * Что [случилось с Google?](http://tech.fortune.cnn.com/2012/10/19/google-8/)
 * [Samsung Chromebook](http://habrahabr.ru/post/155309/) за 249 долларов

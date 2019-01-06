@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 574"
 date = "2017-12-02T18:02:12"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt574.jpg"
 filename = "rt_podcast574"
-+++
 
-![](https://radio-t.com/images/radio-t/rt574.jpg)
++++
 
 - [Зияющая дыра в MacOS](https://techcrunch.com/2017/11/28/astonishing-os-x-bug-lets-anyone-log-into-a-high-sierra-machine/) - *00:09:34*.
 - [Как и почему пустой пароль для root работал](https://objective-see.com/blog/blog_0x24.html) - *00:13:23*.

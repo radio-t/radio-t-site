@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 348"
 date = "2013-07-13T17:56:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt348.jpg"
 filename = "rt_podcast348"
-+++
 
-![](https://radio-t.com/images/radio-t/rt348.jpg)
++++
 
 * BitTorrent [исполнилось 12 лет / Хабрахабр](http://habrahabr.ru/post/185812/).
 * [Dropbox показазал свой iCloud](http://www.tuaw.com/2013/07/10/dropbox-announces-icloud-like-data-sync-service-for-apps/).

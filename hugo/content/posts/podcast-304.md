@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 304"
 date = "2012-09-01T17:34:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast304"
-+++
+image = "https://radio-t.com/images/radio-t/rt304.jpg"
 
-![](https://radio-t.com/images/radio-t/rt304.jpg)
++++
 
 * Релиз [MongoDB 2.2](http://www.opennet.ru/opennews/art.shtml?num=34702) - что новенького
 * [ReactiveMongo](https://github.com/zenexity/ReactiveMongo) в ассортименте

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 360"
 date = "2013-10-05T16:46:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt360.jpg"
 filename = "rt_podcast360"
-+++
 
-![](https://radio-t.com/images/radio-t/rt360.jpg)
++++
 
 * [Fetish-Oriented Programming](http://typicalprogrammer.com/?p=237).
 * [Guava 15](http://www.javacodegeeks.com/2013/10/guava-15-new-features.html).

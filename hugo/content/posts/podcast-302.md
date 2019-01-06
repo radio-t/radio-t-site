@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 302"
 date = "2012-08-18T16:30:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast302"
-+++
+image = "https://radio-t.com/images/radio-t/rt302.jpg"
 
-![](https://radio-t.com/images/radio-t/rt302.jpg)
++++
 
 * Как [зашурупили](http://addmeto.cc/post/2012-08-14-trust-no-one/) Apple-сообщество
 * [Twitter обижает](http://www.readwriteweb.com/archives/twitter-to-developers-display-tweets-our-way-or-else.php)  разработчиков

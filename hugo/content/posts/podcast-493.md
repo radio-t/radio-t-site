@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 493"
 date = "2016-04-30T17:36:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt493.jpg"
 filename = "rt_podcast493"
-+++
 
-![](https://radio-t.com/images/radio-t/rt493.jpg)
++++
 
 - [Dropbox Infinite - может быть неплохо](http://mjtsai.com/blog/2016/04/26/dropboxs-project-infinite/) - *00:02:56*.
 - [Slack подтекает](http://thenextweb.com/insider/2016/04/29/your-slack-login-details-are-on-gitbub/) - *00:10:26*.

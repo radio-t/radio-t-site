@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 263"
 date = "2011-11-13T02:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast263"
-+++
+image = "https://radio-t.com/images/radio-t/rt263.jpg"
 
-![](https://radio-t.com/images/radio-t/rt263.jpg)
++++
 
 - [Fedora 16](http://www.pcworld.com/businesscenter/article/243189/six_good_reasons_to_try_fedora_16.html), слишком много шика
 - [Flash](http://www.engadget.com/2011/11/11/adobe-product-manager-fingers-apple-for-death-of-flash-player-fo/) на мобильных устройствах весь вышел

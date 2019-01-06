@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 621"
 date = "2018-10-27T19:06:08"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt621.jpg"
 filename = "rt_podcast621"
-+++
 
-![](https://radio-t.com/images/radio-t/rt621.jpg)
++++
 
 - [Linux 4.19 – главный вернулся](https://lwn.net/Articles/769110/) - *00:04:00*.
 - [Болезненное падение Github](https://blog.github.com/2018-10-21-october21-incident-report/) - *00:31:24*.

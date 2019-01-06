@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 156"
 date = "2009-10-04T05:16:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast156"
+image = "https://radio-t.com/images/radio-t/rt156.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt156.png)
-
 
 - Разговор с гостем из Parallels (Сергей Белоусов)
 - Опять ДР. Теперь у [Goog11e](http://mashable.com/2009/09/26/google-11th-birthday-logo/)

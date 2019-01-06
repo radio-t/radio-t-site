@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 63"
 date = "2007-12-02T05:46:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast63"
-+++
 
++++
 
 - спамеры сдаются, а LG взрываются
 - странное вокруг европейского iPhone

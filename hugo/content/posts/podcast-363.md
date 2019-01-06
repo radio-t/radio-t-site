@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 363"
 date = "2013-10-26T16:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt363.jpg"
 filename = "rt_podcast363"
-+++
 
-![](https://radio-t.com/images/radio-t/rt363.jpg)
++++
 
 * От [первого лица](http://plushev.com) o [главном событии](http://habrahabr.ru/post/198616/) недели.
 * Конец эпохи [платных OS](http://www.wired.com/business/2013/10/apple-ends-paid-oses/).

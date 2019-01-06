@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 467"
 date = "2015-10-24T17:58:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt467.jpg"
 filename = "rt_podcast467"
-+++
 
-![](https://radio-t.com/images/radio-t/rt467.jpg)
++++
 
 * [Плавающий IP для DigitalOcean](https://www.digitalocean.com/company/blog/floating-ips-start-architecting-your-applications-for-high-availability/).
 * [Ninebot Mini – мелкий но бодрый](http://technewsblog.com/2015/10/20/xioami-launches-nineboat-mini-self-balancing-scooter/).

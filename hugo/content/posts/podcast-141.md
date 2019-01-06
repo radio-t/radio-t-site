@@ -1,11 +1,10 @@
 +++
 title = "Радио–Т 141"
 date = "2009-06-21T06:28:00"
-categories = ["podcast"]
+categories = [ "podcast",]
+image = "https://radio-t.com/images/radio-t/rt141.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt141.jpg)
-
 
 - Празднуем [юбилей](http://hard.compulenta.ru/434684/) лазерного принтера
 - Революция [Opera](http://habrahabr.ru/company/opera/blog/62160/) мимо нас

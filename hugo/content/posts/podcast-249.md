@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 249"
 date = "2011-07-31T02:57:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast249"
-+++
+image = "https://radio-t.com/images/radio-t/rt249.jpg"
 
-![](https://radio-t.com/images/radio-t/rt249.jpg)
++++
 
 - 30 лет [MS-DOS ](http://www.extremetech.com/computing/91202-ms-dos-is-30-years-old-today)
 - Google [ускорит](http://techcrunch.com/2011/07/28/google-page-speed-service/) весь интернет

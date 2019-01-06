@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 408"
 date = "2014-09-06T17:00:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt408.jpg"
 filename = "rt_podcast408"
-+++
 
-![](https://radio-t.com/images/radio-t/rt408.jpg)
++++
 
 * [DigitalOcean продвигаeт CoreOS](http://techcrunch.com/2014/09/05/digitalocean-partners-with-coreos-to-bring-large-scale-cluster-deployments-to-its-platform/) в массы.
 * [Страсти вокруг Markdown](http://habrahabr.ru/post/235611/).

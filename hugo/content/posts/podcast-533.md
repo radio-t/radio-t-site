@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 533"
 date = "2017-02-11T17:21:26"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt533.jpg"
 filename = "rt_podcast533"
-+++
 
-![](https://radio-t.com/images/radio-t/rt533.jpg)
++++
 
 - [Тысячи WordPress сайтов пострадали](http://www.zdnet.com/article/thousands-of-wordpress-websites-fall-prey-to-defacement/) - *00:02:18*.
 - [Flipboard теперь почти умный](https://www.macrumors.com/2017/02/08/flipboard-updates-ios-app/) - *00:17:23*.

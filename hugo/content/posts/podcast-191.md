@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 191"
 date = "2010-06-13T07:37:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast191"
-+++
+image = "https://radio-t.com/images/radio-t/rt191.jpg"
 
-![](https://radio-t.com/images/radio-t/rt191.jpg)
++++
 
 - Нам показали [ iPhone ](http://habrahabr.ru/blogs/apple/95711/)4
 - То, что нам[ не показали](http://mashable.com/2010/06/07/apple-wwdc-focus/)

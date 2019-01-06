@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 51"
 date = "2007-09-09T05:59:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast51"
-+++
 
++++
 
 - Новинки этой недели от Apple
 - Около-гугловые радости

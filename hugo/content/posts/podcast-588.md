@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 588"
 date = "2018-03-10T17:40:41"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt588.jpg"
 filename = "rt_podcast588"
-+++
 
-![](https://radio-t.com/images/radio-t/rt588.jpg)
++++
 
 - [Alexa и ее страшный смех](https://www.recode.net/2018/3/7/17093808/alexa-laughing-amazon-solution-fix) - *00:04:29*.
 - [Обход Windows паролей через Cortana](https://motherboard.vice.com/en_us/article/xw53jk/researchers-bypassed-windows-password-locks-with-cortana-voice-commands) - *00:11:13*.

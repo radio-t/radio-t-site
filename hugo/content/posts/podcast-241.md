@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 241"
 date = "2011-06-05T02:01:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast241"
-+++
+image = "https://radio-t.com/images/radio-t/rt241.png"
 
-![](https://radio-t.com/images/radio-t/rt241.png)
++++
 
 - Мы дождались [версии 3](https://lkml.org/lkml/2011/5/29/204)
 - [TeamCity ](http://www.jetbrains.com/teamcity/)от первого лица

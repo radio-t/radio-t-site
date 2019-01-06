@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 273"
 date = "2012-01-22T02:22:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast273"
-+++
+image = "https://radio-t.com/images/radio-t/rt273.jpg"
 
-![](https://radio-t.com/images/radio-t/rt273.jpg)
++++
 
 - Apple и образовательные [технологии](http://www.engadget.com/2012/01/19/apples-education-announcement-what-you-need-to-know/)
 - Революция в [книгопечати](http://www.apple.com/education/ibooks-textbooks/)

@@ -1,12 +1,11 @@
 +++
 title = "Радио-T 46"
 date = "2007-08-05T05:16:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast46"
+image = "https://radio-t.com/images/radio-t/rt46.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt46.jpg)
-
 
 - Предстоящее событие о маках
 - Гуглофону быть

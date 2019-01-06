@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 479"
 date = "2016-01-16T17:00:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt479.jpg"
 filename = "rt_podcast479"
-+++
 
-![](https://radio-t.com/images/radio-t/rt479.jpg)
++++
 
 - [Перевод для всех пользователей Windows](http://time.com/4180457/skype-real-time-translator-windows/).
 - [Skype догоняет Google Hangouts](http://www.businessinsider.com/microsoft-just-gave-skype-group-video-calls-2016-1).

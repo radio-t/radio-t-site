@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 213"
 date = "2010-11-14T07:11:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast213"
-+++
+image = "https://radio-t.com/images/radio-t/rt213.png"
 
-![](https://radio-t.com/images/radio-t/rt213.png)
++++
 
 - [Firefox](http://www.opennet.ru/opennews/art.shtml?num=28599) празднует свое шестилетие
 - Платить за каждого пользователя [ICQ](http://habrahabr.ru/blogs/im/107910/)

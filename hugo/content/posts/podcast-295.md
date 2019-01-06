@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 295"
 date = "2012-07-01T00:49:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast295"
-+++
+image = "https://radio-t.com/images/radio-t/rt295.jpeg"
 
-![](https://radio-t.com/images/radio-t/rt295.jpeg)
++++
 
 * 5-летие [iPhone'а](http://www.businessinsider.com/heres-what-steve-ballmer-thought-about-the-iphone-five-years-ago-2012-6)
 * Google [IO 2012](http://habrahabr.ru/post/146650/)

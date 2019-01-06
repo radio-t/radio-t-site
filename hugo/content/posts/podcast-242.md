@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 242"
 date = "2011-06-12T02:23:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast242"
-+++
+image = "https://radio-t.com/images/radio-t/rt242.jpg"
 
-![](https://radio-t.com/images/radio-t/rt242.jpg)
++++
 
 - Microsoft готова передать ФСБ [почти все](http://habrahabr.ru/blogs/skype/120890/)
 - Россия заняла почетное второе [место ](http://hitech.tomsk.ru/newsinternet/18566-rossijane-stali-vtorymi-po-provodimomu-v.html)

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 612"
 date = "2018-08-25T19:30:37"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt612.jpg"
 filename = "rt_podcast612"
-+++
 
-![](https://radio-t.com/images/radio-t/rt612.jpg)
++++
 
 - [Skype зашифровал беседы](https://www.theverge.com/2018/8/20/17725226/skype-private-conversation-end-to-end-encrypted-opt-in) - *00:02:39*.
 - [Intel запретил публиковать результаты тестирования](http://www.opennet.ru/opennews/art.shtml?num=49171) - *00:19:58*.

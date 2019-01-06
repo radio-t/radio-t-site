@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 243"
 date = "2011-06-19T01:53:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast243"
-+++
+image = "https://radio-t.com/images/radio-t/rt243.jpg"
 
-![](https://radio-t.com/images/radio-t/rt243.jpg)
++++
 
 - [IBM ](http://blogs.wsj.com/digits/2011/06/16/happy-100th-birthday-ibm/?mod=e2tw)разменял 2ю сотню
 - Больше не будет AIR для 1%

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 427"
 date = "2015-01-17T16:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt427.jpg"
 filename = "rt_podcast427"
-+++
 
-![](https://radio-t.com/images/radio-t/rt427.jpg)
++++
 
 * [Linux в 2015](http://prsm.tc/DA1ydm)
 * [MintBox Mini](http://prsm.tc/JJYjAS)

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 616"
 date = "2018-09-22T18:53:35"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt616.jpg"
 filename = "rt_podcast616"
-+++
 
-![](https://radio-t.com/images/radio-t/rt616.jpg)
++++
 
 - [Google вложился в GitLab](https://www.bloomberg.com/tosv2.html?vid=&uuid=15ef6670-bd59-11e8-bca1-0d901f158ed4&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wOS0xOS9hbHBoYWJldC1iYWNrcy1naXRsYWItcy1xdWVzdC10by1zdXJwYXNzLW1pY3Jvc29mdC1zLWdpdGh1Yg==) - *00:17:53*.
 - [Sublime Merge](https://www.sublimetext.com/blog/articles/sublime-merge) - *00:29:37*.

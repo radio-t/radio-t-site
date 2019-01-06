@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 257"
 date = "2011-10-02T03:40:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast257"
+image = "https://radio-t.com/images/radio-t/rt257.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt257.png)
-
 
 - Что нового в [MongoDB 2.0](http://blog.mongodb.org/post/10126837729/mongodb-2-0-released)
 - Что хорошего в [Cassandra 1.0](http://www.datastax.com/dev/blog/whats-new-in-cassandra-1-0-improved-memory-and-disk-space-management)

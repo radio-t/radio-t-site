@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 602"
 date = "2018-06-16T18:31:16"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt602.jpg"
 filename = "rt_podcast602"
-+++
 
-![](https://radio-t.com/images/radio-t/rt602.jpg)
++++
 
 - [Apple Maps не смогли](https://www.engadget.com/2018/06/15/apple-maps-down-for-all-users/) - *00:01:23*..
 - [Gmail доказал что не все любят такое](https://techcrunch.com/2018/06/15/gmail-proves-that-some-people-hate-smart-suggestions/) - *00:17:57*.

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 322"
 date = "2013-01-05T17:53:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt322.jpg"
 filename = "rt_podcast322"
-+++
 
-![](https://radio-t.com/images/radio-t/rt322.jpg)
++++
 
 * [Заметные события](http://www.javaworld.com/community/node/8610) в разработке программ за 2012
 * Семь смертельных грехов [программирования на Objective-C](http://ashfurrow.com/blog/seven-deadly-sins-of-modern-objective-c)

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 410"
 date = "2014-09-20T16:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt410.jpg"
 filename = "rt_podcast410"
-+++
 
-![](https://radio-t.com/images/radio-t/rt410.jpg)
++++
 
 * [День свободы программного обеспечения](http://habrahabr.ru/company/mailru/blog/237025/)
 * [Новое в iOS 8](http://www.forbes.com/sites/markrogowsky/2014/09/18/a-guide-to-whats-great-in-ios-8/)

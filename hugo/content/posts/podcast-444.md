@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 444"
 date = "2015-05-16T17:56:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt444.jpg"
 filename = "rt_podcast444"
-+++
 
-![](https://radio-t.com/images/radio-t/rt444.jpg)
++++
 
 * [Google поддержит облака и для внутреннего употребления](http://prsm.tc/4Oq7VX).
 * [Rackspace ставит на "fanatical support"](http://prsm.tc/5KDpEd).

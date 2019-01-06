@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 121"
 date = "2009-01-25T11:01:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast121"
+image = "https://radio-t.com/images/radio-t/rt121.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt121.jpg)
-
 
 - [Страсти](http://www.opennet.ru/opennews/art.shtml?num=19883) по ICQ
 - [Телефонный](http://www.mobile-review.com/fullnews/main/2009/January/23.shtml#22843) разворот с гостем

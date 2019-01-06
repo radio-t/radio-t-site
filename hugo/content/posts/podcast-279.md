@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 279"
 date = "2012-03-11T03:02:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast279"
+image = "https://radio-t.com/images/radio-t/rt279.jpeg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt279.jpeg)
-
 
 - Выход [New iPad](http://www.apple.com/pr/library/2012/03/07Apple-Launches-New-iPad.html) глазами очевидца
 - Вся прелесть в [Bluetooth 4](http://gigaom.com/mobile/forget-lte-the-real-new-ipad-3-wireless-story-is-bluetooth-4/)?

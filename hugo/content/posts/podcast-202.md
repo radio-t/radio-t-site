@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 202"
 date = "2010-08-29T06:30:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast202"
-+++
+image = "https://radio-t.com/images/radio-t/rt202.jpg"
 
-![](https://radio-t.com/images/radio-t/rt202.jpg)
++++
 
 - 4 года подкасту
 - [Что](http://www.linux.org.ru/news/linux-general/5262344) было 19 лет назад

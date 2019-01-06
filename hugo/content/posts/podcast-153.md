@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 153"
 date = "2009-09-13T08:08:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast153"
+image = "https://radio-t.com/images/radio-t/rt153.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt153.jpg)
-
 
 - И на нашей улице [праздник](http://habrahabr.ru/blogs/lenta/69390/)
 - Пара слов о известном [событии](http://www.crunchgear.com/2009/09/09/apple-announced-many-things-today-heres-what-you-missed-if-thats-even-possible/)

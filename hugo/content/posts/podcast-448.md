@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 448"
 date = "2015-06-13T18:05:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt448.jpg"
 filename = "rt_podcast448"
-+++
 
-![](https://radio-t.com/images/radio-t/rt448.jpg)
++++
 
 * [Борьба за продуктивность](http://prsm.tc/qHL5Na).
 * [Sonder Keyboard с E Ink](http://petapixel.com/2015/06/11/sonder-keyboard-uses-e-ink-to-put-shortcuts-icons-at-your-fingertips/).

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 550"
 date = "2017-06-17T20:13:59"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt550.jpg"
 filename = "rt_podcast550"
-+++
 
-![](https://radio-t.com/images/radio-t/rt550.jpg)
++++
 
 - [Пробел или tab](https://stackoverflow.blog/2017/06/15/developers-use-spaces-make-money-use-tabs/) - *00:03:02*.
 - [Не пытайтесь делать "как гугл"](https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb?gi=458c980ef63b) - *00:30:03*.

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 373"
 date = "2014-01-04T17:08:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt373.jpg"
 filename = "rt_podcast373"
-+++
 
-![](https://radio-t.com/images/radio-t/rt373.jpg)
++++
 
 * Много новогодне-гиковских разговоров на разные темы.
 * Грилим гостя, но он не сдается.

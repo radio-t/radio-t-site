@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 171"
 date = "2010-01-24T09:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast171"
-+++
+image = "https://radio-t.com/images/radio-t/rt171.jpg"
 
-![](https://radio-t.com/images/radio-t/rt171.jpg)
++++
 
 - Вся [правда ](http://www.appleinsider.com/articles/10/01/19/apples_tablet_announcement_games_could_be_a_focus_music_unlikely.html)о мероприятии Apple
 - GDrive родилa [мышь](http://habrahabr.ru/blogs/google/81524/)

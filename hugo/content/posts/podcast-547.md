@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 547"
 date = "2017-05-27T18:16:17"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt547.jpg"
 filename = "rt_podcast547"
-+++
 
-![](https://radio-t.com/images/radio-t/rt547.jpg)
++++
 
 - [DigitalOcean - падение и поддержка](https://status.digitalocean.com/incidents/0t54zmb3f1vm).
 - [Самый большой Git](https://blogs.msdn.microsoft.com/bharry/2017/05/24/the-largest-git-repo-on-the-planet/).

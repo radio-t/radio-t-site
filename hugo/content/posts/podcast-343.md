@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 343"
 date = "2013-06-01T18:17:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt343.jpg"
 filename = "rt_podcast343"
-+++
 
-![](https://radio-t.com/images/radio-t/rt343.jpg)
++++
 
 * [Ubuntu баг № 1 исправлен](http://habrahabr.ru/post/181570/).
 * К 7-му [юбилею Hadoop](http://blog.cloudera.com/blog/2013/04/seven-thoughts-on-hadoops-seventh-birthday/).

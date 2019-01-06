@@ -1,8 +1,9 @@
 +++
 title = "Радио-T 49"
 date = "2007-08-26T06:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast49"
+
 +++
 
 [аудио](http://cdn.radio-t.com/rt_podcast49.mp3)

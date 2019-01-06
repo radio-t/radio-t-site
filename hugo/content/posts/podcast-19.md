@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 19"
 date = "2007-01-21T04:38:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast19"
-+++
 
++++
 
 - Детские темы, MySpace и акселерация
 - Продвинутые методы ввода и ModBook

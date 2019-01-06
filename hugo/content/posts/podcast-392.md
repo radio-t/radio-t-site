@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 392"
 date = "2014-05-17T16:48:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt392.jpg"
 filename = "rt_podcast392"
-+++
 
-![](https://radio-t.com/images/radio-t/rt392.jpg)
++++
 
 * [Yahoo покупает Blink](http://techcrunch.com/2014/05/13/yahoo-acquires-self-destructing-messaging-app-blink-which-will-soon-disappear/).
 * [Яндекс против SPDY](http://habrahabr.ru/company/yandex/blog/222951/).

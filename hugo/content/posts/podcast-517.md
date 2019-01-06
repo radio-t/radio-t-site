@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 517"
 date = "2016-10-15T18:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt517.jpg"
 filename = "rt_podcast517"
-+++
 
-![](https://radio-t.com/images/radio-t/rt517.jpg)
++++
 
 - [VMware на AWS - новый гибрид](https://techcrunch.com/2016/10/13/vmware-cloud-on-aws/) - *00:05:28*.
 - [Galaxy Note 7 закончился](http://www.theverge.com/2016/10/11/13202608/samsung-galaxy-note-7-discontinued) - *00:18:15*.

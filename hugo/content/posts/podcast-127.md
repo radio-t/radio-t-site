@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 127"
 date = "2009-03-08T11:24:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast127"
+image = "https://radio-t.com/images/radio-t/rt127.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt127.jpg)
-
 
 - Неспешные, но массовые около–маковые обновления ([№1](http://theappleblog.com/2009/03/03/the-new-imac-keeping-up-with-the-joneses/), [№2](http://habrahabr.ru/blogs/apple/53714/))
 - Шокирующее падение рынка ПК и грустные [перспективы](http://business.compulenta.ru/406264/)

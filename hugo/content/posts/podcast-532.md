@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 532"
 date = "2017-02-04T17:53:47"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt532.jpg"
 filename = "rt_podcast532"
-+++
 
-![](https://radio-t.com/images/radio-t/rt532.jpg)
++++
 
 - [Git Virtual File System](https://blogs.msdn.microsoft.com/visualstudioalm/2017/02/03/announcing-gvfs-git-virtual-file-system/) - *00:04:59*.
 - [VS Code 1.9](http://code.visualstudio.com/updates/v1_9) - *00:21:52*.

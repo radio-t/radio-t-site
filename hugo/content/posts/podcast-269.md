@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 269"
 date = "2011-12-25T04:09:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast269"
+image = "https://radio-t.com/images/radio-t/rt269.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt269.png)
-
 
 - [GoDaddy](http://www.readwriteweb.com/archives/godaddys_sopa_support_sparks_calls_for_boycotts_an.php) и SOPA позор
 - Нет, они теперь хорошие

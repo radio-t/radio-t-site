@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 309"
 date = "2012-10-06T19:47:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast309"
-+++
+image = "https://radio-t.com/images/radio-t/rt309.jpg"
 
-![](https://radio-t.com/images/radio-t/rt309.jpg)
++++
 
 * А мы так хотели поговорить о [Phantom Operating System](http://dz.ru/en/solutions/phantom/)
 * [Google Spanner](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html) – от NoSQL к NewSQL

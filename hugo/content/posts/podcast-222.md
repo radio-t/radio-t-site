@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 222"
 date = "2011-01-16T05:43:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast222"
-+++
+image = "https://radio-t.com/images/radio-t/rt222.png"
 
-![](https://radio-t.com/images/radio-t/rt222.png)
++++
 
 - [Анализ](http://www.opennet.ru/opennews/art.shtml?num=29236) популярности языков программирования в 2010
 - Поговорим о Ц++ с @alenacpp

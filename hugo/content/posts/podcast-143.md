@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 143"
 date = "2009-07-05T11:43:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast143"
+image = "https://radio-t.com/images/radio-t/rt143.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt143.jpg)
-
 
 - Выход [Firefox 3.5](http://net.compulenta.ru/438081/) конкурентам на погибель
 - Почти красавец от [HTC](http://www.engadget.com/2009/06/30/htc-hero-spotted-on-orange-uk-website/)

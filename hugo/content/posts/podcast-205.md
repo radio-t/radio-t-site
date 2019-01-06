@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 205"
 date = "2010-09-19T05:45:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast205"
-+++
+image = "https://radio-t.com/images/radio-t/rt205.gif"
 
-![](https://radio-t.com/images/radio-t/rt205.gif)
++++
 
 - Уход [Bloglines](http://mashable.com/2010/09/11/bloglines-discontinued/) и [Cuil](http://techcrunch.com/2010/09/17/cuil-goes-down-and-we-hear-its-down-for-good/) в лучший из миров
 - У Яндекса больше не будет [позора](http://internetno.net/2010/09/16/yandex-icq-2/)

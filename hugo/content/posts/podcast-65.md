@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 65"
 date = "2007-12-16T08:38:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast65"
-+++
 
++++
 
 Выпуск по темам наших слушателей, с раздачей подарков и прочими радостями.
 

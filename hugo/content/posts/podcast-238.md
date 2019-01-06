@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 238"
 date = "2011-05-08T01:22:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast238"
+image = "https://radio-t.com/images/radio-t/rt238.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt238.jpg)
-
 
 - Нет, мы не Software Engineer, мы скульпторы
 - Не надо комментариев в коде

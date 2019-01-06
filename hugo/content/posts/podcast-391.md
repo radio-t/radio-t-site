@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 391"
 date = "2014-05-10T17:50:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt391.jpg"
 filename = "rt_podcast391"
-+++
 
-![](https://radio-t.com/images/radio-t/rt391.jpg)
++++
 
 * [Chrome спрячет URL](http://disconnected.craig.is/where-did-my-url-go-chrome/).
 * [Что это значит для фишеров](http://www.theregister.co.uk/2014/05/05/chrome_origin_chip_ui_controversy/).

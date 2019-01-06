@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 264"
 date = "2011-11-20T02:33:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast264"
+image = "https://radio-t.com/images/radio-t/rt264.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt264.jpg)
-
 
 - Kindle Fire – немного меда и много дегтя
 - Nook Tablet наш выбор

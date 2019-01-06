@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 358"
 date = "2013-09-21T17:47:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt358.jpg"
 filename = "rt_podcast358"
-+++
 
-![](https://radio-t.com/images/radio-t/rt358.jpg)
++++
 
 * [Пять лет Stack Overflow](http://habrahabr.ru/post/194036/).
 * OpenZFS: по-настоящему открытый [преемник ZFS](http://habrahabr.ru/post/194168/).

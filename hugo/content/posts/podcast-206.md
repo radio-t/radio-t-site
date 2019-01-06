@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 206"
 date = "2010-09-26T05:11:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast206"
-+++
+image = "https://radio-t.com/images/radio-t/rt206.gif"
 
-![](https://radio-t.com/images/radio-t/rt206.gif)
++++
 
 - ДР [Фидонета](http://habrahabr.ru/blogs/fido/104709/). Ура!
 - Позор недели или к чему приводят сильно [умные](http://habrahabr.ru/blogs/hi/104894/) системы

@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 486"
 date = "2016-03-05T17:03:00"
-categories= ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt486.jpg"
 filename = "rt_podcast486"
+
 +++
-![](https://radio-t.com/images/radio-t/rt486.jpg)
 
 - [Увидел свет язык программирования Rust 1.7](http://www.opennet.ru/opennews/art.shtml?num=43985) - *00:01:22*.
 - [Mozilla и Samsung придумают браузерный мотор](https://www.opennet.ru/opennews/art.shtml?num=36576) - *00:04:09*.

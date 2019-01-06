@@ -1,12 +1,11 @@
 +++
 title = "Радио–Т 107"
 date = "2008-10-12T09:41:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast107"
+image = "https://radio-t.com/images/radio-t/rt107.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt107.png)
-
 
 - Кое–что надвигается
 - Новое ядро линукса, новые дистрибутивы

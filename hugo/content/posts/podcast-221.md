@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 221"
 date = "2011-01-09T05:35:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast221"
-+++
+image = "https://radio-t.com/images/radio-t/rt221.jpg"
 
-![](https://radio-t.com/images/radio-t/rt221.jpg)
++++
 
 - По ту сторону IT, или гостья против гнусных гиков
 - Однообразные таблеточные [новинки](http://www.bgr.com/2011/01/07/the-best-of-ces-2011-so-far/) CES

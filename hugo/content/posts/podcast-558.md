@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 558"
 date = "2017-08-12T17:35:49"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt558.jpg"
 filename = "rt_podcast558"
-+++
 
-![](https://radio-t.com/images/radio-t/rt558.jpg)
++++
 
 - [Microsoft Surface PCs потерял знак качества](https://www.theverge.com/circuitbreaker/2017/8/10/16125294/microsoft-surface-consumer-reports-hardware-freezing-shutdowns-problems) - *00:03:12*.
 - [Microsoft отрицает](https://www.engadget.com/2017/08/10/microsoft-surface-reliability-consumer-reports/) - *00:08:02*.

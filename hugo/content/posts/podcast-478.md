@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 478"
 date = "2016-01-09T17:55:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt478.jpg"
 filename = "rt_podcast478"
-+++
 
-![](https://radio-t.com/images/radio-t/rt478.jpg)
++++
 
 - [Держитесь подальше от этого](https://news.radio-t.com/post/external-storage).
 - [Победа сил света](https://news.radio-t.com/post/linux-and-open-source-have-won-get-over-it-zdnet).

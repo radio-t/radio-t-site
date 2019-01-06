@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 388"
 date = "2014-04-19T19:04:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt388.jpg"
 filename = "rt_podcast388"
-+++
 
-![](https://radio-t.com/images/radio-t/rt388.jpg)
++++
 
 * [TrustyTahr уже тут](https://wiki.ubuntu.com/TrustyTahr/ReleaseNotes)
 * [Ubuntu 14.04 LTS](http://prsm.tc/UnoBZk) с серверной стороны

@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 2"
 date = "2006-09-14T11:38:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast2"
-+++
 
++++
 
 - Знатные новинки от Apple
 - Разочарование vs. восхищения по одному поводу

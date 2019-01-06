@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 471"
 date = "2015-11-21T18:13:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt471.jpg"
 filename = "rt_podcast471"
-+++
 
-![](https://radio-t.com/images/radio-t/rt471.jpg)
++++
 
 * [“Hoverboard” - самая крутая технология 2015](http://www.ACASUALSENSE.com/hoverboard-coolest-technology-of-2015/).
 * [SSL скоро станет бесплатным](https://certsimple.com/blog/domain-validated-ssl-will-be-free).

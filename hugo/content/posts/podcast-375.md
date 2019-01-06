@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 375"
 date = "2014-01-18T16:03:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt375.jpg"
 filename = "rt_podcast375"
-+++
 
-![](https://radio-t.com/images/radio-t/rt375.jpg)
++++
 
 * [25 лет Tcl](http://blog.tkdocs.com/2014/01/happy-25th-tcl.html)
 * [Winamp](http://www.theverge.com/2014/1/14/5263086/winamp-radionomy-acquisition-internet-radio-service) жив и будет.

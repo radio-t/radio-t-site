@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 447"
 date = "2015-06-06T18:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt447.jpg"
 filename = "rt_podcast447"
-+++
 
-![](https://radio-t.com/images/radio-t/rt447.jpg)
++++
 
 * [5 мифов о том, как становятся программистами](http://prsm.tc/lVJGzU).
 * [8 самых востребованных языков 2015](http://www.devbattles.com/en/sand/post-1314-The-8-Most-InDemand-Programming-Languages-of-2015).

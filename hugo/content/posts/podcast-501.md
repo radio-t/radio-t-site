@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 501"
 date = "2016-06-25T18:08:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt501.jpg"
 filename = "rt_podcast501"
-+++
 
-![](https://radio-t.com/images/radio-t/rt501.jpg)
++++
 
 - [Docker 1.12](https://blog.docker.com/2016/06/docker-1-12-built-in-orchestration/) - *00:05:57*.
 - [Docker Store Private Beta](https://blog.docker.com/2016/06/docker-store/) - *00:04:05*.

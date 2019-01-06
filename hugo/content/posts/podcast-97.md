@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 97"
 date = "2008-08-03T07:28:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast97"
-+++
 
++++
 
 - Нанотехнологии на страже Родины
 - Социальные закладки стали лучше

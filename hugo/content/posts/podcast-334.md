@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 334"
 date = "2013-03-30T17:30:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt334.jpg"
 filename = "rt_podcast334"
-+++
 
-![](https://radio-t.com/images/radio-t/rt334.jpg)
++++
 
 * Бывает [и такое](http://arstechnica.com/information-technology/2013/03/epic-uptime-achievement-can-you-beat-16-years/) в нашем быстром мире.
 * [Могучий DDoS](http://www.zdnet.com/the-largest-ddos-attack-didnt-break-the-internet-but-it-did-try-7000013225/) который мало кто заметил.

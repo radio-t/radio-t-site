@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 193"
 date = "2010-06-27T05:37:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast193"
-+++
+image = "https://radio-t.com/images/radio-t/rt193.jpg"
 
-![](https://radio-t.com/images/radio-t/rt193.jpg)
++++
 
 - iPhone 4 совсем [не торт](http://www.engadget.com/2010/06/25/hey-apple-youre-holding-it-wrong/)?
 - [Планшеты](http://www.cnews.ru/news/top/index.shtml?2010/06/18/396503) вытесняют нетбуки и настольные ПК

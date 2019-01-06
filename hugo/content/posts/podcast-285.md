@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 285"
 date = "2012-04-22T02:11:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast285"
+image = "https://radio-t.com/images/radio-t/rt285.jpeg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt285.jpeg)
-
 
 - Достойный [получатель](http://www.zdnet.com/blog/open-source/linus-torvalds-wins-the-tech-equivalent-of-a-nobel-prize-the-millennium-technology-prize/1) The Millenium Technology Prize
 - Интервью [Линуса](http://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/) о странном

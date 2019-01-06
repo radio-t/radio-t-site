@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 216"
 date = "2010-12-05T05:23:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast216"
-+++
+image = "https://radio-t.com/images/radio-t/rt216.jpg"
 
-![](https://radio-t.com/images/radio-t/rt216.jpg)
++++
 
 - Три "R" дла чистоты вашего [кода](http://agile.dzone.com/news/three-rs-clean-code)
 - Ловить [всегда](http://www.theregister.co.uk/2006/01/11/exception_handling/)

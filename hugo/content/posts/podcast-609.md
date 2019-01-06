@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 609"
 date = "2018-08-04T19:14:14"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt609.jpg"
 filename = "rt_podcast609"
-+++
 
-![](https://radio-t.com/images/radio-t/rt609.jpg)
++++
 
 - [Разговоры про шаблоны проектирования](https://dev.to/powerwebdev/an-introduction-to-the-concept-of-design-patterns-o29) - *00:10:33*.
 - [Чему нас учит терминал](https://brandur.org/interfaces) - *00:33:59*.

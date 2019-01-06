@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 195"
 date = "2010-07-11T06:00:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast195"
-+++
+image = "https://radio-t.com/images/radio-t/rt195.png"
 
-![](https://radio-t.com/images/radio-t/rt195.png)
++++
 
 - Google [не планирует](http://hitech.tomsk.ru/newsmobile/15614-google-ne-planiruet-vypuskat-vtorojj-nexus-ili.html) выпускать новый Nexus или нетбук с Google OS
 - [Увольнение](http://techdirt.com/articles/20100702/03200710058.shtml) за телефонное видео

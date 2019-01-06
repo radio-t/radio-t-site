@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 587"
 date = "2018-03-03T17:25:44"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt587.jpg"
 filename = "rt_podcast587"
-+++
 
-![](https://radio-t.com/images/radio-t/rt587.jpg)
++++
 
 - [GitHub под крупнейшей DDoS атакой](https://thenextweb.com/security/2018/03/02/how-github-braved-the-worlds-largest-ddos-attack/) - *00:01:51*.
 - [Отчет о принятых мерах от GitHub Engineering](https://githubengineering.com/ddos-incident-report/) - *00:12:29*.

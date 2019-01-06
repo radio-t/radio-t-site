@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 520"
 date = "2016-11-05T18:06:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt520.jpg"
 filename = "rt_podcast520"
-+++
 
-![](https://radio-t.com/images/radio-t/rt520.jpg)
++++
 
 - [Vim отмечает 25 лет](https://opensource.com/life/16/11/happy-birthday-vim-25) - *00:18:10*.
 - [Goolge обидел Go тусовку](https://hackernoon.com/gos-alias-proposal-and-all-my-concerns-of-google-controlling-go-a39f6c6046aa?gi=6b6d3f10700d) - *00:29:48*.

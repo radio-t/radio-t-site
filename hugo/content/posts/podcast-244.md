@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 244"
 date = "2011-06-26T02:15:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast244"
-+++
+image = "https://radio-t.com/images/radio-t/rt244.png"
 
-![](https://radio-t.com/images/radio-t/rt244.png)
++++
 
 - Празднуем день рождения [DNS](http://habrahabr.ru/company/skydns/blog/122585/)
 - Этого вам в Nokia [не расскажут](http://www.mobile-review.com/articles/2011/nokia-n9-meego.shtml)

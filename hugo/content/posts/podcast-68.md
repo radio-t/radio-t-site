@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 68"
 date = "2008-01-06T08:33:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast68"
-+++
 
++++
 
 - День рожденья джабера
 - Пузырь 2.0 близок? NASDAQ наводит на мысли

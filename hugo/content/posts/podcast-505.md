@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 505"
 date = "2016-07-23T23:28:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt505.jpg"
 filename = "rt_podcast505"
-+++
 
-![](https://radio-t.com/images/radio-t/rt505.jpg)
++++
 
 - И сюда добрались.
 - [ARM отдался Softbank ](http://www.bbc.com/news/business-36827769).

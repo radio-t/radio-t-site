@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 30"
 date = "2007-04-08T05:20:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast30"
-+++
 
++++
 
 - Гость в студии
 - Упавший ICQ и прочие альтернативы

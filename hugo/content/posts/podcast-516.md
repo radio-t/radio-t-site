@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 516"
 date = "2016-10-08T18:14:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt516.jpg"
 filename = "rt_podcast516"
-+++
 
-![](https://radio-t.com/images/radio-t/rt516.jpg)
++++
 
 - [Что было на Google Pixel](https://techcrunch.com/2016/10/04/everything-you-need-to-know-from-googles-pixel-event/) - *00:06:19*.
 - [Google хочет быть всеми сразу](http://nymag.com/selectall/2016/10/google-doesnt-want-to-be-apple-it-wants-to-be-everyone.html) - *00:21:16*.

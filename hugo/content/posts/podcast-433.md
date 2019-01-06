@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 433"
 date = "2015-02-28T16:49:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt433.jpg"
 filename = "rt_podcast433"
-+++
 
-![](https://radio-t.com/images/radio-t/rt433.jpg)
++++
 
 * [Pebble Time – новые часы с цветным E-Ink дисплеем](http://geektimes.ru/company/madrobots/blog/246338/)
 * [Google может расчленить Google+](http://prsm.tc/TZUHs4)

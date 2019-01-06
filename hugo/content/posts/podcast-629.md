@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 629"
 date = "2018-12-22T17:11:55"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt629.jpg"
 filename = "rt_podcast629"
-+++
 
-![](https://radio-t.com/images/radio-t/rt629.jpg)
++++
 
 - [Amazon отослал 1,700 записей из Alexa не туда](https://threatpost.com/amazon-1700-alexa-voice-recordings/140201/) - *00:02:24*.
 - [Google специально ломает YouTube](https://www.developer-tech.com/news/2018/dec/20/edge-developer-google-youtube-chrome-browsers/) - *00:09:24*.

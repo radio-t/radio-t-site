@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 552"
 date = "2017-07-01T17:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt552.jpg"
 filename = "rt_podcast552"
-+++
 
-![](https://radio-t.com/images/radio-t/rt552.jpg)
++++
 
 - [10 лет iPhone](https://9to5mac.com/2017/06/29/original-iphone-launch-and-reception/)  - *00:01:12*..
 - [Визуализация сортировки](http://boingboing.net/2017/06/28/15-sorting-algorithms-visualiz.html) - *00:08:35*.

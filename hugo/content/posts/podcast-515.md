@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 515"
 date = "2016-10-01T17:48:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt515.jpg"
 filename = "rt_podcast515"
-+++
 
-![](https://radio-t.com/images/radio-t/rt515.jpg)
++++
 
 - [Новинка от AWS – P2 до 16 GPU](https://aws.amazon.com/blogs/aws/new-p2-instance-type-for-amazon-ec2-up-to-16-gpus/) - *00:03:16*.
 - [Микросервисы: пожалуйста, не нужно](https://habrahabr.ru/post/311208/) - *00:15:11*.

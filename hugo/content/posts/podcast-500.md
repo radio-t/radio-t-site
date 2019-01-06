@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 500"
 date = "2016-06-18T17:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt500.jpg"
 filename = "rt_podcast500"
-+++
 
-![](https://radio-t.com/images/radio-t/rt500.jpg)
++++
 
 - [WWDC 2016](http://thenextweb.com/apple/2016/06/13/everything-apple-announced-wwdc-2016/).
 - [Microsoft купит LinkedIn за $26,2 млрд](https://geektimes.ru/post/277186/).

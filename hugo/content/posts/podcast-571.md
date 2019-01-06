@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 571"
 date = "2017-11-11T17:34:08"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt571.jpg"
 filename = "rt_podcast571"
-+++
 
-![](https://radio-t.com/images/radio-t/rt571.jpg)
++++
 
 - [Выход MongoDB 3.6](https://www.mongodb.com/blog/post/announcing-mongodb-36) - *00:06:13*.
 - [Новые возможности драйверов для MongoDB 3.6](https://dzone.com/articles/new-driver-features-for-mongodb-36) - *00:33:47*.

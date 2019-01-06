@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 287"
 date = "2012-05-06T02:48:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast287"
+image = "https://radio-t.com/images/radio-t/rt287.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt287.png)
-
 
 - [Oracle](http://www.drdobbs.com/jvm/232901227) и конец привычного мира
 - [Позиция](http://nighthacks.com/roller/jag/entry/my_attitude_on_oracle_v) Госслинга не очень последовательна

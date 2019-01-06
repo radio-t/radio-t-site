@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 617"
 date = "2018-09-29T18:04:30"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt617.jpg"
 filename = "rt_podcast617"
-+++
 
-![](https://radio-t.com/images/radio-t/rt617.jpg)
++++
 
 - [macOS Mojave](https://www.apple.com/macos/mojave/) - *00:04:33*.
 - [Facebook сливает через 3х лиц](https://gizmodo.com/facebook-is-giving-advertisers-access-to-your-shadow-co-1828476051) - *00:44:58*.

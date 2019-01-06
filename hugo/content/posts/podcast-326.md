@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 326"
 date = "2013-02-02T17:50:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt326.jpg"
 filename = "rt_podcast326"
-+++
 
-![](https://radio-t.com/images/radio-t/rt326.jpg)
++++
 
 * Что ужасного можно [найти в исходных текстах](http://gizmodo.com/5980842/there-is-blatant-racist-and-sexist-language-in-github-code)
 * Eclipse выпустили [Hudson 3.0](http://eclipse.org/org/press-release/20130123_hudson3.php)

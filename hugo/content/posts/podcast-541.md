@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 541"
 date = "2017-04-15T19:10:11"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt541.jpg"
 filename = "rt_podcast541"
-+++
 
-![](https://radio-t.com/images/radio-t/rt541.jpg)
++++
 
 - [Новости о новом Mac Pro](http://daringfireball.net/2017/04/the_mac_pro_lives) - *00:02:26*.
 - [Когда слишком много данных](https://www.recode.net/2017/4/12/15275160/big-data-analytics-enterprise-technology-internet-of-things-iot) - *00:25:54*.

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 559"
 date = "2017-08-19T18:43:12"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt559.jpg"
 filename = "rt_podcast559"
-+++
 
-![](https://radio-t.com/images/radio-t/rt559.jpg)
++++
 
 - [Вышел Essential Phone](https://www.essential.com/blog/essential-phone-available-now) - *00:01:51*.
 - [Подробности об Essential Phone](https://9to5google.com/2017/08/18/review-roundup-essential-phone-has-fast-software-excellent-hardware-but-low-light-camera-performance-as-bad-as-the-app-icon/) - *00:12:38*.

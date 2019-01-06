@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 341"
 date = "2013-05-18T18:19:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt341.jpg"
 filename = "rt_podcast341"
-+++
 
-![](https://radio-t.com/images/radio-t/rt341.jpg)
++++
 
 * Прощай [Lotus 1-2-3](http://www.zdnet.com/goodbye-lotus-1-2-3-7000015385/).
 * [Что нам показал Google](http://mashable.com/2013/05/15/google-io-announcements-2013/).

@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 73"
 date = "2008-02-17T08:28:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast73"
-+++
 
++++
 
 - [Дармовые компьютеры](http://habrahabr.ru/blog/lenta/35874.html) от MS
 - [Нечто странное](http://habrahabr.ru/blog/gadgets/35899.html) для SMS 2.0

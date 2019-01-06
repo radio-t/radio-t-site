@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 275"
 date = "2012-02-05T02:05:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast275"
-+++
+image = "https://radio-t.com/images/radio-t/rt275.png"
 
-![](https://radio-t.com/images/radio-t/rt275.png)
++++
 
 - 20 лет [C++](http://blogs.msdn.com/b/vcblog/archive/2012/02/03/10263262.aspx) от Microsoft
 - Что такое этот [Kotlin](http://confluence.jetbrains.net/display/Kotlin/Welcome)?

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 394"
 date = "2014-05-31T17:25:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt394.jpg"
 filename = "rt_podcast394"
-+++
 
-![](https://radio-t.com/images/radio-t/rt394.jpg)
++++
 
 * [Что случилось с TrueCrypt](http://gigaom.com/2014/05/29/heres-what-you-need-to-know-about-the-sudden-and-mysterious-death-of-truecrypt/)
 * [Выход Git 2.0](http://www.opennet.ru/opennews/art.shtml?num=39883)

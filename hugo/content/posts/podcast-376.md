@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 376"
 date = "2014-01-25T16:09:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt376.jpg"
 filename = "rt_podcast376"
-+++
 
-![](https://radio-t.com/images/radio-t/rt376.jpg)
++++
 
 * 30 лет [Macintosh](http://blogs.computerworld.com/macintosh/23434/apples-macintosh-30-years-doomed).
 * [Amazon DynamoDB](http://aws.typepad.com/aws/2014/01/amazon-dynamodb-turns-two.html) уже 2 годика.

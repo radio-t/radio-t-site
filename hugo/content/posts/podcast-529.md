@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 529"
 date = "2017-01-14T16:32:17"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt529.jpg"
 filename = "rt_podcast529"
-+++
 
-![](https://radio-t.com/images/radio-t/rt529.jpg)
++++
 
 - [Consumer Reports полюбил MacBook Pro](http://thenextweb.com/apple/2017/01/13/consumer-reports-shifted-stance-macbook-pro-software-fix/) - *00:12:49*.
 - [Tesla увела автора Swift](https://techcrunch.com/2017/01/10/tesla-hires-apples-creator-of-swift-as-new-vp-of-autopilot-software/) - *00:27:37*.

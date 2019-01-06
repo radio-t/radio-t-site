@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 623"
 date = "2018-11-10T18:09:36"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt623.jpg"
 filename = "rt_podcast623"
-+++
 
-![](https://radio-t.com/images/radio-t/rt623.jpg)
++++
 
 - [2018 Mac Mini](https://marco.org/2018/11/06/mac-mini-2018-review) - *00:06:00*.
 - [Apple iPad Pro 2018](https://www.theverge.com/2018/11/5/18062612/apple-ipad-pro-review-2018-screen-usb-c-pencil-price-features) - *00:27:32*.

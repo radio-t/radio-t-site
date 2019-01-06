@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 308"
 date = "2012-09-29T16:57:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast308"
-+++
+image = "https://radio-t.com/images/radio-t/rt308.jpg"
 
-![](https://radio-t.com/images/radio-t/rt308.jpg)
++++
 
 * [14 лет Google](http://habrahabr.ru/post/152441/)
 * Instagram [обогнал Twitter](http://www.dailymail.co.uk/sciencetech/article-2209545/Instagram-overtakes-Twitter-cell-phones-7-3million-users-day.html) на телефонах

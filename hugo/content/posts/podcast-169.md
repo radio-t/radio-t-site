@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 169"
 date = "2010-01-10T08:38:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast169"
+image = "https://radio-t.com/images/radio-t/rt169.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt169.jpg)
-
 
 - Google [Nexus One](http://habrahabr.ru/blogs/android/80233/), но не совсем убийца
 - [WiDi HD](http://www.engadget.com/2010/01/07/intel-announces-widi-hd-wireless-display-technology/) против [Sling Monitor](http://www.engadget.com/2010/01/06/15-inch-sling-monitor-150-makes-in-home-placeshifting-look-good/) 150

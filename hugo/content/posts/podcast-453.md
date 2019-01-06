@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 453"
 date = "2015-07-18T21:32:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt453.jpg"
 filename = "rt_podcast453"
+
 +++
-
-
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 

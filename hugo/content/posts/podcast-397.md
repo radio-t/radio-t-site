@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 397"
 date = "2014-06-21T16:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt397.jpg"
 filename = "rt_podcast397"
-+++
 
-![](https://radio-t.com/images/radio-t/rt397.jpg)
++++
 
 * [Что такое Docker?](http://prsm.tc/nfOZLH)
 * [Amazon Fire Phone](http://gigaom.com/2014/06/18/amazons-new-fire-phone-is-a-unique-4-7-inch-beast/)

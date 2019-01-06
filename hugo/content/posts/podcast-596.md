@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 596"
 date = "2018-05-05T18:50:14"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt596.jpg"
 filename = "rt_podcast596"
-+++
 
-![](https://radio-t.com/images/radio-t/rt596.jpg)
++++
 
 - [Что случилось с паролями в логах Twitter](https://blog.twitter.com/official/en_us/topics/company/2018/keeping-your-account-secure.html) - *00:02:40*.
 - [GitHub с подобным безобразием](https://www.zdnet.com/article/github-says-bug-exposed-account-passwords/) - *00:20:17*.

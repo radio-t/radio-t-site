@@ -1,11 +1,11 @@
 +++
 title = "Радио-T 35"
 date = "2007-05-14T00:39:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast35"
-+++
+image = "https://radio-t.com/images/radio-t/rt35.jpg"
 
-![](https://radio-t.com/images/radio-t/rt35.jpg)
++++
 
 _Предупреждение: разные технические проблемы, сильно и отрицательно повлияли на качество звучания_
 

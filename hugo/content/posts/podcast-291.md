@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 291"
 date = "2012-06-03T02:16:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast291"
-+++
+image = "https://radio-t.com/images/radio-t/rt291.png"
 
-![](https://radio-t.com/images/radio-t/rt291.png)
++++
 
 - [Blockly](http://code.google.com/p/google-blockly/) для младших школьников
 - Очереди SQS и [ElasticMQ](http://java.dzone.com/articles/elasticmq-05-release)

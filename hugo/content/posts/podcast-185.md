@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 185"
 date = "2010-05-02T07:20:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast185"
-+++
+image = "https://radio-t.com/images/radio-t/rt185.jpg"
 
-![](https://radio-t.com/images/radio-t/rt185.jpg)
++++
 
 - [Palm](http://www.hp.com/hpinfo/newsroom/press/2010/100428xa.html) продался, полностью
 - [Ubuntu](http://www.linux.org.ru/news/ubuntu/4832160) Lucid Lynx 10.04

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 545"
 date = "2017-05-13T17:38:24"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt545.jpg"
 filename = "rt_podcast545"
-+++
 
-![](https://radio-t.com/images/radio-t/rt545.jpg)
++++
 
 - [Массивная атака на всех](http://gizmodo.com/theres-a-massive-ransomware-attack-spreading-globally-r-1795168952) - *00:05:14*.
 - [Это все вина/заслуга NSA](https://arstechnica.com/security/2017/05/an-nsa-derived-ransomware-worm-is-shutting-down-computers-worldwide/) - *00:10:12*.

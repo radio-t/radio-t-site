@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 597"
 date = "2018-05-12T19:09:30"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt597.jpg"
 filename = "rt_podcast597"
-+++
 
-![](https://radio-t.com/images/radio-t/rt597.jpg)
++++
 
 - [Apple iMac празднует 20 лет](http://money.cnn.com/2018/05/06/technology/imac-anniversary-apple/index.html) - *00:13:25*.
 - [Самое интересное из показанного гуглом](https://www.wired.com/story/lens-google-visual-search-tool-update/) - *00:34:11*.

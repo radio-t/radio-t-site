@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 349"
 date = "2013-07-20T18:20:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt349.jpg"
 filename = "rt_podcast349"
-+++
 
-![](https://radio-t.com/images/radio-t/rt349.jpg)
++++
 
 * [Surface RT](http://www.theverge.com/2013/7/19/4537944/surface-rt-mistakes-look-like-zune-2) как Zune 2.0?
 * [BitTorrent sync](http://gigaom.com/2013/07/17/bittorrent-launches-beta-test-of-its-p2p-based-sync-service-adds-android-app/) дошел до беты.

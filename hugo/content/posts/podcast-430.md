@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 430"
 date = "2015-02-07T17:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt430.jpg"
 filename = "rt_podcast430"
-+++
 
-![](https://radio-t.com/images/radio-t/rt430.jpg)
++++
 
 * [Яндекс сделал беспарольную двухфакторную аутентификацию](http://habrahabr.ru/company/yandex/blog/249547/)
 * [MongoDB 3.0 и начало новой эпохи](http://www.mongodb.com/press/mongodb-3-0-release)

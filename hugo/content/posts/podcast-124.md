@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 124"
 date = "2009-02-15T10:52:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast124"
+image = "https://radio-t.com/images/radio-t/rt124.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt124.png)
-
 
 - Windows7 [безвозмездно](http://webplanet.ru/news/soft/2009/02/13/windows7_update.html)
 - Покончим с [монополистом](http://habrahabr.ru/blogs/browsers/51540/)

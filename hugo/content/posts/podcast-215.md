@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 215"
 date = "2010-11-28T05:01:00"
-categories = ["podcast"]
-+++
+categories = [ "podcast",]
+image = "https://radio-t.com/images/radio-t/rt215.jpg"
 
-![](https://radio-t.com/images/radio-t/rt215.jpg)
++++
 
 - Конец эпохи, Novell [продается](http://habrahabr.ru/blogs/finance/108606/)
 - [Премия Рунета](http://internetno.net/2010/11/26/podvedenyi-itogi-premii-runeta-2010/)-2010 от первого лица

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 472"
 date = "2015-11-28T17:33:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt472.jpg"
 filename = "rt_podcast472"
-+++
 
-![](https://radio-t.com/images/radio-t/rt472.jpg)
++++
 
 * [Yahoo наказало 9%](http://mashable.com/2015/11/21/yahoo-email-ad-blockers/)
 * [Apple сделает умное кольцо?](http://www.peacefulcentury.net/apple-will-soon-be-releasing-a-smart-ring-this-is-how-it-will-look-like-and-function/)

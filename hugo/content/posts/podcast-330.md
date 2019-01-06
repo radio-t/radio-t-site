@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 330"
 date = "2013-03-02T16:59:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt330.jpg"
 filename = "rt_podcast330"
-+++
 
-![](https://radio-t.com/images/radio-t/rt330.jpg)
++++
 
 * Правильный, но [резкий манифест](http://programming-motherfucker.com/).
 * [Linus Torvalds](http://www.theregister.co.uk/2013/02/24/linus_torvalds_rant/) против RH.

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 177"
 date = "2010-03-07T10:02:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast177"
+image = "https://radio-t.com/images/radio-t/rt177.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt177.jpg)
-
 
 - [Apple](http://business.compulenta.ru/511250/) против HTC и Google
 - Новая [Ubuntu](http://www.opennet.ru/opennews/art.shtml?num=25666) очень неоднозначна

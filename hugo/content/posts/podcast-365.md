@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 365"
 date = "2013-11-09T16:00:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt365.jpg"
 filename = "rt_podcast365"
-+++
 
-![](https://radio-t.com/images/radio-t/rt365.jpg)
++++
 
 * Новый [iPad mini под вопросом](http://appadvice.com/appnn/2013/11/more-bad-news-for-those-hoping-to-buy-an-ipad-mini-with-retina-display).
 * [YouTube комментарии](http://venturebeat.com/2013/11/08/youtube-cofounders-first-public-comment-in-8-years-why-the-f-do-i-need-a-google-account-to-com) по гугловски.

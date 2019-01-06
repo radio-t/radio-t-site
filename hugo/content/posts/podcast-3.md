@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 3"
 date = "2006-09-24T11:33:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast3"
-+++
 
++++
 
 - Они за нами подсматривают и читают наши письма
 - Убийца iPod, очередной. На этот раз от MS

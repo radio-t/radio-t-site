@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 434"
 date = "2015-03-07T16:42:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt434.jpg"
 filename = "rt_podcast434"
-+++
 
-![](https://radio-t.com/images/radio-t/rt434.jpg)
++++
 
 * [Конечность времени против ReactOS](http://en.wikipedia.org/wiki/ReactOS)
 * [Библиотеки против фрэймворков](http://tom.lokhorst.eu/2010/09/why-libraries-are-better-than-frameworks)

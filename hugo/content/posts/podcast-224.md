@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 224"
 date = "2011-01-30T08:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast224"
-+++
+image = "https://radio-t.com/images/radio-t/rt224.gif"
 
-![](https://radio-t.com/images/radio-t/rt224.gif)
++++
 
 - 15000 день unix [эпохи](http://habrahabr.ru/blogs/nix/112532/). Надо праздновать
 - Oracle черз год бесчинств

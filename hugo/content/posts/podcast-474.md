@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 474"
 date = "2015-12-12T16:41:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt474.jpg"
 filename = "rt_podcast474"
-+++
 
-![](https://radio-t.com/images/radio-t/rt474.jpg)
++++
 
 - [Прощание с Carousel и Mailbox](https://blogs.dropbox.com/dropbox/2015/12/saying-goodbye-to-carousel-and-mailbox/).
 - [И Prismatic тоже уходит](http://venturebeat.com/2015/12/11/prismatic-is-shutting-down-its-news-app-for-ios-android-and-web-on-december-20/).

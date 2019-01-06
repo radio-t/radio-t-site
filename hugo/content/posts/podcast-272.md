@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 272"
 date = "2012-01-15T02:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast272"
-+++
+image = "https://radio-t.com/images/radio-t/rt272.jpg"
 
-![](https://radio-t.com/images/radio-t/rt272.jpg)
++++
 
 - 7 лет [мелкому](http://www.tuaw.com/2012/01/11/happy-7th-anniversary-to-the-mac-mini/), но знатному
 - Гугл [все](http://www.businessinsider.com/google-may-have-made-the-worst-mistake-in-its-history-this-week-2012-1) испортил

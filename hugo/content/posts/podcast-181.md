@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 181"
 date = "2010-04-04T05:47:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast181"
+image = "https://radio-t.com/images/radio-t/rt181.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt181.jpg)
-
 
 - [Шуточки](http://www.opennet.ru/opennews/art.shtml?num=26046) 2010
 - [Ubuntu](http://www.opennet.ru/opennews/art.shtml?num=25994) не шутит, но смешно

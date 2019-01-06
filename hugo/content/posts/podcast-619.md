@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 619"
 date = "2018-10-13T18:20:54"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt619.jpg"
 filename = "rt_podcast619"
-+++
 
-![](https://radio-t.com/images/radio-t/rt619.jpg)
++++
 
 - [Как гугл внезапно закрыл Google+](https://blog.google/technology/safety-security/project-strobe/) - *00:03:45*.
 - [Чо посшло не так с Google+](https://www.engadget.com/2018/10/12/goodbye-google-plus-you-beautiful-squandered-opportunity/) - *00:09:12*.

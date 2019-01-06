@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 423"
 date = "2014-12-20T17:05:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt423.jpg"
 filename = "rt_podcast423"
-+++
 
-![](https://radio-t.com/images/radio-t/rt423.jpg)
++++
 
 * [Чем порадует 2015](http://prsm.tc/lgu6yx)
 * [2015 будет годом Web-Scale](http://prsm.tc/2emAla)

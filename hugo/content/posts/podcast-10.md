@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 10"
 date = "2006-11-12T09:56:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast10"
-+++
 
++++
 
 - Xbox Vs. iTV
 - Microsoft объединилась с Novell

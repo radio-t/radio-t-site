@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 184"
 date = "2010-04-25T06:13:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast184"
+image = "https://radio-t.com/images/radio-t/rt184.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt184.png)
-
 
 - Странная история с [телефоном](http://techcrunch.com/2010/04/19/iphone-hd-4g/)
 - [OS/2](http://www.osnews.com/story/23180/Rumour_IBM_To_Re-Launch_OS_2) вернется на радость ветеранам

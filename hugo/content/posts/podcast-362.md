@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 362"
 date = "2013-10-19T17:38:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt362.jpg"
 filename = "rt_podcast362"
-+++
 
-![](https://radio-t.com/images/radio-t/rt362.jpg)
++++
 
 * [Oracle поспорил с военными](http://readwrite.com/2013/10/15/oracle-opens-both-barrels-on-open-source-software-in-military-whitepaper)
 * Кораблик [c Linux на борту](http://arstechnica.com/information-technology/2013/10/the-navys-newest-warship-is-powered-by-linux/)

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 232"
 date = "2011-03-27T01:53:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast232"
+image = "https://radio-t.com/images/radio-t/rt232.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt232.jpg)
-
 
 - [Mac OSX](http://iclarified.com/entry/index.php?enid=14424) пошел на второй десяток
 - [Galaxy Tab 10.1](http://mashable.com/2011/03/22/galaxy-tabs/) уже готов для убийств?

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 466"
 date = "2015-10-17T18:08:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt466.jpg"
 filename = "rt_podcast466"
-+++
 
-![](https://radio-t.com/images/radio-t/rt466.jpg)
++++
 
 * [Новые iMacs](http://wccftech.com/apple-launches-lineup-imacs-crucial-difference-details/).
 * [Magic Keyboard, Trackpad, Mouse и iMac](http://geektimes.ru/company/mvideo/blog/263966/).

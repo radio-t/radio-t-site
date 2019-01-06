@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 128"
 date = "2009-03-15T10:15:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast128"
+image = "https://radio-t.com/images/radio-t/rt128.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt128.png)
-
 
 - Вся правда о телефонном скайпе
 - Юбилеи недели: [web](http://www.readwriteweb.com/archives/happy_20th_birthday_world_wide_web.php) и [linux](http://i.gizmodo.com/5169216/happy-15th-birthday-linux)

@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 300"
 date = "2012-08-04T20:35:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast300"
-+++
+image = "https://radio-t.com/images/radio-t/rt300.jpg"
 
-![](https://radio-t.com/images/radio-t/rt300.jpg)
++++
 
 * Это катастрофа - [Nokia продаст Qt](http://www.networkworld.com/community/blog/nokia-preps-sell-qt-not-elop-screws-it)
 * [Open source](http://radar.oreilly.com/2012/07/open-source-won.html) победил всех

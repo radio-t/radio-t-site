@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 319"
 date = "2012-12-15T16:21:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt319.jpg"
 filename = "rt_podcast319"
-+++
 
-![](https://radio-t.com/images/radio-t/rt319.jpg)
++++
 
 * У нас в гостях основатель [правильного музея](http://www.cultofmac.com/195205/more-macs-than-they-can-count-inside-the-moscow-apple-museum-gallery/).
 * Google запустил [Maps для iOS](http://techcrunch.com/2012/12/12/take-that-apple-maps/).

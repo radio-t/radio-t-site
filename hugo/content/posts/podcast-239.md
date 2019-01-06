@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 239"
 date = "2011-05-15T02:14:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast239"
-+++
+image = "https://radio-t.com/images/radio-t/rt239.jpg"
 
-![](https://radio-t.com/images/radio-t/rt239.jpg)
++++
 
 - Нас опять [продали](http://internetno.net/2011/05/13/sdelka-microsoft-i-skype-analiz-perspektiv-mnenijj-ocenok/), оптом
 - Русской [Википедии ](http://habrahabr.ru/blogs/wikipedia/119105/)10 лет

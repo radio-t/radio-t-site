@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 278"
 date = "2012-03-04T02:33:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast278"
+image = "https://radio-t.com/images/radio-t/rt278.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt278.png)
-
 
 - TeamCity 7.0 уже тут
 - Пара слов об [Amazon Web Services](http://aws.amazon.com/)

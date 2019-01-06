@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 406"
 date = "2014-08-23T17:11:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt406.jpg"
 filename = "rt_podcast406"
-+++
 
-![](https://radio-t.com/images/radio-t/rt406.jpg)
++++
 
 * [Debian 21](https://bits.debian.org/2014/08/21-birthday-debian.html)
 * [Mailbox для OSX](http://prsm.tc/yLi2pD) - любовь и ненависть.

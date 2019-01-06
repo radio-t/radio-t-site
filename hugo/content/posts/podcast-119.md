@@ -1,12 +1,11 @@
 +++
 title = "Радио–Т 119"
 date = "2009-01-11T07:32:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast119"
+image = "https://radio-t.com/images/radio-t/rt119.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt119.jpg)
-
 
 - Главная новость от [Apple](http://www.mobile-review.com/fullnews/main/2009/January/07.shtml#22631)
 - Вторая главная новость от [Palm](http://habrahabr.ru/blogs/palm/48616/)

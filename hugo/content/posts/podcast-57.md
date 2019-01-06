@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 57"
 date = "2007-10-21T05:02:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast57"
-+++
 
++++
 
 - Ubuntu 7.10. Как хорошо с линукс по жизни.
 - Мы все вымираем ... от интернета

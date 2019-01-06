@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 196"
 date = "2010-07-18T05:40:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast196"
-+++
+image = "https://radio-t.com/images/radio-t/rt196.jpg"
 
-![](https://radio-t.com/images/radio-t/rt196.jpg)
++++
 
 - С антеной все плохо, Consumer Reports [негодует](http://mashable.com/2010/07/12/iphone-4-consumer-reports/)
 - Решение [проблемы](http://techcrunch.com/2010/07/16/antennagate-complaints-returns-and-call-drops-are-all-extremely-low/) которой нет. Apple-way

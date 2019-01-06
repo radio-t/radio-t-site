@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 305"
 date = "2012-09-08T17:46:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast305"
-+++
+image = "https://radio-t.com/images/radio-t/rt305.jpg"
 
-![](https://radio-t.com/images/radio-t/rt305.jpg)
++++
 
 * Google Chrome [исполнилось четыре года](http://habrahabr.ru/post/150869/)
 * [Amazon представил](http://gizmodo.com/5941083/amazons-new-kindle-avalanche-everything-you-need-to-know?utm_campaign=socialflow_gizmodo_twitter) новые киндлы

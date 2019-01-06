@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 615"
 date = "2018-09-15T18:05:24"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt615.jpg"
 filename = "rt_podcast615"
-+++
 
-![](https://radio-t.com/images/radio-t/rt615.jpg)
++++
 
 - [Событие от Apple](https://techcrunch.com/2018/09/12/everything-apple-announced-at-its-iphone-xs-event/).
 - [Google закрывает Inbox](https://www.theverge.com/2018/9/12/17848500/google-inbox-shut-down-sunset-snooze-email-march-2019).

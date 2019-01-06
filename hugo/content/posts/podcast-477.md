@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 477"
 date = "2016-01-02T18:02:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt477.jpg"
 filename = "rt_podcast477"
-+++
 
-![](https://radio-t.com/images/radio-t/rt477.jpg)
++++
 
 - Вне плана о [code review](https://news.radio-t.com/post/code-review).
 - [Consul 0.6](https://news.radio-t.com/post/consul-0-6-hashicorp).

@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 316"
 date = "2012-11-24T15:27:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast316"
-+++
+image = "https://radio-t.com/images/radio-t/rt316.jpg"
 
-![](https://radio-t.com/images/radio-t/rt316.jpg)
++++
 
 * [Linux Mint 14](http://arstechnica.com/information-technology/2012/11/linux-mint-14-released-leaves-fresh-taste-in-our-mouths/) хорошо вышел
 * Amazon задумался о [серьезных облаках](http://gigaom.com/cloud/amazons-dead-serious-about-the-enterprise-cloud/)

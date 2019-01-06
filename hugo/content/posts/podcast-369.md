@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 369"
 date = "2013-12-07T16:33:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt369.jpg"
 filename = "rt_podcast369"
-+++
 
-![](https://radio-t.com/images/radio-t/rt369.jpg)
++++
 
 * Выход [IntelliJ IDEA 13](http://blog.jetbrains.com/idea/2013/12/intellij-idea-13-is-released-work-miracles-in-java-and-beyond/)
 * [DigitalOcean теперь с AMS2](https://www.digitalocean.com/blog_posts/digitalocean-announces-second-amsterdam-datacenter-ams2)

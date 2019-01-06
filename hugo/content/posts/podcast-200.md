@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 200"
 date = "2010-08-15T09:40:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast200"
-+++
+image = "https://radio-t.com/images/radio-t/rt200.png"
 
-![](https://radio-t.com/images/radio-t/rt200.png)
++++
 
 - Оracle [против](http://www.opennet.ru/opennews/art.shtml?num=27610) Google
 - [OpenSolaris](http://www.opennet.ru/opennews/art.shtml?num=27622) может закончиться и очень скоро

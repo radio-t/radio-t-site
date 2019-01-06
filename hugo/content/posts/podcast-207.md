@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 207"
 date = "2010-10-03T09:00:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast207"
-+++
+image = "https://radio-t.com/images/radio-t/rt207.jpg"
 
-![](https://radio-t.com/images/radio-t/rt207.jpg)
++++
 
 - Они поставят памятник [Туксу](http://www.opennet.ru/opennews/art.shtml?num=28058)
 - Парад пэдов: BlackBerry [PlayBook](http://habrahabr.ru/blogs/hardware/105061/), [Galaxy Tab](http://habrahabr.ru/company/samsung/blog/105148/), [WeTab](http://habrahabr.ru/blogs/gadgets/104958/) и [ImPad](http://habrahabr.ru/blogs/hardware/105112/)

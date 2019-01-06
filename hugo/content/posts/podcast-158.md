@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 158"
 date = "2009-10-25T08:19:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast158"
+image = "https://radio-t.com/images/radio-t/rt158.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt158.png)
-
 
 - Новое и даже хорошее от [Microsoft](http://www.engadget.com/2009/10/22/windows-7-launch-day-what-you-need-to-know/)
 - Не менее хорошее от [Apple](http://macspoon.ru/apple/macbook-imac-mac-min-magic-mouse-20oct/)

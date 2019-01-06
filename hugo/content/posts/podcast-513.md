@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 513"
 date = "2016-09-17T17:52:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt513.jpg"
 filename = "rt_podcast513"
-+++
 
-![](https://radio-t.com/images/radio-t/rt513.jpg)
++++
 
 - [С днем программиста](https://en.wikipedia.org/wiki/Day_of_the_Programmer) - *00:11:39*.
 - [Gmail упал и надолго](https://www.cnet.com/news/gmail-is-down-internationally-disrupting-work-flows/) - *00:20:56*.

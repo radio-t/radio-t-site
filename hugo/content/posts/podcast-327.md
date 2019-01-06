@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 327"
 date = "2013-02-09T15:39:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt327.jpg"
 filename = "rt_podcast327"
-+++
 
-![](https://radio-t.com/images/radio-t/rt327.jpg)
++++
 
 * [Surface Pro 128 GB](http://winsupersite.com/windows-8/surface-pro-128-gb-immediately-sells-out) разошлись как горячие пирожки.
 * Баг в Facebook [уложил весь интернет](http://gizmodo.com/5982677/a-facebook-bug-pretty-much-took-down-the-entire-internet).

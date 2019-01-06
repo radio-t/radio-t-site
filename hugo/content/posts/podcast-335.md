@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 335"
 date = "2013-04-06T17:53:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt335.jpg"
 filename = "rt_podcast335"
-+++
 
-![](https://radio-t.com/images/radio-t/rt335.jpg)
++++
 
 * Google на день веб-мастера [c неприятным сюрпризом](http://habrahabr.ru/post/175377/).
 * [Так почему они это сделали?](http://www.zdnet.com/the-real-reason-why-google-forked-webkit-7000013514/).

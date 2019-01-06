@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 426"
 date = "2015-01-10T16:35:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt426.jpg"
 filename = "rt_podcast426"
-+++
 
-![](https://radio-t.com/images/radio-t/rt426.jpg)
++++
 
 * [Что было на CES 2015](http://prsm.tc/HRZJQo)
 * [USB 3.1 и Type-C](http://prsm.tc/owEQ8k)

@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 204"
 date = "2010-09-12T05:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast204"
-+++
+image = "https://radio-t.com/images/radio-t/rt204.jpg"
 
-![](https://radio-t.com/images/radio-t/rt204.jpg)
++++
 
 - Очень живой поиск. Редакция одобряет
 - Теперь и MS захотела купить [антивирус](http://itc.ua/node/48518)

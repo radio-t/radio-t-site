@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 518"
 date = "2016-10-22T17:36:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt518.jpg"
 filename = "rt_podcast518"
-+++
 
-![](https://radio-t.com/images/radio-t/rt518.jpg)
++++
 
 - [Атака на интернет](https://www.wired.com/2016/10/internet-outage-ddos-dns-dyn/) - *00:02:21*.
 - [Это начало конца](http://gizmodo.com/todays-brutal-ddos-attack-is-the-beginning-of-a-bleak-f-1788071976?utm_campaign=socialflow_gizmodo_twitter) - *00:30:06*.

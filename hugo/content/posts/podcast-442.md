@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 442"
 date = "2015-05-02T18:37:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt442.jpg"
 filename = "rt_podcast442"
-+++
 
-![](https://radio-t.com/images/radio-t/rt442.jpg)
++++
 
 * [Rust](http://www.rust-lang.org) – зачем, почему и для кого? Гость в студии.
 * [Build 2015](http://habrahabr.ru/company/microsoft/blog/257029/).

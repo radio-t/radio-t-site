@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 381"
 date = "2014-03-01T16:17:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt381.jpg"
 filename = "rt_podcast381"
-+++
 
-![](https://radio-t.com/images/radio-t/rt381.jpg)
++++
 
 * [Atom от Github](http://code.tutsplus.com/tutorials/check-out-atom-githubs-new-development-editor--net-37030).
 * [Монит починил это](http://mmonit.com/monit/dist/CHANGES.txt).

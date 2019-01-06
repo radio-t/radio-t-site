@@ -1,8 +1,9 @@
 +++
 title = "Радио–Т 74"
 date = "2008-02-24T05:43:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast74"
+
 +++
 
 - Всем говорить только хорошо о ...

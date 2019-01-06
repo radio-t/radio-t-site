@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 463"
 date = "2015-09-26T17:39:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt463.jpg"
 filename = "rt_podcast463"
-+++
 
-![](https://radio-t.com/images/radio-t/rt463.jpg)
++++
 
 * [Немалые проблем с AWS](http://searchaws.techtarget.com/news/4500253914/Cascading-AWS-outage-stokes-cloud-fears).
 * [IPv4 закончились на самом деле](http://arstechnica.com/business/2015/09/north-america-is-out-of-ipv4-addresses-for-really-real-this-time/).

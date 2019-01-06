@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 60"
 date = "2007-11-11T09:02:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast60"
-+++
 
++++
 
 - [Автокадабрa](http://autokadabra.ru/): не видели, но осуждаем
 - Гиганты эпохи 2.0 на слуху

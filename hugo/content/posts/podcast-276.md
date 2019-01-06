@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 276"
 date = "2012-02-12T01:50:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast276"
-+++
+image = "https://radio-t.com/images/radio-t/rt276.jpg"
 
-![](https://radio-t.com/images/radio-t/rt276.jpg)
++++
 
 - Знаменательный день для [Delphi](http://habrahabr.ru/blogs/delphi/137985/)
 - Релиз [ReactOS](http://www.opennet.ru/opennews/art.shtml?num=33030) 0.3.14

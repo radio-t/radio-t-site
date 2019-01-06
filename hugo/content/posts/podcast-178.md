@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 178"
 date = "2010-03-14T07:58:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast178"
+image = "https://radio-t.com/images/radio-t/rt178.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt178.jpg)
-
 
 - [SearchWiki](http://habrahabr.ru/blogs/google/87354/) весь вышел
 - Новое "[право на сеть](http://internet.cnews.ru/news/line/index.shtml?2010/03/09/382035)"

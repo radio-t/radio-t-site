@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 468"
 date = "2015-10-31T17:57:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt468.jpg"
 filename = "rt_podcast468"
-+++
 
-![](https://radio-t.com/images/radio-t/rt468.jpg)
++++
 
 * [HP разделяется на две части](http://www.apnewsarchive.com/2015/Pioneering-tech-giant-Hewlett-Packard-is-splitting-in-2-this-weekend/id-79e4eba216504051972b89).
 * [Google убивает Chrome OS](http://www.theverge.com/2015/10/29/9639950/google-combining-android-chromeos-report).

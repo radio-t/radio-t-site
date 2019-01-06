@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 458"
 date = "2015-08-22T17:41:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt458.jpg"
 filename = "rt_podcast458"
-+++
 
-![](https://radio-t.com/images/radio-t/rt458.jpg)
++++
 
 * [Вышел Go 1.5](http://habrahabr.ru/post/265115/).
 * Обучение ведущих уму-разуму по поводу лучшего-из-языков-где-не-нужен-дебагер.

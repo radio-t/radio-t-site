@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 599"
 date = "2018-05-26T18:11:11"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt599.jpg"
 filename = "rt_podcast599"
-+++
 
-![](https://radio-t.com/images/radio-t/rt599.jpg)
++++
 
 - [Наступил полный GDPR](https://habr.com/post/359278/).
 - [Facebook и Google могут стать его первыми жертвами](https://www.theverge.com/2018/5/25/17393766/facebook-google-gdpr-lawsuit-max-schrems-europe).

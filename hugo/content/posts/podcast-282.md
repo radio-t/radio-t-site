@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 282"
 date = "2012-04-01T02:30:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast282"
+image = "https://radio-t.com/images/radio-t/rt282.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt282.jpg)
-
 
 - Пора подумать о [backup](http://gigaom.com/cloud/seriously-now-people-back-your-stuff-up/). Еще не поздно
 - Мифические [tablets](http://online.wsj.com/article/SB10001424052702303404704577312043639469540.html) от Google скоро

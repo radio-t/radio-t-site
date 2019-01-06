@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 514"
 date = "2016-09-24T17:33:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt514.jpg"
 filename = "rt_podcast514"
-+++
 
-![](https://radio-t.com/images/radio-t/rt514.jpg)
++++
 
 - [macOS Sierra](http://www.trustedreviews.com/macos-sierra-review) - *00:02:55*.
 - [Snapchat с смешными очками](https://www.wired.com/2016/09/snap-specs-snapchat/) - *00:34:01*.

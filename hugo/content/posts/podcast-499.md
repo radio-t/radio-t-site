@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 499"
 date = "2016-06-11T18:17:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt499.jpg"
 filename = "rt_podcast499"
-+++
 
-![](https://radio-t.com/images/radio-t/rt499.jpg)
++++
 
 - [Что нам Apple WWDC готовит](http://techcrunch.com/2016/06/10/what-to-expect-at-apples-wwdc-keynote/) - *00:20:53*.
 - [AWS не подходит для стартапов](http://www.smashcompany.com/technology/aws-is-inappropriate-for-small-startups-because-its-complexity-demands-a-specialist) - *00:38:56*.

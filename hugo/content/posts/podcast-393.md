@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 393"
 date = "2014-05-24T17:04:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt393.jpg"
 filename = "rt_podcast393"
-+++
 
-![](https://radio-t.com/images/radio-t/rt393.jpg)
++++
 
 * [Surface Pro 3](http://www.zdnet.com/surface-pro-3-thinner-lighter-more-flexible-7000029700/)
 * [Кому это надо?](http://prsm.tc/jmIbhV)

@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 125"
 date = "2009-02-22T15:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast125"
+image = "https://radio-t.com/images/radio-t/rt125.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt125.jpg)
-
 
 - Главный праздник отмечают в [Intel](http://www.mobile-review.com/fullnews/main/2009/February/18.shtml)
 - [Новый](http://www.engadget.com/2009/02/16/microsoft-announces-windows-mobile-6-5/) Win Mobile к нам идёт

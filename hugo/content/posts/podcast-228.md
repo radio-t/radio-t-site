@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 228"
 date = "2011-02-27T05:55:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast228"
+image = "https://radio-t.com/images/radio-t/rt228.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt228.png)
-
 
 - 40 лет email. [Пациент](http://www.dzone.com/links/rss/happy_40th_birthday_email_now_die.html) мертв или жив?
 - Новый [iPad](http://www.mobile-review.com/fullnews/main/2011/February/24.shtml) представят к нашей радости

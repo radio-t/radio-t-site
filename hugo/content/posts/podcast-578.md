@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 578"
 date = "2017-12-30T17:33:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt578.jpg"
 filename = "rt_podcast578"
-+++
 
-![](https://radio-t.com/images/radio-t/rt578.jpg)
++++
 
 - [Скандалы и технические провалы 2017](https://thenextweb.com/evergreen/2017/12/29/2017-review-techs-biggest-scandals-fuck-ups/) - *00:05:09*.
 - [Amazon готовит свой собственный YouTube](http://bgr.com/2017/12/20/amazon-youtube-service-amazontube/) - *00:35:33*.

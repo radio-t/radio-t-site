@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 519"
 date = "2016-10-29T18:08:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt519.jpg"
 filename = "rt_podcast519"
-+++
 
-![](https://radio-t.com/images/radio-t/rt519.jpg)
++++
 
 - [Apple придумали ТВ 21 века, но не совсем](http://fortune.com/2016/10/27/apple-tv-holes/) - *00:07:10*.
 - [Apple показалии новый MacBook Pro](https://techcrunch.com/2016/10/27/apples-macbook-pro-event-recap-2016/) - *00:14:40*.

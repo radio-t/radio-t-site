@@ -1,14 +1,11 @@
 +++
 title = "Радио-Т 230"
 date = "2011-03-13T01:16:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast230"
+image = "https://radio-t.com/images/radio-t/rt230.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt230.jpg)
-
-
-
 
 - О главной [новости ](http://www.engadget.com/2011/03/09/ipad-2-review/)и от нас
 - Выход [iOS 4.3](http://venturebeat.com/2011/03/09/apple-releases-ios-4-3-with-wifi-hotspot-improved-airplay/), без особых радостей

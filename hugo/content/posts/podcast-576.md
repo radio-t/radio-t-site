@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 576"
 date = "2017-12-16T17:42:26"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt576.jpg"
 filename = "rt_podcast576"
-+++
 
-![](https://radio-t.com/images/radio-t/rt576.jpg)
++++
 
 - [Putty больше не нужен в Windows 10](https://www.servethehome.com/say-farewell-putty-microsoft-adds-openssh-client-windows-10/) - *00:01:44*.
 - [Excel раздумывает над добавлением Python](https://news.ycombinator.com/item?id=15927132) - *00:24:53*.

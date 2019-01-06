@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 350"
 date = "2013-07-27T17:35:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt350.jpg"
 filename = "rt_podcast350"
-+++
 
-![](https://radio-t.com/images/radio-t/rt350.jpg)
++++
 
 * Поздравляем с [днем системного администратора](http://habrahabr.ru/company/mailru/blog/187918/)
 * Еще один [праздник для подкастеров и слушателей](http://www.macrumors.com/2013/07/22/apple-reaches-podcasting-milestone-with-1-billion-subscribers/)

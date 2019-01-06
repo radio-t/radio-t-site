@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 367"
 date = "2013-11-23T16:00:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt367.jpg"
 filename = "rt_podcast367"
-+++
 
-![](https://radio-t.com/images/radio-t/rt367.jpg)
++++
 
 * [Microsoft кружки  против Google](http://www.theverge.com/2013/11/20/5127052/microsoft-scroogled-mugs-t-shirts-store)
 * Raspberry Pi [первалил за 2M](http://thenextweb.com/insider/2013/11/18/raspberry-pi-has-now-sold-over-2-million-of-its-affordable-micro-computers/)

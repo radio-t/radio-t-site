@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 122"
 date = "2009-02-01T10:20:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast122"
+image = "https://radio-t.com/images/radio-t/rt122.png"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt122.png)
-
 
 - Внезапный, но приятный гость
 - Гугловые нетипичные [неприятности](http://www.techcrunch.com/2009/01/31/google-flags-whole-internet-as-malware/)

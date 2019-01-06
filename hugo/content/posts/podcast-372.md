@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 372"
 date = "2013-12-28T14:58:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt372.jpg"
 filename = "rt_podcast372"
-+++
 
-![](https://radio-t.com/images/radio-t/rt372.jpg)
++++
 
 * [2013 - год разочарований](http://qz.com/161443/2013-was-a-lost-year-for-tech/).
 * Как мы строили кластер.

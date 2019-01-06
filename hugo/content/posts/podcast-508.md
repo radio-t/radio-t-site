@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 508"
 date = "2016-08-13T18:17:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt508.jpg"
 filename = "rt_podcast508"
-+++
 
-![](https://radio-t.com/images/radio-t/rt508.jpg)
++++
 
 - [Первому сайту 25 лет](https://www.engadget.com/2016/08/06/first-website-went-public-25-years-ago/) - *00:03:18*.
 - [Microsoft показала какие молодцы Apple](https://9to5mac.com/2016/08/12/proof-apple-was-right-to-fight-the-fbi/) - *00:17:53*.

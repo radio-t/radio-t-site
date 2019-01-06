@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 491"
 date = "2016-04-09T17:44:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt491.jpg"
 filename = "rt_podcast491"
-+++
 
-![](https://radio-t.com/images/radio-t/rt491.jpg)
++++
 
 - [Vivaldi вышел с версией 1.0](http://thenextweb.com/apps/2016/04/06/vivaldis-browser/) - *00:00:31*.
 - [Браузер только для умных](http://www.cnet.com/news/vivaldi-web-browser-for-power-users-who-think-chrome-is-for-dummies/) - *00:01:58*.

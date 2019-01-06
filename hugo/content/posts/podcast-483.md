@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 483"
 date = "2016-02-13T16:37:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt483.jpg"
 filename = "rt_podcast483"
-+++
 
-![](https://radio-t.com/images/radio-t/rt483.jpg)
++++
 
 - [Netflix завершил переезд в облако конкурента](http://arstechnica.com/information-technology/2016/02/netflix-finishes-its-massive-migration-to-the-amazon-cloud/). - *00:01:26*.
 - [Они о чем-то догадываются](http://www.theguardian.com/technology/2016/feb/11/amazon-terms-of-service-zombie-apocalypse) - *00:16:46*.

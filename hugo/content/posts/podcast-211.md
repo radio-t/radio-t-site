@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 211"
 date = "2010-10-31T05:01:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast211"
-+++
+image = "https://radio-t.com/images/radio-t/rt211.jpg"
 
-![](https://radio-t.com/images/radio-t/rt211.jpg)
++++
 
 - Новый русский [IT–налог](http://www.opennet.ru/opennews/art.shtml?num=28399)
 - Яндекс и Facebook [подружились](http://internetno.net/2010/10/28/yandeks-i-facebook-podruzhilis/)

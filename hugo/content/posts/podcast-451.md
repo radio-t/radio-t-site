@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 451"
 date = "2015-07-04T18:15:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt451.jpg"
 filename = "rt_podcast451"
-+++
 
-![](https://radio-t.com/images/radio-t/rt451.jpg)
++++
 
 * [Microsoft поломал Wi-Fi](http://prsm.tc/ECX8M6).
 * [Компромиссы микро-сервисов](http://habrahabr.ru/post/261689/).

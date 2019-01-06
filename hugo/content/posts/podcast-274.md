@@ -1,12 +1,11 @@
 +++
 title = "Радио-Т 274"
 date = "2012-01-29T02:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast274"
+image = "https://radio-t.com/images/radio-t/rt274.jpg"
+
 +++
-
-![](https://radio-t.com/images/radio-t/rt274.jpg)
-
 
 - [2 года](http://mashable.com/2012/01/27/ipad-two-years-later/) с последней революции
 - Что подправить для [нового iPad](http://www.businessinsider.com/9-things-apple-needs-to-change-with-the-ipad-3-before-i-buy-one-2012-1)
