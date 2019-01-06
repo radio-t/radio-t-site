@@ -6,9 +6,9 @@
   <meta charset="utf-8">
 
   {{ if eq .URL "/" }}
-    <title>{{ .Title }}</title>
+    <title>{{ .Site.Title }}</title>
   {{ else }}
-    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <title>{{ .Title }}</title>
   {{ end }}
 
   <meta name="description" content="{{ .Site.Params.description }}">
