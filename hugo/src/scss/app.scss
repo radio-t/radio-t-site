@@ -220,6 +220,12 @@ $jumbotron-arc-width: 120%;
         font-weight: $font-weight-bold;
         flex-shrink: 0;
         min-width: 5.5em;
+        &:empty { // no time labels
+          &:after {
+            content: '––:––:––';
+            opacity: .5;
+          }
+        }
         .fas {
           display: none;
         }
@@ -271,12 +277,6 @@ $jumbotron-arc-width: 120%;
   background-repeat: no-repeat;
   transition: 150ms;
   cursor: pointer;
-  &:hover {
-    .cover-play-button {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
 }
 .cover-play-button {
   $play-button-size: 25%;
@@ -293,7 +293,7 @@ $jumbotron-arc-width: 120%;
   backdrop-filter: blur(5px);
   border-radius: 50%;
   color: $body-color;
-  opacity: 0;
+  opacity: 1;
   transform: scale(.8);
   transition: 100ms;
   cursor: pointer;
