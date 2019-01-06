@@ -12,7 +12,7 @@
         <div>
           <h2 class="number-title"><a href="{{ .Permalink }}">{{ partial "number-title" . }}</a></h2>
           {{ partial "comments-counter" .Permalink }}
-          <p class="post-time m-0">{{ partial "post-time" . }}</p>
+          <div class="post-time">{{ partial "post-time" . }}</div>
         </div>
         {{ partial "share" }}
       </div>
@@ -45,7 +45,7 @@
         </div>
         <div class="w-100"></div>
         <div class="col-md-2 text-md-right">
-          <p class="post-time m-0">{{ partial "post-time" . }}</p>
+          <div class="post-time">{{ partial "post-time" . }}</div>
           {{ partial "comments-counter" .Permalink }}
         </div>
         <div class="text-content col-md-8" data-controller="highlight">

@@ -1,6 +1,7 @@
 @import "boot";
 @import "likely";
 @import "player";
+$topic-spacer: $line-height-base * .33em;
 @mixin dark {
   background-color: #000;
   filter: invert(1) hue-rotate(180deg);
@@ -171,6 +172,7 @@ $jumbotron-arc-width: 120%;
 .number-title {
   font-size: $h2-font-size;
   margin-top: -.4rem;
+  margin-bottom: .32rem;
   > a {
     transition: none !important;
     border-bottom: none !important;
@@ -195,7 +197,11 @@ $jumbotron-arc-width: 120%;
   font-weight: 900;
 }
 .post-time {
-  font-size: $small-font-size;
+  font-size: .8em;
+  line-height: $line-height-base * (1/.8);
+  .comments-counter + & {
+    margin-top: $topic-spacer;
+  }
 }
 // Show only first ul in podcast content in list
 .posts-list {
@@ -217,7 +223,7 @@ $jumbotron-arc-width: 120%;
       display: flex;
       align-items: baseline;
       & + li {
-        margin-top: $line-height-base * .33em;
+        margin-top: $topic-spacer;
       }
       > em {
         display: block;

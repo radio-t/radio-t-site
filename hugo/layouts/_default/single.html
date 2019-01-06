@@ -23,7 +23,7 @@
           <div class="col-md-2 text-right d-flex flex-column justify-content-between">
             <div>
               <h1 class="number-title">{{ partial "number-title" . }}</h1>
-              <p class="post-time m-0">{{ partial "post-time" . }}</p>
+              <div class="post-time">{{ partial "post-time" . }}</div>
             </div>
             {{ partial "share" }}
           </div>
@@ -40,7 +40,7 @@
         <div class="row">
           <div class="col-md-2 text-right">
             <h1 class="number-title">{{ partial "number-title" . }}</h1>
-            <p class="post-time m-0">{{ partial "post-time" . }}</p>
+            <div class="post-time">{{ partial "post-time" . }}</div>
           </div>
           <div class="col-md">{{ partial "comments" }}</div>
           <div class="col-md-2">{{ partial "share" }}</div>
@@ -55,7 +55,7 @@
           </div>
           <div class="w-100"></div>
           <div class="col-md-2 text-md-right">
-            <p class="post-time m-0">{{ partial "post-time" . }}</p>
+            <div class="post-time">{{ partial "post-time" . }}</div>
             {{ partial "share" }}
           </div>
           <div class="text-content col-md-8" data-controller="highlight">
