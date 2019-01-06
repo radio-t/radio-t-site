@@ -233,7 +233,7 @@ $jumbotron-arc-width: 120%;
         &:empty { // no time labels
           &:after {
             content: '--:--:--';
-            opacity: .5;
+            opacity: .33;
           }
         }
         .fas {
