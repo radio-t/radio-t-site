@@ -412,9 +412,9 @@ $jumbotron-arc-width: 120%;
 .nav-blog-archives {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: $zindex-sticky;
   overflow-y: hidden;
-  background-color: rgba($white, .9);
+  background-color: rgba($white, .87);
   backdrop-filter: blur(3px);
   box-shadow: 0 2px 2px rgba($black, .12);
   .nav {
