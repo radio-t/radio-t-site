@@ -14,5 +14,5 @@ filename = "rt_podcast395"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast395.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-395.html)
+[аудио](http://cdn.radio-t.com/rt_podcast395.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-395.html)
 <audio src="http://cdn.radio-t.com/rt_podcast395.mp3" preload="none"></audio>

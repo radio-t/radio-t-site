@@ -18,5 +18,5 @@ filename = "rt_podcast387"
 
 _Спонсор этого выпуска [webzilla](http://radio-t.files.webzilla.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast387.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-387.html)
+[аудио](http://cdn.radio-t.com/rt_podcast387.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-387.html)
 <audio src="http://cdn.radio-t.com/rt_podcast387.mp3" preload="none"></audio>

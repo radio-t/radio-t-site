@@ -19,5 +19,5 @@ filename = "rt_podcast613"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast613.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-613.html)
+[аудио](http://cdn.radio-t.com/rt_podcast613.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-613.html)
 <audio src="http://cdn.radio-t.com/rt_podcast613.mp3" preload="none"></audio>

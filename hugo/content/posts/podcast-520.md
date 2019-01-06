@@ -18,5 +18,5 @@ filename = "rt_podcast520"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast520.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-520.html)
+[аудио](http://cdn.radio-t.com/rt_podcast520.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-520.html)
 <audio src="http://cdn.radio-t.com/rt_podcast520.mp3" preload="none"></audio>

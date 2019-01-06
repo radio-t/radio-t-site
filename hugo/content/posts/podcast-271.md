@@ -15,4 +15,4 @@ image = "https://radio-t.com/images/radio-t/rt271.jpg"
 - Проблемы и решения mongo [лока](http://blog.pythonisito.com/2011/12/mongodbs-write-lock.html)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast271.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast271.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-271.html)<audio src="http://cdn.radio-t.com/rt_podcast271.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast271.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast271.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-271.html)<audio src="http://cdn.radio-t.com/rt_podcast271.mp3" preload="none"></audio>

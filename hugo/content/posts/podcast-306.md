@@ -17,4 +17,4 @@ image = "https://radio-t.com/images/radio-t/rt306.jpg"
 * [iMac от HP](http://www.geekwire.com/2012/hp-device-imac/). Что это было?
 * Релиз системы виртуализации [VirtualBox 4.2.0](http://www.opennet.ru/opennews/art.shtml?num=34830)
 
-[аудио](http://cdn.radio-t.com/rt_podcast306.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast306.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-306.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_306)<audio src="http://cdn.radio-t.com/rt_podcast306.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast306.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast306.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-306.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_306)<audio src="http://cdn.radio-t.com/rt_podcast306.mp3" preload="none"></audio>

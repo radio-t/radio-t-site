@@ -14,5 +14,5 @@ filename = "rt_podcast400"
 * Раздача подарков.
 * Прочие праздничные разговоры.
 
-[аудио](http://cdn.radio-t.com/rt_podcast400.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-400.html)
+[аудио](http://cdn.radio-t.com/rt_podcast400.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-400.html)
 <audio src="http://cdn.radio-t.com/rt_podcast400.mp3" preload="none"></audio>

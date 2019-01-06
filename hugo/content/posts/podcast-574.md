@@ -23,5 +23,5 @@ filename = "rt_podcast574"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast574.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-574.html)
+[аудио](http://cdn.radio-t.com/rt_podcast574.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-574.html)
 <audio src="http://cdn.radio-t.com/rt_podcast574.mp3" preload="none"></audio>

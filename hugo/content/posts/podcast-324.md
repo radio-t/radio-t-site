@@ -20,4 +20,4 @@ filename = "rt_podcast324"
 * [Galaxy Note 8.0](http://www.theverge.com/2013/1/17/3886644/galaxy-note-8-tablet-rumored-to-be-unviled-at-mwc) что-то напоминает
 * [Facebook открывает и железо](http://www.businessinsider.com/facebook-fires-killing-blow-into-55-billion-market-2013-1)
 
-[аудио](http://cdn.radio-t.com/rt_podcast324.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast324.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-324.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_324)<audio src="http://cdn.radio-t.com/rt_podcast324.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast324.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast324.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-324.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_324)<audio src="http://cdn.radio-t.com/rt_podcast324.mp3" preload="none"></audio>

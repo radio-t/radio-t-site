@@ -14,4 +14,4 @@ image = "https://radio-t.com/images/radio-t/rt275.png"
 - Продвинутый, но отложенный [логинг](http://pragprog.com/magazines/2011-12/justintime-logging)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast275.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast275.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-275.html)<audio src="http://cdn.radio-t.com/rt_podcast275.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast275.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast275.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-275.html)<audio src="http://cdn.radio-t.com/rt_podcast275.mp3" preload="none"></audio>

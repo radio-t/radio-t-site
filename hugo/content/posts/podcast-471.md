@@ -19,5 +19,5 @@ filename = "rt_podcast471"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast471.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-471.html)
+[аудио](http://cdn.radio-t.com/rt_podcast471.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-471.html)
 <audio src="http://cdn.radio-t.com/rt_podcast471.mp3" preload="none"></audio>

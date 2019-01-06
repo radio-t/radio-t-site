@@ -18,4 +18,4 @@ filename = "rt_podcast325"
 * [HTC нечто](http://www.theverge.com/2013/1/25/3915700/htc-mini-tiny-phone-companion-for-your-oversized-smartphone) в комплект к лопате
 * [BlackBerry 10](http://www.zdnet.com/blackberry-10-essentials-what-you-need-to-know-7000010078/) скорее мертв чем жив
 
-[аудио](http://cdn.radio-t.com/rt_podcast325.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast325.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-325.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_325)<audio src="http://cdn.radio-t.com/rt_podcast325.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast325.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast325.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-325.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_325)<audio src="http://cdn.radio-t.com/rt_podcast325.mp3" preload="none"></audio>

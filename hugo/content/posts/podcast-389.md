@@ -22,5 +22,5 @@ filename = "rt_podcast389"
 
 _Спонсор этого выпуска [webzilla](http://radio-t.files.webzilla.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast389.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-389.html)
+[аудио](http://cdn.radio-t.com/rt_podcast389.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-389.html)
 <audio src="http://cdn.radio-t.com/rt_podcast389.mp3" preload="none"></audio>

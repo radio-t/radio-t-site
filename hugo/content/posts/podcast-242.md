@@ -17,4 +17,4 @@ image = "https://radio-t.com/images/radio-t/rt242.jpg"
 - Кому грусть от всех [новинок](http://money.cnn.com/2011/06/07/technology/apple_dropbox_sparrow/)
 - [Темы](http://new.radio-t.com/2011/06/242.html) наших слушателей.
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast242.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast242.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-242.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast242.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast242.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast242.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-242.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast242.mp3" preload="none"></audio>

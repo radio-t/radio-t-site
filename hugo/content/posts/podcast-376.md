@@ -16,5 +16,5 @@ filename = "rt_podcast376"
 * [IBM прощается с x86 серверами](http://habrahabr.ru/post/210132/)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast376.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-376.html)
+[аудио](http://cdn.radio-t.com/rt_podcast376.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-376.html)
 <audio src="http://cdn.radio-t.com/rt_podcast376.mp3" preload="none"></audio>

@@ -17,5 +17,5 @@ filename = "rt_podcast379"
 * [iAnywhere уже скоро](http://appadvice.com/appnn/2014/02/report-apple-is-working-on-a-new-product-category-called-the-ianywhere)
 * [Совсем хакнули Bitcoin](http://venturebeat.com/2014/02/14/flaw-in-bitcoin-exchange-shutdowns-2-7-million-theft-is-the-end-coming/) или не хакнули?
 
-[аудио](http://cdn.radio-t.com/rt_podcast379.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-379.html)
+[аудио](http://cdn.radio-t.com/rt_podcast379.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-379.html)
 <audio src="http://cdn.radio-t.com/rt_podcast379.mp3" preload="none"></audio>

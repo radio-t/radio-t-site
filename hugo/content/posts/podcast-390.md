@@ -17,5 +17,5 @@ filename = "rt_podcast390"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Teamlab Office](https://personal.teamlab.com/)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast390.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-390.html)
+[аудио](http://cdn.radio-t.com/rt_podcast390.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-390.html)
 <audio src="http://cdn.radio-t.com/rt_podcast390.mp3" preload="none"></audio>

@@ -18,5 +18,5 @@ filename = "rt_podcast552"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](https://sprintbox.ru)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast552.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-552.html)
+[аудио](http://cdn.radio-t.com/rt_podcast552.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-552.html)
 <audio src="http://cdn.radio-t.com/rt_podcast552.mp3" preload="none"></audio>

@@ -17,5 +17,5 @@ filename = "rt_podcast456"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast456.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-456.html)
+[аудио](http://cdn.radio-t.com/rt_podcast456.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-456.html)
 <audio src="http://cdn.radio-t.com/rt_podcast456.mp3" preload="none"></audio>

@@ -15,4 +15,4 @@ image = "https://radio-t.com/images/radio-t/rt266.png"
 - Кодирование для всех [школьников](http://www.bbc.co.uk/news/technology-15916677)
 - Темы наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast266.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast266.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-266.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast266.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast266.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast266.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-266.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast266.mp3" preload="none"></audio>

@@ -18,5 +18,5 @@ filename = "rt_podcast367"
 * Samsung продал [целых 50,000 часов](http://thenextweb.com/insider/2013/11/19/samsung-says-it-has-sold-800000-galaxy-gears-refuting-reports-of-under-50000-sales/)
 * [Бета-тестирование нового Яндекс.Браузера](http://habrahabr.ru/company/yandex/blog/202542/)
 
-[аудио](http://cdn.radio-t.com/rt_podcast367.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-367.html)
+[аудио](http://cdn.radio-t.com/rt_podcast367.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-367.html)
 <audio src="http://cdn.radio-t.com/rt_podcast367.mp3" preload="none"></audio>

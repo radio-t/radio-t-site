@@ -15,5 +15,5 @@ filename = "rt_podcast353"
 
 _Спонсор этого выпуска [ROCK IT CON 2013](http://www.rockitcon.com)_
 
-[аудио](http://media.blubrry.com/radiot/cdn.radio-t.com/rt_podcast353.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-353.html)
+[аудио](http://media.blubrry.com/radiot/cdn.radio-t.com/rt_podcast353.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-353.html)
 <audio src="http://media.blubrry.com/radiot/cdn.radio-t.com/rt_podcast353.mp3" preload="none"></audio>

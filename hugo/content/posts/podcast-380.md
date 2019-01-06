@@ -14,5 +14,5 @@ filename = "rt_podcast380"
 * [WhatsApp за $19B](http://www.businessinsider.com/facebook-is-buying-whatsapp-2014-2)
 * Много прочих-разных разговоров.
 
-[аудио](http://cdn.radio-t.com/rt_podcast380.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-380.html)
+[аудио](http://cdn.radio-t.com/rt_podcast380.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-380.html)
 <audio src="http://cdn.radio-t.com/rt_podcast380.mp3" preload="none"></audio>

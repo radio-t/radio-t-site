@@ -19,4 +19,4 @@ filename = "rt_podcast328"
 * Ну а [Samsung уже на низком старте](http://venturebeat.com/2013/02/15/now-we-know-why-apple-was-leaking-stupid-iwatch-rumors-samsungs-releasing-one/)
 * [Cooliris подружился с Яндексом](http://techcrunch.com/2013/02/08/cooliris-expands-again-with-yandex-partnership-hits-3-million-users-on-ios/) и возрадовался
 
-[аудио](http://cdn.radio-t.com/rt_podcast328.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast328.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-328.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_328) ● [playchat](http://playchat.radio-t.com/?vol=328)<audio src="http://cdn.radio-t.com/rt_podcast328.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast328.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast328.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-328.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_328) • [playchat](http://playchat.radio-t.com/?vol=328)<audio src="http://cdn.radio-t.com/rt_podcast328.mp3" preload="none"></audio>

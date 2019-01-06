@@ -18,4 +18,4 @@ image = "https://radio-t.com/images/radio-t/rt269.png"
 - [spnKiX](http://techcrunch.com/2011/12/20/kickstarter-spnkix-are-motorized-shoes-yes-motorized-shoes/) на колесиках
 - Темы наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast269.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast269.mp3.torrent)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast269.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast269.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast269.mp3.torrent)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast269.mp3" preload="none"></audio>

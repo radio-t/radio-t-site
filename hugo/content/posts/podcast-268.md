@@ -18,4 +18,4 @@ image = "https://radio-t.com/images/radio-t/rt268.png"
 - Почему работать надо [ночью](http://swizec.com/blog/why-programmers-work-at-night/swizec/3198)
 - Темы наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast268.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast268.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-268.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast268.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast268.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast268.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-268.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast268.mp3" preload="none"></audio>

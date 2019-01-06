@@ -20,5 +20,5 @@ filename = "rt_podcast555"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Тинькофф](http://bit.ly/tinkoff-rt2)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast555.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-555.html)
+[аудио](http://cdn.radio-t.com/rt_podcast555.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-555.html)
 <audio src="http://cdn.radio-t.com/rt_podcast555.mp3" preload="none"></audio>

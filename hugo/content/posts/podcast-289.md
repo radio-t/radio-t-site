@@ -19,4 +19,4 @@ image = "https://radio-t.com/images/radio-t/rt289.jpeg"
 - Прощание с [MongoDB](http://www.zopyx.de/blog/goodbye-mongodb)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast289.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast289.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-289.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_289)<audio src="http://cdn.radio-t.com/rt_podcast289.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast289.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast289.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-289.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_289)<audio src="http://cdn.radio-t.com/rt_podcast289.mp3" preload="none"></audio>

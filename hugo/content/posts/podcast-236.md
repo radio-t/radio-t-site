@@ -22,4 +22,4 @@ image = "https://radio-t.com/images/radio-t/rt236.jpg"
 - Большие цифры [гитхаба](https://github.com/blog/841-those-are-some-big-numbers)
 - [Темы ](http://new.radio-t.com/2011/04/236.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast236.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast236.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-236.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast236.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast236.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast236.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-236.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast236.mp3" preload="none"></audio>

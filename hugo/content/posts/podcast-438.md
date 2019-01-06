@@ -20,5 +20,5 @@ filename = "rt_podcast438"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast438.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-438.html)
+[аудио](http://cdn.radio-t.com/rt_podcast438.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-438.html)
 <audio src="http://cdn.radio-t.com/rt_podcast438.mp3" preload="none"></audio>

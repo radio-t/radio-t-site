@@ -18,5 +18,5 @@ filename = "rt_podcast378"
 * [Bitcoin](http://techcrunch.com/2014/02/07/russia-bans-bitcoin/) в России теперь черен.
 * [Hangouts для больших](http://gigaom.com/2014/02/06/with-new-chrome-hardware-google-wants-to-bring-hangouts-to-the-enterprise/).
 
-[аудио](http://cdn.radio-t.com/rt_podcast378.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-378.html)
+[аудио](http://cdn.radio-t.com/rt_podcast378.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-378.html)
 <audio src="http://cdn.radio-t.com/rt_podcast378.mp3" preload="none"></audio>

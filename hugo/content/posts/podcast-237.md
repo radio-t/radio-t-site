@@ -17,4 +17,4 @@ image = "https://radio-t.com/images/radio-t/rt237.jpg"
 - Закат buzz по непонятным причинам
 - [Темы ](http://new.radio-t.com/2011/04/237.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast237.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast237.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-237.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast237.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast237.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast237.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-237.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast237.mp3" preload="none"></audio>

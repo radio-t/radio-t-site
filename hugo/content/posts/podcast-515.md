@@ -17,5 +17,5 @@ filename = "rt_podcast515"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast515.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-515.html)
+[аудио](http://cdn.radio-t.com/rt_podcast515.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-515.html)
 <audio src="http://cdn.radio-t.com/rt_podcast515.mp3" preload="none"></audio>

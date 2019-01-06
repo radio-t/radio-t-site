@@ -22,4 +22,4 @@ filename = "rt_podcast323"
 * Борьба за право [DDoS](http://www.theverge.com/2013/1/9/3856202/anonymous-wants-ddos-attacks-to-be-protected-under-free-speech)
 * [GitHub мигнул опять](http://techcrunch.com/2013/01/08/another-major-github-outage-this-is-not-good-for-its-100m-enterprise-push/)
 
-[аудио](http://cdn.radio-t.com/rt_podcast323.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast323.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-323.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_323)<audio src="http://cdn.radio-t.com/rt_podcast323.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast323.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast323.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-323.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_323)<audio src="http://cdn.radio-t.com/rt_podcast323.mp3" preload="none"></audio>

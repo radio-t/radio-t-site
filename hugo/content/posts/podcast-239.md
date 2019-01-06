@@ -19,4 +19,4 @@ image = "https://radio-t.com/images/radio-t/rt239.jpg"
 - Как быть без [Джобса](http://www.cultofmac.com/steve-jobs-believes-apple-will-ok-without-him/93945)
 - [Темы ](http://new.radio-t.com/2011/05/239.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast239.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast239.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-239.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast239.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast239.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast239.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-239.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast239.mp3" preload="none"></audio>

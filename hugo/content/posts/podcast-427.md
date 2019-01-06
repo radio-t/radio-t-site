@@ -20,5 +20,5 @@ filename = "rt_podcast427"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast427.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-427.html)
+[аудио](http://cdn.radio-t.com/rt_podcast427.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-427.html)
 <audio src="http://cdn.radio-t.com/rt_podcast427.mp3" preload="none"></audio>

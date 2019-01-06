@@ -17,5 +17,5 @@ filename = "rt_podcast358"
 
 _Спонсор этого выпуска [ledlamps.ru](http://ledlamps.ru)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast358.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-358.html)
+[аудио](http://cdn.radio-t.com/rt_podcast358.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-358.html)
 <audio src="http://cdn.radio-t.com/rt_podcast358.mp3" preload="none"></audio>

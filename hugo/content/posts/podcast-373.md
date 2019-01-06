@@ -17,5 +17,5 @@ filename = "rt_podcast373"
 * И еще много около-гиковской белиберды.
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast373.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-373.html)
+[аудио](http://cdn.radio-t.com/rt_podcast373.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-373.html)
 <audio src="http://cdn.radio-t.com/rt_podcast373.mp3" preload="none"></audio>

@@ -21,5 +21,5 @@ filename = "rt_podcast350"
 
 _Спонсор этого выпуска [ROCK IT CON 2013](http://www.rockitcon.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast350.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-350.html)
+[аудио](http://cdn.radio-t.com/rt_podcast350.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-350.html)
 <audio src="http://cdn.radio-t.com/rt_podcast350.mp3" preload="none"></audio>

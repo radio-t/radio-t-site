@@ -18,4 +18,4 @@ image = "https://radio-t.com/images/radio-t/rt243.jpg"
 - Microsoft [IIS ](http://habrahabr.ru/blogs/internet/120839/)все падает
 - [Темы ](http://new.radio-t.com/2011/06/243.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast243.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast243.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-243.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast243.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast243.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast243.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-243.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast243.mp3" preload="none"></audio>

@@ -17,5 +17,5 @@ filename = "rt_podcast393"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast393.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-393.html)
+[аудио](http://cdn.radio-t.com/rt_podcast393.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-393.html)
 <audio src="http://cdn.radio-t.com/rt_podcast393.mp3" preload="none"></audio>

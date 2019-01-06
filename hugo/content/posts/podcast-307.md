@@ -17,4 +17,4 @@ image = "https://radio-t.com/images/radio-t/rt307.jpg"
 * [Начало агонии IPv4](http://habrahabr.ru/post/151518/)
 * Новый [Intel чип](http://techcrunch.com/2012/09/14/new-intel-chip-wont-support-linux/) несовместим (?!) с линуксом
 
-[аудио](http://cdn.radio-t.com/rt_podcast307.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast307.mp3.torrent)  ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_307)<audio src="http://cdn.radio-t.com/rt_podcast307.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast307.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast307.mp3.torrent)  • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_307)<audio src="http://cdn.radio-t.com/rt_podcast307.mp3" preload="none"></audio>

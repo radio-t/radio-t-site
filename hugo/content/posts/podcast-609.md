@@ -19,5 +19,5 @@ filename = "rt_podcast609"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast609.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-609.html)
+[аудио](http://cdn.radio-t.com/rt_podcast609.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-609.html)
 <audio src="http://cdn.radio-t.com/rt_podcast609.mp3" preload="none"></audio>

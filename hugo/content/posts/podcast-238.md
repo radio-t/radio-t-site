@@ -17,4 +17,4 @@ image = "https://radio-t.com/images/radio-t/rt238.jpg"
 - STSdb хороша на бумаге
 * внезапный выпуск. не стоит сетовать на звук гостей, они пришли внезапно и не успели приготовить достойную аппаратуру.
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast238.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast238.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-238.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast238.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast238.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast238.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-238.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast238.mp3" preload="none"></audio>

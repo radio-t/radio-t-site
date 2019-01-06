@@ -22,5 +22,5 @@ filename = "rt_podcast604"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast604.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-604.html)
+[аудио](http://cdn.radio-t.com/rt_podcast604.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-604.html)
 <audio src="http://cdn.radio-t.com/rt_podcast604.mp3" preload="none"></audio>

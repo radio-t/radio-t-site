@@ -20,4 +20,4 @@ image = "https://radio-t.com/images/radio-t/rt294.jpeg"
 * [Торвальдс](http://arstechnica.com/information-technology/2012/06/linus-torvalds-says-f-k-you-to-nvidia/) о NVidia
 * Миф о разгоне команды Qt
 
-[аудио](http://cdn.radio-t.com/rt_podcast294.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast294.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-294.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_294)<audio src="http://cdn.radio-t.com/rt_podcast294.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast294.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast294.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-294.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_294)<audio src="http://cdn.radio-t.com/rt_podcast294.mp3" preload="none"></audio>

@@ -14,4 +14,4 @@ image = "https://radio-t.com/images/radio-t/rt257.png"
 - Что не так с [Microsoft](http://www.misfitgeek.com/2011/09/whats-wrong-with-microsoft/)
 - Темы наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast257.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast257.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-257.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast257.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast257.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast257.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-257.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast257.mp3" preload="none"></audio>

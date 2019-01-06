@@ -19,4 +19,4 @@ image = "https://radio-t.com/images/radio-t/rt258.png"
 - [Google ](http://habrahabr.ru/blogs/Dura_Lex/129139/)придется заплатить
 
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast258.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast258.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-258.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast258.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast258.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast258.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-258.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast258.mp3" preload="none"></audio>

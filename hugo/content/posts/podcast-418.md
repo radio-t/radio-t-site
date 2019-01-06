@@ -21,5 +21,5 @@ filename = "rt_podcast418"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast418.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-418.html)
+[аудио](http://cdn.radio-t.com/rt_podcast418.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-418.html)
 <audio src="http://cdn.radio-t.com/rt_podcast418.mp3" preload="none"></audio>
