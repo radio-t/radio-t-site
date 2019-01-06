@@ -7,19 +7,10 @@ export default class extends Controller {
     'podcast',
   ];
 
-  initialize() {
-    super.initialize();
-    // console.log('initialize');
-    // this.audioTarget.on
-    // this.updatePodcasts();
-  }
-
   updatePodcasts(e) {
-    // console.log(e);
-    // const targets = e ? [e.target] : this.podcastTargets;
-    // targets.forEach((podcast) => {
-    //   console.log(podcast);
-    // });
+    this.podcastTargets.forEach((podcast) => {
+      this.dispatchEvent(podcast, new CustomEvent('player-state', {bubbles: false}))
+    });
   }
 
   playPodcast({detail}) {

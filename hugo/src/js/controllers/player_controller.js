@@ -9,6 +9,11 @@ function capitalizeFirstLetter(string) {
  * @property {Audio} audioTarget
  */
 export default class extends Controller {
+  static state = {
+    src: null,
+    paused: null,
+  };
+
   static targets = [
     'audio',
     'seek',
@@ -21,6 +26,18 @@ export default class extends Controller {
     'link',
   ];
 
+  static getState() {
+    return this.state
+  }
+
+  updateState (state) {
+    Object.assign(this.constructor.state, state);
+    this.dispatchEvent(this.element, new CustomEvent('player-state', {
+      detail: {state: this.constructor.state},
+      bubbles: true,
+    }));
+  }
+
   initialize() {
     super.initialize();
     this.addEventListeners();
@@ -32,29 +49,6 @@ export default class extends Controller {
       const handlerName = `on${capitalizeFirstLetter(event)}`;
       if (this[handlerName]) this.audioTarget.addEventListener(event, this[handlerName].bind(this));
     });
-  }
-
-  onTimeupdate() {
-    this.seekTarget.style.left = `${this.audioTarget.currentTime / this.audioTarget.duration * 100}%`;
-    this.currentTimeTarget.textContent = this.composeTime(this.audioTarget.currentTime);
-  }
-
-  onDurationchange() {
-    this.durationTarget.textContent = this.composeTime(this.audioTarget.duration);
-  }
-
-  onPlay() {
-    this.playTarget.classList.add('d-none');
-    this.pauseTarget.classList.remove('d-none');
-  }
-
-  onPause() {
-    this.playTarget.classList.remove('d-none');
-    this.pauseTarget.classList.add('d-none');
-  }
-
-  onEnded() {
-    // @todo:
   }
 
   playPodcast(detail) {
@@ -71,6 +65,7 @@ export default class extends Controller {
     if (this.audioTarget.src !== detail.src) {
       this.element.classList.remove('d-none');
       this.audioTarget.src = detail.src;
+      this.updateState({src: detail.src});
       this.linkTargets.forEach((link) => link.href = detail.url);
       this.coverTarget.style.backgroundImage = detail.image;
       this.numberTarget.textContent = detail.number;
@@ -124,15 +119,48 @@ export default class extends Controller {
     this.audioTarget.currentTime += 15;
   }
 
+  seeking(e) {
+    this.isSeeking = true;
+    this.currentTimeTarget.textContent = this.composeTime(e.target.value);
+  }
+
   seek(e) {
+    this.isSeeking = false;
     if (this.audioTarget.duration) {
-      this.audioTarget.currentTime = e.layerX / e.target.clientWidth * this.audioTarget.duration;
+      this.audioTarget.currentTime = e.target.value;
     }
   }
 
   close() {
-    this.audioTarget.stop();
     this.element.classList.add('d-none');
+    this.audioTarget.src = '';
+    this.updateState({src: null, paused: null});
   }
 
+  onTimeupdate() {
+    if (this.isSeeking) return;
+    this.seekTarget.value = this.audioTarget.currentTime;
+    this.currentTimeTarget.textContent = this.composeTime(this.audioTarget.currentTime);
+  }
+
+  onDurationchange() {
+    this.seekTarget.max = this.audioTarget.duration;
+    this.durationTarget.textContent = this.composeTime(this.audioTarget.duration);
+  }
+
+  onPlay() {
+    this.playTarget.classList.add('d-none');
+    this.pauseTarget.classList.remove('d-none');
+    this.updateState({paused: false});
+  }
+
+  onPause() {
+    this.playTarget.classList.remove('d-none');
+    this.pauseTarget.classList.add('d-none');
+    this.updateState({paused: true});
+  }
+
+  onEnded() {
+    // @todo:
+  }
 }

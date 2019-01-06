@@ -7,7 +7,7 @@
 <body
   class="d-flex flex-column {{ delimit (apply .Params.categories "printf" "category-%s" ".") " " }}"
   data-controller="page"
-  data-action="podcast-play->page#playPodcast podcast-connected->page#updatePodcasts"
+  data-action="podcast-play->page#playPodcast player-state->page#updatePodcasts"
 >
 
 {{ partial "navbar.html" . }}

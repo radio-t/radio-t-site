@@ -45,14 +45,8 @@ $podcast-player-cover-margin: .33rem;
   }
 }
 .podcast-player-seek {
-  background-color: $black;
-  position: relative;
-  border: solid transparent;
-  border-width: 10px 0;
-  background-clip: padding-box;
-  cursor: pointer;
-  &:hover {
-    color: $link-hover-color;
+  input[type='range'] {
+    cursor: pointer;
   }
 }
 .podcast-player-seek-thumb {

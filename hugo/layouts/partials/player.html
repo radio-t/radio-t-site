@@ -3,7 +3,7 @@
   data-target="page.player"
   id="player"
   data-turbolinks-permanent
-  class="d-none-"
+  class="d-none"
 >
   <div class="player-placeholder"></div>
   <div class="podcast-player-container">
@@ -30,8 +30,13 @@
           </div>
           <div class="col-auto flex-grow-1 d-flex align-items-center flex-nowrap">
             <div class="player-time" data-target="player.currentTime">00:00:00</div>
-            <div class="podcast-player-seek flex-grow-1 mx-3" data-action="click->player#seek">
-              <input type="range" class="custom-range" data-target="player.seek">
+            <div class="podcast-player-seek flex-grow-1 mx-3 d-flex align-items-center">
+              <input
+                type="range"
+                class="custom-range"
+                data-target="player.seek"
+                data-action="input->player#seeking change->player#seek"
+              >
             </div>
             <div class="player-time" data-target="player.duration"></div>
             <button class="btn btn-link ml-3" data-action="player#close">

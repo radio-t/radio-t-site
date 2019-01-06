@@ -17,6 +17,7 @@
           class="row post-podcast"
           data-controller="podcast"
           data-target="page.podcast"
+          data-action="player-state->podcast#fetchState"
           data-podcast-url="{{ .Permalink }}"
         >
           <div class="col-md-2 text-right d-flex flex-column justify-content-between">

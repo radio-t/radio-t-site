@@ -19,12 +19,7 @@
     <div class="col-md-auto order-md-2">
       <ul class="list-inline m-md-0 text-center">
         <li class="list-inline-item"><a href="mailto:{{ .Site.Params.author }}">{{ .Site.Params.author }}</a></li>
-        <li class="list-inline-item">
-          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-            {{ index .Site.Data.ru (printf "%d" .Date.Month) }}
-            {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
-          </time>
-        </li>
+        <li class="list-inline-item">{{ partial "post-time" . }}</li>
         <li class="list-inline-item">
           {{ with .Params.categories }}
             {{ range . }}

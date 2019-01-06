@@ -266,7 +266,7 @@ $jumbotron-arc-width: 120%;
       }
       > div {
         flex-grow: 1;
-        margin-left: 15px;
+        margin-left: $grid-gutter-width / 2;
       }
     }
   }
@@ -274,7 +274,15 @@ $jumbotron-arc-width: 120%;
 .podcast-cover {
   overflow: hidden;
   border-radius: 4px;
-  box-shadow: 0 1px 3px rgba($black, .33);
+  .post-podcast & {
+    transition: 150ms;
+    transform: scale(.97) translate3d(0, 0, 0);
+    box-shadow: 0 1px 3px rgba($black, .33), 0 20px 15px -10px rgba($black, .05);
+  }
+  .post-podcast.playing & {
+    transform: scale(1.04) translate3d(0, -1%, 0);
+    box-shadow: 0 1px 3px rgba($black, .2), 0 30px 30px -20px rgba($black, .33);
+  }
 }
 .cover-image {
   display: block;
@@ -298,25 +306,27 @@ $jumbotron-arc-width: 120%;
   top: (100% - $play-button-size) / 2;
   left: (100% - $play-button-size) / 2;
   position: absolute;
-  background-color: rgba($white, .85);
-  border: none;
+  background-color: rgba($white, .65);
   backdrop-filter: blur(5px);
+  border: none;
   border-radius: 50%;
   color: $body-color;
   opacity: 1;
   transform: scale(1.0001);
-  transition: 100ms;
+  transition: all 150ms;
   cursor: pointer;
-  box-shadow: 0 3px 6px rgba($black, .33);
-  &:hover {
-    transform: scale(1.05);
+  box-shadow: 0 2px 4px rgba($black, .33);
+  &:hover, &:focus {
+    transform: scale(1.03) translate3d(0, -1px, 0);
     color: $link-hover-color;
-    box-shadow: 0 5px 20px rgba($black, .67);
-    background-color: rgba($white, .95);
+    //box-shadow: 0 5px 10px rgba($black, .5);
+    background-color: rgba($white, .75);
+    transition-duration: 30ms;
+    outline: none;
   }
   &:active {
-    transform: scale(.95);
-    box-shadow: 0 3px 10px rgba($black, .67);
+    transform: scale(.97);
+    box-shadow: 0 1px 3px rgba($black, .33);
   }
   .icon {
     width: 65%;
@@ -328,6 +338,14 @@ $jumbotron-arc-width: 120%;
   }
   .pause-icon {
     display: none;
+  }
+  .playing & {
+    .play-icon {
+      display: none;
+    }
+    .pause-icon {
+      display: block;
+    }
   }
 }
 .posts-list-item {

@@ -25,4 +25,10 @@ export default class extends Controller {
     this.debug('disconnect');
     super.disconnect();
   }
+
+  // see https://github.com/stimulusjs/stimulus/issues/200#issuecomment-434731830
+  dispatchEvent(element, event) {
+    this.debug('dispatch event', event, element);
+    element.dispatchEvent(event);
+  }
 }

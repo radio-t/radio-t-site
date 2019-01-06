@@ -17,21 +17,32 @@ export default class extends Controller {
       this.playButtonTarget.classList.remove('d-none');
       this.element.classList.add('has-audio');
     }
-    // this.element.dispatchEvent(new CustomEvent('podcast-connected', {bubbles: true}));
+    this.fetchState();
+  }
+
+  fetchState() {
+    this.debug(Player.getState().src, this.getPodcastInfo().src);
+    this.element.classList.toggle('playing',
+      Player.getState().src === this.getPodcastInfo().src
+      && Player.getState().paused === false
+    );
   }
 
   play(e, timeLabel = null) {
     e.preventDefault();
     e.stopPropagation();
 
-    // see https://github.com/stimulusjs/stimulus/issues/200#issuecomment-434731830
-    this.element.dispatchEvent(new CustomEvent('podcast-play', {
+    this.dispatchEvent(this.element, new CustomEvent('podcast-play', {
       bubbles: true,
       detail: {
         ...this.getPodcastInfo(),
         ...(timeLabel ? {timeLabel} : {}),
-      },
+      }
     }));
+
+    setTimeout(() => {
+      this.fetchState();
+    }, 50);
   }
 
   goToTimeLabel(e) {
