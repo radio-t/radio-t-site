@@ -192,6 +192,10 @@ $jumbotron-arc-width: 120%;
 }
 .podcast-title-number {
   display: inline;
+  font-weight: 900;
+}
+.post-time {
+  font-size: $small-font-size;
 }
 // Show only first ul in podcast content in list
 .posts-list {
@@ -218,7 +222,7 @@ $jumbotron-arc-width: 120%;
       > em {
         display: block;
         white-space: nowrap;
-        width: calc((100% + 30px) / 5 - 15px);
+        width: calc((100% + 30px) / 6 - 15px);
         color: $text-muted;
         font-style: normal;
         font-family: $font-family-monospace;
@@ -228,7 +232,7 @@ $jumbotron-arc-width: 120%;
         min-width: 5.5em;
         &:empty { // no time labels
           &:after {
-            content: '––:––:––';
+            content: '--:--:--';
             opacity: .5;
           }
         }
@@ -404,6 +408,7 @@ $jumbotron-arc-width: 120%;
   font-size: 5em;
   padding-top: 3rem;
   pointer-events: none;
+  font-weight: 100;
   //text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff, 2px -2px 0 #fff;
 }
 .blog-archives-year-list {

@@ -1,14 +1,17 @@
 {{ define "main" }}
   <div class="py-4 py-lg-6 {{ if .Params.image }}page-with-cover-image{{ end }}">
     <div class="container-fluid">
-      <h1 class="display-4 mb-4">{{ .Title }}</h1>
-      {{ if .Params.image }}
-        <div
-          class="page-cover-image"
-          style="background-image:url('{{ .Params.image }}');"
-        ></div>
-      {{ end }}
       <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <h1 class="display-4 mb-md-4">{{ .Title }}</h1>
+        </div>
+        <div class="w-100"></div>
+        {{ if .Params.image }}
+          <div
+            class="page-cover-image"
+            style="background-image:url('{{ .Params.image }}');"
+          ></div>
+        {{ end }}
         <div class="col-md-8 order-md-2" data-controller="highlight">
           <div class="text-content">{{ .Content }}</div>
         </div>

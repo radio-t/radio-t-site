@@ -19,21 +19,16 @@
           data-target="page.podcast"
           data-podcast-url="{{ .Permalink }}"
         >
-          <div class="col-md-2 d-flex flex-column justify-content-between">
+          <div class="col-md-2 text-right d-flex flex-column justify-content-between">
             <div>
               <h1 class="number-title">{{ partial "number-title" . }}</h1>
-              <p class="post-time small">{{ partial "post-time" . }}</p>
+              <p class="post-time m-0">{{ partial "post-time" . }}</p>
             </div>
             {{ partial "share" }}
           </div>
-          <div class="col-md-3 order-md-3">{{ partial "podcast-cover" . }}</div>
-          <div class="post-podcast-content text-content col-md-7 col-lg-5 no-js" data-controller="podcast-content highlight">
+          <div class="col-md-3">{{ partial "podcast-cover" . }}</div>
+          <div class="post-podcast-content text-content col-md-6 no-js" data-controller="podcast-content">
             {{ .Content }}
-          </div>
-          <div class="col-lg-2 order-md-4">
-            <p>Sponsor</p>
-            <p>Audio</p>
-            <p>Chat logs</p>
           </div>
         </div>
         {{ partial "post-footer" . }}
@@ -42,23 +37,24 @@
     {{ else if in .Params.categories "prep" }}
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-2 text-right">
             <h1 class="number-title">{{ partial "number-title" . }}</h1>
-            <p class="post-time small">{{ partial "post-time" . }}</p>
+            <p class="post-time m-0">{{ partial "post-time" . }}</p>
           </div>
-          <div class="col-md">
-            {{ partial "comments" }}
-          </div>
+          <div class="col-md">{{ partial "comments" }}</div>
           <div class="col-md-2">{{ partial "share" }}</div>
         </div>
         {{ partial "post-footer" . }}
       </div>
     {{ else }}
       <div class="container-fluid">
-        <h1 class="display-4 mb-4">{{ .Title }}</h1>
         <div class="row">
-          <div class="col-md-2">
-            <p class="post-time small">{{ partial "post-time" . }}</p>
+          <div class="col-md-8 offset-md-2">
+            <h1 class="display-4 mb-md-4">{{ .Title }}</h1>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-md-2 text-md-right">
+            <p class="post-time m-0">{{ partial "post-time" . }}</p>
             {{ partial "share" }}
           </div>
           <div class="text-content col-md-8" data-controller="highlight">

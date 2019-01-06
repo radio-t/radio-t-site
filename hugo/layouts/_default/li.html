@@ -7,40 +7,30 @@
       data-target="page.podcast"
       data-podcast-url="{{ .Permalink }}"
     >
-      <div class="col-md-2 d-flex flex-column justify-content-between">
+      <div class="col-md-2 text-right d-flex flex-column justify-content-between">
         <div>
           <h2 class="number-title"><a href="{{ .Permalink }}">{{ partial "number-title" . }}</a></h2>
-          <p class="post-time small">{{ partial "post-time" . }}</p>
           {{ partial "comments-counter" .Permalink }}
+          <p class="post-time m-0">{{ partial "post-time" . }}</p>
         </div>
         {{ partial "share" }}
       </div>
-      <div class="col-md-3 order-md-3">{{ partial "podcast-cover" . }}</div>
-      <div class="post-podcast-content text-content col-md-7 col-lg-5 no-js" data-controller="podcast-content">
+      <div class="col-md-3 order-md-3-">{{ partial "podcast-cover" . }}</div>
+      <div class="post-podcast-content text-content col-md-6 no-js" data-controller="podcast-content">
         {{ .Content }}
-      </div>
-      <div class="col-lg-2 order-md-4">
-        <p>Sponsor</p>
-        <p>Audio</p>
-        <p>Chat logs</p>
       </div>
     </div>
 
   {{ else if in .Params.categories "prep" }}
 
-    <div class="row">
-      <div class="col-md-2">
+    <div class="row align-items-baseline">
+      <div class="col-md-2 text-right">
         <h2 class="number-title">
           <a class="text-muted" href="{{ .Permalink }}">{{ partial "number-title" . }}</a>
         </h2>
+        <p class="post-time m-0 text-muted">{{ partial "post-time" . }}</p>
       </div>
       <div class="col-md">
-        <p class="post-time small">
-          <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
-            {{ index .Site.Data.ru (printf "%d" .Date.Month) }}
-            {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
-          </time>
-        </p>
         {{ partial "comments-counter" .Permalink }}
       </div>
     </div>
@@ -48,15 +38,13 @@
   {{ else }}
 
     <div>
-      <h2 class="display-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-      <div class="row">
-        <div class="col-md-2">
-          <p class="post-time small">
-            <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>
-              {{ index .Site.Data.ru (printf "%d" .Date.Month) }}
-              {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }}
-            </time>
-          </p>
+      <div class="row align-items-baseline">
+        <div class="col-md-8 offset-md-2">
+          <h2 class="display-4 mb-md-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-md-2 text-md-right">
+          <p class="post-time m-0">{{ partial "post-time" . }}</p>
           {{ partial "comments-counter" .Permalink }}
         </div>
         <div class="text-content col-md-8" data-controller="highlight">
