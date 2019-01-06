@@ -3,3 +3,4 @@ data/manifest.json
 dev/
 golayouts/
 .netlify
+.direnv/
