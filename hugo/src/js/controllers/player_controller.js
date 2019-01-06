@@ -1,4 +1,4 @@
-import { Controller } from 'stimulus';
+import Controller from '../base_controller';
 import padStart from 'lodash/padStart';
 
 function capitalizeFirstLetter(string) {
@@ -22,6 +22,7 @@ export default class extends Controller {
   ];
 
   initialize() {
+    super.initialize();
     this.addEventListeners();
   }
 

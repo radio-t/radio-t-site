@@ -1,4 +1,4 @@
-import { Controller } from 'stimulus';
+import Controller from '../base_controller';
 import Player from './player_controller';
 
 /**
@@ -8,7 +8,8 @@ import Player from './player_controller';
 export default class extends Controller {
   static targets = ['playButton', 'number', 'cover', 'audio'];
 
-  initialize() {
+  connect() {
+    super.connect();
     // Set up audio target
     const audio = this.element.querySelector('audio');
     if (audio && audio.src) {
@@ -16,11 +17,8 @@ export default class extends Controller {
       this.playButtonTarget.classList.remove('d-none');
       this.element.classList.add('has-audio');
     }
+    // this.element.dispatchEvent(new CustomEvent('podcast-connected', {bubbles: true}));
   }
-
-  // connect() {
-  //   this.element.dispatchEvent(new CustomEvent('podcast-connected', {bubbles: true}));
-  // }
 
   play(e, timeLabel = null) {
     e.preventDefault();

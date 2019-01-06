@@ -187,7 +187,8 @@ $jumbotron-arc-width: 120%;
 .podcast-title-number {
   display: inline;
 }
-//.posts-list { // todo: revert
+// Show only first ul in podcast content in list
+.posts-list {
   .post-podcast-content {
     > * {
       display: none;
@@ -197,7 +198,7 @@ $jumbotron-arc-width: 120%;
       margin: 0;
     }
   }
-//}
+}
 .post-podcast-content {
   ul:first-of-type {
     padding: 0;

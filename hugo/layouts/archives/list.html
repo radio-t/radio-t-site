@@ -3,7 +3,7 @@
   <div class="py-4 py-lg-6">
     <h1 class="container-fluid display-4">Архивы</h1>
 
-    <div class="blog-archives" data-controller="archives">
+    <div class="blog-archives" data-controller="archives" noprefetch>
       {{ $archives := newScratch }}
       {{ range .Site.Pages.GroupByDate "2006" }}
         {{ $year := .Key }}
@@ -35,7 +35,7 @@
       <div class="container-fluid">
         {{ range $archives.Get "years" }}
           <div class="blog-archives-year">
-            <a class="blog-archives-year-anchor" name="year-{{ .year }}">{{ .year }}</a>
+            <a class="blog-archives-year-anchor" name="year-{{ .year }}" id="year-{{ .year }}">{{ .year }}</a>
             <h2 class="blog-archives-year-title">{{ .year }}</h2>
             <div class="blog-archives-year-list row" data-target="archives.list">
               {{ range .pages }}

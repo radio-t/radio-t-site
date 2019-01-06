@@ -1,9 +1,10 @@
-import { Controller } from 'stimulus';
+import Controller from '../base_controller';
 import filter from 'lodash/filter';
 import find from 'lodash/find';
 
 export default class extends Controller {
-  initialize() {
+  connect() {
+    super.connect();
     this.timeLabels();
     this.element.classList.remove('no-js');
   }

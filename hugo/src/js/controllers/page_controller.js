@@ -1,4 +1,4 @@
-import { Controller } from 'stimulus';
+import Controller from '../base_controller';
 import Player from './player_controller';
 
 export default class extends Controller {
@@ -8,6 +8,7 @@ export default class extends Controller {
   ];
 
   initialize() {
+    super.initialize();
     // console.log('initialize');
     // this.audioTarget.on
     // this.updatePodcasts();

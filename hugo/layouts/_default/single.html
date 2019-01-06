@@ -10,11 +10,8 @@
 {{ end }}
 
 {{ define "main" }}
-
   <div class="pt-4 pt-lg-6">
-
     {{ if in .Params.categories "podcast" }}
-
       <div class="container-fluid">
         <div
           class="row post-podcast"
@@ -42,9 +39,7 @@
         {{ partial "post-footer" . }}
       </div>
       {{ partial "comments-block" }}
-
     {{ else if in .Params.categories "prep" }}
-
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-2">
@@ -58,7 +53,6 @@
         </div>
         {{ partial "post-footer" . }}
       </div>
-
     {{ else }}
       <div class="container-fluid">
         <h1 class="display-4 mb-4">{{ .Title }}</h1>
