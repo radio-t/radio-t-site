@@ -231,8 +231,8 @@ $jumbotron-arc-width: 120%;
         }
         .has-audio &[data-action] {
           cursor: pointer;
-          transition: transform 200ms;
-          transform: translateX(0);
+          transition: transform 30ms;
+          transform: translateX(0) scale(1.0001);
           .fas {
             display: inline-block;
             opacity: 0;
@@ -279,7 +279,7 @@ $jumbotron-arc-width: 120%;
   cursor: pointer;
 }
 .cover-play-button {
-  $play-button-size: 25%;
+  $play-button-size: 33%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -294,7 +294,7 @@ $jumbotron-arc-width: 120%;
   border-radius: 50%;
   color: $body-color;
   opacity: 1;
-  transform: scale(.8);
+  transform: scale(1.0001);
   transition: 100ms;
   cursor: pointer;
   box-shadow: 0 3px 6px rgba($black, .33);
