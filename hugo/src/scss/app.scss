@@ -87,6 +87,14 @@ p, .jumbotron, .text-content {
     color: #fff;
   }
 }
+.text-uppercase {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+small,
+.small {
+  font-weight: inherit;
+}
 .container-fluid {
   max-width: 1170px;
   width: 92%;
@@ -101,9 +109,8 @@ p, .jumbotron, .text-content {
 }
 .navbar-nav {
   font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  font-size: 85%;
+  font-size: $small-font-size;
+  @extend .text-uppercase;
   @include media-breakpoint-up('lg') {
     .nav-item {
       padding: 0;

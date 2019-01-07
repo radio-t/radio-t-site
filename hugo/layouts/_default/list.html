@@ -1,36 +1,30 @@
 {{ define "main" }}
 
-  <div class="container-fluid">
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+  {{ .Scratch.Set "paginator" $paginator }}
+
+  <div class="container-fluid pt-3 pt-md-5">
     <div class="row">
-      <div class="col-md-8">
-        <div class="blog-index">
-          {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
-
-          {{ range $paginator.Pages }}
-            {{ .Render "li" }}
-          {{ end }}
-
-          {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
-            <div class="pagination">
-              {{ if $paginator.HasNext }}
-                <a class="prev" href="{{ .URL }}page/{{ $paginator.Next.PageNumber }}/">
-                  &larr; Раньше
-                </a>
-              {{ end }}
-
-              <a href="/archives/">Архивы подкаста</a>
-
-              {{ if $paginator.HasPrev }}
-                <a class="next" href="{{ .URL }}page/{{ $paginator.Prev.PageNumber }}/">
-                  Позже &rarr;
-                </a>
-              {{ end }}
-            </div>
-          {{ end }}
-        </div>
+      <div class="col-md-8 offset-md-2">
+        {{ if and (eq .Page.Type "categories") (eq .Page.Kind "taxonomy") }}
+          <h6 class="text-uppercase small">Категория</h6>
+        {{ end }}
+        <h1 class="display-4- pb-3 mb-0 border-bottom">{{ .Title }}</h1>
       </div>
-      <div class="col-md-4">
-        {{ partial "sidebar.html" . }}
+    </div>
+    <div class="posts-list">
+      {{ if (ne $paginator.PageNumber 1) }}
+        <div class="py-3 border-bottom">
+          {{ partial "paginator" . }}
+        </div>
+      {{ end }}
+
+      {{ range $index, $_ := $paginator.Pages }}
+        {{ .Render "li" }}
+      {{ end }}
+
+      <div class="mt-5 py-3 border-top">
+        {{ partial "paginator" . }}
       </div>
     </div>
   </div>

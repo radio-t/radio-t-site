@@ -1,6 +1,38 @@
-<aside class="sidebar">
-  <section>
-    <a class="twitter-timeline" href="//twitter.com/{{ .Site.Params.twitter }}"
-       data-widget-id="{{ .Site.Params.twitterWidgetId }}">@{{ .Site.Params.twitter }}</a>
-  </section>
-</aside>
+<div class="page-sidebar-backdrop" data-action="click->sidebar#toggle"></div>
+<div class="page-sidebar small">
+  <div
+    class="page-sidebar-scroll"
+    data-target="sidebar.scroll"
+  >
+    <div class="page-sidebar-scroll-content">
+      <div class="page-sidebar-title">
+        <button class="btn btn-sm btn-link page-sidebar-toggle float-right" data-action="click->sidebar#toggle">&times;</button>
+        <div class="py-2 px-3 m-0">Последние комментарии</div>
+      </div>
+      <div class="page-sidebar-content py-3 px-3">
+        <div class="remark42__last-comments" data-max="25"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var remark_config = {
+      site_id: '{{ .Site.Params.remark42 }}',
+    };
+
+    (function () {
+      var d = document, s = d.createElement('script');
+      var baseurl = 'https://remark42.radio-t.com';
+      s.src = baseurl + '/web/last-comments.js';
+      s.type = 'text/javascript';
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+</div>
+
+{{/*<aside class="sidebar">*/}}
+  {{/*<section>*/}}
+    {{/*<a class="twitter-timeline" href="//twitter.com/{{ .Site.Params.twitter }}"*/}}
+       {{/*data-widget-id="{{ .Site.Params.twitterWidgetId }}">@{{ .Site.Params.twitter }}</a>*/}}
+  {{/*</section>*/}}
+{{/*</aside>*/}}

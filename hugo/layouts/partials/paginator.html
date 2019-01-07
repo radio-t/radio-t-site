@@ -1,19 +1,17 @@
 {{ $paginator := .Scratch.Get "paginator" }}
 
-{{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
-  <div class="row justify-content-between text-content">
-    <div class="col-6 col-md-4 order-md-1 flex-shrink-1 text-left">
-      {{ if $paginator.HasNext }}
-        <a href="{{ .URL }}page/{{ $paginator.Next.PageNumber }}/">&larr; Раньше</a>
-      {{ end }}
-    </div>
-    <div class="col-6 col-md-4 order-md-3 flex-shrink-1 text-right">
-      {{ if $paginator.HasPrev }}
-        <a href="{{ .URL }}page/{{ $paginator.Prev.PageNumber }}/">Позже &rarr;</a>
-      {{ end }}
-    </div>
-    <div class="col-md-4 order-md-2 text-center">
-      <a href="/archives/">Архивы подкаста</a>
-    </div>
+<div class="row justify-content-between text-content">
+  <div class="col-6 col-sm-4 order-sm-1 flex-shrink-1 text-left">
+    {{ if $paginator.HasNext }}
+      <a href="{{ .URL }}page/{{ $paginator.Next.PageNumber }}/">&larr; Раньше</a>
+    {{ end }}
   </div>
-{{ end }}
+  <div class="col-6 col-sm-4 order-sm-3 flex-shrink-1 text-right">
+    {{ if $paginator.HasPrev }}
+      <a href="{{ .URL }}page/{{ $paginator.Prev.PageNumber }}/">Позже &rarr;</a>
+    {{ end }}
+  </div>
+  <div class="col-sm-4 order-sm-2 text-center">
+    <a href="/archives/">Архивы подкаста</a>
+  </div>
+</div>
