@@ -1,24 +1,5 @@
 <aside class="sidebar">
   <section>
-    <h2 class="dsq-widget-title">Комментарии</h2>
-
-    <div class="remark42__last-comments" data-max="25"></div>
-    <script>
-      var remark_config = {
-        site_id: '{{ .Site.Params.remark42 }}',
-      };
-
-      (function () {
-        var d = document, s = d.createElement('script');
-        var baseurl = 'https://remark42.radio-t.com';
-        s.src = baseurl + '/web/last-comments.js';
-        s.type = 'text/javascript';
-        (d.head || d.body).appendChild(s);
-      })();
-    </script>
-  </section>
-
-  <section>
     <a class="twitter-timeline" href="//twitter.com/{{ .Site.Params.twitter }}"
        data-widget-id="{{ .Site.Params.twitterWidgetId }}">@{{ .Site.Params.twitter }}</a>
   </section>

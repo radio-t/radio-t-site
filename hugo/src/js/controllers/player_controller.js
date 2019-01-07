@@ -1,9 +1,7 @@
 import Controller from '../base_controller';
 import padStart from 'lodash/padStart';
-
-function capitalizeFirstLetter(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
-}
+import capitalize from 'lodash/capitalize';
+import debounce from 'lodash/debounce';
 
 /**
  * @property {Audio} audioTarget
@@ -43,22 +41,24 @@ export default class extends Controller {
     this.addEventListeners();
   }
 
+  // https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events
   addEventListeners() {
     const events = ['timeupdate', 'durationchange', 'play', 'pause', 'ended'];
     events.forEach(event => {
-      const handlerName = `on${capitalizeFirstLetter(event)}`;
+      const handlerName = `on${capitalize(event)}`;
       if (this[handlerName]) this.audioTarget.addEventListener(event, this[handlerName].bind(this));
     });
 
-    ['seeking', 'stalled', 'waiting', 'loadstart'].forEach(event => this.audioTarget.addEventListener(event, () => {
-      this.element.classList.add('player-loading');
-    }));
-    ['playing', 'seeked'].forEach(event => this.audioTarget.addEventListener(event, () => {
-      this.element.classList.remove('player-loading');
-    }));
+    const updateLoadingState = debounce((isLoading) => this.element.classList.toggle('player-loading', isLoading), 100);
+    ['seeking', 'stalled', 'waiting', 'loadstart']
+      .forEach(event => this.audioTarget.addEventListener(event, updateLoadingState.bind(this, true)));
+    ['playing', 'seeked', 'canplay', 'loadeddata']
+      .forEach(event => this.audioTarget.addEventListener(event, updateLoadingState.bind(this, false)));
   }
 
   playPodcast(detail) {
+    // try live
+    // detail.src = 'http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_q';
     if (this.loadPodcast(detail)) {
       return this.audioTarget.play();
     } else if (this.setTimeLabel(detail.timeLabel)) {
@@ -70,6 +70,7 @@ export default class extends Controller {
 
   loadPodcast(detail) {
     if (this.audioTarget.src !== detail.src) {
+      this.resetUI();
       this.element.classList.remove('d-none');
       this.audioTarget.src = detail.src;
       this.updateState({src: detail.src});
@@ -83,11 +84,23 @@ export default class extends Controller {
     return false;
   }
 
+  resetUI() {
+    this.showPlayButton();
+    this.updateCurrentTime(0, true);
+    this.durationTarget.textContent = '--:--:--';
+  }
+
   setTimeLabel(timeLabel) {
     if (timeLabel) {
-      this.audioTarget.currentTime = this.parseTime(timeLabel);
+      this.updateCurrentTime(this.parseTime(timeLabel));
     }
     return !!timeLabel;
+  }
+
+  updateCurrentTime(time, onlyUI = false) {
+    if (!onlyUI) this.audioTarget.currentTime = time;
+    this.seekTarget.value = time;
+    this.currentTimeTarget.textContent = this.composeTime(time);
   }
 
   playPause() {
@@ -119,23 +132,21 @@ export default class extends Controller {
   }
 
   seekBack() {
-    this.audioTarget.currentTime -= 15;
+    this.updateCurrentTime(this.audioTarget.currentTime - 15);
   }
 
   seekForward() {
-    this.audioTarget.currentTime += 15;
+    this.updateCurrentTime(this.audioTarget.currentTime + 15);
   }
 
   seeking(e) {
     this.isSeeking = true;
-    this.currentTimeTarget.textContent = this.composeTime(e.target.value);
+    this.updateCurrentTime(e.target.value, true);
   }
 
   seek(e) {
     this.isSeeking = false;
-    if (this.audioTarget.duration) {
-      this.audioTarget.currentTime = e.target.value;
-    }
+    if (this.audioTarget.duration) this.updateCurrentTime(e.target.value);
   }
 
   close() {
@@ -156,15 +167,18 @@ export default class extends Controller {
   }
 
   onPlay() {
-    this.playTarget.classList.add('d-none');
-    this.pauseTarget.classList.remove('d-none');
+    this.showPlayButton(false);
     this.updateState({paused: false});
   }
 
   onPause() {
-    this.playTarget.classList.remove('d-none');
-    this.pauseTarget.classList.add('d-none');
+    this.showPlayButton(true);
     this.updateState({paused: true});
+  }
+
+  showPlayButton(paused = false) {
+    this.playTarget.classList.toggle('d-none', !paused);
+    this.pauseTarget.classList.toggle('d-none', paused);
   }
 
   onEnded() {

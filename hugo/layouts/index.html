@@ -17,7 +17,6 @@
 
       {{ range $index, $_ := $paginator.Pages }}
         {{ .Render "li" }}
-
         {{ if (eq $paginator.PageNumber 1) }}
           {{ if (eq $index 1) }}
             {{ partial "banner-broadcast" . }}

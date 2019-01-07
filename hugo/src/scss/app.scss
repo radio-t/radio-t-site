@@ -1,6 +1,7 @@
 @import "boot";
 @import "likely";
 @import "player";
+@import "remark";
 $topic-spacer: $line-height-base * .33em;
 @mixin dark {
   background-color: #000;
@@ -56,6 +57,14 @@ p, .jumbotron, .text-content {
     @include link;
   }
 }
+.smaller {
+  font-size: $smaller-font-size;
+}
+.btn-scale {
+  &:active {
+    transform: scale(.98);
+  }
+}
 .text-content {
   a:visited {
     //color: #430093;
@@ -79,10 +88,17 @@ p, .jumbotron, .text-content {
   }
 }
 .container-fluid {
-  max-width: 1280px;
-  width: 90%;
+  max-width: 1170px;
+  width: 92%;
 }
-.navbar {}
+.navbar {
+  // px0
+  > .container-fluid,
+  > .container {
+    padding-left: $grid-gutter-width / 2;
+    padding-right: $grid-gutter-width / 2;
+  }
+}
 .navbar-nav {
   font-weight: bold;
   text-transform: uppercase;
@@ -169,6 +185,80 @@ $jumbotron-arc-width: 120%;
     margin-top: .5em;
   }
 }
+.page-sidebar {
+  position: fixed;
+  z-index: $zindex-fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 18rem;
+  background-color: $white;
+  box-shadow: 0 0 4px rgba($black, .2);
+  display: none;
+  &:after {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    @include gradient-y(rgba($white, 0), rgba($white, .85));
+  }
+}
+.page-sidebar-backdrop {
+  background-color: rgba($gray-200, .8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: ($zindex-fixed - 1);
+  display: none;
+}
+.sidebar-open {
+  .page-sidebar {
+    display: block;
+  }
+  .page-sidebar-backdrop {
+    display: block;
+  }
+}
+@include media-breakpoint-up('xl') {
+  .page-sidebar {
+    display: block;
+  }
+  .page-sidebar-toggle, .page-sidebar-backdrop {
+    display: none !important;
+  }
+  body {
+    padding-right: 18rem;
+  }
+  .podcast-player-container {
+    padding-right: 18rem;
+  }
+  .page-sidebar-scroll {
+    opacity: .8;
+    transition: 5s;
+    &:hover {
+      opacity: 1;
+      transition-duration: 150ms;
+    }
+  }
+}
+.page-sidebar-scroll {
+  overflow-y: auto;
+  height: 100%;
+}
+.page-sidebar-title {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  background-color: rgba($white, .9);
+  border-bottom: 1px solid $border-color;
+  background-clip: padding-box;
+}
+
 .number-title {
   font-size: $h2-font-size;
   margin-top: -.4rem;
@@ -204,18 +294,27 @@ $jumbotron-arc-width: 120%;
   }
 }
 .comments-counter-avatars {
-  margin-top: 1.3rem;
+  margin-top: 1.4em;
+  margin-bottom: 1.2em;
 }
 .comments-counter-avatars-item {
+  position: relative;
   display: inline-block;
   vertical-align: middle;
   width: 2rem;
   height: 2rem;
-  margin-right: .5rem;
+  margin-right: -.5rem;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   border-radius: 500px;
+  opacity: .8;
+  transition: 100ms;
+  &:hover {
+    position: relative;
+    z-index: 2;
+    opacity: 1;
+  }
 }
 // Show only first ul in podcast content in list
 .posts-list {
@@ -242,7 +341,7 @@ $jumbotron-arc-width: 120%;
       > em {
         display: block;
         white-space: nowrap;
-        width: calc((100% + 30px) / 5 - 15px);
+        width: calc((100% + 30px) / 6 - 15px);
         color: $text-muted;
         font-style: normal;
         font-family: $font-family-monospace;
@@ -295,6 +394,7 @@ $jumbotron-arc-width: 120%;
   overflow: hidden;
   border-radius: 4px;
   .post-podcast & {
+    max-width: 280px;
     transition: 150ms;
     transform: scale(.97) translate3d(0, 0, 0);
     box-shadow: 0 1px 3px rgba($black, .33), 0 20px 15px -10px rgba($black, .05);
@@ -487,7 +587,7 @@ $jumbotron-arc-width: 120%;
 }
 .nav-blog-archives-year {
   font-weight: $font-weight-bold;
-  font-size: $h2-font-size;
+  font-size: 1.2rem;
 }
 .nav-blog-archives-range {
   opacity: 0;

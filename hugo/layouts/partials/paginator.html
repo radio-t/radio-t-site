@@ -1,4 +1,4 @@
-{{ $paginator := .Scratch.Get "paginator"  }}
+{{ $paginator := .Scratch.Get "paginator" }}
 
 {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
   <div class="row justify-content-between text-content">

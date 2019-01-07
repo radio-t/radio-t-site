@@ -16,8 +16,8 @@
         </div>
         {{ partial "share" }}
       </div>
-      <div class="col-md-3 order-md-3">{{ partial "podcast-cover" . }}</div>
-      <div class="post-podcast-content text-content col-md-5 no-js" data-controller="podcast-content">
+      <div class="col-md-4 order-md-3">{{ partial "podcast-cover" . }}</div>
+      <div class="post-podcast-content text-content col-md-6 no-js" data-controller="podcast-content">
         {{ .Content }}
       </div>
     </div>
@@ -34,6 +34,7 @@
       <div class="col-md">
         {{ partial "comments-counter" .Permalink }}
         <div class="comments-counter-avatars" data-controller="avatars" data-avatars-url="{{ .Permalink }}"></div>
+        <a href="{{ .Permalink }}" class="btn btn-outline-primary btn-scale btn-sm">Предложить тему</a>
       </div>
     </div>
 
