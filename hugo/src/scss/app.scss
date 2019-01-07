@@ -69,6 +69,10 @@ p, .jumbotron, .text-content {
   a:visited {
     //color: #430093;
   }
+  p img {
+    float: right;
+    @include img-fluid;
+  }
   pre {
     margin-left: calc((100vw - 100%) / -4);
     margin-right: calc((100vw - 100%) / -4);
