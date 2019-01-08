@@ -351,7 +351,7 @@ $jumbotron-arc-width: 120%;
     max-width: 280px;
     transition: 150ms;
     transform: scale(.97) translate3d(0, 0, 0);
-    box-shadow: 0 1px 3px rgba($black, .33), 0 20px 15px -10px rgba($black, .05);
+    box-shadow: 0 1px 3px rgba($black, .1), 0 20px 15px -10px rgba($black, .05);
   }
   .post-podcast.playing & {
     transform: scale(1.04) translate3d(0, -1%, 0);

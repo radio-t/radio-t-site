@@ -1,16 +1,16 @@
-- regular page
-- archives
-- show playing state on podcast covers
-- deploy to netlify
-- open PR
-- search
-- inline svg icons
+- load real avatars
+- animations for search and sidebar overlay
+- support livestream
+- use howlerjs?
+- remember player state
+- put image into podcast post content
+- preload archives links from mouse events
 
 ===
 
-- в теле подкаста скрывается все, кроме первого маркированного списка, который считается списком тем
+- inline svg icons
 
-- add 'image field' to all podcasts
+===
 
 - extract audio and chat links
 
@@ -20,15 +20,4 @@
 - Use predefined hugo vars
   https://gohugo.io/content-management/front-matter/#predefined
 
-AUDIO
-+ add cover image and podcast number with link to podcast page
-- handle audio events: end, seeking, show loaded areas
-+ dont show player until play()
-
-+ build for production
-
-+ likely
 + remark
-- add comments avatars to prep posts
-
-- если идет воспроизведение, то открывать все внешние ссылки в новом окне (если нет turbolinks, то и внутренние тоже)
