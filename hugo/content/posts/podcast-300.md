@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt300.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt300.jpg)
+
 * Это катастрофа - [Nokia продаст Qt](http://www.networkworld.com/community/blog/nokia-preps-sell-qt-not-elop-screws-it)
 * [Open source](http://radar.oreilly.com/2012/07/open-source-won.html) победил всех
 * Вина и самобичевание против [производительности труда](http://www.hanselman.com/blog/ProductivityVsGuiltAndSelfLoathing.aspx)

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt39.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt39.jpg)
+
 - Выход Camino 1.5 и Qt Jambi
 - Новые Vmware Fusion и Parallels 3
 - iDOT NanoBook

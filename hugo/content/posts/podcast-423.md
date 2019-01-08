@@ -7,6 +7,8 @@ filename = "rt_podcast423"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt423.jpg)
+
 * [Чем порадует 2015](http://prsm.tc/lgu6yx)
 * [2015 будет годом Web-Scale](http://prsm.tc/2emAla)
 * [Чемпионы Kickstarter за 2014](http://prsm.tc/Pp5rKf)

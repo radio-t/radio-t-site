@@ -7,6 +7,8 @@ filename = "rt_podcast350"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt350.jpg)
+
 * Поздравляем с [днем системного администратора](http://habrahabr.ru/company/mailru/blog/187918/)
 * Еще один [праздник для подкастеров и слушателей](http://www.macrumors.com/2013/07/22/apple-reaches-podcasting-milestone-with-1-billion-subscribers/)
 * [Chromecast за $35 с HDMI](http://www.engadget.com/2013/07/24/google-chromekey/)

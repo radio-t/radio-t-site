@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt117.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt117.jpg)
+
 - Предновогодние железки для радости
 - Почему Gmail лучше всех
 - ЯП и религии

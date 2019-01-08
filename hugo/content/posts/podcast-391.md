@@ -7,6 +7,8 @@ filename = "rt_podcast391"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt391.jpg)
+
 * [Chrome спрячет URL](http://disconnected.craig.is/where-did-my-url-go-chrome/).
 * [Что это значит для фишеров](http://www.theregister.co.uk/2014/05/05/chrome_origin_chip_ui_controversy/).
 * [Oracle защитил свой API](http://www.infoworld.com/t/java-programming/oracles-surprise-win-in-java-api-case-could-make-it-harder-developers-242288)

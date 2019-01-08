@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt274.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt274.jpg)
+
 - [2 года](http://mashable.com/2012/01/27/ipad-two-years-later/) с последней революции
 - Что подправить для [нового iPad](http://www.businessinsider.com/9-things-apple-needs-to-change-with-the-ipad-3-before-i-buy-one-2012-1)
 - Google теперь [зло](http://gizmodo.com/5878987/its-official-google-is-evil-now). Официально

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt290.jpeg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt290.jpeg)
+
 - [ДР Хабра](http://habrahabr.ru/post/144586/)
 - [Chrome](http://mashable.com/2012/05/21/chrome-is-tops/) можно поздравить, молодцы!
 - Facebook подумывает купить [Opera](http://www.theverge.com/2012/5/25/3043427/facebook-wants-to-buy-opera-rumor)

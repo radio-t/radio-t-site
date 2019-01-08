@@ -7,6 +7,8 @@ filename = "rt_podcast584"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt584.jpg)
+
 - [Github и его проблемы с безопасностью](https://donatstudios.com/GithubsTotalSecurityFacepalm) - *00:01:47*.
 - [VLC 3.0 с поддержкой Chromecast](https://www.cnet.com/news/vlc-3-0-launches-for-all-platforms-finally-gets-chromecast-support/) - *00:29:17*.
 - [MagSafe для всего электрического](https://9to5toys.com/2018/02/09/tug-is-the-magsafe-connector/) - *00:41:20*.

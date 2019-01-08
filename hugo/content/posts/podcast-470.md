@@ -7,6 +7,8 @@ filename = "rt_podcast470"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt470.jpg)
+
 * [6 лет Go](http://blog.golang.org/6years).
 * Разговор с [вменяемым гостем](http://nodir.io) про Go.
 * [Линус о реальном и идеальном](http://www.datacenterknowledge.com/archives/2015/11/09/linus-torvalds-perfect-security-in-linux-is-impossible/).

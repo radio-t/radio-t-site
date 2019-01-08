@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt301.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt301.jpg)
+
 * Первый в мире сайт отметил [21-ю годовщину](http://habrahabr.ru/post/149226/)
 * [SCO совсем кончился](http://www.zdnet.com/sco-is-finally-dead-parrot-dead-7000002357/) и это радует
 * Gmail [поищет](http://www.huffingtonpost.com/2012/08/08/gmail-search-results-google_n_1756896.html) в самом сокровенном

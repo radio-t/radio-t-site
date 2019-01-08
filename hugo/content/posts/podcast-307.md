@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt307.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt307.jpg)
+
 * Конец [эры персональных компьютеров](http://allthingsd.com/20120915/its-official-the-era-of-the-personal-computer-is-over/)
 * [Короткие пароли](http://thenextweb.com/microsoft/2012/09/21/this-ridiculous-microsoft-longer-accepts-long-passwords-shortens/) по версии Microsoft
 * За что они [убили Skitch?](http://www.tuaw.com/2012/09/20/skitch-2-0-is-like-skitch-1-0-without-all-those-pesky-features/)

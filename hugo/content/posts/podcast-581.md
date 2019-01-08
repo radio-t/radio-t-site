@@ -7,6 +7,8 @@ filename = "rt_podcast581"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt581.jpg)
+
 - [Новые цены и новые дроплеты у DO](https://blog.digitalocean.com/new-droplet-plans/) - *00:05:08*.
 - [Взгляд на микросервисы в 2018](http://www.dwmkerr.com/the-death-of-microservice-madness-in-2018/) - *00:26:22*.
 - [Официальная реакция на MongoDB Go драйвер](https://engineering.mongodb.com/post/considering-the-community-effects-of-introducing-an-official-golang-mongodb-driver) - *00:57:48*.

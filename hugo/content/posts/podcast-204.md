@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt204.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt204.jpg)
+
 - Очень живой поиск. Редакция одобряет
 - Теперь и MS захотела купить [антивирус](http://itc.ua/node/48518)
 - Конец всех [телефонов](http://www.engadget.com/2010/09/10/microsoft-celebrates-windows-phone-7-rtm-with-funeral-parade-for/) по версии Балмера

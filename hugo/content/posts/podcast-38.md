@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt38.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt38.jpg)
+
 - Выход Fedora7 и Parallels3
 - Новые машинки от Lenova
 - Странная модель Stealth Computer

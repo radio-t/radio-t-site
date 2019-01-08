@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt125.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt125.jpg)
+
 - Главный праздник отмечают в [Intel](http://www.mobile-review.com/fullnews/main/2009/February/18.shtml)
 - [Новый](http://www.engadget.com/2009/02/16/microsoft-announces-windows-mobile-6-5/) Win Mobile к нам идёт
 - Гугл-фон - [дубль 2](http://news.bbc.co.uk/2/hi/technology/7894516.stm)

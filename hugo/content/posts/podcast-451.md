@@ -7,6 +7,8 @@ filename = "rt_podcast451"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt451.jpg)
+
 * [Microsoft поломал Wi-Fi](http://prsm.tc/ECX8M6).
 * [Компромиссы микро-сервисов](http://habrahabr.ru/post/261689/).
 * [9 анти-шаблонов](http://prsm.tc/cBRD9P).

@@ -7,6 +7,8 @@ filename = "rt_podcast346"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt346.jpg)
+
 * [5 лет Evernote](http://evernote.com/5year/).
 * А [Google+ уже 2 года](http://mashable.com/2013/06/28/google-plus-2-years/).
 * [DigitalOcean против Amazon и Linode](http://techcrunch.com/2013/06/27/digitalocean-wants-to-challenge-amazon-linode-and-co-with-better-prices-marketing-and-focus-on-) берет ценой и простотой.

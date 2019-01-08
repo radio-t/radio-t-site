@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt256.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt256.png)
+
 - Поздравляем [Яндекс](http://company.yandex.ru/about/history/), но ехидно
 - Google добил [G+ до 100](http://habrahabr.ru/blogs/google/128821/)
 - [Изменения ](http://lifehacker.com/5842969/get-to-know-all-the-new-features-coming-to-facebook)Facebook очень хороши

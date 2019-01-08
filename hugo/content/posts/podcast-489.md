@@ -7,6 +7,8 @@ filename = "rt_podcast489"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt489.jpg)
+
 - [Что Apple показали на весеннем событии](http://thenextweb.com/apple/2016/03/21/everything-apple-announced-march-2016/) - *00:00:59*.
 - [Один разработчик чуть не сломал весь интернет](https://habrahabr.ru/post/280039/) - *00:28:30*.
 - [Мы забыли как программировать](http://www.haneycodes.net/npm-left-pad-have-we-forgotten-how-to-program/) - *00:39:56*.

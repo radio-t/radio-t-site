@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt173.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt173.jpg)
+
 - Линус Торвальдс в [Top-100](http://www.linux.org.ru/news/linux-general/4519941)
 - [Стек](http://www.opennet.ru/opennews/art.shtml?num=25276) для GUI приложений имени Ubuntu
 - Ландшафт сдвинулся: [Google](http://habrahabr.ru/blogs/google/82864/), [JooJoo](http://habrahabr.ru/blogs/hardware/83084/) и [Sony](http://news.yahoo.com/s/pcworld/sonyinterestedinchallengingapplesipad;_ylt=AuSUW3dvAVhNyRzn15rmFHx0fNdF)

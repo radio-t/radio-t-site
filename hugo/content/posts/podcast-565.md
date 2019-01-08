@@ -7,6 +7,8 @@ filename = "rt_podcast565"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt565.jpg)
+
 - [20 лет Яндексу](https://yandex.ru/20/) - *00:02:11*.
 - [Новый сервис доставки данных](https://flypigeon.co) - *00:13:46*.
 - [Что показал Amazon](https://www.theverge.com/2017/9/27/16374254/amazon-event-2017-news-recap-echo-spot-fire-tv-hardware) - *00:22:34*.

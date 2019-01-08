@@ -7,6 +7,8 @@ filename = "rt_podcast356"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt356.jpg)
+
 * [Мифы о NoSQL](http://www.itexto.com.br/devkico/en/?p=20)
 * Новое [вокруг AWS](http://aws.typepad.com/aws/2013/09/new-aws-command-line-interface-cli.html)
 * [Vert.x](http://vertx.io/docs.html)

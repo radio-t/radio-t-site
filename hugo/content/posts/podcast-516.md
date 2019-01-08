@@ -7,6 +7,8 @@ filename = "rt_podcast516"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt516.jpg)
+
 - [Что было на Google Pixel](https://techcrunch.com/2016/10/04/everything-you-need-to-know-from-googles-pixel-event/) - *00:06:19*.
 - [Google хочет быть всеми сразу](http://nymag.com/selectall/2016/10/google-doesnt-want-to-be-apple-it-wants-to-be-everyone.html) - *00:21:16*.
 - [Новый Samsung Galaxy Note7 тоже хорошо горит](http://mashable.com/2016/10/05/samsung-galaxy-note7-plane-evacuation/) - *00:52:58*.

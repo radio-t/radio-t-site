@@ -7,6 +7,8 @@ filename = "rt_podcast344"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt344.jpg)
+
 * Гость из [FUEL](https://fuel.mirantis.com/)
 * [Atlassian Bitbucket](http://blog.bitbucket.org/2013/06/04/atlassian-bitbucket-passes-one-million-users/) перевалил за 1М
 * Ждем новинок [от WWDC](http://abcnews.go.com/Technology/apple-wwdc-ios-mac-os-updates-things-expect/story?id=19347115).

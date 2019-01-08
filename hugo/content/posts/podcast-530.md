@@ -7,6 +7,8 @@ filename = "rt_podcast530"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt530.jpg)
+
 - [Amazon Dash теперь не кнопка](http://www.pcmag.com/news/351172/amazon-dash-buttons-go-virtual) - *00:03:24*.
 - [Docker 1.13](https://blog.docker.com/2017/01/whats-new-in-docker-1-13/?mkt_tok=eyJpIjoiTWpZMlpqWmpOMkpoWVRjMyIsInQiOiJyMmpaM0VaWTZqSml6MGRIU3N3RUsraXUwV0pqVXhLVWZNcnhtZDNEVlNXd1J2NWhHS3JXaFdVM0lEYnFKTXBqdDZYeU9yUWRITjBzeWFZdXdjeXo2bjc2RVwvRDVNUllaSWdueFVSQUtEYmJCbUllV1RmYXZKZFhNY01RQlFsTnYifQ==) - *00:13:55*.
 - [Fabric продали гуглу](https://fabric.io/blog/fabric-joins-google) - *00:33:49*.

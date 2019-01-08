@@ -7,6 +7,8 @@ filename = "rt_podcast368"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt368.jpg)
+
 * С днем [рожденья DNS](http://www.circleid.com/posts/20131127_the_30th_birthday_of_dns/)
 * [Вынос мозга от Yahoo](http://allthingsd.com/20131124/while-users-lament-only-25-percent-of-yahoos-willing-eat-mail-dogfood-memo/)
 * Это странно - [домашнее облако ArkOS на Raspberry Pi](http://habrahabr.ru/company/apps4all/blog/204146/)

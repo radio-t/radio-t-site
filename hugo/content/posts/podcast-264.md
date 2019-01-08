@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt264.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt264.jpg)
+
 - Kindle Fire – немного меда и много дегтя
 - Nook Tablet наш выбор
 - Amazon телефону быть в 2012

@@ -7,6 +7,8 @@ filename = "rt_podcast444"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt444.jpg)
+
 * [Google поддержит облака и для внутреннего употребления](http://prsm.tc/4Oq7VX).
 * [Rackspace ставит на "fanatical support"](http://prsm.tc/5KDpEd).
 * [Hub+ добавит все, что надо новому MacBook](http://prsm.tc/gG4SFl).

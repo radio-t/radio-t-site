@@ -7,6 +7,8 @@ filename = "rt_podcast554"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt554.jpg)
+
 - [1Password всех напряг](https://www.cyberscoop.com/1password-subscription-no-local-machine-storage/) - *00:02:20*.
 - [Но при этом они всех любят](https://blog.agilebits.com/2017/07/13/why-we-love-1password-memberships/) - *00:11:54*.
 - [Elon Musk запустил новый проект x.com](http://mashable.com/2017/07/14/x-elon-musk-website/) - *00:22:18*.

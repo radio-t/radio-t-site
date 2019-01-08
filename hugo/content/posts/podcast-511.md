@@ -7,6 +7,8 @@ filename = "rt_podcast511"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt511.jpg)
+
 - [GitLab 8.11](https://habrahabr.ru/company/softmart/blog/308632/) и гость - *00:03:08*.
 - [Distributed Transactions](http://www.grahamlea.com/2016/08/distributed-transactions-microservices-icebergs/) - *01:23:00*.
 - [GWT будет жить вечно](https://dzone.com/articles/gwt-is-here-to-stay) - *01:39:48*.

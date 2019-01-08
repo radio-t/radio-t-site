@@ -7,6 +7,8 @@ filename = "rt_podcast450"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt450.jpg)
+
 * [Все о DockerCon 2015](http://prsm.tc/mpS5xj).
 * [Docker будет что продавать](http://www.theregister.co.uk/2015/06/24/docker_commercial_offering/).
 * [Плагины для экосистемы docker](http://prsm.tc/4E8YFD).

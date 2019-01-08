@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt168.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt168.jpg)
+
 - Каждый гик должен сделать [это](http://www.readwriteweb.com/archives/8_things_every_geek_needs_to_do_before_2010.php)
 - Почему программистам [платят ](http://www.johndcook.com/blog/2009/12/23/why-programmers-are-not-paid-in-proportion-to-their-productivity/)не так
 - Новогодние радости [твитера ](http://www.readwriteweb.com/archives/twitter_20_api_rate_change_could_lead_to_a_world_o.php)и [эвернота](http://www.techcrunch.com/2009/12/30/evernote-two-million/)

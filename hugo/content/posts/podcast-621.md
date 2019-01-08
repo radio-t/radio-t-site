@@ -7,6 +7,8 @@ filename = "rt_podcast621"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt621.jpg)
+
 - [Linux 4.19 – главный вернулся](https://lwn.net/Articles/769110/) - *00:04:00*.
 - [Болезненное падение Github](https://blog.github.com/2018-10-21-october21-incident-report/) - *00:31:24*.
 - [Что ожидать от внезапного события](https://www.macrumors.com/2018/10/26/what-to-expect-at-october-30-apple-event/) - *00:44:02*.

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt246.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt246.jpg)
+
 - Hotmail исполнилось [15 лет](http://internet.cnews.ru/news/line/index.shtml?2011/07/06/446620)
 - Долой [PowerPoint](http://www.securitylab.ru/news/406211.php)
 - Восход [Google+ ](http://www.stevestreeting.com/2011/07/04/google/)

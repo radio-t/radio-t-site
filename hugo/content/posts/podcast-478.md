@@ -7,6 +7,8 @@ filename = "rt_podcast478"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt478.jpg)
+
 - [Держитесь подальше от этого](https://news.radio-t.com/post/external-storage).
 - [Победа сил света](https://news.radio-t.com/post/linux-and-open-source-have-won-get-over-it-zdnet).
 - [Ransom32 - новый тип RAAS](https://news.radio-t.com/post/meet-ransom32-the-first-javascript-ransomware-for-windows-mac-and-linux).

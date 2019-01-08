@@ -7,6 +7,8 @@ filename = "rt_podcast569"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt569.jpg)
+
 - [Подробно о новом Pixelbook](https://www.theverge.com/2017/10/26/16550908/google-pixelbook-review-chromebook-android-laptop) - *00:11:32*.
 - [Облачная виртуальная инфраструктура от Mail.Ru](https://biz.mail.ru/infra/) - *00:27:10*.
 - [Вред маленьких функций](https://habrahabr.ru/company/nixsolutions/blog/341034/) - *00:40:56*.

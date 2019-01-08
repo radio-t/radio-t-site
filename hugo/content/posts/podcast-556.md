@@ -7,6 +7,8 @@ filename = "rt_podcast556"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt556.jpg)
+
 - [Прощание с iPod](https://www.wired.com/story/goodbye-ipod-and-thanks-for-all-the-tunes/) - *00:05:59*.
 - [С днем системного администратора](https://habrahabr.ru/post/334318/) - *00:15:19*.
 - [Wasabi – как S3, но дешево](https://wasabi.com/product/) - *00:34:20*.

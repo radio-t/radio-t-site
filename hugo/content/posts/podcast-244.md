@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt244.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt244.png)
+
 - Празднуем день рождения [DNS](http://habrahabr.ru/company/skydns/blog/122585/)
 - Этого вам в Nokia [не расскажут](http://www.mobile-review.com/articles/2011/nokia-n9-meego.shtml)
 - [MeeGo N9](http://arstechnica.com/gadgets/news/2011/06/nokias-new-meego-based-n9-is-set-up-for-failure.ars) и выстрел в голову

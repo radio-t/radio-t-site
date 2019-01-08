@@ -7,6 +7,8 @@ filename = "rt_podcast522"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt522.jpg)
+
 - [ICQ - 20 лет не возраст](https://medium.com/@Dimitryophoto/icq-20-years-is-no-limit-8734e1eea8ea) - *00:02:38*.
 - [Microsoft присоединился Linux Foundation](http://arstechnica.com/information-technology/2016/11/microsoft-yes-microsoft-joins-the-linux-foundation/) - *00:19:50*.
 - [Visual Studio для Mac ](https://habrahabr.ru/company/microsoft/blog/315444/) - *00:22:26*.

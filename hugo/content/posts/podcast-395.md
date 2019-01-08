@@ -7,6 +7,8 @@ filename = "rt_podcast395"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt395.jpg)
+
 - WWDC 2014
 - Новинки OSX
 - Что свежего в iOS

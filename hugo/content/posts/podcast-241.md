@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt241.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt241.png)
+
 - Мы дождались [версии 3](https://lkml.org/lkml/2011/5/29/204)
 - [TeamCity ](http://www.jetbrains.com/teamcity/)от первого лица
 - Что у нас со [Scala](http://blog.lexspoon.org/2011/06/martin-odersky-on-state-of-scala.html)

@@ -6,6 +6,8 @@ image = "https://radio-t.com/images/radio-t/rt141.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt141.jpg)
+
 - Празднуем [юбилей](http://hard.compulenta.ru/434684/) лазерного принтера
 - Революция [Opera](http://habrahabr.ru/company/opera/blog/62160/) мимо нас
 - Убийство [3FN](http://voices.washingtonpost.com/securityfix/2009/06/the_fallout_from_the_3fn_taked.html?wprss=securityfix)

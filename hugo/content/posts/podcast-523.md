@@ -7,6 +7,8 @@ filename = "rt_podcast523"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt523.jpg)
+
 - [Reddit и скандалы](https://www.engadget.com/2016/11/24/reddit-ceo-confesses-to-editing-comments-that-insulted-him/) - *00:28:18*.
 - [Emacs против MacOS](http://www.lunaryorn.com/posts/bye-bye-emojis-emacs-hates-macos.html) - *00:53:26*.
 - [Oracle покупает Dyn](https://www.oracle.com/corporate/acquisitions/dyn/index.html) - *01:01:06*.

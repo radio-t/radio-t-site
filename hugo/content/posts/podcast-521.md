@@ -7,6 +7,8 @@ filename = "rt_podcast521"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt521.jpg)
+
 - [Facebook всех похоронил](http://www.theverge.com/2016/11/11/13602824/facebook-just-killed-everyone) - *00:02:16*.
 - [Строим ботов](https://github.com/umputun/rt-bot) - *00:12:09*.
 - [Семь лет Go](https://blog.golang.org/7years) - *00:54:53*.

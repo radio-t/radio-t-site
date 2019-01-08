@@ -7,6 +7,8 @@ filename = "rt_podcast559"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt559.jpg)
+
 - [Вышел Essential Phone](https://www.essential.com/blog/essential-phone-available-now) - *00:01:51*.
 - [Подробности об Essential Phone](https://9to5google.com/2017/08/18/review-roundup-essential-phone-has-fast-software-excellent-hardware-but-low-light-camera-performance-as-bad-as-the-app-icon/) - *00:12:38*.
 - [Skype Preview для десктопов](https://blogs.skype.com/news/2017/08/17/hello-desktops-meet-skype-preview/) - *00:19:28*.

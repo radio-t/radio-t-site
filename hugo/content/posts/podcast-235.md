@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt235.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt235.png)
+
 - FTP пошел на 5й десяток
 - [Яндекс.Деньги](http://internet.cnews.ru/news/top/index.shtml?2011/04/15/436734) приоткрыли свой API
 - Он [президент](http://www.engadget.com/2011/04/15/president-obama-complains-white-house-technology-is-30-years-be/), или где?

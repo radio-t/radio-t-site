@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt124.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt124.png)
+
 - Windows7 [безвозмездно](http://webplanet.ru/news/soft/2009/02/13/windows7_update.html)
 - Покончим с [монополистом](http://habrahabr.ru/blogs/browsers/51540/)
 - $[250К](http://soft.compulenta.ru/402038/) за голову хакера

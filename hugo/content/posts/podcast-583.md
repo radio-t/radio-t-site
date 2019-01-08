@@ -7,6 +7,8 @@ filename = "rt_podcast583"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt583.jpg)
+
 - [Отчет 2018 от HackerRank](http://research.hackerrank.com/developer-skills/2018/).
 - [CoreOS сливается с Red Hat](https://coreos.com/blog/coreos-agrees-to-join-red-hat).
 - [Ubuntu 18.04 LTS Minimal будет почти мелким](http://blog.dustinkirkland.com/2018/02/rfc-ubuntu-1804-lts-minimal-images.html).

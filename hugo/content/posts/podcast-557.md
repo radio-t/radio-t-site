@@ -7,6 +7,8 @@ filename = "rt_podcast557"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt557.jpg)
+
 - [Stackoverflow закрывает Documentation проект](https://meta.stackoverflow.com/questions/354217/sunsetting-documentation/) - *00:08:09*.
 - [Mozilla ставит на Rust](https://www.cnet.com/news/mozilla-designs-rust-language-for-safe-secure-internet/) - *00:32:54*.
 - [Ruby мертв или жив?](https://infinum.co/the-capsized-eight/analyzing-rubygems-stats-v2016) - *00:42:24*.

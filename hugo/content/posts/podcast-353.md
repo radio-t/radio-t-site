@@ -7,6 +7,8 @@ filename = "rt_podcast353"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt353.jpg)
+
 * [Проекту Debian 20 лет!](http://habrahabr.ru/post/190318/)
 * [Правило 20% больше не действует в Google](http://habrahabr.ru/post/190362/)
 * Худшие [технологические предсказания всех времен](http://www.impactlab.net/2013/08/13/top-10-worst-technology-predictions-of-all-time/)

@@ -7,6 +7,8 @@ filename = "rt_podcast546"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt546.jpg)
+
 - [Достоверные слухи о новом iPhone 8](https://bgr.com/2017/05/17/iphone-8-release-date-2017-soon-real-life-photos-exclusive/) - *00:01:12*.
 - [Kotlin для Android: Теперь официально](https://habrahabr.ru/company/JetBrains/blog/329028/) - *00:12:38*.
 - [Покупать прямо по Телеграмму](http://mashable.com/2017/05/19/telegram-payment-bots/) - *00:42:55*.

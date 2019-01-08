@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt187.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt187.jpg)
+
 - Новый виток браузер-войн и планы на FF4
 - Что происходит с Facebook. Уходим все?
 - iPad с матовым экраном и совсем недорого

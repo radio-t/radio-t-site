@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt303.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt303.jpg)
+
 * [Apple против Samsung](http://www.engadget.com/2012/08/24/apple-v-samsung-decision/) - есть решение
 * И [Android теперь бояться](http://online.wsj.com/article/SB10000872396390444812704577610012314155098.html)
 * Очень привлекательный [Amazon Glacier](http://www.backupcentral.com/mr-backup-blog-mainmenu-47/13-mr-backup-blog/404-amazon-glacier-release.html)

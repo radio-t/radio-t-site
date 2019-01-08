@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt254.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt254.png)
+
 - Гости из Parallels против злобных нас
 - [Google 13 лет](http://mashable.com/2011/09/04/google-happy-birthday-13-years/) и наши поздравления
 - Массовое, но понятное [убийство продуктов](http://www.digitaltrends.com/web/google-shuts-down-google-desktop-and-nine-other-projects/)

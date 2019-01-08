@@ -7,6 +7,8 @@ filename = "rt_podcast551"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt551.jpg)
+
 - [Object Storage для DigitalOcean](https://www.digitalocean.com/products/storage/object-storage/) - *00:04:29*.
 - [Google прекратит читать Gmail почту](https://techcrunch.com/2017/06/23/google-has-all-the-data-it-needs-will-stop-scanning-gmail-inboxes/) - *00:10:48*.
 - [Lenovo согнула лаптоп](http://mashable.com/2017/06/20/lenovo-folding-laptop-concept/) - *00:24:13*.

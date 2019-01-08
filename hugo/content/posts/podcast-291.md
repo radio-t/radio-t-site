@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt291.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt291.png)
+
 - [Blockly](http://code.google.com/p/google-blockly/) для младших школьников
 - Очереди SQS и [ElasticMQ](http://java.dzone.com/articles/elasticmq-05-release)
 - [CAP](http://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed) 12 лет спустя

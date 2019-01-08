@@ -7,6 +7,8 @@ filename = "rt_podcast467"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt467.jpg)
+
 * [Плавающий IP для DigitalOcean](https://www.digitalocean.com/company/blog/floating-ips-start-architecting-your-applications-for-high-availability/).
 * [Ninebot Mini – мелкий но бодрый](http://technewsblog.com/2015/10/20/xioami-launches-nineboat-mini-self-balancing-scooter/).
 * [Amazon продолжает доминировать на рынке облаков](http://uk.businessinsider.com/aws-is-crushing-its-competition-2015-10)

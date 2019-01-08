@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt236.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt236.jpg)
+
 - [Skynet ](http://www.readwriteweb.com/archives/skynet_has_gone_live_everything_is_fine.php)не так уж и страшен
 - Серьезное [падение ](http://habrahabr.ru/blogs/cloud_computing/118001/)амазона
 - Apple [против ](http://online.wsj.com/article/SB10001424052748703916004576271210109389154.html)Samsung

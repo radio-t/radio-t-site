@@ -7,6 +7,8 @@ filename = "rt_podcast348"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt348.jpg)
+
 * BitTorrent [исполнилось 12 лет / Хабрахабр](http://habrahabr.ru/post/185812/).
 * [Dropbox показазал свой iCloud](http://www.tuaw.com/2013/07/10/dropbox-announces-icloud-like-data-sync-service-for-apps/).
 * [Amazon AWS EC2 против Linode против Digitalocean](http://www.cosninix.com/wp/2013/06/amazon-aws-ec2-linode-digitalocean-cloudserver-showdown/).

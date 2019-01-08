@@ -7,6 +7,8 @@ filename = "rt_podcast620"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt620.jpg)
+
 - [GitHub добавил Actions](https://techcrunch.com/2018/10/16/github-launches-actions-its-workflow-automation-tool/) - *00:04:00*.
 - [MongoDB поменяла лицензию](https://techcrunch.com/2018/10/16/mongodb-switches-up-its-open-source-license/) - *00:49:29*.
 - [Winamp через 5 лет](https://www.winamp.com/) - *00:57:45*.

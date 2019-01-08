@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt253.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt253.jpg)
+
 - У нас юбилей, УРА!
 - [James Gosling](http://venturebeat.com/2011/08/30/java-creator-james-gosling-joins-ocean-robot-maker-liquid-robotics/) уходит под воду. Очень жидко
 - [Issue Based Development](http://www.accurev.com/blog/2011/09/02/issue-based-development/) и с чем его едят

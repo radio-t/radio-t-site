@@ -7,6 +7,8 @@ filename = "rt_podcast363"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt363.jpg)
+
 * От [первого лица](http://plushev.com) o [главном событии](http://habrahabr.ru/post/198616/) недели.
 * Конец эпохи [платных OS](http://www.wired.com/business/2013/10/apple-ends-paid-oses/).
 * [iPad Air](http://www.zdnet.com/apple-announces-ipad-5-heres-what-you-need-to-know-7000022267/) радует.

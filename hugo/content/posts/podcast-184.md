@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt184.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt184.png)
+
 - Странная история с [телефоном](http://techcrunch.com/2010/04/19/iphone-hd-4g/)
 - [OS/2](http://www.osnews.com/story/23180/Rumour_IBM_To_Re-Launch_OS_2) вернется на радость ветеранам
 - Совсем не клавиатура от [ASUS](http://www.crunchgear.com/2010/04/22/asus-eee-keyboard-its-a-keyboard-no-its-a-netbook/)

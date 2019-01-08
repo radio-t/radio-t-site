@@ -7,6 +7,8 @@ filename = "rt_podcast386"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt386.jpg)
+
 * [IPython 2.0.0](http://ipython.org/ipython-doc/2/whatsnew/version2.0.html) – это интересно.
 * [MariaDB теперь немного NoSQL](http://gigaom.com/2014/03/31/mariadb-adds-nosql-features-to-relational-database-roots/)
 * [99.9% монго не нужна](http://obartunov.livejournal.com/177247.html), но нужен PostgreSQL? Автор в студии!

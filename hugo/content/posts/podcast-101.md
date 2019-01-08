@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt101.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt101.jpg)
+
 - День свободы ПО
 - Что Kindle 2.0 нам готовит
 - Невнятные сервисы недели

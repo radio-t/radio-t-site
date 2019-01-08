@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt164.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt164.jpg)
+
 - Новинки [FreeBSD ](http://www.opennet.ru/opennews/art.shtml?num=24420)8.0
 - Впечатления об N900 из первых рук
 - [Гугла ](http://habrahabr.ru/blogs/google/77227/)стало еще больше

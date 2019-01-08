@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt214.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt214.jpg)
+
 - Революция сообщений [Facebook](http://blog.facebook.com/blog.php?post=452288242130). Пар в свисток?
 - [Твитер](http://business.compulenta.ru/577153/) купят, продадут и опять купят.
 - [Blekko](http://www.computerra.ru/vision/577096/) ищет по другому, но странно

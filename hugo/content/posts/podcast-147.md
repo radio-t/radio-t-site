@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt147.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt147.jpg)
+
 - С [праздником](http://www.securitylab.ru/news/383160.php), дорогие админы!
 - Одни админы [дороже](http://webplanet.ru/news/life/2009/07/29/sys.html) других
 - Юниксу [стукнуло](http://www.macworld.com/article/141913/2009/07/unix_40thanniversary.html) 40

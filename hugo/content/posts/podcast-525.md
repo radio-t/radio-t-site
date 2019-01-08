@@ -7,6 +7,8 @@ filename = "rt_podcast525"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt525.jpg)
+
 - [Samsung против Note 7](http://www.theverge.com/circuitbreaker/2016/12/9/13897794/samsung-galaxy-note-7-update-shut-down-inoperable) - *00:15:38*.
 - [TIOBE Index конца 2016](http://www.tiobe.com/tiobe-index/) - *00:24:11*.
 - [Python 2.8](https://www.naftaliharris.com/blog/why-making-python-2.8/) - *00:31:52*.

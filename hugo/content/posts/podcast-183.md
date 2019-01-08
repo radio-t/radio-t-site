@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt183.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt183.jpg)
+
 - Гугл хакнули несмотря на [усилия](http://www.securitylab.ru/news/393027.php) по защите. Мнение эксперта
 - Новинки из мира ноутбуков [Apple](http://hitech.tomsk.ru/newsmobile/14805-apple-vypustila-novye-macbook-pro.html)
 - Перераспределение [долей рынка](http://itc.ua/node/45484) ПК

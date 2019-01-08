@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt294.jpeg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt294.jpeg)
+
 * Взлом [каждого 10](http://www.cnews.ru/reviews/index.shtml?2012/06/19/493446) крупного сайта
 * [Flipboard](http://mashable.com/2012/06/22/flipboard-comes-to-android/) на Android
 * Будущее [фрагментации Android](http://opensignalmaps.com/reports/fragmentation.php)

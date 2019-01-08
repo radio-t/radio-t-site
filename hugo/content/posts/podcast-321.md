@@ -7,6 +7,8 @@ filename = "rt_podcast321"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt321.jpg)
+
 *В честь Нового Года у нас классический-расширенный выпуск*
 
 * [Netflix и прочие облака](http://www.nytimes.com/2012/12/27/technology/latest-netflix-disruption-highlights-challenges-of-cloud-computing.html) опозорились на праздники.

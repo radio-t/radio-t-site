@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt311.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt311.jpg)
+
 * Что [случилось с Google?](http://tech.fortune.cnn.com/2012/10/19/google-8/)
 * [Samsung Chromebook](http://habrahabr.ru/post/155309/) за 249 долларов
 * Релиз Linux-дистрибутива [Ubuntu 12.10](http://www.opennet.ru/opennews/art.shtml?num=35111)

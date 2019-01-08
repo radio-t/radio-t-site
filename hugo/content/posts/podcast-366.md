@@ -7,6 +7,8 @@ filename = "rt_podcast366"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt366.jpg)
+
 * [Windows 30 лет](http://gizmodo.com/bill-gates-unveiled-windows-30-years-ago-today-1461813702).
 * [Amazon показал Virtual PC](http://slashdot.org/topic/datacenter/amazon-offers-virtual-pcs-from-the-cloud/) из облака.
 * Amazon RDS [теперь и с PostgreSQL](http://aws.typepad.com/aws/2013/11/amazon-rds-for-postgresql-now-available.html)

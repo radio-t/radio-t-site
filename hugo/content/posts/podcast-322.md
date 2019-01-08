@@ -7,6 +7,8 @@ filename = "rt_podcast322"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt322.jpg)
+
 * [Заметные события](http://www.javaworld.com/community/node/8610) в разработке программ за 2012
 * Семь смертельных грехов [программирования на Objective-C](http://ashfurrow.com/blog/seven-deadly-sins-of-modern-objective-c)
 * [Семь A/B testing ошибок](http://visualwebsiteoptimizer.com/split-testing-blog/seven-ab-testing-mistakes-to-stop-in-2013/)

@@ -7,6 +7,8 @@ filename = "rt_podcast415"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt415.jpg)
+
 * [10 лет Ubuntu](http://arstechnica.com/information-technology/2014/10/ten-years-of-ubuntu-how-linuxs-beloved-newcomer-became-its-criticized-king)
 * [Ubuntu 14.10](http://prsm.tc/s1aysS)
 * [Aнонсы облака Microsoft Azure](http://habrahabr.ru/company/microsoft/blog/241261/)

@@ -7,6 +7,8 @@ filename = "rt_podcast389"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt389.jpg)
+
 * [Nokia теперь в Microsoft](http://conversations.nokia.com/2014/04/25/now-one-microsoft-open-letter-stephen-elop/)
 * Компания Lytro представила [второe поколения](http://habrahabr.ru/post/220435/)
 * [Reddit опустил технологии](http://www.bbc.com/news/technology-27100773)

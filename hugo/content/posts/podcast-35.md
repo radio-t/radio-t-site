@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt35.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt35.jpg)
+
 _Предупреждение: разные технические проблемы, сильно и отрицательно повлияли на качество звучания_
 
 

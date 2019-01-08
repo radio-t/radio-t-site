@@ -7,6 +7,8 @@ filename = "rt_podcast618"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt618.jpg)
+
 - [Custom Image теперь и в DigitalOcean](https://blog.digitalocean.com/custom-images/) - *00:13:36*.
 - [Scaleway добавила object storage](https://techcrunch.com/2018/10/05/scaleway-adds-object-storage/) - *00:25:05*.
 - [Workers KV - больше чем KV](https://blog.cloudflare.com/introducing-workers-kv/) - *00:33:26*.

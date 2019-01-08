@@ -7,6 +7,8 @@ filename = "rt_podcast446"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt446.jpg)
+
 * [Что было на Google I/O 2015](http://thenextweb.com/google/2015/05/28/everything-google-announced-at-google-io-2015-in-one-handy-list/).
 * [Inbox для всех](http://social.techcrunch.com/2015/05/28/google-opens-inbox-to-all-adds-smart-reminders-trip-bundles-undo-send-and-more/).
 * [Прощай, Mandriva](http://www.phoronix.com/scan.php?page=news_item&px=Mandriva-Liquidated).

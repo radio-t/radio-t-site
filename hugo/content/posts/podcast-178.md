@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt178.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt178.jpg)
+
 - [SearchWiki](http://habrahabr.ru/blogs/google/87354/) весь вышел
 - Новое "[право на сеть](http://internet.cnews.ru/news/line/index.shtml?2010/03/09/382035)"
 - Прболемы зоны .[xxx](http://net.compulenta.ru/514172/)

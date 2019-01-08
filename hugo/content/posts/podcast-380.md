@@ -7,6 +7,8 @@ filename = "rt_podcast380"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt380.jpg)
+
 * [Яндекс.Кит: новая прошивка для смартфонов](http://habrahabr.ru/company/yandex/blog/213103/)
 * [Microsoft напугет все прочих](http://www.theverge.com/2014/2/21/5435152/windows-8-1-license-fees-cut-by-70-percent-rumor)
 * [LXC - Linux Containers](http://linuxcontainers.org/news/)

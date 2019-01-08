@@ -7,6 +7,8 @@ filename = "rt_podcast571"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt571.jpg)
+
 - [Выход MongoDB 3.6](https://www.mongodb.com/blog/post/announcing-mongodb-36) - *00:06:13*.
 - [Новые возможности драйверов для MongoDB 3.6](https://dzone.com/articles/new-driver-features-for-mongodb-36) - *00:33:47*.
 - [Обзоры iPhone X](https://www.theguardian.com/technology/2017/nov/10/iphone-x-review-apple-face-id-all-screen-design-home-button) - *00:46:22*.

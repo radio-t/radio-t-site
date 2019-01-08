@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt174.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt174.jpg)
+
 - Вот и вышел "[убийца всего](http://internetno.net/2010/02/10/google-buzz/)" от Гугл
 - Всем дать [права](http://hitech.tomsk.ru/newsinternet/14195-top-menedzher-microsoft-nastaivaet-na-vvedenii.html): за и против
 - Насколько будет плох [Office For Mac 2011](http://gizmodo.com/5469570/office-for-mac-2011-first-look-ribbons-sharing-and-outlook)

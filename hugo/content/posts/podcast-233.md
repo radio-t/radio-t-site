@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt233.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt233.png)
+
 - HTTP 1.2 ответит на современные вызовы
 - Как bash, но только C++ с STL
 - Гослинг пошел к младшему брату

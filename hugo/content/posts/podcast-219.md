@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt219.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt219.jpg)
+
 - [Net neutrality](http://www.readwriteweb.com/archives/fcc_passes_net_neutrality_everyone_delighted.php) почти тут. Оно нам надо?
 - Что случилось со [Skype](http://www.readwriteweb.com/archives/skype_apologizes_explains_todays_downtime.php)
 - Лучшие [гаджеты](http://internetno.net/2010/12/14/luchshie-gadzhety-2010-goda/) 2010 года

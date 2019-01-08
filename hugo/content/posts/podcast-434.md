@@ -7,6 +7,8 @@ filename = "rt_podcast434"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt434.jpg)
+
 * [Конечность времени против ReactOS](http://en.wikipedia.org/wiki/ReactOS)
 * [Библиотеки против фрэймворков](http://tom.lokhorst.eu/2010/09/why-libraries-are-better-than-frameworks)
 * [MongoDB 3.0 среди нас](http://prsm.tc/hxcrH2)

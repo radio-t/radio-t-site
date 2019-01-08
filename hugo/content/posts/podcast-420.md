@@ -7,6 +7,8 @@ filename = "rt_podcast420"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt420.jpg)
+
 * [Яндекс показал новый браузер](http://prsm.tc/2spFOg)
 * [HP Stream 11 - $200 Windows ноут](http://www.engadget.com/2014/11/28/hp-stream-11-review/)
 * [Apple откажет Google в поиске](http://thestack.com/apple-drop-google-safari-default-search-engine-261114)

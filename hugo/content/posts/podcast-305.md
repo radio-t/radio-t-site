@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt305.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt305.jpg)
+
 * Google Chrome [исполнилось четыре года](http://habrahabr.ru/post/150869/)
 * [Amazon представил](http://gizmodo.com/5941083/amazons-new-kindle-avalanche-everything-you-need-to-know?utm_campaign=socialflow_gizmodo_twitter) новые киндлы
 * [Nokia Lumia 920](http://gizmodo.com/5940654/nokia-lumia-920-hands-on-you-really-want-this-thing-but-enough-to-switch) прелестен

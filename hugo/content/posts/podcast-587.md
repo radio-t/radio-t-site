@@ -7,6 +7,8 @@ filename = "rt_podcast587"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt587.jpg)
+
 - [GitHub под крупнейшей DDoS атакой](https://thenextweb.com/security/2018/03/02/how-github-braved-the-worlds-largest-ddos-attack/) - *00:01:51*.
 - [Отчет о принятых мерах от GitHub Engineering](https://githubengineering.com/ddos-incident-report/) - *00:12:29*.
 - [Начинаем по новой - бесконечная история управления зависимостями](https://research.swtch.com/vgo-intro) - *00:40:12*.

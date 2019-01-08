@@ -7,6 +7,8 @@ filename = "rt_podcast413"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt413.jpg)
+
 * [Monit выкатил DMCA наезд](https://news.ycombinator.com/item?id=8416773)
 * [Развитие DynamoDB в сторону документов](http://www.allthingsdistributed.com/2014/10/document-model-dynamodb.html)
 * [Почему не переходят на iOS 8](http://www.businessinsider.com.au/why-people-arent-updating-to-ios-8-2014-10)

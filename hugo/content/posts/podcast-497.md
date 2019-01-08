@@ -7,6 +7,8 @@ filename = "rt_podcast497"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt497.jpg)
+
 - [25 лет VB](https://blogs.msdn.microsoft.com/dotnet/2016/05/20/happy-25th-birthday-vb/) - *00:01:48*.
 - [Google победил в деле о Java](http://techcrunch.com/2016/05/26/jury-finds-googles-implementation-of-java-in-android-was-fair-use/) - *00:16:19*.
 - [Oracle предсказывает конец GPL](http://arstechnica.com/tech-policy/2016/05/op-ed-oracle-attorney-says-googles-court-victory-might-kill-the-gpl/) - *00:23:31*.

@@ -7,6 +7,8 @@ filename = "rt_podcast359"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt359.jpg)
+
 * [30 лет проекту GNU](http://habrahabr.ru/post/195478/)
 * [Google Hummingbird](http://www.theguardian.com/technology/2013/sep/27/google-biggest-algorithm-change-hummingbird)
 * Выход [Kindle HDX](http://techcrunch.com/2013/09/24/amazon-announces-the-kindle-hdx-7-and-8-9-inch-tablets-with-high-res-screens-2ghz-processors/)

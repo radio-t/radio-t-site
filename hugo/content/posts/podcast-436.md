@@ -7,6 +7,8 @@ filename = "rt_podcast436"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt436.jpg)
+
 * [Опять новый Apple TV](http://prsm.tc/wVTUTB).
 * [Amazon опробует дроны](http://prsm.tc/BDNKJ8).
 * [Google теперь проверяет Android программы](http://www.theverge.com/2015/3/17/8231125/android-apps-now-reviewed-by-google).

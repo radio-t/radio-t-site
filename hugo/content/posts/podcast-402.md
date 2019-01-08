@@ -7,6 +7,8 @@ filename = "rt_podcast402"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt402.jpg)
+
 * [С днем СисАдмина!](http://en.wikipedia.org/wiki/System_Administrator_Appreciation_Day)
 * [AWS страдает от конкуренции](http://venturebeat.com/2014/07/24/aws-revenue-2q14/)
 * [OS X Yosemite public beta](http://www.macworld.com/article/2456968/apple-os-x-yosemite-public-beta-arrives-thursday.html)

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt275.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt275.png)
+
 - 20 лет [C++](http://blogs.msdn.com/b/vcblog/archive/2012/02/03/10263262.aspx) от Microsoft
 - Что такое этот [Kotlin](http://confluence.jetbrains.net/display/Kotlin/Welcome)?
 - Агония архитектуры [сервисов](http://blog.8thlight.com/uncle-bob/2012/02/01/Service-Oriented-Agony.html)

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt218.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt218.jpg)
+
 - [Dropbox 1.0](http://www.engadget.com/2010/12/17/dropbox-celebrates-version-1-0-throws-selective-sync-into-the-m/), молодцы
 - [TechCrunch](http://techcrunch.com/2010/12/15/techcrunch-moscow-from-russia-with-tech-love/) из Москвы и от очевидцев
 - Странное от Yahoo: [Del.icio.us](http://techcrunch.com/2010/12/16/is-yahoo-shutting-down-del-icio-us/) скоро закончится

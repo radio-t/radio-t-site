@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt270.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt270.jpg)
+
 - Как [твиттер](http://allthingsd.com/20111228/for-every-1700-tweets-someone-dies-blametwitter/?mod=atdtweet) убивает все живое
 - Покажем G+ [это](http://techcrunch.com/2011/12/28/bird-is-the-word/) самое
 - Все больше и [больше](http://thenextweb.com/google/2011/12/27/google-may-have-passed-62-million-users-adding-625000-users-daily/)

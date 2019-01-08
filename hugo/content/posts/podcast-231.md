@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt231.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt231.jpg)
+
 - Twitter уже [5 лет](http://internetno.net/2011/03/16/twitter-5-year/). Что он добавил нам и что убил
 - Kevin Rose завязал [с Digg](http://techcrunch.com/2011/03/17/not-even-kevin-rose-really-uses-digg-anymore/), в двух смыслах
 - Покойся с миром, [Microsoft Zune ](http://techcrunch.com/2011/03/14/r-i-p-microsoft-zune-2006-2011/)

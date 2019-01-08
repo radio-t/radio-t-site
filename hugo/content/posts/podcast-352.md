@@ -7,6 +7,8 @@ filename = "rt_podcast352"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt352.jpg)
+
 * Вредные [программы полезны для андроидов](http://www.telegraph.co.uk/technology/apple/10226145/The-apps-that-Apple-does-not-want-you-to-use.html)
 * [Pirate Bay](http://www.bbc.co.uk/news/technology-23587447) еще жив.
 * [Chrome и пароли](http://abcnews.go.com/Technology/save-passwords-chrome-browser/story?id=19908237), все плохо.

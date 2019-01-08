@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt277.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt277.png)
+
 - И вдруг показали [OS X Mountain Lion](http://habrahabr.ru/blogs/apple/138346/#habracut)
 - [Яндек(с)](http://techcrunch.com/2012/02/20/yandex-googles-russian-rival-is-twitters-newest-real-time-search-partner/) дружит с твитером и иногда находит людей
 - Утечка с [YouPorn](http://mashable.com/2012/02/23/youporn-hack/) и теле-хак [BestBuy](http://news.cnet.com/8301-17852_3-57384231-71/porn-on-large-screen-tvs-shocks-at-best-buy/)

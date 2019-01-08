@@ -7,6 +7,8 @@ filename = "rt_podcast438"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt438.jpg)
+
 * [Гиковские шутки на первое апреля](http://prsm.tc/CpnYxV).
 * [CLion 1.0](http://blog.jetbrains.com/clion/2015/04/clion-1-0-lets-start-the-countdown/).
 * [Django 1.8](https://www.djangoproject.com/weblog/2015/apr/01/release-18-final/).

@@ -7,6 +7,8 @@ filename = "rt_podcast588"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt588.jpg)
+
 - [Alexa и ее страшный смех](https://www.recode.net/2018/3/7/17093808/alexa-laughing-amazon-solution-fix) - *00:04:29*.
 - [Обход Windows паролей через Cortana](https://motherboard.vice.com/en_us/article/xw53jk/researchers-bypassed-windows-password-locks-with-cortana-voice-commands) - *00:11:13*.
 - [Google Assistant для управления домом](http://techcrunch.com/2018/03/09/google-makes-it-easier-to-create-custom-assistant-commands-for-devices/) - *00:24:11*.

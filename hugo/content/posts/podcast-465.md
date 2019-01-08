@@ -7,6 +7,8 @@ filename = "rt_podcast465"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt465.jpg)
+
 * [Неделя новинок от AWS](https://aws.amazon.com/about-aws/whats-new/2015/).
 * [EC2 Spot Blocks для фиксированного времени жизни](https://aws.amazon.com/blogs/aws/new-ec2-spot-blocks-for-defined-duration-workloads/).
 * [Новый Surface Pro 4](http://www.theverge.com/2015/10/6/9461259/microsoft-surface-pro-4-announced-hands-on-video-release-date).

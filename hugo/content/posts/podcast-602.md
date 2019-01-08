@@ -7,6 +7,8 @@ filename = "rt_podcast602"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt602.jpg)
+
 - [Apple Maps не смогли](https://www.engadget.com/2018/06/15/apple-maps-down-for-all-users/) - *00:01:23*..
 - [Gmail доказал что не все любят такое](https://techcrunch.com/2018/06/15/gmail-proves-that-some-people-hate-smart-suggestions/) - *00:17:57*.
 - [Из каталога Docker Hub удалено 17 вредных образов](http://www.opennet.ru/opennews/art.shtml?num=48777) - *00:26:53*.

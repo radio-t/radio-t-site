@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt108.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt108.png)
+
 - Главный юбилей недели
 - Обновления ноутбуков от известной компании
 - Мелкий фотоаппарат, но со сменным обьективом

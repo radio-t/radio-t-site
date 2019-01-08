@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt41.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt41.jpg)
+
 - Google Video без видео
 - Вернуть свободу картинкам в сети
 - Новый QIP, новая стильная флешка и новый Dell XPS

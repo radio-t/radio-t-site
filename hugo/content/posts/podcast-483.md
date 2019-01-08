@@ -7,6 +7,8 @@ filename = "rt_podcast483"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt483.jpg)
+
 - [Netflix завершил переезд в облако конкурента](http://arstechnica.com/information-technology/2016/02/netflix-finishes-its-massive-migration-to-the-amazon-cloud/). - *00:01:26*.
 - [Они о чем-то догадываются](http://www.theguardian.com/technology/2016/feb/11/amazon-terms-of-service-zombie-apocalypse) - *00:16:46*.
 - [GitHub пообещал принять меры](http://www.infoworld.com/article/3033039/application-development/github-apologizes-for-ignoring-community-concerns.html) - *00:21:06*.

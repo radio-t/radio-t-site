@@ -7,6 +7,8 @@ filename = "rt_podcast455"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt455.jpg)
+
 * Вводные разговоры.
 * [Amazon Aurora](https://aws.amazon.com/blogs/aws/now-available-amazon-aurora/).
 * [RESTful уже не торт](http://www.javacodegeeks.com/2015/07/restful-considered-harmful.html).

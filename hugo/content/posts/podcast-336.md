@@ -7,6 +7,8 @@ filename = "rt_podcast336"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt336.jpg)
+
 * [GitHub 5 лет](http://www.slashgear.com/github-turns-five-boasts-3-5-million-users-11277490/) и 3.5М пользователей.
 * 9 лет [Gmail](http://www.androidauthority.com/google-celebrates-9-years-gmail-infographic-188396/) с этапами большого пути.
 * [6.3-Inch Galaxy Mega Smartphone](http://mashable.com/2013/04/11/samsung-galaxy-mega/).

@@ -7,6 +7,8 @@ filename = "rt_podcast457"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt457.jpg)
+
 * [К 2060 программисты останутся без работы](https://medium.com/@dtauerbach/software-engineers-will-be-obsolete-by-2060-2a214fdf9737).
 * [Касперский это делал?](http://thenextweb.com/insider/2015/08/14/kaspersky-antivirus-accused-of-creating-malware-for-over-10-years/)
 * [Lenovo подсовывает гадость, опять](http://www.zdnet.com/article/lenovo-rootkit-ensured-its-software-could-not-be-deleted/).

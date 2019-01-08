@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt33.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt33.jpg)
+
 - Чудовищная программа от Akamai
 - Vudu: убийца AppleTV ?
 - Электронные книги. Быть или не быть

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt139.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt139.png)
+
 - [Поиск](http://internetno.net/2009/06/01/bing/) от MS прекрасен
 - Проект [Natal](http://habrahabr.ru/blogs/the_future_is_here/61106/): MS опять радует
 - [ФАС](http://www.fas.gov.ru/news/n_24516.shtml?print) против висты, но за XP

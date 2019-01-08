@@ -7,6 +7,8 @@ filename = "rt_podcast458"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt458.jpg)
+
 * [Вышел Go 1.5](http://habrahabr.ru/post/265115/).
 * Обучение ведущих уму-разуму по поводу лучшего-из-языков-где-не-нужен-дебагер.
 * [OnHub - всем раутерам раутер](https://on.google.com/hub/).

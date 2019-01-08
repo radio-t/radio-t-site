@@ -7,6 +7,8 @@ filename = "rt_podcast452"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt452.jpg)
+
 * [Линус о наступление AI](http://gizmodo.com/linux-creator-linus-torvalds-laughs-at-the-ai-apocalyps-1716383135).
 * [Все упало и сразу](http://arstechnica.com/security/2015/07/simultaneous-downing-of-ny-stock-exchange-united-and-wsj-com-rattle-nerves/).
 * [Amazon API Gateway](https://aws.amazon.com/blogs/aws/amazon-api-gateway-build-and-run-scalable-application-backends/)

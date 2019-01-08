@@ -7,6 +7,8 @@ filename = "rt_podcast421"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt421.jpg)
+
 * [Как CoreOS и Docker посорились](http://prsm.tc/zuzt2P)
 * [Docker Machine, Swarm и Compose](https://blog.docker.com/2014/12/announcing-docker-machine-swarm-and-compose-for-orchestrating-distributed-apps/)
 * [Docker Docker Hub Enterprise](https://blog.docker.com/2014/12/docker-announces-docker-hub-enterprise/)

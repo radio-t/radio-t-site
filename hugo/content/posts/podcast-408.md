@@ -7,6 +7,8 @@ filename = "rt_podcast408"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt408.jpg)
+
 * [DigitalOcean продвигаeт CoreOS](http://techcrunch.com/2014/09/05/digitalocean-partners-with-coreos-to-bring-large-scale-cluster-deployments-to-its-platform/) в массы.
 * [Страсти вокруг Markdown](http://habrahabr.ru/post/235611/).
 * [Если бы они были оружием ...](http://bjorn.tipling.com/if-programming-languages-were-weapons)

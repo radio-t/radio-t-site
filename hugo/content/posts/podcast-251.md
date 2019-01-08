@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt251.gif"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt251.gif)
+
 - Яндекс [упал](http://www.thg.ru/technews/20110819_223200.html). И неплохо упал
 - Краткая лекция по особенностям маршрутизации
 - [Google](http://www.opennet.ru/opennews/art.shtml?num=31484) купил Motorola Mobility, для патентов?

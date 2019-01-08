@@ -7,6 +7,8 @@ filename = "rt_podcast424"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt424.jpg)
+
 * [Десятка популярности языков за 2014](http://prsm.tc/9pkpRH)
 * [Linux в 2014](http://www.zdnet.com/article/linux-and-open-source-2014-it-was-the-best-of-years-it-was-the-worst-of-years/)
 * [Какие базы данных популярны в AWS](http://prsm.tc/NfyGUs)

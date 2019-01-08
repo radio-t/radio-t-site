@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt213.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt213.png)
+
 - [Firefox](http://www.opennet.ru/opennews/art.shtml?num=28599) празднует свое шестилетие
 - Платить за каждого пользователя [ICQ](http://habrahabr.ru/blogs/im/107910/)
 - [Ask.com](http://mashable.com/2010/11/09/ask-com-shut-down/) больше не ищет

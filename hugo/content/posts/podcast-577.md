@@ -7,6 +7,8 @@ filename = "rt_podcast577"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt577.jpg)
+
 - [Что ждем от CES 2018](https://www.cnet.com/news/ces-2018-computer-preview-what-to-expect-from-laptops-desktops-and-tablets/) - *00:04:32*.
 - [Apple соединит софт для iPhone, iPad и Mac](https://www.bloomberg.com/news/articles/2017-12-20/apple-is-said-to-have-plan-to-combine-iphone-ipad-and-mac-apps) - *00:14:34*.
 - [Против “username or password incorrect”](https://hackernoon.com/username-or-password-is-incorrect-is-bullshit-89985ca2be48?gi=c7697c053f2) - *00:38:15*.

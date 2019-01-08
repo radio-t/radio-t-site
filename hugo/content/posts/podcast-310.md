@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt310.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt310.jpg)
+
 * Линус Торвальдс ответил на вопросы [посетителей slashdot.org](http://www.zdnet.com/linus-torvalds-interviewed-by-slashdot-readers-7000005697/)
 * [Facebook лег](http://thenextweb.com/facebook/2012/10/11/facebook-apparently-down-in-several-countries-worldwide-including-italy-germany-france) и сразу в многих странах
 * [Ubuntu One Cloud Storage пришел на Mac ](http://techcrunch.com/2012/10/12/canonicals-ubuntu-one-cloud-storage-service-comes-to-the-mac/)

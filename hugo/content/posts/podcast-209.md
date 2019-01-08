@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt209.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt209.jpg)
+
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast209.mp3)
 
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast209.mp3.torrent)

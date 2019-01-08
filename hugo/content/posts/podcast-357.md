@@ -7,6 +7,8 @@ filename = "rt_podcast357"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt357.jpg)
+
 * Гости о [parallels access](http://www.parallels.com/products/access/) и прочих новинках.
 * [SSD остановил прогресс Linux](http://www.techeye.net/software/broken-ssd-stops-the-evolution-of-linux)
 * [Apple и его новинки](http://www.engadget.com/2013/09/10/apples-september-10th-event-roundup-iphone-5s-5c-ios-7/)

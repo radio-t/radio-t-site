@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt46.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt46.jpg)
+
 - Предстоящее событие о маках
 - Гуглофону быть
 - Дворак полюбил мак, а прочие полюбили висту

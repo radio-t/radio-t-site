@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt189.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt189.jpg)
+
 - Юбилеи [Java](http://habrahabr.ru/blogs/java/94716/), [Хабра](http://habrahabr.ru/blogs/social_networks/94537/) и [пакмана](http://habrahabr.ru/blogs/google/94639/)
 - 13e версии линуксов ([№1](http://habrahabr.ru/blogs/open_source/94524/), [№2](http://habrahabr.ru/blogs/fedora/94505/))
 - iPad против нетбуков, последний [бой](http://mashable.com/2010/05/25/ipad-versus-netbook/)

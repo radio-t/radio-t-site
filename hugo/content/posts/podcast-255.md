@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt255.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt255.png)
+
 - С Днем программиста!
 - Возвращение программистских работ
 - Windows 8 - прорыв или наоборот?

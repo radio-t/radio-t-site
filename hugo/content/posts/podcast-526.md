@@ -7,6 +7,8 @@ filename = "rt_podcast526"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt526.jpg)
+
 - [Продолжаем обзор наших ботов](https://github.com/umputun/rt-bot)  - *00:03:52*.
 - [Oracle нацелился на пользователей Java](http://www.theregister.co.uk/2016/12/16/oracle_targets_java_users_non_compliance/) - *00:18:56*.
 - [Новый подход к распространению зловредов](http://www.zdnet.com/article/new-ransomware-decrypts-your-files-if-you-infect-your-friends/) - *00:31:50*.

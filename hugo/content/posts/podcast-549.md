@@ -7,6 +7,8 @@ filename = "rt_podcast549"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt549.jpg)
+
 - [DigitalOcean Cloud Firewalls](https://www.digitalocean.com/community/tutorials/an-introduction-to-digitalocean-cloud-firewalls) - *00:02:02*.
 - [WWDC 2017](https://docs.google.com/document/d/16zOhYDSrBPCaaUr2Hfl0TbdjhaP-a48hV4f3bMNsvLk/pub) - *00:17:43*.
 - Темы наших слушателей

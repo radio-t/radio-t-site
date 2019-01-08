@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt271.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt271.jpg)
+
 - Почему [квесты](http://37signals.com/svn/posts/3071-why-we-dont-hire-programmers-based-on-puzzles-api-quizzes-math-riddles-or-other-parlor-trick) не помогают
 - Как сделать [резюме](http://java.dzone.com/articles/how-make-your-cv-not-suck) менее гадким
 - SLB от Bobuk

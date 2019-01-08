@@ -7,6 +7,8 @@ filename = "rt_podcast371"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt371.jpg)
+
 * [10 технических провалов 2013](http://readwrite.com/2013/12/20/top-10-tech-failures-of-2013)
 * 10 успешных проектов [на Kickstarter](http://www.makeuseof.com/tag/10-successful-kickstarter-projects-in-2013-for-our-everyday-lives/)
 * [Fedora 20](http://www.opennet.ru/opennews/art.shtml?num=38677)

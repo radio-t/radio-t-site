@@ -7,6 +7,8 @@ filename = "rt_podcast601"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt601.jpg)
+
 - [Apple WWDC 2018](https://www.digitaltrends.com/mobile/wwdc-2018-news/) - *00:00:30*.
 - [Яндекс.Станция с Алисой внутри](https://station.yandex.ru/) - *01:25:25*.
 - [GitHub все](https://blog.github.com/2018-06-04-github-microsoft/) - *01:42:25*.

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt237.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt237.jpg)
+
 - Гость о зарубежном IT визите
 - [Myspace ](http://www.readwriteweb.com/archives/news_corp_has_finally_had_it_accepting_bids_for_my.php)продается
 - Приход Великого Белого [iPhone](http://www.fastcompany.com/1750352/the-great-white-iphone-how-apple-spun-a-tech-fail-into-a-pr-win)

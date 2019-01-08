@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt177.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt177.jpg)
+
 - [Apple](http://business.compulenta.ru/511250/) против HTC и Google
 - Новая [Ubuntu](http://www.opennet.ru/opennews/art.shtml?num=25666) очень неоднозначна
 - Не глотайте [железо](http://www.securitylab.ru/news/391314.php), это глупо

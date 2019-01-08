@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt136.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt136.png)
+
 - [Козлы](http://dp.ru/4/a/2009/05/07/Na_rabotu_v_Google_prinjal) спасут хайтек
 - Гигабитный [WiFi](http://webplanet.ru/news/telecom/2009/05/08/wigig.html) видимо будет
 - Главный [гаджет](http://onegadget.ru/og/3671) недели от onegadget.ru

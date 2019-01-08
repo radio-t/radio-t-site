@@ -7,6 +7,8 @@ filename = "rt_podcast475"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt475.jpg)
+
 - [Поломать линукс за 28 нажатий](http://www.engadget.com/2015/12/18/log-into-most-any-linux-system-by-hitting-backspace-28-times/).
 - [MacKeeper обидел 13 Млн](http://www.cnet.com/news/mackeeper-exposes-personal-data-of-13-million-users/).
 - [Утечка 684 Тб данных из открытых монг](http://www.opennet.ru/opennews/art.shtml?num=43540).

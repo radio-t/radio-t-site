@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt287.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt287.png)
+
 - [Oracle](http://www.drdobbs.com/jvm/232901227) и конец привычного мира
 - [Позиция](http://nighthacks.com/roller/jag/entry/my_attitude_on_oracle_v) Госслинга не очень последовательна
 - IP это не паспорт, но [другое](http://torrentfreak.com/judge-an-ip-address-doesnt-identify-a-person-120503/)

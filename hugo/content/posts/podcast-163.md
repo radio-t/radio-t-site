@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt163.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt163.jpg)
+
 - Так что же было у [MS](http://www.electronista.com/articles/09/11/20/next.windows.again.on.3.year.schedule/) ?
 - У [гугла ](http://cnews.ru/news/top/index.shtml?2009/11/23/370624)выживет только одна ОС
 - [Cell ](http://corp.cnews.ru/news/line/index.shtml?2009/11/26/371191)будет жить. Ура!

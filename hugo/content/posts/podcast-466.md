@@ -7,6 +7,8 @@ filename = "rt_podcast466"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt466.jpg)
+
 * [Новые iMacs](http://wccftech.com/apple-launches-lineup-imacs-crucial-difference-details/).
 * [Magic Keyboard, Trackpad, Mouse и iMac](http://geektimes.ru/company/mvideo/blog/263966/).
 * [Red Hat покупает Ansible](http://www.redhat.com/en/about/blog/why-red-hat-acquired-ansible).

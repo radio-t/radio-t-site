@@ -7,6 +7,8 @@ filename = "rt_podcast535"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt535.jpg)
+
 - [И наступил Cloudbleed](http://gizmodo.com/everything-you-need-to-know-about-cloudbleed-the-lates-1792710616) - *00:03:10*.
 - [Cloudflare поделились деталями](https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/) - *00:30:44*.
 - [Google хакнул SHA1](https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html) - *00:45:24*.

@@ -7,6 +7,8 @@ filename = "rt_podcast570"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt570.jpg)
+
 - [В гостях у нас странный, но интересный продукт](http://apdax.com)
 - [Толстые бинарники это наше все](http://www.smashcompany.com/technology/why-would-anyone-choose-docker-over-fat-binaries) - *00:42:46*.
 - [И тепрь оно GoLand](https://blog.jetbrains.com/go/2017/11/02/announcing-goland-former-gogland-eap-18-final-product-name-templates-support-and-more/) - *01:22:20*.

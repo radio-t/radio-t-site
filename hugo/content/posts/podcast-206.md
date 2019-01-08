@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt206.gif"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt206.gif)
+
 - ДР [Фидонета](http://habrahabr.ru/blogs/fido/104709/). Ура!
 - Позор недели или к чему приводят сильно [умные](http://habrahabr.ru/blogs/hi/104894/) системы
 - Второй позор недели от [твитера](http://mashable.com/2010/09/21/twitter-exploit-response/)

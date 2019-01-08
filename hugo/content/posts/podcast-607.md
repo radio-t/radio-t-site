@@ -7,6 +7,8 @@ filename = "rt_podcast607"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt607.jpg)
+
 - [MacBook Pro 2018 неприятно удивил](https://www.inverse.com/article/47169-macbook-pro-2018-throttling-complaints-reddit)
 - [Google наказывают за все хорошее](http://europa.eu/rapid/press-release_IP-18-4581_en.htm)
 - [Телефон из стекла](https://mashable.com/2018/07/18/corning-gorilla-glass-6-textured-glass/)

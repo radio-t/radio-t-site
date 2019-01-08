@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt238.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt238.jpg)
+
 - Нет, мы не Software Engineer, мы скульпторы
 - Не надо комментариев в коде
 - Зачем нужна Java если есть C++

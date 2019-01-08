@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt229.gif"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt229.gif)
+
 - Питону [20 лет](http://twitter.com/gvanrossum/statuses/40485917399592960), и 3.2 подоспела к юбилею
 - О мифе [стандартов](http://raptureinvenice.com/?p=249) программирования
 - Насколько [VoltDB](http://architects.dzone.com/news/voltdb-really-scalable-they) быстра и расширяема

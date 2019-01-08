@@ -7,6 +7,8 @@ filename = "rt_podcast399"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt399.jpg)
+
 * [Увидел свет Eclipse Luna](http://www.opennet.ru/opennews/art.shtml?num=40081).
 * [Обзор достижений контейнерной изоляции](http://www.opennet.ru/opennews/art.shtml?num=40126).
 * [Как нам применить Docker](http://flux7.com/blogs/docker/8-ways-to-use-docker-in-the-real-world/).

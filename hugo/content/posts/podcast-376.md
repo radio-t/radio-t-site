@@ -7,6 +7,8 @@ filename = "rt_podcast376"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt376.jpg)
+
 * 30 лет [Macintosh](http://blogs.computerworld.com/macintosh/23434/apples-macintosh-30-years-doomed).
 * [Amazon DynamoDB](http://aws.typepad.com/aws/2014/01/amazon-dynamodb-turns-two.html) уже 2 годика.
 * [It’s 2014 And Our Passwords Aren’t Getting Better](http://www.buzzfeed.com/charliewarzel/its-2014-and-our-passwords-arent-getting-better)

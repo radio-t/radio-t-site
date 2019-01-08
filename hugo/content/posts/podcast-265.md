@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt265.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt265.jpg)
+
 - Ubuntu уже не так модно
 - Исчез самый знатный пользователь CouchDB
 - О бесполезном: USB паровозиком

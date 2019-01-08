@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt248.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt248.jpg)
+
 - [Nginx](http://nginx.org/) будет красивым и богатым
 - Новый [язык](http://habrahabr.ru/blogs/java/124494/) от тех, кто не вызывал подозрений
 - Выход [Lion](http://www.engadget.com/2011/07/20/apple-os-x-lion-10-7-review/) и наше неоднозначное впечатление

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt230.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt230.jpg)
+
 - О главной [новости ](http://www.engadget.com/2011/03/09/ipad-2-review/)и от нас
 - Выход [iOS 4.3](http://venturebeat.com/2011/03/09/apple-releases-ios-4-3-with-wifi-hotspot-improved-airplay/), без особых радостей
 - [Twitter](http://techcrunch.com/2011/03/11/twitter-ecosystem-guidelines/) сорвался с цепи

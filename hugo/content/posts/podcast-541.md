@@ -7,6 +7,8 @@ filename = "rt_podcast541"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt541.jpg)
+
 - [Новости о новом Mac Pro](http://daringfireball.net/2017/04/the_mac_pro_lives) - *00:02:26*.
 - [Когда слишком много данных](https://www.recode.net/2017/4/12/15275160/big-data-analytics-enterprise-technology-internet-of-things-iot) - *00:25:54*.
 - [Atom 1.17](http://blog.atom.io/2017/04/12/atom-1-16.html) - *00:56:05*.

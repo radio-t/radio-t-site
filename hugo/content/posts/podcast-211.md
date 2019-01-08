@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt211.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt211.jpg)
+
 - Новый русский [IT–налог](http://www.opennet.ru/opennews/art.shtml?num=28399)
 - Яндекс и Facebook [подружились](http://internetno.net/2010/10/28/yandeks-i-facebook-podruzhilis/)
 - Православному поисковому [не быть](http://www.vedomosti.ru/newspaper/article/248490/antigoogle_otmenyaetsya#ixzz13XqnWvvr)

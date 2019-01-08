@@ -7,6 +7,8 @@ filename = "rt_podcast324"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt324.jpg)
+
 * [Windows 8](http://www.inc.com/john-brandon/windows-8-epic-fail-of-the-decade.html) это плохо?
 * Facebook вторгается на территорию Google с [Graph Search](http://news.cnet.com/8301-1023_3-57564077-93/facebook-takes-on-google-with-graph-search/)
 * [MongoDB Full Text Search](http://architects.dzone.com/articles/mongodb-full-text-search)

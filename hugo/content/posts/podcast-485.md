@@ -7,6 +7,8 @@ filename = "rt_podcast485"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt485.jpg)
+
 - [Spotify переезжает в Google Cloud](http://www.engadget.com/2016/02/24/spotify-moving-data-to-google-cloud-platform/) - *00:04:18*.
 - [Что именно переехало и откуда](https://news.spotify.com/int/2016/02/23/announcing-spotify-infrastructures-googley-future/) - *00:05:36*.
 - [Microsoft приобретает компанию Xamarin](https://habrahabr.ru/company/microsoft/blog/277875/) - *00:13:57*.

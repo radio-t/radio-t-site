@@ -7,6 +7,8 @@ filename = "rt_podcast590"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt590.jpg)
+
 - [Выход Java 10](https://blogs.oracle.com/java-platform-group/introducing-java-se-10) - *00:03:11*.
 - [Graal и Truffle для JVM](https://zeroturnaround.com/rebellabs/graal-and-truffle-for-polyglot-languages-on-jvm/) - *00:25:14*.
 - [Google покупает Lytro за смешные $40M](https://techcrunch.com/2018/03/20/sources-google-is-buying-lytro-for-about-40m/) - *00:38:27*.

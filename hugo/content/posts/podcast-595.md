@@ -7,6 +7,8 @@ filename = "rt_podcast595"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt595.jpg)
+
 - [Новый Gmail](https://www.techradar.com/news/the-new-gmail-is-here-to-tackle-inbox-overload) - *00:06:59*.
 - [Из habrahabr.ru в habr.com](https://habr.com/company/tm/blog/93946/) - *00:22:48*.
 - [DeepCode AI](https://techcrunch.com/2018/04/26/deepcode-cleans-your-code-with-the-power-of-ai/) - *00:52:57*.

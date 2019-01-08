@@ -7,6 +7,8 @@ filename = "rt_podcast435"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt435.jpg)
+
 * [Что наm показала Apple](http://prsm.tc/So7YF2)
 * [Новый Chromebook Pixel](http://prsm.tc/cQiHj1)
 * [В чем революция Type-C USB 3](http://www.gadgetguy.com.au/what-apples-switch-to-type-c-usb-3-means/)

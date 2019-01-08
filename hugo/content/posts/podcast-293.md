@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt293.jpeg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt293.jpeg)
+
 - [WWDC 2012](http://www.engadget.com/2012/06/11/wwdc-2012-keynote-roundup/) вполне хороша!
 - Новый [Air]( http://www.engadget.com/2012/06/11/apple-macbook-air-refresh-2012/). Все согласны.
 - Новые [MBP]( http://www.engadget.com/2012/06/11/stub-apple-unveils-new-macbook-pro-with-ivy-bridge-at-wwdc/). Мнения разделились.

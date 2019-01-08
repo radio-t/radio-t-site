@@ -7,6 +7,8 @@ filename = "rt_podcast560"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt560.jpg)
+
 - [10 лет хэштегу](https://thenextweb.com/socialmedia/2017/08/23/the-hashtag-is-ten/) - *00:02:41*.
 - [Windows 95 живет 22 года](https://thenextweb.com/insider/2017/08/24/windows-95-22-years-old-today-lets-hope-doesnt-turn-23/) - *00:06:56*.
 - [Драма вокруг Node.js](http://www.zdnet.com/article/after-governance-breakdown-node-js-leaders-fight-for-its-survival/) - *00:13:38*.

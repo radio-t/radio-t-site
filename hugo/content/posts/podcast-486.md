@@ -7,6 +7,8 @@ filename = "rt_podcast486"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt486.jpg)
+
 - [Увидел свет язык программирования Rust 1.7](http://www.opennet.ru/opennews/art.shtml?num=43985) - *00:01:22*.
 - [Mozilla и Samsung придумают браузерный мотор](https://www.opennet.ru/opennews/art.shtml?num=36576) - *00:04:09*.
 - [FP – это очень странно](http://probablydance.com/2016/02/27/functional-programming-is-not-popular-because-it-is-weird/) - *00:07:36*.

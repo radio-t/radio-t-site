@@ -7,6 +7,8 @@ filename = "rt_podcast370"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt370.jpg)
+
 * [45 лет назад](http://www.huffingtonpost.com/2013/12/09/computer-mouse_n_4411839.html)
 * Еще одна уходящая профессия - [Database Administrator](http://thenextweb.com/kennygorman/2013/12/12/dba-dead/)
 * [MongoDB-as-a-service](http://blog.mongodirector.com/mongodb-as-a-service-in-your-own-amazon-aws-account/) в вашем Amazon AWS

@@ -7,6 +7,8 @@ filename = "rt_podcast394"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt394.jpg)
+
 * [Что случилось с TrueCrypt](http://gigaom.com/2014/05/29/heres-what-you-need-to-know-about-the-sudden-and-mysterious-death-of-truecrypt/)
 * [Выход Git 2.0](http://www.opennet.ru/opennews/art.shtml?num=39883)
 * [DropBox это дорогая ошибка](http://iops.io/blog/dropbox-is-an-expensive-and-dangerous-mistake/)

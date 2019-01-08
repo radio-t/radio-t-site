@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt109.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt109.png)
+
 - Кризис. Шоу в трех причинах с увольнениями.
 - На удивление хорошие впечатления от MacBook
 - Сахарный интерфейс, рекомендации лучших Бобуков.

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt128.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt128.png)
+
 - Вся правда о телефонном скайпе
 - Юбилеи недели: [web](http://www.readwriteweb.com/archives/happy_20th_birthday_world_wide_web.php) и [linux](http://i.gizmodo.com/5169216/happy-15th-birthday-linux)
 - Новая [iPhone OS](http://www.engadget.com/2009/03/12/iphone-os-3-0-is-coming-march-17th/) на подходе

@@ -7,6 +7,8 @@ filename = "rt_podcast545"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt545.jpg)
+
 - [Массивная атака на всех](http://gizmodo.com/theres-a-massive-ransomware-attack-spreading-globally-r-1795168952) - *00:05:14*.
 - [Это все вина/заслуга NSA](https://arstechnica.com/security/2017/05/an-nsa-derived-ransomware-worm-is-shutting-down-computers-worldwide/) - *00:10:12*.
 - [Возрождение ZX Spectrum](https://www.kickstarter.com/projects/1835143999/zx-spectrum-next?ref=nav_search) - *00:34:55*.

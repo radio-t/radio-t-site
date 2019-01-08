@@ -7,6 +7,8 @@ filename = "rt_podcast437"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt437.jpg)
+
 * [Amazon представил бесконечный облачный диск](http://social.techcrunch.com/2015/03/26/amazon-goes-after-dropbox-google-microsoft-with-unlimited-cloud-drive-storage/?ncid=rss&).
 * [Apple покупает FoundationDB](http://prsm.tc/FniCra).
 * [За какие языки больше платят](http://prsm.tc/USgfsc).

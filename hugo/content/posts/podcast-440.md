@@ -7,6 +7,8 @@ filename = "rt_podcast440"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt440.jpg)
+
 * [Memex на смену Google-killer?](http://prsm.tc/6OJDts)
 * [Работать на спине](http://prsm.tc/Y7Za6u).
 * [Выпуск Docker 1.6](http://www.opennet.ru/opennews/art.shtml?num=42058).

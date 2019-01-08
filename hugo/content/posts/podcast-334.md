@@ -7,6 +7,8 @@ filename = "rt_podcast334"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt334.jpg)
+
 * Бывает [и такое](http://arstechnica.com/information-technology/2013/03/epic-uptime-achievement-can-you-beat-16-years/) в нашем быстром мире.
 * [Могучий DDoS](http://www.zdnet.com/the-largest-ddos-attack-didnt-break-the-internet-but-it-did-try-7000013225/) который мало кто заметил.
 * [DaaS, MaaS и DRaaS](http://readwrite.com/2013/03/29/the-next-phase-of-cloud-computing-daas-maas-draas)

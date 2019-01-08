@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt114.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt114.png)
+
 - Званный гость o разных IDE
 - Гугл накрывает кризисной волной
 - MySQL 5.1.30 на верном пути

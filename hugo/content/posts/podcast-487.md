@@ -7,6 +7,8 @@ filename = "rt_podcast487"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt487.jpg)
+
 - [10 лет облаку Amazon](http://fortune.com/2016/03/11/amazon-cloud-turns-10/) - *00:03:48*.
 - [Сколько Spotify платит за Google Cloud](https://medium.com/@davidmytton/how-much-is-spotify-paying-google-cloud-ebb3bf180f15) - *00:16:20*.
 - [MSSQL Server для Linux](http://blogs.microsoft.com/blog/2016/03/07/announcing-sql-server-on-linux/) - *00:23:27*.

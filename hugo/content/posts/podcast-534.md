@@ -7,6 +7,8 @@ filename = "rt_podcast534"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt534.jpg)
+
 - [Load Balancers в DigitalOcean](https://www.digitalocean.com/company/blog/load-balancers-simplifying-high-availability) - *00:07:43*.
 - [Azure растет быстрее всех](http://www.infoworld.com/article/3171214/cloud-computing/azures-rise-instills-doubts-in-aws-shops.html) - *00:25:05*.
 - [Но AWS ушел слишком далеко](https://techcrunch.com/2017/02/13/why-aws-has-such-a-big-lead-in-the-cloud/) - *00:29:49*.

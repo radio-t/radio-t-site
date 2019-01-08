@@ -7,6 +7,8 @@ filename = "rt_podcast404"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt404.jpg)
+
 * [Злые русские украли все пароли](http://mashable.com/2014/08/05/russian-hacker-passwords/).
 * Что-то [тут не так](http://www.theverge.com/2014/8/6/5973729/the-problem-with-the-new-york-times-biggest-hack-ever)
 * [О паспортизации WiFi в России](http://echo.msk.ru/blog/nossik/1376090-echo/)

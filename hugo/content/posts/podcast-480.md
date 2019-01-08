@@ -7,6 +7,8 @@ filename = "rt_podcast480"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt480.jpg)
+
 - [25 паролей 2015. Идиоты наступают](http://gizmodo.com/the-25-most-popular-passwords-of-2015-were-all-such-id-1753591514) - *00:03:08*.
 - [AWS Certificate Manager – SSL для всех](https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws/) - *00:13:39*.
 - [Apple-слухи о 4" iPhone 5se](http://venturebeat.com/2016/01/22/apple-rumored-to-launch-4-inch-iphone-5se-and-new-apple-watch-models-in-march/) - *00:31:20*.

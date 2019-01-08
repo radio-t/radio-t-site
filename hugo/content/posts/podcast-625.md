@@ -7,6 +7,8 @@ filename = "rt_podcast625"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt625.jpg)
+
 - [Logitech приобретает Plantronics](https://www.cnet.com/news/logitech-reportedly-in-talks-to-acquire-plantronics/).
 - [Boss as a Service](https://bossasaservice.life).
 - [Кладбище проектов Google](https://gcemetery.co/).

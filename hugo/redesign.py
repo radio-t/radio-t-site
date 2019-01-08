@@ -5,6 +5,7 @@ import glob
 from ilio import read, write
 from datetime import datetime
 import frontmatter
+from string import Template
 
 # add image to content body and frontmatter
 def extract_image(post_file, post):
@@ -15,16 +16,20 @@ def extract_image(post_file, post):
     if (image and ('image' in post.metadata)):
         if (post.metadata['image'] != image):
             print('Different images in ' + post_file)
-            return
+            return post
     
     if (not (image or ('image' in post.metadata))):
         print('No images in ' + post_file)
-        return
+        return post
     
+    image = image if image else post.metadata['image']
+
     # add image from post content
     post.content = re.sub(exp, '', post.content)
-    post.content = post.con
-    # post.metadata['image'] = image
+    post.content = Template('![]($image)\n\n$content').substitute({'image': image, 'content': post.content})
+
+    # add image to frontmatter
+    post.metadata['image'] = image
 
     return post
 

@@ -7,6 +7,8 @@ filename = "rt_podcast578"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt578.jpg)
+
 - [Скандалы и технические провалы 2017](https://thenextweb.com/evergreen/2017/12/29/2017-review-techs-biggest-scandals-fuck-ups/) - *00:05:09*.
 - [Amazon готовит свой собственный YouTube](http://bgr.com/2017/12/20/amazon-youtube-service-amazontube/) - *00:35:33*.
 - [Fire TV редиректит YouTube на web](https://techcrunch.com/2017/12/28/amazon-updates-fire-tvs-youtube-app-to-redirect-users-to-a-web-browser-instead/) - *00:45:02*.

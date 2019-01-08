@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt296.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt296.png)
+
 - Очередной, но странный [рейтинг языков](http://redmonk.com/sogrady/2012/02/08/language-rankings-2-2012/)
 - Плохое и хорошее об [Eclipse Juno](http://eclipsesource.com/blogs/2012/06/27/top-10-eclipse-juno-features/)
 - Одна лишняя [секунда](http://landslidecoding.blogspot.com/2012/07/linuxs-leap-second-deadlocks.html)

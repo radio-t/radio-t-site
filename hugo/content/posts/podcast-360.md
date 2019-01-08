@@ -7,6 +7,8 @@ filename = "rt_podcast360"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt360.jpg)
+
 * [Fetish-Oriented Programming](http://typicalprogrammer.com/?p=237).
 * [Guava 15](http://www.javacodegeeks.com/2013/10/guava-15-new-features.html).
 * 100GB это не так много, а [MongoDB промахнулась](http://jaxenter.com/mongodb-mocked-after-posting-100gb-scaling-checklist-48377.html).

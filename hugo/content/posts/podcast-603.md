@@ -7,6 +7,8 @@ filename = "rt_podcast603"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt603.jpg)
+
 - [BitTorrent продан](https://variety.com/2018/digital/news/bittorrent-acquisition-tron-justin-sun-1202841793/) - *00:04:33*.
 - [Apple признали проблему клавиатур](https://www.theverge.com/circuitbreaker/2018/6/22/17495326/apple-macbook-pro-faulty-keyboard-repair-program-admits-issues) - *00:21:45*.
 - [Facebook теперь будет следить за вашим временем](https://www.digitaltrends.com/news/facebook-time-managment/) - *00:30:53*.

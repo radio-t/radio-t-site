@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt280.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt280.jpg)
+
 - Раскрытие секретов [Amazon](http://www.wired.com/wiredenterprise/2012/03/amazon-ec2/)
 - Яндекс.[Навигатор](http://habrahabr.ru/blogs/yandex/139854/) - вполне неплохо, хотя...
 - Дороги России с участием [Google](http://habrahabr.ru/post/140022/#habracut)

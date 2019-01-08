@@ -7,6 +7,8 @@ filename = "rt_podcast361"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt361.jpg)
+
 * Очень правильная идея - [BitTorrent Chat](http://blog.bittorrent.com/2013/09/30/now-in-labs-building-secure-server-less-messaging-with-bittorrent-chat/)
 * [Yahoo показали новую почту](http://www.theverge.com/2013/10/8/4815176/yahoo-unveils-total-email-redesign-inspired-by-flickr-and-tumblr)
 * [Chromebook для всех](http://www.theverge.com/2013/10/8/4815792/google-multi-color-hp-chromebook-11-price-availability) -  11" HP за малые деньги.

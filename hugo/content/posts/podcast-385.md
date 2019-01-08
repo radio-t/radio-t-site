@@ -7,6 +7,8 @@ filename = "rt_podcast385"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt385.jpg)
+
 * [Google всех потряс](http://techcrunch.com/2014/03/25/google-launches-managed-virtual-machines-gives-developers-a-middle-ground-between-compute-and-a).
 * [Amazon ответил](http://gigaom.com/2014/03/26/amazon-launches-workspaces-new-government-certifications-for-its-cloud/).
 * [Цены достигнут 0](http://readwrite.com/2014/03/26/amazon-aws-ec2-s3-price-cuts).

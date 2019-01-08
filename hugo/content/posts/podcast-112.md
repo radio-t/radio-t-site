@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt112.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt112.png)
+
 - Лицевые изменения Гугла и Яндекса
 - Рамблер расширил и углубил почту
 - Sun под ударом кризиса

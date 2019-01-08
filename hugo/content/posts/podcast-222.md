@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt222.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt222.png)
+
 - [Анализ](http://www.opennet.ru/opennews/art.shtml?num=29236) популярности языков программирования в 2010
 - Поговорим о Ц++ с @alenacpp
 - Google продолжает непримиримую [борьбу](http://techcrunch.com/2011/01/11/google-flash/)

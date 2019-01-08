@@ -7,6 +7,8 @@ filename = "rt_podcast374"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt374.jpg)
+
 * [ДР iPhone](http://www.huffingtonpost.com/2014/01/09/iphone-birthday_n_4568653.html) и пострадавшие.
 * [Red Hat и CentOS](http://arstechnica.com/information-technology/2014/01/red-hat-and-centos-become-voltron-build-free-operating-system-together/) слились
 * Google+ [продвигает себя](http://www.wired.co.uk/news/archive/2014-01/10/email-anyone-with-google-gmail) через почти-что-спам

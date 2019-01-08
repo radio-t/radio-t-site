@@ -7,6 +7,8 @@ filename = "rt_podcast555"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt555.jpg)
+
 - [Что нового в IntelliJ IDEA 2017.2](https://habrahabr.ru/company/JetBrains/blog/333648/) - *00:00:16*.
 - [10 главных языков 2017](http://www.techrepublic.com/article/these-10-programming-languages-have-dominated-development-in-2017/) - *00:13:59*.
 - [Движение Low-Code/No-Code](https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/jasonbloomberg/2017/07/20/the-low-codeno-code-movement-more-disruptive-than-you-realize/&refURL=&referrer=) - *00:26:19*.

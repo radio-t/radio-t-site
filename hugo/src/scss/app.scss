@@ -283,6 +283,9 @@ $jumbotron-arc-width: 120%;
   }
 }
 .post-podcast-content {
+  p:empty {
+    display: none;
+  }
   ul:first-of-type {
     padding: 0;
     list-style: none none;

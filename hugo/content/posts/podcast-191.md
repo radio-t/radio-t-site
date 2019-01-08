@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt191.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt191.jpg)
+
 - Нам показали [ iPhone ](http://habrahabr.ru/blogs/apple/95711/)4
 - То, что нам[ не показали](http://mashable.com/2010/06/07/apple-wwdc-focus/)
 - [Computex 2010](http://www.opennet.ru/opennews/art.shtml?num=26874) с креном в таблетки

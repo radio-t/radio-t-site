@@ -7,6 +7,8 @@ filename = "rt_podcast617"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt617.jpg)
+
 - [macOS Mojave](https://www.apple.com/macos/mojave/) - *00:04:33*.
 - [Facebook сливает через 3х лиц](https://gizmodo.com/facebook-is-giving-advertisers-access-to-your-shadow-co-1828476051) - *00:44:58*.
 - [50М пользователей Facebook утекли](https://gizmodo.com/50-million-facebook-accounts-affected-in-massive-securi-1829394250) - *00:47:43*.

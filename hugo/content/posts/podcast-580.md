@@ -7,6 +7,8 @@ filename = "rt_podcast580"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt580.jpg)
+
 - [Лучшее на CES 2018 по версии mashable](http://mashable.com/2018/01/09/best-tech-ces-2018/) - *00:02:18*.
 - [Лучшее на CES 2018 по версии WIRED](https://www.wired.com/gallery/best-of-ces-2018/) - *00:49:55*.
 - [Новый Wi-Fi для больших домов](https://thenextweb.com/gadgets/2018/01/10/huaweis-new-wi-fi-routers-solve-a-serious-first-world-problem/) - *00:55:30*.

@@ -7,6 +7,8 @@ filename = "rt_podcast596"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt596.jpg)
+
 - [Что случилось с паролями в логах Twitter](https://blog.twitter.com/official/en_us/topics/company/2018/keeping-your-account-secure.html) - *00:02:40*.
 - [GitHub с подобным безобразием](https://www.zdnet.com/article/github-says-bug-exposed-account-passwords/) - *00:20:17*.
 - [Stack Overflow для рабочих групп](https://sdtimes.com/webdev/stack-overflow-introduces-new-platform-for-development-teams/) - *00:29:58*.

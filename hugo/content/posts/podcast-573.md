@@ -7,6 +7,8 @@ filename = "rt_podcast573"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt573.jpg)
+
 - [iPhone X – все плохо?](http://www.businessinsider.com/iphone-x-negative-review-2017-11)
 - [Анализ степени дублирования кода на GitHub](http://www.opennet.ru/opennews/art.shtml?num=47596).
 - [GitHub добавил средства информирования об уязвимостях](http://www.opennet.ru/opennews/art.shtml?num=47586).

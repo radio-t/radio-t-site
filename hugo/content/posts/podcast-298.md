@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt298.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt298.jpg)
+
 * О виртуализации вообще и Parallels в частности.
 * Марисса Майер стала [новым СЕО Yahoo](http://habrahabr.ru/post/147918/)
 * [IBM PS/2](http://www.dgl.ru/news/ibm-ps2-legenda-otmechaet-25-letie_2102.html) отмечает 25-летие

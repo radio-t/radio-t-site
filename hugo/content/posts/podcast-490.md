@@ -7,6 +7,8 @@ filename = "rt_podcast490"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt490.jpg)
+
 - [Bash и не только, на Windows 10](http://www.zdnet.com/article/heres-how-microsoft-will-support-bash-on-windows-10/) - *00:08:13*.
 - [Скажи нет фреймворкам](http://www.catonmat.net/blog/frameworks-dont-make-sense/) - *00:23:19*.
 - [Microsoft Azure Functions](http://techcrunch.com/2016/03/31/microsoft-answers-aws-lambdas-event-triggered-serverless-apps-with-azure-functions/) - *01:29:14*.

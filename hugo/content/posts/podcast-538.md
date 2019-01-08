@@ -7,6 +7,8 @@ filename = "rt_podcast538"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt538.jpg)
+
 - [Матрица переходов с языков](https://erikbern.com/2017/03/15/the-eigenvector-of-why-we-moved-from-language-x-to-language-y.html) - *00:03:35*.
 - [Gitter теперь с GitLab](http://webcache.googleusercontent.com/search?q=cache:XWzfaAJ7eAAJ:blog.gitter.im/p/7e1c7194-347e-47f1-84d1-8149de853e03/ ) - *00:20:05*.
 - [Как написать Commit Message](https://chris.beams.io/posts/git-commit/) - *01:13:02*.

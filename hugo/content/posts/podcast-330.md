@@ -7,6 +7,8 @@ filename = "rt_podcast330"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt330.jpg)
+
 * Правильный, но [резкий манифест](http://programming-motherfucker.com/).
 * [Linus Torvalds](http://www.theregister.co.uk/2013/02/24/linus_torvalds_rant/) против RH.
 * И [пояснил почему](http://www.pcworld.com/article/2029542/linus-torvalds-speaks-out-with-a-secure-boot-plan.html).

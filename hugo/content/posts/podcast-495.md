@@ -7,6 +7,8 @@ filename = "rt_podcast495"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt495.jpg)
+
 - [GitHub теперь всего за $7](http://venturebeat.com/2016/05/11/github-changes-pricing-unlimited-private-repos-cost-7-per-month-for-personal-accounts-9-per-user-per-month-for-organizations/) - *00:02:58*.
 - [Бесконечность приватных репозиториев](https://github.com/blog/2164-introducing-unlimited-private-repositories) - *00:04:40*.
 - [Dash Button для IoT](http://www.slashgear.com/amazon-now-has-a-programmable-dash-button-for-the-iot-13439996/) - *00:19:11*.

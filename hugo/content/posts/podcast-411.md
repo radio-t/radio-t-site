@@ -7,6 +7,8 @@ filename = "rt_podcast411"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt411.jpg)
+
 * [Ужас Shellshock Bash](http://www.troyhunt.com/2014/09/everything-you-need-to-know-about.html)
 * [Гнутые iPhone](http://www.bbc.co.uk/news/technology-29331349)
 * [На самом деле не такие гнутые](http://www.iphoneincanada.ca/news/consumer-reports-iphone-6-not-as-bendy-as-believed-new-uncut-6-plus-bend-test-video/)

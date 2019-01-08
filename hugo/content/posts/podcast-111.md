@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt111.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt111.png)
+
 - Два юбилея: лаптопы и букмарки
 - Слухи o кончине Рамблера
 - Вокруг iPhone: хорошее и не очень

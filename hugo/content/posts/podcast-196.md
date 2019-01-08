@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt196.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt196.jpg)
+
 - С антеной все плохо, Consumer Reports [негодует](http://mashable.com/2010/07/12/iphone-4-consumer-reports/)
 - Решение [проблемы](http://techcrunch.com/2010/07/16/antennagate-complaints-returns-and-call-drops-are-all-extremely-low/) которой нет. Apple-way
 - ВКонтакте [против](http://www.gzt.ru/topnews/hitech/-vkontakte-gotov-konkurirovatj-s-icq-/315023.html) ICQ. Наш путь

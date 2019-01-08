@@ -7,6 +7,8 @@ filename = "rt_podcast383"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt383.jpg)
+
 * День рожденья [World Wide Web!](http://www.w3.org/blog/news/archives/3715).
 * [Amazon AWS](http://gigaom.com/2014/03/14/amazons-ginormous-public-cloud-turns-8-today/) тоже празднует.
 * [Фантастический взлет DigitalOcean](http://news.netcraft.com/archives/2013/06/13/the-meteoric-rise-of-digitalocean.html)

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt143.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt143.jpg)
+
 - Выход [Firefox 3.5](http://net.compulenta.ru/438081/) конкурентам на погибель
 - Почти красавец от [HTC](http://www.engadget.com/2009/06/30/htc-hero-spotted-on-orange-uk-website/)
 - Что за странности со [смартфонами](http://www.engadget.com/2009/07/01/best-buy-sponsored-survey-shows-that-americans-want-smartphones/)?

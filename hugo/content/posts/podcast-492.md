@@ -7,6 +7,8 @@ filename = "rt_podcast492"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt492.jpg)
+
 - [Ubuntu Server 16.04](https://habrahabr.ru/company/selectel/blog/282229/) - *00:00:02*.
 - [Snap не спасет](http://www.zdnet.com/article/linux-expert-matthew-garrett-ubuntu-16-04s-new-snap-format-is-a-security-risk/) - *00:14:42*.
 - [Apple 2016 MacBook](http://mashable.com/2016/04/22/apple-macbook-review-2016/) - *00:26:22*.

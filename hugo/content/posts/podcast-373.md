@@ -7,6 +7,8 @@ filename = "rt_podcast373"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt373.jpg)
+
 * Много новогодне-гиковских разговоров на разные темы.
 * Грилим гостя, но он не сдается.
 * [Надо много знать](http://blog.pluralsight.com/more-programming-languages-more-money).

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt258.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt258.png)
+
 - Серия новинок от [Amazon](http://www.amazon.com/gp/product/B0051QVESA/ref=famstripe_k)
 - Kindle [Fire ](http://www.engadget.com/2011/09/28/amazon-kindle-fire-impressions/)всем хорош
 - Расщепленный браузер [SILK](http://www.businessinsider.com/what-is-amazon-silk-2011-9)

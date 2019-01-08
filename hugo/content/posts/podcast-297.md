@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt297.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt297.jpg)
+
 * Не в тему от [Woody Guthrie](http://www.scottberkun.com/blog/2010/woody-guthries-new-years-resolutions/)
 * Взлом [Yahoo](http://techcrunch.com/2012/07/12/yahoo-confirms-apologizes-for-the-email-hack-says-still-fixing-plus-check-if-you-were-impacted-)
 * Взлом [Formspring](http://habrahabr.ru/post/147593/)

@@ -7,6 +7,8 @@ filename = "rt_podcast599"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt599.jpg)
+
 - [Наступил полный GDPR](https://habr.com/post/359278/).
 - [Facebook и Google могут стать его первыми жертвами](https://www.theverge.com/2018/5/25/17393766/facebook-google-gdpr-lawsuit-max-schrems-europe).
 - [Ghostery отпраздновал свою приверженность приватности](https://gizmodo.com/ad-blocker-ghostery-celebrates-gdpr-day-by-revealing-hu-1826338313).

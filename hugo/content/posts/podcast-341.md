@@ -7,6 +7,8 @@ filename = "rt_podcast341"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt341.jpg)
+
 * Прощай [Lotus 1-2-3](http://www.zdnet.com/goodbye-lotus-1-2-3-7000015385/).
 * [Что нам показал Google](http://mashable.com/2013/05/15/google-io-announcements-2013/).
 * Email теперь и [с кнопкой](http://techcrunch.com/2013/05/15/google-makes-email-more-interactive-with-customizable-gmail-action-buttons/).

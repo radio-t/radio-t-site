@@ -7,6 +7,8 @@ filename = "rt_podcast504"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt504.jpg)
+
 - [DigitalOcean запустил свой EBS](https://techcrunch.com/2016/07/13/digitalocean-launches-block-storage-and-lets-you-store-terabytes-of-data/).
 - [И еще детали](https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/?utm_medium=email).
 - [IntelliJ IDEA 14](https://www.jetbrains.com/idea/whatsnew/).

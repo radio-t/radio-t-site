@@ -7,6 +7,8 @@ filename = "rt_podcast439"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt439.jpg)
+
 * [Microsoft отмечает 40-летний юбилей](http://geektimes.ru/post/248534/).
 * [Amazon Elastic File System](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-shared-file-storage-for-amazon-ec2/).
 * [Amazon Marketplace для десктопов](http://prsm.tc/wogKzI).

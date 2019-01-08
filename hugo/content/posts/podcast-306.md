@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt306.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt306.jpg)
+
 * Большое [шоу от Apple](http://mashable.com/2012/09/12/apple-iphone-5-event-recap/) и что там не так
 * [iPhone 5](http://www.wired.com/gadgetlab/2012/09/the-iphone-5-is-boring-and-amazing/) скучно но солидно
 * Открыты двери для [Nokia и Samsung](http://reviews.cnet.com/8301-19512_7-57511658-233/iphone-5-opens-the-door-for-nokia-samsung/)

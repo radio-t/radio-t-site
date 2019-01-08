@@ -7,6 +7,8 @@ filename = "rt_podcast630"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt630.jpg)
+
 - [Подкасты на Яндекс.Немузыка](https://yandex.ru/blog/company/yandeks-nemuzyka) - *00:02:57*.
 - [Фальшивый бэкдора в ядре Linux](http://www.opennet.ru/opennews/art.shtml?num=49833) - *00:13:47*.
 - [Безликий код убьет программирование](https://habr.com/post/434478/) - *00:21:55*.

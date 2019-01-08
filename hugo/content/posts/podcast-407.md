@@ -7,6 +7,8 @@ filename = "rt_podcast407"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt407.jpg)
+
 * [Dropbox Pro](http://prsm.tc/jm5KaB) теперь дешево.
 * [Analytics Dashboard](http://techcrunch.com/2014/08/27/how-many-people-see-your-tweets-twitter-opens-its-nifty-analytics-dashboard-to-everyone/) открыт для всех.
 * [Что нас ждет 9го сентября?](http://www.macworld.com/article/2600188/what-to-expect-from-apples-september-9-event.html)

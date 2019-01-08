@@ -7,6 +7,8 @@ filename = "rt_podcast594"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt594.jpg)
+
 - [FoundationDB вернулась из плена Apple](https://www.geekwire.com/2018/foundationdb-interesting-nosql-database-owned-apple-now-open-source-project/) - *00:02:28*.
 - [Грустная история OLPC](https://www.theverge.com/2018/4/16/17233946/olpcs-100-laptop-education-where-is-it-now) - *00:16:25*.
 - [PINEBOOK – как OLPC, но на новый лад](https://www.pine64.org/?page_id=3707) - *00:28:44*.

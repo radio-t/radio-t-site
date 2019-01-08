@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt223.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt223.jpg)
+
 - Немного утекшего HP/Palm’s webOS [устройства](http://www.engadget.com/2011/01/18/exclusive-hp-palms-webos-tablets-pictures-plans-and-mor/)
 - [Bizarre Product](http://mashable.com/2011/01/18/15-million-ipads/) по версии Apple
 - [Qt программы](http://www.markshuttleworth.com/archives/568), приходите в Ubuntu

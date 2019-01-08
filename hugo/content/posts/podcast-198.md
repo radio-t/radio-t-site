@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt198.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt198.jpg)
+
 - С днем [сисадмина](http://habrahabr.ru/company/microsoft/blog/100491/)
 - Новинки от сами-знаете-кого: [маки](http://www.wired.com/gadgetlab/2010/07/new-imacs-add-ips-displays-core-i-processors-across-the-range/) и [мышеубийца](http://http://techcrunch.com/2010/07/27/apple-magic-trackpad-mouse/)
 - iPhone теперь можно [ломать](http://mashable.com/2010/07/26/dmca-jailbreak-exemption/)

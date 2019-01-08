@@ -7,6 +7,8 @@ filename = "rt_podcast349"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt349.jpg)
+
 * [Surface RT](http://www.theverge.com/2013/7/19/4537944/surface-rt-mistakes-look-like-zune-2) как Zune 2.0?
 * [BitTorrent sync](http://gigaom.com/2013/07/17/bittorrent-launches-beta-test-of-its-p2p-based-sync-service-adds-android-app/) дошел до беты.
 * Немного странных [но забавных лампочек](http://www.kickstarter.com/projects/thingm/blink1-mk2-the-usb-rgb-led-improved).

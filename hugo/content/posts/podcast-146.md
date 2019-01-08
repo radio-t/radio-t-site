@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt146.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt146.jpg)
+
 - Теперь и на нашей улице будет [праздник](http://internet.cnews.ru/news/line/index.shtml?2009/07/24/355288)
 - [Программисты](http://www.thecodist.com/article/why_do_you_love_programming) о любви и велосипедах
 - Модульная [революция](http://www.engadget.com/2009/07/23/modu-actually-launches-in-israel-gets-hands-on-treatment-as-pro/) телефончиков

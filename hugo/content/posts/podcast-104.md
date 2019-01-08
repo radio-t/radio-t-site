@@ -6,6 +6,8 @@ image = "https://radio-t.com/images/radio-t/rt104.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt104.png)
+
 - Подходим к правильной конференции
 - Праздники и юбилеи прошедшей недели
 - CISCO купила себе немного джабера

@@ -7,6 +7,8 @@ filename = "rt_podcast417"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt417.jpg)
+
 * [Amazon Echo](http://www.cnet.com/news/amazon-echo-is-a-star-trek-computer-for-your-home/)
 * [Еще одно усторйство из Star Trek](http://www.forbes.com/sites/aarontilley/2014/11/05/onbeep-onyx/)
 * [IntelliJ IDEA 14 уже здесь](http://habrahabr.ru/company/JetBrains/blog/242395/)

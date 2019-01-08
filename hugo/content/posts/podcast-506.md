@@ -7,6 +7,8 @@ filename = "rt_podcast506"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt506.jpg)
+
 - [Праздник для исчезающей профессии](https://habrahabr.ru/company/driverpack/blog/306528/).
 - [AWS показал знатные результаты](http://www.digitaltrends.com/web/amazon-earnings-report-q2-2016/)
 - [Apple патент о странном стилусе](http://mashable.com/2016/07/26/apple-pencil-stylus-patent/).

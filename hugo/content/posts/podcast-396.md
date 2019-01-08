@@ -7,6 +7,8 @@ filename = "rt_podcast396"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt396.jpg)
+
 - [Тетрису — 30](http://habrahabr.ru/post/225429/)
 - Amazon [запустил свою музыку](http://techcrunch.com/2014/06/11/amazon-turns-on-prime-music-streaming-sans-current-hits/)
 - Зачем нам [Docker](http://www.opennet.ru/opennews/art.shtml?num=39965)?

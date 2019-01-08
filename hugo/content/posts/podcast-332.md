@@ -7,6 +7,8 @@ filename = "rt_podcast332"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt332.jpg)
+
 * [Поздрявляем бородатого](http://readwrite.com/2013/03/15/happy-birthday-richard-stallman)
 * [RIP Google Reader](http://mashable.com/2013/03/13/google-kills-google-reader/)
 * И [это они убивают](http://www.fsf.org/blogs/sysadmin/google-backslides-on-federated-instant-messaging-on-purpose)

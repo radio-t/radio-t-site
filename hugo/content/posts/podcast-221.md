@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt221.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt221.jpg)
+
 - По ту сторону IT, или гостья против гнусных гиков
 - Однообразные таблеточные [новинки](http://www.bgr.com/2011/01/07/the-best-of-ces-2011-so-far/) CES
 - Одна [штучка](http://www.bgr.com/2011/01/07/hands-on-with-blackberry-playbook-bridge-video/) с блютусом

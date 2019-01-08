@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt312.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt312.jpg)
+
 * Apple показала [много всего разного](http://www.engadget.com/2012/10/23/apple-ipad-mini-event-roundup/)
 * [Apple плетется](http://gizmodo.com/5954433/apple-is-a-follower) в хвосте
 * Что  такое [Apple Fusion Drive?](http://allthingsd.com/20121023/so-what-the-heck-is-an-apple-fusion-drive-anyway/)

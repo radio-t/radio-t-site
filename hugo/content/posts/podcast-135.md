@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt135.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt135.png)
+
 - Полный [конец](http://www.osnews.com/story/21412/2012_The_End_of_the_Internet) интернета и закат всего
 - Рывок линукса на [десктопы](http://www.opennet.ru/opennews/art.shtml?num=21546)
 - Все на [велосипеды](http://www.engadget.com/2009/04/29/ciclotte-exercise-bike-for-the-big-wheel-enthusiast/), круглые и с моторчиком

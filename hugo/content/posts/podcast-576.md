@@ -7,6 +7,8 @@ filename = "rt_podcast576"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt576.jpg)
+
 - [Putty больше не нужен в Windows 10](https://www.servethehome.com/say-farewell-putty-microsoft-adds-openssh-client-windows-10/) - *00:01:44*.
 - [Excel раздумывает над добавлением Python](https://news.ycombinator.com/item?id=15927132) - *00:24:53*.
 - [7 позоров Apple за этот год](https://www.idropnews.com/news/7-things-apple-screwed-up-this-year/58620/) - *00:36:11*.

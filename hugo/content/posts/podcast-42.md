@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt42.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt42.jpg)
+
 - 2 наших эксперимента и 3 главных вопроса
 - Дисплей 42" на электронных чернилах
 - Необычный, но практичный сервис

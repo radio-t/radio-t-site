@@ -7,6 +7,8 @@ filename = "rt_podcast509"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt509.jpg)
+
 - [10 лет как 510 выпусков](https://radio-t.com/p/2016/08/16/prep-10y/) - *00:03:08*.
 - [Internet Explorer вышел 21 год назад](https://geektimes.ru/post/279542/) - *00:04:47*.
 - [PowerShell открыт и доступен на Linux](https://azure.microsoft.com/en-us/blog/powershell-is-open-sourced-and-is-available-on-linux/) - *00:22:03*.

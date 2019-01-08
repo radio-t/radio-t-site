@@ -7,6 +7,8 @@ filename = "rt_podcast418"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt418.jpg)
+
 * [DigitalOcean теперь #3](http://prsm.tc/5TH0px)
 * [Amazon Aurora](http://aws.amazon.com/blogs/aws/highly-scalable-mysql-compat-rds-db-engine)
 * [Amazon EC2 Container Service](//aws.amazon.com/ecs/)

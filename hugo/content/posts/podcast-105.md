@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt105.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt105.png)
+
 - Главное телефонное событие недели
 - Шок недели и его причины, из первых рук
 - Рекламная активизация MS

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt161.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt161.jpg)
+
 - FireFox [отмечает](http://www.opennet.ru/opennews/art.shtml?num=24178) 5-летие
 - Bing с Wolfram [внутри](http://internetno.net/2009/11/13/bing-wolfram-alpha/)
 - Яндекс [посчитал ](http://www.thg.ru/technews/20091111_172700.html)- 1% сайтов рулят

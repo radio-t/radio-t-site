@@ -7,6 +7,8 @@ filename = "rt_podcast419"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt419.jpg)
+
 * [Apple Watch показал свое лицо](http://www.theverge.com/2014/11/18/7243085/most-important-apple-watchkit-discoveries)
 * [Microsoft Azure сильно упал](http://www.forbes.com/sites/benkepes/2014/11/18/its-a-return-to-the-azure-alypse-microsoft-azure-suffers-widespread-outage/)
 * [Что бывает когда нет облака](http://www.infoworld.com/article/2850556/cloud-computing/when-clouds-go-down-microsoft-azure.html)

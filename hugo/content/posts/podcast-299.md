@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt299.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt299.jpg)
+
 * Поздравляем с днем [системного администратора](http://habrahabr.ru/company/ideco/blog/148555/)
 * OS X 10.8 [Mountain Lion](http://mac.appstorm.net/reviews/utilities/os-x-10-8-mountain-lion-review/)
 * Twitter [предупредил](http://www.zdnet.com/twitter-malware-warning-its-you-on-photo-or-its-about-you-7000001736/)

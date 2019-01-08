@@ -7,6 +7,8 @@ filename = "rt_podcast543"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt543.jpg)
+
 - [ZX Spectrum исполнилось 35 лет](https://geektimes.ru/post/288376/) - *00:07:16*.
 - [Wikipedia сделает честные новости](http://www.bbc.co.uk/news/technology-39695767) - *00:24:43*.
 - [Amazon Echo Look теперь не только слышит](https://www.wired.com/2017/04/amazon-echo-look-privacy/) - *00:42:18*.

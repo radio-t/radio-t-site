@@ -7,6 +7,8 @@ filename = "rt_podcast384"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt384.jpg)
+
 * [Выход Java 8](http://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html).
 * [IntelliJ IDEA 13.1](http://habrahabr.ru/company/JetBrains/blog/216667/).
 * [Microsoft подмочил](http://www.zdnet.com/how-microsoft-tracked-down-a-spy-who-leaked-its-secrets-7000027545/) репутацию.

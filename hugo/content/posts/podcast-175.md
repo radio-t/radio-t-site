@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt175.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt175.jpg)
+
 - Такая противоречивая [Windows Phone 7](http://www.securitylab.ru/news/390832.php) Series
 - [История](http://www.securitylab.ru/news/390974.php) вокруг torrents.ru
 - Прочие борцы за свободу [прижаты](http://www.securitylab.ru/news/390891.php)

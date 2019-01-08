@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt240.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt240.png)
+
 - 20 лет стукнуло [интер-вебу](http://habrahabr.ru/blogs/internet/119473/)
 - Более скромный юбилей [хабра](http://habrahabr.ru/blogs/social_networks/119984/)
 - MS наложит лапу на [Nokia](http://gigaom.com/mobile/why-a-microsoft-takeover-of-nokia-could-pay-off/)

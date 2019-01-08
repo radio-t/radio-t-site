@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt267.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt267.jpg)
+
 - Google Currents смог, но не потянул
 - Они не понимают, как работает медиа сегодня
 - Новый Твиттер все хорош

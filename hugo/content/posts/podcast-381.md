@@ -7,6 +7,8 @@ filename = "rt_podcast381"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt381.jpg)
+
 * [Atom от Github](http://code.tutsplus.com/tutorials/check-out-atom-githubs-new-development-editor--net-37030).
 * [Монит починил это](http://mmonit.com/monit/dist/CHANGES.txt).
 * [Монады](http://www.stephanboyer.com/post/83/monads-for-dummies) для простых смертных.

@@ -7,6 +7,8 @@ filename = "rt_podcast585"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt585.jpg)
+
 - [Google удаляет просмотр оригиналов картинок](https://www.theverge.com/2018/2/15/17017864/google-removes-view-image-button-from-search-results) - *00:02:32*.
 - [Twitter убил программу для Mac](https://www.theverge.com/2018/2/16/17021960/twitter-mac-desktop-app-discontinued-support-ending) - *00:18:18*.
 - [MongoDB пообещали Multi-Document ACID Transactions](https://www.mongodb.com/press/mongodb-announces-multi-document-acid-transactions-in-release-40) - *00:34:30*.

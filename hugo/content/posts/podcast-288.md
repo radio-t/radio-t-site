@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt288.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt288.jpg)
+
 - Лучший телефон, [два раза](http://www.wired.com/gadgetlab/2012/05/iphone-4s-and-lumia-900/)
 - Весь твитер хакнут, [55к раз](http://news.cnet.com/8301-1009_3-57430475-83/thousands-of-twitter-passwords-exposed/)
 - [Планшеты](http://www.readwriteweb.com/mobile/2012/05/tablets-want-to-kill-your-laptop.php) против истинных машин

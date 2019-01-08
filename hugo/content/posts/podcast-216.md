@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt216.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt216.jpg)
+
 - Три "R" дла чистоты вашего [кода](http://agile.dzone.com/news/three-rs-clean-code)
 - Ловить [всегда](http://www.theregister.co.uk/2006/01/11/exception_handling/)
 - Не бросать [никогда](http://www.i-programmer.info/professional-programmer/i-programmer/1547-no-exceptions-ever.html)

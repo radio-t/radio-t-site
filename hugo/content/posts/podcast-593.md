@@ -7,6 +7,8 @@ filename = "rt_podcast593"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt593.jpg)
+
 - [Спасибо GitHub за 10 лет](https://github.com/ten) - *00:03:43*.
 - [Telegram не сдается в неравной борьбе](https://arstechnica.com/information-technology/2018/04/privacy-is-not-for-sale-telegram-founder-says-after-being-banned-in-russia/) - *00:29:23*.
 - [Новый Gmail уже скоро](https://thenextweb.com/google/2018/04/12/new-gmail-will-look-like/) - *00:54:27*.

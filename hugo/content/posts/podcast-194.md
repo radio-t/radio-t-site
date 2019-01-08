@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt194.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt194.png)
+
 - [Проблема](http://www.readwriteweb.com/archives/apple_admits_to_iphone_4_antenna_problems_sort_of.php) вроде есть, а на самом деле ее нет
 - Правильные [мишени](http://mashable.com/2010/06/29/iphone-4-ipad-shot-then-returned/) для тренировки
 - Новый [Kindle](http://www.switched.com/2010/07/01/graphite-kindle-dx-drops-price-improves-screen-makes-us-drool/), но слишком поздно

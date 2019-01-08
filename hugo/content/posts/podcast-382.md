@@ -7,6 +7,8 @@ filename = "rt_podcast382"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt382.jpg)
+
 * Опять о сисадминах
 * [GnuTLS баг](http://www.linux.com/news/featured-blogs/203-konstantin-ryabitsev/765302-what-is-the-gnutls-bug-and-how-to-protect-linux-system-)
 * [Flipboard купил Zitе](http://techcrunch.com/2014/03/05/flipboard-2/)

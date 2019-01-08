@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt154.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt154.jpg)
+
 - где водятся все [перспективы](http://corp.cnews.ru/news/top/index.shtml?2009/09/18/362407)
 - [Linux ](http://www.securitylab.ru/news/385517.php)совсем взрослый
 - новая [биржа ](http://internet.cnews.ru/news/top/index.shtml?2009/09/18/362522)рекламы, это что?

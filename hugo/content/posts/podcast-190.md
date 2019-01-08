@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt190.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt190.png)
+
 - В [гугле](http://lenta.ru/news/2010/06/01/refuse/) не будет виндузов. MS против
 - Почему нет миграции на W7 и как это решить
 - Джобс [отвечает](http://mashable.com/2010/06/02/steve-jobs-d8/) за все

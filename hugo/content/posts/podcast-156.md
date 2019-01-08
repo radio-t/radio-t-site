@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt156.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt156.png)
+
 - Разговор с гостем из Parallels (Сергей Белоусов)
 - Опять ДР. Теперь у [Goog11e](http://mashable.com/2009/09/26/google-11th-birthday-logo/)
 - [Почта ](http://internet.cnews.ru/news/top/index.shtml?2009/10/01/364068)завтрашнего дня теперь для многих

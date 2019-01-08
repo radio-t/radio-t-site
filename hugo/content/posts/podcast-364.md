@@ -7,6 +7,8 @@ filename = "rt_podcast364"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt364.jpg)
+
 * [Интервью с Bjarne Stroustrup](http://electronicdesign.com/dev-tools/interview-bjarne-stroustrup-discusses-c) по поводу C++
 * Перносить [SSH на другой порт – это плохо](http://www.adayinthelifeof.nl/2012/03/12/why-putting-ssh-on-another-port-than-22-is-bad-idea/).
 * Перносить [SSH на другой порт – это хорошо](http://www.danielmiessler.com/blog/putting-ssh-another-port-good-idea).

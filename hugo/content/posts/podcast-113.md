@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt113.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt113.png)
+
 - Красоты Gmail под вопросом
 - Звериный оскал кризиса
 - Незаметные но полезные обновления от Apple

@@ -7,6 +7,8 @@ filename = "rt_podcast575"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt575.jpg)
+
 - [Лучшие технические новинки 2017](http://mashable.com/2017/12/06/best-tech-2017/) - *00:04:53*.
 - [Jony Ive возвращается](https://www.theverge.com/2017/12/8/16753794/apple-jony-ive-design-management-role-change) - *01:18:41*.
 - [Вторая жизнь iOS jailbreaking](https://thenextweb.com/apple/2017/12/09/the-ios-jailbreaking-community-is-going-nuts-over-this-cryptic-tweet-by-a-google-employee/) - *01:21:14*.

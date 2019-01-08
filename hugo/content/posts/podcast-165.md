@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt165.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt165.jpg)
+
 - Гугловые [подарки ](http://habrahabr.ru/company/google/blog/77766/)прибыли
 - Еще и еще [таблетка](http://webplanet.ru/news/gadgets/2009/12/11/v_tablo.html)
 - Радости [Java EE 6](http://www.opennet.ru/opennews/art.shtml?num=24622)

@@ -7,6 +7,8 @@ filename = "rt_podcast375"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt375.jpg)
+
 * [25 лет Tcl](http://blog.tkdocs.com/2014/01/happy-25th-tcl.html)
 * [Winamp](http://www.theverge.com/2014/1/14/5263086/winamp-radionomy-acquisition-internet-radio-service) жив и будет.
 * В гостях один из основателй Winamp – [Дмитрий Болдырев](http://ru.winamp.com/story)

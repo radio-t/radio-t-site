@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt36.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt36.jpg)
+
 - NYSE уходит на Linux
 - MS против свободной ОС.
 - UMPC от Fujitsu и RAZR2 от Motorola

@@ -7,6 +7,8 @@ filename = "rt_podcast574"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt574.jpg)
+
 - [Зияющая дыра в MacOS](https://techcrunch.com/2017/11/28/astonishing-os-x-bug-lets-anyone-log-into-a-high-sierra-machine/) - *00:09:34*.
 - [Как и почему пустой пароль для root работал](https://objective-see.com/blog/blog_0x24.html) - *00:13:23*.
 - [IntelliJ IDEA 2017.3. Что нового и интересного](https://habrahabr.ru/company/JetBrains/blog/343382/) - *00:15:53*.

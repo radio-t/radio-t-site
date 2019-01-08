@@ -7,6 +7,8 @@ filename = "rt_podcast499"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt499.jpg)
+
 - [Что нам Apple WWDC готовит](http://techcrunch.com/2016/06/10/what-to-expect-at-apples-wwdc-keynote/) - *00:20:53*.
 - [AWS не подходит для стартапов](http://www.smashcompany.com/technology/aws-is-inappropriate-for-small-startups-because-its-complexity-demands-a-specialist) - *00:38:56*.
 - [Reddit заработает странным способом](http://thenextweb.com/insider/2016/06/07/reddit-may-hit-upon-way-earn-money-without-users-ever-knowing-thats-good-thing/) - *01:16:50*.

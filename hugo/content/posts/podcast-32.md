@@ -6,6 +6,8 @@ image = "https://radio-t.com/images/radio-t/rt32.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt32.jpg)
+
 - И вновь, гости в студии
 - Учимся говорить правильно
 - "Дорогая AMD" ...

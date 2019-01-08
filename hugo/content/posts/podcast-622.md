@@ -7,6 +7,8 @@ filename = "rt_podcast622"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt622.jpg)
+
 - [Red Hat + IBM](https://www.redhat.com/en/blog/red-hat-ibm-creating-leading-hybrid-cloud-provider).
 - [IBM борется за облачный рынок](https://stratechery.com/2018/ibms-old-playbook/).
 - [Red Hat убил KDE](https://jriddell.org/2018/11/02/red-hat-and-kde/).

@@ -7,6 +7,8 @@ filename = "rt_podcast501"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt501.jpg)
+
 - [Docker 1.12](https://blog.docker.com/2016/06/docker-1-12-built-in-orchestration/) - *00:05:57*.
 - [Docker Store Private Beta](https://blog.docker.com/2016/06/docker-store/) - *00:04:05*.
 - [Docker для Mac и Windows](https://blog.docker.com/2016/06/docker-mac-windows-public-beta/) - *00:15:40*.

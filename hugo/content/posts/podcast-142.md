@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt142.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt142.png)
+
 - [Firefox 3](http://www.securitylab.ru/news/381727.php) победил всех
 - Eclipse [Galileo](http://eclipse.dzone.com/articles/eclipse-galileo-how-release) вышел
 - Домашние [нетбуки](http://webplanet.ru/news/gadgets/2009/06/25/net_no.html) против диких

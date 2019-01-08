@@ -7,6 +7,8 @@ filename = "rt_podcast476"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt476.jpg)
+
 - [Что случилось с google public dns?](http://habrahabr.ru/post/274095/)
 - [25 лет первому сайту](http://www.engadget.com/2015/12/20/first-website-is-25-years-old/).
 - [ArcaBoard полетит, но недолго и дорого](http://thenextweb.com/shareables/2015/12/24/the-arcaboard-is-a-hoverboard-that-actually-hovers-over-any-surface/).

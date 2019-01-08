@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt316.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt316.jpg)
+
 * [Linux Mint 14](http://arstechnica.com/information-technology/2012/11/linux-mint-14-released-leaves-fresh-taste-in-our-mouths/) хорошо вышел
 * Amazon задумался о [серьезных облаках](http://gigaom.com/cloud/amazons-dead-serious-about-the-enterprise-cloud/)
 * [Новые OS для EC2](http://aws.typepad.com/aws/2012/11/aws-marketplace-additional-operating-system-support.html) (FreeBSD, Debian, CentOS)

@@ -7,6 +7,8 @@ filename = "rt_podcast518"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt518.jpg)
+
 - [Атака на интернет](https://www.wired.com/2016/10/internet-outage-ddos-dns-dyn/) - *00:02:21*.
 - [Это начало конца](http://gizmodo.com/todays-brutal-ddos-attack-is-the-beginning-of-a-bleak-f-1788071976?utm_campaign=socialflow_gizmodo_twitter) - *00:30:06*.
 - [Он знал и предупреждал](https://www.schneier.com/blog/archives/2016/09/someone_is_lear.html) - *00:38:01*.

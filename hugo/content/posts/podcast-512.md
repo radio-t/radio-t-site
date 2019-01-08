@@ -7,6 +7,8 @@ filename = "rt_podcast512"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt512.jpg)
+
 - [Что нам показл Apple](http://gizmodo.com/everything-apple-announced-today-1786299295?rev=1473274955918) - *00:00:08*.
 - [Лучшие дни смартфонов прошли](http://billbennett.co.nz/2016/09/08/smartphone-glory-years/) - *00:37:48*.
 - [Суровые проблемы Galaxy Note 7](https://hardware.slashdot.org/story/16/09/01/176249/in-an-unprecedented-move-samsung-to-recall-all-galaxy-note-7-yonhap-news-agency?utm_source=rss1.0mainlinkanon) - *00:46:11*.

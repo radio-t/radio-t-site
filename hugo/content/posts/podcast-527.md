@@ -7,6 +7,8 @@ filename = "rt_podcast527"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt527.jpg)
+
 - [Технические направления на 2017](http://thenextweb.com/tech/2016/12/23/tech-trends-looking-forward-2017/) - *00:13:08*.
 - [5 опасностей в мире технологий на 2017](http://www.forbes.com/forbes/welcome/?toURL=http://www.forbes.com/sites/bernardmarr/2016/12/23/the-5-most-worrying-technology-trends-for-2017-and-beyond/&refURL=&referrer=) - *00:49:11*.
 - [Cyanogen не смог](https://techcrunch.com/2016/12/24/cyanogen-failed-to-kill-android-now-it-is-shuttering-its-services-and-os-as-part-of-a-pivot/) - *01:12:55*.

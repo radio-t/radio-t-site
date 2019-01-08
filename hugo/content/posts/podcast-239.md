@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt239.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt239.jpg)
+
 - Нас опять [продали](http://internetno.net/2011/05/13/sdelka-microsoft-i-skype-analiz-perspektiv-mnenijj-ocenok/), оптом
 - Русской [Википедии ](http://habrahabr.ru/blogs/wikipedia/119105/)10 лет
 - Грустная история Skype, и как оно дальше будет

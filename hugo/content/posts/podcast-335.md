@@ -7,6 +7,8 @@ filename = "rt_podcast335"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt335.jpg)
+
 * Google на день веб-мастера [c неприятным сюрпризом](http://habrahabr.ru/post/175377/).
 * [Так почему они это сделали?](http://www.zdnet.com/the-real-reason-why-google-forked-webkit-7000013514/).
 * PHP рожден [чтоб умирать](http://software-gunslinger.tumblr.com/post/47131406821/php-is-meant-to-die) многократно.

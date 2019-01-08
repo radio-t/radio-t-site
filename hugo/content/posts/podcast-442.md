@@ -7,6 +7,8 @@ filename = "rt_podcast442"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt442.jpg)
+
 * [Rust](http://www.rust-lang.org) – зачем, почему и для кого? Гость в студии.
 * [Build 2015](http://habrahabr.ru/company/microsoft/blog/257029/).
 * [Microsoft анонсировала кроссплатформенный редактор](http://habrahabr.ru/post/257011/).

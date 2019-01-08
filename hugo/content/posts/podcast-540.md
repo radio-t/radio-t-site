@@ -7,6 +7,8 @@ filename = "rt_podcast540"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt540.jpg)
+
 - [Kotlin/Native](https://blog.jetbrains.com/kotlin/2017/04/kotlinnative-tech-preview-kotlin-without-a-vm/).
 - [Ubuntu оставит всякие глупости](https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/).
 - [Ubuntu для AWS](https://insights.ubuntu.com/2017/04/05/ubuntu-on-aws-gets-serious-performance-boost-with-aws-tuned-kernel/).

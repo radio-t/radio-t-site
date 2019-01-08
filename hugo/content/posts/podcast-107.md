@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt107.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt107.png)
+
 - Кое–что надвигается
 - Новое ядро линукса, новые дистрибутивы
 - Странный гаджет

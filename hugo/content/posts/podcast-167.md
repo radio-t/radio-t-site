@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt167.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt167.jpg)
+
 **Итоги 2009, РТ версия**
 
 **

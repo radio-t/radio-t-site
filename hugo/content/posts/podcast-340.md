@@ -7,6 +7,8 @@ filename = "rt_podcast340"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt340.jpg)
+
 * [Debian 7.0 Wheezy](http://bits.debian.org/2013/05/wheezy-released.html) вышла в свет.
 * Debian стала [системой для Google Compute Engine](http://techcrunch.com/2013/05/08/debian-will-serve-as-the-default-os-for-google-compute-engine/).
 * [Критики Windows 8](http://www.theverge.com/2013/5/10/4320224/microsoft-responds-to-windows-8-criticism-defends-upcoming-changes) атакуют.

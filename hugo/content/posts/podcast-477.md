@@ -7,6 +7,8 @@ filename = "rt_podcast477"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt477.jpg)
+
 - Вне плана о [code review](https://news.radio-t.com/post/code-review).
 - [Consul 0.6](https://news.radio-t.com/post/consul-0-6-hashicorp).
 - [Куда пойдет технология в 2016](https://news.radio-t.com/post/9-developer-trends-you-can-bank-on-in-2016).

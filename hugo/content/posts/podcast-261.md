@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt261.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt261.jpg)
+
 - 10 лет iPod с нами
 - Сотовые совсем безопасны и даже полезны
 - Как не злить странного IT гуру

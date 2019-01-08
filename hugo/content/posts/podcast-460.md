@@ -7,6 +7,8 @@ filename = "rt_podcast460"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt460.jpg)
+
 * [JetBrains Toolbox – мнения разделились](http://blog.jetbrains.com/blog/2015/09/03/introducing-jetbrains-toolbox/).
 * [Komodo IDE теперь с Docker и Vagrant](http://komodoide.com/blog/komodo-9-2-released-docker-and-vagrant-integration-package-installer-and/).
 * [5 полезных утилит](http://zeroturnaround.com/rebellabs/5-command-line-tools-you-should-be-using/).

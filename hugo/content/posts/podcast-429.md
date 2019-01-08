@@ -7,6 +7,8 @@ filename = "rt_podcast429"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt429.jpg)
+
 * [Amazon похвастался 1M активных пользователей](http://www.wired.com/2015/01/amazon-says-one-million-customers-actively-use-cloud-services/)
 * [AWS показал WorkMail](http://prsm.tc/cPZorh)
 * [Dell вернулся?](http://prsm.tc/5NsoaL)

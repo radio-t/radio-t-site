@@ -7,6 +7,8 @@ filename = "rt_podcast479"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt479.jpg)
+
 - [Перевод для всех пользователей Windows](http://time.com/4180457/skype-real-time-translator-windows/).
 - [Skype догоняет Google Hangouts](http://www.businessinsider.com/microsoft-just-gave-skype-group-video-calls-2016-1).
 - [Apple закрывает iAd](http://venturebeat.com/2016/01/15/apple-is-shutting-down-its-iad-app-network-on-june-30/).

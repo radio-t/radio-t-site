@@ -7,6 +7,8 @@ filename = "rt_podcast537"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt537.jpg)
+
 - [Visual Studio 2017](https://habrahabr.ru/company/microsoft/blog/323452/) - *00:00:26*.
 - [И некоторые детали](http://venturebeat.com/2017/03/07/microsoft-launches-visual-studio-2017/) - *00:03:52*.
 - [Google почти научился искать видео](http://mashable.com/2017/03/08/google-video-intelligence-api/) - *00:23:25*.

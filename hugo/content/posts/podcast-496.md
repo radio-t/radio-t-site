@@ -7,6 +7,8 @@ filename = "rt_podcast496"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt496.jpg)
+
 - [RAZR возвращается!](http://www.engadget.com/2016/05/20/moto-razr-flip-phone-teaser/) - *00:01:20*
 - [Наш человек на Google I/O 2016](http://www.techhgeeks.com/2016/05/google-io-2016-round-up.html) - *00:08:29*.
 - [Alfred 3](https://www.alfredapp.com/blog/announcements/alfred-3-is-here/) - *00:31:59*.

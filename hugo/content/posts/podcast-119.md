@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt119.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt119.jpg)
+
 - Главная новость от [Apple](http://www.mobile-review.com/fullnews/main/2009/January/07.shtml#22631)
 - Вторая главная новость от [Palm](http://habrahabr.ru/blogs/palm/48616/)
 - [Лучше](http://www.techcrunch.com/2009/01/08/tweetvisor-a-contender-for-best-alternate-twitter-interface/) чем твитер ?

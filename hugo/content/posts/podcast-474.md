@@ -7,6 +7,8 @@ filename = "rt_podcast474"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt474.jpg)
+
 - [Прощание с Carousel и Mailbox](https://blogs.dropbox.com/dropbox/2015/12/saying-goodbye-to-carousel-and-mailbox/).
 - [И Prismatic тоже уходит](http://venturebeat.com/2015/12/11/prismatic-is-shutting-down-its-news-app-for-ios-android-and-web-on-december-20/).
 - [Что случилось с Apple?](https://bgr.com/2015/12/09/iphone-6s-case-battery-design-wtf/)

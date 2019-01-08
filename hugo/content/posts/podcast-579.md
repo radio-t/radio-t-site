@@ -7,6 +7,8 @@ filename = "rt_podcast579"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt579.jpg)
+
 - [Ужас Meltdown и Spectre](https://techcrunch.com/2018/01/03/kernel-panic-what-are-meltdown-and-spectre-the-bugs-affecting-nearly-every-computer-and-device/) - *00:02:56*.
 - [Докер мертв](https://habrahabr.ru/company/itsumma/blog/345976/?utm_source=habrahabr) - *00:53:19*.
 - [PAST: Platform-Agnostic Security Tokens](https://github.com/paragonie/past) - *01:09:26*.

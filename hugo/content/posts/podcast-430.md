@@ -7,6 +7,8 @@ filename = "rt_podcast430"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt430.jpg)
+
 * [Яндекс сделал беспарольную двухфакторную аутентификацию](http://habrahabr.ru/company/yandex/blog/249547/)
 * [MongoDB 3.0 и начало новой эпохи](http://www.mongodb.com/press/mongodb-3-0-release)
 * [Эпические баги прошлых лет](http://www.coolcoder.in/2014/04/epic-software-bugs-of-all-time.html)

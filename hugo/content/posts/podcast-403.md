@@ -7,6 +7,8 @@ filename = "rt_podcast403"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt403.jpg)
+
 * Павел Емельянов о [CRIU](http://criu.org/Main_Page).
 * [О контейнерах](http://www.opennet.ru/opennews/art.shtml?num=40126) и особенностях их миграции.
 * Почему [Docker](https://www.docker.com) так популярен?

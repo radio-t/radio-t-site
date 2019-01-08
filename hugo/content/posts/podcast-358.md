@@ -7,6 +7,8 @@ filename = "rt_podcast358"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt358.jpg)
+
 * [Пять лет Stack Overflow](http://habrahabr.ru/post/194036/).
 * OpenZFS: по-настоящему открытый [преемник ZFS](http://habrahabr.ru/post/194168/).
 * [BlackBerry не удивил](http://press.blackberry.com/financial/2013/blackberry-announces-preliminary-second-quarter-fiscal-2014-resu.html).

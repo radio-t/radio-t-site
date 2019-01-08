@@ -7,6 +7,8 @@ filename = "rt_podcast494"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt494.jpg)
+
 - [Command Line для DigitalOcean](https://www.digitalocean.com/company/blog/introducing-doctl/) - *00:01:04*.
 - [IBM запускает QAAS](http://techcrunch.com/2016/05/03/ibm-brings-experimental-quantum-computing-to-the-cloud/) - *00:13:01*.
 - [Sourcegraph](https://sourcegraph.com/blog/announcing-the-sourcegraph-chrome-extension-for/) - *00:19:09*.

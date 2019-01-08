@@ -7,6 +7,8 @@ filename = "rt_podcast338"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt338.jpg)
+
 * [BitTorrent Sync](http://torrentfreak.com/bittorrents-secure-dropbox-alternative-goes-public-130423/) – наш путь, но [есть проблемы](https://plus.google.com/104578309919492528255/posts/A2jt7x3zffL).
 * Git [празднует 8 лет](https://www.linux.com/news/enterprise/systems-management/715287-git-turns-8-enterprise-wide-adoption) и проползает в большой мир.
 * [BugHub для GitHub](http://bughubapp.com/index.html)

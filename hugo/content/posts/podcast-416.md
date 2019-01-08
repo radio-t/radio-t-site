@@ -7,6 +7,8 @@ filename = "rt_podcast416"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt416.jpg)
+
 * [К 20й годовщине Design Patterns](http://www.informit.com/articles/article.aspx?p=2249437)
 * [Consul Template](https://hashicorp.com/blog/introducing-consul-template.html)
 * [Конец рефакторинга](http://prsm.tc/1sxml3)

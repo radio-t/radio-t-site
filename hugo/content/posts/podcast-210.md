@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt210.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt210.png)
+
 - Хорошее доменное [имя](http://mashable.com/2010/10/20/sex-com-sells/) за недорого
 - Apple показал [iLife '11](http://www.crunchgear.com/2010/10/20/apple-has-unveiled-ilife-11/). Странное что-то
 - [FaceTime](http://www.apple.com/mac/facetime/) вполне

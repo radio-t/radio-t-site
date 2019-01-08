@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt152.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt152.png)
+
 - [Итоги](http://habrahabr.ru/blogs/google_chrome/68665/) первого года Хрома
 - Неделя проблем у [больших](http://internetno.net/2009/09/02/gmail-fail/) и [менее больших](http://webplanet.ru/news/life/2009/09/02/outage.html)
 - [Что](http://www.news.com.au/technology/story/0,28348,26010638-5014239,00.html) нам готовит событие от Apple

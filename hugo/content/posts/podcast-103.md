@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt103.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt103.png)
+
 - С праздником!
 - Убийца висты на подходе ...
 - Главное событие недели

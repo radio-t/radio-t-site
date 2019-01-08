@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt201.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt201.png)
+
 - [Debian](http://digitizor.com/2010/08/16/happy-17th-birthday-debian-and-some-interesting-history/) можно наливать
 - Intel купил себе [антивирус](http://www.osnews.com/story/23705/Intel_To_Acquire_McAfee)
 - Facebook позволяет делать больше [глупостей](http://www.cnn.com/2010/TECH/social.media/08/19/cashmore.facebook.places/index.html)

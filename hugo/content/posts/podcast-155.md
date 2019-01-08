@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt155.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt155.jpg)
+
 - у [твитера ](http://internetno.net/2009/09/25/twitter-2/)теперь много нолей
 - 13 и 12, [Рамблер ](http://habrahabr.ru/company/rambler/blog/70679/)и [Яндекс](http://habrahabr.ru/blogs/yandex/70358/)
 - [интернет ](http://webplanet.ru/news/security/2009/09/24/svn_hack.html)в опасности, а .svn "хакнут"

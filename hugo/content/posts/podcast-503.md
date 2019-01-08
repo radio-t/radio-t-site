@@ -7,6 +7,8 @@ filename = "rt_podcast503"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt503.jpg)
+
 - [Mongo в облаке - чем это хорошо](https://www.mongodb.com/cloud).
 - [WRT54GL Linksys живее всех](http://arstechnica.com/information-technology/2016/07/the-wrt54gl-a-54mbps-router-from-2005-still-makes-millions-for-linksys/).
 - [VSCode поддался](https://code.visualstudio.com/updates).

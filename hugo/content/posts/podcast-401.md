@@ -7,6 +7,8 @@ filename = "rt_podcast401"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt401.jpg)
+
 * [Microsoft увольняет лишних людей](http://www.zdnet.com/beyond-12500-former-nokia-employees-who-else-is-microsoft-laying-off-7000031726/)
 * [Новый iTerm2](http://www.iterm2.com/news.html)
 * [DigitalOcean добрался до Лондона](https://www.digitalocean.com/company/blog/introducing-our-london-region/)

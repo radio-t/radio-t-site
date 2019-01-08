@@ -7,6 +7,8 @@ filename = "rt_podcast405"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt405.jpg)
+
 * [BGP достиг рубежа](http://www.opennet.ru/opennews/art.shtml?num=40384).
 * [Slice из Raspberry](http://prsm.tc/52lkwT).
 * [Микросервисы – что это?](http://www.activestate.com/blog/2014/08/microservices-and-paas-part-i)

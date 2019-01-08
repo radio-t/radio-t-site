@@ -7,6 +7,8 @@ filename = "rt_podcast351"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt351.jpg)
+
 * [Новое в Bootstrap 3.0](http://antjanus.com/blog/web-design-tips/web-design-elements/best-new-features-in-bootstrap-3-0/)
 * [6 уроков от Dropbox](http://highscalability.com/blog/2011/3/14/6-lessons-from-dropbox-one-million-files-saved-every-15-minu.html)
 * Как перейти от [2,000 к 200M](http://mashable.com/2013/07/30/dropbox-scaling/).

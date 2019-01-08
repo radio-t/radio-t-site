@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt200.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt200.png)
+
 - Оracle [против](http://www.opennet.ru/opennews/art.shtml?num=27610) Google
 - [OpenSolaris](http://www.opennet.ru/opennews/art.shtml?num=27622) может закончиться и очень скоро
 - [Жидкие](http://www.crunchgear.com/2010/08/09/apple-buys-out-liquidmetal-patents-to-stay-one-step-ahead-in-materials-game/) яблоки на горизонте

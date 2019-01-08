@@ -7,6 +7,8 @@ filename = "rt_podcast318"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt318.jpg)
+
 * [Creative Commons](http://www.opennet.ru/opennews/art.shtml?num=35536) празднует десятилетие
 * Vitrum [браузер для iPad](http://ain.ua/2012/11/22/102844) от украинских разработчиков
 * [Communities в Google+](http://techcrunch.com/2012/12/06/google-introduces-communities-to-replace-old-school-groups-forums-and-message-boards/) хороши

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt34.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt34.jpg)
+
 - Смертельный номер - прямой эфир
 - Joost на подьеме, а Digg под ударом
 - Версионная FS: Ext3cow

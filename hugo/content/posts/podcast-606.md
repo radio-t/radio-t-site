@@ -7,6 +7,8 @@ filename = "rt_podcast606"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt606.jpg)
+
 - [Новые MacBook Pro не совсем то, что ожидали](https://techcrunch.com/2018/07/12/apples-macbook-refresh-puts-the-focus-back-on-creative-pros/) - *00:02:16*.
 - [Клавиатура тише, процессоры шустрее](https://www.theverge.com/2018/7/12/17563640/apple-macbook-pro-touchbar-2018-intel-processor-siri-true-tone) - *00:18:33*.
 - [Гвидо ван Россум решил отстраниться](http://www.opennet.ru/opennews/art.shtml?num=48959) - *00:30:22*.

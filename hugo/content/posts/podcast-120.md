@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt120.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt120.jpg)
+
 - [Страшилки недели](http://webplanet.ru/news/security/2009/01/16/conficker_botnet.html)
 - Гугл закрывает ненужное
 - [Патент](http://webplanet.ru/news/law/2009/01/15/comments/paternt_troll.html) на все антивирусы

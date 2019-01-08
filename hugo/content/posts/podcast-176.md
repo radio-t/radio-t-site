@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt176.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt176.jpg)
+
 - 15 лет этому правильному [индейцу](http://www.opennet.ru/opennews/art.shtml?num=25540)
 - C++ отстой? Ну, не совсем и совсем нет
 - Не надо [раздеваться](http://internet.cnews.ru/news/line/index.shtml?2010/02/25/380591) в интернетах

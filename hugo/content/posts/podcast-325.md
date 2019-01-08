@@ -7,6 +7,8 @@ filename = "rt_podcast325"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt325.jpg)
+
 * [BitTorrent показал Sync](http://thenextweb.com/2013/01/25/bittorrent-launches-sync-in-pre-alpha-a-new-app-to-compete-with-dropbox-and-icloud/) убийцу DropBox
 * Apple [все еще торт](http://www.slate.com/articles/technology/technology/2013/01/apple_earnings_report_don_t_let_its_stock_slump_fool_you_the_company)
 * Анлок уже [вне закона](http://www.wired.com/threatlevel/2013/01/mobile-phone-unlocking/)

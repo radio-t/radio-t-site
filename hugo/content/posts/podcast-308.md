@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt308.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt308.jpg)
+
 * [14 лет Google](http://habrahabr.ru/post/152441/)
 * Instagram [обогнал Twitter](http://www.dailymail.co.uk/sciencetech/article-2209545/Instagram-overtakes-Twitter-cell-phones-7-3million-users-day.html) на телефонах
 * [FeedBurner вышел на финишную](http://techcrunch.com/2012/09/28/the-feedburner-deathwatch-continues-google-kills-adsense-for-feeds/) кривую

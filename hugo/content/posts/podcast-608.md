@@ -7,6 +7,8 @@ filename = "rt_podcast608"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt608.jpg)
+
 - [Конец hipcat](https://www.atlassian.com/blog/announcements/new-atlassian-slack-partnership)
 - [Почему Slack захватил рынок](https://zapier.com/blog/slack-versus-hipchat/).
 - [Telegram Passport](https://telegram.org/blog/passport).

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt149.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt149.jpg)
+
 - Конец войны … [форматов](http://hitech.tomsk.ru/newshitech/13143-vojjna-formatov-dvd-novogo-pokolenija-zavershena.html)
 - [Word](http://mashable.com/2009/08/12/word-patent/) весь кончился
 - Nokia вдруг [полюбила](http://www.readwriteweb.com/enterprise/2009/08/microsoft-nokia-to-announce-mobile-version-of-office.php) MS

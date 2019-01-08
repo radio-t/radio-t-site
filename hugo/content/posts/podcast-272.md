@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt272.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt272.jpg)
+
 - 7 лет [мелкому](http://www.tuaw.com/2012/01/11/happy-7th-anniversary-to-the-mac-mini/), но знатному
 - Гугл [все](http://www.businessinsider.com/google-may-have-made-the-worst-mistake-in-its-history-this-week-2012-1) испортил
 - Твиттер [не даст](http://techcrunch.com/2012/01/13/twitter-google-firehose/) себя в обиду

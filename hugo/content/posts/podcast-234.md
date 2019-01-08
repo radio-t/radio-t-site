@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt234.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt234.png)
+
 - Опять у [Linux ДР](http://www.readwriteweb.com/enterprise/2011/04/20-years-of-linux-infographic.php), но наливать рано
 - Нам не страшен MS или не обижайте [маленьких](http://habrahabr.ru/blogs/linux/116992/)
 - Новое открытие [Facebook](http://techcrunch.com/2011/04/07/open-compute-project/)

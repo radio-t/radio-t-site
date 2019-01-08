@@ -7,6 +7,8 @@ filename = "rt_podcast563"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt563.jpg)
+
 - [Caddy и его странный путь в никуда](https://caddyserver.com/blog/accouncing-caddy-commercial-licenses.html) - *00:01:30*.
 - [Что Apple нам показала](https://techcrunch.com/gallery/everything-apple-announced-at-its-iphone-x-keynote/) - *00:26:33*.
 - [iPhone 8](http://mashable.com/2017/09/12/apple-finally-unveils-the-iphone-8-in-all-its-glory/) - *00:58:21*.

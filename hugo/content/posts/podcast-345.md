@@ -7,6 +7,8 @@ filename = "rt_podcast345"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt345.jpg)
+
 * [Apple WWDC 2013](http://thenextweb.com/apple/2013/06/10/everything-announced-at-apples-wwdc-2013-keynote-in-one-handy-list/)
 * Пострадавшие [от WWDC](http://www.cultofmac.com/231121/seven-apps-apple-killed/)
 * [Google купил Waze](http://mashable.com/2013/06/11/google-buys-waze/)

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt148.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt148.jpg)
+
 - Выход Windows7 и мнения участников
 - [Bing](http://net.compulenta.ru/446893/) уже на втором месте
 - DDOS на [главные](http://soft.compulenta.ru/447562/) сайты. [Твитеру](http://www.techcrunch.com/2009/08/06/oooh-dramatic-twitter-gets-ddosed/) позор

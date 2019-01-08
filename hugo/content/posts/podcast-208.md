@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt208.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt208.jpg)
+
 - Новый релиз старой [ОС](http://www.opennet.ru/opennews/art.shtml?num=28170)
 - Лучшее [2010](http://habrahabr.ru/company/aiken/blog/105516/)
 - MS нагадит и [купит](http://www.gzt.ru/topnews/business/-microsoft-hochet-kupitj-adobe-nazlo-stivu-dzhobsu-/328793.html?from=reader) себе странного

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt285.jpeg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt285.jpeg)
+
 - Достойный [получатель](http://www.zdnet.com/blog/open-source/linus-torvalds-wins-the-tech-equivalent-of-a-nobel-prize-the-millennium-technology-prize/1) The Millenium Technology Prize
 - Интервью [Линуса](http://techcrunch.com/2012/04/19/an-interview-with-millenium-technology-prize-finalist-linus-torvalds/) о странном
 - [Flashback](http://arstechnica.com/apple/news/2012/04/flashback-infectionhthttp://www.blogger.com/img/blank.giftp://www.blogger.com/img/blank.gifs-not-waning-after-all-650000-macs-still-hijacked.ars) и прочие угрозы не утихают

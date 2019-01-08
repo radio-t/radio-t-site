@@ -7,6 +7,8 @@ filename = "rt_podcast392"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt392.jpg)
+
 * [Yahoo покупает Blink](http://techcrunch.com/2014/05/13/yahoo-acquires-self-destructing-messaging-app-blink-which-will-soon-disappear/).
 * [Яндекс против SPDY](http://habrahabr.ru/company/yandex/blog/222951/).
 * [По мотивам Is TDD dead?](http://www.youtube.com/watch?v=JoTB2mcjU7w).

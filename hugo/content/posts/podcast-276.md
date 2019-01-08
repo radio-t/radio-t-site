@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt276.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt276.jpg)
+
 - Знаменательный день для [Delphi](http://habrahabr.ru/blogs/delphi/137985/)
 - Релиз [ReactOS](http://www.opennet.ru/opennews/art.shtml?num=33030) 0.3.14
 - [Path](http://gigaom.com/2012/02/08/lessons-from-path-and-pinterest-tell-users-everything/) обидел всех

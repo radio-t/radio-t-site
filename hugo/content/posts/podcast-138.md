@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt138.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt138.jpg)
+
 - Пустая ИТ-неделя
 - 2й хром увидел свет
 - [Вирус](http://soft.compulenta.ru/428055/) против ФБР

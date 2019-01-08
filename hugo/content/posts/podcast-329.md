@@ -7,6 +7,8 @@ filename = "rt_podcast329"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt329.jpg)
+
 * Google показал [Chromebook Pixel](http://techcrunch.com/2013/02/21/google-announces-1299-chromebook-pixel-with-2560x1700-32-12-85-touchscreen-core-i5-cpu-1tb-of-g).
 * [Сравнение Pixel](http://techcrunch.com/2013/02/21/tale-of-the-tape-chromebook-pixel-vs-surface-pro-vs-macbook-air/) с конкурентами.
 * [Не покупать!](http://gizmodo.com/5986031/every-reason-not-to-buy-the-google-chromebook-pixel) это.

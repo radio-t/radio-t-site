@@ -6,6 +6,8 @@ image = "https://radio-t.com/images/radio-t/rt215.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt215.jpg)
+
 - Конец эпохи, Novell [продается](http://habrahabr.ru/blogs/finance/108606/)
 - [Премия Рунета](http://internetno.net/2010/11/26/podvedenyi-itogi-premii-runeta-2010/)-2010 от первого лица
 - Пиратская бухта признана [виновной](http://habrahabr.ru/blogs/p2p/108883/)

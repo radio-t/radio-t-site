@@ -7,6 +7,8 @@ filename = "rt_podcast627"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt627.jpg)
+
 - [Tumblr забанит 20% всего](https://www.theverge.com/2018/12/3/18123752/tumblr-adult-content-porn-ban-date-explicit-changes-why-safe-mode).
 - [В ядре Linux слово fuck заменили на hug](https://habr.com/post/431900/).
 - [Яндекс открывает Облако](https://habr.com/company/yandex/blog/432042/).

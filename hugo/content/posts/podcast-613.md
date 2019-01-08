@@ -7,6 +7,8 @@ filename = "rt_podcast613"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt613.jpg)
+
 - [Amazon EC2 T3](https://aws.amazon.com/about-aws/whats-new/2018/08/introducing-amazon-ec2-t3-instances/?fc=p_2).
 - [AWS уронило цену на Lightsail](https://techcrunch.com/2018/08/23/aws-cuts-the-price-of-most-of-its-lightsail-virtual-private-servers-in-half/).
 - [Go 1.11](https://blog.golang.org/go1.11).

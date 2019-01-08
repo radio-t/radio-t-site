@@ -7,6 +7,8 @@ filename = "rt_podcast502"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt502.jpg)
+
 - [Amazon Elastic File System – теперь на самом деле](https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions/) - *00:02:23*.
 - [Мои соболезнования: теперь вы поддерживаете популярный проект с открытым исходным кодом](https://habrahabr.ru/post/304550/) - *00:45:53*.
 - [Взгляд на APFS](http://arstechnica.com/apple/2016/06/a-zfs-developers-analysis-of-the-good-and-bad-in-apples-new-apfs-file-system/) - *01:04:02*.

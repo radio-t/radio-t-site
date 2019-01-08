@@ -7,6 +7,8 @@ filename = "rt_podcast422"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt422.jpg)
+
 * [Google закрывает центр разработки в России](http://geektimes.ru/company/vcstart/blog/242851/)
 * [Maelstrom: веб по p2p](http://blog.bittorrent.com/2014/12/10/project-maelstrom-the-internet-we-build-next/)
 * [История с взломом Sony Pictures](http://www.engadget.com/2014/12/10/sony-pictures-hack-the-whole-story/)

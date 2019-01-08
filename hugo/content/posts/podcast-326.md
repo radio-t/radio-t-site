@@ -7,6 +7,8 @@ filename = "rt_podcast326"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt326.jpg)
+
 * Что ужасного можно [найти в исходных текстах](http://gizmodo.com/5980842/there-is-blatant-racist-and-sexist-language-in-github-code)
 * Eclipse выпустили [Hudson 3.0](http://eclipse.org/org/press-release/20130123_hudson3.php)
 * [MySQL - нет, MariaDB - да](http://www.zdnet.com/oracle-who-fedora-and-opensuse-will-replace-mysql-with-mariadb-7000010640/)

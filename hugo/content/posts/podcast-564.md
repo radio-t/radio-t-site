@@ -7,6 +7,8 @@ filename = "rt_podcast564"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt564.jpg)
+
 - [Java 9 наступила](https://blogs.oracle.com/java/java-9-release-now-available) - *00:02:51*.
 - [Apple выпустила Swift 4.0](http://www.opennet.ru/opennews/art.shtml?num=47235) - *00:12:15*.
 - [GitLab 10.0 с Auto DevOps](https://about.gitlab.com/2017/09/22/gitlab-10-0-released/) - *00:35:18*.

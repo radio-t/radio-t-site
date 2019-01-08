@@ -7,6 +7,8 @@ filename = "rt_podcast431"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt431.jpg)
+
 * [iWork для всех](http://prsm.tc/dmaOft)
 * [Привет HTTP2, прощай SPDY](http://blog.chromium.org/2015/02/hello-http2-goodbye-spdy-http-is_9.html)
 * [Самсунг подслушивает и подсматривает](http://www.bbc.co.uk/news/technology-31296188)

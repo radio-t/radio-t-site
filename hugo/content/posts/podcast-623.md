@@ -7,6 +7,8 @@ filename = "rt_podcast623"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt623.jpg)
+
 - [2018 Mac Mini](https://marco.org/2018/11/06/mac-mini-2018-review) - *00:06:00*.
 - [Apple iPad Pro 2018](https://www.theverge.com/2018/11/5/18062612/apple-ipad-pro-review-2018-screen-usb-c-pencil-price-features) - *00:27:32*.
 - [GitHub преодолел рубеж в 100 млн репозиториев](http://www.opennet.ru/opennews/art.shtml?num=49580) - *00:47:22*.

@@ -7,6 +7,8 @@ filename = "rt_podcast513"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt513.jpg)
+
 - [С днем программиста](https://en.wikipedia.org/wiki/Day_of_the_Programmer) - *00:11:39*.
 - [Gmail упал и надолго](https://www.cnet.com/news/gmail-is-down-internationally-disrupting-work-flows/) - *00:20:56*.
 - [Слово "docker" под запретом](https://www.andreas-jung.com/contents/dont-use-docker-in-github-repo-names-or-as-twitter-handle) - *00:27:32*.

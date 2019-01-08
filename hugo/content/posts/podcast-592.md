@@ -7,6 +7,8 @@ filename = "rt_podcast592"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt592.jpg)
+
 - [Быстрый и честный DNS на 1.1.1.1](https://blog.cloudflare.com/announcing-1111/) - *00:03:06*.
 - [История Stack Overflow](https://www.joelonsoftware.com/2018/04/06/the-stack-overflow-age/) - *00:16:34*.
 - [Как мы дошли до контейнеров](http://www.tedinski.com/2018/04/03/why-containers.html) - *00:27:04*.

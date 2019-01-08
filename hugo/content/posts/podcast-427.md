@@ -7,6 +7,8 @@ filename = "rt_podcast427"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt427.jpg)
+
 * [Linux в 2015](http://prsm.tc/DA1ydm)
 * [MintBox Mini](http://prsm.tc/JJYjAS)
 * [Intel уберут из Mac?](http://prsm.tc/GgFhyA)

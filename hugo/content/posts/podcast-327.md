@@ -7,6 +7,8 @@ filename = "rt_podcast327"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt327.jpg)
+
 * [Surface Pro 128 GB](http://winsupersite.com/windows-8/surface-pro-128-gb-immediately-sells-out) разошлись как горячие пирожки.
 * Баг в Facebook [уложил весь интернет](http://gizmodo.com/5982677/a-facebook-bug-pretty-much-took-down-the-entire-internet).
 * Куда вы дели [наши гигабайты?](http://www.zdnet.com/surface-pro-versus-macbook-air-whos-being-dishonest-with-storage-space-7000011009/)

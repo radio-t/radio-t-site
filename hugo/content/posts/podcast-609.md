@@ -7,6 +7,8 @@ filename = "rt_podcast609"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt609.jpg)
+
 - [Разговоры про шаблоны проектирования](https://dev.to/powerwebdev/an-introduction-to-the-concept-of-design-patterns-o29) - *00:10:33*.
 - [Чему нас учит терминал](https://brandur.org/interfaces) - *00:33:59*.
 - [Apache NetBeans 9.0](https://sdtimes.com/java/apache-netbeans-incubating-9-0-is-now-available/) - *00:53:50*.

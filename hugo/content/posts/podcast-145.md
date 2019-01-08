@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt145.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt145.jpg)
+
 Необычный выпуск! Новый хост, новая ведущая но старый гость.
 
 - Спросим MS за [все](http://cnews.ru/news/line/index.shtml?2009/07/14/353863)

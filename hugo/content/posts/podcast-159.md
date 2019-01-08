@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt159.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt159.jpg)
+
 - Выход [Ubuntu 9.10](http://www.opennet.ru/opennews/art.shtml?num=24033)
 - [Google](http://www.techcrunch.com/2009/10/28/google-redefines-car-gps-navigation-google-maps-navigation-android/) разрушает рынок навигации
 - Facebook станет на [$700М](http://webplanet.ru/news/law/2009/10/30/facebook_spam.html) богаче, но не сразу

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt252.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt252.jpg)
+
 - Стив Джобс [покинул](http://habrahabr.ru/blogs/apple/127024/) должность CEO
 - Чем хорош [Tim Cook](http://www.wired.com/epicenter/2011/08/why-tim-cook/)
 -  [Plastic Logic](http://www.engadget.com/2011/08/23/plastic-logic-granted-a-second-life-scores-trial-in-russian-sch/) спасен

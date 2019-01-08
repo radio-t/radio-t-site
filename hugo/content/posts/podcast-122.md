@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt122.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt122.png)
+
 - Внезапный, но приятный гость
 - Гугловые нетипичные [неприятности](http://www.techcrunch.com/2009/01/31/google-flags-whole-internet-as-malware/)
 - Skype [на продажу](http://business.compulenta.ru/398035/) опять

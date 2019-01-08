@@ -7,6 +7,8 @@ filename = "rt_podcast342"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt342.jpg)
+
 * Их обидели [по ошибке](http://www.guardian.co.uk/world/2013/may/24/russian-social-network-site-vkontakte-banned).
 * Чем так хороша [покупка Tumblr](http://allthingsd.com/20130524/why-tumblr-was-a-massive-steal-for-yahoo/).
 * [И они тоже](http://techcrunch.com/2013/05/24/tumblr-proves-that-even-billion-dollar-companies-can-screw-up-mass-emails/) ошибаются.

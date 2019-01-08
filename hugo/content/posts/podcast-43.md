@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt43.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt43.jpg)
+
 **iPhone-шоу**
 
 

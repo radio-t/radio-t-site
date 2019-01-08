@@ -7,6 +7,8 @@ filename = "rt_podcast605"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt605.jpg)
+
 - [DO сделал по настоящему приватные сети](https://www.digitalocean.com/docs/release-notes/2018/private-networking/) - *00:03:24*.
 - [Почему Google Cloud это не наш путь](https://medium.com/@serverpunch/why-you-should-not-use-google-cloud-75ea2aec00de) - *00:17:41*.
 - [Весь код это технический долг](https://www.tokyodev.com/2018/07/05/all-code-is-technical-debt/) - *00:39:50*.

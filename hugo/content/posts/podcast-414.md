@@ -7,6 +7,8 @@ filename = "rt_podcast414"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt414.jpg)
+
 * [Октябрьские премьеры Apple](http://geektimes.ru/post/240358/)
 * [Docker 1.3](https://blog.docker.com/2014/10/docker-1-3-signed-images-process-injection-security-options-mac-shared-directories/)
 * [Microsoft полюбил Docker](http://www.forbes.com/sites/benkepes/2014/10/15/the-end-of-the-docker-buts-microsoft-to-enable-windows-docker-containers/)

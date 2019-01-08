@@ -7,6 +7,8 @@ filename = "rt_podcast459"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt459.jpg)
+
 * [Разблокирование Android жестами не безопасно](http://www.engadget.com/2015/08/22/android-lock-pattern-research/).
 * [iPhone 6S - слухи о новой камере](http://petapixel.com/2015/08/28/iphone-6s-camera-will-shoot-12mp-photos-and-4k-videos-report-says/).
 * [В ожидании Apple TV](http://social.techcrunch.com/2015/08/27/apple-is-about-to-lay-down-its-tv-cards/).

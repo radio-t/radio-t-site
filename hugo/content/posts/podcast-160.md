@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt160.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt160.jpg)
+
 - революция в наших сердцах
 - [10 лет](http://java.dzone.com/news/apache-celebrating-10-years) апачу
 - черные дни IT сегодня, а золотой век [позади](http://business.compulenta.ru/473256/)

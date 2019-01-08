@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt292.jpeg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt292.jpeg)
+
 - Дошли до [400М](http://news.cnet.com/8301-1023_3-57448388-93/twitter-hits-400-million-tweets-per-day-mostly-mobile/) твитов
 - Позор настиг [LinkedIn](http://arstechnica.com/security/2012/06/8-million-leaked-passwords-connected-to-linkedin/), [два](http://mashable.com/2012/06/08/linkedin-stolen-passwords-list/) раза
 - Позор настиг [Last.fm](http://www.bbc.co.uk/news/technology-18358485)

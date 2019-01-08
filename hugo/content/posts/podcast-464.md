@@ -7,6 +7,8 @@ filename = "rt_podcast464"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt464.jpg)
+
 * [Otto заменяет Vagrant](https://www.ottoproject.io/intro/index.html).
 * [Nomad - кластер от HashiCorp](https://hashicorp.com/blog/nomad.html).
 * [Зачем учить новый язык?](http://www.webcodegeeks.com/web-development/learn-new-programming-language/)

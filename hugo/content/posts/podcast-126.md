@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt126.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt126.png)
+
 - Главное событие недели [Xfce 4.6.0](http://www.osnews.com/story/21054/Xfce_4_6_0_Impresses_with_Slew_of_New_Features)
 - [Мini9](http://www.engadget.com/2009/02/27/dells-inspiron-mini-9-drops-to-a-delicious-199/) по неимоверной цене
 - Падения и нововедения [гугла](http://www.readwriteweb.com/archives/gmail_give_millions_a_holiday.php)

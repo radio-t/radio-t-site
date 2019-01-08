@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt137.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt137.png)
+
 - Сбой [Гугла](http://net.compulenta.ru/426372/) с глобальным эффектом
 - Гарантии на программы в [Европе](http://www.linux.org.ru/view-message.jsp?msgid=3693981)
 - [Гаджет](http://onegadget.ru/og/3821) этой недели от onegadget.ru

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt232.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt232.jpg)
+
 - [Mac OSX](http://iclarified.com/entry/index.php?enid=14424) пошел на второй десяток
 - [Galaxy Tab 10.1](http://mashable.com/2011/03/22/galaxy-tabs/) уже готов для убийств?
 - [PlayBook ](http://www.engadget.com/2011/03/24/rim-adds-android-app-support-to-blackberry-playbook/)придумал странное

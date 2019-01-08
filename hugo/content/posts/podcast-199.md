@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt199.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt199.jpg)
+
 - Прощай, [Google Wave](http://techcrunch.com/2010/08/04/wave-goodbye-to-google-wave/)
 - Люди не готовы к [технологической революции](http://habrahabr.ru/blogs/google/101081/)
 - [Андроиды](http://www.wired.com/gadgetlab/2010/08/android-beats-iphone-in-smartphone-sales/) сильны, когда вместе против одного

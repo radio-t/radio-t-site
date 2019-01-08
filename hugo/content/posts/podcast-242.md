@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt242.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt242.jpg)
+
 - Microsoft готова передать ФСБ [почти все](http://habrahabr.ru/blogs/skype/120890/)
 - Россия заняла почетное второе [место ](http://hitech.tomsk.ru/newsinternet/18566-rossijane-stali-vtorymi-po-provodimomu-v.html)
 - Забавный, но нехитрый гик [попался](http://habrahabr.ru/blogs/infosecurity/120986/)

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt193.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt193.jpg)
+
 - iPhone 4 совсем [не торт](http://www.engadget.com/2010/06/25/hey-apple-youre-holding-it-wrong/)?
 - [Планшеты](http://www.cnews.ru/news/top/index.shtml?2010/06/18/396503) вытесняют нетбуки и настольные ПК
 - [Helios](http://www.opennet.ru/opennews/art.shtml?num=27073) хорош и ярок

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt100.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt100.jpg)
+
 * **_ [Лог чата](http://chat.radio-t.com/logs/radio-t-100.html)_**
 ** Спасибо macsyk за юбилейню картинку
 *** Сайт **[Пираты–РТ](http://pirate.radio-t.com/)**

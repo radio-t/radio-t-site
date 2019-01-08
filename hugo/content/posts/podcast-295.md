@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt295.jpeg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt295.jpeg)
+
 * 5-летие [iPhone'а](http://www.businessinsider.com/heres-what-steve-ballmer-thought-about-the-iphone-five-years-ago-2012-6)
 * Google [IO 2012](http://habrahabr.ru/post/146650/)
 * Chrome для [iOS](http://www.v3.co.uk/v3-uk/news/2188015/google-announces-chrome-ios)

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt144.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt144.jpg)
+
 - Поговорим об Google Chrome OS
 - MS затеяла [Gazelle](http://www.engadget.com/2009/07/10/microsofts-gazelle-browser-detailed-its-more-of-a-researc/) и овладела [убунтой](http://linuxologist.com/linuxhumor/ubuntu-is-a-microsoft-product-now/)
 - Русский програмист [украл](http://habrahabr.ru/blogs/trading/63893/) все биржи

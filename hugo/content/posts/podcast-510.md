@@ -7,6 +7,8 @@ filename = "rt_podcast510"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt510.jpg)
+
 - 10 лет вместе с вами!
 - [Linux 25 лет](https://geektimes.ru/post/279756/).
 - [Amazon пробует 30ч рабочую неделю](https://www.washingtonpost.com/news/the-switch/wp/2016/08/26/amazon-is-piloting-teams-with-a-30-hour-work-week/).

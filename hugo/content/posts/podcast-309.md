@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt309.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt309.jpg)
+
 * А мы так хотели поговорить о [Phantom Operating System](http://dz.ru/en/solutions/phantom/)
 * [Google Spanner](http://highscalability.com/blog/2012/9/24/google-spanners-most-surprising-revelation-nosql-is-out-and.html) – от NoSQL к NewSQL
 * Переход из [Erlang в Python](http://code.mixpanel.com/2011/08/05/how-and-why-we-switched-from-erlang-to-python/)

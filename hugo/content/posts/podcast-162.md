@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt162.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt162.jpg)
+
 - ИТ-рынок [возвращается](http://business.compulenta.ru/479440/)
 - Восход [Google Chrome](http://www.engadget.com/2009/11/19/googles-chrome-os-revealed/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+weblogsinc%2Fengadget+%28Engadget%29)
 - [Fedora 12](http://www.opennet.ru/opennews/art.shtml?num=24286): солидно и спокойно

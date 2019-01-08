@@ -7,6 +7,8 @@ filename = "rt_podcast426"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt426.jpg)
+
 * [Что было на CES 2015](http://prsm.tc/HRZJQo)
 * [USB 3.1 и Type-C](http://prsm.tc/owEQ8k)
 * [Странное облако Verizon](http://prsm.tc/8khyIC)

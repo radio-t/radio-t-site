@@ -7,6 +7,8 @@ filename = "rt_podcast566"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt566.jpg)
+
 - [PostgreSQL 10](https://www.postgresql.org/about/news/1786/) - *00:03:11*.
 - [Fn как-сервис от Oracle](https://blogs.oracle.com/developers/announcing-fn) - *00:56:41*.
 - [AWS и devops](http://www.smashcompany.com/technology/aws-does-not-protect-you-from-devops) - *01:28:00*.

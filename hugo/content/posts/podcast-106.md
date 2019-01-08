@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt106.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt106.png)
+
 - Nokia 5800 XpressMusic: убийца всего
 - Маков 8% но ITS грозят закрыть
 - Что нас ждет по версии MS

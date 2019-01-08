@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt192.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt192.png)
+
 - Наше громкое ура [ЛОРу
 ](http://www.linux.org.ru/news/linux-org-ru/5000089)
 - [WordPress 3.0](http://habrahabr.ru/blogs/wordpress/96768/) и вечный вопрос "как так?"

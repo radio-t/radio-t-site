@@ -7,6 +7,8 @@ filename = "rt_podcast410"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt410.jpg)
+
 * [День свободы программного обеспечения](http://habrahabr.ru/company/mailru/blog/237025/)
 * [Новое в iOS 8](http://www.forbes.com/sites/markrogowsky/2014/09/18/a-guide-to-whats-great-in-ios-8/)
 * [Amazon представила Kindle Voyage](http://habrahabr.ru/post/237345/)

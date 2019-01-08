@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt317.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt317.jpg)
+
 * [10 подарков](http://jaxenter.com/10-christmas-gift-ideas-for-developers-45677.html) для гиков
 * Библиотеки [не доллжны быть таким отстоем](http://akkartik.name/blog/libraries2)
 * [Ninja IDE](http://ninja-ide.org/) не понравилась ведущим

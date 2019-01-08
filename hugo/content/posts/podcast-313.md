@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt313.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt313.jpg)
+
 * Почему [ZeroMQ ошибся с языком](http://www.250bpm.com/blog:4) в [2x частях](http://www.250bpm.com/blog:8)
 * [Guido van Rossum](https://plus.google.com/115212051037621986145/posts/HajXHPGN752) о быстром питоне
 * Как победить [ужас Callback](http://elm-lang.org/learn/Escape-from-Callback-Hell.elm)

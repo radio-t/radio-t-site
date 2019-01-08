@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt180.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt180.png)
+
 - [Google](http://internet.cnews.ru/news/top/index.shtml?2010/03/23/383772) ушел из Китая по туманным причинам
 - Необыкновенный, но забавный "[хедсет](http://www.engadget.com/2010/03/25/cell-mate-headset-heads-on/)"
 - Британские [ученые](http://www.securitylab.ru/news/392194.php) наносят ответный удар

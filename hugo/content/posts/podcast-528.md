@@ -7,6 +7,8 @@ filename = "rt_podcast528"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt528.jpg)
+
 - [Let’s Encrypt в 2016 году](https://letsencrypt.org//2017/01/06/le-2016-in-review.html) - *00:02:27*.
 - [Minideb для ваших докеров](https://dzone.com/articles/minideb-a-minimalist-debian-based-docker-image) - *00:23:37*.
 - [Grumpy - из Python прямо в Go](https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html) - *00:37:01*.

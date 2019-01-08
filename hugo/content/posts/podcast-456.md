@@ -7,6 +7,8 @@ filename = "rt_podcast456"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt456.jpg)
+
 * [Windows 10](http://www.theverge.com/2015/7/28/9045331/microsoft-windows-10-review).
 * [Удалять или оставить в покое](http://liberatum.ru/exclusive/windows-10-license)?
 * [Flash как RAM](http://www.theplatform.net/2015/08/05/flash-disruption-comes-to-server-main-memory/).

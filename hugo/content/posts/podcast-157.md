@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt157.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt157.jpg)
+
 - релиз отладчика [GDB 7.0](http://www.opennet.ru/opennews/art.shtml?num=23771)
 - [кризис ](http://internet.cnews.ru/news/top/index.shtml?2009/10/08/364964)закончился, говорит Google
 - не пустим детей в [программисты](http://biz.cnews.ru/news/top/index.shtml?2009/10/07/364783)

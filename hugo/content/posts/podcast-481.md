@@ -7,6 +7,8 @@ filename = "rt_podcast481"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt481.jpg)
+
 - [Java аплеты - все](http://mashable.com/2016/01/29/java-plug-in-death/).
 - [Facebook закрывает Parse](http://www.businessinsider.com/facebook-shutting-down-parse-2016-1).
 - [Что теперь будет с Fusion](http://www.businessinsider.com/vmware-will-continue-to-developer-fusion-for-mac-2016-1)?

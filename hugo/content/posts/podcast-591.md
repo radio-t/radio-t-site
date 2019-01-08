@@ -7,6 +7,8 @@ filename = "rt_podcast591"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt591.jpg)
+
 - [Проекту Mozilla исполняется 20 лет](http://www.opennet.ru/opennews/art.shtml?num=48356) - *00:00:37*.
 - [Microsoft накажет за грубость](https://techcrunch.com/2018/03/28/microsoft-can-ban-you-for-using-offensive-language/) - *00:09:57*.
 - [IntelliJ IDEA 2018.1](https://blog.jetbrains.com/idea/2018/03/intellij-idea-2018-1-code-analysis-better-debugger-partial-git-commits-android-studio-3-0-and-other-improvements/) - *00:22:22*.

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt45.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt45.jpg)
+
 - Гугл в борьбе за свободу
 - Первые настоящие программы для iPhone
 - Ожидания от следующей версии Fedora

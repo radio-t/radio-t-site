@@ -7,6 +7,8 @@ filename = "rt_podcast626"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt626.jpg)
+
 - [Go 2 начинается](https://blog.golang.org/go2-here-we-come) - *00:01:31*.
 - [AWS Transfer for SFTP](https://aws.amazon.com/blogs/aws/new-aws-transfer-for-sftp-fully-managed-sftp-service-for-amazon-s3/) - *00:19:39*.
 - [AWS App Mesh](https://aws.amazon.com/blogs/compute/introducing-aws-app-mesh-service-mesh-for-microservices-on-aws/) - *00:33:39*.

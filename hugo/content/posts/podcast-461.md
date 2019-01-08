@@ -7,6 +7,8 @@ filename = "rt_podcast461"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt461.jpg)
+
 * [Все, что нам показали](http://thenextweb.com/apple/2015/09/09/everything-apple-announced-at-its-september-2015-event/).
 * [Новый iPhone 6s почти как старый](http://social.techcrunch.com/2015/09/09/apple-introduces-the-iphone-6s-and-iphone-6s-plus/).
 * [iPad Pro спасет умирающий рынок?](http://fortune.com/2015/09/11/ipad-pro-revive-tablet-market/).

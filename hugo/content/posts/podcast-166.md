@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt166.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt166.jpg)
+
 - [Хром ](http://internet.cnews.ru/news/line/index.shtml?2009/12/15/373461)теперь #3
 - Собственный [нетбук ](http://cnews.ru/news/line/index.shtml?2009/12/17/373808)от Google
 - [Шаттлворт ](http://www.opennet.ru/opennews/art.shtml?num=24714)уходит от руководства Canonical

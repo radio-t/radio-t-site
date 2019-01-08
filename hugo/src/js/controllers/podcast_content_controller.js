@@ -6,7 +6,13 @@ export default class extends Controller {
   connect() {
     super.connect();
     this.timeLabels();
+    this.removeFirstImage();
     this.element.classList.remove('no-js');
+  }
+
+  removeFirstImage() {
+    const image = this.element.querySelector('p:first-child > img:first-child');
+    if (image) image.remove();
   }
 
   timeLabels() {

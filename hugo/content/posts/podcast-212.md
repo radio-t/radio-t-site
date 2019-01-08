@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt212.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt212.jpg)
+
 - [Рейтинг](http://www.opennet.ru/opennews/art.shtml?num=28492) предпочтений пользователей Linux
 - Миф повторного использования [кода](http://agile.dzone.com/news/reuse-myth-can-you-afford)
 - Через Fedora к [MeeGo](http://www.opennet.ru/opennews/art.shtml?num=28449)

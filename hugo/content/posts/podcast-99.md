@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt99.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt99.jpg)
+
 - ЖД хакеры не пройдут
 - В 33й раз о цене лаптопов
 - Ошибки vmware, проблемы apple и неприятности google

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt185.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt185.jpg)
+
 - [Palm](http://www.hp.com/hpinfo/newsroom/press/2010/100428xa.html) продался, полностью
 - [Ubuntu](http://www.linux.org.ru/news/ubuntu/4832160) Lucid Lynx 10.04
 - [ICQ](http://internetno.net/2010/04/28/aol-dst-icq/) теперь совсем наш

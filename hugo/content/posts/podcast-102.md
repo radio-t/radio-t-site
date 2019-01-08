@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt102.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt102.jpg)
+
 - Новый продукт для улучшения личной жизни одного из ведущих
 - Шовинисты от хай–тека опять обнаглели
 - Django 1.0 уже тут

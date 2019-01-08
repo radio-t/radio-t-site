@@ -7,6 +7,8 @@ filename = "rt_podcast390"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt390.jpg)
+
 * [BASIC стукнуло 50](http://www.engadget.com/2014/05/01/basic-programming-language-50th-birthday/)
 * [Жизнь программистов это ад](http://gizmodo.com/programming-sucks-why-a-job-in-coding-is-absolute-hell-1570227192)
 * [Жизнь программистов это праздник](http://blog.samstokes.co.uk/blog/2014/05/01/what-programming-is-like)

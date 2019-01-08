@@ -7,6 +7,8 @@ filename = "rt_podcast428"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt428.jpg)
+
 * [Все, что надо знать о Windows 10](http://prsm.tc/2Cqz7o)
 * [Еще немного нового о Windows 10](http://www.engadget.com/2015/01/21/windows-10-event-new-pc-features/)
 * [HoloLens как очередной Kinect](http://www.polygon.com/2015/1/21/7868351/hololens-kinect-microsoft-windows-10)

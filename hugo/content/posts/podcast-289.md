@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt289.jpeg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt289.jpeg)
+
 - Рекордное IPO [Facebook](http://www.bloomberg.com/news/2012-05-17/facebook-raises-16-billion-in-biggest-technology-ipo-on-record.html)
 - [Chrome 19](http://techcrunch.com/2012/05/15/chrome-19-launches-now-features-built-in-tab-syncing/) вышел
 - Google ищет в [1000 раз](http://mashable.com/2012/05/16/google-knowledge-graph/) лучше

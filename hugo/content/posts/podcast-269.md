@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt269.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt269.png)
+
 - [GoDaddy](http://www.readwriteweb.com/archives/godaddys_sopa_support_sparks_calls_for_boycotts_an.php) и SOPA позор
 - Нет, они теперь хорошие
 - 5 [направлений](http://gigaom.com/2011/12/19/five-big-things-to-watch-out-for-in-2012/) на 2012

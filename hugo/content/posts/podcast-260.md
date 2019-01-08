@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt260.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt260.png)
+
 - [Ubuntu ](http://habrahabr.ru/blogs/ubuntu/130841/)уже 7
 - [Juick ](http://juick.com/juick/1590719)еще 3 года
 - [Android 4.0](http://techcrunch.com/2011/10/19/in-depth-hands-on-video-galaxy-nexus-and-ice-cream-sandwich-android-4-0/) вышел нам на радость

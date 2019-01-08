@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt225.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt225.jpg)
+
 - Конец интернета [наступил](http://www.opennet.ru/opennews/art.shtml?num=29489). Как жить дальше?
 - Что происходит с [работой](http://www.networkworld.com/news/2011/020311-it-job-hunting.html?hpg1=bn) в IT
 - Зачем это делать [50 раз](http://agile.dzone.com/news/deploying-production-50xday) в день

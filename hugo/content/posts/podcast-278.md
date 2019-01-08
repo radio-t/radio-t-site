@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt278.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt278.png)
+
 - TeamCity 7.0 уже тут
 - Пара слов об [Amazon Web Services](http://aws.amazon.com/)
 - [NoSQL](http://gigaom.com/cloud/amazon-launches-home-grown-nosql-database/) от Amazon

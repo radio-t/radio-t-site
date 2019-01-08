@@ -7,6 +7,8 @@ filename = "rt_podcast339"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt339.jpg)
+
 * Конец [OOP уже наступил](http://blogs.msdn.com/b/alfredth/archive/2011/03/22/object-oriented-programming-is-dead.aspx).
 * [Polymorphism и Inheritance](http://www.javacodegeeks.com/2013/04/polymorphism-and-inheritance-are-independent-of-each-other.html) это не очень связанные понятия.
 * [TDD как единственно верный](http://agile.dzone.com/articles/not-using-test-first-youre) путь.

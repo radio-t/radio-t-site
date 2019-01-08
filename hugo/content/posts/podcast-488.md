@@ -7,6 +7,8 @@ filename = "rt_podcast488"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt488.jpg)
+
 - [Atom 1.6 и 1.7 beta](http://blog.atom.io/2016/03/17/atom-1-6-and-1-7-beta.html) - *00:07:41*.
 - [TaskPaper 3](http://www.taskpaper.com/) - *00:17:13*.
 - [IntelliJ IDEA 2016.1](http://blog.jetbrains.com/idea/2016/03/intellij-idea-2016-1-is-here/) - *00:20:18*.

@@ -7,6 +7,8 @@ filename = "rt_podcast519"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt519.jpg)
+
 - [Apple придумали ТВ 21 века, но не совсем](http://fortune.com/2016/10/27/apple-tv-holes/) - *00:07:10*.
 - [Apple показалии новый MacBook Pro](https://techcrunch.com/2016/10/27/apples-macbook-pro-event-recap-2016/) - *00:14:40*.
 - [MacBook Pro больше не для нас](https://blog.devteam.space/new-macbook-pro-is-not-a-laptop-for-developers-anymore-d0d4b1b8b7de?gi=7d3054683958) - *00:46:55*.

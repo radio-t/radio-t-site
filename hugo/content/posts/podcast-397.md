@@ -7,6 +7,8 @@ filename = "rt_podcast397"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt397.jpg)
+
 * [Что такое Docker?](http://prsm.tc/nfOZLH)
 * [Amazon Fire Phone](http://gigaom.com/2014/06/18/amazons-new-fire-phone-is-a-unique-4-7-inch-beast/)
 * [Теперь только новый Skype](http://www.computerworld.com/s/article/9249275/Update_Skype_to_retire_recent_editions_for_Windows_Mac_upgrades_mandatory)

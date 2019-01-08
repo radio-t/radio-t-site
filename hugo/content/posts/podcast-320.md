@@ -7,6 +7,8 @@ filename = "rt_podcast320"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt320.jpg)
+
 * [Perl радует](http://www.networkworld.com/community/blog/perl-programming-language-turns-25-today) уже 25 лет
 * Интересные результаты [GitHub за 2012](https://github.com/blog/1359-the-octoverse-in-2012)
 * [Instagram](http://www.bbc.co.uk/newsround/20770534) взбесил всех хипстеров

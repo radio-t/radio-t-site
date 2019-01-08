@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt217.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt217.jpg)
+
 - 42 и что с [ней](http://habrahabr.ru/blogs/hardware/109719/) будет дальше
 - [Убитые](http://www.newsweek.com/photo/2010/12/08/peep-shows-yearbooks-and-other-things-the-internet-killed.html) интернетами
 - [Атаки](http://mashable.com/2010/12/08/hackers-take-down-visa-com-in-the-name-of-wikileaks/) прошедшей недели

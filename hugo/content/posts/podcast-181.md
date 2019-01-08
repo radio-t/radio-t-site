@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt181.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt181.jpg)
+
 - [Шуточки](http://www.opennet.ru/opennews/art.shtml?num=26046) 2010
 - [Ubuntu](http://www.opennet.ru/opennews/art.shtml?num=25994) не шутит, но смешно
 - Конец истории "[SCO](http://www.opennet.ru/opennews/art.shtml?num=26031) против всех"

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt118.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt118.png)
+
 **
 
 Итоги 2008, С НОВЫМ ГОДОМ!**

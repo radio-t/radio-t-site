@@ -7,6 +7,8 @@ filename = "rt_podcast505"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt505.jpg)
+
 - И сюда добрались.
 - [ARM отдался Softbank ](http://www.bbc.com/news/business-36827769).
 - [Stack Overflow Documentation ](http://blog.stackoverflow.com/2016/07/introducing-stack-overflow-documentation-beta/?cb=1).

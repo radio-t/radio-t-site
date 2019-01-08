@@ -7,6 +7,8 @@ filename = "rt_podcast331"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt331.jpg)
+
 * [Facebook обновился](http://www.bbc.co.uk/news/technology-21698765) не на шутку.
 * Причины [провала Windows 8](http://www.zdnet.com/five-reasons-why-windows-8-has-failed-7000012104/)
 * [Samsung тоже](http://allthingsd.com/20130308/windows-8-no-better-than-vista-says-samsung-exec/) смотрит без оптимизма.

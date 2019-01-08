@@ -7,6 +7,8 @@ filename = "rt_podcast536"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt536.jpg)
+
 - [Amazon Web Services убил половину интернета](https://thenextweb.com/insider/2017/02/28/amazon-web-services-issue-breaking-entire-internet/) - *00:04:44*.
 - [Что случилось с S3 в US-EAST-1](https://aws.amazon.com/message/41926/) - *00:23:43*.
 - Разговор о TDD с его защитником.

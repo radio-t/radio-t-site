@@ -7,6 +7,8 @@ filename = "rt_podcast612"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt612.jpg)
+
 - [Skype зашифровал беседы](https://www.theverge.com/2018/8/20/17725226/skype-private-conversation-end-to-end-encrypted-opt-in) - *00:02:39*.
 - [Intel запретил публиковать результаты тестирования](http://www.opennet.ru/opennews/art.shtml?num=49171) - *00:19:58*.
 - [Бывший работникTesla разговорился](https://www.reddit.com/r/EnoughMuskSpam/comments/99sbwa/former_tesla_programmers_anecdotes_about_problems/) - *00:28:14*.

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt115.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt115.jpg)
+
 - Главный мышиный юбилей
 - Python 3.0 тут. Ура, товарищи!
 - Австралийский телефон

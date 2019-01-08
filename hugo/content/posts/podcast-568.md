@@ -7,6 +7,8 @@ filename = "rt_podcast568"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt568.jpg)
+
 - [MongoDB на IPO](https://techcrunch.com/2017/10/19/mongodb-finishes-up-34-in-database-ipo/) - *00:03:07*.
 - [Microsoft Surface Book 2](http://www.zdnet.com/article/microsofts-surface-book-2-is-what-the-next-macbook-pro-should-be-but-almost-certainly-wont/) - *00:45:40*.
 - [Проблемы с WPA2](https://arstechnica.com/information-technology/2017/10/severe-flaw-in-wpa2-protocol-leaves-wi-fi-traffic-open-to-eavesdropping/) - *01:08:54*.

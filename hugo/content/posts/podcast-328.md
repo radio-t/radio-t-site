@@ -7,6 +7,8 @@ filename = "rt_podcast328"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt328.jpg)
+
 * [BitTorrent запустил SoShare](http://techcrunch.com/2013/02/15/bittorrent-sharpens-enterprise-focus-launches-soshare-to-send-large-files-offering-first-teraby)
 * На этот раз [обидели Facebook](http://bits.blogs.nytimes.com/2013/02/15/facebook-admits-it-was-hacked/)
 * [Opera будет на WebKit](http://mashable.com/2013/02/13/opera-is-moving-to-webkit/)

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt110.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt110.jpg)
+
 - Широкие телефонные разговоры (спец. гость)
 - Шпионские страсти
 - Однокласники в борьбе

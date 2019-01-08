@@ -7,6 +7,8 @@ filename = "rt_podcast614"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt614.jpg)
+
 - [Яндекс.Облако](https://cloud.yandex.ru/docs) - *00:02:18*.
 - [Релиз Chrome 69 с переработанным интерфейсом](http://www.opennet.ru/opennews/art.shtml?num=49227) - *00:39:59*.
 - ["www." пропал из URL](https://bugs.chromium.org/p/chromium/issues/detail?id=881410) - *00:55:20*.

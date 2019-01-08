@@ -7,6 +7,8 @@ filename = "rt_podcast400"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt400.jpg)
+
 * **Юбилей!**
 * Как это было.
 * О наших замечательных ведущих.

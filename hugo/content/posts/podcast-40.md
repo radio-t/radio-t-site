@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt40.JPG"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt40.JPG)
+
 - WWDC 2007
 - DivX GejBox: еще один вариант AppleTV
 - gogo поисковик от Mail.Ru

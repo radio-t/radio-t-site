@@ -7,6 +7,8 @@ filename = "rt_podcast445"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt445.jpg)
+
 * [Java через 20 лет](http://www.javaworld.com/article/2924046/scripting-jvm-languages/java-at-20-jvm-javas-other-big-legacy.html).
 * [Библиотеке Qt исполнилось 20 лет](http://www.opennet.ru/opennews/art.shtml?num=42264).
 * [iOS 9 & OSX 10.11 to bring](http://9to5mac.com/2015/05/22/ios-9-os-x-10-11-to-bring-quality-focus-smaller-apps-rootless-security-legacy-iphoneipad-support/)

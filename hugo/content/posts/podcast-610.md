@@ -7,6 +7,8 @@ filename = "rt_podcast610"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt610.jpg)
+
 - [Утечка Snapchat](https://thenextweb.com/security/2018/08/07/hacker-swipes-snapchats-source-code-publishes-it-on-github/) - *00:02:24*.
 - [Amazon Aurora Serverless](https://sdtimes.com/cloud/amazon-aurora-serverless-now-generally-available/) - *00:19:28*.
 - [Microsoft отступила в Skype Classic](https://techcrunch.com/2018/08/07/microsoft-decides-to-support-skype-classic-for-some-time-after-users-revolt/) - *00:33:18*.

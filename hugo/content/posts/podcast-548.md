@@ -7,6 +7,8 @@ filename = "rt_podcast548"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt548.jpg)
+
 - [Да, Python медленный](https://habrahabr.ru/post/329988/) - *00:04:48*.
 - [Github перходит на GraphQL](https://medium.freecodecamp.com/the-steady-rise-of-graphql-27b14e938164?gi=de3a5ed06585) - *00:50:38*.
 - [GraphQL на смену REST](https://medium.freecodecamp.com/give-it-a-rest-use-graphql-for-your-apis-40a2761e6336?gi=bb89318e667e) - *00:54:20*.

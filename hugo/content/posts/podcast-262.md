@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt262.png"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt262.png)
+
 - [Stack Overflow](http://techblog.bozho.net/?p=658) уже 2 года
 - [VIM](http://www.webmonkey.com/2011/11/happy-birthday-vim-the-venerable-text-editor-turns-20/) наше все 20 лет. Или не наше, и не все
 - Выход [Mercurial 2.0](http://mercurial.selenic.com/wiki/WhatsNew)

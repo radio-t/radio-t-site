@@ -7,6 +7,8 @@ filename = "rt_podcast463"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt463.jpg)
+
 * [Немалые проблем с AWS](http://searchaws.techtarget.com/news/4500253914/Cascading-AWS-outage-stokes-cloud-fears).
 * [IPv4 закончились на самом деле](http://arstechnica.com/business/2015/09/north-america-is-out-of-ipv4-addresses-for-really-real-this-time/).
 * [iOS App Store атакован](http://www.theglobeandmail.com/report-on-business/international-business/us-business/apples-ios-app-store-suffers-first-major-at).

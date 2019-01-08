@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt202.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt202.jpg)
+
 - 4 года подкасту
 - [Что](http://www.linux.org.ru/news/linux-general/5262344) было 19 лет назад
 - MS любит OS но [судится](http://mashable.com/2010/08/27/microsoft-co-founder-sues-apple-google-facebook/) со всеми

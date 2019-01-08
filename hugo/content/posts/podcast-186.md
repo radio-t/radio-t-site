@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt186.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt186.jpg)
+
 - Гостей много не бывает
 - [Webby Awards](http://internetno.net/2010/05/05/webby-awards-2010/) нашли героев
 - На [нерусские](http://www.readwriteweb.com/archives/icann_frees_country_codes_from_the_alphabet.php) сайты больше нет хода

@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt172.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt172.jpg)
+
 - [iPad](http://www.engadget.com/2010/01/29/apple-ipad-the-definitive-guide-so-far/): наш противоречивый взгляд
 - [Oracle](http://www.opennet.ru/opennews/art.shtml?num=25190) наконец-то сказала слово
 

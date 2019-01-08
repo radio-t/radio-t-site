@@ -7,6 +7,8 @@ filename = "rt_podcast379"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt379.jpg)
+
 * Взлет и падение [Flappy Bird](http://www.wired.co.uk/news/archive/2014-02/13/flappy-bird)
 * [Microsoft чинит Skype](http://www.theverge.com/2014/2/13/5407762/skype-message-sync-fixes-features)
 * Viber  продали [почти за инстагамм $](http://recode.net/2014/02/13/rakuten-buys-messaging-company-viber-for-900-million/)

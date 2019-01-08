@@ -7,6 +7,8 @@ image = "https://radio-t.com/images/radio-t/rt151.jpg"
 
 +++
 
+![](https://radio-t.com/images/radio-t/rt151.jpg)
+
 - Снежный барсик ([snow leopard](http://macovod.net/2009/08/vsya-pravda-o-mac-os-x-10-6-snow-leopard/)) не прыгнул
 - Куда [смотрят](http://soft.compulenta.ru/453268/) производители программ ?
 - Планшет [Nokia](http://www.mobilecrunch.com/2009/08/27/nokia-n900-gets-official-coming-in-october/): теперь он умеет и звонить
