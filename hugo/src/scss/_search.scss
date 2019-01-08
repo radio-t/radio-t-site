@@ -1,3 +1,6 @@
+label[for="page-search-input"] {
+  -webkit-appearance: none;
+}
 .page-search {
   position: fixed;
   z-index: $zindex-modal-backdrop;

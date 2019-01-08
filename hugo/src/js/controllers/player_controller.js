@@ -43,17 +43,20 @@ export default class extends Controller {
 
   // https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events
   addEventListeners() {
-    const events = ['timeupdate', 'durationchange', 'play', 'pause', 'ended'];
-    events.forEach(event => {
-      const handlerName = `on${capitalize(event)}`;
-      if (this[handlerName]) this.audioTarget.addEventListener(event, this[handlerName].bind(this));
-    });
+    ['timeupdate', 'durationchange', 'play', 'pause', 'ended']
+      .forEach(event => {
+        const handlerName = `on${capitalize(event)}`;
+        if (this[handlerName]) this.audioTarget.addEventListener(event, this[handlerName].bind(this));
+      });
 
-    const updateLoadingState = debounce((isLoading) => this.element.classList.toggle('player-loading', isLoading), 100);
-    ['seeking', 'stalled', 'waiting', 'loadstart']
-      .forEach(event => this.audioTarget.addEventListener(event, updateLoadingState.bind(this, true)));
-    ['playing', 'seeked', 'canplay', 'loadeddata']
-      .forEach(event => this.audioTarget.addEventListener(event, updateLoadingState.bind(this, false)));
+    const updateLoadingState = debounce((isLoading) => this.element.classList.toggle('player-loading', isLoading), 500);
+    const eventsLoadingOn = ['seeking', 'waiting', 'loadstart'];
+    const eventsLoadingOff = ['playing', 'seeked', 'canplay', 'loadeddata'];
+    eventsLoadingOn.forEach(event => this.audioTarget.addEventListener(event, updateLoadingState.bind(this, true)));
+    eventsLoadingOff.forEach(event => this.audioTarget.addEventListener(event, updateLoadingState.bind(this, false)));
+    eventsLoadingOn.concat(eventsLoadingOff).forEach(event => {
+      this.audioTarget.addEventListener(event, () => this.debug(event))
+    });
   }
 
   playPodcast(detail) {

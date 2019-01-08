@@ -13,12 +13,12 @@ $topic-spacer: $line-height-base * .33em;
   }
 }
 ::-moz-selection {
-  background: rgba($primary, 1);
+  background: darken($primary, 15%);
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background: rgba($primary, 1);
+  background: darken($primary, 15%);
   color: #fff;
   text-shadow: none;
 }
