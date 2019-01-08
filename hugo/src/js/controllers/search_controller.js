@@ -2,6 +2,8 @@ import { h, render } from 'preact';
 import Controller from '../base_controller';
 import debounce from 'lodash/debounce';
 import http from '../http-client';
+import { format, parse } from 'date-fns';
+import Mark from 'mark.js';
 
 export default class extends Controller {
   static targets = ['result', 'backdrop', 'scroll'];
@@ -17,6 +19,7 @@ export default class extends Controller {
     document.addEventListener('turbolinks:before-cache', () => {
       this.element.classList.remove('search-open');
     });
+    this.Mark = new Mark(this.resultTarget);
   }
 
   closeFromBackdrop(e) {
@@ -46,6 +49,7 @@ export default class extends Controller {
     this.resultTarget.innerHTML = '';
     this.scrollTarget.scrollTo(0, 0);
     render((<Results results={data}/>), this.resultTarget);
+    this.Mark.mark(query);
     this.dispatchEvent(document, new CustomEvent('quicklink', {detail: {el: this.resultTarget}}));
   }, 300);
 
@@ -63,7 +67,7 @@ const Results = function ({results}) {
         <div className="cover-image" style={{backgroundImage: `url('${result.image}')`}}/>
       </div>}
       <h4 className="m-0">{result.title}</h4>
-      <div className="small text-muted">{result.date}</div>
+      <div className="small text-muted">{format(parse(result.date), 'DD MMM YYYY')}</div>
       <div className="small">{result.show_notes}</div>
     </a>,
   )}</div>);

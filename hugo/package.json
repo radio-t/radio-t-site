@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-transform-react-jsx": "^7.2.0",
     "@fortawesome/fontawesome-free": "^5.6.3",
     "browser-sync": "^2.26.3",

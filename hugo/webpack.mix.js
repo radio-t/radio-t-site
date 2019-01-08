@@ -12,6 +12,7 @@ mix.babelConfig({
   plugins: [
     '@babel/plugin-proposal-class-properties',
     ['@babel/plugin-transform-react-jsx', {'pragma': 'h'}], // support preact
+    '@babel/plugin-syntax-dynamic-import',
   ],
 });
 mix.webpackConfig({plugins: [new ModernizrWebpackPlugin(require('./.modernizr'))]});
@@ -26,8 +27,7 @@ if (mix.inProduction()) {
   mix.version(['static/build/modernizr-bundle.js']);
   Mix.manifest.name = '../../data/manifest.json';
 } else {
-  mix.setPublicPath('dev/build');
-  mix.setResourceRoot('/build');
+  mix.setPublicPath('dev');
 
   mix.sourceMaps();
   mix.webpackConfig({devtool: 'inline-source-map'});
@@ -41,13 +41,13 @@ if (mix.inProduction()) {
       ws: true, // support websockets for hugo live-reload
     },
     files: [ // watch files
-      'dev/build/*.css',
-      'dev/build/app.js',
+      'dev/*.css',
+      'dev/app.js',
     ],
     // watch: true,
     open: false, // don't open in browser
     ignore: ['mix-manifest.json'],
-    snippetOptions: {
+    snippetOptions: { // to work with turbolinks
       rule: {
         match: /<\/head>/i,
         fn: function (snippet, match) {
