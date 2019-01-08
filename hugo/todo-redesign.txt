@@ -1,9 +1,8 @@
 - load real avatars
-- animations for search and sidebar overlay
 - support livestream
 - use howlerjs?
+- animations for search and sidebar overlay
 - remember player state
-- put image into podcast post content
 - preload archives links from mouse events
 
 ===
