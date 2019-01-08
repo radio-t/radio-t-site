@@ -245,6 +245,9 @@ $jumbotron-arc-width: 120%;
 .comments-counter-avatars {
   margin-top: 1.4em;
   margin-bottom: 1.2em;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
 }
 .comments-counter-avatars-item {
   position: relative;
@@ -256,9 +259,11 @@ $jumbotron-arc-width: 120%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  border-radius: 500px;
   opacity: .8;
   transition: 100ms;
+  border-radius: 50%;
+  //border-radius: 6px;
+  //transform: rotate(-10deg);
   &:hover {
     position: relative;
     z-index: 2;
@@ -498,6 +503,7 @@ $jumbotron-arc-width: 120%;
   padding-top: 3rem;
   pointer-events: none;
   font-weight: 100;
+  margin-bottom: -1.2rem;
   //text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff, 2px -2px 0 #fff;
 }
 .blog-archives-year-list {

@@ -7,10 +7,10 @@
     {{ partial "jumbotron" . }}
   {{/*{{ end }}*/}}
 
-  <div class="container-fluid pt-3 pt-md-5">
+  <div class="pt-3 pt-md-5">
     <div class="posts-list">
       {{ if (ne $paginator.PageNumber 1) }}
-        <div class="py-3 border-bottom">
+        <div class="container-fluid py-3 border-bottom">
           {{ partial "paginator" . }}
         </div>
       {{ end }}
@@ -27,7 +27,7 @@
         {{ end }}
       {{ end }}
 
-      <div class="mt-5 py-3 border-top">
+      <div class="container-fluid mt-5 py-3 border-top">
         {{ partial "paginator" . }}
       </div>
     </div>

@@ -42,9 +42,7 @@ export default class extends Controller {
 
   makeSearchRequest = debounce(async (query) => {
     if (this.searchQuery !== query) return;
-    this.debug(`Searching for ${query}`);
     const {data} = await http.get('https://radio-t.com/site-api/search', {params: {q: query}});
-    this.debug(`Showing results for ${query}`);
     if (this.searchQuery !== query) return;
     this.resultTarget.innerHTML = '';
     this.scrollTarget.scrollTo(0, 0);
@@ -54,9 +52,9 @@ export default class extends Controller {
   }, 300);
 
   async search(e) {
-    this.searchQuery = e.target.value;
+    this.searchQuery = e.target.value.trim();
     this.resultTarget.innerHTML = '';
-    this.makeSearchRequest(this.searchQuery);
+    if (this.searchQuery) this.makeSearchRequest(this.searchQuery);
   }
 }
 
