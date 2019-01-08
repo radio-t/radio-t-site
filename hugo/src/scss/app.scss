@@ -243,8 +243,9 @@ $jumbotron-arc-width: 120%;
   }
 }
 .comments-counter-avatars {
+  min-height: 1px;
   margin-top: 1.4em;
-  margin-bottom: 1.2em;
+  margin-bottom: 1em;
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
@@ -264,6 +265,11 @@ $jumbotron-arc-width: 120%;
   border-radius: 50%;
   //border-radius: 6px;
   //transform: rotate(-10deg);
+  .comments-counter-avatars.loaded & {
+    transform: translate3d(.3rem, 0, 0);
+    opacity: 0;
+    transition-duration: 0ms;
+  }
   &:hover {
     position: relative;
     z-index: 2;

@@ -25,6 +25,7 @@
     "highlight.js": "^9.13.1",
     "hoverintent": "^2.2.0",
     "ilyabirman-likely": "^2.3.1",
+    "imagesloaded": "^4.1.4",
     "intersection-observer": "^0.5.1",
     "laravel-mix": "^4.0.12",
     "lodash": "^4.17.11",

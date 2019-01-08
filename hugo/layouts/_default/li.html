@@ -22,17 +22,17 @@
         </div>
       </div>
     {{ else if in .Params.categories "prep" }}
-      <div class="row align-items-baseline">
+      <div class="row">
         <div class="col-md-2 text-right">
           <h2 class="number-title">
             <a class="text-muted" href="{{ .Permalink }}">{{ partial "number-title" . }}</a>
           </h2>
           <p class="post-time m-0 text-muted">{{ partial "post-time" . }}</p>
         </div>
-        <div class="col-md">
+        <div class="col-md d-flex flex-column">
           {{ partial "comments-counter" .Permalink }}
-          <div class="comments-counter-avatars" data-controller="avatars" data-avatars-url="{{ .Permalink }}"></div>
-          <a href="{{ .Permalink }}" class="btn btn-outline-primary btn-scale btn-sm">Предложить тему</a>
+          <div class="comments-counter-avatars" data-controller="avatars" data-avatars-url="{{ .RelPermalink }}"></div>
+          <div class="mt-auto"><a href="{{ .Permalink }}" class="btn btn-outline-primary btn-scale btn-sm">Предложить тему</a></div>
         </div>
       </div>
     {{ else }}

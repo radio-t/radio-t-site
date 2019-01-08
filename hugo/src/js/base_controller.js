@@ -5,6 +5,7 @@ export default class extends Controller {
   debug(...args) {
     debug(`stimulus:${this.identifier}`, ...[...args, this.element]);
   }
+
   constructor(...args) {
     const instance = super(...args);
     this.debug('constructor');
@@ -30,5 +31,10 @@ export default class extends Controller {
   dispatchEvent(element, event) {
     this.debug('dispatch event', event, element);
     element.dispatchEvent(event);
+  }
+
+  reflow(element) {
+    element = element || this.element;
+    return element.offsetHeight;
   }
 }
