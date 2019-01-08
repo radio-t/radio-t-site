@@ -247,7 +247,7 @@ $jumbotron-arc-width: 120%;
   margin-bottom: 1.2em;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: start;
+  justify-content: flex-end;
 }
 .comments-counter-avatars-item {
   position: relative;
