@@ -1,3 +1,4 @@
+// Override outline button styles
 @mixin button-outline-variant($color, $color-hover: color-yiq($color), $active-background: $color, $active-border: $color) {
   color: $color;
   border-color: rgba($color, .33);

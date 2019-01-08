@@ -1,0 +1,74 @@
+.page-sidebar {
+  position: fixed;
+  z-index: $zindex-fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 18rem;
+  background-color: $white;
+  box-shadow: 0 0 4px rgba($black, .2);
+  display: none;
+  &:after {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    @include gradient-y(rgba($white, 0), rgba($white, .85));
+  }
+}
+.page-sidebar-backdrop {
+  background-color: rgba($modal-backdrop-bg, $modal-backdrop-opacity);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: ($zindex-fixed - 1);
+  display: none;
+}
+.sidebar-open {
+  .page-sidebar {
+    display: block;
+  }
+  .page-sidebar-backdrop {
+    display: block;
+  }
+}
+@include media-breakpoint-up('xl') {
+  .page-sidebar {
+    display: block;
+  }
+  .page-sidebar-toggle, .page-sidebar-backdrop {
+    display: none !important;
+  }
+  body {
+    padding-right: 18rem;
+  }
+  .podcast-player-container {
+    padding-right: 18rem;
+  }
+  .page-sidebar-scroll {
+    opacity: .8;
+    transition: 5s;
+    &:hover {
+      opacity: 1;
+      transition-duration: 150ms;
+    }
+  }
+}
+.page-sidebar-scroll {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+.page-sidebar-title {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  background-color: rgba($white, .9);
+  border-bottom: 1px solid $border-color;
+  background-clip: padding-box;
+}

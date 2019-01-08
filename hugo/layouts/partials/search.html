@@ -1,0 +1,22 @@
+<div data-turbolinks-permanent id="page-search">
+  <div
+    class="page-search page-search-scroll"
+    data-target="search.scroll search.backdrop"
+    data-action="click->search#closeFromBackdrop"
+  >
+    <div class="page-search-content">
+      <div class="page-search-form pt-2 pt-md-4">
+        <div class="">
+          <input
+            id="page-search-input"
+            type="text"
+            class="page-search-input form-control form-control-lg"
+            placeholder="Поиск..."
+            data-action="input->search#search keydown->search#closeOnEscape"
+          >
+        </div>
+      </div>
+      <div class="page-search-result" data-target="search.result"></div>
+    </div>
+  </div>
+</div>

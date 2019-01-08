@@ -1,13 +1,8 @@
 import Controller from '../base_controller';
-import axios from 'axios';
-import { cacheAdapterEnhancer, throttleAdapterEnhancer } from 'axios-extensions';
 import map from 'lodash/map';
 import uniq from 'lodash/uniq';
 import filter from 'lodash/filter';
-
-const http = axios.create({
-  adapter: throttleAdapterEnhancer(cacheAdapterEnhancer(axios.defaults.adapter)),
-});
+import http from '../http-client';
 
 export default class extends Controller {
   async initialize() {

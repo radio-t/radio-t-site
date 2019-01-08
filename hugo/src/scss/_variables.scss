@@ -173,7 +173,7 @@ $body-color:                $gray-800;
 //
 $link-color:                              $black; //$primary; //theme-color("primary");
 //$link-decoration:                         none;
-$link-hover-color:                        darken($primary, 5%);
+$link-hover-color:                        darken($primary, 15%);
 $link-hover-decoration:                   none; //underline;
 //// Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 //$emphasized-link-hover-darken-percentage: 15%;
@@ -482,10 +482,10 @@ $btn-transition:              all 150ms ease-in-out;
 //$input-border-radius-sm:                $border-radius-sm;
 //
 //$input-focus-bg:                        $input-bg;
-$input-focus-border-color:              $primary; //lighten($component-active-bg, 25%);
+$input-focus-border-color:              $link-hover-color; //lighten($component-active-bg, 25%);
 //$input-focus-color:                     $input-color;
 //$input-focus-width:                     $input-btn-focus-width;
-$input-focus-box-shadow:                0 0 0 2px $primary; //$input-btn-focus-box-shadow;
+$input-focus-box-shadow:                0 0 0 2px $link-hover-color; //$input-btn-focus-box-shadow;
 //
 //$input-placeholder-color:               $gray-600;
 //$input-plaintext-color:                 $body-color;
@@ -918,8 +918,8 @@ $jumbotron-padding:                 1.5rem;
 //$modal-content-box-shadow-xs:       0 .25rem .5rem rgba($black, .5);
 //$modal-content-box-shadow-sm-up:    0 .5rem 1rem rgba($black, .5);
 //
-//$modal-backdrop-bg:                 $black;
-//$modal-backdrop-opacity:            .5;
+$modal-backdrop-bg:                 $gray-300;
+$modal-backdrop-opacity:            .8;
 //$modal-header-border-color:         $gray-200;
 //$modal-footer-border-color:         $modal-header-border-color;
 //$modal-header-border-width:         $modal-content-border-width;

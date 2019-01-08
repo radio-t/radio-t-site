@@ -39,11 +39,20 @@
       </ul>
     </div>
 
-    <button class="btn btn-sm btn-outline-secondary btn-scale" type="button">
+    <label
+      for="page-search-input"
+      type="button"
+      class="btn btn-sm btn-outline-secondary btn-scale m-0"
+      data-action="click->search#toggle"
+    >
       <i class="fas fa-search"></i>
       Поиск
-    </button>
-    <button class="btn btn-sm btn-outline-secondary btn-scale ml-2 page-sidebar-toggle" type="button" data-action="sidebar#toggle">
+    </label>
+    <button
+      type="button"
+      class="btn btn-sm btn-outline-secondary btn-scale ml-2 page-sidebar-toggle"
+      data-action="sidebar#toggle"
+    >
       <i class="far fa-comment-dots"></i>
     </button>
   </div>

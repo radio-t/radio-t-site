@@ -1,6 +1,8 @@
 @import "boot";
 @import "likely";
 @import "player";
+@import "sidebar";
+@import "search";
 @import "remark";
 $topic-spacer: $line-height-base * .33em;
 @mixin dark {
@@ -9,6 +11,16 @@ $topic-spacer: $line-height-base * .33em;
   img, .cover-image, .img {
     filter: invert(1) hue-rotate(180deg);
   }
+}
+::-moz-selection {
+  background: rgba($primary, 1);
+  color: #fff;
+  text-shadow: none;
+}
+::selection {
+  background: rgba($primary, 1);
+  color: #fff;
+  text-shadow: none;
 }
 html {
   height: 100%;
@@ -36,7 +48,7 @@ html.js {
   }
   &:hover {
     #{$selector} {
-      color: darken($link-hover-color, 10%);
+      color: $link-hover-color;
       background-color: rgba($link-hover-color, .1);
       transition-duration: 50ms;
       transition-delay: 0ms;
@@ -45,7 +57,7 @@ html.js {
     &:active {
       #{$selector} {
         color: #fff;
-        background-color: darken($link-hover-color, 10%);
+        background-color: $link-hover-color;
       }
     }
   }
@@ -97,7 +109,7 @@ p, .jumbotron, .text-content {
 }
 small,
 .small {
-  font-weight: inherit;
+  //font-weight: inherit;
 }
 .container-fluid {
   max-width: 1170px;
@@ -196,80 +208,6 @@ $jumbotron-arc-width: 120%;
     margin-top: .5em;
   }
 }
-.page-sidebar {
-  position: fixed;
-  z-index: $zindex-fixed;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 18rem;
-  background-color: $white;
-  box-shadow: 0 0 4px rgba($black, .2);
-  display: none;
-  &:after {
-    content: '';
-    position: absolute;
-    pointer-events: none;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 3em;
-    @include gradient-y(rgba($white, 0), rgba($white, .85));
-  }
-}
-.page-sidebar-backdrop {
-  background-color: rgba($gray-200, .8);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: ($zindex-fixed - 1);
-  display: none;
-}
-.sidebar-open {
-  .page-sidebar {
-    display: block;
-  }
-  .page-sidebar-backdrop {
-    display: block;
-  }
-}
-@include media-breakpoint-up('xl') {
-  .page-sidebar {
-    display: block;
-  }
-  .page-sidebar-toggle, .page-sidebar-backdrop {
-    display: none !important;
-  }
-  body {
-    padding-right: 18rem;
-  }
-  .podcast-player-container {
-    padding-right: 18rem;
-  }
-  .page-sidebar-scroll {
-    opacity: .8;
-    transition: 5s;
-    &:hover {
-      opacity: 1;
-      transition-duration: 150ms;
-    }
-  }
-}
-.page-sidebar-scroll {
-  overflow-y: auto;
-  height: 100%;
-}
-.page-sidebar-title {
-  position: sticky;
-  z-index: 2;
-  top: 0;
-  background-color: rgba($white, .9);
-  border-bottom: 1px solid $border-color;
-  background-clip: padding-box;
-}
-
 .number-title {
   font-size: $h2-font-size;
   margin-top: -.4rem;
@@ -512,7 +450,8 @@ $jumbotron-arc-width: 120%;
   }
 }
 .about-authors {
-  margin: 1rem 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-align: center;
   img {
     display: block;
@@ -523,7 +462,8 @@ $jumbotron-arc-width: 120%;
   }
 }
 .about-authors-item {
-  padding: 1rem 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .blog-archives {
   h3:not(.number-title) {

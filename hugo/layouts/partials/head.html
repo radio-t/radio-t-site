@@ -18,13 +18,11 @@
 
 {{ partial "assets" . }}
 
-{{ if ne .Title "Слушать Online вещание"}}
-  <script type="text/javascript">
-    // audiojs.events.ready(function() {
-    //   var as = audiojs.createAll();
-    // });
-  </script>
-{{ end }}
+<script>
+  window.remark_config = {
+    site_id: '{{ .Site.Params.remark42 }}',
+  };
+</script>
 
 {{ if eq (getenv "HUGO_ENV") "production" }}
   {{ partial "js_head" . }}
