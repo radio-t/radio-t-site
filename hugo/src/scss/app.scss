@@ -27,6 +27,7 @@ html {
 }
 body {
   min-height: 100%;
+  font-family: "InterUI", "Helvetica Neue", "Arial", sans-serif;
   //margin-right: 60px;
   @media (prefers-color-scheme: dark) {
     @include dark;
