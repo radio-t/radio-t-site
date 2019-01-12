@@ -1,10 +1,10 @@
 @import "boot";
 @import "likely";
 @import "player";
+@import "navbar";
 @import "sidebar";
 @import "search";
 @import "remark";
-$topic-spacer: $line-height-base * .33em;
 @mixin dark {
   background-color: #000;
   filter: invert(1) hue-rotate(180deg);
@@ -42,22 +42,26 @@ html.js {
 }
 @mixin link($selector: '&') {
   #{$selector} {
-    transition: all 350ms ease;
+    transition: 350ms ease;
+    transition-property: color, background-color, border;
     transition-delay: 25ms;
-    border-bottom: 2px solid rgba($link-hover-color, .2);
+    border-bottom: 2px solid rgba($link-hover-color, .15);
   }
   &:hover {
     #{$selector} {
       color: $link-hover-color;
+      //color: inherit;
       background-color: rgba($link-hover-color, .1);
+      text-shadow: 0 1px rgba($white, .33);
       transition-duration: 50ms;
       transition-delay: 0ms;
-      border-bottom-color: rgba($link-hover-color, .1);
+      border-bottom-color: rgba($link-hover-color, .05);
     }
     &:active {
       #{$selector} {
         color: #fff;
         background-color: $link-hover-color;
+        text-shadow: none;
       }
     }
   }
@@ -95,6 +99,9 @@ p, .jumbotron, .text-content {
       margin-right: auto;
     }
   }
+  p:empty {
+    display: none;
+  }
 }
 .text-light {
   color: rgba(#fff, .7);
@@ -104,8 +111,7 @@ p, .jumbotron, .text-content {
   }
 }
 .text-uppercase {
-  text-transform: uppercase;
-  letter-spacing: .05em;
+  @include text-uppercase();
 }
 small,
 .small {
@@ -113,55 +119,9 @@ small,
 }
 .container-fluid {
   max-width: 1170px;
-  width: 92%;
-}
-.navbar {
-  // px0
-  > .container-fluid,
-  > .container {
-    padding-left: $grid-gutter-width / 2;
-    padding-right: $grid-gutter-width / 2;
+  @include media-breakpoint-up('sm') {
+    width: 92%;
   }
-}
-.navbar-nav {
-  font-weight: bold;
-  font-size: $small-font-size;
-  @extend .text-uppercase;
-  @include media-breakpoint-up('lg') {
-    .nav-item {
-      padding: 0;
-    }
-    .nav-link {
-      position: relative;
-      padding: $spacer * 2 ($spacer / 2) !important;
-      transition: all 150ms;
-      &:after {
-        content: '';
-        position: absolute;
-        left: ($spacer / 2);
-        right: ($spacer / 2);
-        top: 0;
-        //bottom: 0;
-        height: 0;
-        background-color: $primary;
-        transition: all 150ms;
-      }
-      &:hover:after {
-        height: 5px;
-      }
-    }
-  }
-}
-.navbar-brand {
-  display: inline-block;
-  margin: -30px 0 -34px -15px;
-  width: 130px;
-  height: 64px;
-  background: transparent url('../images/rt-header-logo.svg') no-repeat center;
-  background-size: contain;
-}
-input[type="search"] {
-  border-radius: 500px;
 }
 $jumbotron-arc-height: 5%;
 $jumbotron-arc-width: 120%;
@@ -261,19 +221,22 @@ $jumbotron-arc-width: 120%;
   background-position: center center;
   background-repeat: no-repeat;
   opacity: .8;
-  transition: 100ms;
+  transition: 350ms;
   border-radius: 50%;
   //border-radius: 6px;
   //transform: rotate(-10deg);
   .comments-counter-avatars.loaded & {
-    transform: translate3d(.3rem, 0, 0);
+    transform: translate3d(.5rem, .5rem, 0) scale(.33);
     opacity: 0;
     transition-duration: 0ms;
   }
   &:hover {
+    transition-duration: 100ms;
+    transition-delay: 0ms !important;
     position: relative;
-    z-index: 2;
     opacity: 1;
+    //z-index: 2;
+    //box-shadow: 0 1px 3px rgba($black, .15);
   }
 }
 // Show only first ul in podcast content in list
@@ -309,7 +272,6 @@ $jumbotron-arc-width: 120%;
         font-style: normal;
         font-family: $font-family-monospace;
         font-size: $small-font-size;
-        font-weight: $font-weight-bold;
         flex-shrink: 0;
         min-width: 5.5em;
         &:empty { // no time labels
@@ -337,7 +299,7 @@ $jumbotron-arc-width: 120%;
           }
           &:hover {
             color: $link-hover-color;
-            transform: translateX(.1em);
+            transform: translateX(.05em);
             .fas {
               opacity: .5;
               pointer-events: none;
@@ -438,7 +400,8 @@ $jumbotron-arc-width: 120%;
 }
 //.post-prep-title {
 //}
-.post-footer {}
+.post-footer {
+}
 .post-comments {
   background-color: $gray-100;
 }
@@ -497,7 +460,8 @@ $jumbotron-arc-width: 120%;
     }
   }
 }
-.blog-archives-year {}
+.blog-archives-year {
+}
 .blog-archives-year-anchor {
   display: block;
   color: transparent;

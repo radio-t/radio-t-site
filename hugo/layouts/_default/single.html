@@ -20,7 +20,7 @@
           data-action="player-state->podcast#fetchState"
           data-podcast-url="{{ .Permalink }}"
         >
-          <div class="col-md-2 text-right d-flex flex-column justify-content-between">
+          <div class="col-md-2 d-flex flex-column justify-content-between">
             <div>
               <h1 class="number-title">{{ partial "number-title" . }}</h1>
               <div class="post-time">{{ partial "post-time" . }}</div>
@@ -38,7 +38,7 @@
     {{ else if in .Params.categories "prep" }}
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-2 text-right">
+          <div class="col-md-2">
             <h1 class="number-title">{{ partial "number-title" . }}</h1>
             <div class="post-time">{{ partial "post-time" . }}</div>
           </div>
@@ -54,7 +54,7 @@
             <h1 class="display-4 mb-md-4">{{ .Title }}</h1>
           </div>
           <div class="w-100"></div>
-          <div class="col-md-2 text-md-right">
+          <div class="col-md-2">
             <div class="post-time">{{ partial "post-time" . }}</div>
             {{ partial "share" }}
           </div>

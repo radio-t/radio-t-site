@@ -1,3 +1,6 @@
+@function remVw($rem, $breakpoint: 'xl') {
+  @return (($rem / 1 * 16px) / map_get($grid-breakpoints, $breakpoint) * 100) * 1vw;
+}
 label[for="page-search-input"] {
   -webkit-appearance: none;
 }
@@ -15,9 +18,12 @@ label[for="page-search-input"] {
   position: relative;
   z-index: 2;
   pointer-events: auto;
-  max-width: 600px;
+  max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
+  @include media-breakpoint-up('xl') {
+    max-width: remVw(40);
+  }
 }
 .search-open {
   .page-search {
@@ -43,6 +49,11 @@ label[for="page-search-input"] {
   border-radius: $border-radius;
   box-shadow: 0 10px 15px -8px rgba($black, .5), 0 0 3px rgba($black, .33) !important;
   pointer-events: auto;
+  height: auto;
+  @include media-breakpoint-up('xl') {
+    padding: remVw(0.5) remVw(1);
+    font-size: remVw(1.171875);
+  }
 }
 .page-search-result {
   .podcast-cover {

@@ -4,6 +4,8 @@ const ModernizrWebpackPlugin = require('modernizr-webpack-plugin');
 const USE_NODE_SASS = true; // faster https://github.com/JeffreyWay/laravel-mix/issues/1832
 const useNodeSass = USE_NODE_SASS ? {implementation: require('node-sass')} : {};
 
+mix.disableNotifications();
+
 mix.js('src/js/app.js', '.');
 mix.sass('src/scss/app.scss', '.', useNodeSass);
 mix.sass('src/scss/vendor.scss', '.', useNodeSass);
@@ -40,11 +42,12 @@ if (mix.inProduction()) {
       target: `localhost:${process.env.HUGO_PORT || 1313}`,
       ws: true, // support websockets for hugo live-reload
     },
-    files: [ // watch files
+    // watch: true,
+    files: [ // watch specific files
       'dev/*.css',
       'dev/app.js',
     ],
-    // watch: true,
+    ghostMode: false, // disable Clicks, Scrolls & Form inputs on any device will be mirrored to all others
     open: false, // don't open in browser
     ignore: ['mix-manifest.json'],
     snippetOptions: { // to work with turbolinks

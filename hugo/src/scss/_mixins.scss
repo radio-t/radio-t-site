@@ -1,3 +1,8 @@
+@mixin text-uppercase() {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
 // Override outline button styles
 @mixin button-outline-variant($color, $color-hover: color-yiq($color), $active-background: $color, $active-border: $color) {
   color: $color;

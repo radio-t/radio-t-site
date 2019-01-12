@@ -1,4 +1,5 @@
-- load real avatars
+- responsive navbar
+- favicons
 - support livestream
 - use howlerjs?
 - animations for search and sidebar overlay

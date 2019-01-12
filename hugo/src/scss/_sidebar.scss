@@ -1,6 +1,6 @@
 .page-sidebar {
   position: fixed;
-  z-index: $zindex-fixed;
+  z-index: $zindex-fixed + 5;
   top: 0;
   right: 0;
   height: 100%;
@@ -26,7 +26,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: ($zindex-fixed - 1);
+  z-index: $zindex-fixed + 4; // over navbar
   display: none;
 }
 .sidebar-open {

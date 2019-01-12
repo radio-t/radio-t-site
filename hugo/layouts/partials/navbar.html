@@ -1,19 +1,28 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" data-controller="navbar" data-turbolinks-permanent id="navbar">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/"><span class="sr-only">Радио-Т Подкаст</span></a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler btn btn-outline-secondary" type="button" data-action="navbar#toggle">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <a class="navbar-brand" href="/"><span class="sr-only">Радио-Т Подкаст</span></a>
+    <div class="navbar-toolbar order-lg-12">
+      <label
+        type="button"
+        for="page-search-input"
+        class="icon-btn navbar-btn-search btn btn-outline-secondary btn-scale m-0"
+        data-action="click->search#toggle"
+      >
+        <i class="fas fa-search"></i>
+        <span class="d-none d-lg-inline-block">Поиск</span>
+      </label>
+      <button
+        type="button"
+        class="icon-btn btn btn-outline-secondary btn-scale ml-lg-2 page-sidebar-toggle"
+        data-action="sidebar#toggle"
+      >
+        <i class="fas fa-comment-dots"></i>
+      </button>
+    </div>
+    <div class="navbar-collapse" data-target="navbar.backdrop navbar.scroll" data-action="click->navbar#closeFromBackdrop">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
           <a class="nav-link" href="/">Подкасты</a>
@@ -38,22 +47,5 @@
         </li>
       </ul>
     </div>
-
-    <label
-      for="page-search-input"
-      type="button"
-      class="btn btn-sm btn-outline-secondary btn-scale m-0"
-      data-action="click->search#toggle"
-    >
-      <i class="fas fa-search"></i>
-      Поиск
-    </label>
-    <button
-      type="button"
-      class="btn btn-sm btn-outline-secondary btn-scale ml-2 page-sidebar-toggle"
-      data-action="sidebar#toggle"
-    >
-      <i class="far fa-comment-dots"></i>
-    </button>
   </div>
 </nav>
