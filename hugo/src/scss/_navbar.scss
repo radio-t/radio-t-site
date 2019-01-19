@@ -30,14 +30,16 @@
         left: ($spacer / 2);
         right: ($spacer / 2);
         top: 0;
-        //bottom: 0;
-        height: 0;
+        height: 5px;
         background-color: $primary;
-        transition: all 150ms;
+        transition: transform 150ms;
+        transform: translate3d(0, -5px, 0) scaleY(0);
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
       }
       &:hover:after,
       &:active:after {
-        height: 5px;
+        transform: translate3d(0, 0, 0) scaleY(1);
       }
     }
   }

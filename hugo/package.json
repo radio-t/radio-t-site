@@ -33,6 +33,7 @@
     "lozad": "^1.7.0",
     "mark.js": "^8.11.1",
     "node-sass": "^4.11.0",
+    "popmotion-pose": "^3.4.1",
     "preact": "^8.4.2",
     "quicklink": "^1.0.0",
     "sass-loader": "^7.1.0",

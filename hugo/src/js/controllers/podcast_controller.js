@@ -1,3 +1,4 @@
+import pose from 'popmotion-pose';
 import Controller from '../base_controller';
 import Player from './player_controller';
 
@@ -6,10 +7,13 @@ import Player from './player_controller';
  * @property {Audio} audioTarget
  */
 export default class extends Controller {
-  static targets = ['playButton', 'number', 'cover', 'audio'];
+  static targets = ['playButton', 'number', 'cover', 'coverShadow', 'audio'];
 
-  connect() {
-    super.connect();
+  coverPoser;
+
+  initialize() {
+    super.initialize();
+
     // Set up audio target
     const audio = this.element.querySelector('audio');
     if (audio && audio.src) {
@@ -17,12 +21,53 @@ export default class extends Controller {
       this.playButtonTarget.classList.remove('d-none');
       this.element.classList.add('has-audio');
     }
+
+    this.setupCoverAnimation();
+
     this.fetchState();
   }
 
+  setupCoverAnimation() {
+    const transition = {
+      type: 'spring',
+      stiffness: 800,
+      mass: 1,
+      damping: 30,
+      // velocity: 1,
+    };
+    this.coverPoser = pose(this.coverTarget.parentElement, {
+      init: {
+        scale: .9,
+        y: '0%',
+        transition: {...transition, damping: 60},
+      },
+      elevated: {
+        scale: 1,
+        y: '-3%',
+        transition,
+      },
+    });
+    this.coverPoser.addChild(this.coverShadowTarget, {
+      init: {
+        y: '-10%',
+        opacity: .33,
+        transition: {...transition, damping: 60},
+      },
+      elevated: {
+        y: '-3%',
+        opacity: 1,
+        transition,
+      },
+    })
+  }
+
   fetchState() {
-    this.debug(Player.getState().src, this.getPodcastInfo().src);
-    this.element.classList.toggle('playing',
+    this.element.classList.toggle('playing', this.isCurrentlyPlaying());
+    this.coverPoser.set(this.isCurrentlyPlaying() ? 'elevated' : 'init');
+  }
+
+  isCurrentlyPlaying() {
+    return (
       Player.getState().src === this.getPodcastInfo().src
       && Player.getState().paused === false
     );
@@ -40,9 +85,7 @@ export default class extends Controller {
       }
     }));
 
-    setTimeout(() => {
-      this.fetchState();
-    }, 50);
+    setTimeout(() => this.fetchState(), 0);
   }
 
   goToTimeLabel(e) {
