@@ -22,3 +22,13 @@ services:
       volumes:
         - /home/umputun/.ssh/id_rsa.pub:/home/app/.ssh/id_rsa.pub
         - /home/umputun/.ssh/id_rsa:/home/app/.ssh/id_rsa
+
+    publisher:
+      image: publisher.radio-t
+      build: publisher
+      logging: *default_logging
+      volumes:
+        - ./publisher/secrets:/secrets
+        - ./publisher:/publisher
+      environment:
+        - SECRETS=/secrets
