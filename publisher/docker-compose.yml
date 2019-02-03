@@ -1,16 +1,21 @@
 version: '2'
 services:
 
-    publisher:
-      image: publisher.radio-t
-      build: .
-      logging: &default_logging
-       driver: json-file
-       options:
-         max-size: "10m"
-         max-file: "5"
-      volumes:
-        - ./secrets:/secrets
-        - ./:/publisher
-      environment:
-        - SECRETS=/secrets
+  publisher:
+    image: publisher.radio-t
+    build: .
+    logging: &default_logging
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+    volumes:
+      # - ./secrets:/secrets
+      - ./:/publisher
+      - secrets:/secrets
+
+    environment:
+      - SECRETS=/secrets
+    
+volumes:
+  secrets:
