@@ -2,3 +2,4 @@ public/
 hugo/public/
 publisher/utils/eyeD3/*.pyc
 *secret*json
+.vscode/
