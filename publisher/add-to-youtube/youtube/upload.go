@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/radio-t/radio-t-site/publisher/podcast-to-youtube/client"
+	"github.com/radio-t/radio-t-site/publisher/add-to-youtube/client"
 	"google.golang.org/api/youtube/v3"
 )
 
@@ -27,7 +27,7 @@ func makeVideo(audioPath, videoPath string) error {
 func Upload(audioPath, title, description, category, keywords, privacy, pathToSecrets string) (*youtube.Video, error) {
 
 	// prepare temprorary directory
-	dir, err := ioutil.TempDir("", "podcast-to-youtube")
+	dir, err := ioutil.TempDir("", "add-to-youtube-")
 	if err != nil {
 		return nil, fmt.Errorf("Error creation a temprorary directory, got: %v", err)
 	}

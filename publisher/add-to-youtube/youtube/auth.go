@@ -1,7 +1,7 @@
 package youtube
 
 import (
-	"github.com/radio-t/radio-t-site/publisher/podcast-to-youtube/client"
+	"github.com/radio-t/radio-t-site/publisher/add-to-youtube/client"
 	"google.golang.org/api/youtube/v3"
 )
 

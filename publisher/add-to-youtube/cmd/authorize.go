@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/radio-t/radio-t-site/publisher/podcast-to-youtube/youtube"
+	"github.com/radio-t/radio-t-site/publisher/add-to-youtube/youtube"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
