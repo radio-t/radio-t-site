@@ -3,20 +3,17 @@ package client
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"net"
 	"net/http"
 	"net/url"
 	"os"
 	"os/exec"
 	"os/user"
-	"path"
 	"path/filepath"
 	"runtime"
 
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
 )
 
 // This variable indicates whether the script should launch a web server to
@@ -58,6 +55,7 @@ https://developers.google.com/api-client-library/python/guide/aaa_client_secrets
 type Options struct {
 	PathToSecrets string
 	SkipAuth      bool
+	Config        *oauth2.Config
 }
 
 // New uses a Context and Config to retrieve a Token
@@ -65,18 +63,24 @@ type Options struct {
 func New(scope string, opts *Options) (*http.Client, error) {
 	ctx := context.Background()
 
-	clientSecretPath := path.Join(opts.PathToSecrets, "client_secret.json")
-	b, err := ioutil.ReadFile(clientSecretPath)
-	if err != nil {
-		return nil, fmt.Errorf("Unable to read client secret file from %s: %v", clientSecretPath, err)
+	if opts.Config == nil {
+		return nil, fmt.Errorf("OAuth2 config not present")
 	}
 
-	// If modifying the scope, delete your previously saved credentials
-	// at ~/.credentials/youtube-go.json
-	config, err := google.ConfigFromJSON(b, scope)
-	if err != nil {
-		return nil, fmt.Errorf("Unable to parse client secret file to config: %v", err)
-	}
+	config := opts.Config
+
+	// clientSecretPath := path.Join(opts.PathToSecrets, "client_secret.json")
+	// b, err := ioutil.ReadFile(clientSecretPath)
+	// if err != nil {
+	// 	return nil, fmt.Errorf("Unable to read client secret file from %s: %v", clientSecretPath, err)
+	// }
+
+	// // If modifying the scope, delete your previously saved credentials
+	// // at ~/.credentials/youtube-go.json
+	// config, err := google.ConfigFromJSON(b, scope)
+	// if err != nil {
+	// 	return nil, fmt.Errorf("Unable to parse client secret file to config: %v", err)
+	// }
 
 	// Use a redirect URI like this for a web app. The redirect URI must be a
 	// valid one for your OAuth2 credentials.
@@ -184,11 +188,10 @@ func getTokenFromWeb(config *oauth2.Config, authURL string) (*oauth2.Token, erro
 
 	if err := openURL(authURL); err != nil {
 		return nil, fmt.Errorf("Unable to open authorization URL in web server: %v", err)
-	} else {
-		fmt.Println("Your browser has been opened to an authorization URL.",
-			" This program will resume once authorization has been provided.")
-		fmt.Println(authURL)
 	}
+	fmt.Println("Your browser has been opened to an authorization URL.",
+		" This program will resume once authorization has been provided.")
+	fmt.Println(authURL)
 
 	// Wait for the web server to get the code.
 	code := <-codeCh

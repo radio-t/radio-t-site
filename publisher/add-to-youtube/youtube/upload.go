@@ -4,27 +4,16 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"os/exec"
 	"path"
 	"path/filepath"
 	"strings"
 
 	"github.com/radio-t/radio-t-site/publisher/add-to-youtube/client"
-	"google.golang.org/api/youtube/v3"
+	"golang.org/x/oauth2"
+	yt "google.golang.org/api/youtube/v3"
 )
 
-func makeVideo(audioPath, videoPath string) error {
-	exec := exec.Command("ffmpeg", "-loop", "1", "-i", "assets/cover.webp", "-i", audioPath, "-c:v", "libx264", "-r", "15", "-c:a", "copy", "-shortest", "-y", "-pix_fmt", "yuv420p", videoPath)
-	exec.Stdout = os.Stdout
-	exec.Stderr = os.Stderr
-	if err := exec.Run(); err != nil {
-		return fmt.Errorf("Error making a video, got: %v", err)
-	}
-	return nil
-}
-
-// Upload uses an audio file to create a video file, then upload it with metadatas to Youtube.
-func Upload(audioPath, title, description, category, keywords, privacy, pathToSecrets string) (*youtube.Video, error) {
+func upload(config *oauth2.Config, audioPath, title, description, category, keywords, privacy, pathToSecrets string) (*yt.Video, error) {
 
 	// prepare temprorary directory
 	dir, err := ioutil.TempDir("", "add-to-youtube-")
@@ -40,27 +29,27 @@ func Upload(audioPath, title, description, category, keywords, privacy, pathToSe
 	}
 
 	// upload a video
-	client, err := client.New(youtube.YoutubeUploadScope, &client.Options{PathToSecrets: pathToSecrets, SkipAuth: true})
+	client, err := client.New(yt.YoutubeUploadScope, &client.Options{PathToSecrets: pathToSecrets, SkipAuth: true, Config: config})
 	if err != nil {
 		return nil, errYoutubeClientCreate(err)
 	}
 
 	// create youtube client
-	service, err := youtube.New(client)
+	service, err := yt.New(client)
 	if err != nil {
 		return nil, errYoutubeClientCreate(err)
 	}
 
 	// prepare a metas for video
-	upload := &youtube.Video{
-		Snippet: &youtube.VideoSnippet{
+	upload := &yt.Video{
+		Snippet: &yt.VideoSnippet{
 			Title:                title,
 			Description:          description,
 			CategoryId:           category,
 			DefaultAudioLanguage: "ru",
 			DefaultLanguage:      "ru",
 		},
-		Status: &youtube.VideoStatus{PrivacyStatus: privacy, License: "creativeCommon"},
+		Status: &yt.VideoStatus{PrivacyStatus: privacy, License: "creativeCommon"},
 	}
 
 	// The API returns a 400 Bad Request response if tags is an empty string.

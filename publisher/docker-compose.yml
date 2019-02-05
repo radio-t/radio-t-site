@@ -15,7 +15,7 @@ services:
       - secrets:/secrets
 
     environment:
-      - SECRETS=/secrets
+      - ADD_RADIOT_TO_YOUTUBE_SECRETS=/secrets
     
 volumes:
   secrets:
