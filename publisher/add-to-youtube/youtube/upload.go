@@ -19,7 +19,7 @@ func upload(c *Client, audioPath, title, description, category, keywords, privac
 	log.Info("Creating temporary directory")
 	dir, err := ioutil.TempDir("", "add-to-youtube-")
 	if err != nil {
-		return nil, errors.Wrap(err, "Error creation a temprorary directory, got: %v")
+		return nil, errors.Wrap(err, "Error creation a temprorary directory")
 	}
 	defer func() {
 		log.Infof("Removing temporary directory `%s`", dir)
@@ -28,7 +28,7 @@ func upload(c *Client, audioPath, title, description, category, keywords, privac
 
 	baseName := path.Base(audioPath)
 	videoPath := path.Join(dir, strings.TrimSuffix(baseName, filepath.Ext(baseName))+".mp4")
-	if err := makeVideo(audioPath, videoPath); err != nil {
+	if err := makeVideo(audioPath, "assets/cover.webp", videoPath); err != nil {
 		return nil, err
 	}
 
