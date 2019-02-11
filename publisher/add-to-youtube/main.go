@@ -12,7 +12,7 @@ func init() {
 		ForceColors:            true,
 		DisableLevelTruncation: true,
 	})
-	log.SetLevel(log.InfoLevel)
+	log.SetLevel(log.DebugLevel)
 }
 
 func main() {
