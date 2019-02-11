@@ -14,7 +14,7 @@ services:
       - secrets:/secrets
 
     environment:
-      - ADD_RADIOT_TO_YOUTUBE_SECRETS=/secrets
+      - ADD_RADIOT_TO_YOUTUBE_SECRET_TOKEN_PATH=/secrets/youtube.json
     
 volumes:
   secrets:
