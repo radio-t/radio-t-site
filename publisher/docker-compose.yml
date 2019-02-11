@@ -11,6 +11,7 @@ services:
         max-file: "5"
     volumes:
       - ./:/publisher:ro
+      - secrets:/secrets
 
     environment:
       - ADD_RADIOT_TO_YOUTUBE_CLIENT_SECRET_JSON
