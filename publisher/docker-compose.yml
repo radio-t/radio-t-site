@@ -10,7 +10,6 @@ services:
         max-size: "10m"
         max-file: "5"
     volumes:
-      # - ./secrets:/secrets
       - ./:/publisher
       - secrets:/secrets
 
