@@ -1,11 +1,11 @@
 package cmd
 
-import "fmt"
+import "github.com/pkg/errors"
 
 func errSiteAPIRequest(err error) error {
-	return fmt.Errorf("Error making site api request, got: %v", err)
+	return errors.Wrap(err, "Error making site api request, got: %v")
 }
 
 func errJSONUnmarshal(err error) error {
-	return fmt.Errorf("Error json unmarshaling, got: %v", err)
+	return errors.Wrap(err, "Error json unmarshaling, got: %v")
 }

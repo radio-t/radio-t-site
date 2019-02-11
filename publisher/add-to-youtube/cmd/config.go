@@ -1,42 +1,28 @@
 package cmd
 
 import (
-	"fmt"
-	"os"
-
+	"github.com/pkg/errors"
 	"github.com/spf13/viper"
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
-
-	"github.com/radio-t/radio-t-site/publisher/add-to-youtube/youtube"
-	yt "google.golang.org/api/youtube/v3"
 )
 
 const (
-	secrets                       = "ADD_RADIOT_TO_YOUTUBE_SECRETS_PATH"
-	addRadioT2YoutubeClientSecret = "ADD_RADIOT_TO_YOUTUBE_CLIENT_SECRET"
+	tokenPathKey        = "ADD_RADIOT_TO_YOUTUBE_SECRET_TOKEN_PATH"
+	clientSecretJSONKey = "ADD_RADIOT_TO_YOUTUBE_CLIENT_SECRET_JSON"
 )
 
-func getOAuth2Config() (*oauth2.Config, error) {
-	s := viper.GetString(addRadioT2YoutubeClientSecret)
-	config, err := google.ConfigFromJSON([]byte(s), yt.YoutubeUploadScope)
-	if err != nil {
-		return nil, fmt.Errorf("Unable to parse client secret string from ENV variable `%s` or app config to oauth2 config: %v",
-			addRadioT2YoutubeClientSecret, err)
+func getClientSecretJSON() ([]byte, error) {
+	s := viper.GetString(clientSecretJSONKey)
+	if s == "" {
+		return nil, errors.Errorf("Missing client secret json string in ENV variable or app config by key=`%s`",
+			clientSecretJSONKey)
 	}
-	return config, nil
+	return []byte(s), nil
 }
 
-func getConfig() (*youtube.Config, error) {
-	c, err := getOAuth2Config()
-	if err != nil {
-		return nil, fmt.Errorf("Unable to get oauth2 config, got : %v", err)
+func getTokenPath() (string, error) {
+	tokenPath := viper.GetString(tokenPathKey)
+	if tokenPath == "" {
+		return "", errors.Errorf("Missing tokenPath in ENV variable or app config by key=`%s`", tokenPathKey)
 	}
-
-	secretsPath := viper.GetString(secrets)
-	if _, err := os.Stat(secretsPath); os.IsNotExist(err) {
-		return nil, fmt.Errorf("Path to directory with secrets from ENV variable %s or app config not exists: %v", secrets, err)
-	}
-
-	return &youtube.Config{OAuth2: c, SecretsPath: secretsPath}, nil
+	return tokenPath, nil
 }

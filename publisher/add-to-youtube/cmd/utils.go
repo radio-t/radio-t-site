@@ -7,34 +7,37 @@ import (
 	"io/ioutil"
 	"net/http"
 	"os"
+
+	"github.com/pkg/errors"
+	log "github.com/sirupsen/logrus"
 )
 
 func download(from, to string) error {
-	fmt.Printf("Downloading a file `%s` → `%s`\n", from, to)
+	log.Infof("Downloading file `%s`to `%s`\n", from, to)
 
 	resp, err := http.Get(from)
 	if err != nil {
-		return fmt.Errorf("Error downloading an audio file, got: %v", err)
+		return errors.Wrap(err, "Error downloading an audio file, got: %v")
 	}
 	defer resp.Body.Close()
 
 	media, err := os.Create(to)
 	if err != nil {
-		return fmt.Errorf("Error creation a file, got: %v", err)
+		return errors.Wrap(err, "Error creation a file, got: %v")
 	}
 	defer media.Close()
 
 	if _, err := io.Copy(media, resp.Body); err != nil {
-		return fmt.Errorf("Error saving a file to fs, got: %v", err)
+		return errors.Wrap(err, "Error saving a file to fs, got: %v")
 	}
 
-	fmt.Printf("File `%s` downloaded\n", to)
+	log.Infof("File `%s` downloaded\n", to)
 	return nil
 }
 
 func getEpisodeInfo(id string) (*entry, error) {
 	u := fmt.Sprintf("https://radio-t.com/site-api/podcast/%s", id)
-	fmt.Printf("Calling API method `%s`\n", u)
+	log.Infof("Calling API method `%s`\n", u)
 	resp, err := http.Get(u)
 	if err != nil {
 		return nil, errSiteAPIRequest(err)
@@ -42,7 +45,7 @@ func getEpisodeInfo(id string) (*entry, error) {
 	defer resp.Body.Close()
 	b, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		return nil, fmt.Errorf("Error reading request body, got: %v", err)
+		return nil, errors.Wrap(err, "Error reading request body, got: %v")
 	}
 	if resp.StatusCode != 200 {
 		var e siteAPIError
@@ -55,6 +58,7 @@ func getEpisodeInfo(id string) (*entry, error) {
 	if err := json.Unmarshal(b, &e); err != nil {
 		return nil, errJSONUnmarshal(err)
 	}
+	log.Infof("Data recieved")
 	return &e, nil
 }
 
@@ -72,5 +76,6 @@ const descriptionFormat = `%s
 Лицензия: https://radio-t.com/license/`
 
 func makeEpisodeDescription(id string, e *entry) string {
+	log.Infof("Constructing an episode description")
 	return fmt.Sprintf(descriptionFormat, e.URL, id, e.ShowNotes, id, e.AudioURL)
 }

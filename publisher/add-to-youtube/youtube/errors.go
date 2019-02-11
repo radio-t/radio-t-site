@@ -1,11 +1,15 @@
 package youtube
 
-import "fmt"
+import "github.com/pkg/errors"
+
+func errOAuth2HTTPClientCreate(err error) error {
+	return errors.Wrap(err, "Error creating OAuth2 http client")
+}
 
 func errYoutubeClientCreate(err error) error {
-	return fmt.Errorf("Error creating YouTube client: %v", err)
+	return errors.Wrap(err, "Error creating YouTube client")
 }
 
 func errAPICall(err error) error {
-	return fmt.Errorf("Error making API call, got: %v", err)
+	return errors.Wrap(err, "Error making API call")
 }

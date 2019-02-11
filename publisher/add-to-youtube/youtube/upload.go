@@ -1,26 +1,30 @@
 package youtube
 
 import (
-	"fmt"
 	"io/ioutil"
 	"os"
 	"path"
 	"path/filepath"
 	"strings"
 
+	"github.com/pkg/errors"
+	log "github.com/sirupsen/logrus"
+
 	"github.com/radio-t/radio-t-site/publisher/add-to-youtube/client"
-	"golang.org/x/oauth2"
 	yt "google.golang.org/api/youtube/v3"
 )
 
-func upload(config *oauth2.Config, audioPath, title, description, category, keywords, privacy, pathToSecrets string) (*yt.Video, error) {
+func upload(c *Client, audioPath, title, description, category, keywords, privacy string) (*yt.Video, error) {
 
-	// prepare temprorary directory
+	log.Info("Creating temporary directory")
 	dir, err := ioutil.TempDir("", "add-to-youtube-")
 	if err != nil {
-		return nil, fmt.Errorf("Error creation a temprorary directory, got: %v", err)
+		return nil, errors.Wrap(err, "Error creation a temprorary directory, got: %v")
 	}
-	defer os.RemoveAll(dir)
+	defer func() {
+		log.Infof("Removing temporary directory `%s`", dir)
+		os.RemoveAll(dir)
+	}()
 
 	baseName := path.Base(audioPath)
 	videoPath := path.Join(dir, strings.TrimSuffix(baseName, filepath.Ext(baseName))+".mp4")
@@ -29,7 +33,7 @@ func upload(config *oauth2.Config, audioPath, title, description, category, keyw
 	}
 
 	// upload a video
-	client, err := client.New(yt.YoutubeUploadScope, &client.Options{PathToSecrets: pathToSecrets, SkipAuth: true, Config: config})
+	client, err := client.New(c.Config.OAuth2, c.Config.TokenPath, true, c.Config.Scopes...)
 	if err != nil {
 		return nil, errYoutubeClientCreate(err)
 	}
@@ -62,8 +66,10 @@ func upload(config *oauth2.Config, audioPath, title, description, category, keyw
 	file, err := os.Open(videoPath)
 	defer file.Close()
 	if err != nil {
-		return nil, fmt.Errorf("Error opening %v: %v", videoPath, err)
+		return nil, errors.Errorf("Error opening %v: %v", videoPath, err)
 	}
+
+	// return nil, nil
 
 	// do an api request
 	response, err := call.Media(file).Do()
