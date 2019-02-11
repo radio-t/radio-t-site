@@ -20,8 +20,8 @@
 
 ### Authorize an user at Youtube
 
-`docker-compose run --rm publisher add-to-youtube authorize`
+`add-to-youtube authorize`
 
 ### Add a podcast episode to Youtube
 
-`docker-compose run --rm publisher add-to-youtube {episodeID}`
+`add-to-youtube {episodeID}`

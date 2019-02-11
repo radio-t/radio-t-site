@@ -4,4 +4,4 @@ Publisher is a docker container designed to execute scripts and programs inside 
 
 Apps & scripts:
 
-- [add-to-youtube](add-to-youtube/README.md)
+- [add-to-youtube](add-to-youtube/)
