@@ -10,8 +10,7 @@ services:
         max-size: "10m"
         max-file: "5"
     volumes:
-      - ./:/publisher
-      - secrets:/secrets
+      - ./:/publisher:ro
 
     environment:
       - ADD_RADIOT_TO_YOUTUBE_CLIENT_SECRET_JSON
