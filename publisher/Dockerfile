@@ -1,18 +1,12 @@
 FROM golang:latest AS build
 
-WORKDIR /go/src/github.com/radio-t/radio-t-site/publisher
+WORKDIR /publisher
 
-RUN go get -u google.golang.org/api/youtube/v3 && \
-    go get -u golang.org/x/oauth2 && \
-    go get -u golang.org/x/oauth2/google && \
-    go get -u golang.org/x/net/context && \
-    go get -u google.golang.org/api/compute/v1 && \
-    go get -u github.com/spf13/cobra/cobra
-
-COPY podcast-to-youtube podcast-to-youtube
 COPY add-to-youtube add-to-youtube
 
-RUN go install github.com/radio-t/radio-t-site/publisher/add-to-youtube
+WORKDIR /publisher/add-to-youtube
+
+RUN go get ./... && go install
 
 FROM jrottenberg/ffmpeg:latest
 
