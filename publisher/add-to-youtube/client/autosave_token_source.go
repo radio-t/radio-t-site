@@ -4,7 +4,6 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	log "github.com/sirupsen/logrus"
 
 	"golang.org/x/oauth2"
 )
@@ -38,8 +37,6 @@ func (s *autoSaveTokenSource) Token() (*oauth2.Token, error) {
 	if err != nil {
 		return nil, err
 	}
-	log.Debugf("previous token: %+v", s.previous)
-	log.Debugf("current token: %+v", s.current)
 	if s.previous == s.current {
 		return s.current, nil
 	}
