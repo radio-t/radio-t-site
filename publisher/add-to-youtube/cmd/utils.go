@@ -17,18 +17,18 @@ func download(from, to string) error {
 
 	resp, err := http.Get(from)
 	if err != nil {
-		return errors.Wrap(err, "Error downloading an audio file, got: %v")
+		return errors.Wrap(err, "Error downloading an audio file")
 	}
 	defer resp.Body.Close()
 
 	media, err := os.Create(to)
 	if err != nil {
-		return errors.Wrap(err, "Error creation a file, got: %v")
+		return errors.Wrap(err, "Error creation a file")
 	}
 	defer media.Close()
 
 	if _, err := io.Copy(media, resp.Body); err != nil {
-		return errors.Wrap(err, "Error saving a file to fs, got: %v")
+		return errors.Wrap(err, "Error saving a file to fs")
 	}
 
 	log.Infof("File `%s` downloaded\n", to)
@@ -45,7 +45,7 @@ func getEpisodeInfo(id string) (*entry, error) {
 	defer resp.Body.Close()
 	b, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		return nil, errors.Wrap(err, "Error reading request body, got: %v")
+		return nil, errors.Wrap(err, "Error reading request body")
 	}
 	if resp.StatusCode != 200 {
 		var e siteAPIError

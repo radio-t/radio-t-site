@@ -31,7 +31,7 @@ func addToYoutube(id string) error {
 	log.Info("Creating temporary directory")
 	dir, err := ioutil.TempDir("", "add-to-youtube")
 	if err != nil {
-		return errors.Errorf("Error creation a temprorary directory, got: %v", err)
+		return errors.Wrap(err,"Error creation a temprorary directory")
 	}
 	defer func() {
 		log.Infof("Removing temporary directory `%s`", dir)
