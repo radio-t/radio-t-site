@@ -3,8 +3,6 @@ package client
 import (
 	"sync"
 
-	"github.com/pkg/errors"
-
 	"golang.org/x/oauth2"
 )
 
@@ -41,7 +39,7 @@ func (s *autoSaveTokenSource) Token() (*oauth2.Token, error) {
 		return s.current, nil
 	}
 	if err := saveToken(s.tokenPath, s.current); err != nil {
-		return nil, errors.Wrap(err, "Error saving token")
+		return nil, err
 	}
 	s.previous = s.current
 
