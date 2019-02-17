@@ -28,7 +28,7 @@ func addToYoutube(id string) error {
 	d := makeEpisodeDescription(id, e)
 
 	log.Info("Creating temporary directory")
-	dir, err := ioutil.TempDir("", "add-to-youtube")
+	dir, err := ioutil.TempDir("", "add-to-youtube-")
 	if err != nil {
 		return errors.Wrap(err, "Error creation a temprorary directory")
 	}
@@ -53,7 +53,7 @@ func addToYoutube(id string) error {
 		return errJSONUnmarshal(err)
 	}
 
-	log.Infof("A podcast episode %s uploaded.\nhttps://youtu.be/%s\n", id, v.Id)
+	log.Infof("A podcast episode %s uploaded. See: https://youtu.be/%s", id, v.Id)
 	return nil
 }
 

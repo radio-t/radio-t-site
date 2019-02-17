@@ -69,9 +69,8 @@ func upload(c *Client, audioPath, title, description, category, keywords, privac
 		return nil, errors.Errorf("Error opening %v: %v", videoPath, err)
 	}
 
-	// return nil, nil
-
 	// do an api request
+	log.Info("Uploading video to YouTube")
 	response, err := call.Media(file).Do()
 	if err != nil {
 		return nil, errors.Wrap(err, "Error making an API call")
