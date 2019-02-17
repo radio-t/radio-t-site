@@ -5,7 +5,6 @@ import (
 	"github.com/radio-t/radio-t-site/publisher/add-to-youtube/youtube"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	yt "google.golang.org/api/youtube/v3"
 )
 
 // authorizeCmd represents the authorize command
@@ -31,11 +30,7 @@ func authorize() error {
 		return err
 	}
 
-	ytConfig := &youtube.Config{TokenPath: tokenPath, OAuth2: config, Scopes: []string{yt.YoutubeUploadScope}}
-
-	log.Debug(tokenPath)
-
-	c, err := youtube.New(ytConfig)
+	c, err := youtube.New(config, tokenPath)
 	if err != nil {
 		return errors.Wrap(err, "Error creation a youtube client")
 	}

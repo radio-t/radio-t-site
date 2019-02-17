@@ -9,7 +9,7 @@ import (
 func authorize(c *Client) error {
 	log.Info("Start authorizing an user")
 
-	client, err := client.New(c.Config.OAuth2, c.Config.TokenPath, false, c.Config.Scopes...)
+	client, err := client.New(c.OAuth2, c.TokenPath, false, c.Scopes...)
 	if err != nil {
 		return errOAuth2HTTPClientCreate(err)
 	}

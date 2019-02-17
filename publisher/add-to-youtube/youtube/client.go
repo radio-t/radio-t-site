@@ -4,21 +4,18 @@ import (
 	yt "google.golang.org/api/youtube/v3"
 )
 
-// Config represents a configuratio to YouTube client.
-type Config struct {
+var scopes = []string{yt.YoutubeUploadScope}
+
+// Client represents an client to YouTube service.
+type Client struct {
 	OAuth2    []byte
 	TokenPath string
 	Scopes    []string
 }
 
-// Client represents an client to YouTube service.
-type Client struct {
-	Config *Config
-}
-
 // New returns youtube client.
-func New(config *Config) (*Client, error) {
-	return &Client{config}, nil
+func New(oauth2 []byte, tokenPath string) (*Client, error) {
+	return &Client{OAuth2: oauth2, TokenPath: tokenPath, Scopes: scopes}, nil
 }
 
 // Upload uses an audio file to create a video file, then upload it with metadatas to Youtube.

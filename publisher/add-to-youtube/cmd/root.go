@@ -12,7 +12,6 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	yt "google.golang.org/api/youtube/v3"
 )
 
 var (
@@ -31,7 +30,7 @@ func addToYoutube(id string) error {
 	log.Info("Creating temporary directory")
 	dir, err := ioutil.TempDir("", "add-to-youtube")
 	if err != nil {
-		return errors.Wrap(err,"Error creation a temprorary directory")
+		return errors.Wrap(err, "Error creation a temprorary directory")
 	}
 	defer func() {
 		log.Infof("Removing temporary directory `%s`", dir)
@@ -44,9 +43,7 @@ func addToYoutube(id string) error {
 		return err
 	}
 
-	ytConfig := &youtube.Config{TokenPath: pathToToken, OAuth2: config, Scopes: []string{yt.YoutubeUploadScope}}
-
-	c, err := youtube.New(ytConfig)
+	c, err := youtube.New(config, pathToToken)
 	if err != nil {
 		return err
 	}
