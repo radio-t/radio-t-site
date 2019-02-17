@@ -13,7 +13,6 @@ var authorizeCmd = &cobra.Command{
 	Short: "Authorize an user at YouTube",
 	Long:  `Authorize an user at YouTube.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		log.Debug("Running authorize command")
 		if err := authorize(); err != nil {
 			log.Trace(errors.Wrap(err, "Error authorize command"))
 		}
