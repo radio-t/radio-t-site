@@ -1,4 +1,4 @@
-// Package client provide a http client to use with google apis. It auto refresh an user token when it stale.
+// Package client provide a http client to use with Google APIs. It auto refresh an user token when it stale.
 package client
 
 import (
