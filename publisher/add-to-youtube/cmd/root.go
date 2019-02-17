@@ -15,9 +15,9 @@ import (
 )
 
 var (
-	cfgFile     string
-	pathToToken string
-	config      []byte
+	cfgFile   string
+	tokenPath string
+	config    []byte
 )
 
 func addToYoutube(id string) error {
@@ -43,7 +43,7 @@ func addToYoutube(id string) error {
 		return err
 	}
 
-	c, err := youtube.New(config, pathToToken)
+	c, err := youtube.New(config, tokenPath)
 	if err != nil {
 		return err
 	}
@@ -74,11 +74,11 @@ then uses metadatas from site api to upload it to Youtube.`,
 	},
 	PreRun: func(cmd *cobra.Command, args []string) {
 		var err error
-		pathToToken, err = getTokenPath()
+		tokenPath, err = getTokenPath()
 		if err != nil {
 			log.Fatal(err)
 		}
-		if _, err := os.Stat(pathToToken); os.IsNotExist(err) {
+		if _, err := os.Stat(tokenPath); os.IsNotExist(err) {
 			log.Fatal("Required user authorization")
 		}
 		cd, err := os.Getwd()
