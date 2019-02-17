@@ -13,7 +13,7 @@ import (
 )
 
 func download(from, to string) error {
-	log.Infof("Downloading file `%s`to `%s`\n", from, to)
+	log.Infof("Downloading file `%s` to `%s`\n", from, to)
 
 	resp, err := http.Get(from)
 	if err != nil {
