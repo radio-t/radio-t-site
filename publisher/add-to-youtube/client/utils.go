@@ -22,7 +22,7 @@ func readToken(pathToToken string) (*oauth2.Token, error) {
 
 	var token oauth2.Token
 	if err := json.Unmarshal(b, &token); err != nil {
-		return nil, errors.Wrap(err, "Error unmarshaling token file from json")
+		return nil, errors.Wrap(err, "Error unmarshaling token from json")
 	}
 
 	log.Info("Token read")
