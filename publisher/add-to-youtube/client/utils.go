@@ -37,11 +37,11 @@ func saveToken(pathToToken string, token *oauth2.Token) error {
 
 	b, err := json.Marshal(token)
 	if err != nil {
-		return errors.Wrap(err, "Error marshal token to json")
+		return errors.Wrap(err, "Error marshaling token to json")
 	}
 
 	if err := ioutil.WriteFile(pathToToken, b, 0600); err != nil {
-		return errors.Wrap(err, "Error write token to fs")
+		return errors.Wrap(err, "Error writing token to fs")
 	}
 	log.Info("Token saved")
 	return nil
