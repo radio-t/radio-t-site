@@ -58,7 +58,7 @@ func getEpisodeInfo(id string) (*entry, error) {
 	if err := json.Unmarshal(b, &e); err != nil {
 		return nil, errJSONUnmarshal(err)
 	}
-	log.Infof("Data recieved")
+	log.Infof("Data received")
 	return &e, nil
 }
 
