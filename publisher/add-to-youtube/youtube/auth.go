@@ -7,7 +7,7 @@ import (
 )
 
 func authorize(c *Client) error {
-	log.Info("Start authorizing an user")
+	log.Info("Authorizing an user")
 
 	client, err := client.New(c.OAuth2, c.TokenPath, false, c.Scopes...)
 	if err != nil {
