@@ -24,7 +24,7 @@ func New(oauth2Config []byte, tokenPath string, skipAuth bool, scopes ...string)
 
 	t, err := s1.Token()
 	fileNotExist := os.IsNotExist(errors.Cause(err))
-	if skipAuth && fileNotExist {
+	if fileNotExist && skipAuth {
 		return nil, errors.Wrap(err, "Required user authorization")
 	}
 	if fileNotExist {
