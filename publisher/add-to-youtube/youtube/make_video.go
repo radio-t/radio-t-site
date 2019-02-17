@@ -25,7 +25,7 @@ func makeVideo(audioPath, coverPath, videoPath string) error {
 	// createIntermediaVideoCommad.Stdout = os.Stdout
 
 	if err := createIntermediaVideoCommad.Run(); err != nil {
-		return errors.Wrap(err, "Error creating an intermedia file")
+		return errors.Wrap(err, "Error creating an intermedia video file")
 	}
 
 	createVideoCommand := exec.Command("ffmpeg", "-y", "-stream_loop", "-1", "-i", f, "-i", audioPath, "-c", "copy", "-shortest", videoPath)
