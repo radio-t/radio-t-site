@@ -6,16 +6,28 @@ import (
 	"io"
 	"io/ioutil"
 	"os"
+	"time"
 
-	http "github.com/hashicorp/go-retryablehttp"
+	cleanhttp "github.com/hashicorp/go-cleanhttp"
+	retryablehttp "github.com/hashicorp/go-retryablehttp"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )
 
+var client = &retryablehttp.Client{
+	HTTPClient:   cleanhttp.DefaultClient(),
+	Logger:       log.StandardLogger(),
+	RetryWaitMin: 1 * time.Second,
+	RetryWaitMax: 30 * time.Second,
+	RetryMax:     4,
+	CheckRetry:   retryablehttp.DefaultRetryPolicy,
+	Backoff:      retryablehttp.DefaultBackoff,
+}
+
 func download(from, to string) error {
 	log.Infof("Downloading file `%s` to `%s`\n", from, to)
 
-	resp, err := http.Get(from)
+	resp, err := client.Get(from)
 	if err != nil {
 		return errors.Wrap(err, "Error downloading an audio file")
 	}
@@ -38,7 +50,7 @@ func download(from, to string) error {
 func getEpisodeInfo(id string) (*entry, error) {
 	u := fmt.Sprintf("https://radio-t.com/site-api/podcast/%s", id)
 	log.Infof("Calling API method `%s`\n", u)
-	resp, err := http.Get(u)
+	resp, err := client.Get(u)
 	if err != nil {
 		return nil, errSiteAPIRequest(err)
 	}

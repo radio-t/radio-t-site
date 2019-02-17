@@ -2,6 +2,7 @@ module github.com/radio-t/radio-t-site/publisher/add-to-youtube
 
 require (
 	cloud.google.com/go v0.36.0 // indirect
+	github.com/hashicorp/go-cleanhttp v0.5.0
 	github.com/hashicorp/go-retryablehttp v0.5.2
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/mitchellh/go-homedir v1.1.0
