@@ -9,12 +9,12 @@ import (
 )
 
 type fileTokenSource struct {
-	locker      sync.Locker
-	pathToToken string
+	locker    sync.Locker
+	tokenPath string
 }
 
-func newFileTokenSource(pathToToken string) *fileTokenSource {
-	return &fileTokenSource{locker: &sync.Mutex{}, pathToToken: pathToToken}
+func newFileTokenSource(tokenPath string) *fileTokenSource {
+	return &fileTokenSource{locker: &sync.Mutex{}, tokenPath: tokenPath}
 }
 
 // Token returns token from a file.
@@ -22,11 +22,11 @@ func (s *fileTokenSource) Token() (*oauth2.Token, error) {
 	s.locker.Lock()
 	defer s.locker.Unlock()
 
-	if _, err := os.Stat(s.pathToToken); err == os.ErrNotExist {
+	if _, err := os.Stat(s.tokenPath); err == os.ErrNotExist {
 		return nil, errors.Wrap(err, "Need authorize an user")
 	}
 
-	t, err := readToken(s.pathToToken)
+	t, err := readToken(s.tokenPath)
 	if err != nil {
 		return nil, err
 	}
