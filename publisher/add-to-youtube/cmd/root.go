@@ -49,7 +49,7 @@ func addToYoutube(id string) error {
 		return err
 	}
 
-	v, err := c.Upload(filename, e.Title, d, "22", "podcast,radio-t", "private")
+	v, err := c.Upload(filename, e.Title, d, "22", "podcast,radio-t", "public")
 	if err != nil {
 		return errJSONUnmarshal(err)
 	}
