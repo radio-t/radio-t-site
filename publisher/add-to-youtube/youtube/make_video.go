@@ -11,7 +11,7 @@ import (
 )
 
 func makeVideo(audioPath, coverPath, videoPath string) error {
-	log.Info("Start making a video")
+	log.Info("Making a video")
 
 	dir, err := ioutil.TempDir("", "make_intermedia_video_")
 	if err != nil {
