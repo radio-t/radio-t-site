@@ -29,7 +29,7 @@ func authorize() error {
 		return err
 	}
 
-	c, err := youtube.New(config, tokenPath)
+	c, err := youtube.New(config, tokenPath, "")
 	if err != nil {
 		return errors.Wrap(err, "Error creation a youtube client")
 	}

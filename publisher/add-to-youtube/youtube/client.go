@@ -11,11 +11,12 @@ type Client struct {
 	OAuth2    []byte
 	TokenPath string
 	Scopes    []string
+	CoverPath string
 }
 
 // New returns youtube client.
-func New(oauth2 []byte, tokenPath string) (*Client, error) {
-	return &Client{OAuth2: oauth2, TokenPath: tokenPath, Scopes: scopes}, nil
+func New(oauth2 []byte, tokenPath, coverPath string) (*Client, error) {
+	return &Client{OAuth2: oauth2, TokenPath: tokenPath, CoverPath: coverPath, Scopes: scopes}, nil
 }
 
 // Upload uses an audio file to create a video file, then upload it with metadatas to Youtube.

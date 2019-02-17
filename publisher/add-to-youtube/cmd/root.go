@@ -17,6 +17,7 @@ import (
 var (
 	cfgFile   string
 	tokenPath string
+	coverPath string
 	config    []byte
 )
 
@@ -43,7 +44,7 @@ func addToYoutube(id string) error {
 		return err
 	}
 
-	c, err := youtube.New(config, tokenPath)
+	c, err := youtube.New(config, tokenPath, coverPath)
 	if err != nil {
 		return err
 	}
@@ -84,11 +85,6 @@ then uses metadatas from site api to upload it to Youtube.`,
 		if _, err := os.Stat(tokenPath); os.IsNotExist(err) {
 			log.Fatal("Required user authorization")
 		}
-		cd, err := os.Getwd()
-		if err != nil {
-			log.Fatal(errors.WithStack(err))
-		}
-		coverPath := path.Join(cd, "assets/cover.webp")
 		if _, err := os.Stat(coverPath); os.IsNotExist(err) {
 			log.Fatalf("An image cover not found at `%s`", coverPath)
 		}
@@ -116,6 +112,11 @@ func Execute() {
 func init() {
 	cobra.OnInitialize(initConfig)
 	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "", "config file (default is $HOME/.add-to-youtube.yaml)")
+	cd, err := os.Getwd()
+	if err != nil {
+		log.Fatal(errors.WithStack(err))
+	}
+	rootCmd.Flags().StringVar(&coverPath, "cover", path.Join(cd, "assets/cover.webp"), "cover path")
 }
 
 // initConfig reads in config file and ENV variables if set.

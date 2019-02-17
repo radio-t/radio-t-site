@@ -28,7 +28,7 @@ func upload(c *Client, audioPath, title, description, category, keywords, privac
 
 	baseName := path.Base(audioPath)
 	videoPath := path.Join(dir, strings.TrimSuffix(baseName, filepath.Ext(baseName))+".mp4")
-	if err := makeVideo(audioPath, "assets/cover.webp", videoPath); err != nil {
+	if err := makeVideo(audioPath, c.CoverPath, videoPath); err != nil {
 		return nil, err
 	}
 
