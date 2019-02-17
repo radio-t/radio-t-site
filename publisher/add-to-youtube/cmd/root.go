@@ -71,6 +71,9 @@ then uses metadatas from site api to upload it to Youtube.`,
 		if config, err = getClientSecretJSON(); err != nil {
 			log.Fatal(err)
 		}
+		if _, err = getTokenPath(); err != nil {
+			log.Fatal(err)
+		}
 	},
 	PreRun: func(cmd *cobra.Command, args []string) {
 		var err error
