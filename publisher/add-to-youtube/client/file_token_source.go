@@ -23,7 +23,7 @@ func (s *fileTokenSource) Token() (*oauth2.Token, error) {
 	defer s.locker.Unlock()
 
 	if _, err := os.Stat(s.tokenPath); err == os.ErrNotExist {
-		return nil, errors.Wrap(err, "Need authorize an user")
+		return nil, errors.Wrap(err, "Required user authorization")
 	}
 
 	t, err := readToken(s.tokenPath)

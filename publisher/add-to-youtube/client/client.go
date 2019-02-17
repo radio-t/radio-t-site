@@ -25,7 +25,7 @@ func New(oauth2Config []byte, tokenPath string, skipAuth bool, scopes ...string)
 	t, err := s1.Token()
 	fileNotExist := os.IsNotExist(errors.Cause(err))
 	if fileNotExist && skipAuth {
-		return nil, errors.Wrap(err, "Required user authorization")
+		return nil, err
 	}
 	if fileNotExist {
 		s5 := newPromptTokenSource(tokenPath, config)
