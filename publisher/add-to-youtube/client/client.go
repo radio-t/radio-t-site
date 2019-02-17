@@ -12,7 +12,7 @@ import (
 )
 
 // New returns a configured oauth2 http client.
-func New(oauth2Config []byte, pathToToken string, skipPrompt bool, scopes ...string) (*http.Client, error) {
+func New(oauth2Config []byte, tokenPath string, skipAuth bool, scopes ...string) (*http.Client, error) {
 	ctx := context.Background()
 
 	config, err := google.ConfigFromJSON(oauth2Config, scopes...)
@@ -20,15 +20,15 @@ func New(oauth2Config []byte, pathToToken string, skipPrompt bool, scopes ...str
 		return nil, errors.Wrap(err, "Error unmarshal config from json")
 	}
 
-	s1 := newFileTokenSource(pathToToken)
+	s1 := newFileTokenSource(tokenPath)
 
 	t, err := s1.Token()
 	fileNotExist := os.IsNotExist(errors.Cause(err))
-	if skipPrompt && fileNotExist {
+	if skipAuth && fileNotExist {
 		return nil, errors.Wrap(err, "Required user authorization")
 	}
 	if fileNotExist {
-		s5 := newPromptTokenSource(pathToToken, config)
+		s5 := newPromptTokenSource(tokenPath, config)
 		t, err = s5.Token()
 	}
 	if err != nil {
@@ -39,7 +39,7 @@ func New(oauth2Config []byte, pathToToken string, skipPrompt bool, scopes ...str
 
 	s3 := oauth2.ReuseTokenSource(t, s2)
 
-	s4 := newAutoSaveTokenSource(pathToToken, t, s3)
+	s4 := newAutoSaveTokenSource(tokenPath, t, s3)
 
 	client := oauth2.NewClient(ctx, s4)
 
