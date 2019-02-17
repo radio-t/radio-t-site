@@ -74,7 +74,7 @@ func upload(c *Client, audioPath, title, description, category, keywords, privac
 	// do an api request
 	response, err := call.Media(file).Do()
 	if err != nil {
-		return nil, errAPICall(err)
+		return nil, errors.Wrap(err, "Error making an API call")
 	}
 
 	return response, nil

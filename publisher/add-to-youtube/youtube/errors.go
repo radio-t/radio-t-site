@@ -9,7 +9,3 @@ func errOAuth2HTTPClientCreate(err error) error {
 func errYoutubeClientCreate(err error) error {
 	return errors.Wrap(err, "Error creating YouTube client")
 }
-
-func errAPICall(err error) error {
-	return errors.Wrap(err, "Error making API call")
-}
