@@ -27,7 +27,7 @@ func (s *promptTokenSource) Token() (*oauth2.Token, error) {
 	var code string
 	fmt.Printf("Go to the following link in your browser. After completing "+
 		"the authorization flow, enter the authorization code on the command "+
-		"line: \n\n%v\n", authURL)
+		"line: \n\n%v\n\n", authURL)
 
 	fmt.Print("Enter the code here: ")
 
