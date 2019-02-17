@@ -10,11 +10,11 @@ import (
 
 // autoSaveTokenSource represents a token source, that save token when it changed in TokenSource.
 type autoSaveTokenSource struct {
-	oauth2.TokenSource
-	current   *oauth2.Token
-	previous  *oauth2.Token
-	locker    sync.Locker
-	tokenPath string
+	tokenSource oauth2.TokenSource
+	current     *oauth2.Token
+	previous    *oauth2.Token
+	locker      sync.Locker
+	tokenPath   string
 }
 
 // newAutoSaveTokenSource returns autoSaveTokenSource.
@@ -23,7 +23,7 @@ func newAutoSaveTokenSource(tokenPath string, t *oauth2.Token, ts oauth2.TokenSo
 		locker:      &sync.Mutex{},
 		tokenPath:   tokenPath,
 		previous:    t,
-		TokenSource: ts,
+		tokenSource: ts,
 	}
 }
 
@@ -33,7 +33,7 @@ func (s *autoSaveTokenSource) Token() (*oauth2.Token, error) {
 	defer s.locker.Unlock()
 
 	var err error
-	s.current, err = s.TokenSource.Token()
+	s.current, err = s.tokenSource.Token()
 	if err != nil {
 		return nil, err
 	}
