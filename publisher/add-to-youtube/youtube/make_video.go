@@ -21,8 +21,8 @@ func makeVideo(audioPath, coverPath, videoPath string) error {
 	f := path.Join(dir, "intermedia.mp4")
 
 	createIntermediaVideoCommad := exec.Command("ffmpeg", "-y", "-loop", "1", "-i", coverPath, "-c:v", "libx264", "-r", "15", "-pix_fmt", "yuv420p", "-t", "60", f)
-	createIntermediaVideoCommad.Stderr = os.Stderr
-	createIntermediaVideoCommad.Stdout = os.Stdout
+	// createIntermediaVideoCommad.Stderr = os.Stderr
+	// createIntermediaVideoCommad.Stdout = os.Stdout
 
 	if err := createIntermediaVideoCommad.Run(); err != nil {
 		return errors.Wrap(err, "Error creating an intermedia file")
@@ -31,11 +31,11 @@ func makeVideo(audioPath, coverPath, videoPath string) error {
 	createVideoCommand := exec.Command("ffmpeg", "-y", "-stream_loop", "-1", "-i", f, "-i", audioPath, "-c", "copy", "-shortest", videoPath)
 
 	if err := createVideoCommand.Run(); err != nil {
-		return errors.Wrap(err, "Error executing a ffmpeg")
+		return errors.Wrap(err, "Error creating a podcast episode video")
 	}
-	createVideoCommand.Stderr = os.Stderr
-	createVideoCommand.Stdout = os.Stdout
+	// createVideoCommand.Stderr = os.Stderr
+	// createVideoCommand.Stdout = os.Stdout
 
-	log.Info("A video was made")
+	log.Infof("A video was made at `%s`", videoPath)
 	return nil
 }
