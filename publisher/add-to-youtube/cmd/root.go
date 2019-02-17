@@ -91,7 +91,6 @@ then uses metadatas from site api to upload it to Youtube.`,
 		}
 	},
 	Run: func(cmd *cobra.Command, args []string) {
-		log.Debug("Running upload command")
 		episodeID := args[0]
 		if _, err := strconv.Atoi(episodeID); err != nil {
 			log.Fatalf("{episodeID} must be a number, got: %s", err)
