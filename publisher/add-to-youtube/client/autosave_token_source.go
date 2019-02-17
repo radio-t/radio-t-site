@@ -3,6 +3,8 @@ package client
 import (
 	"sync"
 
+	log "github.com/sirupsen/logrus"
+
 	"golang.org/x/oauth2"
 )
 
@@ -38,6 +40,7 @@ func (s *autoSaveTokenSource) Token() (*oauth2.Token, error) {
 	if s.previous == s.current {
 		return s.current, nil
 	}
+	log.Info("Token is outdated, auto refresh it")
 	if err := saveToken(s.tokenPath, s.current); err != nil {
 		return nil, err
 	}
