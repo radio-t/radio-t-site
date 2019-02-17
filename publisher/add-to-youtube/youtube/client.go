@@ -1,3 +1,4 @@
+// Package youtube provides functions to authorize at YouTube service and make video from podcast then upload it to YouTube.
 package youtube
 
 import (
