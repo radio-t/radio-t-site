@@ -35,7 +35,7 @@ func upload(c *Client, audioPath, title, description, category, keywords, privac
 	// upload a video
 	client, err := client.New(c.OAuth2, c.TokenPath, true, c.Scopes...)
 	if err != nil {
-		return nil, errYoutubeClientCreate(err)
+		return nil, errOAuth2HTTPClientCreate(err)
 	}
 
 	// create youtube client
