@@ -9,9 +9,6 @@
 .navbar-nav {
   font-weight: bold;
 }
-.navbar-btn-search {
-  cursor: text !important;
-}
 @include media-breakpoint-up('lg') {
   .navbar-nav {
     font-size: $small-font-size;
@@ -47,6 +44,7 @@
     background-color: $white;
     font-weight: $font-weight-normal;
     padding-left: ($spacer / 1.5);
+    cursor: text !important;
     &:not(:active, :focus, :hover) {
       color: $text-muted;
       border-color: transparent;

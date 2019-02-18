@@ -64,11 +64,25 @@
   -webkit-overflow-scrolling: touch;
   height: 100%;
 }
-.page-sidebar-title {
+.page-sidebar-header {
   position: sticky;
   z-index: 2;
   top: 0;
   background-color: rgba($white, .9);
   border-bottom: 1px solid $border-color;
   background-clip: padding-box;
+  .close {
+    padding: 0;
+    width: $navbar-collapsed-height;
+    height: $navbar-collapsed-height;
+    //line-height: $navbar-collapsed-height / 3 * 2.6;
+    padding-bottom: .4rem;
+    &:active, &:focus {
+      background-color: rgba($black, .1);
+      border-radius: 0;
+    }
+  }
+}
+.page-sidebar-title {
+  line-height: $navbar-collapsed-height;
 }
