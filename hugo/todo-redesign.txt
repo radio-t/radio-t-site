@@ -1,3 +1,9 @@
+Mobile:
+- fix search
+- fix archives top sticky
+
+- show active states in navbar
+
 - last comments
 - responsive navbar
 - favicons

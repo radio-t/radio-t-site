@@ -1,0 +1,104 @@
+.blog-archives {
+  h3:not(.number-title) {
+    font-size: 2em;
+  }
+  html.cssgrid & {
+    .row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+      grid-auto-flow: dense;
+      > div {
+        max-width: none;
+        &.span-2 {
+          grid-column: auto / span 2;
+        }
+      }
+    }
+  }
+}
+.blog-archives-year {
+}
+.blog-archives-year-anchor {
+  display: block;
+  color: transparent;
+  height: 0;
+  overflow: hidden;
+}
+.blog-archives-year-title {
+  position: sticky;
+  z-index: 5;
+  top: 2rem;
+  font-size: 5em;
+  padding-top: 3rem;
+  pointer-events: none;
+  font-weight: 100;
+  margin-bottom: -1.2rem;
+  //text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff, 2px -2px 0 #fff;
+}
+.blog-archives-year-list {
+  padding-top: 2rem;
+}
+.nav-blog-archives {
+  position: sticky;
+  top: 0;
+  z-index: $zindex-sticky;
+  overflow-y: hidden;
+  background-color: rgba($white, .87);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 2px 2px rgba($black, .12);
+  .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    margin-bottom: -1rem;
+    //margin-top: -3px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nav-link {
+    position: relative;
+    z-index: 10;
+    padding: .5rem 0 .8rem;
+    border-bottom: 2px solid transparent;
+    + .nav-link {
+      margin-left: 1rem;
+    }
+    &:hover {
+      border-bottom-color: $link-hover-color;
+    }
+  }
+}
+@include media-breakpoint-down('md') { // dont overlap with sticky navbar
+  .nav-blog-archives {
+    top: $navbar-collapsed-height;
+  }
+  .blog-archives-year-title {
+    top: 2rem + $navbar-collapsed-height;
+  }
+}
+.nav-blog-archives-year {
+  font-weight: $font-weight-bold;
+  font-size: 1.2rem;
+}
+.nav-blog-archives-range {
+  opacity: 0;
+  font-size: 65%;
+}
+.blog-archives-post {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: $grid-gutter-width / 2;
+    right: $grid-gutter-width / 2;
+    height: 1px;
+    background-color: $border-color;
+  }
+}

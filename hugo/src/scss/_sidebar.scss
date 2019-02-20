@@ -52,7 +52,7 @@
   }
   .page-sidebar-scroll {
     opacity: .8;
-    transition: 5s;
+    transition: opacity 5s;
     &:hover {
       opacity: 1;
       transition-duration: 150ms;
