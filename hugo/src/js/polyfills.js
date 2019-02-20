@@ -28,6 +28,14 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 })([Element.prototype, CharacterData.prototype, DocumentType.prototype]);
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith#Polyfill
+if (!String.prototype.startsWith) {
+  Object.defineProperty(String.prototype, 'startsWith', {
+    value: function(search, pos) {
+      pos = !pos || pos < 0 ? 0 : +pos;
+      return this.substring(pos, pos + search.length) === search;
+    }
+  });
+}
 if (!String.prototype.endsWith) {
   String.prototype.endsWith = function(search, this_len) {
     if (this_len === undefined || this_len > this.length) {

@@ -16,6 +16,12 @@ export default class extends Controller {
   connect() {
     super.connect();
     this.element.classList.remove('navbar-open');
+
+    // Mark active nav item
+    for (let item of this.element.querySelectorAll('.nav-link')) {
+      if (item.hasAttribute('no-active')) continue;
+      item.classList.toggle('active', window.location.href.startsWith(item.href));
+    }
   }
 
   toggle() {
