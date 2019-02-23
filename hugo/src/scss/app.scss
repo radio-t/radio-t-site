@@ -286,12 +286,12 @@ $jumbotron-arc-width: 120%;
       > em {
         display: block;
         white-space: nowrap;
-        width: calc((100% + 30px) / 6 - 15px);
         color: $text-muted;
         font-style: normal;
         font-family: $font-family-monospace;
         font-size: $small-font-size;
         flex-shrink: 0;
+        width: calc((100% + 30px) / 6 - 15px);
         min-width: 5.5em;
         &:empty { // no time labels
           &:after {
@@ -340,6 +340,8 @@ $jumbotron-arc-width: 120%;
         > em {
           order: 2;
           color: $link-hover-color;
+          width: auto;
+          min-width: 0;
           &:empty { // no time labels
             &:after {
               display: none;

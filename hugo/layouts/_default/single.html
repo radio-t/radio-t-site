@@ -20,14 +20,14 @@
           data-action="player-state->podcast#fetchState"
           data-podcast-url="{{ .Permalink }}"
         >
-          <div class="col-md-2 d-flex flex-column justify-content-between">
+          <div class="col-5 col-md-2 d-flex flex-column justify-content-between">
             <div>
               <h1 class="number-title">{{ partial "number-title" . }}</h1>
               <div class="post-time">{{ partial "post-time" . }}</div>
             </div>
             {{ partial "share" }}
           </div>
-          <div class="col-md-4 order-md-3">{{ partial "podcast-cover" . }}</div>
+          <div class="col col-md-4 order-md-3">{{ partial "podcast-cover" . }}</div>
           <div class="post-podcast-content text-content col-md-6 no-js" data-controller="podcast-content">
             {{ .Content }}
           </div>
