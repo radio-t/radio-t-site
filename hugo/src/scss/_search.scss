@@ -18,9 +18,12 @@ label[for="page-search-input"] {
   position: relative;
   z-index: 2;
   pointer-events: auto;
-  max-width: 40rem;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  @include media-breakpoint-up('md') {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
   @include media-breakpoint-up('xl') {
     max-width: remVw(40);
   }
@@ -44,16 +47,32 @@ label[for="page-search-input"] {
   top: 0;
   pointer-events: none;
 }
+.page-search-input-wrapper {
+  position: relative;
+  pointer-events: auto;
+}
 .page-search-input {
   border: none;
-  border-radius: $border-radius;
-  box-shadow: 0 10px 15px -8px rgba($black, .5), 0 0 3px rgba($black, .33) !important;
-  pointer-events: auto;
   height: auto;
+  padding: .7rem 1rem;
+  border-radius: 0;
+  box-shadow: 0 10px 15px -8px rgba($black, .5), 0 0 3px rgba($black, .33) !important;
+  @include media-breakpoint-up('md') {
+    border-radius: $border-radius;
+  }
   @include media-breakpoint-up('xl') {
     padding: remVw(0.5) remVw(1);
     font-size: remVw(1.171875);
   }
+}
+.page-search-close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border-radius: 0;
+  border: none !important;
+  box-shadow: none !important;
 }
 .page-search-result {
   .podcast-cover {
@@ -64,9 +83,12 @@ label[for="page-search-input"] {
 }
 .page-search-list {
   background-color: $white;
-  margin: 1rem .3rem;
-  border-radius: $border-radius;
   overflow: hidden;
+  margin-top: 1rem;
+  @include media-breakpoint-up('md') {
+    margin: 1rem .3rem;
+    border-radius: $border-radius;
+  }
 }
 .page-search-list-item {
   display: block;

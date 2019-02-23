@@ -5,8 +5,8 @@
     data-action="click->search#closeFromBackdrop"
   >
     <div class="page-search-content">
-      <div class="page-search-form pt-2 pt-md-4">
-        <div class="">
+      <div class="page-search-form pt-md-4">
+        <div class="page-search-input-wrapper">
           <input
             id="page-search-input"
             type="text"
@@ -14,6 +14,10 @@
             placeholder="Поиск..."
             data-action="input->search#search keydown->search#closeOnEscape"
           >
+          <button
+            class="page-search-close-btn btn btn-sm btn-outline-secondary text-uppercase"
+            data-action="search#toggle"
+          >Закрыть</button>
         </div>
       </div>
       <div class="page-search-result" data-target="search.result"></div>

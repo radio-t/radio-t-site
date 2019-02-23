@@ -130,16 +130,7 @@ $jumbotron-arc-width: 120%;
 .jumbotron {
   position: relative;
   margin-bottom: ($jumbotron-arc-height / 2);
-  ul {
-    list-style: none;
-    padding: 0;
-    li {
-      margin-bottom: .3rem;
-      i {
-        margin-right: .5em;
-      }
-    }
-  }
+  padding-bottom: 3rem;
 }
 .jumbotron-btn-subscribe {
   line-height: 1;
@@ -168,25 +159,22 @@ $jumbotron-arc-width: 120%;
     margin: 0 (-($jumbotron-arc-width - 100) / 2);
   }
 }
-$jumbotron-logo-width: 110px;
 .jumbotron-logo {
   position: absolute;
-  width: 100%;
-  height: 0;
+  width: 110px;
+  max-width: 15vw;
   bottom: 0;
-  margin-bottom: -($jumbotron-arc-height / 2);
-  &:after {
-    content: '';
-    position: absolute;
-    width: $jumbotron-logo-width;
-    height: $jumbotron-logo-width;
-    left: 50%;
-    bottom: 0;
-    margin-left: -($jumbotron-logo-width / 2);
-    margin-bottom: -($jumbotron-logo-width / 2);
-    background: url("../images/logo-icon.svg");
-    background-size: contain;
-  }
+  left: 50%;
+  margin-bottom: -($jumbotron-arc-height / 2); // bottom of arc
+}
+.jumbotron-logo-img {
+  position: relative;
+  width: 100%;
+  left: -50%;
+  margin-bottom: -50%;
+  padding-bottom: 100%;
+  background: url("../images/logo-icon.svg");
+  background-size: contain;
 }
 .page-footer {
   background-color: $gray-100;
