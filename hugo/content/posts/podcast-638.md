@@ -11,7 +11,7 @@ filename = "rt_podcast638"
 - [Samsung показал складной Galaxy](https://www.theverge.com/2019/2/20/18231249/samsung-galaxy-fold-folding-phone-features-screen-photos-size-announcement) - *00:02:56*.
 - [Galaxy Fold ждет успех. Или нет](https://www.tomsguide.com/us/samsung-galaxy-fold-success,news-29475.html) - *00:11:00*.
 - [Долой SPA](https://journal.plausible.io/you-probably-dont-need-a-single-page-app) - *00:17:51*.
-- [RethinkDB: почему мы закрылись) - *00:28:58*.
+- [RethinkDB: почему мы закрылись](https://habr.com/ru/post/441402/) - *00:28:58*.
 - [Apple планирует захватить TV](https://www.digitaltrends.com/home-theater/what-to-expect-from-apple-tv-streaming-service/) - *00:59:04*.
 - [Fedora Atomic закрыт](http://www.opennet.ru/opennews/art.shtml?num=50155) - *01:19:53*.
 - [Уход Splunk](https://www.splunk.com/blog/2019/02/18/shifting-priorities-in-our-global-strategy.html) - *01:21:56*.
