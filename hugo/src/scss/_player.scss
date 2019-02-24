@@ -42,9 +42,9 @@ $podcast-player-cover-margin: .5rem;
   .btn {
     color: inherit;
     padding: .25rem .25rem;
-    font-size: 1.4em;
+    font-size: 1.2em;
     transition: all 50ms;
-    transform: scale(1.001);
+    transform: scale(1);
     &:hover {
       transform: scale(1.05);
     }
@@ -79,7 +79,6 @@ $podcast-player-cover-margin: .5rem;
 }
 .player-time {
   font-family: $font-family-monospace;
-  //font-weight: $font-weight-bold;
   font-size: $small-font-size;
 }
 .player-number {
@@ -92,20 +91,28 @@ $podcast-player-cover-margin: .5rem;
   margin: $podcast-player-cover-margin 0;
 }
 @include media-breakpoint-down('sm') {
-  .player-duration {
-    display: none;
+  .player-number {
+    font-size: 1em;
   }
-  .podcast-player-seek {
+  .podcast-player {
+    padding-top: 2rem;
+    padding-bottom: .3rem;
+  }
+  .player-playback {
     position: absolute;
     z-index: 10;
     left: 0;
     right: 0;
-    bottom: 100%;
-    pointer-events: none;
+    top: 0;
+    height: 2rem;
   }
-  input[type='range'] {
-    pointer-events: auto;
-    margin-top: -100px;
-    margin-bottom: -100px;
+  .player-close {
+    margin-left: 2.5rem; // try to center controls
+  }
+  .player-time {
+    font-size: $smaller-font-size;
+  }
+  .podcast-player-cover {
+    margin: 0;
   }
 }
