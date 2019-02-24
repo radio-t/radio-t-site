@@ -213,8 +213,11 @@ $jumbotron-arc-width: 120%;
   display: inline;
   font-weight: 900;
 }
+.comments-counter {
+  font-size: $small-font-size;
+}
 .post-time {
-  font-size: .8em;
+  font-size: $smaller-font-size;
   line-height: $line-height-base * (1/.8);
   .comments-counter + & {
     margin-top: $topic-spacer;
