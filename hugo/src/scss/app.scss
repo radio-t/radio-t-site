@@ -478,10 +478,11 @@ $jumbotron-arc-width: 120%;
     margin-top: map_get($spacers, 4);
   }
   .text-content {
+    padding-top: 1.5em;
     @include media-breakpoint-up('md') {
       background-color: $white;
-      margin: -8% -4% 0;
-      padding: 2em 4%;
+      margin: -8% -6% 0;
+      padding: 2em 6%;
     }
   }
 }
