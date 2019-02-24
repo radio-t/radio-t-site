@@ -15,7 +15,7 @@ filename = "rt_podcast638"
 - [Apple планирует захватить TV](https://www.digitaltrends.com/home-theater/what-to-expect-from-apple-tv-streaming-service/) - *00:59:04*.
 - [Fedora Atomic закрыт](http://www.opennet.ru/opennews/art.shtml?num=50155) - *01:19:53*.
 - [Уход Splunk](https://www.splunk.com/blog/2019/02/18/shifting-priorities-in-our-global-strategy.html) - *01:21:56*.
-- [Ка не делать формы логина](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - *01:33:50*.
+- [Как не делать формы логина](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - *01:33:50*.
 - [Темы слушателей](https://radio-t.com/p/2019/02/19/prep-638/) - *01:47:14*.
 
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
