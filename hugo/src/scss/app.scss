@@ -407,7 +407,7 @@ $jumbotron-arc-width: 120%;
   left: (100% - $play-button-size) / 2;
   position: absolute;
   background-color: rgba($white, .65);
-  backdrop-filter: blur(5px);
+  backdrop-filter: $backdrop-filter;
   border: none;
   border-radius: 50%;
   color: $body-color;

@@ -11,7 +11,7 @@ $podcast-player-cover-margin: .5rem;
   z-index: $zindex-fixed;
   width: 100%;
   bottom: 0;
-  backdrop-filter: blur(8px) saturate(5);
+  backdrop-filter: $backdrop-filter;
   background-color: rgba($gray-200, .95);
   background-clip: padding-box;
   color: inherit;

@@ -44,7 +44,7 @@
   z-index: $zindex-sticky;
   overflow-y: hidden;
   background-color: rgba($white, .87);
-  backdrop-filter: blur(3px);
+  backdrop-filter: $backdrop-filter;
   box-shadow: 0 2px 2px rgba($black, .12);
   .nav {
     display: flex;
