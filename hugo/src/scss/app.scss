@@ -105,6 +105,9 @@ p, .jumbotron, .text-content {
     display: none;
   }
 }
+pre {
+  -webkit-overflow-scrolling: touch;
+}
 .text-light {
   color: rgba(#fff, .7);
   h1, h2, h3, h4, h5, h6,
