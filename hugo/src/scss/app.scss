@@ -134,6 +134,9 @@ $jumbotron-arc-width: 120%;
   position: relative;
   margin-bottom: ($jumbotron-arc-height / 2);
   padding-bottom: 3rem;
+  h1 > small {
+    font-size: 75%;
+  }
 }
 .jumbotron-btn-subscribe {
   line-height: 1;
@@ -189,7 +192,7 @@ $jumbotron-arc-width: 120%;
   }
 }
 .number-title {
-  font-size: $h2-font-size;
+  @include font-size($h2-font-size);
   margin-top: -.4rem;
   margin-bottom: .32rem;
   > a {
