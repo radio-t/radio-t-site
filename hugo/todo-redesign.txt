@@ -1,14 +1,6 @@
-Mobile:
-- fix search
-- fix archives top sticky
-
-- show active states in navbar
-
-- last comments
-- responsive navbar
-- favicons
 - support livestream
-- use howlerjs?
+- hash tags
+- favicons
 - animations for search and sidebar overlay
 - remember player state
 - preload archives links from mouse events
