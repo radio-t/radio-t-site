@@ -86,3 +86,7 @@
 .page-sidebar-title {
   line-height: $navbar-collapsed-height;
 }
+.gitter-open-chat-button,
+.gitter-chat-embed {
+  z-index: $zindex-fixed + 6;
+}

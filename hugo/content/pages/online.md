@@ -8,7 +8,7 @@
 Запись подкаста производится по субботам, в 23:00мск. В это время, вы можете слушать нас в прямом эфире по ссылке: [http://stream.radio-t.com](http://stream.radio-t.com) или прямо тут: <span id="play-stream" class="disabled"></span>
 <audio id="stream" src="http://stream.radio-t.com"></audio>
 
-Для обратной связи: [gitter чат](https://gitter.im/radio-t/chat) или кликнуть на "open chat" в нижнем правом углу.
+Для обратной связи: [gitter чат](https://gitter.im/radio-t/chat) или кликнуть на "Open chat" в нижнем правом углу.
 
 Обратный отсчет: <span id="timer"></span>
 
