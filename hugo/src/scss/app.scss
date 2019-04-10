@@ -403,6 +403,71 @@ $jumbotron-arc-width: 120%;
   cursor: pointer;
   //transform: scale(.);
 }
+.cover-image-online {
+  background: $primary;
+  overflow: hidden;
+}
+$ripples-count: 4;
+$online-animation-duration: 2s;
+.online-animation {}
+.online-animation-dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 40%;
+  margin-top: -20%;
+  margin-left: -20%;
+  background-color: darken($primary, 10%);
+  //background-color: #fff;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  animation: online-animation-dot ($online-animation-duration / 2) ease-out ($online-animation-duration / 10) infinite alternate;
+}
+.online-animation-ripple {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 40%;
+  margin-top: -20%;
+  margin-left: -20%;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  animation: online-animation-ripple ($online-animation-duration * $ripples-count) linear 0s infinite;
+  display: none;
+  @for $i from 1 through $ripples-count {
+    &-#{$i} {
+      display: block;
+      animation-delay: ($online-animation-duration * ($i - 1));
+    }
+  }
+}
+@keyframes online-animation-dot {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(.75);
+  }
+}
+@keyframes online-animation-ripple {
+  0% {
+    transform: scale(.98);
+    opacity: .6;
+  }
+  15% {
+    opacity: .8;
+  }
+  30% {
+    transform: scale(2);
+    opacity: .4;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
 .cover-play-button {
   $play-button-size: 33%;
   display: flex;

@@ -84,6 +84,7 @@ $podcast-player-cover-margin: .5rem;
 .player-number {
   font-weight: $font-weight-bold;
   font-size: 1.2em;
+  white-space: nowrap;
 }
 .podcast-player-cover {
   width: $podcast-player-cover-size;
