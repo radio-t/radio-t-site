@@ -2,34 +2,28 @@
   data-controller="player"
   data-target="page.player"
   id="player"
-  class="d-none-"
+  class="d-none"
   data-turbolinks-permanent
 >
   <div class="player-placeholder"></div>
   <div class="podcast-player-container">
     <div class="podcast-player container-fluid d-flex align-items-center flex-nowrap">
 
-      <div class="podcast-player-cover podcast-cover flex-shrink-0 d-none">
-        <a class="cover-image" data-target="player.cover player.link"></a>
-      </div>
-
       <div class="podcast-player-cover podcast-cover flex-shrink-0">
         <a class="cover-image cover-image-online" data-target="player.cover player.link">
           <div class="online-animation">
-            <div class="online-animation-dot"></div>
             <div class="online-animation-ripple online-animation-ripple-1"></div>
             <div class="online-animation-ripple online-animation-ripple-2"></div>
             <div class="online-animation-ripple online-animation-ripple-3"></div>
             <div class="online-animation-ripple online-animation-ripple-4"></div>
             <div class="online-animation-ripple online-animation-ripple-5"></div>
+            <div class="online-animation-dot"></div>
           </div>
         </a>
       </div>
 
       <h3 class="player-number ml-2 my-0">
-        <a data-target="player.number player.link">
-          Online
-        </a>
+        <a data-target="player.number player.link"></a>
       </h3>
 
       <div class="btn-group mx-auto px-3" role="group">

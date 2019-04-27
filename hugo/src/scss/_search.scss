@@ -73,6 +73,9 @@ label[for="page-search-input"] {
   border-radius: 0;
   border: none !important;
   box-shadow: none !important;
+  &:hover {
+    background-color: transparent;
+  }
 }
 .page-search-result {
   .podcast-cover {

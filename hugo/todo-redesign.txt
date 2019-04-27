@@ -1,5 +1,16 @@
-- feeds
+gitter controller
+!!! online player
+
++ feeds
 - вещание
+- fix safari responsive navbar
+- fix suggest topic button visibility
+- use howler.js
+
+# Online
+- markup
+- player controller, play button
+
 
 ===
 

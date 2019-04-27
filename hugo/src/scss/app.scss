@@ -111,7 +111,7 @@ pre {
 .text-light {
   color: rgba(#fff, .7);
   h1, h2, h3, h4, h5, h6,
-  .h1, .h2, .h3, .h4, .h5, .h6 {
+  .h1, .h2, .h3, .h4, .h5, .h6, a:not(.btn) {
     color: #fff;
   }
 }
@@ -409,37 +409,47 @@ $jumbotron-arc-width: 120%;
 }
 $ripples-count: 4;
 $online-animation-duration: 2s;
-.online-animation {}
+$dot-size: 50%;
+$ripple-scale-out: 3.4;
+.online-animation {
+  display: none;
+  .cover-image-online & {
+    display: block;
+  }
+}
 .online-animation-dot {
   position: absolute;
+  z-index: 2;
   top: 50%;
   left: 50%;
-  width: 40%;
-  height: 40%;
-  margin-top: -20%;
-  margin-left: -20%;
-  background-color: darken($primary, 10%);
-  //background-color: #fff;
+  width: $dot-size;
+  height: $dot-size;
+  margin-top: -($dot-size / 2);
+  margin-left: -($dot-size / 2);
+  background-color: darken($primary, 15%);
   border: 3px solid #fff;
   border-radius: 50%;
-  animation: online-animation-dot ($online-animation-duration / 2) ease-out ($online-animation-duration / 10) infinite alternate;
+  animation: online-animation-dot ($online-animation-duration / 2) ease-out ($online-animation-duration / 8 - $online-animation-duration) infinite alternate;
 }
 .online-animation-ripple {
   position: absolute;
+  z-index: 1;
   top: 50%;
   left: 50%;
-  width: 40%;
-  height: 40%;
-  margin-top: -20%;
-  margin-left: -20%;
-  border: 1px solid #fff;
+  width: $dot-size;
+  height: $dot-size;
+  margin-top: -($dot-size / 2);
+  margin-left: -($dot-size / 2);
+  //border: 1px solid #fff;
+  background-image: radial-gradient(circle closest-side, rgba(#fff, 0) 0%, rgba(#fff, .5) 80%, #fff 100%);
+  background-repeat: no-repeat;
   border-radius: 50%;
   animation: online-animation-ripple ($online-animation-duration * $ripples-count) linear 0s infinite;
   display: none;
   @for $i from 1 through $ripples-count {
     &-#{$i} {
       display: block;
-      animation-delay: ($online-animation-duration * ($i - 1));
+      animation-delay: ($online-animation-duration * ($i - 1)) - ($online-animation-duration * $ripples-count);
     }
   }
 }
@@ -453,20 +463,30 @@ $online-animation-duration: 2s;
 }
 @keyframes online-animation-ripple {
   0% {
-    transform: scale(.98);
+    transform: scale(.92);
     opacity: .6;
   }
   15% {
     opacity: .8;
   }
   30% {
-    transform: scale(2);
+    transform: scale($ripple-scale-out / 2);
     opacity: .4;
   }
   100% {
-    transform: scale(4);
+    transform: scale($ripple-scale-out);
     opacity: 0;
   }
+}
+.online-play-button {
+  display: block;
+  width: 100%;
+  appearance: none;
+  border: 0;
+  background: $primary url("../images/logo-icon.svg") center no-repeat;
+  background-size: cover;
+  padding: 0 0 100%;
+  border-radius: 50%;
 }
 .cover-play-button {
   $play-button-size: 33%;
