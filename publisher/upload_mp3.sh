@@ -33,7 +33,7 @@ ${notif} -title PodPrc -message "copy to hp-usrv (local) archives"
 scp -P 2222 $1 umputun@archives.umputun.com:/data/archive.rucast.net/radio-t/media/
 
 echo "upload to archive site"
-${lftp} -u ${PODCAST_ARCHIVE_CREDS} sftp://archive.rucast.net -e "debug 3; cd radio-t/media; put $1; exit"
+scp $1 umputun@master.radio-t.com:/data/archive/radio-t/media/${fname}
 
 echo "all done for $fname"
 ${notif} -title PodPrc -message "all done for $fname"
