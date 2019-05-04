@@ -35,7 +35,7 @@ export default class extends Controller {
 }
 
 function getTextSnippet(html) {
-  const LENGTH = 100;
+  const LENGTH = 120;
   const tmp = document.createElement('div');
   tmp.innerHTML = html.replace('</p><p>', ' ');
 
@@ -63,7 +63,10 @@ const LastComments = function ({comments}) {
           <div className="last-comments-avatar-image" style={avatarStyle}/>
         </div>
         <div className="media-body">
-          <h5 className="m-0 small font-weight-bold">{comment.user.name}</h5>
+          <h5 className="m-0 small font-weight-bold">
+            {comment.user.name}
+            {comment.user.verified && <div className="last-comments-comment__verification"></div>}
+          </h5>
           <a
             href={href}
             title={format(date, 'DD MMM YYYY, HH:mm', {locale})}
