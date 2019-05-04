@@ -566,6 +566,13 @@ $ripple-scale-out: 3.4;
 .post-comments {
   background-color: $gray-100;
 }
+.comment-policy {
+  background-color: rgba($gray-500, .15);
+  padding: .5rem 1rem;
+  color: $text-muted;
+  font-size: $small-font-size;
+  border-left: 2px solid $gray-500;
+}
 .page-cover-image {
   display: block;
   width: 100%;
