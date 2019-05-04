@@ -10,7 +10,7 @@ filename = "rt_podcast648"
 
 - [Вы не Google](https://habr.com/ru/post/450230/) - *00:06:30*.
 - [Требую вернуть монолит](http://www.craigkerstiens.com/2019/03/13/give-me-back-my-monolith/) - *01:21:38*.
-- [Java еще не жива](https://dzone.com/articles/java-is-not-dying-yet) - *01:42:14*.
+- [Java еще жива](https://dzone.com/articles/java-is-not-dying-yet) - *01:42:14*.
 - [Темы слушателей](https://radio-t.com/p/2019/04/30/prep-648/) - *01:50:45*.
 
 
