@@ -20,7 +20,7 @@ export default class extends Controller {
     this.dispatchEvent(this.element, new CustomEvent('podcast-play', {
       bubbles: true,
       detail: {
-        src: 'http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_q',
+        src: 'http://stream.radio-t.com/',
         url: '/online',
         image: null,
         number: 'Online',
