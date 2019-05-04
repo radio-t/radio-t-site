@@ -186,6 +186,23 @@ $jumbotron-arc-width: 120%;
   background: url("../images/logo-icon.svg");
   background-size: contain;
 }
+.banner-icon {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.banner-icon-pirates {
+  background-image: url('../images/banners/pirates.svg');
+}
+.banner-icon-friends {
+  background-image: url('../images/banners/friends.svg');
+}
+.banner-icon-help {
+  background-image: url('../images/banners/help.svg');
+}
 .page-footer {
   background-color: $gray-100;
 }
