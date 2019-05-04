@@ -6,18 +6,16 @@ import imagesLoaded from 'imagesloaded';
 import Controller from '../base_controller';
 import http from '../http-client';
 
-export default class extends Controller {
-  async initialize() {
-    super.initialize();
-    if (this.data.get('initialized')) return;
-    this.data.set('initialized', '1');
+const limit = 30;
 
+export default class extends Controller {
+  connect() {
+    super.connect();
     lozad(this.element, {
       load: async () => {
         this.element.classList.add('loaded');
         const {data} = await this.getComments();
         const pictures = uniq(filter(map(data.comments, 'user.picture')));
-        const limit = 10;
         this.element.innerHTML = '';
         pictures.slice(0, limit).forEach((picture, index) => {
           if (!picture) return;

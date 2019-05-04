@@ -1,6 +1,6 @@
 <article class="posts-list-item py-5">
-  <div class="container-fluid">
-    {{ if in .Params.categories "podcast" }}
+  {{ if in .Params.categories "podcast" }}
+    <div class="container-fluid">
       <div
         class="row post-podcast"
         data-controller="podcast"
@@ -21,36 +21,44 @@
           {{ .Content }}
         </div>
       </div>
-    {{ else if in .Params.categories "prep" }}
-      <div class="row">
-        <div class="col-5 col-md-2">
-          <h2 class="number-title">
-            <a class="text-muted" href="{{ .Permalink }}">{{ partial "number-title" . }}</a>
-          </h2>
-          <p class="post-time m-0 text-muted">{{ partial "post-time" . }}</p>
-        </div>
-        <div class="col col-md d-flex flex-column overflow-hidden">
-          {{ partial "comments-counter" .Permalink }}
-          <div class="comments-counter-avatars" data-controller="avatars" data-avatars-url="{{ .RelPermalink }}"></div>
-          <div class="mt-auto"><a href="{{ .Permalink }}" class="btn btn-outline-primary btn-scale btn-sm">Предложить тему</a></div>
-        </div>
-      </div>
-    {{ else }}
-      <div>
+    </div>
+  {{ else if in .Params.categories "prep" }}
+    <div class="overflow-hidden">
+      <div class="container-fluid">
         <div class="row align-items-baseline">
-          <div class="col-md-8 offset-md-2">
-            <h2 class="display-4 mb-md-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <div class="col col-md-2 flex-grow-0 text-nowrap">
+            <h2 class="number-title">
+              <a class="text-muted" href="{{ .Permalink }}">{{ partial "number-title" . }}</a>
+            </h2>
+            <p class="post-time m-0 text-muted">{{ partial "post-time" . }}</p>
           </div>
-          <div class="w-100"></div>
-          <div class="col-md-2">
+          <div class="col col-md d-flex flex-column">
             {{ partial "comments-counter" .Permalink }}
-            <div class="post-time">{{ partial "post-time" . }}</div>
-          </div>
-          <div class="text-content col-md-8" data-controller="highlight">
-            {{ .Content }}
+            <div class="comments-counter-avatars" data-controller="avatars" data-avatars-url="{{ .RelPermalink }}"></div>
+            <div class="mt-auto">
+              <a href="{{ .Permalink }}" class="btn btn-primary btn-scale btn-sm">
+                Предложить тему &rarr;
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    {{ end }}
-  </div>
+    </div>
+  {{ else }}
+    <div class="container-fluid">
+      <div class="row align-items-baseline">
+        <div class="col-md-8 offset-md-2">
+          <h2 class="display-4 mb-md-4"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-md-2">
+          {{ partial "comments-counter" .Permalink }}
+          <div class="post-time">{{ partial "post-time" . }}</div>
+        </div>
+        <div class="text-content col-md-8" data-controller="highlight">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  {{ end }}
 </article>

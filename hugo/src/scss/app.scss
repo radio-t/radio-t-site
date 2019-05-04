@@ -231,31 +231,42 @@ $jumbotron-arc-width: 120%;
   }
 }
 .comments-counter-avatars {
+  @include responsive-font-size(2rem);
   min-height: 1px;
-  margin-top: 1.4em;
-  margin-bottom: 1em;
+  margin-top: .5em;
+  margin-bottom: .4em;
   margin-right: -100vw;
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
+  &:before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 1em;
+  }
+  @include media-breakpoint-down('xs') {
+    margin-top: .3em;
+  }
 }
 .comments-counter-avatars-item {
   position: relative;
   display: inline-block;
   vertical-align: middle;
-  width: 2rem;
-  height: 2rem;
-  margin-right: -.5rem;
+  width: 1em;
+  height: 1em;
+  margin-right: -.25em;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   opacity: .8;
   transition: 350ms;
+  transition-property: transform, opacity;
   border-radius: 50%;
   //border-radius: 6px;
   //transform: rotate(-10deg);
   .comments-counter-avatars.loaded & {
-    transform: translate3d(.5rem, .5rem, 0) scale(.33);
+    transform: translate3d(.15em, .15em, 0) scale(.8);
     opacity: 0;
     transition-duration: 0ms;
   }
