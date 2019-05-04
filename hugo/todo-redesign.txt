@@ -1,10 +1,14 @@
+- blue play button
+- banners
+- http://localhost:3000/categories/podcast/ comments counter?
+
 gitter controller
 !!! online player
 
 + feeds
 - вещание
 - fix safari responsive navbar
-- fix suggest topic button visibility
++ fix suggest topic button visibility
 - use howler.js
 
 # Online

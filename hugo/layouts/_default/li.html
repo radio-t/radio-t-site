@@ -1,4 +1,4 @@
-<article class="posts-list-item py-5">
+<article class="posts-list-item py-5 {{ delimit (apply .Params.categories "printf" "posts-list-item-category-%s" ".") " " }}">
   {{ if in .Params.categories "podcast" }}
     <div class="container-fluid">
       <div
@@ -23,7 +23,7 @@
       </div>
     </div>
   {{ else if in .Params.categories "prep" }}
-    <div class="overflow-hidden">
+    <div class="overflow-hidden py-1">
       <div class="container-fluid">
         <div class="row align-items-baseline">
           <div class="col col-md-2 flex-grow-0 text-nowrap">
@@ -34,9 +34,11 @@
           </div>
           <div class="col col-md d-flex flex-column">
             {{ partial "comments-counter" .Permalink }}
-            <div class="comments-counter-avatars" data-controller="avatars" data-avatars-url="{{ .RelPermalink }}"></div>
+            <a href="{{ .Permalink }}">
+              <div class="comments-counter-avatars" data-controller="avatars" data-avatars-url="{{ .RelPermalink }}"></div>
+            </a>
             <div class="mt-auto">
-              <a href="{{ .Permalink }}" class="btn btn-primary btn-scale btn-sm">
+              <a href="{{ .Permalink }}" class="btn btn-primary btn-scale btn-sm btn-suggest-topic d-none">
                 Предложить тему &rarr;
               </a>
             </div>
