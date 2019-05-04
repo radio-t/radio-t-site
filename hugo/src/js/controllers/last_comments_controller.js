@@ -1,7 +1,7 @@
 import { h, render } from 'preact';
 import { format, parse, distanceInWordsToNow, distanceInWordsStrict } from 'date-fns';
 import locale from 'date-fns/locale/ru';
-import sleep from 'sleep-promise';
+import Visibility from 'visibilityjs';
 import Controller from '../base_controller';
 import http from 'axios';
 // import http from '../http-client';
@@ -12,12 +12,25 @@ export default class extends Controller {
   async initialize() {
     super.initialize();
 
-    while (true) {
-      const {data} = await http.get('https://remark42.radio-t.com/api/v1/last/25', {params: {site: 'radiot'}});
-      this.element.innerHTML = '';
-      render((<LastComments comments={data}/>), this.element);
-      await sleep(30000);
-    }
+    await this.updateComments();
+
+    const min = 60 * 1000;
+    Visibility.every(min / 2, 10 * min, async () => {
+      await this.updateComments();
+    });
+  }
+
+  async updateComments() {
+    // Set min height to preserve scroll position
+    const height = this.element.offsetHeight;
+    const prevMinHeight = this.element.style.minHeight;
+    this.element.style.minHeight = `${height}px`;
+
+    const {data} = await http.get('https://remark42.radio-t.com/api/v1/last/30', {params: {site: 'radiot'}});
+    this.element.innerHTML = '';
+    render((<LastComments comments={data}/>), this.element);
+
+    this.element.style.minHeight = prevMinHeight;
   }
 }
 
@@ -41,7 +54,7 @@ const LastComments = function ({comments}) {
     const href = (new URL(comment.locator.url)).pathname + `#${COMMENT_NODE_CLASSNAME_PREFIX}${comment.id}`;
 
     return <div className="last-comments-list-item">
-      <div className="mb-2 text-content">
+      <div className="mb-3 text-content">
         <a href={href}>{comment.title}</a>
         <small className="text-muted"> &rarr;</small>
       </div>

@@ -73,7 +73,6 @@
   z-index: 2;
   top: 0;
   background-color: rgba($white, .9);
-  border-bottom: 1px solid $border-color;
   background-clip: padding-box;
   .close {
     padding: 0;
@@ -89,6 +88,9 @@
 }
 .page-sidebar-title {
   line-height: $navbar-collapsed-height;
+}
+.page-sidebar-content {
+  word-break: break-word;
 }
 .gitter-open-chat-button,
 .gitter-chat-embed {
