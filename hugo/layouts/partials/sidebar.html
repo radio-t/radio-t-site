@@ -3,15 +3,16 @@
   <div class="page-sidebar small">
     <div
       class="page-sidebar-scroll"
-      data-target="sidebar.scroll"
+      data-controller="scroll-position"
+      data-action="scroll->scroll-position#onScroll"
     >
       <div class="page-sidebar-scroll-content">
         <div class="page-sidebar-header">
           <button class="close page-sidebar-toggle" data-action="click->sidebar#toggle">&times;</button>
           <h6 class="page-sidebar-title px-3 m-0">Комментарии</h6>
         </div>
-        <div class="page-sidebar-content py-3 px-3">
-          <div class="remark42__last-comments" data-max="25" data-controller="last-comments"></div>
+        <div class="page-sidebar-content py-4 px-3">
+          <div data-max="25" data-controller="last-comments"></div>
         </div>
       </div>
     </div>

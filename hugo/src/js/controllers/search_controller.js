@@ -1,9 +1,10 @@
 import { h, render } from 'preact';
-import Controller from '../base_controller';
-import debounce from 'lodash/debounce';
-import http from '../http-client';
 import { format, parse } from 'date-fns';
+import locale from 'date-fns/locale/ru';
+import debounce from 'lodash/debounce';
 import Mark from 'mark.js';
+import Controller from '../base_controller';
+import http from '../http-client';
 
 export default class extends Controller {
   static targets = ['result', 'backdrop', 'scroll'];
@@ -65,7 +66,7 @@ const Results = function ({results}) {
         <div className="cover-image" style={{backgroundImage: `url('${result.image}')`}}/>
       </div>}
       <h4 className="m-0">{result.title}</h4>
-      <div className="small text-muted">{format(parse(result.date), 'DD MMM YYYY')}</div>
+      <div className="small text-muted">{format(parse(result.date), 'DD MMM YYYY', {locale})}</div>
       <div className="small">{result.show_notes}</div>
     </a>,
   )}</div>);

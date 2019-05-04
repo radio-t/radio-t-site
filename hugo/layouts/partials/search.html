@@ -1,8 +1,9 @@
 <div data-turbolinks-permanent id="page-search">
   <div
     class="page-search page-search-scroll"
+    data-controller="scroll-position"
     data-target="search.scroll search.backdrop"
-    data-action="click->search#closeFromBackdrop"
+    data-action="click->search#closeFromBackdrop scroll->scroll-position#onScroll"
   >
     <div class="page-search-content">
       <div class="page-search-form pt-md-4">

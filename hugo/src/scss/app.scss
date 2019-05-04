@@ -6,6 +6,7 @@
 @import "search";
 @import "remark";
 @import "archives";
+@import "last-comments";
 @mixin dark {
   background-color: #000;
   filter: invert(1) hue-rotate(180deg);
@@ -401,7 +402,6 @@ $jumbotron-arc-width: 120%;
   background-repeat: no-repeat;
   transition: 150ms;
   cursor: pointer;
-  //transform: scale(.);
 }
 .cover-image-online {
   background: $primary;

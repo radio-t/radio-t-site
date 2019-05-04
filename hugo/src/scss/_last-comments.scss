@@ -1,0 +1,26 @@
+.last-comments-list {
+  line-height: 1.25;
+}
+.last-comments-list-item {
+  & + & {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid $border-color;
+  }
+}
+.last-comments-header {}
+.last-comments-avatar {
+  width: 1.8rem;
+}
+.last-comments-avatar-image {
+  display: block;
+  position: relative;
+  width: 100%;
+  border-radius: 4px;
+  padding-bottom: 100%;
+  //background-image: url('../images/default-cover.jpg');
+  background-color: $gray-200;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

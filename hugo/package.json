@@ -39,10 +39,12 @@
     "quicklink": "^1.0.0",
     "sass-loader": "^7.1.0",
     "scriptjs": "^2.5.9",
+    "sleep-promise": "^8.0.1",
     "smooth-scroll": "^16.0.3",
     "smoothscroll-polyfill": "^0.4.4",
     "stimulus": "^1.1.1",
     "turbolinks": "^5.2.0",
+    "url-polyfill": "^1.1.5",
     "webpack": "^4.30.0"
   },
   "devDependencies": {
