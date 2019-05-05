@@ -135,7 +135,7 @@ export default class extends Controller {
     return pieces.reverse().map((t) => padStart(t, 2, '0')).join(':');
   }
 
-  seekBack() {
+  seekBackward() {
     this.updateCurrentTime(this.audioTarget.currentTime - 15);
   }
 

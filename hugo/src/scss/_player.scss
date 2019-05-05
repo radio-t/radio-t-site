@@ -65,6 +65,20 @@ $podcast-player-cover-margin: .5rem;
     transform: scale(.85);
   }
 }
+.btn-player-icon {
+  display: inline-block;
+  width: 1.1em;
+  padding-bottom: 100%;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.btn-player-icon-backward {
+  background-image: url('../images/player/backward.svg');
+}
+.btn-player-icon-forward {
+  background-image: url('../images/player/forward.svg');
+}
 .podcast-player-seek {
   input[type='range'] {
     cursor: pointer;

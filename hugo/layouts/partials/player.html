@@ -27,15 +27,15 @@
       </h3>
 
       <div class="btn-group mx-auto px-3" role="group">
-        <button class="btn btn-link" data-action="player#seekBack">
-          <i class="fas fa-fw fa-undo-alt"></i>
+        <button class="btn btn-link d-inline-flex" data-action="player#seekBackward">
+          <span class="btn-player-icon btn-player-icon-backward"></span>
         </button>
-        <button class="btn btn-link player-play" data-action="player#playPause">
-          <i class="far fa-fw fa-play-circle" data-target="player.play"></i>
-          <i class="fas fa-fw fa-pause d-none" data-target="player.pause"></i>
+        <button class="btn btn-link player-play mx-2 mx-md-1" data-action="player#playPause">
+          <i class="fas fa-fw fa-play-circle" data-target="player.play"></i>
+          <i class="fas fa-fw fa-pause-circle d-none" data-target="player.pause"></i>
         </button>
-        <button class="btn btn-link" data-action="player#seekForward">
-          <i class="fas fa-fw fa-redo-alt"></i>
+        <button class="btn btn-link d-inline-flex" data-action="player#seekForward">
+          <span class="btn-player-icon btn-player-icon-forward"></span>
         </button>
       </div>
 
