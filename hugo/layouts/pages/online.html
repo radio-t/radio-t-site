@@ -19,13 +19,26 @@
             {{ .Content }}
             <ul class="list-unstyled">
               <li class="mb-1">
-                <i class="fas fa-comments fa-fw mr-2"></i>
+                <i class="far fa-comment-dots fa-fw mr-2"></i>
                 <a href="https://gitter.im/radio-t/chat">Чат подкаста</a>
               </li>
-              <li>
+              <li class="mb-1">
                 <i class="fas fa-align-left fa-fw mr-2"></i>
-                <a href="https://news.radio-t.com/">Темы выпусков от авторов</a>
+                <a href="https://news.radio-t.com/">Темы выпусков</a> от авторов
               </li>
+              {{ $prep := index (index .Site.Taxonomies.categories "prep").Pages 0 }}
+              {{ $podcast := index (index .Site.Taxonomies.categories "podcast").Pages 0 }}
+              {{ if and $prep $podcast }}
+                <li>
+                  <i class="far fa-comments fa-fw mr-2"></i>
+                  {{ if gt $prep.Date $podcast.Date }}
+                    <a href="{{ $prep.Permalink }}" title="{{ $prep.LinkTitle }}">Предложить тему</a>
+                    <small>&rarr;</small>
+                  {{ else }}
+                    Сбор тем начинается в среду
+                  {{ end }}
+                </li>
+              {{ end }}
             </ul>
           </div>
           <div class="page-share mt-4">{{ partial "share" }}</div>
