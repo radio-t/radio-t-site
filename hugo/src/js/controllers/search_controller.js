@@ -60,14 +60,16 @@ export default class extends Controller {
 }
 
 const Results = function ({results}) {
-  return (<div className="page-search-list">{results.map((result) =>
-    <a href={(new URL(result.url)).pathname} className="page-search-list-item py-3 px-3">
-      {result.image && <div className="podcast-cover">
-        <div className="cover-image" style={{backgroundImage: `url('${result.image}')`}}/>
-      </div>}
-      <h4 className="m-0">{result.title}</h4>
-      <div className="small text-muted">{format(parse(result.date), 'DD MMM YYYY', {locale})}</div>
-      <div className="small">{result.show_notes}</div>
-    </a>,
-  )}</div>);
+  return (
+    <div className="page-search-list">{results.map((result) =>
+      <a href={(new URL(result.url)).pathname} className="page-search-list-item py-3 px-3">
+        {result.image && <div className="podcast-cover">
+          <div className="cover-image" style={{backgroundImage: `url('${result.image}')`}}/>
+        </div>}
+        <h4 className="m-0">{result.title}</h4>
+        <div className="small text-muted">{format(parse(result.date), 'DD MMM YYYY', {locale})}</div>
+        <div className="small">{result.show_notes}</div>
+      </a>,
+    )}</div>
+  );
 };
