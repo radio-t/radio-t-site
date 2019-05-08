@@ -15,7 +15,7 @@ export default class extends Controller {
       load: async () => {
         this.element.classList.add('loaded');
         const {data} = await this.getComments();
-        const pictures = uniq(filter(map(data.comments, 'user.picture')));
+        const pictures = uniq(filter(map(data.comments, 'user.picture'))).reverse();
         this.element.innerHTML = '';
         pictures.slice(0, limit).forEach((picture, index) => {
           if (!picture) return;
@@ -34,6 +34,6 @@ export default class extends Controller {
   }
 
   getComments() {
-    return http.get(`https://remark42.radio-t.com/api/v1/find?url=https://radio-t.com${this.data.get('url')}&sort=time&site=radiot`);
+    return http.get(`https://remark42.radio-t.com/api/v1/find?url=https://radio-t.com${this.data.get('url')}&sort=-time&site=radiot`);
   }
 }
