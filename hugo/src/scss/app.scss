@@ -520,7 +520,7 @@ $ripple-scale-out: 3.4;
   border-radius: 50%;
 }
 .cover-play-button {
-  $play-button-size: 2em;
+  $play-button-size: 1.8em;
   @include responsive-font-size(3rem);
   display: flex;
   align-items: center;
@@ -533,27 +533,28 @@ $ripple-scale-out: 3.4;
   height: $play-button-size;
   margin-top: (- $play-button-size) / 2;
   margin-left:  (- $play-button-size) / 2;
-  background-color: rgba($white, .65);
+  background-color: rgba($link-hover-color, .65);
   backdrop-filter: $backdrop-filter;
   border: none;
   border-radius: 50%;
-  color: $body-color;
+  color: $white;
   opacity: 1;
   transform: scale(1.0001);
   transition: all 150ms;
   cursor: pointer;
-  box-shadow: 0 1px 1px 1px rgba($black, .1);
+  box-shadow: inset 0 0 0 2px $white, 0 0 0 4px rgba($link-hover-color, .35);
+    //, 0 1px 3px 1px rgba($black, .2);
   &:hover, &:focus {
     transform: scale(1.03) translate3d(0, -1px, 0);
-    color: $link-hover-color;
+    //color: $link-hover-color;
     //box-shadow: 0 5px 10px rgba($black, .5);
-    background-color: rgba($white, .75);
+    background-color: rgba($link-hover-color, .95);
     transition-duration: 30ms;
     outline: none;
   }
   &:active {
-    transform: scale(.97);
-    box-shadow: 0 1px 3px rgba($black, .33);
+    transform: scale(.95);
+    box-shadow: inset 0 0 0 1px $white, 0 0 0 1px rgba($link-hover-color, .65);
   }
   .icon {
     font-size: $play-button-size / 2;
