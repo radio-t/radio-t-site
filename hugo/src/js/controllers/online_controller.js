@@ -67,7 +67,7 @@ export default class extends Controller {
       result += days + ' ' + getUnits(days, daysList) + ' ';
     }
 
-    result += `${padTime(hours)}:${padTime(minutes)}<span class="text-muted">:${padTime(seconds)}</span>`;
+    result += `${padTime(hours)}:${padTime(minutes)}<span style="opacity: .5;">:${padTime(seconds)}</span>`;
 
     return result;
   }

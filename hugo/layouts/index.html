@@ -19,7 +19,7 @@
         {{ .Render "li" }}
         {{ if (eq $paginator.PageNumber 1) }}
           {{ if (eq $index 1) }}
-            {{ partial "banner-broadcast" . }}
+            {{ partial "banner-online" . }}
           {{ end }}
           {{ if (eq $index 5) }}
             {{ partial "banner-links" . }}

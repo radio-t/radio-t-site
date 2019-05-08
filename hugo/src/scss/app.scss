@@ -43,27 +43,27 @@ html.js {
     visibility: hidden;
   }
 }
-@mixin link($selector: '&') {
+@mixin link($selector: '&', $active-bg: $link-hover-color, $active-color: $white) {
   #{$selector} {
     transition: 350ms ease;
     transition-property: color, background-color, border;
     transition-delay: 25ms;
-    border-bottom: 2px solid rgba($link-hover-color, .15);
+    border-bottom: 2px solid rgba($active-bg, .15);
   }
   &:hover {
     #{$selector} {
-      color: $link-hover-color;
+      color: $active-bg;
       //color: inherit;
-      background-color: rgba($link-hover-color, .1);
-      text-shadow: 0 1px rgba($white, .33);
+      background-color: rgba($active-bg, .1);
+      text-shadow: 0 1px rgba($active-color, .33);
       transition-duration: 50ms;
       transition-delay: 0ms;
-      border-bottom-color: rgba($link-hover-color, .05);
+      border-bottom-color: rgba($active-bg, .05);
     }
     &:active {
       #{$selector} {
-        color: #fff;
-        background-color: $link-hover-color;
+        color: $active-color;
+        background-color: $active-bg;
         text-shadow: none;
       }
     }
@@ -117,6 +117,13 @@ pre {
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6, a:not(.btn) {
     color: #fff;
+  }
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6,
+  p, .text-content {
+    a:not(.btn):not(.nav-link) {
+      @include link('&', $white, $primary);
+    }
   }
 }
 .text-uppercase {
@@ -185,6 +192,23 @@ $jumbotron-arc-width: 120%;
   padding-bottom: 100%;
   background: url("../images/logo-icon.svg");
   background-size: contain;
+}
+.banner-online {
+  background: repeating-radial-gradient(
+      circle at -140px,
+      darken($primary, 12%),
+      darken($primary, 12%) 20px,
+      $white 20px,
+      $white 40px
+  );
+}
+.banner-online-inner {
+  background: radial-gradient(
+      circle at -140px,
+      rgba($primary, .92),
+      rgba(darken($primary, 12%), .99) 70%,
+      rgba(darken($primary, 15%), 1) 100%
+  );
 }
 .banner-icon {
   width: 2rem;
@@ -533,6 +557,7 @@ $ripple-scale-out: 3.4;
   height: $play-button-size;
   margin-top: (- $play-button-size) / 2;
   margin-left:  (- $play-button-size) / 2;
+  padding: 0;
   background-color: rgba($link-hover-color, .65);
   backdrop-filter: $backdrop-filter;
   border: none;
@@ -631,4 +656,8 @@ $ripple-scale-out: 3.4;
 .about-authors-item {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+[data-target="online.time"] {
+  cursor: default;
+  user-select: none;
 }

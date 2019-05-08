@@ -1,0 +1,21 @@
+<div class="banner-online">
+  <div class="banner-online-inner py-5 text-light">
+    <div class="container-fluid">
+      <div class="row align-items-baseline">
+        <div class="col-md col-lg-6">
+          <h2 class="display-4 text-nowrap">
+            <a href="/online">Online-вещание</a>
+          </h2>
+          <p>
+            Запись подкаста производится по субботам, в&nbsp;23:00 по&nbsp;Московскому времени.
+            В&nbsp;это время вы можете слушать нас в&nbsp;прямом эфире <a href="http://stream.radio-t.com">по&nbsp;ссылке</a> или <a href="/online">прямо здесь</a>.
+          </p>
+        </div>
+        <div class="col-md-5 col-lg-5 offset-lg-1" data-controller="online">
+          <h2 data-target="online.time">&nbsp;</h2>
+          {{ partial "online-links" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
