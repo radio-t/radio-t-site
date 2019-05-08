@@ -520,15 +520,19 @@ $ripple-scale-out: 3.4;
   border-radius: 50%;
 }
 .cover-play-button {
-  $play-button-size: 33%;
+  $play-button-size: 2em;
+  @include responsive-font-size(3rem);
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   width: $play-button-size;
   height: $play-button-size;
-  top: (100% - $play-button-size) / 2;
-  left: (100% - $play-button-size) / 2;
-  position: absolute;
+  margin-top: (- $play-button-size) / 2;
+  margin-left:  (- $play-button-size) / 2;
   background-color: rgba($white, .65);
   backdrop-filter: $backdrop-filter;
   border: none;
@@ -552,12 +556,11 @@ $ripple-scale-out: 3.4;
     box-shadow: 0 1px 3px rgba($black, .33);
   }
   .icon {
-    width: 65%;
-    fill: currentColor;
+    font-size: $play-button-size / 2;
     cursor: pointer;
   }
   .play-icon {
-    margin-left: 10%;
+    margin-left: .23em;
   }
   .pause-icon {
     display: none;
