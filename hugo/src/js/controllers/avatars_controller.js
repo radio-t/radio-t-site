@@ -34,6 +34,6 @@ export default class extends Controller {
   }
 
   getComments() {
-    return http.get(`https://remark42.radio-t.com/api/v1/find?url=https://radio-t.com${this.data.get('url')}&sort=-time&site=radiot`);
+    return http.get(`https://remark42.radio-t.com/api/v1/find?url=https://radio-t.com${this.data.get('url')}&sort=time&site=radiot`);
   }
 }
