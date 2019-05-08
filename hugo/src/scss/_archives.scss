@@ -46,6 +46,7 @@
   background-color: rgba($white, .87);
   backdrop-filter: $backdrop-filter;
   box-shadow: 0 2px 2px rgba($black, .12);
+  height: 4.5rem;
   .nav {
     display: flex;
     flex-wrap: nowrap;
@@ -63,6 +64,7 @@
     z-index: 10;
     padding: .5rem 0 .8rem;
     border-bottom: 2px solid transparent;
+    height: 4.5rem;
     + .nav-link {
       margin-left: 1rem;
     }
