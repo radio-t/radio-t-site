@@ -57,9 +57,6 @@ label[for="page-search-input"] {
   padding: .7rem 1rem;
   border-radius: 0;
   box-shadow: 0 10px 15px -8px rgba($black, .5), 0 0 3px rgba($black, .33) !important;
-  @include media-breakpoint-up('md') {
-    border-radius: $border-radius;
-  }
   @include media-breakpoint-up('xl') {
     padding: remVw(0.5) remVw(1);
     font-size: remVw(1.171875);
@@ -73,10 +70,20 @@ label[for="page-search-input"] {
   border-radius: 0;
   border: none !important;
   box-shadow: none !important;
+  background-color: $white;
   &:hover {
-    background-color: transparent;
+    background-color: $white;
   }
 }
+@include media-breakpoint-up('md') {
+  .page-search-input {
+    border-radius: $border-radius;
+  }
+  .page-search-close-btn {
+    @include border-right-radius($border-radius);
+  }
+}
+
 .page-search-result {
   .podcast-cover {
     float: right;
