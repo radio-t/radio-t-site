@@ -62,7 +62,7 @@ class LastComments extends Component {
 
   componentDidMount() {
     const min = 60 * 1000;
-    this.visibilityInterval = Visibility.every(min / 20, 5 * min, () => {
+    this.visibilityInterval = Visibility.every(min / 2, 5 * min, () => {
       this.updateComments();
     });
 
