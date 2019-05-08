@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>
-  {{ if eq .URL "/" }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}
+  {{ if eq .URL "/" }}{{ .Title }}{{ else }}{{ .Title }} – {{ .Site.Title }}{{ end }}
 </title>
 
 <meta name="description" content="{{ .Site.Params.description }}">
@@ -21,7 +21,7 @@
 <script>
   window.remark_config = {
     site_id: '{{ .Site.Params.remark42 }}',
-    page_title: document.title,
+    page_title: '{{ .Title }}',
   };
 </script>
 
