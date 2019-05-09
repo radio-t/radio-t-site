@@ -23,7 +23,7 @@
         <li class="list-inline-item">
           {{ with .Params.categories }}
             {{ range . }}
-              <a class="category" href="/categories/{{ . }}">{{ . }}</a>
+              <a class="category" href="/categories/{{ . }}">#{{ . }}</a>
             {{ end }}
           {{ end }}
         </li>

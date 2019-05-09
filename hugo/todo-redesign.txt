@@ -1,8 +1,9 @@
-- blue play button
-- banners
 - http://localhost:3000/categories/podcast/ comments counter?
 
-gitter controller
++ blue play button
++ banners
+
+remove gitter?
 !!! online player
 
 + feeds
@@ -12,14 +13,19 @@ gitter controller
 - use howler.js
 
 # Online
-- markup
++ markup
 - player controller, play button
 
 
 ===
 
-- hash tags
++ categories as hash tags
 - favicons
+
+===
+===
+===
+
 - animations for search and sidebar overlay
 - remember player state
 - preload archives links from mouse events
