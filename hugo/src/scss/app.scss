@@ -122,7 +122,7 @@ pre {
   .h1, .h2, .h3, .h4, .h5, .h6,
   p, .text-content {
     a:not(.btn):not(.nav-link) {
-      @include link('&', $white, $primary);
+      @include link('&', $white, $link-hover-color);
     }
   }
 }
@@ -230,13 +230,26 @@ $jumbotron-arc-width: 120%;
   background-image: url('../images/banners/help.svg');
 }
 .page-footer {
-  background-color: $gray-100;
+  background-color: $gray-800;
+  .footer-credits {
+    background-color: $gray-900;
+  }
 }
 .page-footer-links {
   padding: 0;
   > li + li {
     margin-top: .5em;
   }
+}
+.footer-logo-img {
+  display: inline-block;
+  margin-top: 1rem;
+  width: 3rem;
+  height: 3rem;
+  background: url("../images/logo-icon.svg");
+  background-size: contain;
+  filter: grayscale(100%);
+  opacity: .5;
 }
 .number-title {
   @include font-size($h2-font-size);
