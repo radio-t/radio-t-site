@@ -5,7 +5,7 @@ import Player from './player_controller';
 export default class extends Controller {
   static targets = [
     'player',
-    'podcast',
+    'playerStateReceiver',
   ];
 
   initialize() {
@@ -14,7 +14,7 @@ export default class extends Controller {
   }
 
   updatePodcasts(e) {
-    this.podcastTargets.forEach((podcast) => {
+    this.playerStateReceiverTargets.forEach((podcast) => {
       this.dispatchEvent(podcast, new CustomEvent('player-state', {bubbles: false}))
     });
   }

@@ -30,3 +30,8 @@ document.addEventListener('turbolinks:load', () => {
 //     event.preventDefault();
 //   }
 // });
+
+// to disable page 'preview' from cache?
+// document.addEventListener("turbolinks:before-visit", function() {
+//   Turbolinks.clearCache();
+// })

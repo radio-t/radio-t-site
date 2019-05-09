@@ -1,35 +1,74 @@
+import Visibility from "visibilityjs";
 import Controller from '../base_controller';
+import Player from './player_controller';
+
+const STREAM_SRC = 'http://stream.radio-t.com/';
 
 /**
+ * This handles online page and online banner.
+ *
  * @property {HTMLElement} labelTarget
  * @property {HTMLElement} timeTarget
  */
 export default class extends Controller {
   static targets = ['label', 'time'];
 
-  connect() {
-    super.connect();
+  initialize() {
+    super.initialize();
 
-    this.timeTarget.innerHTML = this.setShowTimer();
-    window.setInterval(() => {
-      this.timeTarget.innerHTML = this.setShowTimer();
-    }, 1000);
+    this.setupTimer();
+    this.fetchPlayingState();
   }
 
-  play () {
+  // connect() {
+  //   super.connect();
+  //
+  // }
+
+  disconnect() {
+    super.disconnect();
+    Visibility.stop(this.visibilityInterval);
+  }
+
+  setupTimer() {
+    this.timeTarget.innerHTML = this.timerHTML();
+    this.visibilityInterval = Visibility.every(1000, 60000, () => {
+      this.timeTarget.innerHTML = this.timerHTML();
+    });
+  }
+
+  fetchPlayingState() {
+    this.element.classList.toggle('playing', this.isCurrentlyPlaying());
+  }
+
+  isCurrentlyPlaying() {
+    return (
+      Player.getState().src === this.getPodcastInfo().src
+      && Player.getState().paused === false
+    );
+  }
+
+  play(e) {
+    e.preventDefault();
+    e.stopPropagation();
+
     this.dispatchEvent(this.element, new CustomEvent('podcast-play', {
       bubbles: true,
-      detail: {
-        src: 'http://stream.radio-t.com/',
-        url: '/online',
-        image: null,
-        number: 'Online',
-        online: true,
-      }
+      detail: this.getPodcastInfo(),
     }));
   }
 
-  setShowTimer() {
+  getPodcastInfo() {
+    return {
+      src: STREAM_SRC,
+      url: '/online',
+      image: null,
+      number: 'Online',
+      online: true,
+    };
+  }
+
+  timerHTML() {
     function getUnits(value, units) {
       return (/^[0,2-9]?[1]$/.test(value)) ? units[0] : ((/^[0,2-9]?[2-4]$/.test(value)) ? units[1] : units[2]);
     }
@@ -39,8 +78,6 @@ export default class extends Controller {
     }
 
     const timeInMoscow = new Date();
-    // timeInMoscow.setDate(timeInMoscow.getDate() + 6 - timeInMoscow.getDay());
-    // timeInMoscow.setHours(22, 30);
     timeInMoscow.setMinutes(timeInMoscow.getMinutes() + timeInMoscow.getTimezoneOffset() + 3 * 60);
 
     const nextShow = new Date(timeInMoscow);

@@ -1,5 +1,5 @@
 {
-   "title": "Online вещание",
+   "title": "Online-вещание",
    "url": "/online",
    "layout": "online"
 }

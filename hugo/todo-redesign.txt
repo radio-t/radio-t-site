@@ -1,5 +1,5 @@
-- fix bug with animation
-- online play buttons controller (play/pause toggle, playing state)
++ fix bug with animation
++ online play buttons controller (play/pause toggle, playing state)
 - online demo (fake time and stream url)
 
 remove gitter?

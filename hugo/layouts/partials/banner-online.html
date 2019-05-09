@@ -1,4 +1,9 @@
-<div class="banner-online" data-controller="online">
+<div
+  class="banner-online"
+  data-controller="online"
+  data-target="page.playerStateReceiver"
+  data-action="player-state->online#fetchPlayingState"
+>
   <div class="banner-online-inner py-5 text-light">
     <div class="container-fluid">
       <div class="row align-items-baseline">
@@ -6,8 +11,8 @@
           <h2 class="display-4 text-nowrap">
             <small style="margin-left: -.4em;">
               <button class="banner-online-play-button" data-action="online#play">
-                <i class="fas fa-fw fa-play-circle play-icon" data-target="player.play"></i>
-                <i class="fas fa-fw fa-pause-circle pause-icon" data-target="player.pause"></i>
+                <i class="fas fa-fw fa-play-circle play-icon"></i>
+                <i class="fas fa-fw fa-pause-circle pause-icon"></i>
               </button>
             </small>
             <a href="/online/">Online-вещание</a>

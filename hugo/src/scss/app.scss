@@ -603,14 +603,52 @@ $ripple-scale-out: 3.4;
   }
 }
 .online-play-button {
+  @include responsive-font-size(8rem);
   display: block;
   width: 100%;
   appearance: none;
   border: 0;
-  background: $primary url("../images/logo-icon.svg") center no-repeat;
+  background: $primary; // url("../images/logo-icon.svg") center no-repeat;
+  color: $white;
   background-size: cover;
+  margin: 0;
   padding: 0 0 100%;
   border-radius: 50%;
+  transform: scale(1.0001);
+  transition: all 150ms;
+  cursor: pointer;
+  &:hover, &:focus {
+    transform: scale(1.03) translate3d(0, -1px, 0);
+    transition-duration: 30ms;
+  }
+  &:active {
+    transform: scale(.98);
+  }
+  .pause-icon {
+    display: none;
+  }
+  .play-icon {
+    margin-left: .13em;
+  }
+  .playing & {
+    .play-icon {
+      display: none;
+    }
+    .pause-icon {
+      display: inline-block;
+    }
+  }
+}
+.online-play-button-icon {
+  font-size: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .banner-online-play-button {
   display: inline-block;
