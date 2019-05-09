@@ -20,7 +20,7 @@ image = "https://radio-t.com/images/radio-t/rt224.gif"
 - Что любят эти [негуманоиды](http://www.switched.com/2011/01/25/for-women-text-messages-mean-more-sex/)
 - [Google Voice](http://www.bgr.com/2011/01/25/google-voice-number-portability-now-available-to-all/) на все телефоны
 
-_Спонсор выпуска – _[_fastvps.ru_](http://fastvps.ru/)
+_Спонсор выпуска — _[_fastvps.ru_](http://fastvps.ru/)
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast224.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast224.mp3.torrent)

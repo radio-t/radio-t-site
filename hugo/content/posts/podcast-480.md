@@ -10,7 +10,7 @@ filename = "rt_podcast480"
 ![](https://radio-t.com/images/radio-t/rt480.jpg)
 
 - [25 паролей 2015. Идиоты наступают](http://gizmodo.com/the-25-most-popular-passwords-of-2015-were-all-such-id-1753591514) - *00:03:08*.
-- [AWS Certificate Manager – SSL для всех](https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws/) - *00:13:39*.
+- [AWS Certificate Manager — SSL для всех](https://aws.amazon.com/blogs/aws/new-aws-certificate-manager-deploy-ssltls-based-apps-on-aws/) - *00:13:39*.
 - [Apple-слухи о 4" iPhone 5se](http://venturebeat.com/2016/01/22/apple-rumored-to-launch-4-inch-iphone-5se-and-new-apple-watch-models-in-march/) - *00:31:20*.
 - [Docker покупает Unikernel Systems](http://techcrunch.com/2016/01/21/docker-acquires-unikernel-systems-as-it-looks-beyond-containers/) - *00:39:19*.
 - [Bitbucket добавили полезного, но слишком поздно](http://thenextweb.com/dd/2016/01/21/bitbucket-adds-three-new-features-to-help-remote-teams-work-together/) - *00:49:53*.

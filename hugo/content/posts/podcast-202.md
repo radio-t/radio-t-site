@@ -18,7 +18,7 @@ image = "https://radio-t.com/images/radio-t/rt202.jpg"
 - [Digg](http://internetno.net/2010/08/27/new-digg-review/) меняется к лучшему
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-202/) слушателей
 
-**_Спонсор этого выпуска – _[_fastvps.ru_](http://fastvps.ru/) **
+**_Спонсор этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) **
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast202.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast202.mp3.torrent)

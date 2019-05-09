@@ -9,7 +9,7 @@ filename = "rt_podcast473"
 
 ![](https://radio-t.com/images/radio-t/rt473.jpg)
 
-- [Let's Encrypt – SSL для всех, но не для каждого](http://boingboing.net/2015/12/03/lets-encrypt-enters-public-b.html).
+- [Let's Encrypt — SSL для всех, но не для каждого](http://boingboing.net/2015/12/03/lets-encrypt-enters-public-b.html).
 - [IPFS](http://ipfs.io/).
 - [Swift теперь OpenSOurce продукт](https://swift.org/blog/welcome/).
 - [За и против ORM](http://martinfowler.com/bliki/OrmHate.html).

@@ -19,7 +19,7 @@ image = "https://radio-t.com/images/radio-t/rt199.jpg"
 - [Facebook](http://www.bbc.co.uk/news/technology-10796584) "хакнули"
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-199/) слушателей
 
-**_Спонсоры этого выпуска – _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
+**_Спонсоры этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast199.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast199.mp3.torrent)

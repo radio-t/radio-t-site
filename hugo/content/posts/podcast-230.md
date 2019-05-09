@@ -19,7 +19,7 @@ image = "https://radio-t.com/images/radio-t/rt230.jpg"
 - [Bing](http://internetno.net/2011/03/11/sistema-bing-stala-poiskovikom-2-v-mire/) вырывается вперед: лучший среди лузеров
 - [Идиоты](http://www.switched.com/2011/03/11/stolen-ring-posted-facebook-robert-driscoll-crystal-yamnitzky/) недели вокруг хайтека
 
-_Спонсор выпуска – _[_fastvps.ru_](http://fastvps.ru/)
+_Спонсор выпуска — _[_fastvps.ru_](http://fastvps.ru/)
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast230.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast230.mp3.torrent)

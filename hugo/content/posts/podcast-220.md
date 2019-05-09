@@ -10,7 +10,7 @@ image = "https://radio-t.com/images/radio-t/rt220.jpg"
 ![](https://radio-t.com/images/radio-t/rt220.jpg)
 
 - Зачем нам нужна Kate
-- [IntelliJ](http://www.jetbrains.com/idea/whatsnew/index.html) IDEA 10 - IDE для умных и не очень
+- [IntelliJ](http://www.jetbrains.com/idea/whatsnew/index.html) IDEA 10 — IDE для умных и не очень
 - Делайте [это](http://weblogs.java.net/blog/mkarg/archive/2010/12/29/release-late-release-rarely) поздно, но редко
 - Невеселое [возвращение](http://techcrunch.com/2010/12/26/platform-dependencies/) платформенной зависимости
 - Почему [NoSQL](http://techblog.bozho.net/?p=295) зло и как с этим быть

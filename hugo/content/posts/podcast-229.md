@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt229.gif"
 - [JetBrains](http://www.jetbrains.com/cidr/) CIDR на подходе
 - Git [против](http://www.findbestopensource.com/article-detail/git-vs-subversion) Subversion. Нам все ясно
 
-_Спонсор выпуска – _[_fastvps.ru_](http://fastvps.ru/)
+_Спонсор выпуска — _[_fastvps.ru_](http://fastvps.ru/)
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast229.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast229.mp3.torrent)

@@ -15,7 +15,7 @@ filename = "rt_podcast390"
 * [Что не так с фреймворками](http://prsm.tc/AcUQTQ)
 * [Semantic Merge](http://prsm.tc/DALxQf)
 * [С чего начать программирование?](http://prsm.tc/HEBkuu)
-* [Полезная штука - ngrok](http://prsm.tc/FUK3Qn)
+* [Полезная штука — ngrok](http://prsm.tc/FUK3Qn)
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Teamlab Office](https://personal.teamlab.com/)_
 

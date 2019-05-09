@@ -12,7 +12,7 @@ filename = "rt_podcast557"
 - [Stackoverflow закрывает Documentation проект](https://meta.stackoverflow.com/questions/354217/sunsetting-documentation/) - *00:08:09*.
 - [Mozilla ставит на Rust](https://www.cnet.com/news/mozilla-designs-rust-language-for-safe-secure-internet/) - *00:32:54*.
 - [Ruby мертв или жив?](https://infinum.co/the-capsized-eight/analyzing-rubygems-stats-v2016) - *00:42:24*.
-- [LocalStack - AWS в одном контейнере](https://github.com/atlassian/localstack/blob/master/README.md) - *01:36:54*.
+- [LocalStack — AWS в одном контейнере](https://github.com/atlassian/localstack/blob/master/README.md) - *01:36:54*.
 - [Как нам распилить монолит](http://programmingisterrible.com/post/162346490883/how-do-you-cut-a-monolith-in-half) - *01:45:47*.
 - Темы наших слушателей
 

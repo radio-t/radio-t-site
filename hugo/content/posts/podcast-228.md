@@ -20,7 +20,7 @@ image = "https://radio-t.com/images/radio-t/rt228.png"
 - Атаки на [ЖЖ](http://www.gzt.ru/topnews/hitech/-sup-podtverdil-ddos-ataku-na-zhzh-/349586.html)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-228/) наших слушателей
 
-_Спонсор выпуска – _[_fastvps.ru_](http://fastvps.ru/)
+_Спонсор выпуска — _[_fastvps.ru_](http://fastvps.ru/)
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast228.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast228.mp3.torrent)

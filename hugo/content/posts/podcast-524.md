@@ -11,7 +11,7 @@ filename = "rt_podcast524"
 
 - [Конец MVC?](https://dzone.com/articles/mvc-is-dead-what-comes-next) - *00:20:33*
 - [Amazon Lightsail – убийца VPS](https://aws.amazon.com/blogs/aws/amazon-lightsail-the-power-of-aws-the-simplicity-of-a-vps/) - *00:57:26*.
-- [Polly – Text to Speech](https://aws.amazon.com/blogs/aws/polly-text-to-speech-in-47-voices-and-24-languages/) - *01:13:18*.
+- [Polly — Text to Speech](https://aws.amazon.com/blogs/aws/polly-text-to-speech-in-47-voices-and-24-languages/) - *01:13:18*.
 - [Amazon Lex](https://aws.amazon.com/blogs/aws/amazon-lex-build-conversational-voice-text-interfaces/?sc_channel=sm) - *01:23:10*.
 - [Amazon Rekognition](https://aws.amazon.com/blogs/aws/amazon-rekognition-image-detection-and-recognition-powered-by-deep-learning/) - *01:27:35*.
 - [Обновления EC2](https://aws.amazon.com/blogs/aws/ec2-instance-type-update-t2-r4-f1-elastic-gpus-i3-c5/?sc_channel=sm) - *01:34:23*.

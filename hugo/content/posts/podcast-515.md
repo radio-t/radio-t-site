@@ -9,7 +9,7 @@ filename = "rt_podcast515"
 
 ![](https://radio-t.com/images/radio-t/rt515.jpg)
 
-- [Новинка от AWS – P2 до 16 GPU](https://aws.amazon.com/blogs/aws/new-p2-instance-type-for-amazon-ec2-up-to-16-gpus/) - *00:03:16*.
+- [Новинка от AWS — P2 до 16 GPU](https://aws.amazon.com/blogs/aws/new-p2-instance-type-for-amazon-ec2-up-to-16-gpus/) - *00:03:16*.
 - [Микросервисы: пожалуйста, не нужно](https://habrahabr.ru/post/311208/) - *00:15:11*.
 - [Закат Stack Overflow](https://habrahabr.ru/post/311322/) - *00:56:52*.
 - [Yahoo открыла детектор картинок для взрослых](https://techcrunch.com/2016/09/30/yahoo-open-sources-its-porn-detecting-neural-network/) - *01:10:32*.

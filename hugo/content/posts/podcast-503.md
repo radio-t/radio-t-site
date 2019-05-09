@@ -14,7 +14,7 @@ filename = "rt_podcast503"
 - [VSCode поддался](https://code.visualstudio.com/updates).
 - [Mozilla строит свой Context Graph](http://venturebeat.com/2016/07/06/mozilla-is-building-context-graph-a-recommender-system-for-the-web/).
 - [Военное искуство для борьбы с хакерами](http://www.businessinsider.com/cymettria-cyber-deception-2016-7).
-- [Вдруг - Atom плагины](https://medium.com/@0x1AD2/atom-treasures-82a64ac391c).
+- [Вдруг — Atom плагины](https://medium.com/@0x1AD2/atom-treasures-82a64ac391c).
 - [Лунный код открыт](http://qz.com/726338/the-code-that-took-america-to-the-moon-was-just-published-to-github-and-its-like-a-1960s-time-capsule/).
 - Темы наших слушателей
 

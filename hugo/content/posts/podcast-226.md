@@ -15,7 +15,7 @@ image = "https://radio-t.com/images/radio-t/rt226.jpg"
 
 * Много, много телефонно-мобильных разговоров.
 
-_Спонсор выпуска – _[_fastvps.ru_](http://fastvps.ru/)
+_Спонсор выпуска — _[_fastvps.ru_](http://fastvps.ru/)
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast226.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast226.mp3.torrent)

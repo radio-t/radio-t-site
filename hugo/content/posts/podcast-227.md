@@ -21,7 +21,7 @@ image = "https://radio-t.com/images/radio-t/rt227.png"
 - [Флэш](http://mashable.com/2011/02/09/web-video-flash-player-10-2/) стал не таким ужасным как обычно
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-227/) наших слушателей
 
-_Спонсор выпуска – _[_fastvps.ru_](http://fastvps.ru/)
+_Спонсор выпуска — _[_fastvps.ru_](http://fastvps.ru/)
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast227.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast227.mp3.torrent)

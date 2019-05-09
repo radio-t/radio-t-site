@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt291.png"
 - [CAP](http://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed) 12 лет спустя
 - [Java](http://www.theserverside.com/feature/Why-Java-Applications-Fail-to-Scale-Linearly) не масштабируется, совсем все плохо
 - Смешная гордость [Scala](http://capecoder.wordpress.com/2012/05/29/scala-adoption-continues-to-climb-rapidly-2/) и несмешное [интервью](http://www.h-online.com/open/features/Scala-creator-Martin-Odersky-The-H-Half-Hour-1582445.html)
-- [Einhorn](https://stripe.com/blog/meet-einhorn) - shared socket manager
+- [Einhorn](https://stripe.com/blog/meet-einhorn) — shared socket manager
 - [Vert.x](http://vertx.io/) в качестве асинхронного фрэймворка
 - Темы наших слушателей
 

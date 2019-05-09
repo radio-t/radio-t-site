@@ -10,7 +10,7 @@ filename = "rt_podcast432"
 ![](https://radio-t.com/images/radio-t/rt432.jpg)
 
 * [Как падает Google Cloud](https://status.cloud.google.com/incident/compute/15045)
-* [Яндех говорит - Do not be evil](http://habrahabr.ru/post/250887/)
+* [Яндех говорит — Do not be evil](http://habrahabr.ru/post/250887/)
 * [Microsoft украдет ползьоватей Dropbox](http://www.slashgear.com/microsoft-baits-dropbox-users-with-100-gb-onedrive-space-20369811/)
 * [Consul 0.5](http://prsm.tc/gltq6Z)
 * [Ноутбуки Lenovo с Superfish ](http://habrahabr.ru/post/251069/)
