@@ -24,7 +24,7 @@ export default class extends Controller {
 
     this.setupCoverAnimation();
 
-    this.fetchState();
+    this.fetchPlayingState();
   }
 
   setupCoverAnimation() {
@@ -61,7 +61,7 @@ export default class extends Controller {
     })
   }
 
-  fetchState() {
+  fetchPlayingState() {
     this.element.classList.toggle('playing', this.isCurrentlyPlaying());
     this.coverPoser.set(this.isCurrentlyPlaying() ? 'elevated' : 'init');
   }
@@ -85,7 +85,7 @@ export default class extends Controller {
       }
     }));
 
-    setTimeout(() => this.fetchState(), 0);
+    setTimeout(() => this.fetchPlayingState(), 0);
   }
 
   goToTimeLabel(e) {

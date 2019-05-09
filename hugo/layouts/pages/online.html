@@ -1,11 +1,11 @@
 {{ define "main" }}
   <div class="py-4 py-lg-6">
     <div class="container-fluid">
-      <div class="row align-items-center mb-md-4" data-controller="online">
-        <div class="col-md-2 offset-md-3">
+      <div class="row align-items-center mb-3 mb-md-4" data-controller="online">
+        <div class="col-3 col-sm-2 offset-md-1 offset-lg-2" style="min-width: 5rem;">
           <button class="online-play-button" data-action="online#play"></button>
         </div>
-        <div class="col-md-6">
+        <div class="col col-md-8 online-countdown">
           <div class="h1">
             <h1 class="d-inline">{{ .Title }}</h1>
             <span class="d-none" data-target="online.label">через</span>
@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 offset-md-5">
+        <div class="col-md-8 offset-md-3 col-lg-6 offset-lg-4">
           <div class="text-content">
             {{ .Content }}
             {{ partial "online-links" . }}

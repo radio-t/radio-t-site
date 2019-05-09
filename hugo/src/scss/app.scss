@@ -194,20 +194,22 @@ $jumbotron-arc-width: 120%;
   background-size: contain;
 }
 .banner-online {
+  background: $primary;
   background: repeating-radial-gradient(
       circle at -140px,
-      darken($primary, 12%),
-      darken($primary, 12%) 20px,
+      darken($primary, 8%),
+      darken($primary, 8%) 20px,
       $white 20px,
       $white 40px
   );
 }
 .banner-online-inner {
+  background: $primary;
   background: radial-gradient(
       circle at -140px,
-      rgba($primary, .92),
-      rgba(darken($primary, 12%), .99) 70%,
-      rgba(darken($primary, 15%), 1) 100%
+      rgba(darken($primary, 4%), .92),
+      rgba(darken($primary, 8%), .99) 70%,
+      rgba(darken($primary, 12%), 1) 100%
   );
 }
 .banner-icon {
@@ -458,6 +460,60 @@ $jumbotron-arc-width: 120%;
   transition: 150ms;
   cursor: pointer;
 }
+.cover-play-button {
+  $play-button-size: 1.8em;
+  @include responsive-font-size(3rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: $play-button-size;
+  height: $play-button-size;
+  margin-top: (- $play-button-size) / 2;
+  margin-left: (- $play-button-size) / 2;
+  padding: 0;
+  background-color: rgba($link-hover-color, .65);
+  backdrop-filter: $backdrop-filter;
+  border: none;
+  border-radius: 50%;
+  color: $white;
+  opacity: 1;
+  transform: scale(1.0001);
+  transition: all 150ms;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 2px $white, 0 0 0 4px rgba($link-hover-color, .35);
+  &:hover, &:focus {
+    transform: scale(1.03) translate3d(0, -1px, 0);
+    background-color: rgba($link-hover-color, .95);
+    transition-duration: 30ms;
+    outline: none;
+  }
+  &:active {
+    transform: scale(.95);
+    box-shadow: inset 0 0 0 1px $white, 0 0 0 1px rgba($link-hover-color, .65);
+  }
+  .icon {
+    font-size: $play-button-size / 2;
+    cursor: pointer;
+  }
+  .play-icon {
+    margin-left: .13em;
+  }
+  .pause-icon {
+    display: none;
+  }
+  .playing & {
+    .play-icon {
+      display: none;
+    }
+    .pause-icon {
+      display: block;
+    }
+  }
+}
 .cover-image-online {
   background: $primary;
   overflow: hidden;
@@ -543,50 +599,23 @@ $ripple-scale-out: 3.4;
   padding: 0 0 100%;
   border-radius: 50%;
 }
-.cover-play-button {
-  $play-button-size: 1.8em;
-  @include responsive-font-size(3rem);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: $play-button-size;
-  height: $play-button-size;
-  margin-top: (- $play-button-size) / 2;
-  margin-left:  (- $play-button-size) / 2;
-  padding: 0;
-  background-color: rgba($link-hover-color, .65);
-  backdrop-filter: $backdrop-filter;
+.banner-online-play-button {
+  display: inline-block;
+  appearance: none;
+  background: none;
   border: none;
-  border-radius: 50%;
-  color: $white;
-  opacity: 1;
+  padding: 0;
+  margin: 0;
+  color: inherit;
   transform: scale(1.0001);
   transition: all 150ms;
   cursor: pointer;
-  box-shadow: inset 0 0 0 2px $white, 0 0 0 4px rgba($link-hover-color, .35);
-    //, 0 1px 3px 1px rgba($black, .2);
   &:hover, &:focus {
-    transform: scale(1.03) translate3d(0, -1px, 0);
-    //color: $link-hover-color;
-    //box-shadow: 0 5px 10px rgba($black, .5);
-    background-color: rgba($link-hover-color, .95);
+    transform: scale(1.1) translate3d(0, -1px, 0);
     transition-duration: 30ms;
-    outline: none;
   }
   &:active {
-    transform: scale(.95);
-    box-shadow: inset 0 0 0 1px $white, 0 0 0 1px rgba($link-hover-color, .65);
-  }
-  .icon {
-    font-size: $play-button-size / 2;
-    cursor: pointer;
-  }
-  .play-icon {
-    margin-left: .23em;
+    transform: scale(.94);
   }
   .pause-icon {
     display: none;
@@ -596,8 +625,13 @@ $ripple-scale-out: 3.4;
       display: none;
     }
     .pause-icon {
-      display: block;
+      display: inline-block;
     }
+  }
+}
+.online-countdown {
+  @include media-breakpoint-down('sm') {
+    padding-left: 0;
   }
 }
 .posts-list-item {
