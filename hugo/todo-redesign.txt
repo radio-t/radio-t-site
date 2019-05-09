@@ -1,22 +1,16 @@
-+ fix bug with animation
-+ online play buttons controller (play/pause toggle, playing state)
+- favicons
+- use howler.js
 - online demo (fake time and stream url)
 
-remove gitter?
-
-+ feeds
-- вещание
-- use howler.js
-- online player controller, play button
-- favicons
-
 ===
++ online play buttons controller (play/pause toggle, playing state)
 + online markup
 + fix suggest topic button visibility
 + categories as hash tags
 + blue play button
 + banners
 + comments counter
++ feeds
 ===
 ===
 
