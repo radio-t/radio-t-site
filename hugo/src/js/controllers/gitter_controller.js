@@ -1,5 +1,5 @@
-import Controller from '../base_controller';
 import $script from 'scriptjs';
+import Controller from '../base_controller';
 
 export default class extends Controller {
   initialize() {
