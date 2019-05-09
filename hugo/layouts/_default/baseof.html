@@ -6,7 +6,7 @@
 </head>
 <body
   class="d-flex flex-column {{ delimit (apply .Params.categories "printf" "category-%s" ".") " " }}"
-  data-controller="page sidebar search"
+  data-controller="page sidebar search comments-counter"
   data-action="podcast-play->page#playPodcast player-state->page#updatePodcasts"
 >
 
