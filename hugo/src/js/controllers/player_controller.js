@@ -79,7 +79,7 @@ export default class extends Controller {
       this.updateState({src: detail.src});
       this.linkTargets.forEach((link) => link.href = detail.url);
       this.coverTarget.style.backgroundImage = detail.image;
-      this.coverTarget.classList.toggle('cover-image-online', detail.online)
+      this.coverTarget.classList.toggle('cover-image-online', !!detail.online)
       this.numberTarget.textContent = detail.number;
       this.setTimeLabel(detail.timeLabel);
       this.audioTarget.load();
