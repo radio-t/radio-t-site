@@ -1,47 +1,35 @@
-- http://localhost:3000/categories/podcast/ comments counter?
-
-+ blue play button
-+ banners
+- fix bug with animation
+- online play buttons controller (play/pause toggle, playing state)
+- online demo (fake time and stream url)
 
 remove gitter?
-!!! online player
 
 + feeds
 - вещание
-- fix safari responsive navbar
-+ fix suggest topic button visibility
 - use howler.js
-
-# Online
-+ markup
-- player controller, play button
-
-
-===
-
-+ categories as hash tags
+- online player controller, play button
 - favicons
 
 ===
++ online markup
++ fix suggest topic button visibility
++ categories as hash tags
++ blue play button
++ banners
++ comments counter
 ===
 ===
 
 - animations for search and sidebar overlay
 - remember player state
 - preload archives links from mouse events
-
-===
+- turbolinks double render?
+- fix safari responsive navbar
 
 - inline svg icons
-
-===
-
-- extract audio and chat links
 
 - use opengraph internal template
   https://gohugo.io/templates/internal
 
 - Use predefined hugo vars
   https://gohugo.io/content-management/front-matter/#predefined
-
-+ remark
