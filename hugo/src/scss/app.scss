@@ -687,7 +687,9 @@ $ripple-scale-out: 3.4;
 }
 .posts-list-item {
   & + & {
-    border-top: 1px solid $border-color;
+    .posts-list-item-inner {
+      border-top: 1px solid $border-color;
+    }
   }
 }
 //.post-prep-title {
