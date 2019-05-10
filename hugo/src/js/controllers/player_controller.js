@@ -51,12 +51,39 @@ export default class extends Controller {
 
     const updateLoadingState = debounce((isLoading) => this.element.classList.toggle('player-loading', isLoading), 500);
     const eventsLoadingOn = ['seeking', 'waiting', 'loadstart'];
-    const eventsLoadingOff = ['playing', 'seeked', 'canplay', 'loadeddata'];
+    const eventsLoadingOff = ['playing', 'seeked', 'canplay', 'loadeddata', 'error'];
     eventsLoadingOn.forEach(event => this.audioTarget.addEventListener(event, updateLoadingState.bind(this, true)));
     eventsLoadingOff.forEach(event => this.audioTarget.addEventListener(event, updateLoadingState.bind(this, false)));
-    eventsLoadingOn.concat(eventsLoadingOff).forEach(event => {
-      this.audioTarget.addEventListener(event, () => this.debug(event))
-    });
+
+    const debugEvents = [
+      "abort",
+      "canplay",
+      "canplaythrough",
+      "durationchange",
+      "emptied",
+      "encrypted",
+      "ended",
+      "error",
+      "interruptbegin",
+      "interruptend",
+      "loadeddata",
+      "loadedmetadata",
+      "loadstart",
+      "mozaudioavailable",
+      "pause",
+      "play",
+      "playing",
+      "progress",
+      "ratechange",
+      "seeked",
+      "seeking",
+      "stalled",
+      "suspend",
+      "timeupdate",
+      "volumechange",
+      "waiting"
+    ];
+    debugEvents.forEach(event => this.audioTarget.addEventListener(event, (e) => this.debug('audio event', event, e)));
   }
 
   playPodcast(detail) {
