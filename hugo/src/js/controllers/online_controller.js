@@ -2,8 +2,8 @@ import Visibility from "visibilityjs";
 import Controller from '../base_controller';
 import Player from './player_controller';
 
-// const STREAM_SRC = 'http://stream.radio-t.com/';
-const STREAM_SRC = 'http://rfcmedia.streamguys1.com/MusicPulse.mp3';
+const STREAM_SRC = 'http://stream.radio-t.com/';
+// const STREAM_SRC = 'http://rfcmedia.streamguys1.com/MusicPulse.mp3'; // demo
 
 /**
  * This handles online page and online banner.
