@@ -22,5 +22,5 @@ filename = "rt_podcast633"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast633.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-633.html)
+[аудио](http://cdn.radio-t.com/rt_podcast633.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-633.html)
 <audio src="http://cdn.radio-t.com/rt_podcast633.mp3" preload="none"></audio>

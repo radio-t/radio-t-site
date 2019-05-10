@@ -34,7 +34,7 @@ echo ""  >> ${outfile}
 echo "*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 " >> ${outfile}
 echo ""  >> ${outfile}
-echo "[аудио](http://cdn.radio-t.com/rt_podcast$post.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-$post.html)" >> ${outfile}
+echo "[аудио](http://cdn.radio-t.com/rt_podcast$post.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-$post.html)" >> ${outfile}
 echo "<audio src=\"http://cdn.radio-t.com/rt_podcast$post.mp3\" preload=\"none\"></audio>" >> ${outfile}
 
 st3 ${outfile} &

@@ -20,5 +20,5 @@ filename = "rt_podcast637"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast637.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-637.html)
+[аудио](http://cdn.radio-t.com/rt_podcast637.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-637.html)
 <audio src="http://cdn.radio-t.com/rt_podcast637.mp3" preload="none"></audio>
