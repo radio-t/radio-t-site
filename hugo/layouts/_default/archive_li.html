@@ -1,6 +1,6 @@
 {{ if in .Params.categories "podcast" }}
   <div class="blog-archives-post col-6 col-md-3 col-lg-2 py-3">
-    <h3 class="number-title"><a href="{{ .Permalink }}">{{ partial "number-title" . }}</a></h3>
+    <h3 class="number-title"><a href="{{ .RelPermalink }}">{{ partial "number-title" . }}</a></h3>
     <div class="small">
       <div>{{ partial "post-time" . }}</div>
       {{ with .Params.categories }}
@@ -12,7 +12,7 @@
   </div>
 {{ else if in .Params.categories "prep" }}
   <div class="blog-archives-post col-6 col-md-3 col-lg-2 py-3">
-    <h3 class="number-title"><a class="text-muted" href="{{ .Permalink }}">{{ partial "number-title" . }}</a></h3>
+    <h3 class="number-title"><a class="text-muted" href="{{ .RelPermalink }}">{{ partial "number-title" . }}</a></h3>
     <div class="small">
       <div>{{ partial "post-time" . }}</div>
       {{ with .Params.categories }}
@@ -24,7 +24,7 @@
   </div>
 {{ else }}
   <div class="blog-archives-post col-md-6 col-lg-4 span-2 py-3">
-    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
     <div class="small">
       <div>{{ partial "post-time" . }}</div>
       {{ with .Params.categories }}

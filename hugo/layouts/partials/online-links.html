@@ -13,7 +13,7 @@
     <li>
       <i class="far fa-comments fa-fw mr-2"></i>
       {{ if gt $prep.Date $podcast.Date }}
-        <a href="{{ $prep.Permalink }}" title="{{ $prep.LinkTitle }}">Предложить тему</a>
+        <a href="{{ $prep.RelPermalink }}" title="{{ $prep.LinkTitle }}">Предложить тему</a>
         <small>&rarr;</small>
       {{ else }}
         Сбор тем начинается в среду

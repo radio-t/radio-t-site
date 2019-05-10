@@ -1,12 +1,10 @@
 {{ define "head" }}
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
-  <meta name="twitter:url" content="{{ .Site.Params.url }}{{ .URL }}">
+  <meta name="twitter:url" content="{{ .Site.Params.url }}{{ .RelPermalink }}">
   <meta name="twitter:title" content="{{ .Title }}">
   <meta name="twitter:description" content="{{ .Site.Params.twitterCardDescription }}">
-  {{ with .Params.image }}
-    <meta name="twitter:image" content="{{ . }}">
-  {{ end }}
+  {{ with .Params.image }}<meta name="twitter:image" content="{{ . }}">{{ end }}
 {{ end }}
 
 {{ define "main" }}
@@ -18,7 +16,7 @@
           data-controller="podcast"
           data-target="page.playerStateReceiver"
           data-action="player-state->podcast#fetchPlayingState"
-          data-podcast-url="{{ .Permalink }}"
+          data-podcast-url="{{ .RelPermalink }}"
         >
           <div class="col-5 col-md-2 d-flex flex-column justify-content-between">
             <div>
