@@ -1,79 +1,83 @@
-import { h, Component  } from "preact";
+import { h, Component } from "preact";
 
 type RemarkTheme = "light" | "dark";
 
 type Props = {
-	baseurl?: string;
-	site_id: string;
-	url?: string;
-	id?: string;
-	className?: string;
-	theme?: RemarkTheme;
+  baseurl?: string;
+  site_id: string;
+  url?: string;
+  id?: string;
+  className?: string;
+  theme?: RemarkTheme;
 };
 
 export default class Remark extends Component<Props> {
-	protected ref?: HTMLDivElement;
-	protected receiveMessages?: (
-		event: Event & {
-			data?: any;
-		}
-	) => void;
-	protected postHashToIframe?: (
-		event: Event & {
-			newURL: string;
-		}
-	) => void;
-	protected postClickOutsideToIframe?: (event: MouseEvent) => void;
-	protected changeTheme?: (theme: RemarkTheme) => void;
-	constructor(props: Props) {
-		super(props);
-	}
-	render() {
-		return (
-			<div
-				className={`remark42 ${this.props.className || ""}`}
-				id={this.props.id}
-				ref={ref => (this.ref = ref!)}
-			/>
-		);
-	}
-	shouldComponentUpdate(nextProps: Props) {
-		if (nextProps.theme !== this.props.theme) return true;
-		return false;
-	}
-	componentDidMount() {
-		const COMMENT_NODE_CLASSNAME_PREFIX = "remark42__comment-";
+  protected ref?: HTMLDivElement;
+  protected receiveMessages?: (
+    event: Event & {
+      data?: any;
+    }
+  ) => void;
+  protected postHashToIframe?: (
+    event: Event & {
+      newURL: string;
+    }
+  ) => void;
+  protected postClickOutsideToIframe?: (event: MouseEvent) => void;
+  protected changeTheme?: (theme: RemarkTheme) => void;
 
-		const remark_config: {
-			baseurl: string;
-			site_id: string;
-			url?: string;
-			theme: RemarkTheme;
-		} = {
-			baseurl: this.props.baseurl || "https://remark42.radio-t.com",
-			site_id: this.props.site_id,
-			theme: this.props.theme || "light",
-		};
+  constructor(props: Props) {
+    super(props);
+  }
 
-		if (!remark_config.site_id) {
-			console.error("Remark42: Site ID is undefined.");
-			return;
-		}
+  render() {
+    return (
+      <div
+        className={`remark42 ${this.props.className || ""}`}
+        id={this.props.id}
+        ref={ref => (this.ref = ref!)}
+      />
+    );
+  }
 
-		remark_config.url = (this.props.url || window.location.href).split("#")[0];
+  shouldComponentUpdate(nextProps: Props) {
+    if (nextProps.theme !== this.props.theme) return true;
+    return false;
+  }
 
-		const node = this.ref;
+  componentDidMount() {
+    const COMMENT_NODE_CLASSNAME_PREFIX = "remark42__comment-";
 
-		const query = Object.keys(remark_config)
-			.map(
-				key =>
-					`${encodeURIComponent(key)}=${encodeURIComponent(
-						(remark_config as any)[key]
-					)}`
-			)
-			.join("&");
+    const remark_config: {
+      baseurl: string;
+      site_id: string;
+      url?: string;
+      theme: RemarkTheme;
+    } = {
+      baseurl: this.props.baseurl || "https://remark42.radio-t.com",
+      site_id: this.props.site_id,
+      theme: this.props.theme || "light",
+    };
 
-		node!.innerHTML = `
+    if (!remark_config.site_id) {
+      console.error("Remark42: Site ID is undefined.");
+      return;
+    }
+
+    remark_config.url = (this.props.url || window.location.href).split("#")[0];
+
+    const node = this.ref;
+
+    const query = Object.keys(remark_config)
+      .map(
+        key =>
+          `${encodeURIComponent(key)}=${encodeURIComponent(
+            (remark_config as any)[key]
+          )}`
+      )
+      .join("&");
+
+    node!.innerHTML = `
     <iframe
       src="${remark_config.baseurl}/web/iframe.html?${query}"
       width="100%"
@@ -88,94 +92,95 @@ export default class Remark extends Component<Props> {
     ></iframe>
   `;
 
-		const iframe = node!.getElementsByTagName("iframe")[0];
+    const iframe = node!.getElementsByTagName("iframe")[0];
 
-		this.receiveMessages = function(event) {
-			try {
-				const data =
-					typeof event.data === "string" ? JSON.parse(event.data) : event.data;
-				if (data.remarkIframeHeight) {
-					iframe.style.height = `${data.remarkIframeHeight}px`;
-				}
+    this.receiveMessages = function (event) {
+      try {
+        const data =
+          typeof event.data === "string" ? JSON.parse(event.data) : event.data;
+        if (data.remarkIframeHeight) {
+          iframe.style.height = `${data.remarkIframeHeight}px`;
+        }
 
-				if (data.scrollTo) {
-					window.scrollTo(
-						window.pageXOffset,
-						data.scrollTo +
-							iframe.getBoundingClientRect().top +
-							window.pageYOffset
-					);
-				}
+        if (data.scrollTo) {
+          window.scrollTo(
+            window.pageXOffset,
+            data.scrollTo +
+            iframe.getBoundingClientRect().top +
+            window.pageYOffset
+          );
+        }
 
-				if (data.hasOwnProperty("isUserInfoShown")) {
-					if (data.isUserInfoShown) {
-						userInfo.init(data.user || {});
-					} else {
-						userInfo.close();
-					}
-				}
-			} catch (e) {}
-		};
+        if (data.hasOwnProperty("isUserInfoShown")) {
+          if (data.isUserInfoShown) {
+            userInfo.init(data.user || {});
+          } else {
+            userInfo.close();
+          }
+        }
+      } catch (e) {
+      }
+    };
 
-		this.postHashToIframe = function(e) {
-			const hash = e ? `#${e.newURL.split("#")[1]}` : window.location.hash;
+    this.postHashToIframe = function (e) {
+      const hash = e ? `#${e.newURL.split("#")[1]}` : window.location.hash;
 
-			if (hash.indexOf(`#${COMMENT_NODE_CLASSNAME_PREFIX}`) === 0) {
-				if (e) e.preventDefault();
+      if (hash.indexOf(`#${COMMENT_NODE_CLASSNAME_PREFIX}`) === 0) {
+        if (e) e.preventDefault();
 
-				iframe.contentWindow &&
-					iframe.contentWindow.postMessage(JSON.stringify({ hash }), "*");
-			}
-		};
+        iframe.contentWindow &&
+          iframe.contentWindow.postMessage(JSON.stringify({ hash }), "*");
+      }
+    };
 
-		this.postClickOutsideToIframe = function(e) {
-			if (!iframe.contains(e.target as HTMLElement)) {
-				iframe.contentWindow &&
-					iframe.contentWindow.postMessage(
-						JSON.stringify({ clickOutside: true }),
-						"*"
-					);
-			}
-		};
+    this.postClickOutsideToIframe = function (e) {
+      if (!iframe.contains(e.target as HTMLElement)) {
+        iframe.contentWindow &&
+          iframe.contentWindow.postMessage(
+            JSON.stringify({ clickOutside: true }),
+            "*"
+          );
+      }
+    };
 
-		this.changeTheme = function(theme) {
-			iframe.contentWindow &&
-				iframe.contentWindow.postMessage(JSON.stringify({ theme }), "*");
-		};
+    this.changeTheme = function (theme) {
+      iframe.contentWindow &&
+        iframe.contentWindow.postMessage(JSON.stringify({ theme }), "*");
+    };
 
-		window.addEventListener("message", this.receiveMessages);
-		window.addEventListener("hashchange", this.postHashToIframe);
-		document.addEventListener("click", this.postClickOutsideToIframe);
-		setTimeout(this.postHashToIframe, 1000);
+    window.addEventListener("message", this.receiveMessages);
+    window.addEventListener("hashchange", this.postHashToIframe);
+    document.addEventListener("click", this.postClickOutsideToIframe);
+    setTimeout(this.postHashToIframe, 1000);
 
-		const remarkRootId = "remark-km423lmfdslkm34";
-		const userInfo: {
-			node: HTMLElement | null;
-			back: HTMLElement | null;
-			closeEl: HTMLElement | null;
-			iframe: HTMLElement | null;
-			style: HTMLElement | null;
-			init: (user: any) => void;
-			close: () => void;
-			delay: number | null;
-			events: string[];
-			animationStop: any;
-			onAnimationClose: () => void;
-			remove: () => void;
-			onKeyDown: (e: KeyboardEvent) => void;
-		} = {
-			node: null,
-			back: null,
-			closeEl: null,
-			iframe: null,
-			style: null,
-			init(user: any) {
-				this.animationStop();
-				if (!this.style) {
-					this.style = document.createElement("style");
-					this.style.setAttribute("rel", "stylesheet");
-					this.style.setAttribute("type", "text/css");
-					this.style.innerHTML = `
+    const remarkRootId = "remark-km423lmfdslkm34";
+    const userInfo: {
+      node: HTMLElement | null;
+      back: HTMLElement | null;
+      closeEl: HTMLElement | null;
+      iframe: HTMLElement | null;
+      style: HTMLElement | null;
+      init: (user: any) => void;
+      close: () => void;
+      delay: number | null;
+      events: string[];
+      animationStop: any;
+      onAnimationClose: () => void;
+      remove: () => void;
+      onKeyDown: (e: KeyboardEvent) => void;
+    } = {
+      node: null,
+      back: null,
+      closeEl: null,
+      iframe: null,
+      style: null,
+      init(user: any) {
+        this.animationStop();
+        if (!this.style) {
+          this.style = document.createElement("style");
+          this.style.setAttribute("rel", "stylesheet");
+          this.style.setAttribute("type", "text/css");
+          this.style.innerHTML = `
           #${remarkRootId}-node {
             position: fixed;
             top: 0;
@@ -227,28 +232,28 @@ export default class Remark extends Component<Props> {
             }
           }
         `;
-				}
-				if (!this.node) {
-					this.node = document.createElement("div");
-					this.node.id = remarkRootId + "-node";
-				}
-				if (!this.back) {
-					this.back = document.createElement("div");
-					this.back.id = remarkRootId + "-back";
-					this.back.onclick = () => this.close();
-				}
-				if (!this.closeEl) {
-					this.closeEl = document.createElement("button");
-					this.closeEl.id = remarkRootId + "-close";
-					this.closeEl.innerHTML = "&#10006;";
-					this.closeEl.onclick = () => this.close();
-				}
-				const queryUserInfo =
-					query +
-					"&page=user-info&" +
-					`&id=${user.id}&name=${user.name}&picture=${user.picture ||
-						""}&isDefaultPicture=${user.isDefaultPicture || 0}`;
-				this.node.innerHTML = `
+        }
+        if (!this.node) {
+          this.node = document.createElement("div");
+          this.node.id = remarkRootId + "-node";
+        }
+        if (!this.back) {
+          this.back = document.createElement("div");
+          this.back.id = remarkRootId + "-back";
+          this.back.onclick = () => this.close();
+        }
+        if (!this.closeEl) {
+          this.closeEl = document.createElement("button");
+          this.closeEl.id = remarkRootId + "-close";
+          this.closeEl.innerHTML = "&#10006;";
+          this.closeEl.onclick = () => this.close();
+        }
+        const queryUserInfo =
+          query +
+          "&page=user-info&" +
+          `&id=${user.id}&name=${user.name}&picture=${user.picture ||
+          ""}&isDefaultPicture=${user.isDefaultPicture || 0}`;
+        this.node.innerHTML = `
       <iframe
         src="${remark_config.baseurl}/web/iframe.html?${queryUserInfo}"
         width="100%"
@@ -262,78 +267,80 @@ export default class Remark extends Component<Props> {
         horizontalscrolling="no"
 					/>
 				`;
-				this.iframe = this.node.querySelector("iframe");
-				this.node.appendChild(this.closeEl);
-				document.body.appendChild(this.style);
-				document.body.appendChild(this.back);
-				document.body.appendChild(this.node);
-				document.addEventListener("keydown", this.onKeyDown);
-				window.setTimeout(() => {
-					this.back!.setAttribute("data-animation", "");
-					this.node!.setAttribute("data-animation", "");
-					this.iframe!.focus();
-				}, 400);
-			},
-			close() {
-				if (this.node) {
-					this.onAnimationClose();
-					this.node.removeAttribute("data-animation");
-				}
-				if (this.back) {
-					this.back.removeAttribute("data-animation");
-				}
-				document.removeEventListener("keydown", this.onKeyDown);
-			},
-			delay: null,
-			events: ["", "webkit", "moz", "MS", "o"].map(prefix =>
-				prefix ? `${prefix}TransitionEnd` : "transitionend"
-			),
-			onAnimationClose() {
-				const el = this.node;
-				if (!this.node) {
-					return;
-				}
-				this.delay = window.setTimeout(this.animationStop, 1000);
-				this.events.forEach((event: string) =>
-					el!.addEventListener(event, this.animationStop, false)
-				);
-			},
-			onKeyDown(e) {
-				// ESCAPE key pressed
-				if (e.keyCode == 27) {
-					userInfo.close();
-				}
-			},
-			animationStop() {
-				const t = userInfo;
-				if (!t.node) {
-					return;
-				}
-				if (t.delay) {
-					clearTimeout(t.delay);
-					t.delay = null;
-				}
-				t.events.forEach(event =>
-					t.node!.removeEventListener(event, t.animationStop, false)
-				);
-				return t.remove();
-			},
-			remove() {
-				const t = userInfo;
-				t.node && t.node.remove();
-				t.back && t.back.remove();
-				t.style && t.style.remove();
-			},
-		};
-	}
-	componentWillUnmount() {
-		window.removeEventListener("message", this.receiveMessages!);
-		window.removeEventListener("hashchange", this.postHashToIframe!);
-		document.removeEventListener("click", this.postClickOutsideToIframe!);
-	}
-	componentDidUpdate(prevProps: Props) {
-		if (prevProps.theme !== this.props.theme) {
-			this.changeTheme && this.changeTheme(this.props.theme || "light");
-		}
-	}
+        this.iframe = this.node.querySelector("iframe");
+        this.node.appendChild(this.closeEl);
+        document.body.appendChild(this.style);
+        document.body.appendChild(this.back);
+        document.body.appendChild(this.node);
+        document.addEventListener("keydown", this.onKeyDown);
+        window.setTimeout(() => {
+          this.back!.setAttribute("data-animation", "");
+          this.node!.setAttribute("data-animation", "");
+          this.iframe!.focus();
+        }, 400);
+      },
+      close() {
+        if (this.node) {
+          this.onAnimationClose();
+          this.node.removeAttribute("data-animation");
+        }
+        if (this.back) {
+          this.back.removeAttribute("data-animation");
+        }
+        document.removeEventListener("keydown", this.onKeyDown);
+      },
+      delay: null,
+      events: ["", "webkit", "moz", "MS", "o"].map(prefix =>
+        prefix ? `${prefix}TransitionEnd` : "transitionend"
+      ),
+      onAnimationClose() {
+        const el = this.node;
+        if (!this.node) {
+          return;
+        }
+        this.delay = window.setTimeout(this.animationStop, 1000);
+        this.events.forEach((event: string) =>
+          el!.addEventListener(event, this.animationStop, false)
+        );
+      },
+      onKeyDown(e) {
+        // ESCAPE key pressed
+        if (e.keyCode == 27) {
+          userInfo.close();
+        }
+      },
+      animationStop() {
+        const t = userInfo;
+        if (!t.node) {
+          return;
+        }
+        if (t.delay) {
+          clearTimeout(t.delay);
+          t.delay = null;
+        }
+        t.events.forEach(event =>
+          t.node!.removeEventListener(event, t.animationStop, false)
+        );
+        return t.remove();
+      },
+      remove() {
+        const t = userInfo;
+        t.node && t.node.remove();
+        t.back && t.back.remove();
+        t.style && t.style.remove();
+      },
+    };
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("message", this.receiveMessages!);
+    window.removeEventListener("hashchange", this.postHashToIframe!);
+    document.removeEventListener("click", this.postClickOutsideToIframe!);
+  }
+
+  componentDidUpdate(prevProps: Props) {
+    if (prevProps.theme !== this.props.theme) {
+      this.changeTheme && this.changeTheme(this.props.theme || "light");
+    }
+  }
 }
