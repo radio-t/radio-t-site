@@ -190,7 +190,7 @@ export default class Remark extends Component<Props> {
             transition: transform 0.4s ease-out;
             max-width: 100%;
             transform: translate(400px, 0);
-						z-index: 4;
+            z-index: 1036;
           }
           #${remarkRootId}-node[data-animation] {
             transform: translate(0, 0);
@@ -204,7 +204,7 @@ export default class Remark extends Component<Props> {
             background: rgba(0,0,0,0.7);
             opacity: 0;
             transition: opacity 0.4s ease-out;
-						z-index: 3;
+            z-index: 1035;
           }
           #${remarkRootId}-back[data-animation] {
             opacity: 1;
@@ -222,7 +222,7 @@ export default class Remark extends Component<Props> {
             padding: 0;
             margin-right: 4px;
             background-color: transparent;
-						z-index: 4;
+            z-index: 1036;
           }
           @media all and (max-width: 430px) {
             #${remarkRootId}-close {
