@@ -25,6 +25,7 @@ export default class extends Controller {
           div.style.transitionDelay = `${(limit - index) * 20}ms`;
           this.element.append(div);
         });
+        // todo limit waiting time before showing images
         imagesLoaded(this.element, {background: '.comments-counter-avatars-item'}, () => {
           this.reflow();
           this.element.classList.remove('loaded');

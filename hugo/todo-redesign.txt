@@ -1,8 +1,8 @@
-- fix multiple user sidebar
-- fix z-index remark user sidebar
-- remember player position
+- pass title to remark
 
 ===
++ fix multiple user sidebar
++ fix z-index remark user sidebar
 + favicons
 + online play buttons controller (play/pause toggle, playing state)
 + online markup
