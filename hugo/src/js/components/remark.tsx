@@ -1,4 +1,4 @@
-import { h, Component } from "preact";
+import React, {Component} from 'react';
 
 type RemarkTheme = "light" | "dark";
 

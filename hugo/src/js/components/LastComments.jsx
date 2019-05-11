@@ -1,4 +1,4 @@
-import { h, render, Component } from 'preact';
+import React, { Component } from 'react';
 import { distanceInWordsStrict, format, parse } from 'date-fns';
 import locale from 'date-fns/locale/ru';
 import Visibility from 'visibilityjs';
@@ -78,8 +78,8 @@ class LastComments extends Component {
     Visibility.stop(this.visibilityInterval);
   }
 
-  render(props, state) {
-    return <div className="last-comments-list">{state.comments.map((comment) =>
+  render() {
+    return <div className="last-comments-list">{this.state.comments.map((comment) =>
       <Comment comment={comment} key={comment.id}/>,
     )}</div>;
   }

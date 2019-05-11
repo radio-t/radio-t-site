@@ -13,7 +13,7 @@ mix.sass('src/scss/vendor.scss', '.', useNodeSass);
 mix.babelConfig({
   plugins: [
     '@babel/plugin-proposal-class-properties',
-    ['@babel/plugin-transform-react-jsx', {'pragma': 'h'}], // support preact
+    '@babel/plugin-transform-react-jsx',
     '@babel/plugin-syntax-dynamic-import',
   ],
 });

@@ -3,7 +3,6 @@
     "lib": ["es2017", "dom"],
     "target": "es2017",
     "jsx": "react",
-    "jsxFactory": "h",
     "module": "esnext",
     "esModuleInterop": true,
     "moduleResolution": "node",

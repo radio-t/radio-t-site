@@ -1,4 +1,5 @@
-import { h, render } from 'preact';
+import React from 'react';
+import { render, unmountComponentAtNode } from 'react-dom';
 import Controller from '../base_controller';
 import Remark from '../components/remark';
 
@@ -15,6 +16,6 @@ export default class extends Controller {
   }
   disconnect() {
     super.disconnect();
-    render(null, this.element);
+    unmountComponentAtNode(this.element);
   }
 }

@@ -1,4 +1,5 @@
-import { h, render } from 'preact';
+import React from 'react';
+import { render, unmountComponentAtNode } from 'react-dom';
 import { format, parse } from 'date-fns';
 import locale from 'date-fns/locale/ru';
 import debounce from 'lodash/debounce';
@@ -45,7 +46,7 @@ export default class extends Controller {
     if (this.searchQuery !== query) return;
     const {data} = await http.get('https://radio-t.com/site-api/search', {params: {q: query}});
     if (this.searchQuery !== query) return;
-    this.resultTarget.innerHTML = '';
+    unmountComponentAtNode(this.resultTarget);
     this.scrollTarget.scrollTo(0, 0);
     render((<Results results={data}/>), this.resultTarget);
     this.Mark.mark(query);
@@ -62,7 +63,7 @@ export default class extends Controller {
 const Results = function ({results}) {
   return (
     <div className="page-search-list">{results.map((result) =>
-      <a href={(new URL(result.url)).pathname} className="page-search-list-item py-3 px-3">
+      <a href={(new URL(result.url)).pathname} className="page-search-list-item py-3 px-3" key={result.url}>
         {result.image && <div className="podcast-cover">
           <div className="cover-image" style={{backgroundImage: `url('${result.image}')`}}/>
         </div>}
