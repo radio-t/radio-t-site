@@ -84,6 +84,16 @@ export default class extends Controller {
       "waiting"
     ];
     debugEvents.forEach(event => this.audioTarget.addEventListener(event, (e) => this.debug('audio event', event, e)));
+
+    window.addEventListener('beforeunload', (e) => {
+      const isPlaying = this.constructor.state.src && !this.constructor.state.paused;
+      if (!isPlaying) return;
+      window.localStorage.setItem('player', JSON.stringify({
+        ...this.detail,
+        currentTime: this.audioTarget.currentTime,
+        duration: this.audioTarget.duration,
+      }));
+    });
   }
 
   playPodcast(detail) {
@@ -99,6 +109,7 @@ export default class extends Controller {
   }
 
   loadPodcast(detail) {
+    this.detail = detail;
     if (this.audioTarget.src !== detail.src) {
       this.resetUI();
       this.element.classList.remove('d-none');
@@ -181,6 +192,7 @@ export default class extends Controller {
   }
 
   close() {
+    window.localStorage.removeItem('player');
     this.element.classList.add('d-none');
     this.audioTarget.src = '';
     this.updateState({src: null, paused: null});
@@ -190,6 +202,25 @@ export default class extends Controller {
     if (this.isSeeking) return;
     this.seekTarget.value = this.audioTarget.currentTime;
     this.currentTimeTarget.textContent = this.composeTime(this.audioTarget.currentTime);
+
+    function updateLocalStorage(key, fn) {
+      try {
+        const newValue = fn(JSON.parse(localStorage.getItem(key) || '{}'));
+        if (typeof newValue === 'undefined') return;
+        localStorage.setItem(key, JSON.stringify(newValue));
+      } catch (e) {
+        //
+      }
+    }
+
+    updateLocalStorage('podcasts', (podcasts) => {
+      if (!this.detail.number) return;
+      podcasts[this.detail.number] = {
+        currentTime: this.audioTarget.currentTime,
+        duration: this.audioTarget.duration,
+      };
+      return podcasts;
+    });
   }
 
   onDurationchange() {
