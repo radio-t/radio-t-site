@@ -1,8 +1,9 @@
-- favicons
-- use howler.js
-- online demo (fake time and stream url)
+- fix multiple user sidebar
+- fix z-index remark user sidebar
+- remember player position
 
 ===
++ favicons
 + online play buttons controller (play/pause toggle, playing state)
 + online markup
 + fix suggest topic button visibility
@@ -14,6 +15,7 @@
 ===
 ===
 
+- use howler.js
 - animations for search and sidebar overlay
 - remember player state
 - preload archives links from mouse events

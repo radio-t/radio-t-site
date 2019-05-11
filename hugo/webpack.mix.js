@@ -6,7 +6,7 @@ const useNodeSass = USE_NODE_SASS ? {implementation: require('node-sass')} : {};
 
 mix.disableNotifications();
 
-mix.js('src/js/app.js', '.');
+mix.ts('src/js/app.js', '.');
 mix.sass('src/scss/app.scss', '.', useNodeSass);
 mix.sass('src/scss/vendor.scss', '.', useNodeSass);
 
