@@ -12,6 +12,7 @@ export default class extends Controller {
     this.root = render((<Remark
       site_id={window.remark_config.site_id}
       url={'https://radio-t.com' + location.pathname}
+      page_title={window.remark_config.page_title}
     />), this.element);
   }
   disconnect() {

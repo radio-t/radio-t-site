@@ -5,6 +5,7 @@ type RemarkTheme = "light" | "dark";
 type Props = {
   baseurl?: string;
   site_id: string;
+  page_title: string;
   url?: string;
   id?: string;
   className?: string;
@@ -51,11 +52,13 @@ export default class Remark extends Component<Props> {
     const remark_config: {
       baseurl: string;
       site_id: string;
+      page_title: string;
       url?: string;
       theme: RemarkTheme;
     } = {
       baseurl: this.props.baseurl || "https://remark42.radio-t.com",
       site_id: this.props.site_id,
+      page_title: this.props.page_title,
       theme: this.props.theme || "light",
     };
 
