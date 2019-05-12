@@ -48,9 +48,9 @@
     font-weight: $font-weight-normal;
     padding-left: ($spacer / 1.5);
     cursor: text !important;
+    border-color: transparent !important;
     &:not(:active, :focus, :hover) {
       color: $text-muted;
-      border-color: transparent;
     }
   }
 }
