@@ -43,22 +43,22 @@ html.js {
     visibility: hidden;
   }
 }
-@mixin link($selector: '&', $active-bg: $link-hover-color, $active-color: $white) {
+@mixin link($selector: '&', $border: $body-color, $active-bg: $link-hover-color, $active-color: $white) {
   #{$selector} {
     transition: 350ms ease;
     transition-property: color, background-color, border;
     transition-delay: 25ms;
-    border-bottom: 2px solid rgba($active-bg, .15);
+    border-bottom: 1px solid rgba($border, .15);
   }
   &:hover {
     #{$selector} {
       color: $active-bg;
       //color: inherit;
-      background-color: rgba($active-bg, .1);
+      background-color: rgba($active-bg, .06);
       text-shadow: 0 1px rgba($active-color, .33);
       transition-duration: 50ms;
       transition-delay: 0ms;
-      border-bottom-color: rgba($active-bg, .05);
+      border-bottom-color: rgba($active-bg, .2);
     }
     &:active {
       #{$selector} {
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
 p, .jumbotron, .text-content {
   a:not(.btn):not(.nav-link) {
-    @include link;
+    @include link('&');
   }
 }
 .smaller {
@@ -122,7 +122,7 @@ pre {
   .h1, .h2, .h3, .h4, .h5, .h6,
   p, .text-content {
     a:not(.btn):not(.nav-link) {
-      @include link('&', $white, $link-hover-color);
+      @include link('&', $white, $white, $link-hover-color);
     }
   }
 }
@@ -702,7 +702,7 @@ $ripple-scale-out: 3.4;
 .post-footer {
 }
 .post-comments {
-  background-color: $gray-100;
+  //background-color: $gray-100;
 }
 .comment-policy {
   background-color: rgba($gray-500, .15);
