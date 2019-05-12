@@ -1,8 +1,24 @@
-<div class="small text-white-50 text-light" noprefetch>
+<div class="smaller text-muted border-top" noprefetch>
   <div class="text-content">
-    <div class="container-fluid pt-5 pb-4">
+    <div class="container-fluid py-5">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3 text-body">
+          <div class="footer-logo-img mb-3"></div>
+          <ul class="list-unstyled">
+            <li>Designed by <a href="https://www.hlkv.ru">HLKV</a></li>
+            <li>Coded by <a href="https://t.me/webkonstantin">webkonstantin</a></li>
+            <li>Powered by <a href="https://gohugo.io">Hugo</a></li>
+          </ul>
+          <p>Подкаст распространяется под <a href="/license/">лицензией</a> CC.</p>
+        </div>
+        <div class="col-md-3">
+          <p>Email: <a href="mailto:{{ .Site.Params.author }}">{{ .Site.Params.author }}</a></p>
+          <p>
+            Авторы и гости высказывают свое профессиональное и исключительно субъективное мнение. Смиритесь
+            с тем, что оно может не совпадать с вашим мнением и наслаждайтесь.
+          </p>
+        </div>
+        <div class="col-md-3">
           <ul class="page-footer-links list-unstyled">
             <li><a href="/about/">Информация о подкасте и ведущих</a></li>
             <li><a href="/online/">Online-вещание по субботам</a></li>
@@ -12,11 +28,11 @@
             <li><a href="/apps/">Программы для Радио-Т</a></li>
           </ul>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <ul class="page-footer-links list-unstyled">
-            <li><a href="https://news.radio-t.com">Темы выпусков от авторов Радио-Т</a></li>
+            <li><a href="https://news.radio-t.com">Темы выпусков от авторов</a></li>
             <li><a href="/api-docs/">API Радио-Т</a></li>
-            <li>Twitter - <a href="https://twitter.com/radio_t">@radio_t</a> и <a
+            <li>Twitter — <a href="https://twitter.com/radio_t">@radio_t</a> и <a
                 href="https://twitter.com/radiot_news">@radiot_news</a></li>
             <li>Комментарии <a href="https://twitter.com/radiot_comments">твитер</a> и <a
                 href="https://t.me/radiot_comments">телеграмм</a></li>
@@ -24,32 +40,6 @@
             <li><a href="/advertising/">Реклама в Радио-Т</a></li>
           </ul>
         </div>
-        <div class="col-md-4">
-          <p>
-            Авторы и гости высказывают свое профессиональное и исключительно субъективное мнение. Смиритесь
-            с тем, что оно может не совпадать с вашим мнением и наслаждайтесь.
-          </p>
-          <p>Вы можете <a href="http://friends.radio-t.com/">помочь любимому подкасту</a> любой суммой.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-credits text-center pt-5 pb-4">
-      <div class="container-fluid">
-        <p>
-          <strong>Радио-Т, {{ .Site.LastChange.Year }}.</strong>
-          Подкаст распространяется под <a href="/license/">лицензией</a> CC
-        </p>
-
-        <p>Пишите нам на <a href="mailto:{{ .Site.Params.author }}">{{ .Site.Params.author }}</a></p>
-
-        <ul class="list-unstyled">
-          <li>Designed by <a href="https://www.hlkv.ru">HLKV</a></li>
-          <li>Coded by <a href="https://t.me/webkonstantin">webkonstantin</a></li>
-          <li>Powered by <a href="https://gohugo.io">Hugo</a></li>
-        </ul>
-
-        <div class="footer-logo-img"></div>
       </div>
     </div>
   </div>

@@ -230,26 +230,19 @@ $jumbotron-arc-width: 120%;
   background-image: url('../images/banners/help.svg');
 }
 .page-footer {
-  background-color: $gray-800;
-  .footer-credits {
-    background-color: $gray-900;
-  }
+  background-color: $gray-100;
 }
 .page-footer-links {
+  margin: 0;
   padding: 0;
-  > li + li {
-    margin-top: .5em;
+  > li {
+    margin-bottom: .5em;
   }
 }
 .footer-logo-img {
-  display: inline-block;
-  margin-top: 1rem;
-  width: 3rem;
-  height: 3rem;
-  background: url("../images/logo-icon.svg");
+  @include logo-size(5rem);
+  background: url("../images/logo.svg");
   background-size: contain;
-  filter: grayscale(100%);
-  opacity: .5;
 }
 .number-title {
   @include font-size($h2-font-size);
