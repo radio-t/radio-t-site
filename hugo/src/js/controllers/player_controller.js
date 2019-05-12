@@ -97,8 +97,6 @@ export default class extends Controller {
   }
 
   playPodcast(detail) {
-    // try live
-    // detail.src = 'http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_q';
     if (this.loadPodcast(detail)) {
       return this.audioTarget.play();
     } else if (this.setTimeLabel(detail.timeLabel)) {
@@ -119,8 +117,8 @@ export default class extends Controller {
       this.coverTarget.style.backgroundImage = detail.image;
       this.coverTarget.classList.toggle('cover-image-online', !!detail.online)
       this.numberTarget.textContent = detail.number;
-      this.setTimeLabel(detail.timeLabel);
       this.audioTarget.load();
+      this.once(this.audioTarget, 'canplay', () => this.setTimeLabel(detail.timeLabel));
       return true;
     }
     return false;

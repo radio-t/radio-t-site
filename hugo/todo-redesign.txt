@@ -1,7 +1,8 @@
-- footer
-- DO banner
 
 ===
++ первый клик по временной метке не прыгает на эту позицию в плеере
++ footer
++ DO banner
 + pass title to remark
 + fix multiple user sidebar
 + fix z-index remark user sidebar
@@ -17,6 +18,7 @@
 ===
 ===
 
+- цитаты? https://github.com/elquatro/rt-quotes/blob/master/src/quotes.yaml
 - use howler.js
 - animations for search and sidebar overlay
 - remember player state

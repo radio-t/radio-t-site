@@ -33,6 +33,15 @@ export default class extends Controller {
     element.dispatchEvent(event);
   }
 
+  once(el, event, handler) {
+    function realHandler(...args) {
+      el.removeEventListener(event, realHandler);
+      handler(...args);
+    }
+
+    el.addEventListener(event, realHandler);
+  }
+
   reflow(element) {
     element = element || this.element;
     return element.offsetHeight;
