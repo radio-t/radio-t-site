@@ -1,6 +1,8 @@
-- pass title to remark
+- footer
+- DO banner
 
 ===
++ pass title to remark
 + fix multiple user sidebar
 + fix z-index remark user sidebar
 + favicons
