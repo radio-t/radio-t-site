@@ -66,9 +66,5 @@
     "webpack": "^4.31.0",
     "webpack-bundle-analyzer": "^3.3.2"
   },
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-cli": "^2.2.0",
-    "gulp-favicons": "^2.3.0"
-  }
+  "devDependencies": {}
 }
