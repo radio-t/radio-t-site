@@ -212,6 +212,18 @@ $jumbotron-arc-width: 120%;
       rgba(darken($primary, 12%), 1) 100%
   );
 }
+@include media-breakpoint-down('lg') {
+  .page-banners-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .page-banners {
+    min-width: map-get($grid-breakpoints, 'lg');
+  }
+}
+.banner-btn {
+  color: $text-muted;
+}
 .banner-icon {
   width: 2rem;
   height: 2rem;
