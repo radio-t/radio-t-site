@@ -1,7 +1,7 @@
-import Controller from '../base_controller';
-import padStart from 'lodash/padStart';
-import capitalize from 'lodash/capitalize';
 import debounce from 'lodash/debounce';
+import capitalize from 'lodash/capitalize';
+import Controller from '../base_controller';
+import { composeTime, getLocalStorage, parseTime, updateLocalStorage } from '../utils';
 
 /**
  * @property {Audio} audioTarget
@@ -118,6 +118,14 @@ export default class extends Controller {
       this.coverTarget.classList.toggle('cover-image-online', !!detail.online)
       this.numberTarget.textContent = detail.number;
       this.audioTarget.load();
+      if (!detail.online) {
+        if (!detail.timeLabel) {
+          const podcast = getLocalStorage('podcasts', podcasts => podcasts[this.numberTarget.innerText]);
+          if (podcast) {
+            detail.timeLabel = composeTime(podcast.currentTime);
+          }
+        }
+      }
       this.once(this.audioTarget, 'canplay', () => this.setTimeLabel(detail.timeLabel));
       return true;
     }
@@ -132,7 +140,7 @@ export default class extends Controller {
 
   setTimeLabel(timeLabel) {
     if (timeLabel) {
-      this.updateCurrentTime(this.parseTime(timeLabel));
+      this.updateCurrentTime(parseTime(timeLabel));
     }
     return !!timeLabel;
   }
@@ -140,7 +148,7 @@ export default class extends Controller {
   updateCurrentTime(time, onlyUI = false) {
     if (!onlyUI) this.audioTarget.currentTime = time;
     this.seekTarget.value = time;
-    this.currentTimeTarget.textContent = this.composeTime(time);
+    this.currentTimeTarget.textContent = composeTime(time);
   }
 
   playPause() {
@@ -149,26 +157,6 @@ export default class extends Controller {
     } else {
       return this.audioTarget.pause();
     }
-  }
-
-  // 00:02:24 => 144
-  parseTime(time) {
-    return time
-      .split(':')
-      .reverse()
-      .reduce((acc, curr, i) => acc + parseInt(curr) * Math.pow(60, i), 0);
-  }
-
-  // 144 => 00:02:24
-  composeTime(time) {
-    const pieces = [];
-    time = parseInt(time);
-    while (time) {
-      pieces.push(time % 60);
-      time = Math.floor(time / 60);
-    }
-    while (pieces.length < 3) pieces.push(0);
-    return pieces.reverse().map((t) => padStart(t, 2, '0')).join(':');
   }
 
   seekBackward() {
@@ -194,36 +182,30 @@ export default class extends Controller {
     this.element.classList.add('d-none');
     this.audioTarget.src = '';
     this.updateState({src: null, paused: null});
+    this.detail = {};
   }
 
   onTimeupdate() {
     if (this.isSeeking) return;
     this.seekTarget.value = this.audioTarget.currentTime;
-    this.currentTimeTarget.textContent = this.composeTime(this.audioTarget.currentTime);
+    this.currentTimeTarget.textContent = composeTime(this.audioTarget.currentTime);
 
-    function updateLocalStorage(key, fn) {
-      try {
-        const newValue = fn(JSON.parse(localStorage.getItem(key) || '{}'));
-        if (typeof newValue === 'undefined') return;
-        localStorage.setItem(key, JSON.stringify(newValue));
-      } catch (e) {
-        //
+    if (!this.detail.online) {
+      if (this.detail.number) {
+        updateLocalStorage('podcasts', (podcasts) => {
+          podcasts[this.detail.number] = {
+            currentTime: this.audioTarget.currentTime,
+            duration: this.audioTarget.duration,
+          };
+          return podcasts;
+        });
       }
     }
-
-    updateLocalStorage('podcasts', (podcasts) => {
-      if (!this.detail.number) return;
-      podcasts[this.detail.number] = {
-        currentTime: this.audioTarget.currentTime,
-        duration: this.audioTarget.duration,
-      };
-      return podcasts;
-    });
   }
 
   onDurationchange() {
     this.seekTarget.max = this.audioTarget.duration;
-    this.durationTarget.textContent = this.composeTime(this.audioTarget.duration);
+    this.durationTarget.textContent = composeTime(this.audioTarget.duration);
   }
 
   onPlay() {

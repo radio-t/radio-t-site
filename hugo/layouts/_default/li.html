@@ -4,7 +4,7 @@
       <div class="posts-list-item-inner py-5">
         <div
           class="row post-podcast"
-          data-controller="podcast"
+          data-controller="podcast podcast-progress"
           data-target="page.playerStateReceiver"
           data-action="player-state->podcast#fetchPlayingState"
           data-podcast-url="{{ .RelPermalink }}"

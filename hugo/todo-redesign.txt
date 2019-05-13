@@ -6,6 +6,7 @@
 package-lock.json update suggested: tar ~> 4.4.2.
 
 ===
++ remember podcast player progress
 + Документация для процесса построения сайта #55 где лого и фавиконки
 + дублирование запросов на количество комментариев #53
 + favicon в сафари
@@ -36,7 +37,6 @@ package-lock.json update suggested: tar ~> 4.4.2.
 - цитаты? https://github.com/elquatro/rt-quotes/blob/master/src/quotes.yaml
 - use howler.js
 - animations for search and sidebar overlay
-- remember player state
 - preload archives links from mouse events
 - turbolinks double render?
 - fix safari responsive navbar

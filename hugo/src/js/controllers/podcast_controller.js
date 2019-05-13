@@ -1,6 +1,7 @@
 import pose from 'popmotion-pose';
 import Controller from '../base_controller';
 import Player from './player_controller';
+import { composeTime, getLocalStorage } from '../utils';
 
 /**
  * @property playButtonTarget
@@ -58,7 +59,7 @@ export default class extends Controller {
         opacity: 1,
         transition,
       },
-    })
+    });
   }
 
   fetchPlayingState() {
@@ -82,7 +83,7 @@ export default class extends Controller {
       detail: {
         ...this.getPodcastInfo(),
         ...(timeLabel ? {timeLabel} : {}),
-      }
+      },
     }));
 
     setTimeout(() => this.fetchPlayingState(), 0);
