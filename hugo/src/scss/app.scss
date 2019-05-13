@@ -362,6 +362,7 @@ $jumbotron-arc-width: 120%;
   ul:first-of-type {
     padding: 0;
     list-style: none none;
+    line-height: $line-height-base - .1;
     li {
       display: flex;
       align-items: baseline;
