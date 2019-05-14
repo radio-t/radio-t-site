@@ -30,6 +30,7 @@ html {
 body {
   min-height: 100%;
   @include font-size(1.05rem);
+  font-family: "InterUI", "Helvetica Neue", "Arial", sans-serif;
   //margin-right: 60px;
   //@media (prefers-color-scheme: dark) {
   //  @include dark;
