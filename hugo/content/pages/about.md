@@ -1,5 +1,5 @@
 +++
-title = "Что, где, когда и кто?"
+title = "Что, где, когда и кто"
 url = "/about"
 aliases = "/info"
 image = "/images/studio.jpeg"
