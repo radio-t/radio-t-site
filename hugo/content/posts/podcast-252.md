@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 252"
 date = "2011-08-28T01:14:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast252"
+image = "https://radio-t.com/images/radio-t/rt252.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt252.jpg)
-
 
 - Стив Джобс [покинул](http://habrahabr.ru/blogs/apple/127024/) должность CEO
 - Чем хорош [Tim Cook](http://www.wired.com/epicenter/2011/08/why-tim-cook/)
@@ -17,4 +18,4 @@ filename = "rt_podcast252"
 - Каким будет телевизор от Apple
 - [Темы](http://new.radio-t.com/2011/08/252.html) наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast252.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast252.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-252.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast252.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast252.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast252.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-252.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast252.mp3" preload="none"></audio>

@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 198"
 date = "2010-08-01T07:57:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast198"
+image = "https://radio-t.com/images/radio-t/rt198.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt198.jpg)
@@ -18,7 +20,7 @@ filename = "rt_podcast198"
 - За Уралом YouTube [не будет](http://net.compulenta.ru/550553/)
 - Темы наших [слушателей](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-198/)
 
-**_Спонсоры этого выпуска – _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
+**_Спонсоры этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast198.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast198.mp3.torrent)

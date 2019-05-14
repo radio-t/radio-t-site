@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 428"
 date = "2015-01-24T17:13:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt428.jpg"
 filename = "rt_podcast428"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt428.jpg)
@@ -21,5 +22,5 @@ filename = "rt_podcast428"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast428.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-428.html)
+[аудио](http://cdn.radio-t.com/rt_podcast428.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-428.html)
 <audio src="http://cdn.radio-t.com/rt_podcast428.mp3" preload="none"></audio>

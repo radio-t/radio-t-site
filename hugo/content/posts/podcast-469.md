@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 469"
 date = "2015-11-07T16:59:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt469.jpg"
 filename = "rt_podcast469"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt469.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast469"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast469.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-469.html)
+[аудио](http://cdn.radio-t.com/rt_podcast469.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-469.html)
 <audio src="http://cdn.radio-t.com/rt_podcast469.mp3" preload="none"></audio>

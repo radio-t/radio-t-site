@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 368"
 date = "2013-11-30T15:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt368.jpg"
 filename = "rt_podcast368"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt368.jpg)
@@ -17,5 +18,5 @@ filename = "rt_podcast368"
 * [10 потерь](http://www.informationweek.com/strategic-cio/digital-business/10-it-job-titles-we-miss/d/d-id/1006276) в IT.
 * [Dell и его ARM сервера](http://www.dell.com/learn/us/en/04/campaigns/project-copper)
 
-[аудио](http://cdn.radio-t.com/rt_podcast368.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-368.html)
+[аудио](http://cdn.radio-t.com/rt_podcast368.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-368.html)
 <audio src="http://cdn.radio-t.com/rt_podcast368.mp3" preload="none"></audio>

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 544"
 date = "2017-05-06T18:49:37"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt544.jpg"
 filename = "rt_podcast544"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt544.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast544"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast544.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-544.html)
+[аудио](http://cdn.radio-t.com/rt_podcast544.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-544.html)
 <audio src="http://cdn.radio-t.com/rt_podcast544.mp3" preload="none"></audio>

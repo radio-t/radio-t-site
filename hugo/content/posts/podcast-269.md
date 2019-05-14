@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 269"
 date = "2011-12-25T04:09:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast269"
+image = "https://radio-t.com/images/radio-t/rt269.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt269.png)
-
 
 - [GoDaddy](http://www.readwriteweb.com/archives/godaddys_sopa_support_sparks_calls_for_boycotts_an.php) и SOPA позор
 - Нет, они теперь хорошие
@@ -19,4 +20,4 @@ filename = "rt_podcast269"
 - [spnKiX](http://techcrunch.com/2011/12/20/kickstarter-spnkix-are-motorized-shoes-yes-motorized-shoes/) на колесиках
 - Темы наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast269.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast269.mp3.torrent)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast269.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast269.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast269.mp3.torrent)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast269.mp3" preload="none"></audio>

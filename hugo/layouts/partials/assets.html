@@ -1,0 +1,13 @@
+{{ if eq (getenv "NODE_ENV") "development" }}
+  <link href="/vendor.css" rel="stylesheet">
+  <link href="/app.css" rel="stylesheet">
+  <script src="/modernizr-bundle.js"></script>
+  <script src="/app.js"></script>
+{{ else }}
+  <link href="/build{{ index .Site.Data.manifest "/vendor.css" }}" rel="stylesheet">
+  <link href="/build{{ index .Site.Data.manifest "/app.css" }}" rel="stylesheet">
+  <script src="/build{{ index .Site.Data.manifest "/modernizr-bundle.js" }}"></script>
+  <script src="/build{{ index .Site.Data.manifest "/manifest.js" }}"></script>
+  <script src="/build{{ index .Site.Data.manifest "/vendor.js" }}"></script>
+  <script src="/build{{ index .Site.Data.manifest "/app.js" }}"></script>
+{{ end }}

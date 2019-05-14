@@ -1,11 +1,12 @@
 +++
 title = "Радио–Т 116"
 date = "2008-12-14T13:19:00"
-categories = ["podcast"]
+categories = [ "podcast",]
+image = "https://radio-t.com/images/radio-t/rt116.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt116.png)
-
 
 - Гость, который в ответе за все
 - Гугл делающий странное

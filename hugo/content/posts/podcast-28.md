@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 28"
 date = "2007-03-26T05:26:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast28"
-+++
 
++++
 
 - SCO: все выродилось в 326 строк исходного кода
 - Охота на Линуксы без "My Computer"

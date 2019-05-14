@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 344"
 date = "2013-06-08T18:32:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt344.jpg"
 filename = "rt_podcast344"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt344.jpg)
@@ -16,4 +17,4 @@ filename = "rt_podcast344"
 * [IBM поддержит MongoDB](http://gigaom.com/2013/06/04/ibm-throws-its-weight-behind-mongodb-for-mobile-apps/)
 * За что [можно не любить EC2](http://openmymind.net/Why-I-Dislike-ec2/).
 
-[аудио](http://cdn.radio-t.com/rt_podcast344.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast344.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-344.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_344)<audio src="http://cdn.radio-t.com/rt_podcast344.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast344.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast344.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-344.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_344)<audio src="http://cdn.radio-t.com/rt_podcast344.mp3" preload="none"></audio>

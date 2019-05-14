@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 627"
 date = "2018-12-08T17:27:29"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt627.jpg"
 filename = "rt_podcast627"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt627.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast627"
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Яндекс.Облако](http://bit.ly/2SwLW0w) и [Бесплатный онлайн-марафон от Skillbox](https://clck.ru/EpFJB)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast627.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-627.html)
+[аудио](http://cdn.radio-t.com/rt_podcast627.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-627.html)
 <audio src="http://cdn.radio-t.com/rt_podcast627.mp3" preload="none"></audio>

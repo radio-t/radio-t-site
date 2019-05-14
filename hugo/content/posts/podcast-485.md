@@ -1,10 +1,12 @@
 +++
 title = "Радио-Т 485"
 date = "2016-02-27T17:23:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt485.jpg"
 filename = "rt_podcast485"
+
 +++
+
 ![](https://radio-t.com/images/radio-t/rt485.jpg)
 
 - [Spotify переезжает в Google Cloud](http://www.engadget.com/2016/02/24/spotify-moving-data-to-google-cloud-platform/) - *00:04:18*.
@@ -26,5 +28,5 @@ filename = "rt_podcast485"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast485.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-485.html)
+[аудио](http://cdn.radio-t.com/rt_podcast485.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-485.html)
 <audio src="http://cdn.radio-t.com/rt_podcast485.mp3" preload="none"></audio>

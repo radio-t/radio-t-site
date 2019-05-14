@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 471"
 date = "2015-11-21T18:13:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt471.jpg"
 filename = "rt_podcast471"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt471.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast471"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast471.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-471.html)
+[аудио](http://cdn.radio-t.com/rt_podcast471.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-471.html)
 <audio src="http://cdn.radio-t.com/rt_podcast471.mp3" preload="none"></audio>

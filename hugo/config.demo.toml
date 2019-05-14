@@ -1,0 +1,41 @@
+languageCode = "ru-ru"
+copyright = "Creative Commons - Attribution, Noncommercial, No Derivative Works 3.0 License"
+
+#baseurl = "https://radio-t.com"
+baseurl = ""
+
+title = "Радио-Т Подкаст"
+
+paginate = 15
+paginatePath = "page"
+
+publishdir = "public"
+ignoreFiles = ["\\.xml$"]
+
+[author]
+  name = "radio-t"
+
+[permalinks]
+  posts = "/p/:year/:month/:day/:filename"
+
+[params]
+#  url = "https://radio-t.com"
+
+  author = "podcast@radio-t.com"
+
+  subtitle = "Подкаст выходного дня - импровизации на темы высоких технологий"
+
+  description = "Еженедельные разговоры на темы хайтек, высоких компьютерных технологий, гаджетов, облаков, программирования и прочего интересного из мира ИТ."
+  indexDescription = "Разговоры на темы хайтек, высоких компьютерных технологий, гаджетов, облаков, программирования и прочего интересного из мира ИТ."
+  longDescription = "Разговоры на темы хайтек, высоких компьютерных технологий, гаджетов, облаков, программирования и прочего интересного из мира ИТ."
+  keywords = "Радио-Т, podcast, подкаст, IT подкаст, хайтек подкаст, подкаст на русском, Интернет Радио, радиот, еженедельный Hi-Tech подкаст"
+
+  twitter = "radio_t"
+  twitterNews = "radiot_news"
+  twitterWidgetId = "351604787772534785"
+
+  googlePlus = "111734605124061464121"
+  remark42 = "radiot"
+
+[blackfriday]
+  extensions = ["hardLineBreak"]

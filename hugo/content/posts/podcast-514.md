@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 514"
 date = "2016-09-24T17:33:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt514.jpg"
 filename = "rt_podcast514"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt514.jpg)
@@ -24,5 +25,5 @@ filename = "rt_podcast514"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast514.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-514.html)
+[аудио](http://cdn.radio-t.com/rt_podcast514.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-514.html)
 <audio src="http://cdn.radio-t.com/rt_podcast514.mp3" preload="none"></audio>

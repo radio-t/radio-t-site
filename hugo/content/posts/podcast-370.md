@@ -1,11 +1,11 @@
 +++
 title = "Радио-Т 370"
 date = "2013-12-14T15:48:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt370.jpg"
 filename = "rt_podcast370"
-+++
 
++++
 
 ![](https://radio-t.com/images/radio-t/rt370.jpg)
 
@@ -25,5 +25,5 @@ filename = "rt_podcast370"
 * [Amazon пока может](http://www.theregister.co.uk/2013/12/09/cloud_race_for_number_two/) не нервничать
 * Доставка дронами [PrimeAir](http://gizmodo.com/amazon-primeair-will-deliver-your-stuff-on-drones-1474589664)
 
-[аудио](http://cdn.radio-t.com/rt_podcast370.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-370.html)
+[аудио](http://cdn.radio-t.com/rt_podcast370.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-370.html)
 <audio src="http://cdn.radio-t.com/rt_podcast370.mp3" preload="none"></audio>

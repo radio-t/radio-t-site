@@ -1,11 +1,13 @@
 +++
 title = "Радио-Т 409"
 date = "2014-09-13T16:35:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt409.jpg"
 filename = "rt_podcast409"
+
 +++
 
+![](https://radio-t.com/images/radio-t/rt409.jpg)
 
 *Внимание! В этом выпуске много ненависти/гнева/любви/обожания по поводу Apple. Не рекомендуется к прослушиванию несовершеннолетним, людям с неустойчивой психикой и беременным женщинам*
 
@@ -20,5 +22,5 @@ filename = "rt_podcast409"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast409.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-409.html)
+[аудио](http://cdn.radio-t.com/rt_podcast409.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-409.html)
 <audio src="http://cdn.radio-t.com/rt_podcast409.mp3" preload="none"></audio>

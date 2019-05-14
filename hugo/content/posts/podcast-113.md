@@ -1,12 +1,13 @@
 +++
 title = "Радио–Т 113"
 date = "2008-11-23T10:02:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast113"
+image = "https://radio-t.com/images/radio-t/rt113.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt113.png)
-
 
 - Красоты Gmail под вопросом
 - Звериный оскал кризиса

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 537"
 date = "2017-03-11T17:34:07"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt537.jpg"
 filename = "rt_podcast537"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt537.jpg)
@@ -21,5 +22,5 @@ filename = "rt_podcast537"
 
 _Специальное предложение [Тинькофф Банка для слушателей Радио-Т](http://l.tinkoff.ru/radiot)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast537.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-537.html)
+[аудио](http://cdn.radio-t.com/rt_podcast537.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-537.html)
 <audio src="http://cdn.radio-t.com/rt_podcast537.mp3" preload="none"></audio>

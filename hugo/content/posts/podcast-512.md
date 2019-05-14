@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 512"
 date = "2016-09-10T17:43:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt512.jpg"
 filename = "rt_podcast512"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt512.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast512"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast512.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-512.html)
+[аудио](http://cdn.radio-t.com/rt_podcast512.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-512.html)
 <audio src="http://cdn.radio-t.com/rt_podcast512.mp3" preload="none"></audio>

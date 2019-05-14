@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 382"
 date = "2014-03-08T17:59:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt382.jpg"
 filename = "rt_podcast382"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt382.jpg)
@@ -16,5 +17,5 @@ filename = "rt_podcast382"
 * [Gmail обновился и ...](http://techcrunch.com/2014/03/05/gmail-for-ios-gets-full-support-for-background-refresh/)
 * [Yahoo - поцелуй смерти для стартапа](http://readwrite.com/2014/03/06/yahoo-death-bringer-startup-destroyer-acquisitions-strategy-search)
 
-[аудио](http://cdn.radio-t.com/rt_podcast382.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-382.html)
+[аудио](http://cdn.radio-t.com/rt_podcast382.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-382.html)
 <audio src="http://cdn.radio-t.com/rt_podcast382.mp3" preload="none"></audio>

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 396"
 date = "2014-06-14T23:59:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt396.jpg"
 filename = "rt_podcast396"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt396.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast396"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast396.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-396.html)
+[аудио](http://cdn.radio-t.com/rt_podcast396.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-396.html)
 <audio src="http://cdn.radio-t.com/rt_podcast396.mp3" preload="none"></audio>

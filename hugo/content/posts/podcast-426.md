@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 426"
 date = "2015-01-10T16:35:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt426.jpg"
 filename = "rt_podcast426"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt426.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast426"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast426.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-426.html)
+[аудио](http://cdn.radio-t.com/rt_podcast426.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-426.html)
 <audio src="http://cdn.radio-t.com/rt_podcast426.mp3" preload="none"></audio>

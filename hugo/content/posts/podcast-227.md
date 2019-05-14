@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 227"
 date = "2011-02-20T05:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast227"
+image = "https://radio-t.com/images/radio-t/rt227.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt227.png)
-
 
 - Самые [иновационные](http://www.fastcompany.com/most-innovative-companies/2011/) этого года
 - Около-телефонный [бред](http://www.readwriteweb.com/archives/facebook_could_change_telephones_forever.php): FB – Да, Twitter – Нет
@@ -20,7 +21,7 @@ filename = "rt_podcast227"
 - [Флэш](http://mashable.com/2011/02/09/web-video-flash-player-10-2/) стал не таким ужасным как обычно
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-227/) наших слушателей
 
-_Спонсор выпуска – _[_fastvps.ru_](http://fastvps.ru/)
+_Спонсор выпуска — _[_fastvps.ru_](http://fastvps.ru/)
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast227.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast227.mp3.torrent)

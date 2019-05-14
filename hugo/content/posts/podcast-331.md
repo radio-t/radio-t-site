@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 331"
 date = "2013-03-09T16:50:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt331.jpg"
 filename = "rt_podcast331"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt331.jpg)
@@ -22,4 +23,4 @@ filename = "rt_podcast331"
 * [Software-defined networking](http://www.zdnet.com/software-defined-networking-virtualizations-last-mile-7000012181/) набирает обороты.
 * Странная [статистика Java](http://plumbr.eu/blog/most-popular-java-environments).
 
-[аудио](http://cdn.radio-t.com/rt_podcast331.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast331.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-331.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_331) ● [playchat](http://playchat.radio-t.com/?vol=331)<audio src="http://cdn.radio-t.com/rt_podcast331.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast331.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast331.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-331.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_331) • [playchat](http://playchat.radio-t.com/?vol=331)<audio src="http://cdn.radio-t.com/rt_podcast331.mp3" preload="none"></audio>

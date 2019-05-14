@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 211"
 date = "2010-10-31T05:01:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast211"
+image = "https://radio-t.com/images/radio-t/rt211.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt211.jpg)

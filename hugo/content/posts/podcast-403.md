@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 403"
 date = "2014-08-02T17:04:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt403.jpg"
 filename = "rt_podcast403"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt403.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast403"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast403.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-403.html)
+[аудио](http://cdn.radio-t.com/rt_podcast403.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-403.html)
 <audio src="http://cdn.radio-t.com/rt_podcast403.mp3" preload="none"></audio>

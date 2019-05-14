@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 5"
 date = "2006-10-08T13:32:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast5"
-+++
 
++++
 
 - Опять батареи и у кого больше :)
 - Гиковские забавы: от оcнователей Apple до наших дней

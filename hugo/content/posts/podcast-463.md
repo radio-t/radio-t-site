@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 463"
 date = "2015-09-26T17:39:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt463.jpg"
 filename = "rt_podcast463"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt463.jpg)
@@ -21,5 +22,5 @@ filename = "rt_podcast463"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast463.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-463.html)
+[аудио](http://cdn.radio-t.com/rt_podcast463.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-463.html)
 <audio src="http://cdn.radio-t.com/rt_podcast463.mp3" preload="none"></audio>

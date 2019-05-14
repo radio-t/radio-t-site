@@ -1,12 +1,13 @@
 +++
 title = "Радио–Т 115"
 date = "2008-12-07T07:47:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast115"
+image = "https://radio-t.com/images/radio-t/rt115.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt115.jpg)
-
 
 - Главный мышиный юбилей
 - Python 3.0 тут. Ура, товарищи!

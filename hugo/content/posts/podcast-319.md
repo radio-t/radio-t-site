@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 319"
 date = "2012-12-15T16:21:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt319.jpg"
 filename = "rt_podcast319"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt319.jpg)
@@ -19,4 +20,4 @@ filename = "rt_podcast319"
 * Конец [Last.fm для мира](http://thenextweb.com/media/2012/12/13/last-fm-to-kill-its-radio-feature-in-many-countries-next-month-making-it-a-paid-feature-i).
 * [160 Mac Mini](http://habrahabr.ru/post/162023/) в одной серверной стойке.
 
-[аудио](http://cdn.radio-t.com/rt_podcast319.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast319.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-319.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_319)<audio src="http://cdn.radio-t.com/rt_podcast319.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast319.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast319.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-319.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_319)<audio src="http://cdn.radio-t.com/rt_podcast319.mp3" preload="none"></audio>

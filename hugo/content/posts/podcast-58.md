@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 58"
 date = "2007-10-28T03:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast58"
-+++
 
++++
 
 - Леопард глазами ведущих
 - Еще новинки недели: Опера 9.5 и Google IMAP

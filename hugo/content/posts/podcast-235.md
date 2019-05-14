@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 235"
 date = "2011-04-17T03:31:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast235"
+image = "https://radio-t.com/images/radio-t/rt235.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt235.png)
-
 
 - FTP пошел на 5й десяток
 - [Яндекс.Деньги](http://internet.cnews.ru/news/top/index.shtml?2011/04/15/436734) приоткрыли свой API
@@ -20,4 +21,4 @@ filename = "rt_podcast235"
 - [UberMedia ](http://www.securitylab.ru/news/405412.php)построит свой твиттер
 - [Темы ](http://new.radio-t.com/2011/04/235.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast235.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast235.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-235.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast235.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast235.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast235.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-235.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast235.mp3" preload="none"></audio>

@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 69"
 date = "2008-01-13T06:52:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast69"
-+++
 
++++
 
 - Что [носится в воздухе](http://habrahabr.ru/blog/apple/33774.html) в преддверии следующей недели
 - Концепт [устройства](http://hitech.tomsk.ru/newsmobile/6528-udivitelnyjj-konceptualnyjj-kompjuter.html) для сохранения умения писать

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 399"
 date = "2014-07-05T17:17:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt399.jpg"
 filename = "rt_podcast399"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt399.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast399"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast399.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-399.html)
+[аудио](http://cdn.radio-t.com/rt_podcast399.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-399.html)
 <audio src="http://cdn.radio-t.com/rt_podcast399.mp3" preload="none"></audio>

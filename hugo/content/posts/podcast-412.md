@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 412"
 date = "2014-10-04T17:50:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt412.jpg"
 filename = "rt_podcast412"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt412.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast412"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [HighLoad](http://highload.ru/radio-t/)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast412.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-412.html)
+[аудио](http://cdn.radio-t.com/rt_podcast412.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-412.html)
 <audio src="http://cdn.radio-t.com/rt_podcast412.mp3" preload="none"></audio>

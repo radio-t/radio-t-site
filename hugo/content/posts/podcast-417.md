@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 417"
 date = "2014-11-08T18:15:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt417.jpg"
 filename = "rt_podcast417"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt417.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast417"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com)  и [kato.im](https://kato.im)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast417.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-417.html)
+[аудио](http://cdn.radio-t.com/rt_podcast417.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-417.html)
 <audio src="http://cdn.radio-t.com/rt_podcast417.mp3" preload="none"></audio>

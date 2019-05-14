@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 476"
 date = "2015-12-26T16:31:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt476.jpg"
 filename = "rt_podcast476"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt476.jpg)
@@ -21,5 +22,5 @@ filename = "rt_podcast476"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast476.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-476.html)
+[аудио](http://cdn.radio-t.com/rt_podcast476.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-476.html)
 <audio src="http://cdn.radio-t.com/rt_podcast476.mp3" preload="none"></audio>

@@ -1,0 +1,62 @@
+<div
+  data-controller="player"
+  data-target="page.player"
+  id="player"
+  class="d-none"
+  data-turbolinks-permanent
+>
+  <div class="player-placeholder"></div>
+  <div class="podcast-player-container">
+    <div class="podcast-player container-fluid d-flex align-items-center flex-nowrap">
+
+      <div class="podcast-player-cover podcast-cover flex-shrink-0">
+        <a class="cover-image cover-image-online" data-target="player.cover player.link">
+          <div class="online-animation">
+            <div class="online-animation-ripple online-animation-ripple-1"></div>
+            <div class="online-animation-ripple online-animation-ripple-2"></div>
+            <div class="online-animation-ripple online-animation-ripple-3"></div>
+            <div class="online-animation-ripple online-animation-ripple-4"></div>
+            <div class="online-animation-ripple online-animation-ripple-5"></div>
+            <div class="online-animation-dot"></div>
+          </div>
+        </a>
+      </div>
+
+      <h3 class="player-number ml-2 my-0">
+        <a data-target="player.number player.link"></a>
+      </h3>
+
+      <div class="btn-group mx-auto px-3" role="group">
+        <button class="btn btn-link d-inline-flex" data-action="player#seekBackward">
+          <span class="btn-player-icon btn-player-icon-backward"></span>
+        </button>
+        <button class="btn btn-link player-play mx-2 mx-md-1" data-action="player#playPause">
+          <i class="fas fa-fw fa-play-circle" data-target="player.play"></i>
+          <i class="fas fa-fw fa-pause-circle d-none" data-target="player.pause"></i>
+        </button>
+        <button class="btn btn-link d-inline-flex" data-action="player#seekForward">
+          <span class="btn-player-icon btn-player-icon-forward"></span>
+        </button>
+      </div>
+
+      <div class="player-playback container-fluid flex-grow-1 d-flex align-items-center">
+        <div class="player-time" data-target="player.currentTime">00:00:00</div>
+        <div class="podcast-player-seek flex-grow-1 mx-3 d-flex align-items-center">
+          <input
+            type="range"
+            class="custom-range"
+            data-target="player.seek"
+            data-action="input->player#seeking change->player#seek"
+          >
+        </div>
+        <div class="player-time player-duration" data-target="player.duration"></div>
+      </div>
+
+      <button class="player-close btn btn-link ml-md-3" data-action="player#close">
+        <i class="fas fa-fw fa-times"></i>
+      </button>
+
+      <audio data-target="player.audio" class="d-none"></audio>
+    </div>
+  </div>
+</div>

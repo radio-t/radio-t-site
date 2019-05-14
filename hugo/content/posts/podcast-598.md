@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 598"
 date = "2018-05-19T18:10:50"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt598.jpg"
 filename = "rt_podcast598"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt598.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast598"
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Adamant](https://adamant.im/?utm_source=radiot&utm_medium=website&utm_campaign=messenger)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast598.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-598.html)
+[аудио](http://cdn.radio-t.com/rt_podcast598.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-598.html)
 <audio src="http://cdn.radio-t.com/rt_podcast598.mp3" preload="none"></audio>

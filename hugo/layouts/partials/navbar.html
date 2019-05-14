@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" data-controller="navbar" data-turbolinks-permanent id="navbar">
+  <div class="container-fluid">
+    <button class="navbar-toggler btn btn-outline-secondary" type="button" data-action="navbar#toggle">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/"><span class="sr-only">Радио-Т Подкаст</span></a>
+    <div class="navbar-toolbar order-lg-12">
+      <label
+        type="button"
+        for="page-search-input"
+        class="icon-btn navbar-btn-search btn btn-outline-secondary m-0"
+        data-action="click->search#toggle"
+      >
+        <i class="fas fa-search"></i>
+        <span class="d-none d-lg-inline-block">Поиск</span>
+      </label>
+      <button
+        type="button"
+        class="icon-btn navbar-btn-sidebar-toggle btn btn-outline-secondary ml-lg-2 page-sidebar-toggle"
+        data-action="sidebar#toggle"
+      >
+        <i class="far fa-comments"></i>
+      </button>
+    </div>
+    <div class="navbar-collapse" data-target="navbar.backdrop navbar.scroll" data-action="click->navbar#closeFromBackdrop">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/" no-active>Подкасты</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about/">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/archives/">Архивы</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/online/">Вещание</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/feeds/">Подписка</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/faq/">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/advertising/">Реклама</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

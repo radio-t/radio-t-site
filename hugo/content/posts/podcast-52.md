@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 52"
 date = "2007-09-17T06:48:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast52"
-+++
 
++++
 
 - Праздничное выступление
 - Еще одна радость недели

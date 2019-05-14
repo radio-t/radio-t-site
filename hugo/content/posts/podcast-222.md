@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 222"
 date = "2011-01-16T05:43:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast222"
+image = "https://radio-t.com/images/radio-t/rt222.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt222.png)
@@ -16,7 +18,7 @@ filename = "rt_podcast222"
 - Apple Store против [GPL](http://www.opennet.ru/opennews/art.shtml?num=29231)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-222/) наших слушателей
 
-* _спонсор выпуска - _[_megaplan.ru_](http://megaplan.ru/)
+* _спонсор выпуска — _[_megaplan.ru_](http://megaplan.ru/)
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast222.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast222.mp3.torrent)

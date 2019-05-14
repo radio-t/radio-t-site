@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 475"
 date = "2015-12-19T16:39:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt475.jpg"
 filename = "rt_podcast475"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt475.jpg)
@@ -21,5 +22,5 @@ filename = "rt_podcast475"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast475.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-475.html)
+[аудио](http://cdn.radio-t.com/rt_podcast475.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-475.html)
 <audio src="http://cdn.radio-t.com/rt_podcast475.mp3" preload="none"></audio>

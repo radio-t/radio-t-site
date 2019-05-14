@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 541"
 date = "2017-04-15T19:10:11"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt541.jpg"
 filename = "rt_podcast541"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt541.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast541"
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Java-конференция JPoint](http://bit.ly/jpoint-radiot-2017)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast541.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-541.html)
+[аудио](http://cdn.radio-t.com/rt_podcast541.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-541.html)
 <audio src="http://cdn.radio-t.com/rt_podcast541.mp3" preload="none"></audio>

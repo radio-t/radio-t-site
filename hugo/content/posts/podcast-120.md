@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 120"
 date = "2009-01-18T09:31:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast120"
+image = "https://radio-t.com/images/radio-t/rt120.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt120.jpg)
-
 
 - [Страшилки недели](http://webplanet.ru/news/security/2009/01/16/conficker_botnet.html)
 - Гугл закрывает ненужное

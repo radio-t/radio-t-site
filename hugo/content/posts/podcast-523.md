@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 523"
 date = "2016-11-26T16:58:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt523.jpg"
 filename = "rt_podcast523"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt523.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast523"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast523.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-523.html)
+[аудио](http://cdn.radio-t.com/rt_podcast523.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-523.html)
 <audio src="http://cdn.radio-t.com/rt_podcast523.mp3" preload="none"></audio>

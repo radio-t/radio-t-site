@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 406"
 date = "2014-08-23T17:11:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt406.jpg"
 filename = "rt_podcast406"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt406.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast406"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast406.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-406.html)
+[аудио](http://cdn.radio-t.com/rt_podcast406.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-406.html)
 <audio src="http://cdn.radio-t.com/rt_podcast406.mp3" preload="none"></audio>

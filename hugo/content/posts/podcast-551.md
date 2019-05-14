@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 551"
 date = "2017-06-24T18:36:49"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt551.jpg"
 filename = "rt_podcast551"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt551.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast551"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast551.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-551.html)
+[аудио](http://cdn.radio-t.com/rt_podcast551.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-551.html)
 <audio src="http://cdn.radio-t.com/rt_podcast551.mp3" preload="none"></audio>

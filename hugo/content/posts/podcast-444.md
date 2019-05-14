@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 444"
 date = "2015-05-16T17:56:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt444.jpg"
 filename = "rt_podcast444"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt444.jpg)
@@ -22,5 +23,5 @@ filename = "rt_podcast444"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast444.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-444.html)
+[аудио](http://cdn.radio-t.com/rt_podcast444.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-444.html)
 <audio src="http://cdn.radio-t.com/rt_podcast444.mp3" preload="none"></audio>

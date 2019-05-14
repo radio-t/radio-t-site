@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 13"
 date = "2006-12-05T04:53:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast13"
-+++
 
++++
 
 - О закрытии AllofMP3
 - Tablet Mac и прочие вокруг

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 434"
 date = "2015-03-07T16:42:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt434.jpg"
 filename = "rt_podcast434"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt434.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast434"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast434.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-434.html)
+[аудио](http://cdn.radio-t.com/rt_podcast434.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-434.html)
 <audio src="http://cdn.radio-t.com/rt_podcast434.mp3" preload="none"></audio>

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 407"
 date = "2014-08-30T17:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt407.jpg"
 filename = "rt_podcast407"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt407.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast407"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast407.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-407.html)
+[аудио](http://cdn.radio-t.com/rt_podcast407.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-407.html)
 <audio src="http://cdn.radio-t.com/rt_podcast407.mp3" preload="none"></audio>

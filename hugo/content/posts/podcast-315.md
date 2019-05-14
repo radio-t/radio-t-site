@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 315"
 date = "2012-11-17T16:07:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast315"
+image = "https://radio-t.com/images/radio-t/rt315.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt315.jpg)
@@ -19,4 +21,4 @@ filename = "rt_podcast315"
 * [Google Maps iOS](http://www.digitaltrends.com/mobile/google-maps-for-ios-in-final-testing-phase/) скоро тут
 * [Google + Dish Network](http://www.theverge.com/2012/11/16/3653702/google-dish-network-wireless-service) = ?
 
-[аудио](http://cdn.radio-t.com/rt_podcast315.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast315.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-315.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_315)<audio src="http://cdn.radio-t.com/rt_podcast315.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast315.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast315.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-315.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_315)<audio src="http://cdn.radio-t.com/rt_podcast315.mp3" preload="none"></audio>

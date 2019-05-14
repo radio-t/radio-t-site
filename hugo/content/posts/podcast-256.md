@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 256"
 date = "2011-09-25T02:19:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast256"
+image = "https://radio-t.com/images/radio-t/rt256.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt256.png)
-
 
 - Поздравляем [Яндекс](http://company.yandex.ru/about/history/), но ехидно
 - Google добил [G+ до 100](http://habrahabr.ru/blogs/google/128821/)
@@ -18,4 +19,4 @@ filename = "rt_podcast256"
 - Когда надо переписать [все](http://www.javacodegeeks.com/2011/09/dont-rewrite-your-application.html)
 - Темы наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast256.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast256.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-256.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast256.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast256.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast256.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-256.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast256.mp3" preload="none"></audio>

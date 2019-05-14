@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 421"
 date = "2014-12-06T17:50:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt421.jpg"
 filename = "rt_podcast421"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt421.jpg)
@@ -23,5 +24,5 @@ filename = "rt_podcast421"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast421.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-421.html)
+[аудио](http://cdn.radio-t.com/rt_podcast421.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-421.html)
 <audio src="http://cdn.radio-t.com/rt_podcast421.mp3" preload="none"></audio>

@@ -1,19 +1,72 @@
-<article>
-  <header>
-    <h1 class="entry-title">
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </h1>
-
-    <p class="meta">
-      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" pubdate data-updated="true">
-        {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
-      </time>
-      |
-      <a href="{{ .Permalink }}#remark42"><span class="remark42__counter" data-url="{{ .Permalink }}"></span> comments</a>
-    </p>
-  </header>
-
-  <div class="entry-content">
-    {{ .Content }}
-  </div>
+<article class="posts-list-item {{ delimit (apply .Params.categories "printf" "posts-list-item-category-%s" ".") " " }}">
+  {{ if in .Params.categories "podcast" }}
+    <div class="container-fluid">
+      <div class="posts-list-item-inner py-5">
+        <div
+          class="row post-podcast"
+          data-controller="podcast"
+          data-target="page.playerStateReceiver"
+          data-action="player-state->podcast#fetchPlayingState"
+          data-podcast-url="{{ .RelPermalink }}"
+        >
+          <div class="col-5 col-md-2 d-flex flex-column justify-content-between">
+            <div>
+              <h2 class="number-title"><a href="{{ .RelPermalink }}">{{ partial "number-title" . }}</a></h2>
+              {{ partial "comments-counter" .RelPermalink }}
+              <div class="post-time">{{ partial "post-time" . }}</div>
+            </div>
+            <div class="d-none d-md-block">{{ partial "share" }}</div>
+          </div>
+          <div class="col col-md-4 order-md-3">{{ partial "podcast-cover" . }}</div>
+          <div class="post-podcast-content text-content col-md-6 no-js" data-controller="podcast-content">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  {{ else if in .Params.categories "prep" }}
+    <div class="overflow-hidden">
+      <div class="container-fluid">
+        <div class="posts-list-item-inner py-5">
+          <div class="row align-items-baseline">
+            <div class="col col-md-2 flex-grow-0 text-nowrap">
+              <h2 class="number-title">
+                <a class="text-muted" href="{{ .RelPermalink }}">{{ partial "number-title" . }}</a>
+              </h2>
+              <p class="post-time m-0 text-muted">{{ partial "post-time" . }}</p>
+            </div>
+            <div class="col col-md d-flex flex-column">
+              {{ partial "comments-counter" .RelPermalink }}
+              <a href="{{ .RelPermalink }}">
+                <div class="comments-counter-avatars" data-controller="avatars" data-avatars-url="{{ .RelPermalink }}"></div>
+              </a>
+              <div class="mt-auto">
+                <a href="{{ .RelPermalink }}" class="btn btn-primary btn-scale btn-sm btn-suggest-topic d-none">
+                  Предложить тему &rarr;
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{ else }}
+    <div class="container-fluid">
+      <div class="posts-list-item-inner py-5">
+        <div class="row align-items-baseline">
+          <div class="col-md-8 offset-md-2">
+            <h2 class="display-4 mb-md-4"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-md-2">
+            {{ partial "comments-counter" .RelPermalink }}
+            <div class="post-time">{{ partial "post-time" . }}</div>
+          </div>
+          <div class="text-content col-md-8" data-controller="highlight">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  {{ end }}
 </article>

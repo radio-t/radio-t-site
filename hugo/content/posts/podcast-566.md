@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 566"
 date = "2017-10-07T19:22:46"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt566.jpg"
 filename = "rt_podcast566"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt566.jpg)
@@ -15,5 +16,5 @@ filename = "rt_podcast566"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast566.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-566.html)
+[аудио](http://cdn.radio-t.com/rt_podcast566.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-566.html)
 <audio src="http://cdn.radio-t.com/rt_podcast566.mp3" preload="none"></audio>

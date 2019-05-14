@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 458"
 date = "2015-08-22T17:41:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt458.jpg"
 filename = "rt_podcast458"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt458.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast458"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast458.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-458.html)
+[аудио](http://cdn.radio-t.com/rt_podcast458.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-458.html)
 <audio src="http://cdn.radio-t.com/rt_podcast458.mp3" preload="none"></audio>

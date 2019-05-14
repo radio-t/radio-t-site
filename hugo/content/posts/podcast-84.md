@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 84"
 date = "2008-05-04T09:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast84"
-+++
 
++++
 
 - Защита данных в коробке
 - Ищем с затеями, но плохо

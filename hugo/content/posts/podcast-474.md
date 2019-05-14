@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 474"
 date = "2015-12-12T16:41:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt474.jpg"
 filename = "rt_podcast474"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt474.jpg)
@@ -22,5 +23,5 @@ filename = "rt_podcast474"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast474.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-474.html)
+[аудио](http://cdn.radio-t.com/rt_podcast474.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-474.html)
 <audio src="http://cdn.radio-t.com/rt_podcast474.mp3" preload="none"></audio>

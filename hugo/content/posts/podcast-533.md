@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 533"
 date = "2017-02-11T17:21:26"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt533.jpg"
 filename = "rt_podcast533"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt533.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast533"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast533.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-533.html)
+[аудио](http://cdn.radio-t.com/rt_podcast533.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-533.html)
 <audio src="http://cdn.radio-t.com/rt_podcast533.mp3" preload="none"></audio>

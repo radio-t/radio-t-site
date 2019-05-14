@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 577"
 date = "2017-12-23T18:11:26"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt577.jpg"
 filename = "rt_podcast577"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt577.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast577"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast577.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-577.html)
+[аудио](http://cdn.radio-t.com/rt_podcast577.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-577.html)
 <audio src="http://cdn.radio-t.com/rt_podcast577.mp3" preload="none"></audio>

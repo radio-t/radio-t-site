@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 253"
 date = "2011-09-04T01:46:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 filename = "rt_podcast253"
+image = "https://radio-t.com/images/radio-t/rt253.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt253.jpg)
-
 
 - У нас юбилей, УРА!
 - [James Gosling](http://venturebeat.com/2011/08/30/java-creator-james-gosling-joins-ocean-robot-maker-liquid-robotics/) уходит под воду. Очень жидко
@@ -20,4 +21,4 @@ filename = "rt_podcast253"
 - [Сертификатам](http://www.searchengines.ru/news/archives/attackers_stole.html) больше нет веры
 - [Темы](http://new.radio-t.com/2011/08/253.html) наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast253.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast253.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-253.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast253.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast253.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast253.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-253.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast253.mp3" preload="none"></audio>

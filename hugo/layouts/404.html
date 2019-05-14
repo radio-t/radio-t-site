@@ -1,12 +1,5 @@
-{{ partial "head.html" . }}
-
-<div>
-  <center>
-    <br/>
-    <img style="float:none; width:800px; height:auto;" src="/images/404-dog.jpg" />
-  </center>
-</div>
-
-{{ partial "sidebar.html" . }}
-
-{{ partial "foot.html" . }}
+{{ define "main" }}
+  <div class="text-center">
+    <img src="/images/404-dog.jpg" class="img-fluid"/>
+  </div>
+{{ end }}

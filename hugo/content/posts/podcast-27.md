@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 27"
 date = "2007-03-19T04:27:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast27"
-+++
 
++++
 
 - Гость в студии
 - О нас без лишней скромности, и по следам прошлых выступлений

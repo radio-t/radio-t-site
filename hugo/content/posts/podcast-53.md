@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 53"
 date = "2007-09-23T05:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast53"
-+++
 
++++
 
 - Линус о C++ и о программистах на этом языке
 - Свежая порция маковских слухов

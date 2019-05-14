@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 461"
 date = "2015-09-12T18:11:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt461.jpg"
 filename = "rt_podcast461"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt461.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast461"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Selectel](https://selectel.ru/services/vpc/)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast461.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-461.html)
+[аудио](http://cdn.radio-t.com/rt_podcast461.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-461.html)
 <audio src="http://cdn.radio-t.com/rt_podcast461.mp3" preload="none"></audio>

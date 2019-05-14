@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 422"
 date = "2014-12-13T17:24:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt422.jpg"
 filename = "rt_podcast422"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt422.jpg)
@@ -22,5 +23,5 @@ filename = "rt_podcast422"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast422.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-422.html)
+[аудио](http://cdn.radio-t.com/rt_podcast422.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-422.html)
 <audio src="http://cdn.radio-t.com/rt_podcast422.mp3" preload="none"></audio>

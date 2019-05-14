@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 452"
 date = "2015-07-11T18:27:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt452.jpg"
 filename = "rt_podcast452"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt452.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast452"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast452.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-452.html)
+[аудио](http://cdn.radio-t.com/rt_podcast452.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-452.html)
 <audio src="http://cdn.radio-t.com/rt_podcast452.mp3" preload="none"></audio>

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 594"
 date = "2018-04-21T17:59:40"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt594.jpg"
 filename = "rt_podcast594"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt594.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast594"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast594.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-594.html)
+[аудио](http://cdn.radio-t.com/rt_podcast594.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-594.html)
 <audio src="http://cdn.radio-t.com/rt_podcast594.mp3" preload="none"></audio>

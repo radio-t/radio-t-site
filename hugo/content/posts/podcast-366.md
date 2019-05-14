@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 366"
 date = "2013-11-16T16:48:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt366.jpg"
 filename = "rt_podcast366"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt366.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast366"
 
 _Спонсор этого выпуска [ledlamps.ru](http://ledlamps.ru)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast366.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-366.html)
+[аудио](http://cdn.radio-t.com/rt_podcast366.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-366.html)
 <audio src="http://cdn.radio-t.com/rt_podcast366.mp3" preload="none"></audio>

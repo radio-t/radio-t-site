@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 543"
 date = "2017-04-29T18:24:18"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt543.jpg"
 filename = "rt_podcast543"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt543.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast543"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](https://sprintbox.ru)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast543.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-543.html)
+[аудио](http://cdn.radio-t.com/rt_podcast543.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-543.html)
 <audio src="http://cdn.radio-t.com/rt_podcast543.mp3" preload="none"></audio>

@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 6"
 date = "2006-10-15T11:21:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast6"
-+++
 
++++
 
 - PayPal и в России и о гугловской платежной системе
 - Бизнес-модели эпохи .сom бума, v2.0

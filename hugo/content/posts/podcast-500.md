@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 500"
 date = "2016-06-18T17:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt500.jpg"
 filename = "rt_podcast500"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt500.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast500"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast500.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-500.html)
+[аудио](http://cdn.radio-t.com/rt_podcast500.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-500.html)
 <audio src="http://cdn.radio-t.com/rt_podcast500.mp3" preload="none"></audio>

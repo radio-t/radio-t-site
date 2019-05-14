@@ -1,12 +1,13 @@
 +++
 title = "Радио-T 40"
 date = "2007-06-17T10:00:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast40"
+image = "https://radio-t.com/images/radio-t/rt40.JPG"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt40.JPG)
-
 
 - WWDC 2007
 - DivX GejBox: еще один вариант AppleTV

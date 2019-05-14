@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 375"
 date = "2014-01-18T16:03:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt375.jpg"
 filename = "rt_podcast375"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt375.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast375"
 - Темы наших слушателей.
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast375.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-375.html)
+[аудио](http://cdn.radio-t.com/rt_podcast375.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-375.html)
 <audio src="http://cdn.radio-t.com/rt_podcast375.mp3" preload="none"></audio>

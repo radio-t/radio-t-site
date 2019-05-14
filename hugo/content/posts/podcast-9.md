@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 9"
 date = "2006-11-04T10:01:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast9"
-+++
 
++++
 
 - поговорим/поспорим о [гаджете](http://u10.iriver.com/html/en_us/itsu10.html)
 - Гугл приобретает wiki-фирму и увеличивает Gmail

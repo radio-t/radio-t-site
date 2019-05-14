@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 260"
 date = "2011-10-23T03:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast260"
+image = "https://radio-t.com/images/radio-t/rt260.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt260.png)
-
 
 - [Ubuntu ](http://habrahabr.ru/blogs/ubuntu/130841/)уже 7
 - [Juick ](http://juick.com/juick/1590719)еще 3 года
@@ -17,4 +18,4 @@ filename = "rt_podcast260"
 - [Fossil](http://www.fossil-scm.org/index.html/doc/trunk/www/qandc.wiki), что это?
 - Темы наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast260.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast260.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-260.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast260.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast260.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast260.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-260.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast260.mp3" preload="none"></audio>

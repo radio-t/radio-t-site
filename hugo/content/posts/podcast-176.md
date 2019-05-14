@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 176"
 date = "2010-02-28T05:08:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast176"
+image = "https://radio-t.com/images/radio-t/rt176.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt176.jpg)
-
 
 - 15 лет этому правильному [индейцу](http://www.opennet.ru/opennews/art.shtml?num=25540)
 - C++ отстой? Ну, не совсем и совсем нет

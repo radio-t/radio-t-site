@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 424"
 date = "2014-12-27T17:48:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt424.jpg"
 filename = "rt_podcast424"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt424.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast424"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [kato.im](https://kato.im), [Джинн](http://djinni.co) и [Waltr](http://softorino.com/waltr)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast424.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-424.html)
+[аудио](http://cdn.radio-t.com/rt_podcast424.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-424.html)
 <audio src="http://cdn.radio-t.com/rt_podcast424.mp3" preload="none"></audio>

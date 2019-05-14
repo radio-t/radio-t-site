@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 12"
 date = "2006-11-26T04:55:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast12"
-+++
 
++++
 
 - Резкое заявление Novell
 - Вся правда о цифровых камерах

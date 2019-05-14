@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 591"
 date = "2018-03-31T19:08:36"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt591.jpg"
 filename = "rt_podcast591"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt591.jpg)
@@ -22,5 +23,5 @@ filename = "rt_podcast591"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast591.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-591.html)
+[аудио](http://cdn.radio-t.com/rt_podcast591.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-591.html)
 <audio src="http://cdn.radio-t.com/rt_podcast591.mp3" preload="none"></audio>

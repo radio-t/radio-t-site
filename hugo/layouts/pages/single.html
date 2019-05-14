@@ -1,16 +1,22 @@
-{{ partial "head.html" . }}
-
-<div>
-  <article class="hentry" role="article">
-    <header>
-      <h1 class="entry-title">{{ .Title }}</h1>
-    </header>
-
-    {{ .Content }}
-
-  </article>
-</div>
-
-{{ partial "sidebar.html" . }}
-
-{{ partial "foot.html" . }}
+{{ define "main" }}
+  <div class="py-4 py-lg-6 {{ if .Params.image }}page-with-cover-image{{ end }}">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <h1 class="display-4 mb-md-4">{{ .Title }}</h1>
+        </div>
+        <div class="w-100"></div>
+        {{ if .Params.image }}
+          <div
+            class="page-cover-image"
+            style="background-image:url('{{ .Params.image }}');"
+          ></div>
+        {{ end }}
+        <div class="col-md-8 order-md-2" data-controller="highlight">
+          <div class="text-content">{{ .Content }}</div>
+        </div>
+        <div class="page-share col-md-2 order-md-1">{{ partial "share" }}</div>
+      </div>
+    </div>
+  </div>
+{{ end }}

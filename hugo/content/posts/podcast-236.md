@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 236"
 date = "2011-04-24T03:00:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast236"
+image = "https://radio-t.com/images/radio-t/rt236.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt236.jpg)
-
 
 - [Skynet ](http://www.readwriteweb.com/archives/skynet_has_gone_live_everything_is_fine.php)не так уж и страшен
 - Серьезное [падение ](http://habrahabr.ru/blogs/cloud_computing/118001/)амазона
@@ -23,4 +24,4 @@ filename = "rt_podcast236"
 - Большие цифры [гитхаба](https://github.com/blog/841-those-are-some-big-numbers)
 - [Темы ](http://new.radio-t.com/2011/04/236.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast236.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast236.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-236.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast236.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast236.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast236.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-236.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast236.mp3" preload="none"></audio>

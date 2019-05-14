@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 25"
 date = "2007-03-06T04:30:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast25"
-+++
 
++++
 
 - Fusion Beta 2 c 3D ускорителем
 - Sun даст денег FSF

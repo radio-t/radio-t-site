@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 451"
 date = "2015-07-04T18:15:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt451.jpg"
 filename = "rt_podcast451"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt451.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast451"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast451.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-451.html)
+[аудио](http://cdn.radio-t.com/rt_podcast451.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-451.html)
 <audio src="http://cdn.radio-t.com/rt_podcast451.mp3" preload="none"></audio>

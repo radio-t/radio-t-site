@@ -1,11 +1,13 @@
 +++
 title = "Радио-Т 454"
 date = "2015-07-26T00:58:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt454.jpg"
 filename = "rt_podcast454"
+
 +++
 
+![](https://radio-t.com/images/radio-t/rt454.jpg)
 
 * [Fire Phone год спустя](http://www.cnet.com/news/fire-phone-one-year-later-why-amazons-smartphone-flamed-out/).
 * [У Амазона всё хорошо с AWS](http://social.techcrunch.com/2015/07/23/amazons-aws-unit-reports-q2-revenue-of-1-8b-391m-profit/).
@@ -20,5 +22,5 @@ filename = "rt_podcast454"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast454.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-454.html)
+[аудио](http://cdn.radio-t.com/rt_podcast454.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-454.html)
 <audio src="http://cdn.radio-t.com/rt_podcast454.mp3" preload="none"></audio>

@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 91"
 date = "2008-06-22T07:42:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast91"
-+++
 
++++
 
 - Удовольствия и разочарования FF3
 - Subversion 1.5 наше все

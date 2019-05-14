@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 61"
 date = "2007-11-18T07:40:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast61"
-+++
 
++++
 
 - Андроид со всех сторон. За и против
 - Tumblr не прийдет на смену

@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 183"
 date = "2010-04-18T06:05:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast183"
+image = "https://radio-t.com/images/radio-t/rt183.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt183.jpg)
-
 
 - Гугл хакнули несмотря на [усилия](http://www.securitylab.ru/news/393027.php) по защите. Мнение эксперта
 - Новинки из мира ноутбуков [Apple](http://hitech.tomsk.ru/newsmobile/14805-apple-vypustila-novye-macbook-pro.html)

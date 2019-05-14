@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 37"
 date = "2007-05-26T23:27:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast37"
-+++
 
++++
 
 - Чего ищут женщины в IТ
 - Новый FF3

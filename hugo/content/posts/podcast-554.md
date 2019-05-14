@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 554"
 date = "2017-07-15T17:47:41"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt554.jpg"
 filename = "rt_podcast554"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt554.jpg)
@@ -22,5 +23,5 @@ filename = "rt_podcast554"
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Тинькофф](http://bit.ly/tinkoff-rt2)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast554.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-554.html)
+[аудио](http://cdn.radio-t.com/rt_podcast554.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-554.html)
 <audio src="http://cdn.radio-t.com/rt_podcast554.mp3" preload="none"></audio>

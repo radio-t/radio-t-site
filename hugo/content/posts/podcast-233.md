@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 233"
 date = "2011-04-03T02:25:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast233"
+image = "https://radio-t.com/images/radio-t/rt233.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt233.png)
-
 
 - HTTP 1.2 ответит на современные вызовы
 - Как bash, но только C++ с STL
@@ -19,6 +20,6 @@ filename = "rt_podcast233"
 - CI против брэнчевания
 - Проклятые .NET программисты
 - Темы наших слушателей
-_Спонсор выпуска – _[fastvps.ru](http://fastvps.ru/)
+_Спонсор выпуска — _[fastvps.ru](http://fastvps.ru/)
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast233.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast233.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-233.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast233.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast233.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast233.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-233.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast233.mp3" preload="none"></audio>

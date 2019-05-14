@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 272"
 date = "2012-01-15T02:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast272"
+image = "https://radio-t.com/images/radio-t/rt272.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt272.jpg)
@@ -18,4 +20,4 @@ filename = "rt_podcast272"
 - Лучше чем Apple?
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast272.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast272.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-272.html)<audio src="http://cdn.radio-t.com/rt_podcast272.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast272.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast272.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-272.html)<audio src="http://cdn.radio-t.com/rt_podcast272.mp3" preload="none"></audio>

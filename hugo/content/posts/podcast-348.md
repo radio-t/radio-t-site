@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 348"
 date = "2013-07-13T17:56:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt348.jpg"
 filename = "rt_podcast348"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt348.jpg)
@@ -18,4 +19,4 @@ filename = "rt_podcast348"
 
 _Спонсор этого выпуска [ROCK IT CON 2013](http://www.rockitcon.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast348.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-348.html) <audio src="http://cdn.radio-t.com/rt_podcast348.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast348.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-348.html) <audio src="http://cdn.radio-t.com/rt_podcast348.mp3" preload="none"></audio>

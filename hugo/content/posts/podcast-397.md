@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 397"
 date = "2014-06-21T16:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt397.jpg"
 filename = "rt_podcast397"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt397.jpg)
@@ -21,5 +22,5 @@ filename = "rt_podcast397"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast397.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-397.html)
+[аудио](http://cdn.radio-t.com/rt_podcast397.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-397.html)
 <audio src="http://cdn.radio-t.com/rt_podcast397.mp3" preload="none"></audio>

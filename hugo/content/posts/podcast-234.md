@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 234"
 date = "2011-04-10T01:53:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast234"
+image = "https://radio-t.com/images/radio-t/rt234.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt234.png)
-
 
 - Опять у [Linux ДР](http://www.readwriteweb.com/enterprise/2011/04/20-years-of-linux-infographic.php), но наливать рано
 - Нам не страшен MS или не обижайте [маленьких](http://habrahabr.ru/blogs/linux/116992/)
@@ -19,4 +20,4 @@ filename = "rt_podcast234"
 - Плоская [структура ](http://www.inc.com/magazine/20110401/jason-fried-why-i-run-a-flat-company.html)против дерева
 - [Темы ](http://new.radio-t.com/2011/04/234.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast234.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast234.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-234.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast234.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast234.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast234.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-234.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast234.mp3" preload="none"></audio>

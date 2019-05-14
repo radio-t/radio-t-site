@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 535"
 date = "2017-02-25T17:01:03"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt535.jpg"
 filename = "rt_podcast535"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt535.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast535"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast535.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-535.html)
+[аудио](http://cdn.radio-t.com/rt_podcast535.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-535.html)
 <audio src="http://cdn.radio-t.com/rt_podcast535.mp3" preload="none"></audio>

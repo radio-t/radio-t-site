@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 385"
 date = "2014-03-29T16:55:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt385.jpg"
 filename = "rt_podcast385"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt385.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast385"
 * [Сдвиг в частные облака](http://gigaom.com/2014/03/28/tectonic-shift-as-public-cloud-giants-acknowledge-the-power-of-private-deployment-options/).
 * [Amazon покажет тв-приставку](http://www.appletvhacks.net/2014/03/27/amazon-to-unveil-its-apple-tv-competitor-next-week/)
 
-[аудио](http://cdn.radio-t.com/rt_podcast385.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-385.html)
+[аудио](http://cdn.radio-t.com/rt_podcast385.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-385.html)
 <audio src="http://cdn.radio-t.com/rt_podcast385.mp3" preload="none"></audio>

@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 251"
 date = "2011-08-21T02:35:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast251"
+image = "https://radio-t.com/images/radio-t/rt251.gif"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt251.gif)
@@ -18,6 +20,6 @@ filename = "rt_podcast251"
 - Evernote купил себе [странного](http://blog.evernote.com/2011/08/18/evernote-acquires-skitch-evernote_etc/)
 - [Темы](http://new.radio-t.com/2011/08/251.html) наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast251.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast251.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-251.html)
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast251.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast251.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-251.html)
 
 _upd: в связи с невиданной популярностью этого выпуска, [залил подкаст на libsyn](http://traffic.libsyn.com/umputun/rt_podcast251.mp3)_<audio src="http://traffic.libsyn.com/umputun/rt_podcast251.mp3" preload="none"></audio>

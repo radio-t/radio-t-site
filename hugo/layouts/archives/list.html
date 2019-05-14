@@ -1,36 +1,53 @@
-{{ partial "head.html" . }}
+{{ define "main" }}
 
-<div>
-  <article role="article">
-    <header>
-      <h1 class="entry-title">Архивы</h1>
-    </header>
+  <div class="py-4 py-lg-6">
+    <h1 class="container-fluid display-4">Архивы</h1>
 
-    <div id="blog-archives">
+    <div class="blog-archives" data-controller="archives" noprefetch>
+      {{ $archives := newScratch }}
       {{ range .Site.Pages.GroupByDate "2006" }}
-        {{ $k := .Key }}
-
-        {{ $.Scratch.Add $k 0 }}
+        {{ $year := .Key }}
+        {{ $pages := .Pages }}
+        {{ $.Scratch.Set "break" 0 }}
         {{ range .Pages }}
-          {{ if eq .Type "posts" }}
-            {{ $.Scratch.Add $k 1 }}
-          {{ end }}
-        {{ end }}
-
-        {{ if ($.Scratch.Get $k) "!=" 0 }}
-          <h2>{{ .Key }}</h2>
-
-          {{ range .Pages }}
-            {{ if eq .Type "posts" }}
-                {{ .Render "archive_li" }}
+          {{ if eq ($.Scratch.Get "break") 0 }}
+            {{ if and (eq .Type "posts") (eq .Kind "page") }}
+              {{ $archives.Add "years" (slice (dict "year" $year "pages" $pages)) }}
+              {{ $.Scratch.Set "break" 1 }}
             {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}
+
+      <div class="nav-blog-archives">
+        <div class="container-fluid">
+          <nav class="nav nav-underline">
+            {{ range $archives.Get "years" }}
+              <a class="nav-link" href="#year-{{ .year }}" data-turbolinks="false">
+                <div class="nav-blog-archives-year">{{ .year }}</div>
+                <div class="nav-blog-archives-range" data-target="archives.range">&nbsp;</div>
+              </a>
+            {{ end }}
+          </nav>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        {{ range $archives.Get "years" }}
+          <div class="blog-archives-year">
+            <a class="blog-archives-year-anchor" name="year-{{ .year }}" id="year-{{ .year }}">{{ .year }}</a>
+            <h2 class="blog-archives-year-title">{{ .year }}</h2>
+            <div class="blog-archives-year-list row" data-target="archives.list">
+              {{ range .pages }}
+                {{ if and (eq .Type "posts") (eq .Kind "page") }}
+                  {{ .Render "archive_li" }}
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
     </div>
-  </article>
-</div>
+  </div>
 
-{{ partial "sidebar.html" . }}
-
-{{ partial "foot.html" . }}
+{{ end }}

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 586"
 date = "2018-02-24T17:48:25"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt586.jpg"
 filename = "rt_podcast586"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt586.jpg)
@@ -22,5 +23,5 @@ filename = "rt_podcast586"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast586.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-586.html)
+[аудио](http://cdn.radio-t.com/rt_podcast586.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-586.html)
 <audio src="http://cdn.radio-t.com/rt_podcast586.mp3" preload="none"></audio>

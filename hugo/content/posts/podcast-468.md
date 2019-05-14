@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 468"
 date = "2015-10-31T17:57:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt468.jpg"
 filename = "rt_podcast468"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt468.jpg)
@@ -21,5 +22,5 @@ filename = "rt_podcast468"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast468.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-468.html)
+[аудио](http://cdn.radio-t.com/rt_podcast468.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-468.html)
 <audio src="http://cdn.radio-t.com/rt_podcast468.mp3" preload="none"></audio>

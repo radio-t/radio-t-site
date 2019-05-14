@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 244"
 date = "2011-06-26T02:15:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast244"
+image = "https://radio-t.com/images/radio-t/rt244.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt244.png)
@@ -18,4 +20,4 @@ filename = "rt_podcast244"
 - Как гнусные люди утянули [сервер](http://blog.instapaper.com/post/6830514157)
 - [Темы ](http://new.radio-t.com/2011/06/242_22.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast244.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast244.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-244.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast244.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast244.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast244.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-244.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast244.mp3" preload="none"></audio>

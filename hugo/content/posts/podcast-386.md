@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 386"
 date = "2014-04-05T17:06:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt386.jpg"
 filename = "rt_podcast386"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt386.jpg)
@@ -17,5 +18,5 @@ filename = "rt_podcast386"
 
 _Спонсор этого выпуска [webzilla](http://radio-t.files.webzilla.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast386.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-386.html)
+[аудио](http://cdn.radio-t.com/rt_podcast386.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-386.html)
 <audio src="http://cdn.radio-t.com/rt_podcast386.mp3" preload="none"></audio>

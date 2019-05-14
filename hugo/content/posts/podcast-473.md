@@ -1,14 +1,15 @@
 +++
 title = "Радио-Т 473"
 date = "2015-12-05T16:48:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt473.jpg"
 filename = "rt_podcast473"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt473.jpg)
 
-- [Let's Encrypt – SSL для всех, но не для каждого](http://boingboing.net/2015/12/03/lets-encrypt-enters-public-b.html).
+- [Let's Encrypt — SSL для всех, но не для каждого](http://boingboing.net/2015/12/03/lets-encrypt-enters-public-b.html).
 - [IPFS](http://ipfs.io/).
 - [Swift теперь OpenSOurce продукт](https://swift.org/blog/welcome/).
 - [За и против ORM](http://martinfowler.com/bliki/OrmHate.html).
@@ -23,5 +24,5 @@ filename = "rt_podcast473"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast473.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-473.html)
+[аудио](http://cdn.radio-t.com/rt_podcast473.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-473.html)
 <audio src="http://cdn.radio-t.com/rt_podcast473.mp3" preload="none"></audio>

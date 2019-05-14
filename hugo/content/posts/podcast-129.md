@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 129"
 date = "2009-03-22T09:06:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast129"
+image = "https://radio-t.com/images/radio-t/rt129.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt129.png)
-
 
 - Sun на [продажу](http://www.linux.org.ru/view-message.jsp?msgid=3571479), в очередной раз
 - IE8 [вышел](http://hitech.tomsk.ru/newssoftware/12045-finalnaja-versi-internet-explorer-8-oficialno.html) тихо

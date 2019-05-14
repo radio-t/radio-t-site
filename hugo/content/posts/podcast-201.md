@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 201"
 date = "2010-08-22T07:49:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast201"
+image = "https://radio-t.com/images/radio-t/rt201.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt201.png)
@@ -15,7 +17,7 @@ filename = "rt_podcast201"
 - Вероятностный [процессор](http://habrahabr.ru/blogs/hardware/102152/)
 - Ошибки строителей [API](http://www.readwriteweb.com/cloud/2010/08/the-new-api-movement-may.php?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+readwriteweb+%28ReadWriteWeb%29)
 
-**_Спонсор этого выпуска – _[_fastvps.ru_](http://fastvps.ru/) **
+**_Спонсор этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) **
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast201.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast201.mp3.torrent)

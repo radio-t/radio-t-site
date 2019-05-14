@@ -7,11 +7,11 @@
 
 Базовый URL `https://radio-t.com/site-api`
 
-- `GET /last/{posts}?categories=podcast,prep` - взять последних `{posts}` в определенных категориях. Категории опциональны
+- `GET /last/{posts}?categories=podcast,prep` — взять последних `{posts}` в определенных категориях. Категории опциональны
 
     пример: `https://radio-t.com/site-api/last/5?categories=podcast` вернет 5 самых свежих подкастов
     
-- `GET /search?q=text-to-search&skip=10&limit=5` - поискать по слову в описании подкаста, `skip` и `limit` опциональны
+- `GET /search?q=text-to-search&skip=10&limit=5` — поискать по слову в описании подкаста, `skip` и `limit` опциональны
     
     пример: `https://radio-t.com/site-api/search?q=mongo&limit=10` вернет до 10 самых свежих подкастов в описании которых есть слово "mongo"
 
@@ -38,7 +38,7 @@ type TimeLabel struct {
 }
 ```
 
-- `GET /podcast/{num}` - вернуть информацию о подкасте с заданным номером, возвращает JSON `Entry` 
+- `GET /podcast/{num}` — вернуть информацию о подкасте с заданным номером, возвращает JSON `Entry` 
 
     пример: `https://radio-t.com/site-api/podcast/223` 
 
@@ -47,13 +47,13 @@ type TimeLabel struct {
 
 Базовый URL `https://news.radio-t.com/api/v1/`
 
-- `GET /news/active/last/{hrs}` - взять темы активированные в последние `{hrs}` часов. Возвращает массив `Article`
-- `GET /news/last/{count}` - возвращает последние добавленные темы
-- `GET /news/slug/{slug}` - тема по slug
-- `GET /news/domain/#domain` – темы для домена
-- `GET /news/active` - возвращет активную, в этот момент, тему
-- `GET /news/rss/{count}` – RSS с последнними `{count}` темами
-- `GET /show/start` – время начала подкаста
+- `GET /news/active/last/{hrs}` — взять темы активированные в последние `{hrs}` часов. Возвращает массив `Article`
+- `GET /news/last/{count}` — возвращает последние добавленные темы
+- `GET /news/slug/{slug}` — тема по slug
+- `GET /news/domain/#domain` — темы для домена
+- `GET /news/active` — возвращет активную, в этот момент, тему
+- `GET /news/rss/{count}` — RSS с последнними `{count}` темами
+- `GET /show/start` — время начала подкаста
 
 
 ```go

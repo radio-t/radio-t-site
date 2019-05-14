@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 437"
 date = "2015-03-28T17:50:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt437.jpg"
 filename = "rt_podcast437"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt437.jpg)
@@ -24,5 +25,5 @@ filename = "rt_podcast437"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast437.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-437.html)
+[аудио](http://cdn.radio-t.com/rt_podcast437.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-437.html)
 <audio src="http://cdn.radio-t.com/rt_podcast437.mp3" preload="none"></audio>

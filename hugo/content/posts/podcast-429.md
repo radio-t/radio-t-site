@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 429"
 date = "2015-01-31T17:18:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt429.jpg"
 filename = "rt_podcast429"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt429.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast429"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast429.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-429.html)
+[аудио](http://cdn.radio-t.com/rt_podcast429.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-429.html)
 <audio src="http://cdn.radio-t.com/rt_podcast429.mp3" preload="none"></audio>

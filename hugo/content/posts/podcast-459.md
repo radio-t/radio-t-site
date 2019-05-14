@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 459"
 date = "2015-08-29T18:09:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt459.jpg"
 filename = "rt_podcast459"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt459.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast459"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast459.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-459.html)
+[аудио](http://cdn.radio-t.com/rt_podcast459.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-459.html)
 <audio src="http://cdn.radio-t.com/rt_podcast459.mp3" preload="none"></audio>

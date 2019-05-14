@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 101"
 date = "2008-08-31T09:25:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast101"
+image = "https://radio-t.com/images/radio-t/rt101.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt101.jpg)
-
 
 - День свободы ПО
 - Что Kindle 2.0 нам готовит

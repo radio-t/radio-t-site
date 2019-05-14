@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 466"
 date = "2015-10-17T18:08:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt466.jpg"
 filename = "rt_podcast466"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt466.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast466"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast466.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-466.html)
+[аудио](http://cdn.radio-t.com/rt_podcast466.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-466.html)
 <audio src="http://cdn.radio-t.com/rt_podcast466.mp3" preload="none"></audio>

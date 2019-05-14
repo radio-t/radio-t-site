@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 333"
 date = "2013-03-23T18:36:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt333.jpg"
 filename = "rt_podcast333"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt333.jpg)
@@ -20,4 +21,4 @@ filename = "rt_podcast333"
 * [HipChat для 5](http://blog.hipchat.com/2013/03/21/hipchat-now-free-for-teams-of-5-users-or-fewer/) бесплатно.
 * [Playhaven гики](http://venturebeat.com/2013/03/20/playhaven-developer-fired-for-making-sexual-jokes-after-sendgrids-developer-evangelist-outs-hi) слишком много говорят.
 
-[аудио](http://cdn.radio-t.com/rt_podcast333.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast333.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-333.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_333) ● [playchat](http://playchat.radio-t.com/?vol=333)<audio src="http://cdn.radio-t.com/rt_podcast333.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast333.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast333.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-333.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_333) • [playchat](http://playchat.radio-t.com/?vol=333)<audio src="http://cdn.radio-t.com/rt_podcast333.mp3" preload="none"></audio>

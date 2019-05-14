@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 54"
 date = "2007-09-30T06:28:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast54"
-+++
 
++++
 
 - iPocalypse наступил
 - Гламурный прибор от Palm

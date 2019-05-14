@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 506"
 date = "2016-07-30T23:21:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt506.jpg"
 filename = "rt_podcast506"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt506.jpg)
@@ -15,5 +16,5 @@ filename = "rt_podcast506"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast506.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-506.html)
+[аудио](http://cdn.radio-t.com/rt_podcast506.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-506.html)
 <audio src="http://cdn.radio-t.com/rt_podcast506.mp3" preload="none"></audio>

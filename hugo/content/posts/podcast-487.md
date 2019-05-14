@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 487"
 date = "2016-03-12T18:04:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt487.jpg"
 filename = "rt_podcast487"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt487.jpg)
@@ -23,5 +24,5 @@ filename = "rt_podcast487"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast487.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-487.html)
+[аудио](http://cdn.radio-t.com/rt_podcast487.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-487.html)
 <audio src="http://cdn.radio-t.com/rt_podcast487.mp3" preload="none"></audio>

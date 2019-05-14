@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 559"
 date = "2017-08-19T18:43:12"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt559.jpg"
 filename = "rt_podcast559"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt559.jpg)
@@ -14,12 +15,12 @@ filename = "rt_podcast559"
 - [Newton для email](https://www.engadget.com/2017/08/17/newton-email-app-windows-launch/) - *00:36:04*.
 - [Firefox Focus](https://blog.mozilla.org/firefox/lightweight-browser-focus-does-less-which-is-much-more/) - *00:53:14*.
 - [Следущий Apple Watch](http://mashable.com/2017/08/14/apple-watch-3-must-have/) - *00:58:55*.
-- [AWS Glue – ETL Service](https://aws.amazon.com/glue/) - *01:15:21*.
+- [AWS Glue — ETL Service](https://aws.amazon.com/glue/) - *01:15:21*.
 - [MongoDB готовится к IPO](https://techcrunch.com/2017/08/15/database-provider-mongodb-has-filed-confidentially-for-ipo/) - *01:27:09*.
 - [AWS запускает Macie с ML/AI](http://www.zdnet.com/article/aws-launches-data-security-service-called-macie-with-machine-learning/) - *01:31:26*.
 - Темы наших слушателей
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast559.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-559.html)
+[аудио](http://cdn.radio-t.com/rt_podcast559.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-559.html)
 <audio src="http://cdn.radio-t.com/rt_podcast559.mp3" preload="none"></audio>

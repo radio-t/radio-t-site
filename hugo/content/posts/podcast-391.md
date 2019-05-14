@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 391"
 date = "2014-05-10T17:50:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt391.jpg"
 filename = "rt_podcast391"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt391.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast391"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Teamlab Office](https://personal.teamlab.com/)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast391.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-391.html)
+[аудио](http://cdn.radio-t.com/rt_podcast391.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-391.html)
 <audio src="http://cdn.radio-t.com/rt_podcast391.mp3" preload="none"></audio>

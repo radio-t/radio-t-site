@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 394"
 date = "2014-05-31T17:25:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt394.jpg"
 filename = "rt_podcast394"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt394.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast394"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast394.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-394.html)
+[аудио](http://cdn.radio-t.com/rt_podcast394.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-394.html)
 <audio src="http://cdn.radio-t.com/rt_podcast394.mp3" preload="none"></audio>

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 528"
 date = "2017-01-07T17:04:24"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt528.jpg"
 filename = "rt_podcast528"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt528.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast528"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast528.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-528.html)
+[аудио](http://cdn.radio-t.com/rt_podcast528.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-528.html)
 <audio src="http://cdn.radio-t.com/rt_podcast528.mp3" preload="none"></audio>

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 492"
 date = "2016-04-23T18:59:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt492.jpg"
 filename = "rt_podcast492"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt492.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast492"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast492.mp3) ● [лог чата](https://gitter.im/umputun/radio-t/archives/2016/04/23)
+[аудио](http://cdn.radio-t.com/rt_podcast492.mp3) • [лог чата](https://gitter.im/umputun/radio-t/archives/2016/04/23)
 <audio src="http://cdn.radio-t.com/rt_podcast492.mp3" preload="none"></audio>

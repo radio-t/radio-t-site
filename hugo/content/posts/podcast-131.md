@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 131"
 date = "2009-04-05T06:33:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast131"
+image = "https://radio-t.com/images/radio-t/rt131.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt131.jpg)
-
 
 - IT [шуточки](http://www.opennet.ru/opennews/art.shtml?num=21040)
 - Праздник [Gmail](http://tech.slashdot.org/article.pl?sid=09/04/03/0652215&from=rss) не для всех

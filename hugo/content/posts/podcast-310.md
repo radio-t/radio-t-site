@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 310"
 date = "2012-10-13T18:31:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast310"
+image = "https://radio-t.com/images/radio-t/rt310.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt310.jpg)
@@ -16,4 +18,4 @@ filename = "rt_podcast310"
 * [Bitbucket — большое обновление](http://habrahabr.ru/post/154255/)
 * [Google Mod_Pagespeed](http://techcrunch.com/2012/10/10/googles-mod_pagespeed-is-now-out-of-beta-and-ready-to-make-your-sites-faster/) - хорошее дело
 
-[аудио](http://cdn.radio-t.com/rt_podcast310.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast310.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-310.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_310)<audio src="http://cdn.radio-t.com/rt_podcast310.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast310.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast310.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-310.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_310)<audio src="http://cdn.radio-t.com/rt_podcast310.mp3" preload="none"></audio>

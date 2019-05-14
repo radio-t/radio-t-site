@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 140"
 date = "2009-06-14T08:00:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast140"
+image = "https://radio-t.com/images/radio-t/rt140.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt140.jpg)
-
 
 - Выход блестящей версии [Fedora 11](http://www.engadget.com/2009/06/09/fedora-11-packs-a-next-gen-file-system-faster-boot-times-all-t/)
 - Праздник файловых систем нового [2.6.30](http://www.linux.org.ru/view-message.jsp?msgid=3775397)

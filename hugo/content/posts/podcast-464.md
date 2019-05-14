@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 464"
 date = "2015-10-03T18:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt464.jpg"
 filename = "rt_podcast464"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt464.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast464"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast464.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-464.html)
+[аудио](http://cdn.radio-t.com/rt_podcast464.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-464.html)
 <audio src="http://cdn.radio-t.com/rt_podcast464.mp3" preload="none"></audio>

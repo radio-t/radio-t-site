@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 447"
 date = "2015-06-06T18:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt447.jpg"
 filename = "rt_podcast447"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt447.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast447"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast447.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-447.html)
+[аудио](http://cdn.radio-t.com/rt_podcast447.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-447.html)
 <audio src="http://cdn.radio-t.com/rt_podcast447.mp3" preload="none"></audio>

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 529"
 date = "2017-01-14T16:32:17"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt529.jpg"
 filename = "rt_podcast529"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt529.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast529"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast529.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-529.html)
+[аудио](http://cdn.radio-t.com/rt_podcast529.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-529.html)
 <audio src="http://cdn.radio-t.com/rt_podcast529.mp3" preload="none"></audio>

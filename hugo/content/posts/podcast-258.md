@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 258"
 date = "2011-10-09T02:03:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast258"
+image = "https://radio-t.com/images/radio-t/rt258.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt258.png)
-
 
 - Серия новинок от [Amazon](http://www.amazon.com/gp/product/B0051QVESA/ref=famstripe_k)
 - Kindle [Fire ](http://www.engadget.com/2011/09/28/amazon-kindle-fire-impressions/)всем хорош
@@ -20,4 +21,4 @@ filename = "rt_podcast258"
 - [Google ](http://habrahabr.ru/blogs/Dura_Lex/129139/)придется заплатить
 
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast258.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast258.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-258.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast258.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast258.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast258.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-258.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast258.mp3" preload="none"></audio>

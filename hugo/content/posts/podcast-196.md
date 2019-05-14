@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 196"
 date = "2010-07-18T05:40:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast196"
+image = "https://radio-t.com/images/radio-t/rt196.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt196.jpg)
@@ -15,7 +17,7 @@ filename = "rt_podcast196"
 - [Рейтинги](http://www.switched.com/2010/07/15/laptop-grades-tech-support-of-leading-brands-confirms-our-suspi/) служб поддержки
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-196/) наших слушателей
 
-**_Спонсоры этого выпуска – _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
+**_Спонсоры этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast196.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast196.mp3.torrent)

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 351"
 date = "2013-08-03T17:54:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt351.jpg"
 filename = "rt_podcast351"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt351.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast351"
 
 _Спонсор этого выпуска [ROCK IT CON 2013](http://www.rockitcon.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast351.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-351.html)
+[аудио](http://cdn.radio-t.com/rt_podcast351.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-351.html)
 <audio src="http://cdn.radio-t.com/rt_podcast351.mp3" preload="none"></audio>

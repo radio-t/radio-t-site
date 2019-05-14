@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 547"
 date = "2017-05-27T18:16:17"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt547.jpg"
 filename = "rt_podcast547"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt547.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast547"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](http://bit.ly/2qfc9W8)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast547.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-547.html)
+[аудио](http://cdn.radio-t.com/rt_podcast547.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-547.html)
 <audio src="http://cdn.radio-t.com/rt_podcast547.mp3" preload="none"></audio>

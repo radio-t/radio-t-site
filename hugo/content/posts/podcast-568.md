@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 568"
 date = "2017-10-21T18:45:28"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt568.jpg"
 filename = "rt_podcast568"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt568.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast568"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast568.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-568.html)
+[аудио](http://cdn.radio-t.com/rt_podcast568.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-568.html)
 <audio src="http://cdn.radio-t.com/rt_podcast568.mp3" preload="none"></audio>

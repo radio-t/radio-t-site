@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 507"
 date = "2016-08-06T17:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt507.jpg"
 filename = "rt_podcast507"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt507.jpg)
@@ -16,5 +17,5 @@ filename = "rt_podcast507"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast507.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-507.html)
+[аудио](http://cdn.radio-t.com/rt_podcast507.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-507.html)
 <audio src="http://cdn.radio-t.com/rt_podcast507.mp3" preload="none"></audio>

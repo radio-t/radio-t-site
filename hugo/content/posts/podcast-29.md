@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 29"
 date = "2007-04-01T05:24:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast29"
-+++
 
++++
 
 - Подкасту быть! Наступает супер-время
 - Обновлённый Google Notebook

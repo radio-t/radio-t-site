@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 154"
 date = "2009-09-20T06:59:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast154"
+image = "https://radio-t.com/images/radio-t/rt154.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt154.jpg)
-
 
 - где водятся все [перспективы](http://corp.cnews.ru/news/top/index.shtml?2009/09/18/362407)
 - [Linux ](http://www.securitylab.ru/news/385517.php)совсем взрослый

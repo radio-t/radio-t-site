@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 47"
 date = "2007-08-12T01:41:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast47"
-+++
 
++++
 
 - Главное событие IT недели
 - 3 неравноценно-интересных стартапа

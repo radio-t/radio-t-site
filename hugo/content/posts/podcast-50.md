@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 50"
 date = "2007-09-02T00:01:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast50"
-+++
 
++++
 
 - 802.11n наступает
 - Улучшения и украшения twitter

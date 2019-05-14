@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 542"
 date = "2017-04-22T18:56:30"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt542.jpg"
 filename = "rt_podcast542"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt542.jpg)
@@ -23,5 +24,5 @@ filename = "rt_podcast542"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast542.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-542.html)
+[аудио](http://cdn.radio-t.com/rt_podcast542.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-542.html)
 <audio src="http://cdn.radio-t.com/rt_podcast542.mp3" preload="none"></audio>

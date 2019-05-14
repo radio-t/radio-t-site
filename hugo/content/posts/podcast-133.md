@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 133"
 date = "2009-04-19T11:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast133"
+image = "https://radio-t.com/images/radio-t/rt133.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt133.jpg)
-
 
 - Без вины, но виноватые [пираты](http://blog.wired.com/27bstroke6/2009/04/pirateverdict.html)
 - [Гугл](http://www.techcrunch.com/2009/04/17/gmail-now-suggests-extra-recipients-for-group-emails/) знает кому послать и куда

@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 305"
 date = "2012-09-08T17:46:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast305"
+image = "https://radio-t.com/images/radio-t/rt305.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt305.jpg)
@@ -17,4 +19,4 @@ filename = "rt_podcast305"
 * [Tweet-stream](http://news.cnet.com/8301-1023_3-57507026-93/twitter-introduces-embeddable-tweet-stream-tool/) для веба
 * Пришло время [забыть пароли.](http://www.scientificamerican.com/article.cfm?id=computer-game-for-security)
 
-[аудио](http://cdn.radio-t.com/rt_podcast305.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast305.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-305.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_305)<audio src="http://cdn.radio-t.com/rt_podcast305.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast305.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast305.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-305.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_305)<audio src="http://cdn.radio-t.com/rt_podcast305.mp3" preload="none"></audio>

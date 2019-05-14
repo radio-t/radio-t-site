@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 599"
 date = "2018-05-26T18:11:11"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt599.jpg"
 filename = "rt_podcast599"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt599.jpg)
@@ -22,5 +23,5 @@ filename = "rt_podcast599"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast599.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-599.html)
+[аудио](http://cdn.radio-t.com/rt_podcast599.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-599.html)
 <audio src="http://cdn.radio-t.com/rt_podcast599.mp3" preload="none"></audio>

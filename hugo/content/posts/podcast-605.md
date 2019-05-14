@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 605"
 date = "2018-07-07T18:29:09"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt605.jpg"
 filename = "rt_podcast605"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt605.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast605"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast605.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-605.html)
+[аудио](http://cdn.radio-t.com/rt_podcast605.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-605.html)
 <audio src="http://cdn.radio-t.com/rt_podcast605.mp3" preload="none"></audio>

@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 11"
 date = "2006-11-20T09:53:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast11"
-+++
 
++++
 
 - Портативный DVD [плеер](http://mobbit.info/item/2025) c разъёмом для iPod
 - Hon Hai будет произволить новые ноутбуки и iPhone

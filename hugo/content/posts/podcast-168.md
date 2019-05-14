@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 168"
 date = "2010-01-03T07:23:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast168"
+image = "https://radio-t.com/images/radio-t/rt168.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt168.jpg)
-
 
 - Каждый гик должен сделать [это](http://www.readwriteweb.com/archives/8_things_every_geek_needs_to_do_before_2010.php)
 - Почему программистам [платят ](http://www.johndcook.com/blog/2009/12/23/why-programmers-are-not-paid-in-proportion-to-their-productivity/)не так

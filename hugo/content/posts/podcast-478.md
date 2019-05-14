@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 478"
 date = "2016-01-09T17:55:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt478.jpg"
 filename = "rt_podcast478"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt478.jpg)
@@ -24,5 +25,5 @@ filename = "rt_podcast478"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast478.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-478.html)
+[аудио](http://cdn.radio-t.com/rt_podcast478.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-478.html)
 <audio src="http://cdn.radio-t.com/rt_podcast478.mp3" preload="none"></audio>

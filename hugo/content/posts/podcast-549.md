@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 549"
 date = "2017-06-10T18:24:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt549.jpg"
 filename = "rt_podcast549"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt549.jpg)
@@ -14,5 +15,5 @@ filename = "rt_podcast549"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast549.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-549.html)
+[аудио](http://cdn.radio-t.com/rt_podcast549.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-549.html)
 <audio src="http://cdn.radio-t.com/rt_podcast549.mp3" preload="none"></audio>

@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 274"
 date = "2012-01-29T02:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast274"
+image = "https://radio-t.com/images/radio-t/rt274.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt274.jpg)
-
 
 - [2 года](http://mashable.com/2012/01/27/ipad-two-years-later/) с последней революции
 - Что подправить для [нового iPad](http://www.businessinsider.com/9-things-apple-needs-to-change-with-the-ipad-3-before-i-buy-one-2012-1)
@@ -19,4 +20,4 @@ filename = "rt_podcast274"
 - Сам себе [IT](http://thenextweb.com/apple/2012/01/24/apple-expects-its-new-employees-to-be-their-own-it-department/?awesm=tnw.to_1CvVh)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast274.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast274.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-274.html)<audio src="http://cdn.radio-t.com/rt_podcast274.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast274.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast274.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-274.html)<audio src="http://cdn.radio-t.com/rt_podcast274.mp3" preload="none"></audio>

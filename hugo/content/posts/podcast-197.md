@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 197"
 date = "2010-07-25T06:22:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast197"
+image = "https://radio-t.com/images/radio-t/rt197.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt197.jpg)
@@ -20,7 +22,7 @@ filename = "rt_podcast197"
 - Выход релиза [CouchDB](http://www.dzone.com/links/r/apache_unveils_a_polished_couchdb_10.html) и скоро-будет-релиза MongoDB
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-197/) наших слушателей
 
-**_Спонсоры этого выпуска – _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
+**_Спонсоры этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast197.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast197.mp3.torrent)

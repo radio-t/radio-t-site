@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 497"
 date = "2016-05-28T17:49:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt497.jpg"
 filename = "rt_podcast497"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt497.jpg)
@@ -24,5 +25,5 @@ filename = "rt_podcast497"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast497.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-497.html)
+[аудио](http://cdn.radio-t.com/rt_podcast497.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-497.html)
 <audio src="http://cdn.radio-t.com/rt_podcast497.mp3" preload="none"></audio>

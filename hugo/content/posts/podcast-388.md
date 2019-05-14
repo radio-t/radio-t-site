@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 388"
 date = "2014-04-19T19:04:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt388.jpg"
 filename = "rt_podcast388"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt388.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast388"
 
 _Спонсор этого выпуска [webzilla](http://radio-t.files.webzilla.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast388.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-388.html)
+[аудио](http://cdn.radio-t.com/rt_podcast388.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-388.html)
 <audio src="http://cdn.radio-t.com/rt_podcast388.mp3" preload="none"></audio>

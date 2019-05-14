@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 18"
 date = "2007-01-15T04:44:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast18"
-+++
 
++++
 
 - Язык D. Оно нам надо ?
 - Про бобра или как не надо запускать проекты

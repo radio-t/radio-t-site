@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 374"
 date = "2014-01-11T16:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt374.jpg"
 filename = "rt_podcast374"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt374.jpg)
@@ -16,5 +17,5 @@ filename = "rt_podcast374"
 * Атаки [через NTP](http://blog.cloudflare.com/understanding-and-mitigating-ntp-based-ddos-attacks)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast374.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-374.html)
+[аудио](http://cdn.radio-t.com/rt_podcast374.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-374.html)
 <audio src="http://cdn.radio-t.com/rt_podcast374.mp3" preload="none"></audio>

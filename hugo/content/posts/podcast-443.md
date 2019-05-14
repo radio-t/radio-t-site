@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 443"
 date = "2015-05-09T18:37:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt443.jpg"
 filename = "rt_podcast443"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt443.jpg)
@@ -24,5 +25,5 @@ filename = "rt_podcast443"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast443.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-443.html)
+[аудио](http://cdn.radio-t.com/rt_podcast443.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-443.html)
 <audio src="http://cdn.radio-t.com/rt_podcast443.mp3" preload="none"></audio>

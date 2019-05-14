@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 494"
 date = "2016-05-07T18:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt494.jpg"
 filename = "rt_podcast494"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt494.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast494"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast494.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-494.html)
+[аудио](http://cdn.radio-t.com/rt_podcast494.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-494.html)
 <audio src="http://cdn.radio-t.com/rt_podcast494.mp3" preload="none"></audio>

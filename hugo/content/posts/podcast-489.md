@@ -1,12 +1,12 @@
 +++
-
 title = "Радио-Т 489"
 date = "2016-03-26T17:35:00"
-
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt489.jpg"
 filename = "rt_podcast489"
+
 +++
+
 ![](https://radio-t.com/images/radio-t/rt489.jpg)
 
 - [Что Apple показали на весеннем событии](http://thenextweb.com/apple/2016/03/21/everything-apple-announced-march-2016/) - *00:00:59*.
@@ -21,5 +21,5 @@ filename = "rt_podcast489"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast489.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-489.html)
+[аудио](http://cdn.radio-t.com/rt_podcast489.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-489.html)
 <audio src="http://cdn.radio-t.com/rt_podcast489.mp3" preload="none"></audio>

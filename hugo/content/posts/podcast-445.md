@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 445"
 date = "2015-05-23T17:40:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt445.jpg"
 filename = "rt_podcast445"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt445.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast445"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast445.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-445.html)
+[аудио](http://cdn.radio-t.com/rt_podcast445.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-445.html)
 <audio src="http://cdn.radio-t.com/rt_podcast445.mp3" preload="none"></audio>

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 592"
 date = "2018-04-07T18:47:25"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt592.jpg"
 filename = "rt_podcast592"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt592.jpg)
@@ -21,5 +22,5 @@ filename = "rt_podcast592"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast592.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-592.html)
+[аудио](http://cdn.radio-t.com/rt_podcast592.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-592.html)
 <audio src="http://cdn.radio-t.com/rt_podcast592.mp3" preload="none"></audio>

@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 22"
 date = "2007-02-13T12:28:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast22"
-+++
 
++++
 
 - Два больных ведущих в виртуальной студии
 - Убить DRM

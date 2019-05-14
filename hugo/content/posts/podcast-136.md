@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 136"
 date = "2009-05-10T12:19:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast136"
+image = "https://radio-t.com/images/radio-t/rt136.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt136.png)
-
 
 - [Козлы](http://dp.ru/4/a/2009/05/07/Na_rabotu_v_Google_prinjal) спасут хайтек
 - Гигабитный [WiFi](http://webplanet.ru/news/telecom/2009/05/08/wigig.html) видимо будет

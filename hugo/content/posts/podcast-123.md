@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 123"
 date = "2009-02-08T08:56:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast123"
+image = "https://radio-t.com/images/radio-t/rt123.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt123.jpg)
-
 
 - Безобразия с [уязвимостями](http://www.opennet.ru/opennews/art.shtml?num=20125)
 - Mail.ru и то, что [плохо](http://habrahabr.ru/blogs/im/51041/) лежит

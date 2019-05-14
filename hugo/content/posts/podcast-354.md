@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 354"
 date = "2013-08-24T19:21:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt354.jpg"
 filename = "rt_podcast354"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt354.jpg)
@@ -17,5 +18,5 @@ filename = "rt_podcast354"
 
 _Спонсор этого выпуска [ledlamps.ru](http://ledlamps.ru)_
 
-[аудио](http://media.blubrry.com/radiot/cdn.radio-t.com/rt_podcast354.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-354.html)
+[аудио](http://media.blubrry.com/radiot/cdn.radio-t.com/rt_podcast354.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-354.html)
 <audio src="http://media.blubrry.com/radiot/cdn.radio-t.com/rt_podcast354.mp3" preload="none"></audio>

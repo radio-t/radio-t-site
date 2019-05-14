@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 137"
 date = "2009-05-17T08:10:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast137"
+image = "https://radio-t.com/images/radio-t/rt137.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt137.png)
-
 
 - Сбой [Гугла](http://net.compulenta.ru/426372/) с глобальным эффектом
 - Гарантии на программы в [Европе](http://www.linux.org.ru/view-message.jsp?msgid=3693981)

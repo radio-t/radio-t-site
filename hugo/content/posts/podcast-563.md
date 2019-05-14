@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 563"
 date = "2017-09-16T17:55:44"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt563.jpg"
 filename = "rt_podcast563"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt563.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast563"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast563.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-563.html)
+[аудио](http://cdn.radio-t.com/rt_podcast563.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-563.html)
 <audio src="http://cdn.radio-t.com/rt_podcast563.mp3" preload="none"></audio>

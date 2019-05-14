@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 587"
 date = "2018-03-03T17:25:44"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt587.jpg"
 filename = "rt_podcast587"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt587.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast587"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Blink](http://www.blink.sh/?rt)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast587.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-587.html)
+[аудио](http://cdn.radio-t.com/rt_podcast587.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-587.html)
 <audio src="http://cdn.radio-t.com/rt_podcast587.mp3" preload="none"></audio>

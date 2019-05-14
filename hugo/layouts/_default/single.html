@@ -1,89 +1,68 @@
-{{ partial "head.html" . }}
+{{ define "head" }}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
+  <meta name="twitter:url" content="{{ .Site.Params.url }}{{ .RelPermalink }}">
+  <meta name="twitter:title" content="{{ .Title }}">
+  <meta name="twitter:description" content="{{ .Site.Params.twitterCardDescription }}">
+  {{ with .Params.image }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+{{ end }}
 
-<div>
-  <article class="hentry" role="article">
-    <header>
-      <h1 class="entry-title">{{ .Title }}</h1>
-
-      <meta name="twitter:card" content="summary">
-      <meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
-      <meta name="twitter:url" content="{{ .Site.Params.url }}{{ .URL }}">
-      <meta name="twitter:title" content="{{ .Title }}">
-      <meta name="twitter:description" content="{{ .Site.Params.twitterCardDescription }}">
-      {{ with .Params.image }}<meta name="twitter:image" content="{{ . }}">{{ end }}
-
-      <p class="meta">
-        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" pubdate data-updated="true">
-          {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
-        </time>
-      </p>
-    </header>
-
-    <div class="entry-content">
-      {{ .Content }}
-    </div>
-
-    <footer>
-      <p class="meta">
-        <span class="byline author vcard">
-          <span class="fn">
-            {{ .Site.Params.author }}
-          </span>
-        </span>
-
-        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" pubdate data-updated="true">
-          {{ index .Site.Data.ru (printf "%d" .Date.Month) }} {{ .Date.Day | printf "%02d" }}, {{ .Date.Year }} - {{ .Date.Unix }}
-        </time>
-
-        {{ with .Params.categories }}
-          <span class="categories">
-          {{ range . }}
-            <a class="category" href="/categories/{{ . }}">{{ . }}</a>
-          {{ end }}
-          </span>
-        {{ end }}
-      </p>
-
-      <p class="meta">
-        {{ if .Next }}
-          {{ if eq .Next.Type "posts" }}
-              <a class="basic-alignment letf" href="{{ .Next.Permalink }}" title="Next Post: {{ .Next.Title }}">&laquo; {{ .Next.Title }}</a>
-          {{ end }}
-        {{ end }}
-        {{ if .Prev }}
-          {{ if eq .Prev.Type "posts" }}
-            <a class="basic-alignment right" href="{{ .Prev.Permalink }}" title="Previous Post: {{ .Prev.Title }}">{{ .Prev.Title }} &raquo;</a>
-          {{ end }}
-        {{ else if in .Params.categories "podcast" }}
-            <b class="basic-alignment right">сбор тем начинается в среду</b>
-        {{ end }}
-      </p>
-      <div class="sharing">
-        <div class="likely">
-          <div class="twitter">Твитнуть</div>
-          <div class="facebook">Поделиться</div>
-          <div class="vkontakte">Поделиться</div>
+{{ define "main" }}
+  <div class="pt-4 pt-lg-6">
+    {{ if in .Params.categories "podcast" }}
+      <div class="container-fluid">
+        <div
+          class="row post-podcast"
+          data-controller="podcast"
+          data-target="page.playerStateReceiver"
+          data-action="player-state->podcast#fetchPlayingState"
+          data-podcast-url="{{ .RelPermalink }}"
+        >
+          <div class="col-5 col-md-2 d-flex flex-column justify-content-between">
+            <div>
+              <h1 class="number-title">{{ partial "number-title" . }}</h1>
+              <div class="post-time">{{ partial "post-time" . }}</div>
+            </div>
+            {{ partial "share" }}
+          </div>
+          <div class="col col-md-4 order-md-3">{{ partial "podcast-cover" . }}</div>
+          <div class="post-podcast-content text-content col-md-6 no-js" data-controller="podcast-content">
+            {{ .Content }}
+          </div>
         </div>
+        {{ partial "post-footer" . }}
       </div>
-    </footer>
-  </article>
-
-  <section>
-      <div id="comment-policy" class="comment-policy">
-          <p>Тут у нас свобода слова, но за хамство можем забанить.</p>
-          Пожалуйста, прочитайте наши <a href="https://radio-t.com/comment-policy" target="_blank" rel="noopener noreferrer" class="policy-link">правила</a> прежде чем комментировать.
+      {{ partial "comments-block" }}
+    {{ else if in .Params.categories "prep" }}
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <h1 class="number-title">{{ partial "number-title" . }}</h1>
+            <div class="post-time">{{ partial "post-time" . }}</div>
+          </div>
+          <div class="col-md">{{ partial "comments" }}</div>
+          <div class="col-md-2">{{ partial "share" }}</div>
+        </div>
+        {{ partial "post-footer" . }}
       </div>
-  </section>
-
-  <section>
-    <div id="remark42">
-      <noscript>
-          Please enable JavaScript to view the comments powered by Remark42.
-      </noscript>
-    </div>
-  </section>
-</div>
-
-{{ partial "sidebar.html" . }}
-
-{{ partial "foot.html" . }}
+    {{ else }}
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <h1 class="display-4 mb-md-4">{{ .Title }}</h1>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-md-2">
+            <div class="post-time">{{ partial "post-time" . }}</div>
+            {{ partial "share" }}
+          </div>
+          <div class="text-content col-md-8" data-controller="highlight">
+            {{ .Content }}
+          </div>
+        </div>
+        {{ partial "post-footer" . }}
+      </div>
+      {{ partial "comments-block" }}
+    {{ end }}
+  </div>
+{{ end }}

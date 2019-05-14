@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 79"
 date = "2008-03-30T07:44:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast79"
-+++
 
++++
 
 - [Взлом](http://habrahabr.ru/blog/infosecurity/38584.html) на скорость
 - [Наступление](http://habrahabr.ru/blog/p2p/38529.html) на торренты

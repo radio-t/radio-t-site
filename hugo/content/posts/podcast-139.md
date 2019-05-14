@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 139"
 date = "2009-06-07T10:10:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast139"
+image = "https://radio-t.com/images/radio-t/rt139.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt139.png)
-
 
 - [Поиск](http://internetno.net/2009/06/01/bing/) от MS прекрасен
 - Проект [Natal](http://habrahabr.ru/blogs/the_future_is_here/61106/): MS опять радует

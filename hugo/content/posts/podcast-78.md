@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 78"
 date = "2008-03-24T08:33:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast78"
-+++
 
++++
 
 - Слияние MS и Yahoo по [версии](http://business.compulenta.ru/351474/) Google
 - [Поддержка](http://www.opennet.ru/opennews/art.shtml?num=14863) Eclipse от заклятого друга Open Source

@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 80"
 date = "2008-04-06T09:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast80"
-+++
 
++++
 
 - [Еще](http://net.compulenta.ru/353522/) пара взглядов на [файлообмен](http://net.compulenta.ru/353552/)
 - XP [будет](http://soft.compulenta.ru/353437/) всегда и навечно

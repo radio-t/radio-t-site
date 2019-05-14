@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 579"
 date = "2018-01-06T18:23:14"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt579.jpg"
 filename = "rt_podcast579"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt579.jpg)
@@ -17,5 +18,5 @@ filename = "rt_podcast579"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast579.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-579.html)
+[аудио](http://cdn.radio-t.com/rt_podcast579.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-579.html)
 <audio src="http://cdn.radio-t.com/rt_podcast579.mp3" preload="none"></audio>

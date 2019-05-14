@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 241"
 date = "2011-06-05T02:01:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast241"
+image = "https://radio-t.com/images/radio-t/rt241.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt241.png)
@@ -15,4 +17,4 @@ filename = "rt_podcast241"
 - Смесь бульдога с терминалом
 - [Темы ](http://new.radio-t.com/2011/06/241.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast241.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast241.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-241.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast241.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast241.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast241.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-241.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast241.mp3" preload="none"></audio>

@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 284"
 date = "2012-04-15T02:26:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast284"
+image = "https://radio-t.com/images/radio-t/rt284.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt284.png)
-
 
 - 20 лет [редактору](http://www.theverge.com/apps/2012/4/12/2944498/mac-text-editor-bbedit-celebrates-20-year-anniversary)
 - Facebook купил себе [Instagram](http://habrahabr.ru/post/141765/). Весь.
@@ -19,4 +20,4 @@ filename = "rt_podcast284"
 - [Wemux](http://thechangelog.com/post/20986196780/wemux-multi-user-terminal-multiplexing-for-party-pair-pr) для тех, кто в паре
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast284.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast284.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-284.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_284)<audio src="http://cdn.radio-t.com/rt_podcast284.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast284.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast284.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-284.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_284)<audio src="http://cdn.radio-t.com/rt_podcast284.mp3" preload="none"></audio>

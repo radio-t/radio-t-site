@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+<head>
+  {{ partial "head" . }}
+  {{ partial "favicons" }}
+  {{ block "head" . }}{{ end }}
+</head>
+<body
+  class="d-flex flex-column {{ delimit (apply .Params.categories "printf" "category-%s" ".") " " }}"
+  data-controller="page sidebar search comments-counter"
+  data-action="podcast-play->page#playPodcast player-state->page#updatePodcasts"
+>
+
+{{ partial "navbar.html" . }}
+
+<div class="page-main flex-grow-1">
+  {{ block "main" . }}{{ end }}
+</div>
+
+<footer class="page-footer">
+  {{ partial "footer" . }}
+  {{ partial "player" . }}
+</footer>
+
+{{ partial "sidebar" . }}
+{{ partial "search" . }}
+
+{{ partial "js_foot" . }}
+
+</body>
+</html>

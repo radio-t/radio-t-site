@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 279"
 date = "2012-03-11T03:02:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast279"
+image = "https://radio-t.com/images/radio-t/rt279.jpeg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt279.jpeg)
-
 
 - Выход [New iPad](http://www.apple.com/pr/library/2012/03/07Apple-Launches-New-iPad.html) глазами очевидца
 - Вся прелесть в [Bluetooth 4](http://gigaom.com/mobile/forget-lte-the-real-new-ipad-3-wireless-story-is-bluetooth-4/)?
@@ -20,4 +21,4 @@ filename = "rt_podcast279"
 - Вирус на [иностранном языке](http://www.zdnet.com/blog/security/kaspersky-duqu-trojan-uses-unknown-programming-language/10625)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast279.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast279.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-279.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_279)<audio src="http://cdn.radio-t.com/rt_podcast279.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast279.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast279.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-279.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_279)<audio src="http://cdn.radio-t.com/rt_podcast279.mp3" preload="none"></audio>

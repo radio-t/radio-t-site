@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 582"
 date = "2018-01-27T17:35:02"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt582.jpg"
 filename = "rt_podcast582"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt582.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast582"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast582.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-582.html)
+[аудио](http://cdn.radio-t.com/rt_podcast582.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-582.html)
 <audio src="http://cdn.radio-t.com/rt_podcast582.mp3" preload="none"></audio>

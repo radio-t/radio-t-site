@@ -1,12 +1,13 @@
 +++
 title = "Радио–Т 110"
 date = "2008-11-02T09:08:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast110"
+image = "https://radio-t.com/images/radio-t/rt110.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt110.jpg)
-
 
 - Широкие телефонные разговоры (спец. гость)
 - Шпионские страсти

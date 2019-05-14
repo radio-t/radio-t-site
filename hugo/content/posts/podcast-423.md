@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 423"
 date = "2014-12-20T17:05:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt423.jpg"
 filename = "rt_podcast423"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt423.jpg)
@@ -17,5 +18,5 @@ filename = "rt_podcast423"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast423.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-423.html)
+[аудио](http://cdn.radio-t.com/rt_podcast423.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-423.html)
 <audio src="http://cdn.radio-t.com/rt_podcast423.mp3" preload="none"></audio>

@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 17"
 date = "2007-01-08T04:45:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast17"
-+++
 
++++
 
 - Новогодние проишествия Gmail
 - Верните лаптопы MS!

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 630"
 date = "2018-12-29T18:11:48"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt630.jpg"
 filename = "rt_podcast630"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt630.jpg)
@@ -21,5 +22,5 @@ filename = "rt_podcast630"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast630.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-630.html)
+[аудио](http://cdn.radio-t.com/rt_podcast630.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-630.html)
 <audio src="http://cdn.radio-t.com/rt_podcast630.mp3" preload="none"></audio>

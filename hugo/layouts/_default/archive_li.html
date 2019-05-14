@@ -1,23 +1,37 @@
-<article>
-  <h1>
-  	<a href="{{ .Permalink }}">{{ .Title }}</a>
-  </h1>
-
-  <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" pubdate>
-    <span class="month">{{ index .Site.Data.ru (printf "%d" .Date.Month) }}</span>
-    <span class="day">{{ .Date.Day | printf "%02d" }}</span>
-    <span class="year">{{ .Date.Year }}</span>
-  </time>
-
-  <footer>
-    <span class="categories">метки:
-    {{ with .Params.categories }}
-      <span class="categories">
-      {{ range . }}
-        <a class="category" href="/categories/{{ . }}">{{ . }}</a>
+{{ if in .Params.categories "podcast" }}
+  <div class="blog-archives-post col-6 col-md-3 col-lg-2 py-3">
+    <h3 class="number-title"><a href="{{ .RelPermalink }}">{{ partial "number-title" . }}</a></h3>
+    <div class="small">
+      <div>{{ partial "post-time" . }}</div>
+      {{ with .Params.categories }}
+        {{ range . }}
+          <a class="category" href="/categories/{{ . }}">#{{ . }}</a>
+        {{ end }}
       {{ end }}
-      </span>
-    {{ end }}
-    </span>
-  </footer>
-</article>
+    </div>
+  </div>
+{{ else if in .Params.categories "prep" }}
+  <div class="blog-archives-post col-6 col-md-3 col-lg-2 py-3">
+    <h3 class="number-title"><a class="text-muted" href="{{ .RelPermalink }}">{{ partial "number-title" . }}</a></h3>
+    <div class="small">
+      <div>{{ partial "post-time" . }}</div>
+      {{ with .Params.categories }}
+        {{ range . }}
+          <a class="category" href="/categories/{{ . }}">#{{ . }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+{{ else }}
+  <div class="blog-archives-post col-md-6 col-lg-4 span-2 py-3">
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <div class="small">
+      <div>{{ partial "post-time" . }}</div>
+      {{ with .Params.categories }}
+        {{ range . }}
+          <a class="category" href="/categories/{{ . }}">#{{ . }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+{{ end }}

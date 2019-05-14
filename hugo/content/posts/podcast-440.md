@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 440"
 date = "2015-04-18T19:06:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt440.jpg"
 filename = "rt_podcast440"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt440.jpg)
@@ -22,5 +23,5 @@ filename = "rt_podcast440"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast440.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-440.html)
+[аудио](http://cdn.radio-t.com/rt_podcast440.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-440.html)
 <audio src="http://cdn.radio-t.com/rt_podcast440.mp3" preload="none"></audio>

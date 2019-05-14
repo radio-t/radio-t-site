@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 536"
 date = "2017-03-04T17:55:12"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt536.jpg"
 filename = "rt_podcast536"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt536.jpg)
@@ -17,5 +18,5 @@ filename = "rt_podcast536"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast536.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-536.html)
+[аудио](http://cdn.radio-t.com/rt_podcast536.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-536.html)
 <audio src="http://cdn.radio-t.com/rt_podcast536.mp3" preload="none"></audio>

@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 200"
 date = "2010-08-15T09:40:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast200"
+image = "https://radio-t.com/images/radio-t/rt200.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt200.png)
@@ -19,7 +21,7 @@ filename = "rt_podcast200"
 
 * Юбилейная [раздача](https://spreadsheets.google.com/ccc?key=0Apse9MaTqJQ5dHVaMmZjMG1MLUlUaUEwb3RsYTZ6RkE&hl=en) слушателям вот [таких](http://twitpic.com/2ersrj) слонов (исходник изображения)
 
-**_Спонсор этого выпуска – _[_fastvps.ru_](http://fastvps.ru/) **
+**_Спонсор этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) **
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast200.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast200.mp3.torrent)

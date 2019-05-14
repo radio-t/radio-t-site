@@ -1,13 +1,13 @@
 +++
 title = "Радио-Т 100"
 date = "2008-08-24T08:50:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast100"
+image = "https://radio-t.com/images/radio-t/rt100.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt100.jpg)
-
-
 
 * **_ [Лог чата](http://chat.radio-t.com/logs/radio-t-100.html)_**
 ** Спасибо macsyk за юбилейню картинку

@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 24"
 date = "2007-02-28T04:31:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast24"
-+++
 
++++
 
 - Netscape быть ?
 - Dell грабит любителей линукс

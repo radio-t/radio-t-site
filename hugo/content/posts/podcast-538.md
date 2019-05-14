@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 538"
 date = "2017-03-18T18:14:11"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt538.jpg"
 filename = "rt_podcast538"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt538.jpg)
@@ -17,5 +18,5 @@ filename = "rt_podcast538"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Java-конференция JPoint](https://jpoint.ru/registration/?utm_source=radiot&utm_medium=special&utm_campaign=jpoint2017)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast538.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-538.html)
+[аудио](http://cdn.radio-t.com/rt_podcast538.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-538.html)
 <audio src="http://cdn.radio-t.com/rt_podcast538.mp3" preload="none"></audio>

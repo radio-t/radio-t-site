@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 175"
 date = "2010-02-21T10:53:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast175"
+image = "https://radio-t.com/images/radio-t/rt175.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt175.jpg)
-
 
 - Такая противоречивая [Windows Phone 7](http://www.securitylab.ru/news/390832.php) Series
 - [История](http://www.securitylab.ru/news/390974.php) вокруг torrents.ru

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 521"
 date = "2016-11-12T18:25:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt521.jpg"
 filename = "rt_podcast521"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt521.jpg)
@@ -16,5 +17,5 @@ filename = "rt_podcast521"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast521.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-521.html)
+[аудио](http://cdn.radio-t.com/rt_podcast521.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-521.html)
 <audio src="http://cdn.radio-t.com/rt_podcast521.mp3" preload="none"></audio>

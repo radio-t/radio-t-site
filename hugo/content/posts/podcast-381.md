@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 381"
 date = "2014-03-01T16:17:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt381.jpg"
 filename = "rt_podcast381"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt381.jpg)
@@ -17,5 +18,5 @@ filename = "rt_podcast381"
 * [Kobra.io](http://webtoolsdepot.com/kobra-io-for-real-time-collaborative-coding/) для групповой работы.
 * [Microsoft Azure](http://www.zdnet.com/microsofts-azure-cloud-team-moves-toward-blurring-the-iaaspaas-lines-7000026708/) сливает IaaS и PaaS.
 
-[аудио](http://cdn.radio-t.com/rt_podcast381.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-381.html)
+[аудио](http://cdn.radio-t.com/rt_podcast381.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-381.html)
 <audio src="http://cdn.radio-t.com/rt_podcast381.mp3" preload="none"></audio>

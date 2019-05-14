@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 55"
 date = "2007-10-07T05:56:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast55"
-+++
 
++++
 
 - Странный рейтинг Гугла
 - Уязвимости и улучшения от него-же

@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 187"
 date = "2010-05-16T07:52:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast187"
+image = "https://radio-t.com/images/radio-t/rt187.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt187.jpg)
-
 
 - Новый виток браузер-войн и планы на FF4
 - Что происходит с Facebook. Уходим все?

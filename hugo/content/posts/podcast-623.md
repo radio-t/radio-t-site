@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 623"
 date = "2018-11-10T18:09:36"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt623.jpg"
 filename = "rt_podcast623"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt623.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast623"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast623.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-623.html)
+[аудио](http://cdn.radio-t.com/rt_podcast623.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-623.html)
 <audio src="http://cdn.radio-t.com/rt_podcast623.mp3" preload="none"></audio>

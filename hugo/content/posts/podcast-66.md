@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 66"
 date = "2007-12-23T07:14:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast66"
-+++
 
++++
 
 - Итоги по версии Google
 - Apple свирепствует, а IBM предрекает

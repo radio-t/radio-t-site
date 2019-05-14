@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 364"
 date = "2013-11-02T17:58:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt364.jpg"
 filename = "rt_podcast364"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt364.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast364"
 
 _Спонсор этого выпуска [ledlamps.ru](http://ledlamps.ru)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast364.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-364.html)
+[аудио](http://cdn.radio-t.com/rt_podcast364.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-364.html)
 <audio src="http://cdn.radio-t.com/rt_podcast364.mp3" preload="none"></audio>

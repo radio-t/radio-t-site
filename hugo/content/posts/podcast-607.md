@@ -1,10 +1,13 @@
 +++
 title = "Радио-Т 607"
 date = "2018-07-22T00:09:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt607.jpg"
 filename = "rt_podcast607"
+
 +++
+
+![](https://radio-t.com/images/radio-t/rt607.jpg)
 
 - [MacBook Pro 2018 неприятно удивил](https://www.inverse.com/article/47169-macbook-pro-2018-throttling-complaints-reddit)
 - [Google наказывают за все хорошее](http://europa.eu/rapid/press-release_IP-18-4581_en.htm)
@@ -16,5 +19,5 @@ filename = "rt_podcast607"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast607.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-607.html)
+[аудио](http://cdn.radio-t.com/rt_podcast607.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-607.html)
 <audio src="http://cdn.radio-t.com/rt_podcast607.mp3" preload="none"></audio>

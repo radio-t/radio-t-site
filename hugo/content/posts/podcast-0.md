@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 0"
 date = "2006-08-27T11:49:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast0"
-+++
 
++++
 
 - Счет Биллу, или поговорим про Microsoft
 - Firefox и Vista - братья (сестры?) навсегда.

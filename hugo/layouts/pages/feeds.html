@@ -1,0 +1,58 @@
+{{ define "main" }}
+  <div class="py-4 py-lg-6 {{ if .Params.image }}page-with-cover-image{{ end }}">
+    <div class="container-fluid">
+      <h1 class="display-4 mb-md-4">{{ .Title }}</h1>
+
+      <div class="text-content">
+        <div>{{ .Content }}</div>
+
+        <div class="feeds-list row">
+          <div class="col-md-4 col-sm-6 mb-4 d-flex align-items-stretch flex-row">
+            <div class="feeds-list-item p-3 border rounded flex-fill">
+              <div class="text-right text-primary"><i class="fas fa-rss fa-fw"></i></div>
+              <h3><a href="http://feeds.rucast.net/radio-t">Основной RSS</a></h3>
+              <div class="small">И <a href="https://radio-t.com/podcast.rss">альтернативный RSS</a> фид подкаста</div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4 d-flex align-items-stretch flex-row">
+            <div class="feeds-list-item p-3 border rounded flex-fill">
+              <div class="text-right text-primary"><i class="fas fa-music fa-fw"></i></div>
+              <h3><a href="https://podcasts.apple.com/podcast/радио-т/id256504435">iTunes Store</a></h3>
+              <div class="small">Обновляется с задержкой в несколько часов</div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4 d-flex align-items-stretch flex-row">
+            <div class="feeds-list-item p-3 border rounded flex-fill">
+              <div class="text-right text-primary"><i class="fas fa-archive fa-fw"></i></div>
+              <h3><a href="https://radio-t.com/podcast-archives.rss">Архивные выпуски</a></h3>
+              <div class="small">Подписка на RSS</div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4 d-flex align-items-stretch flex-row">
+            <div class="feeds-list-item p-3 border rounded flex-fill">
+              <div class="text-right text-primary"><i class="fas fa-glasses fa-fw"></i></div>
+              <h3><a href="http://feeds.rucast.net/radio-t-special">Гиковские выпуски</a></h3>
+              <div class="small">RSS подписка только на гиковские выпуски</div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4 d-flex align-items-stretch flex-row">
+            <div class="feeds-list-item p-3 border rounded flex-fill">
+              <div class="text-right text-primary"><i class="fab fa-google-play fa-fw"></i></div>
+              <h3><a href="https://play.google.com/music/m/Ivrwbk7epyisvafnu45f3zp57oi?t=-">Google Play Music</a></h3>
+              <div class="small">Подписка в сервисе</div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4 d-flex align-items-stretch flex-row">
+            <div class="feeds-list-item p-3 border rounded flex-fill">
+              <div class="text-right text-primary"><i class="fab fa-spotify fa-fw"></i></div>
+              <h3><a href="https://open.spotify.com/show/30bhUtGOjPlzIbDKuErRq4?si=0B-dMAX7T0We92F7MqfG2A">Spotify</a></h3>
+              <div class="small">Подписка в сервисе</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-share mt-4">{{ partial "share" }}</div>
+    </div>
+  </div>
+{{ end }}

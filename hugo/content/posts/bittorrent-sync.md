@@ -6,7 +6,7 @@ categories = ["news"]
 
 ![](https://radio-t.com/images/radio-t/bts.jpg)
 
-У нас появился странный, но любопытный и весьма гиковский способ получать подкасты - _[BitTorrent Sync](http://labs.bittorrent.com/experiments/sync.html)_
+У нас появился странный, но любопытный и весьма гиковский способ получать подкасты — _[BitTorrent Sync](http://labs.bittorrent.com/experiments/sync.html)_
 
 Установив программу вы можете "подписаться":
 

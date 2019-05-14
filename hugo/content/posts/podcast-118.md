@@ -1,8 +1,10 @@
 +++
 title = "Радио–Т 118"
 date = "2008-12-28T12:04:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast118"
+image = "https://radio-t.com/images/radio-t/rt118.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt118.png)
@@ -24,7 +26,7 @@ filename = "rt_podcast118"
 - Google [запускает](http://habrahabr.ru/blogs/google/23113/) Apps Engine
 - Выход [Subversion 1.5](http://subversion.tigris.org/svn_1.5_releasenotes.html)
 - Delphi [уходит](http://blog.marcocantu.com/blog/delphi_jumps_ship.html) к Embarcadero
-- [Firefox 3](http://www.mozilla.com/en-US/firefox/3.0/releasenotes/) - 8 миллионов за [24 часа](http://arstechnica.com/news.ars/post/20080618-firefox-3-launch-a-success-8-million-downloads-in-24-hours.html)
+- [Firefox 3](http://www.mozilla.com/en-US/firefox/3.0/releasenotes/) — 8 миллионов за [24 часа](http://arstechnica.com/news.ars/post/20080618-firefox-3-launch-a-success-8-million-downloads-in-24-hours.html)
 - [Eclipse](http://www.ibm.com/developerworks/opensource/library/os-eclipse-ganymede/) Ganymede - за всё уплачено
 - Последний день [Билла Гейтса](http://www.engadget.com/2008/06/27/celebrate-bill-gates-day-with-us/)
 - [iPhone 3G](http://www.engadget.com/2008/06/09/iphone-3g-is-finally-official/) всего за $199

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 448"
 date = "2015-06-13T18:05:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt448.jpg"
 filename = "rt_podcast448"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt448.jpg)
@@ -23,5 +24,5 @@ filename = "rt_podcast448"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast448.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-448.html)
+[аудио](http://cdn.radio-t.com/rt_podcast448.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-448.html)
 <audio src="http://cdn.radio-t.com/rt_podcast448.mp3" preload="none"></audio>

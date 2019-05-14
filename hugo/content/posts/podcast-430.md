@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 430"
 date = "2015-02-07T17:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt430.jpg"
 filename = "rt_podcast430"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt430.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast430"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast430.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-430.html)
+[аудио](http://cdn.radio-t.com/rt_podcast430.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-430.html)
 <audio src="http://cdn.radio-t.com/rt_podcast430.mp3" preload="none"></audio>

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 510"
 date = "2016-08-27T18:34:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt510.jpg"
 filename = "rt_podcast510"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt510.jpg)
@@ -28,5 +29,5 @@ filename = "rt_podcast510"
 - [МоеДело](https://moedelo.org/referal?id=4694031&to=) — промо-код `biz10`
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast510.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-510.html)
+[аудио](http://cdn.radio-t.com/rt_podcast510.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-510.html)
 <audio src="http://cdn.radio-t.com/rt_podcast510.mp3" preload="none"></audio>

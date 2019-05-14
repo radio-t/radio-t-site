@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 88"
 date = "2008-06-01T09:15:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast88"
-+++
 
++++
 
 - OpenSource разработчики делают [выбор](http://www.osnews.com/story/19788)
 - [Стикер–сервис](http://habrahabr.ru/blog/sup_fabrik/42888.html) непонятно для кого/чего

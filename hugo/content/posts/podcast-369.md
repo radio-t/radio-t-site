@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 369"
 date = "2013-12-07T16:33:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt369.jpg"
 filename = "rt_podcast369"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt369.jpg)
@@ -15,5 +16,5 @@ filename = "rt_podcast369"
 * [Наброс по поводу Scala](http://overwatering.org/blog/2013/12/scala-1-star-would-not-program-again/)
 * [По поводу магии autowiring](http://blog.frankel.ch/tag/autowiring)
 
-[аудио](http://cdn.radio-t.com/rt_podcast369.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-369.html)
+[аудио](http://cdn.radio-t.com/rt_podcast369.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-369.html)
 <audio src="http://cdn.radio-t.com/rt_podcast369.mp3" preload="none"></audio>

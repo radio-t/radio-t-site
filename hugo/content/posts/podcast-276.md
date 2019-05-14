@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 276"
 date = "2012-02-12T01:50:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast276"
+image = "https://radio-t.com/images/radio-t/rt276.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt276.jpg)
@@ -16,4 +18,4 @@ filename = "rt_podcast276"
 - Куда двигается линейка [MBP](http://thenextweb.com/apple/2012/02/10/breaking-down-the-rumors-whats-happening-with-apples-macbook-pro/)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast276.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast276.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-276.html)<audio src="http://cdn.radio-t.com/rt_podcast276.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast276.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast276.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-276.html)<audio src="http://cdn.radio-t.com/rt_podcast276.mp3" preload="none"></audio>

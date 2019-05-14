@@ -1,0 +1,17 @@
+{{ $paginator := .Scratch.Get "paginator" }}
+
+<div class="row justify-content-between text-content">
+  <div class="col-6 col-sm-4 order-sm-1 flex-shrink-1 text-left">
+    {{ if $paginator.HasNext }}
+      &larr; <a href="{{ .RelPermalink }}page/{{ $paginator.Next.PageNumber }}/">Раньше</a>
+    {{ end }}
+  </div>
+  <div class="col-6 col-sm-4 order-sm-3 flex-shrink-1 text-right">
+    {{ if $paginator.HasPrev }}
+      <a href="{{ .RelPermalink }}page/{{ $paginator.Prev.PageNumber }}/">Позже</a> &rarr;
+    {{ end }}
+  </div>
+  <div class="col-sm-4 order-sm-2 text-center">
+    <a href="/archives/">Архивы подкаста</a>
+  </div>
+</div>

@@ -1,10 +1,12 @@
 +++
 title = "Радио-Т 486"
 date = "2016-03-05T17:03:00"
-categories= ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt486.jpg"
 filename = "rt_podcast486"
+
 +++
+
 ![](https://radio-t.com/images/radio-t/rt486.jpg)
 
 - [Увидел свет язык программирования Rust 1.7](http://www.opennet.ru/opennews/art.shtml?num=43985) - *00:01:22*.
@@ -19,5 +21,5 @@ filename = "rt_podcast486"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast486.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-486.html)
+[аудио](http://cdn.radio-t.com/rt_podcast486.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-486.html)
 <audio src="http://cdn.radio-t.com/rt_podcast486.mp3" preload="none"></audio>

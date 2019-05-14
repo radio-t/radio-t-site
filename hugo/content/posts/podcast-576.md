@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 576"
 date = "2017-12-16T17:42:26"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt576.jpg"
 filename = "rt_podcast576"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt576.jpg)
@@ -22,5 +23,5 @@ filename = "rt_podcast576"
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast576.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-576.html)
+[аудио](http://cdn.radio-t.com/rt_podcast576.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-576.html)
 <audio src="http://cdn.radio-t.com/rt_podcast576.mp3" preload="none"></audio>

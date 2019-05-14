@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 340"
 date = "2013-05-11T18:18:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt340.jpg"
 filename = "rt_podcast340"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt340.jpg)
@@ -19,4 +20,4 @@ filename = "rt_podcast340"
 * Microsoft [обижает Google](http://techcrunch.com/2013/05/10/microsoft-google-docs-is-not-worth-the-gamble-makes-everybody-less-productive/) и делает это [особо циничным образом](http://readwrite.com/2013/05/09/microsoft-youtube-app-rule-breaker-strips-ads-downloads-video).
 * [Не покупайте сейчас лаптоп](http://gizmodo.com/now-is-a-horrible-time-to-buy-a-laptop-496028699)
 
-[аудио](http://cdn.radio-t.com/rt_podcast340.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast340.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-340.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_340)<audio src="http://cdn.radio-t.com/rt_podcast340.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast340.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast340.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-340.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_340)<audio src="http://cdn.radio-t.com/rt_podcast340.mp3" preload="none"></audio>

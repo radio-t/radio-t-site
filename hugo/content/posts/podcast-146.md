@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 146"
 date = "2009-07-26T10:16:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast146"
+image = "https://radio-t.com/images/radio-t/rt146.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt146.jpg)
-
 
 - Теперь и на нашей улице будет [праздник](http://internet.cnews.ru/news/line/index.shtml?2009/07/24/355288)
 - [Программисты](http://www.thecodist.com/article/why_do_you_love_programming) о любви и велосипедах

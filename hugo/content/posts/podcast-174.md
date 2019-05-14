@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 174"
 date = "2010-02-14T11:14:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast174"
+image = "https://radio-t.com/images/radio-t/rt174.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt174.jpg)
-
 
 - Вот и вышел "[убийца всего](http://internetno.net/2010/02/10/google-buzz/)" от Гугл
 - Всем дать [права](http://hitech.tomsk.ru/newsinternet/14195-top-menedzher-microsoft-nastaivaet-na-vvedenii.html): за и против

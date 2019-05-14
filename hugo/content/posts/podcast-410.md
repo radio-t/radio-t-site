@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 410"
 date = "2014-09-20T16:51:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt410.jpg"
 filename = "rt_podcast410"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt410.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast410"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [HighLoad](http://highload.ru/radio-t/)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast410.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-410.html)
+[аудио](http://cdn.radio-t.com/rt_podcast410.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-410.html)
 <audio src="http://cdn.radio-t.com/rt_podcast410.mp3" preload="none"></audio>

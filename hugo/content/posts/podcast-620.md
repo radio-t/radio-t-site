@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 620"
 date = "2018-10-20T18:17:33"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt620.jpg"
 filename = "rt_podcast620"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt620.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast620"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast620.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-620.html)
+[аудио](http://cdn.radio-t.com/rt_podcast620.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-620.html)
 <audio src="http://cdn.radio-t.com/rt_podcast620.mp3" preload="none"></audio>

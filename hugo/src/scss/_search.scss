@@ -1,0 +1,113 @@
+@function remVw($rem, $breakpoint: 'xl') {
+  @return (($rem / 1 * 16px) / map_get($grid-breakpoints, $breakpoint) * 100) * 1vw;
+}
+label[for="page-search-input"] {
+  -webkit-appearance: none;
+}
+.page-search {
+  position: fixed;
+  z-index: $zindex-modal-backdrop;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  background-color: rgba($modal-backdrop-bg, $modal-backdrop-opacity);
+}
+.page-search-content {
+  position: relative;
+  z-index: 2;
+  pointer-events: auto;
+  width: 100%;
+  @include media-breakpoint-up('md') {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @include media-breakpoint-up('xl') {
+    max-width: remVw(40);
+  }
+}
+.search-open {
+  .page-search {
+    display: block;
+  }
+  .page-search-backdrop {
+    display: block;
+  }
+}
+.page-search-scroll {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+.page-search-form {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  pointer-events: none;
+}
+.page-search-input-wrapper {
+  position: relative;
+  pointer-events: auto;
+}
+.page-search-input {
+  border: none;
+  height: auto;
+  padding: .7rem 1rem;
+  border-radius: 0;
+  box-shadow: 0 10px 15px -8px rgba($black, .5), 0 0 3px rgba($black, .33) !important;
+  @include media-breakpoint-up('xl') {
+    padding: remVw(0.5) remVw(1);
+    font-size: remVw(1.171875);
+  }
+}
+.page-search-close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border-radius: 0;
+  border: none !important;
+  box-shadow: none !important;
+  background-color: $white;
+  &:hover {
+    background-color: $white;
+  }
+}
+@include media-breakpoint-up('md') {
+  .page-search-input {
+    border-radius: $border-radius;
+  }
+  .page-search-close-btn {
+    @include border-right-radius($border-radius);
+  }
+}
+
+.page-search-result {
+  .podcast-cover {
+    float: right;
+    width: 4rem;
+    margin-left: $grid-gutter-width / 2;
+  }
+}
+.page-search-list {
+  background-color: $white;
+  overflow: hidden;
+  margin-top: 1rem;
+  @include media-breakpoint-up('md') {
+    margin: 1rem .3rem;
+    border-radius: $border-radius;
+  }
+}
+.page-search-list-item {
+  display: block;
+  color: inherit !important;
+  //background-color: rgba($black, 1 - lightness($gray-100) / 100%);
+  &:hover, .hover {
+    background-color: rgba($primary, .1);
+  }
+  & + & {
+    border-top: 1px solid $border-color;
+  }
+}

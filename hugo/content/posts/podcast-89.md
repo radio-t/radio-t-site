@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 89"
 date = "2008-06-09T07:17:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast89"
-+++
 
++++
 
 - Китайские хулиганы [против](http://webplanet.ru/node/19626) нашего электричества
 - [С днем рожденья](http://hardware.slashdot.org/article.pl?sid=08/06/05/1247249&from=rss), х86

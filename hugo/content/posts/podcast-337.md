@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 337"
 date = "2013-04-20T17:49:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt337.jpg"
 filename = "rt_podcast337"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt337.jpg)
@@ -20,4 +21,4 @@ filename = "rt_podcast337"
 * Слухи о новых [и прекрасных iPad](http://www.macrumors.com/2013/04/18/ipad-5-estimated-to-be-15-thinner-25-lighter-than-current-ipad/).
 * [Space Monkey](http://www.kickstarter.com/projects/clintgc/space-monkey-taking-the-cloud-out-of-the-datacente) для истинного облака.
 
-[аудио](http://cdn.radio-t.com/rt_podcast337.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast337.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-337.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_337)<audio src="http://cdn.radio-t.com/rt_podcast337.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast337.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast337.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-337.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_337)<audio src="http://cdn.radio-t.com/rt_podcast337.mp3" preload="none"></audio>

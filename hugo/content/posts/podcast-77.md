@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 77"
 date = "2008-03-16T10:37:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast77"
-+++
 
++++
 
 - [ДР mp3-проигрывателя](http://www.cyberstyle.ru/newsline/view/2799/MP3-MP3_player-MPMan_F10-MP3-.html)!
 - [Яндекс](http://internetno.net/2008/03/14/naroddisk-%E2%80%93-onlaynovyiy-vinchester-ot-yandeksa/) с [getdropbox](http://vadim.com.ua/2008/03/11/dropbox-legkoe-hranenie-i-sinhronizatsiya-faylov/) нам на радость

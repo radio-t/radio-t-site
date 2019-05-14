@@ -1,10 +1,10 @@
 +++
 title = "Радио–Т 67"
 date = "2007-12-30T07:12:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast67"
-+++
 
++++
 
 - Вред и польза пиратов
 - DVD лучше всех a HDTV обгоняет время

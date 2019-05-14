@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 571"
 date = "2017-11-11T17:34:08"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt571.jpg"
 filename = "rt_podcast571"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt571.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast571"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](https://sprintbox.ru/)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast571.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-571.html)
+[аудио](http://cdn.radio-t.com/rt_podcast571.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-571.html)
 <audio src="http://cdn.radio-t.com/rt_podcast571.mp3" preload="none"></audio>

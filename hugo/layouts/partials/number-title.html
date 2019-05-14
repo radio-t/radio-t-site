@@ -1,0 +1,2 @@
+<span class="podcast-title-prefix">{{ replaceRE `\s+\d+$` "" .Title }}</span><br>
+<span class="podcast-title-number display-4" data-target="podcast.number">{{ index (findRE `\d+$` .Title) 0 }}</span>

@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 281"
 date = "2012-03-25T02:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast281"
+image = "https://radio-t.com/images/radio-t/rt281.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt281.jpg)
@@ -19,4 +21,4 @@ filename = "rt_podcast281"
 - В 2000 году [Линукс](http://www.omgubuntu.co.uk/2012/03/apple-tried-to-hire-linus-torvalds-kill-linux/) мог кончиться
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast281.mp3) ● [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast281.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-281.html) ● [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_281)<audio src="http://cdn.radio-t.com/rt_podcast281.mp3" preload="none"></audio>
+[аудио](http://cdn.radio-t.com/rt_podcast281.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast281.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-281.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_281)<audio src="http://cdn.radio-t.com/rt_podcast281.mp3" preload="none"></audio>

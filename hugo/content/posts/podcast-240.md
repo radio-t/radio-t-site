@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 240"
 date = "2011-05-29T02:01:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast240"
+image = "https://radio-t.com/images/radio-t/rt240.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt240.png)
@@ -18,4 +20,4 @@ filename = "rt_podcast240"
 - Как упорядочить работу на дому
 - [Темы ](http://new.radio-t.com/2011/05/240.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast240.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast240.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-240.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast240.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast240.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast240.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-240.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast240.mp3" preload="none"></audio>

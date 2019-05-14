@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 589"
 date = "2018-03-17T18:48:06"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt589.jpg"
 filename = "rt_podcast589"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt589.jpg)
@@ -15,5 +16,5 @@ filename = "rt_podcast589"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast589.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-589.html)
+[аудио](http://cdn.radio-t.com/rt_podcast589.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-589.html)
 <audio src="http://cdn.radio-t.com/rt_podcast589.mp3" preload="none"></audio>

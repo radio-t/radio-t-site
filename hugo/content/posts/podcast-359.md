@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 359"
 date = "2013-09-28T17:30:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt359.jpg"
 filename = "rt_podcast359"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt359.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast359"
 
 _Спонсор этого выпуска [ledlamps.ru](http://ledlamps.ru)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast359.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-359.html)
+[аудио](http://cdn.radio-t.com/rt_podcast359.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-359.html)
 <audio src="http://cdn.radio-t.com/rt_podcast359.mp3" preload="none"></audio>

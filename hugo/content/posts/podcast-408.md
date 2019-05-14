@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 408"
 date = "2014-09-06T17:00:00"
-categories = ["podcast", "special"]
+categories = [ "podcast", "special",]
 image = "https://radio-t.com/images/radio-t/rt408.jpg"
 filename = "rt_podcast408"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt408.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast408"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast408.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-408.html)
+[аудио](http://cdn.radio-t.com/rt_podcast408.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-408.html)
 <audio src="http://cdn.radio-t.com/rt_podcast408.mp3" preload="none"></audio>

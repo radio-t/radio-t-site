@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 404"
 date = "2014-08-09T17:20:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt404.jpg"
 filename = "rt_podcast404"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt404.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast404"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [OnlyOffice](http://www.onlyoffice.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast404.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-404.html)
+[аудио](http://cdn.radio-t.com/rt_podcast404.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-404.html)
 <audio src="http://cdn.radio-t.com/rt_podcast404.mp3" preload="none"></audio>

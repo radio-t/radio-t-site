@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 525"
 date = "2016-12-10T17:46:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt525.jpg"
 filename = "rt_podcast525"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt525.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast525"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast525.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-525.html)
+[аудио](http://cdn.radio-t.com/rt_podcast525.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-525.html)
 <audio src="http://cdn.radio-t.com/rt_podcast525.mp3" preload="none"></audio>

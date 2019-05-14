@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 384"
 date = "2014-03-22T16:54:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt384.jpg"
 filename = "rt_podcast384"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt384.jpg)
@@ -16,5 +17,5 @@ filename = "rt_podcast384"
 * [Темная сторона открытых рабочих пространств](http://www.businessweek.com/articles/2014-03-13/too-distracted-to-work-the-dark-side-of-open-offices).
 - Темы наших слушателей.
 
-[аудио](http://cdn.radio-t.com/rt_podcast384.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-384.html)
+[аудио](http://cdn.radio-t.com/rt_podcast384.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-384.html)
 <audio src="http://cdn.radio-t.com/rt_podcast384.mp3" preload="none"></audio>

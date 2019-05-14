@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 508"
 date = "2016-08-13T18:17:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt508.jpg"
 filename = "rt_podcast508"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt508.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast508"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast508.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-508.html)
+[аудио](http://cdn.radio-t.com/rt_podcast508.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-508.html)
 <audio src="http://cdn.radio-t.com/rt_podcast508.mp3" preload="none"></audio>

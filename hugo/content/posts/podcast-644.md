@@ -18,5 +18,5 @@ filename = "rt_podcast644"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast644.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-644.html)
+[аудио](http://cdn.radio-t.com/rt_podcast644.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-644.html)
 <audio src="http://cdn.radio-t.com/rt_podcast644.mp3" preload="none"></audio>

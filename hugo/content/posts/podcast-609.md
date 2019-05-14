@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 609"
 date = "2018-08-04T19:14:14"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt609.jpg"
 filename = "rt_podcast609"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt609.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast609"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast609.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-609.html)
+[аудио](http://cdn.radio-t.com/rt_podcast609.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-609.html)
 <audio src="http://cdn.radio-t.com/rt_podcast609.mp3" preload="none"></audio>

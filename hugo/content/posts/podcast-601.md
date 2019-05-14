@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 601"
 date = "2018-06-09T18:31:34"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt601.jpg"
 filename = "rt_podcast601"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt601.jpg)
@@ -17,5 +18,5 @@ filename = "rt_podcast601"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast601.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-601.html)
+[аудио](http://cdn.radio-t.com/rt_podcast601.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-601.html)
 <audio src="http://cdn.radio-t.com/rt_podcast601.mp3" preload="none"></audio>

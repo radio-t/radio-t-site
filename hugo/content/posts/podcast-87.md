@@ -1,10 +1,10 @@
 +++
 title = "Радио-Т 87"
 date = "2008-05-25T11:02:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast87"
-+++
 
++++
 
 - Скажем да! Fedora 9
 - iPod в глаз

@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 416"
 date = "2014-11-01T18:43:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt416.jpg"
 filename = "rt_podcast416"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt416.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast416"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast416.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-416.html)
+[аудио](http://cdn.radio-t.com/rt_podcast416.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-416.html)
 <audio src="http://cdn.radio-t.com/rt_podcast416.mp3" preload="none"></audio>

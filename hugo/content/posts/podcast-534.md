@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 534"
 date = "2017-02-18T17:01:36"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt534.jpg"
 filename = "rt_podcast534"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt534.jpg)
@@ -18,5 +19,5 @@ filename = "rt_podcast534"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast534.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-534.html)
+[аудио](http://cdn.radio-t.com/rt_podcast534.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-534.html)
 <audio src="http://cdn.radio-t.com/rt_podcast534.mp3" preload="none"></audio>

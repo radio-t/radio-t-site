@@ -1,14 +1,13 @@
 +++
 title = "Радио-Т 142"
 date = "2009-06-28T09:07:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast142"
+image = "https://radio-t.com/images/radio-t/rt142.png"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt142.png)
-
-
-
 
 - [Firefox 3](http://www.securitylab.ru/news/381727.php) победил всех
 - Eclipse [Galileo](http://eclipse.dzone.com/articles/eclipse-galileo-how-release) вышел

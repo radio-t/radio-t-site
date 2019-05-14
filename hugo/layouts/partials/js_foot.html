@@ -1,28 +1,5 @@
-{{ if or (eq .URL "/") (eq (substr .URL 0 3) "/p/") }}
-<script>
-    var remark_config = {
-      site_id: '{{ .Site.Params.remark42 }}',
-      page_title: document.title,
-    };
-
-  (function() {
-    var d = document, s = d.createElement('script');
-    var baseurl = 'https://remark42.radio-t.com';
-
-    {{ if eq .URL "/" }}
-    s.src = baseurl + '/web/counter.js';
-    {{ else if eq (substr .URL 0 3) "/p/" }}
-    s.src = baseurl + '/web/embed.js';
-    {{ end }}
-
-    s.type = 'text/javascript';
-    (d.head || d.body).appendChild(s);
-  })();
-</script>
-{{ end }}
-
 <script type="text/javascript">
-  (function(){
+  (function() {
     var twitterWidgets = document.createElement('script');
     twitterWidgets.type = 'text/javascript';
     twitterWidgets.async = true;

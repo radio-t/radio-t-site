@@ -1,8 +1,10 @@
 +++
 title = "Радио-Т 263"
 date = "2011-11-13T02:29:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast263"
+image = "https://radio-t.com/images/radio-t/rt263.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt263.jpg)
@@ -20,4 +22,4 @@ filename = "rt_podcast263"
 - [Google+](http://www.slate.com/articles/technology/technology/2011/11/google_had_a_chance_to_compete_with_facebook_not_anymore_.html) сделал непонятное
 - Темы наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast263.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast263.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-263.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast263.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast263.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast263.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-263.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast263.mp3" preload="none"></audio>

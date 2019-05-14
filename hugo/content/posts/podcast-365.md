@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 365"
 date = "2013-11-09T16:00:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt365.jpg"
 filename = "rt_podcast365"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt365.jpg)
@@ -23,5 +24,5 @@ filename = "rt_podcast365"
 
 _Спонсор этого выпуска [ledlamps.ru](http://ledlamps.ru)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast365.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-365.html)
+[аудио](http://cdn.radio-t.com/rt_podcast365.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-365.html)
 <audio src="http://cdn.radio-t.com/rt_podcast365.mp3" preload="none"></audio>

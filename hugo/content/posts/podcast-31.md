@@ -1,10 +1,10 @@
 +++
 title = "Радио-T 31"
 date = "2007-04-16T20:43:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast31"
-+++
 
++++
 
 - Выход CentOS-5 и задержки Ubuntu и Леопарда
 - Zune 2.0 готовиться в Китае

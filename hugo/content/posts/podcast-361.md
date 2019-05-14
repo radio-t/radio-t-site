@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 361"
 date = "2013-10-12T16:49:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt361.jpg"
 filename = "rt_podcast361"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt361.jpg)
@@ -20,5 +21,5 @@ filename = "rt_podcast361"
 
 _Спонсор этого выпуска [ledlamps.ru](http://ledlamps.ru)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast361.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-361.html)
+[аудио](http://cdn.radio-t.com/rt_podcast361.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-361.html)
 <audio src="http://cdn.radio-t.com/rt_podcast361.mp3" preload="none"></audio>

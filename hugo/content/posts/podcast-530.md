@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 530"
 date = "2017-01-21T17:46:45"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt530.jpg"
 filename = "rt_podcast530"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt530.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast530"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Sprinthost](https://sprintbox.ru)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast530.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-530.html)
+[аудио](http://cdn.radio-t.com/rt_podcast530.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-530.html)
 <audio src="http://cdn.radio-t.com/rt_podcast530.mp3" preload="none"></audio>

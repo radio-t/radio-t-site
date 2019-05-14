@@ -1,0 +1,36 @@
+- update cover image
+
+===
++ первый клик по временной метке не прыгает на эту позицию в плеере
++ footer
++ DO banner
++ pass title to remark
++ fix multiple user sidebar
++ fix z-index remark user sidebar
++ favicons
++ online play buttons controller (play/pause toggle, playing state)
++ online markup
++ fix suggest topic button visibility
++ categories as hash tags
++ blue play button
++ banners
++ comments counter
++ feeds
+===
+===
+
+- цитаты? https://github.com/elquatro/rt-quotes/blob/master/src/quotes.yaml
+- use howler.js
+- animations for search and sidebar overlay
+- remember player state
+- preload archives links from mouse events
+- turbolinks double render?
+- fix safari responsive navbar
+
+- inline svg icons
+
+- use opengraph internal template
+  https://gohugo.io/templates/internal
+
+- Use predefined hugo vars
+  https://gohugo.io/content-management/front-matter/#predefined

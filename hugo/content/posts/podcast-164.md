@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 164"
 date = "2009-12-06T09:14:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast164"
+image = "https://radio-t.com/images/radio-t/rt164.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt164.jpg)
-
 
 - Новинки [FreeBSD ](http://www.opennet.ru/opennews/art.shtml?num=24420)8.0
 - Впечатления об N900 из первых рук

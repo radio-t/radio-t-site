@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 545"
 date = "2017-05-13T17:38:24"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt545.jpg"
 filename = "rt_podcast545"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt545.jpg)
@@ -17,5 +18,5 @@ filename = "rt_podcast545"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale), [SprintBox](http://bit.ly/2qfc9W8) и [Answerdesk](http://bit.ly/2pwf4Lo)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast545.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-545.html)
+[аудио](http://cdn.radio-t.com/rt_podcast545.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-545.html)
 <audio src="http://cdn.radio-t.com/rt_podcast545.mp3" preload="none"></audio>

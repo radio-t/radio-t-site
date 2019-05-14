@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 145"
 date = "2009-07-19T12:15:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast145"
+image = "https://radio-t.com/images/radio-t/rt145.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt145.jpg)
-
 
 Необычный выпуск! Новый хост, новая ведущая но старый гость.
 

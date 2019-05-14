@@ -1,12 +1,13 @@
 +++
 title = "Радио-Т 237"
 date = "2011-05-01T03:35:00"
-categories = ["podcast"]
+categories = [ "podcast",]
 filename = "rt_podcast237"
+image = "https://radio-t.com/images/radio-t/rt237.jpg"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt237.jpg)
-
 
 - Гость о зарубежном IT визите
 - [Myspace ](http://www.readwriteweb.com/archives/news_corp_has_finally_had_it_accepting_bids_for_my.php)продается
@@ -18,4 +19,4 @@ filename = "rt_podcast237"
 - Закат buzz по непонятным причинам
 - [Темы ](http://new.radio-t.com/2011/04/237.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast237.mp3) ● [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast237.mp3.torrent) ● [лог чата](http://chat.radio-t.com/logs/radio-t-237.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast237.mp3" preload="none"></audio>
+[аудио](http://archive.rucast.net/radio-t/media/rt_podcast237.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast237.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-237.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast237.mp3" preload="none"></audio>

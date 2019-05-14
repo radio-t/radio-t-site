@@ -1,9 +1,10 @@
 +++
 title = "Радио-Т 622"
 date = "2018-11-03T18:12:55"
-categories = ["podcast"]
+categories = [ "podcast",]
 image = "https://radio-t.com/images/radio-t/rt622.jpg"
 filename = "rt_podcast622"
+
 +++
 
 ![](https://radio-t.com/images/radio-t/rt622.jpg)
@@ -19,5 +20,5 @@ filename = "rt_podcast622"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast622.mp3) ● [лог чата](http://chat.radio-t.com/logs/radio-t-622.html)
+[аудио](http://cdn.radio-t.com/rt_podcast622.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-622.html)
 <audio src="http://cdn.radio-t.com/rt_podcast622.mp3" preload="none"></audio>
