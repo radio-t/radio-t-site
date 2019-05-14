@@ -19,11 +19,11 @@ SAVE_TO = '/srv/hugo/public'
 DATA_RSS = './data/rss'
 FEEDS = [
     {'name': 'podcast', 'title': 'Радио-Т',
-     'image': 'https://radio-t.com/images/cover.jpg', 'count': 20, 'size': True},
+     'image': 'https://radio-t.com/images/covers/cover.png', 'count': 20, 'size': True},
     {'name': 'podcast-archives', 'title': 'Радио-Т Архивы',
-     'image': 'https://radio-t.com/images/cover_rt_big_archive.png', 'count': 1000, 'size': False},
+     'image': 'https://radio-t.com/images/covers/cover-archive.png', 'count': 1000, 'size': False},
     {'name': 'podcast-archives-short', 'title': 'Радио-Т Архивы',
-     'image': 'https://radio-t.com/images/cover_rt_big_archive.png', 'count': 25, 'size': False},
+     'image': 'https://radio-t.com/images/covers/cover-archive.png', 'count': 25, 'size': False},
 ]
 
 

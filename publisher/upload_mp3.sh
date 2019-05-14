@@ -11,9 +11,9 @@ lftp="/usr/local/bin/lftp"
 notif="/usr/local/bin/terminal-notifier"
 
 episode=`echo $1 | sed -n 's/.*rt_podcast\(.*\)\.mp3/\1/p'`
-image="cover_rt.png"
+image="../hugo/static/images/covers/cover.png"
 ${notif} -title PodPrc -message "Radio-T detected #${episode}"
-utils/eyeD3.exec -v --remove-all --set-encoding=utf8 --album="Радио-Т" --add-image=utils/cover_rt.png:FRONT_COVER: --artist="Umputun, Bobuk, Gray, Ksenks" --track=${episode} --title="Радио-Т ${episode}" --year=$(date +%Y)  --genre="Podcast" $1
+utils/eyeD3.exec -v --remove-all --set-encoding=utf8 --album="Радио-Т" --add-image=${image}:FRONT_COVER: --artist="Umputun, Bobuk, Gray, Ksenks" --track=${episode} --title="Радио-Т ${episode}" --year=$(date +%Y)  --genre="Podcast" $1
 ${notif} -title PodPrc -message "Radio-T tagged"
 
 cd ..
