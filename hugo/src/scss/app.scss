@@ -614,7 +614,7 @@ $ripple-scale-out: 3.4;
   width: 100%;
   appearance: none;
   border: 0;
-  background: $primary; // url("../images/logo-icon.svg") center no-repeat;
+  background: $primary url("../images/logo-icon.svg") center no-repeat;
   color: $white;
   background-size: cover;
   margin: 0;
@@ -623,6 +623,9 @@ $ripple-scale-out: 3.4;
   transform: scale(1.0001);
   transition: all 150ms;
   cursor: pointer;
+  .is-online & {
+    background: $primary;
+  }
   &:hover, &:focus {
     transform: scale(1.03) translate3d(0, -1px, 0);
     transition-duration: 30ms;
@@ -646,18 +649,21 @@ $ripple-scale-out: 3.4;
   }
 }
 .online-play-button-icon {
+  display: none;
   font-size: 50%;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
   align-items: center;
   justify-content: center;
+  .is-online & {
+    display: flex;
+  }
 }
 .banner-online-play-button {
-  display: inline-block;
+  display: none;
   appearance: none;
   background: none;
   border: none;
@@ -667,6 +673,9 @@ $ripple-scale-out: 3.4;
   transform: scale(1.0001);
   transition: all 150ms;
   cursor: pointer;
+  .is-online & {
+    display: inline-block;
+  }
   &:hover, &:focus {
     transform: scale(1.1) translate3d(0, -1px, 0);
     transition-duration: 30ms;

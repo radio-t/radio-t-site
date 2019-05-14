@@ -1,9 +1,14 @@
-import Visibility from "visibilityjs";
+import Visibility from 'visibilityjs';
 import Controller from '../base_controller';
 import Player from './player_controller';
 
-const STREAM_SRC = 'http://stream.radio-t.com/';
 // const STREAM_SRC = 'http://rfcmedia.streamguys1.com/MusicPulse.mp3'; // demo
+const STREAM_SRC = 'http://stream.radio-t.com/';
+const showTime = {
+  day: 6,
+  hours: 23,
+  minutes: 0,
+};
 
 /**
  * This handles online page and online banner.
@@ -14,17 +19,12 @@ const STREAM_SRC = 'http://stream.radio-t.com/';
 export default class extends Controller {
   static targets = ['label', 'time'];
 
-  initialize() {
-    super.initialize();
+  connect() {
+    super.connect();
 
     this.setupTimer();
     this.fetchPlayingState();
   }
-
-  // connect() {
-  //   super.connect();
-  //
-  // }
 
   disconnect() {
     super.disconnect();
@@ -32,10 +32,15 @@ export default class extends Controller {
   }
 
   setupTimer() {
-    this.timeTarget.innerHTML = this.timerHTML();
-    this.visibilityInterval = Visibility.every(1000, 60000, () => {
-      this.timeTarget.innerHTML = this.timerHTML();
-    });
+    const tick = () => {
+      const timer = this.timer();
+      console.log(timer);
+      this.timeTarget.innerHTML = timer.html;
+      this.element.classList.toggle('is-online', timer.isOnline);
+    };
+
+    tick();
+    this.visibilityInterval = Visibility.every(1000, 60000, tick);
   }
 
   fetchPlayingState() {
@@ -69,7 +74,7 @@ export default class extends Controller {
     };
   }
 
-  timerHTML() {
+  timer() {
     function getUnits(value, units) {
       return (/^[0,2-9]?[1]$/.test(value)) ? units[0] : ((/^[0,2-9]?[2-4]$/.test(value)) ? units[1] : units[2]);
     }
@@ -82,13 +87,14 @@ export default class extends Controller {
     timeInMoscow.setMinutes(timeInMoscow.getMinutes() + timeInMoscow.getTimezoneOffset() + 3 * 60);
 
     const nextShow = new Date(timeInMoscow);
-    nextShow.setDate(nextShow.getDate() + 6 - nextShow.getDay());
-    nextShow.setHours(23, 0, 0, 0);
+    nextShow.setDate(nextShow.getDate() + showTime.day - nextShow.getDay());
+    nextShow.setHours(showTime.hours, showTime.minutes, 0, 0);
 
     const totalSeconds = Math.floor((nextShow - timeInMoscow) / 1000);
 
-    if (totalSeconds < 0) {
-      return 'Мы в эфире!';
+    const isOnline = totalSeconds <= 0;
+    if (isOnline) {
+      return {isOnline, html: 'Мы в эфире!'};
     }
 
     let seconds = totalSeconds % 60,
@@ -98,15 +104,15 @@ export default class extends Controller {
 
     hours %= 24;
 
-    let result = '';
+    let html = '';
     const daysList = ['день', 'дня', 'дней'];
 
     if (days > 0) {
-      result += days + ' ' + getUnits(days, daysList) + ' ';
+      html += days + ' ' + getUnits(days, daysList) + ' ';
     }
 
-    result += `${padTime(hours)}:${padTime(minutes)}<span style="opacity: .5;">:${padTime(seconds)}</span>`;
+    html += `${padTime(hours)}:${padTime(minutes)}<span style="opacity: .5;">:${padTime(seconds)}</span>`;
 
-    return result;
+    return {isOnline, html};
   }
 }
