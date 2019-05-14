@@ -7,7 +7,7 @@ ENV NODE_ENV=production
 COPY hugo/package.json hugo/package-lock.json ./
 RUN npm install --only=production
 
-COPY hugo/.modernizr.js hugo/webpack.mix.js ./
+COPY hugo/.modernizr.js hugo/webpack.mix.js hugo/tsconfig.json ./
 COPY hugo/src/ src/
 RUN npm run production
 
