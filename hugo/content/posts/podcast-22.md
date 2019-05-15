@@ -8,7 +8,7 @@ filename = "rt_podcast22"
 
 - Два больных ведущих в виртуальной студии
 - Убить DRM
-- Apple - новая империя зла
+- Apple — новая империя зла
 - Unix теряет рынок
 - FSF против Novell. Запретить продавать продукт!
 - [Windows Mobile 6](http://www.engadget.com/photos/windows-mobile-6-professional/) вышла

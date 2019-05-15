@@ -14,7 +14,7 @@ filename = "rt_podcast537"
 - [Google почти научился искать видео](http://mashable.com/2017/03/08/google-video-intelligence-api/) - *00:23:25*.
 - [Вторая жизнь Hangouts](http://blog.google:443/products/g-suite/meet-the-new-enterprise-focused-hangouts/) - *00:30:46*.
 - [Все плохо с парольными правилами](https://blog.codinghorror.com/password-rules-are-bullshit/) - *00:49:30*.
-- [RESTful API - большая ложь](https://mmikowski.github.io/the_lie/) - *01:29:27*.
+- [RESTful API — большая ложь](https://mmikowski.github.io/the_lie/) - *01:29:27*.
 - [Confide, но не совсем](https://arstechnica.com/security/2017/03/unfixed-weaknesses-in-confide-stoke-doubts-about-end-to-end-crypto-claims/) - *02:06:51*.
 - Темы наших слушателей
 

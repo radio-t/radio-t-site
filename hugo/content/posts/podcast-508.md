@@ -14,7 +14,7 @@ filename = "rt_podcast508"
 - [Google создает новую OS](http://thenextweb.com/google/2016/08/13/google-is-secretly-creating-a-new-os-thats-not-based-on-linux/) - *00:26:44*.
 - [AWS Application Load Balancer](https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/) - *00:32:09*.
 - [Google Cloud берет ценой](https://techcrunch.com/2016/08/09/google-cloud-platforms-preemptible-vms-are-now-up-to-33-cheaper/) - *00:43:45*.
-- [Google против Amazon - напоминает телефон от MS](http://www.businessinsider.com/google-vs-amazon-in-cloud-is-like-a-microsoft-phone-tech-exec-says-2016-8) - *00:46:26*.
+- [Google против Amazon — напоминает телефон от MS](http://www.businessinsider.com/google-vs-amazon-in-cloud-is-like-a-microsoft-phone-tech-exec-says-2016-8) - *00:46:26*.
 - [Adblock Plus против Facebook](http://mashable.com/2016/08/11/facebook-adblock-plus-ads/) - *01:27:35*.
 - Темы наших слушателей
 

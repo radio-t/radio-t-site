@@ -9,7 +9,7 @@ image = "https://radio-t.com/images/radio-t/rt315.jpg"
 
 ![](https://radio-t.com/images/radio-t/rt315.jpg)
 
-* ["Луркоморье" внесли в реестр запрещенных сайтов](http://lenta.ru/news/2012/11/12/lurk/) - от первого лица
+* ["Луркоморье" внесли в реестр запрещенных сайтов](http://lenta.ru/news/2012/11/12/lurk/) — от первого лица
 * Самое [опасное место интернета](http://www.forbes.com/sites/kenrapoza/2012/11/02/for-internet-safety-russia-most-dangerous-in-world/)
 * Что-то страшное [случилось с Skype](http://thenextweb.com/microsoft/2012/11/14/security-hole-allows-anyone-to-hijack-your-skype-account-using-only-your-email-addres)
 * [Skype починил](http://abcnews.go.com/Technology/skype-fixes-password-reset-security-hole/story?id=17718868) проблему, но медленно

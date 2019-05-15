@@ -13,7 +13,7 @@ filename = "rt_podcast329"
 * [Сравнение Pixel](http://techcrunch.com/2013/02/21/tale-of-the-tape-chromebook-pixel-vs-surface-pro-vs-macbook-air/) с конкурентами.
 * [Не покупать!](http://gizmodo.com/5986031/every-reason-not-to-buy-the-google-chromebook-pixel) это.
 *  А может [оно кому и надо?](http://mashable.com/2013/02/21/heres-who-needs-a-chromebook-pixel/)
-* [Магазины Google](http://techcrunch.com/2013/02/21/google-play-stores/) - теперь понятно зачем.
+* [Магазины Google](http://techcrunch.com/2013/02/21/google-play-stores/) — теперь понятно зачем.
 * С днем рождения [Objective-C](http://blog.securemacprogramming.com/2013/02/happy-birthday-objective-c/).
 * [Философы как гики](http://developeronline.blogspot.com/2009/04/if-philosophers-were-programmers.html).
 *  И [Microsoft тоже обидели](http://nakedsecurity.sophos.com/2013/02/23/microsoft-malware-attack/).

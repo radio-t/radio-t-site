@@ -15,7 +15,7 @@ filename = "rt_podcast371"
 * [LG 21.5" Chromebase](http://www.engadget.com/2013/12/17/lg-chromebase-aio/)
 * [Мониторы в прошлом](http://venturebeat.com/2013/12/17/monitors-are-so-2013-apple-scores-patent-for-a-desk-free-computer-with-smart-laser-projector/)
 * UK тоже [не очень умеет](http://gigaom.com/2013/12/19/astonishingly-the-uks-grand-porn-filter-scheme-isnt-just-blocking-porn/)
-* [Amazon I2](http://aws.typepad.com/aws/2013/12/amazon-ec2-new-i2-instance-type-available-now.html) - круто и дорого
+* [Amazon I2](http://aws.typepad.com/aws/2013/12/amazon-ec2-new-i2-instance-type-available-now.html) — круто и дорого
 * Технические подробности о [защищённом P2P-чате BitTorrent](http://habrahabr.ru/post/206770/)
 * Kevin Rose [придумал странное](http://tech.co/kevin-rose-new-idea-revolutionize-blogging-2013-12)
 * [Очень крутой кубик](http://www.theverge.com/2013/12/20/5229992/cubli-moving-robotic-cube-balances-on-sides-corners)

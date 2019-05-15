@@ -16,7 +16,7 @@ filename = "rt_podcast450"
 * [Lenovo устроит воскрешение ThinkPad](http://prsm.tc/UHGM5h).
 * [Google убила Android Eclipse Tools](http://www.infoq.com/news/2015/06/google-android-eclipse).
 * [Что нового в Eclipse Mars](http://eclipsesource.com/blogs/2015/06/24/top-10-eclipse-mars-features/).
-* [RapidBox - редакция заинтригована](http://prsm.tc/d6DH6G).
+* [RapidBox — редакция заинтригована](http://prsm.tc/d6DH6G).
 * [Gmail научился не посылать ошибки](http://prsm.tc/eq0s8u).
 - Темы наших слушателей.
 

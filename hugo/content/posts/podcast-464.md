@@ -10,7 +10,7 @@ filename = "rt_podcast464"
 ![](https://radio-t.com/images/radio-t/rt464.jpg)
 
 * [Otto заменяет Vagrant](https://www.ottoproject.io/intro/index.html).
-* [Nomad - кластер от HashiCorp](https://hashicorp.com/blog/nomad.html).
+* [Nomad — кластер от HashiCorp](https://hashicorp.com/blog/nomad.html).
 * [Зачем учить новый язык?](http://www.webcodegeeks.com/web-development/learn-new-programming-language/)
 * [Rackspace и с Amazon?](http://www.theregister.co.uk/2015/09/30/rackspace_amazon_sure_you_can_buy_their_cloud_from_us/)
 * [Доступна IntelliJ IDEA 15 Preview](http://habrahabr.ru/company/JetBrains/blog/268117/)

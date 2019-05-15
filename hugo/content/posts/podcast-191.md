@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt191.jpg"
 - Pulse [обидел ](http://bits.blogs.nytimes.com/2010/06/08/times-company-objects-to-news-reader-app/)NYT
 - Хакеры атaкуют [AT&T;](http://www.switched.com/2010/06/10/hackers-target-atandt-ipad-users-obtain-114-000-high-profile-e-ma/)
 
-**_Спонсор этого выпуска – хостинг _[_fastvps.ru_](http://fastvps.ru/)**
+**_Спонсор этого выпуска — хостинг _[_fastvps.ru_](http://fastvps.ru/)**
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast191.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast191.mp3.torrent)

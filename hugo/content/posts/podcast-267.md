@@ -15,7 +15,7 @@ image = "https://radio-t.com/images/radio-t/rt267.jpg"
 - Мобильный Твиттер не особо
 - Flipboard и Zite пришли на iPhone
 - Почему из программистов не получаются админы
-- AnswerDesk - одна из веселых тем
+- AnswerDesk — одна из веселых тем
 - Релиз среды разработки приложений IntelliJ IDEA 11
 - Виртуальный HipHop для PHP
 - Специалисты не в восторге от Fire

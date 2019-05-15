@@ -9,7 +9,7 @@ filename = "rt_podcast471"
 
 ![](https://radio-t.com/images/radio-t/rt471.jpg)
 
-* [“Hoverboard” - самая крутая технология 2015](http://www.ACASUALSENSE.com/hoverboard-coolest-technology-of-2015/).
+* [“Hoverboard” — самая крутая технология 2015](http://www.ACASUALSENSE.com/hoverboard-coolest-technology-of-2015/).
 * [SSL скоро станет бесплатным](https://certsimple.com/blog/domain-validated-ssl-will-be-free).
 * [Rdio закрывает подписку](http://www.digitalmusicnews.com/2015/11/20/breaking-rdio-is-terminating-all-subscriptions-on-monday/).
 * [Секретно, как булыжник](http://www.geeksaresexy.net/2015/11/19/new-gadget-promises-rock-solid-security/).

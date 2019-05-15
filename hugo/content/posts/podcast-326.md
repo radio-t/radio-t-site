@@ -11,7 +11,7 @@ filename = "rt_podcast326"
 
 * Что ужасного можно [найти в исходных текстах](http://gizmodo.com/5980842/there-is-blatant-racist-and-sexist-language-in-github-code)
 * Eclipse выпустили [Hudson 3.0](http://eclipse.org/org/press-release/20130123_hudson3.php)
-* [MySQL - нет, MariaDB - да](http://www.zdnet.com/oracle-who-fedora-and-opensuse-will-replace-mysql-with-mariadb-7000010640/)
+* [MySQL — нет, MariaDB — да](http://www.zdnet.com/oracle-who-fedora-and-opensuse-will-replace-mysql-with-mariadb-7000010640/)
 * Еще раз [про работу из дома](http://blog.stackoverflow.com/2013/02/why-we-still-believe-in-working-remotely/)
 * [RabbitMQ от очевидца](http://blog.craftforge.net/messaging-with-rabbitmq/)
 - Темы наших слушателей

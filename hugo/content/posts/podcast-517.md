@@ -9,7 +9,7 @@ filename = "rt_podcast517"
 
 ![](https://radio-t.com/images/radio-t/rt517.jpg)
 
-- [VMware на AWS - новый гибрид](https://techcrunch.com/2016/10/13/vmware-cloud-on-aws/) - *00:05:28*.
+- [VMware на AWS — новый гибрид](https://techcrunch.com/2016/10/13/vmware-cloud-on-aws/) - *00:05:28*.
 - [Galaxy Note 7 закончился](http://www.theverge.com/2016/10/11/13202608/samsung-galaxy-note-7-discontinued) - *00:18:15*.
 - [Samsung сделал странный MacPro](http://arstechnica.com/gadgets/2016/10/samsung-introduces-its-own-high-end-cylindrical-desktop-computer/) - *00:27:09*.
 - [Почему сири такая глупая](http://www.recode.net/2016/10/12/13251618/mossberg-apple-siri-digital-assistant-dumb) - *00:37:40*.

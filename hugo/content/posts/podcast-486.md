@@ -11,7 +11,7 @@ filename = "rt_podcast486"
 
 - [Увидел свет язык программирования Rust 1.7](http://www.opennet.ru/opennews/art.shtml?num=43985) - *00:01:22*.
 - [Mozilla и Samsung придумают браузерный мотор](https://www.opennet.ru/opennews/art.shtml?num=36576) - *00:04:09*.
-- [FP – это очень странно](http://probablydance.com/2016/02/27/functional-programming-is-not-popular-because-it-is-weird/) - *00:07:36*.
+- [FP — это очень странно](http://probablydance.com/2016/02/27/functional-programming-is-not-popular-because-it-is-weird/) - *00:07:36*.
 - [Нет, FP это наше все](https://medium.com/@cameronp/functional-programming-is-not-weird-you-just-need-some-new-patterns-7a9bf9dc2f77) - *00:27:01*.
 - [Microsoft/vscode-go](https://github.com/Microsoft/vscode-go) - *00:49:45*.
 - [HTTP/2: готовимся к переходу](https://habrahabr.ru/company/selectel/blog/278167/) - *00:58:38*.

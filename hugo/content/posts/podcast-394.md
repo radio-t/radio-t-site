@@ -14,7 +14,7 @@ filename = "rt_podcast394"
 * [DropBox это дорогая ошибка](http://iops.io/blog/dropbox-is-an-expensive-and-dangerous-mistake/)
 * [sh для питона](https://amoffat.github.io/sh/)
 * [Вышел обновленный PyCharm 3.4](http://habrahabr.ru/company/JetBrains/blog/224699/)
-* [Микросервисы - темная строна](http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html)
+* [Микросервисы — темная строна](http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html)
 * [Как правильно работать поздно](http://dan.carley.co/blog/2014/05/21/working-late-responsibly)
 - Темы наших слушателей
 

@@ -20,7 +20,7 @@ image = "https://radio-t.com/images/radio-t/rt194.png"
 - GitHub придумал [Organizations](http://www.readwriteweb.com/start/2010/06/github-introduces-organization.php)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-194/) наших слушателей
 
-**_Спонсор этого выпуска – хостинг _[_fastvps.ru_](http://fastvps.ru/)**
+**_Спонсор этого выпуска — хостинг _[_fastvps.ru_](http://fastvps.ru/)**
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast194.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast194.mp3.torrent)

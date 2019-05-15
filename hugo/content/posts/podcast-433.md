@@ -9,7 +9,7 @@ filename = "rt_podcast433"
 
 ![](https://radio-t.com/images/radio-t/rt433.jpg)
 
-* [Pebble Time – новые часы с цветным E-Ink дисплеем](http://geektimes.ru/company/madrobots/blog/246338/)
+* [Pebble Time — новые часы с цветным E-Ink дисплеем](http://geektimes.ru/company/madrobots/blog/246338/)
 * [Google может расчленить Google+](http://prsm.tc/TZUHs4)
 * [Microsoft хочет дружить с Docker](https://gigaom.com/2015/02/26/microsoft-joins-docker-in-announcing-new-container-services/)
 * [Компилятор Go переписан на Go](http://habrahabr.ru/post/251393/)

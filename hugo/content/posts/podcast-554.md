@@ -12,7 +12,7 @@ filename = "rt_podcast554"
 - [1Password всех напряг](https://www.cyberscoop.com/1password-subscription-no-local-machine-storage/) - *00:02:20*.
 - [Но при этом они всех любят](https://blog.agilebits.com/2017/07/13/why-we-love-1password-memberships/) - *00:11:54*.
 - [Elon Musk запустил новый проект x.com](http://mashable.com/2017/07/14/x-elon-musk-website/) - *00:22:18*.
-- [Alibaba Cloud - обводили правильные образцы](https://www.alibabacloud.com/why-alibaba-cloud?spm=a3c0i.7922197.210943.1.4cfa9445TeKm8q) - *00:27:28*.
+- [Alibaba Cloud — обводили правильные образцы](https://www.alibabacloud.com/why-alibaba-cloud?spm=a3c0i.7922197.210943.1.4cfa9445TeKm8q) - *00:27:28*.
 - [DO запустили High CPU Droplets](https://blog.digitalocean.com/introducing-high-cpu-droplets/?utm_medium=email) - *00:35:35*.
 - [Новые  EC2 G3](https://aws.amazon.com/about-aws/whats-new/2017/07/introducing-amazon-ec2-g3-instances-the-next-generation-of-gpu-powered-instances-for-graphics-intensive-applications/?sc_channel=sm) - *00:40:20*.
 - [На пути к Go 2](https://habrahabr.ru/post/333346/) - *00:47:00*.

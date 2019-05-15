@@ -13,7 +13,7 @@ image = "https://radio-t.com/images/radio-t/rt286.jpg"
 - Запуск [Google Drive](http://habrahabr.ru/post/142750/). Зачем это и кто виноват.
 - И [SkyDrive](http://mashable.com/2012/04/23/skydrive-update-100gb-storage/) тоже
 - Выход[ ](http://www.blogger.com/goog_1855749673)[Ubuntu 12.0.4](http://www.theverge.com/2012/4/27/2978784/ubuntu-12-0-4-released-new-hud-interface)
-- Яндекс [Q1](http://techcrunch.com/2012/04/26/yandex-q1-earnings-revenues-up-51-to-200-3m-net-income-up-53-to-43m/) - молодцы!
+- Яндекс [Q1](http://techcrunch.com/2012/04/26/yandex-q1-earnings-revenues-up-51-to-200-3m-net-income-up-53-to-43m/) — молодцы!
 - [E Ink](http://www.fastcompany.com/1835676/follow-up-the-tablet-really-is-killing-the-e-reader) начинает сдуваться
 - И там тоже можно носить [iPhone](http://thenextweb.com/shareables/2012/04/27/is-that-an-iphone-in-your-bra-or-are-you-just-happy-to-see-me/)
 - В [Skype](http://www.theverge.com/2012/4/27/2981524/usb-tin-can-telephone-kickstarter) по банке

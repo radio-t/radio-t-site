@@ -15,7 +15,7 @@ filename = "rt_podcast555"
 - [Украденно $31M и чем это грозит Ethereum](http://haseebq.com/a-hacker-stole-31m-of-ether/) - *00:42:12*.
 - [Машинное обучение за $79](https://techcrunch.com/2017/07/20/movidius-launches-a-79-deep-learning-usb-stick/) - *01:07:34*.
 - [Gigabyte покажест своего убийцу Raspberry Pi](http://www.techradar.com/news/gigabytes-new-raspberry-pi-rival-is-bigger-but-more-flexible) - *01:11:47*.
-- [GitLab 9.4 - все сломали, как обычно](https://about.gitlab.com/2017/07/22/gitlab-9-4-released/) - *01:18:34*.
+- [GitLab 9.4 — все сломали, как обычно](https://about.gitlab.com/2017/07/22/gitlab-9-4-released/) - *01:18:34*.
 - [Яндекс и котики, которые не котики](https://techcrunch.com/2017/07/18/yandex-open-sources-catboost-a-gradient-boosting-machine-learning-librar/) - *01:25:29*.
 - [Google с потоком новостей](http://www.bbc.co.uk/news/technology-40656033) - *01:33:52*.
 - [Темы наших слушателей](https://radio-t.com/p/2017/07/18/prep-555/) - *01:44:47*.

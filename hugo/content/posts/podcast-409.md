@@ -16,7 +16,7 @@ filename = "rt_podcast409"
 * С праздником, коллеги!
 * При Джобсе такого не было.
 * [Нам показали iPhone 6 и iPhone 6 Plus](http://techcrunch.com/2014/09/09/apple-announces-two-new-iphones-iphone-6-and-iphone-6-plus/)
-* [Apple Watch](http://venturebeat.com/2014/09/09/apple-shows-off-its-long-awaited-apple-watch-smartwatch/) - что это было?
+* [Apple Watch](http://venturebeat.com/2014/09/09/apple-shows-off-its-long-awaited-apple-watch-smartwatch/) — что это было?
 * Прочие разговоры о мероприятии
 - Темы наших слушателей
 

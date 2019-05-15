@@ -14,7 +14,7 @@ filename = "rt_podcast452"
 * [Amazon API Gateway](https://aws.amazon.com/blogs/aws/amazon-api-gateway-build-and-run-scalable-application-backends/)
 * [MS проиграла еще одну войну](http://www.wired.com/2015/07/microsoft-phone-job-cuts/).
 * [Azure в 4 раза дороже?](http://prsm.tc/zuB9PL)
-* [DC2 - на вид как контейнер](https://www.kickstarter.com/projects/dickhardt/dc2-desktop-container-computer-for-docker-containe).
+* [DC2 — на вид как контейнер](https://www.kickstarter.com/projects/dickhardt/dc2-desktop-container-computer-for-docker-containe).
 - Темы наших слушателей.
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_

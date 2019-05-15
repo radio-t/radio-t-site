@@ -13,7 +13,7 @@ filename = "rt_podcast609"
 - [Чему нас учит терминал](https://brandur.org/interfaces) - *00:33:59*.
 - [Apache NetBeans 9.0](https://sdtimes.com/java/apache-netbeans-incubating-9-0-is-now-available/) - *00:53:50*.
 - [Проводим Code Review культурно](https://blog.plaid.com/building-an-inclusive-code-review-culture/) - *01:04:25*.
-- [Grumpy - из питона в Go ](https://github.com/grumpyhome/grumpy/blob/master/README.md) - *01:41:04*.
+- [Grumpy — из питона в Go ](https://github.com/grumpyhome/grumpy/blob/master/README.md) - *01:41:04*.
 - [Go Cloud](https://blog.golang.org/go-cloud) - *01:45:06*.
 - [Обновления Bitbucket](https://blog.bitbucket.org/2018/07/19/13-new-bitbucket-cloud-features/) - *01:49:40*.
 - Темы наших слушателей

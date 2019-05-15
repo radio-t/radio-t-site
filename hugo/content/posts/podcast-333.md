@@ -17,7 +17,7 @@ filename = "rt_podcast333"
 * [Jony Ive](http://techcrunch.com/2013/03/21/apple-jony-ive-ios-design-interface/) участвует в плоском дизайне.
 * [S3 Open Source](http://www.wired.com/wiredenterprise/2013/03/riakcs-open-source/) клон.
 * И еще одни [будут делать часы](http://techcrunch.com/2013/03/22/google-rumored-to-be-making-a-smartwatch-too/)
-* [ownCloud5](http://cloudcomputing.sys-con.com/node/2590107) по прежнему - тормозит и глючит.
+* [ownCloud5](http://cloudcomputing.sys-con.com/node/2590107) по прежнему — тормозит и глючит.
 * [HipChat для 5](http://blog.hipchat.com/2013/03/21/hipchat-now-free-for-teams-of-5-users-or-fewer/) бесплатно.
 * [Playhaven гики](http://venturebeat.com/2013/03/20/playhaven-developer-fired-for-making-sexual-jokes-after-sendgrids-developer-evangelist-outs-hi) слишком много говорят.
 

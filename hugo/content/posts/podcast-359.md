@@ -15,7 +15,7 @@ filename = "rt_podcast359"
 * Ошибка [с 'Control-Alt-Delete'](http://www.huffingtonpost.com/2013/09/26/bill-gates-control-alt-delete_n_3995179.html)
 * [iMac тихо обновился](http://techcrunch.com/2013/09/24/apple-new-imacs/)
 * Страшный баг [Google Talk](http://habrahabr.ru/company/apps4all/blog/195362/)
-* [iOS 7 - вредные советы](http://www.telegraph.co.uk/technology/apple/10330414/iOS-7-users-destroy-iPhones-after-fake-waterproof-advert.html)
+* [iOS 7 — вредные советы](http://www.telegraph.co.uk/technology/apple/10330414/iOS-7-users-destroy-iPhones-after-fake-waterproof-advert.html)
 * [iMessage для Android](http://gigaom.com/2013/09/24/you-probably-shouldnt-download-that-imessage-for-android-app/) для самых доверчивых.
 
 _Спонсор этого выпуска [ledlamps.ru](http://ledlamps.ru)_

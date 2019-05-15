@@ -15,7 +15,7 @@ filename = "rt_podcast473"
 - [За и против ORM](http://martinfowler.com/bliki/OrmHate.html).
 - [Проблема эллитизма среди программистов](http://social.techcrunch.com/2015/11/27/software-developers-growing-elitism-problem/).
 - [Компания Microsoft открыла код DMTK](http://www.opennet.ru/opennews/art.shtml?num=43323).
-- [Eclipse Che - новое поколение IDE](https://eclipse.org/che/).
+- [Eclipse Che — новое поколение IDE](https://eclipse.org/che/).
 - [HappenApps для правильных заметок](http://happenapps.com/).
 - [Visual Studio тоже открыт](http://arstechnica.co.uk/information-technology/2015/11/visual-studio-now-supports-debugging-linux-apps-code-editor-now-open-source/).
 - [Победа за статикой?](http://pointersgonewild.com/2015/11/25/have-static-languages-won/)

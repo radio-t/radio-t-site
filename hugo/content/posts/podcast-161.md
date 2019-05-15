@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt161.jpg"
 - и [утилитой ](http://www.opennet.ru/opennews/art.shtml?num=24204)USB/DVD Download Tool
 - [умные головы](http://www.opennet.ru/opennews/art.shtml?num=24247) предлагают SPDY
 - [те же головы](http://www.engadget.com/2009/11/13/google-makes-gizmo5-acquisition-official-drops-few-details/) приобретают Gizmo5
-- [Zino HD](http://hitech.tomsk.ru/newshardware/13575-dell-predstavil-inspiron-zino-hd.html) - немного другой Mini
+- [Zino HD](http://hitech.tomsk.ru/newshardware/13575-dell-predstavil-inspiron-zino-hd.html) — немного другой Mini
 - Python 3 [законсервирован](http://www.opennet.ru/opennews/art.shtml?num=24234). Срок годности до 26.6.2011
 
 * Отпускной подкаст. Звук полевой, сведение на коленке.

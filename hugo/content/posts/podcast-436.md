@@ -15,7 +15,7 @@ filename = "rt_podcast436"
 * [Ночной кошмар для Linux на декстопе](http://www.extremetech.com/extreme/201722-linuxs-worst-case-scenario-microsoft-makes-secure-boot-mandatory-locks-out-other-opera).
 * [Yahoo показала Password-Free Login](http://social.techcrunch.com/2015/03/16/yahoo-introduces-password-free-login-just-dont-lose-your-phone/).
 * [Microsoft превратит Android в Windows 10](http://social.techcrunch.com/2015/03/17/microsoft-android-rom/).
-* [Amazon ELB - еще лучше, еще больше](http://www.datacenterknowledge.com/archives/2015/03/19/amazon-web-services-beefs-elastic-block-store/).
+* [Amazon ELB — еще лучше, еще больше](http://www.datacenterknowledge.com/archives/2015/03/19/amazon-web-services-beefs-elastic-block-store/).
 * [Windows 10 и для пиратов](http://www.computerworld.com/article/2898803/microsoft-takes-extraordinary-step-will-give-pirates-free-windows-10-upgrade.html).
 * [Docker в IntelliJ IDEA 14.1](http://prsm.tc/saT1lB).
 * [Разбираемся в деталях нового архива](http://www.forbes.com/sites/benkepes/2015/03/20/getting-some-clarity-on-the-google-versus-amazon-archival-storage-products/).

@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt314.jpg"
 * [Почему Surface](http://www.dailyherald.com/article/20121110/business/711109985/) такой нехороший?
 * Продолжительные и жестокие пытки гостя из Microsoft
 * Microsoft убивает Windows Live Messenger [и переходит на Skype](http://www.theverge.com/2012/11/5/3603014/windows-live-messenger-retirement-skype)
-* [Lumia 920](http://gizmodo.com/5957795/lumia-920-review-just-too-damn-heavy) - хорошо, но слишком солидно
+* [Lumia 920](http://gizmodo.com/5957795/lumia-920-review-just-too-damn-heavy) — хорошо, но слишком солидно
 * Ура! [Skeuomorphism убит](http://gigaom.com/apple/skeumorphism-is-finally-dead-so-what-is-apples-next-design-move/) в Apple
 * И как теперь? [Что они нам надизайнят?](http://counternotions.com/2012/11/05/sirjony/)
 

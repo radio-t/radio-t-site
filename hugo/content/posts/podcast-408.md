@@ -12,8 +12,8 @@ filename = "rt_podcast408"
 * [DigitalOcean продвигаeт CoreOS](http://techcrunch.com/2014/09/05/digitalocean-partners-with-coreos-to-bring-large-scale-cluster-deployments-to-its-platform/) в массы.
 * [Страсти вокруг Markdown](http://habrahabr.ru/post/235611/).
 * [Если бы они были оружием ...](http://bjorn.tipling.com/if-programming-languages-were-weapons)
-* [ZooKeeper - Царь горы](http://prsm.tc/DAkIk2).
-* [Consul - новый и интересный кандидат](http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/).
+* [ZooKeeper — Царь горы](http://prsm.tc/DAkIk2).
+* [Consul — новый и интересный кандидат](http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/).
 * [Скажем нет Акторам и прочим Green Threads на JVM](http://boundary.com/blog/2014/09/03/no-you-cant-have-a-pony/)
 * [Apache CouchDB](http://www.infoq.com/articles/apache-couchdb-the-definitive-introduction)
 

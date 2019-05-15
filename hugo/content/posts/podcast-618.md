@@ -11,7 +11,7 @@ filename = "rt_podcast618"
 
 - [Custom Image теперь и в DigitalOcean](https://blog.digitalocean.com/custom-images/) - *00:13:36*.
 - [Scaleway добавила object storage](https://techcrunch.com/2018/10/05/scaleway-adds-object-storage/) - *00:25:05*.
-- [Workers KV - больше чем KV](https://blog.cloudflare.com/introducing-workers-kv/) - *00:33:26*.
+- [Workers KV — больше чем KV](https://blog.cloudflare.com/introducing-workers-kv/) - *00:33:26*.
 - [Технические детали Workers KV](https://blog.cloudflare.com/building-with-workers-kv/) - *00:37:58*.
 - [Kotlin проникает в Google Cloud Platform](https://www.androidcentral.com/android-developers-love-kotlin) - *00:46:08*.
 - [Что не так с конкурентностью в Go](https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/) - *01:06:24*.

@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt170.jpg"
 - зачем Microsoft [погнула ](http://hitech.tomsk.ru/newshardware/14043-microsoft-arc-zachem-klaviatura-stala-dugojj.html)хорошую вещь
 - в который раз - [рейтинг ](http://www.opennet.ru/opennews/art.shtml?num=24970)языков
 - [Х2 ](http://www.opennet.ru/opennews/art.shtml?num=25001)в Tomtom и [Х4 ](http://habrahabr.ru/blogs/hi/80861/)в Google
-- 12 часов работы с ноутбуком от [Asus](http://www.mobile-review.com/fullnews/main/2010/January/12.shtml#27793) - мужики сомневаются
+- 12 часов работы с ноутбуком от [Asus](http://www.mobile-review.com/fullnews/main/2010/January/12.shtml#27793) — мужики сомневаются
 - зачем нам [Gdrive](http://habrahabr.ru/blogs/google/80591/)
 - что хорошего в [больших ](http://vasilrem.com/blog/software-development/3-reasons-to-stay-in-a-big-company/)компаниях
 

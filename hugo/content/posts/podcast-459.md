@@ -10,7 +10,7 @@ filename = "rt_podcast459"
 ![](https://radio-t.com/images/radio-t/rt459.jpg)
 
 * [Разблокирование Android жестами не безопасно](http://www.engadget.com/2015/08/22/android-lock-pattern-research/).
-* [iPhone 6S - слухи о новой камере](http://petapixel.com/2015/08/28/iphone-6s-camera-will-shoot-12mp-photos-and-4k-videos-report-says/).
+* [iPhone 6S — слухи о новой камере](http://petapixel.com/2015/08/28/iphone-6s-camera-will-shoot-12mp-photos-and-4k-videos-report-says/).
 * [В ожидании Apple TV](http://social.techcrunch.com/2015/08/27/apple-is-about-to-lay-down-its-tv-cards/).
 * [Apple захватила 20% рынка носимой электроники](http://geektimes.ru/post/260988/).
 * [​Ubuntu Linux завоевал облако](http://www.zdnet.com/article/ubuntu-linux-continues-to-rule-the-cloud/).

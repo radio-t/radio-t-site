@@ -16,7 +16,7 @@ filename = "rt_podcast443"
 * [Почему он не любит Python](http://prsm.tc/S1xjou).
 * [Slack меняет ценовую политику SaaS](http://prsm.tc/yM92gL).
 * [Google запустил Bigtable для простых смертных](http://www.forbes.com/sites/paulmiller/2015/05/06/google-launches-bigtable-a-big-managed-database-in-the-cloud/).
-* [Heroku - иногда они возвращаются](https://blog.heroku.com/archives/2015/5/7/new-dyno-types-public-beta).
+* [Heroku — иногда они возвращаются](https://blog.heroku.com/archives/2015/5/7/new-dyno-types-public-beta).
 * [Google прикручивает Dart к Android](http://www.opennet.ru/opennews/art.shtml?num=42153).
 * [Релиз Debian Jessie 8.0](http://habrahabr.ru/post/256617/).
 * [Acer Revo One](http://mashable.com/2015/04/23/acer-revo-one-mini-pc-hands-on/)

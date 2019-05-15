@@ -5,6 +5,6 @@ categories = ["help", "needed"]
 +++
 
 
-Я [описал в детaлях](http://p.umputun.com/2015/11/26/vsiem-mirom-dlia-obshchiei-polzy/) у себя в бложике, но в двух словах - надо помощь специалистов по разработке frontend для реализации новой версии news.radio-t.com
+Я [описал в детaлях](http://p.umputun.com/2015/11/26/vsiem-mirom-dlia-obshchiei-polzy/) у себя в бложике, но в двух словах — надо помощь специалистов по разработке frontend для реализации новой версии news.radio-t.com
 
 Приходите, помогите подкасту, мы все будем благодарны за помощь.

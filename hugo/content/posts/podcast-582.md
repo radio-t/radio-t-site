@@ -13,7 +13,7 @@ filename = "rt_podcast582"
 - [Почему он ушел из гугла](https://medium.com/@steve.yegge/why-i-left-google-to-join-grab-86dfffc0be84) - *00:26:43*.
 - [Новые пролетарии кодирования](https://www.wired.com/2017/02/programming-is-the-new-blue-collar-job/) - *00:51:51*.
 - [Apple HomePod почти готов](https://www.engadget.com/2018/01/26/apple-homepod-2018-release/) - *01:27:24*.
-- [MacBook Air - что на смену](https://gizmodo.com/apple-might-finally-finally-kill-the-macbook-air-1822332466?utm_campaign=socialflow_gizmodo_twitter) - *01:42:33*.
+- [MacBook Air — что на смену](https://gizmodo.com/apple-might-finally-finally-kill-the-macbook-air-1822332466?utm_campaign=socialflow_gizmodo_twitter) - *01:42:33*.
 - Темы наших слушателей
 
 

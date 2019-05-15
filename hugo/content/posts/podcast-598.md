@@ -9,7 +9,7 @@ filename = "rt_podcast598"
 
 ![](https://radio-t.com/images/radio-t/rt598.jpg)
 
-- [Google One – развенчиваем мифы](https://techcrunch.com/2018/05/14/say-hello-to-google-one/) - *00:01:53*.
+- [Google One — развенчиваем мифы](https://techcrunch.com/2018/05/14/say-hello-to-google-one/) - *00:01:53*.
 - [Email с PGP под угрозой](https://gizmodo.com/email-no-longer-a-secure-method-of-communication-after-1826002682) - *00:08:46*.
 - [LocationSmart сначала подсмотрели а потом потеряли](https://techcrunch.com/2018/05/17/locationsmart-didnt-just-sell-mobile-phone-locations-it-leaked-them/) - *00:18:32*.
 - [Нас ожидает Docker апокалипсис](http://www.smashcompany.com/technology/docker-is-a-dangerous-gamble-which-we-will-regret) - *00:22:16*.

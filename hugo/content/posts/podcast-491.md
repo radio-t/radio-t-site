@@ -18,7 +18,7 @@ filename = "rt_podcast491"
 - [Google Public DNS](https://dns.google.com/) - *00:54:05*.
 - [Reddit клиент для телефонов](http://thenextweb.com/apps/2016/04/09/reddit-app-official-app-store/) - *00:55:16*.
 - [Bing порадовал разработчиков](http://thenextweb.com/dd/2016/04/08/bing-just-became-best-search-engine-developers/) - *01:04:09*.
-- [AWS Lambda - назад в прошлое](http://it20.info/2016/04/aws-lambda-a-few-years-of-advancement-and-we-are-back-to-stored-procedures/) - *01:11:26*.
+- [AWS Lambda — назад в прошлое](http://it20.info/2016/04/aws-lambda-a-few-years-of-advancement-and-we-are-back-to-stored-procedures/) - *01:11:26*.
 - [NexDock за $149. Лаптоп для вашего телефона](http://venturebeat.com/2016/04/08/nexdock-the-149-laptop-shell-passes-300000-funding-goal/) - *01:24:00*.
 - Темы наших слушателей
 
