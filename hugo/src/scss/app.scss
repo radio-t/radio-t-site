@@ -290,7 +290,10 @@ $jumbotron-arc-width: 120%;
   font-weight: 900;
 }
 .comments-counter {
-  font-size: $small-font-size;
+  font-size: $smaller-font-size;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .post-time {
   font-size: $smaller-font-size;
