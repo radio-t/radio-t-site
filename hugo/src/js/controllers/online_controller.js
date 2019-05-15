@@ -34,7 +34,6 @@ export default class extends Controller {
   setupTimer() {
     const tick = () => {
       const timer = this.timer();
-      console.log(timer);
       this.timeTarget.innerHTML = timer.html;
       this.element.classList.toggle('is-online', timer.isOnline);
     };
