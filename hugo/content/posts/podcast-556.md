@@ -11,7 +11,7 @@ filename = "rt_podcast556"
 
 - [Прощание с iPod](https://www.wired.com/story/goodbye-ipod-and-thanks-for-all-the-tunes/) - *00:05:59*.
 - [С днем системного администратора](https://habrahabr.ru/post/334318/) - *00:15:19*.
-- [Wasabi – как S3, но дешево](https://wasabi.com/product/) - *00:34:20*.
+- [Wasabi — как S3, но дешево](https://wasabi.com/product/) - *00:34:20*.
 - [Ruby on Rails исключили из списка достойных](https://thenextweb.com/dd/2017/07/26/ruby-rails-major-coding-bootcamp-ditches-due-waning-interest/) - *00:52:52*.
 - [Ghost 1.0, через 4 года](https://blog.ghost.org/1-0/) - *01:03:37*.
 - [Adobe покончит с Flash](https://blogs.adobe.com/conversations/2017/07/adobe-flash-update.html) - *01:12:47*.

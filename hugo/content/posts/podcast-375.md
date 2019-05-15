@@ -15,7 +15,7 @@ filename = "rt_podcast375"
 * [Правило 30%](http://www.drdobbs.com/architecture-and-design/engineering-managers-should-code-30-of-t/240165174) для начальника.
 * Гугл купил [термостат](http://mashable.com/2014/01/13/why-google-acquired-nest/) за 3 инстаграма.
 * [Свой собственный, за $70](http://www.businessinsider.com/open-source-nest-2014-1) и без Google+
-* [Dropbox – позор недели](https://tech.dropbox.com/2014/01/outage-post-mortem/).
+* [Dropbox — позор недели](https://tech.dropbox.com/2014/01/outage-post-mortem/).
 * Спрятать все с [CloudFogger](http://thehackernews.com/2014/01/how-to-encrypt-your-files-before.html).
 * [Starbucks с его косяком](http://mashable.com/2014/01/16/starbucks-mobile-passwords-plaintext/).
 - Темы наших слушателей.

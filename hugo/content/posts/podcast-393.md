@@ -14,7 +14,7 @@ filename = "rt_podcast393"
 * [Поисковик Спутник запущен](http://habrahabr.ru/post/223727/)
 * [EBS Encryption](http://aws.amazon.com//blogs/aws/protect-your-data-with-new-ebs-encryption)
 * [Когда рзмер влияет](http://blog.codeclimate.com/blog/2014/05/21/does-team-size-impact-code-quality/)
-* [Bitbucket – новый интерфейс](http://habrahabr.ru/post/223669/)
+* [Bitbucket — новый интерфейс](http://habrahabr.ru/post/223669/)
 - Темы наших слушателей
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_

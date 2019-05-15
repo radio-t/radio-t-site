@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt185.jpg"
 - [ICQ](http://internetno.net/2010/04/28/aol-dst-icq/) теперь совсем наш
 - Теперь нам ясно за что [Apple](http://business.compulenta.ru/527992/) не любит Flash
 - [Nokia N8](http://www.engadget.com/2010/04/28/nokia-n8-fights-back-with-heavenly-hd-video-sample/) глазами знающего гостя
-- [Opera 10.52](http://www.osnews.com/story/23212/Opera_10_52_for_Mac_Released) для Mac - все не так плохо
+- [Opera 10.52](http://www.osnews.com/story/23212/Opera_10_52_for_Mac_Released) для Mac — все не так плохо
 - [Bik.e](http://habrahabr.ru/blogs/gadgets/92495/) вместо колеса
 - [Cassandra](http://architects.dzone.com/news/apache-cassandra-gets) с поддержкой и дикие тесты [монго](http://www.michaelckennedy.net/blog/2010/04/29/MongoDBVsSQLServer2008PerformanceShowdown.aspx)
 - [TDD](http://coderoom.wordpress.com/2010/04/27/tdd-without-the-t/) без Т даже лучше чем с Т

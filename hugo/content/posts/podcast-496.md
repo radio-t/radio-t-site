@@ -13,7 +13,7 @@ filename = "rt_podcast496"
 - [Наш человек на Google I/O 2016](http://www.techhgeeks.com/2016/05/google-io-2016-round-up.html) - *00:08:29*.
 - [Alfred 3](https://www.alfredapp.com/blog/announcements/alfred-3-is-here/) - *00:31:59*.
 - [OSX позаимствует идею Touch ID](http://www.engadget.com/2016/05/20/apple-touch-id-mac-unlock-report/) - *00:41:02*.
-- [Spaces - только Грей понял, что это такое](https://googleblog.blogspot.com/2016/05/introducing-spaces-tool-for-small-group.html) - *00:52:13*.
+- [Spaces — только Грей понял, что это такое](https://googleblog.blogspot.com/2016/05/introducing-spaces-tool-for-small-group.html) - *00:52:13*.
 - [Парный переводчик прямо в ухо](http://www.boredpanda.com/real-time-translator-ear-waverly-labs/) - *00:58:20*.
 - [2Т памяти для каждого, у кого есть $14](https://aws.amazon.com/blogs/aws/x1-instances-for-ec2-ready-for-your-memory-intensive-workloads/) - *01:11:18*.
 - [PornHub предлагает новый вид фитнеса](http://techcrunch.com/2016/05/18/pornhub-launches-bangfit-so-you-can-bang-to-get-fit/) - *01:18:13*.

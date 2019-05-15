@@ -11,7 +11,7 @@ filename = "rt_podcast478"
 
 - [Держитесь подальше от этого](https://news.radio-t.com/post/external-storage).
 - [Победа сил света](https://news.radio-t.com/post/linux-and-open-source-have-won-get-over-it-zdnet).
-- [Ransom32 - новый тип RAAS](https://news.radio-t.com/post/meet-ransom32-the-first-javascript-ransomware-for-windows-mac-and-linux).
+- [Ransom32 — новый тип RAAS](https://news.radio-t.com/post/meet-ransom32-the-first-javascript-ransomware-for-windows-mac-and-linux).
 - [Вдруг о странном](https://news.radio-t.com/post/second-amendment-to-the-united-states-constitution).
 - [В новом iPhone 3.5mm точно не будет](https://news.radio-t.com/post/report-next-generation-iphone-design-will-ditch-the-3-5mm-headphone-jack).
 - [Motorola уходит совсем](https://news.radio-t.com/post/motorola-will-be-no-more-lenovo-to-remove-brand-name-from-its-phones).

@@ -11,6 +11,13 @@
   data-action="podcast-play->page#playPodcast player-state->page#updatePodcasts"
 >
 
+<script>
+  window.remark_config = {
+    site_id: '{{ .Site.Params.remark42 }}',
+    page_title: '{{ .Title }}',
+  };
+</script>
+
 {{ partial "navbar.html" . }}
 
 <div class="page-main flex-grow-1">

@@ -14,7 +14,7 @@ filename = "rt_podcast578"
 - [Fire TV редиректит YouTube на web](https://techcrunch.com/2017/12/28/amazon-updates-fire-tvs-youtube-app-to-redirect-users-to-a-web-browser-instead/) - *00:45:02*.
 - [Kodi возвращается на Xbox](https://www.engadget.com/2017/12/29/kodi-media-player-arrives-to-xbox-one/) - *00:46:21*.
 - [Воровство Email посредством Autofill](https://www.pcmag.com/news/358180/web-trackers-lift-email-addresses-via-browsers-autofill-fea) - *00:55:37*.
-- [Spamnesty - наш ответ гадам](https://spa.mnesty.com/) - *01:09:42*.
+- [Spamnesty — наш ответ гадам](https://spa.mnesty.com/) - *01:09:42*.
 - [Microsoft убьет пароли](https://www.techspot.com/news/72499-microsoft-time-kill-off-password.html) - *01:12:31*.
 - [56,000 уволены](https://qz.com/1152683/indian-it-layoffs-in-2017-top-56000-led-by-tcs-infosys-cognizant/) - *01:23:16*.
 - [Как работает Netflix, для самых маленьких](http://highscalability.com/blog/2017/12/11/netflix-what-happens-when-you-press-play.html) - *01:33:45*.

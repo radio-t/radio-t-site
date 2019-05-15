@@ -13,7 +13,7 @@ filename = "rt_podcast429"
 * [AWS показал WorkMail](http://prsm.tc/cPZorh)
 * [Dell вернулся?](http://prsm.tc/5NsoaL)
 * [VirtualBox заканчивается](http://www.phoronix.com/scan.php?page=news_item&px=VirtualBox-VM-Features-2015)
-* [Wi-Fi и OSX - это не чинится](http://www.itworld.com/article/2877734/wifi-issues-continue-to-hamper-os-x-users-despite-updates.html)
+* [Wi-Fi и OSX — это не чинится](http://www.itworld.com/article/2877734/wifi-issues-continue-to-hamper-os-x-users-despite-updates.html)
 * [Bluetooth с нового угла](http://www.engadget.com/2015/01/27/forget-taking-notes-this-bluetooth-headset-captures-your-calls/)
 * [Waze пугает полицию](http://thenextweb.com/apps/2015/01/26/googles-waze-stalking-app-claim-us-police/)
 * [10 ушедших технологий](http://prsm.tc/wSGvMC)

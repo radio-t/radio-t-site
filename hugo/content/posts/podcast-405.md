@@ -11,7 +11,7 @@ filename = "rt_podcast405"
 
 * [BGP достиг рубежа](http://www.opennet.ru/opennews/art.shtml?num=40384).
 * [Slice из Raspberry](http://prsm.tc/52lkwT).
-* [Микросервисы – что это?](http://www.activestate.com/blog/2014/08/microservices-and-paas-part-i)
+* [Микросервисы — что это?](http://www.activestate.com/blog/2014/08/microservices-and-paas-part-i)
 * [Микросервисы это плохо?](http://martinfowler.com/articles/distributed-objects-microservices.html)
 * [Да, микросервисы это совсем плохо](http://prsm.tc/CZgSg8).
 * [Google загонит всех в SSL](http://prsm.tc/lzltDj).

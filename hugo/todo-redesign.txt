@@ -1,6 +1,17 @@
-- update cover image
+- favicon в сафари
+
+- регулировать громкость
+
+Known high severity security vulnerability detected in tar < 4.4.2 defined in package-lock.json.
+package-lock.json update suggested: tar ~> 4.4.2.
 
 ===
++ страница лицнзии - бэдж лепится к тексту
++ что-то не так с заголовком коммента
++ Перевести comments
++ Проблема с версткой на экранах шириной 320px
++ Логотип на русском
++ update cover image
 + первый клик по временной метке не прыгает на эту позицию в плеере
 + footer
 + DO banner

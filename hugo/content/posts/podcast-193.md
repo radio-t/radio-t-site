@@ -19,7 +19,7 @@ image = "https://radio-t.com/images/radio-t/rt193.jpg"
 - Скоро откроют [взрослый](http://www.crunchgear.com/2010/06/25/the-internet-is-for-xxx-top-level-domain-gets-initial-approval/) domain
 - Хакер-извращенец [терроризирует](http://www.switched.com/2010/06/23/man-charged-with-extortion-remotely-hacked-into-computers-for-ho/) блондинку
 
-**_Спонсор этого выпуска – хостинг _[_fastvps.ru_](http://fastvps.ru/)**
+**_Спонсор этого выпуска — хостинг _[_fastvps.ru_](http://fastvps.ru/)**
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast193.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast193.mp3.torrent)

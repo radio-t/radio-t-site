@@ -14,7 +14,7 @@ filename = "rt_podcast603"
 - [Facebook теперь будет следить за вашим временем](https://www.digitaltrends.com/news/facebook-time-managment/) - *00:30:53*.
 - [Европа теперь против мемов](http://www.wired.co.uk/article/eu-meme-war-article-13-regulation) - *00:35:03*.
 - [GitLab 11.0 с самым главным изменением](https://about.gitlab.com/2018/06/22/gitlab-11-0-released/) - *00:43:46*.
-- [TeamCity 2018.1 – почему Kotlin DSL](https://blog.jetbrains.com/teamcity/2018/06/teamcity-2018-1-released-revamped-kotlin-dsl-read-only-server-new-docker-runner-and-bundled-s3-integration/) - *00:51:05*.
+- [TeamCity 2018.1 — почему Kotlin DSL](https://blog.jetbrains.com/teamcity/2018/06/teamcity-2018-1-released-revamped-kotlin-dsl-read-only-server-new-docker-runner-and-bundled-s3-integration/) - *00:51:05*.
 - [Amazon Fire TV Cube ](https://9to5toys.com/2018/06/22/amazon-fire-tv-cube-review/) - *01:25:21*.
 - [Web Assembly и Go](https://brianketelsen.com/web-assembly-and-go-a-look-to-the-future/) - *01:44:06*.
 - [Twitter сильно обидел](https://techcrunch.com/2018/06/21/twitter-smytes-customers/) - *01:52:34*.

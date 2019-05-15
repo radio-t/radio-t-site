@@ -15,7 +15,7 @@ filename = "rt_podcast500"
 - [GitMarket поможет продать ваш код](http://thenextweb.com/dd/2016/06/15/git-powered-marketplace-for-code/).
 - [Яндекс открывает ClickHouse](https://habrahabr.ru/company/yandex/blog/303282/).
 - [SourceForge обещает убрать весь ужас](http://arstechnica.com/information-technology/2016/06/under-new-management-sourceforge-moves-to-put-badness-in-past/).
-- [JSON Web Tokens - за и против](https://float-middle.com/json-web-tokens-jwt-vs-sessions/).
+- [JSON Web Tokens — за и против](https://float-middle.com/json-web-tokens-jwt-vs-sessions/).
 - Темы наших слушателей
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_

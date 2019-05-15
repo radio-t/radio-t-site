@@ -13,7 +13,7 @@ filename = "rt_podcast540"
 - [Ubuntu оставит всякие глупости](https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-cloud-and-iot-rather-than-phone-and-convergence/).
 - [Ubuntu для AWS](https://insights.ubuntu.com/2017/04/05/ubuntu-on-aws-gets-serious-performance-boost-with-aws-tuned-kernel/).
 - [DO добавили мониторинг](https://www.digitalocean.com/company/blog/introducing-monitoring/).
-- [NSQ - странный, но приятный](http://nsq.io/overview/design.html).
+- [NSQ — странный, но приятный](http://nsq.io/overview/design.html).
 - [Почему curl на C](https://daniel.haxx.se/blog/2017/03/27/curl-is-c/).
 - [Безопасность в Swift](http://khanlou.com/2017/04/safety-in-swift/).
 - [Лимитеры в API](https://stripe.com/blog/rate-limiters).

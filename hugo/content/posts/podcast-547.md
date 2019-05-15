@@ -9,7 +9,7 @@ filename = "rt_podcast547"
 
 ![](https://radio-t.com/images/radio-t/rt547.jpg)
 
-- [DigitalOcean - падение и поддержка](https://status.digitalocean.com/incidents/0t54zmb3f1vm).
+- [DigitalOcean — падение и поддержка](https://status.digitalocean.com/incidents/0t54zmb3f1vm).
 - [Самый большой Git](https://blogs.msdn.microsoft.com/bharry/2017/05/24/the-largest-git-repo-on-the-planet/).
 - [Застрявшие в Vim на Stack Overflow](https://thenextweb.com/dd/2017/05/24/vim-complicated-million-people-looked-exit-stack-overflow/).
 - [DJI Spark для сэлфи](https://www.slashgear.com/dji-spark-drone-gesture-pilot-pricing-camera-autopilot-details-24486246/).

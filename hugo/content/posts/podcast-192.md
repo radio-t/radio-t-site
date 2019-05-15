@@ -21,7 +21,7 @@ image = "https://radio-t.com/images/radio-t/rt192.png"
 - [YouTube](http://www.readwriteweb.com/archives/youtube_gets_a_cloud-based_video_editor.php) даст немного поредактировать
 - Чем [их](http://agile.dzone.com/articles/3-things-motivate-us) заинтересовать ?
 
-**_Спонсор этого выпуска – хостинг _[_fastvps.ru_](http://fastvps.ru/)**
+**_Спонсор этого выпуска — хостинг _[_fastvps.ru_](http://fastvps.ru/)**
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast192.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast192.mp3.torrent)

@@ -14,7 +14,7 @@ filename = "rt_podcast398"
 * [Google I/O 2014](http://prsm.tc/3QrgtR)
 * [Еще о Google I/O](http://blogs.computerworld.com/android/24064/google-io-2014)
 * [ART и Dalvik](https://www.tbray.org/ongoing/When/201x/2014/06/25/Art-and-Dalvik)
-* [Moto 360 - круто но странно](http://mashable.com/2014/06/26/moto-360-hands-on/)
+* [Moto 360 — круто но странно](http://mashable.com/2014/06/26/moto-360-hands-on/)
 * [Конец Map-Reduce](http://prsm.tc/L8eOl6)
 * [Как не мигрировать из AWS](http://instagram-engineering.tumblr.com/post/89992572022/migrating-aws-fb)
 - Темы наших слушателей

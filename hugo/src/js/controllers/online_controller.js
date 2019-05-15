@@ -1,4 +1,5 @@
 import Visibility from 'visibilityjs';
+import { getUnits } from '../utils';
 import Controller from '../base_controller';
 import Player from './player_controller';
 
@@ -34,7 +35,6 @@ export default class extends Controller {
   setupTimer() {
     const tick = () => {
       const timer = this.timer();
-      console.log(timer);
       this.timeTarget.innerHTML = timer.html;
       this.element.classList.toggle('is-online', timer.isOnline);
     };
@@ -75,10 +75,6 @@ export default class extends Controller {
   }
 
   timer() {
-    function getUnits(value, units) {
-      return (/^[0,2-9]?[1]$/.test(value)) ? units[0] : ((/^[0,2-9]?[2-4]$/.test(value)) ? units[1] : units[2]);
-    }
-
     function padTime(n) {
       return ('0' + n).slice(-2);
     }
@@ -105,10 +101,8 @@ export default class extends Controller {
     hours %= 24;
 
     let html = '';
-    const daysList = ['день', 'дня', 'дней'];
-
     if (days > 0) {
-      html += days + ' ' + getUnits(days, daysList) + ' ';
+      html += days + ' ' + getUnits(days, ['день', 'дня', 'дней']) + ' ';
     }
 
     html += `${padTime(hours)}:${padTime(minutes)}<span style="opacity: .5;">:${padTime(seconds)}</span>`;

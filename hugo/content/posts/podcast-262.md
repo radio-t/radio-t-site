@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt262.png"
 - Выход [Mercurial 2.0](http://mercurial.selenic.com/wiki/WhatsNew)
 - Что случилось с программированием. [Все плохо](http://reprog.wordpress.com/2010/03/03/whatever-happened-to-programming/?Programming)
 - [Гиковской культуре](http://developerart.com/publications/29/the-end-of-the-geek-culture) пришел конец
-- [Google Guava Libraries](http://www.javacodegeeks.com/2011/09/google-guava-libraries-essentials.html) - полезно и приятно
+- [Google Guava Libraries](http://www.javacodegeeks.com/2011/09/google-guava-libraries-essentials.html) — полезно и приятно
 - Пара слов о [Finagle](http://engineering.twitter.com/2011/08/finagle-protocol-agnostic-rpc-system.html)
 - Java [NIO vs. IO](http://java.dzone.com/articles/java-nio-vs-io)
 - Темы наших слушателей

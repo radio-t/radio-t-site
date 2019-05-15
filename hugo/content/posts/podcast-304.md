@@ -9,7 +9,7 @@ image = "https://radio-t.com/images/radio-t/rt304.jpg"
 
 ![](https://radio-t.com/images/radio-t/rt304.jpg)
 
-* Релиз [MongoDB 2.2](http://www.opennet.ru/opennews/art.shtml?num=34702) - что новенького
+* Релиз [MongoDB 2.2](http://www.opennet.ru/opennews/art.shtml?num=34702) — что новенького
 * [ReactiveMongo](https://github.com/zenexity/ReactiveMongo) в ассортименте
 * Typesafe [вырос на 300%](http://www.forbes.com/sites/petercohan/2012/08/30/typesafes-300-growth-targets-6-billion-java-market/) и присматривается к рынку Java
 * [Scala как новый Spring](http://www.theserverside.com/feature/Disruptive-forces-in-Java-Is-Scala-the-new-Spring-framework) и почему это страшно

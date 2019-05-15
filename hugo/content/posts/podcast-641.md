@@ -8,7 +8,7 @@ filename = "rt_podcast641"
 
 ![](https://radio-t.com/images/radio-t/rt641.jpg)
 
-- [Firefox Send – бесплатно и приватно](https://blog.mozilla.org/blog/2019/03/12/introducing-firefox-send-providing-free-file-transfers-while-keeping-your-personal-information-private/) - *00:02:05*.
+- [Firefox Send — бесплатно и приватно](https://blog.mozilla.org/blog/2019/03/12/introducing-firefox-send-providing-free-file-transfers-while-keeping-your-personal-information-private/) - *00:02:05*.
 - [Dropbox ввел жесткий лимит](https://www.slashgear.com/dropbox-device-linking-limits-just-got-added-for-basic-accounts-12569522/) - *00:15:38*.
 - [F5 приобретает NGINX](https://www.nginx.com/press/f5-acquires-nginx-to-bridge-netops-and-devops/) - *00:36:14*.
 - [Сутки простоя Facebook](https://www.recode.net/2019/3/14/18265793/facebook-app-down-outage-resolved-fixed) - *00:57:30*.

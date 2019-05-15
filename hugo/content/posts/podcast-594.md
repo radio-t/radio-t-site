@@ -11,7 +11,7 @@ filename = "rt_podcast594"
 
 - [FoundationDB вернулась из плена Apple](https://www.geekwire.com/2018/foundationdb-interesting-nosql-database-owned-apple-now-open-source-project/) - *00:02:28*.
 - [Грустная история OLPC](https://www.theverge.com/2018/4/16/17233946/olpcs-100-laptop-education-where-is-it-now) - *00:16:25*.
-- [PINEBOOK – как OLPC, но на новый лад](https://www.pine64.org/?page_id=3707) - *00:28:44*.
+- [PINEBOOK — как OLPC, но на новый лад](https://www.pine64.org/?page_id=3707) - *00:28:44*.
 - [Блокировка Telegram](https://meduza.io/feature/2018/04/19/tretiy-den-blokirovki-telegram-on-stal-esche-populyarnee-drugie-servisy-po-prezhnemu-stradayut-roskomnadzor-ne-znaet-chto-delat) - *00:48:36*.
 - [Новая тенденция в деле проверки кандидатов](https://work.qz.com/1254663/job-interviews-for-programmers-now-often-come-with-days-of-unpaid-homework/) - *01:18:20*.
 - [Google прикрывает Allo и концентрируется на RCS](https://techcrunch.com/2018/04/19/google-changes-its-messaging-strategy-again-goodbye-to-allo-double-down-on-rcs/) - *01:47:50*.

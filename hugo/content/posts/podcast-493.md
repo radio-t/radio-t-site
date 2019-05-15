@@ -9,7 +9,7 @@ filename = "rt_podcast493"
 
 ![](https://radio-t.com/images/radio-t/rt493.jpg)
 
-- [Dropbox Infinite - может быть неплохо](http://mjtsai.com/blog/2016/04/26/dropboxs-project-infinite/) - *00:02:56*.
+- [Dropbox Infinite — может быть неплохо](http://mjtsai.com/blog/2016/04/26/dropboxs-project-infinite/) - *00:02:56*.
 - [Slack подтекает](http://thenextweb.com/insider/2016/04/29/your-slack-login-details-are-on-gitbub/) - *00:10:26*.
 - [GitHub и SourceForge признаны неприемлемыми для GNU](http://www.opennet.ru/opennews/art.shtml?num=44313) - *00:16:42*.
 - [Sony добавит камеру в глаз](http://www.sonyalpharumors.com/sony-patents-a-new-contact-lens-camera-say-by-bye-to-google-glass/) - *00:27:57*.

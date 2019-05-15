@@ -10,7 +10,7 @@ filename = "rt_podcast553"
 ![](https://radio-t.com/images/radio-t/rt553.jpg)
 
 - [Docker 17.06 CE](https://blog.docker.com/2017/06/announcing-docker-17-06-community-edition-ce/) - *00:04:15*.
-- [Go kit - фреймворк или нет](https://gokit.io/) - *00:20:55*?
+- [Go kit — фреймворк или нет](https://gokit.io/) - *00:20:55*?
 - [Новинки драйверов в MongoDB 3.6](https://emptysqua.re/blog/driver-features-for-mongodb-3-6/) - *01:05:15*.
 - [Откуда учить программирование](http://www.programmingforbeginnersbook.com/blog/top-down-bottom-up-approaches-to-learning-programming/) - *01:17:21*.
 - [Как ее обидели в GitHub](http://where.coraline.codes/blog/my-year-at-github/) - *01:36:01*.

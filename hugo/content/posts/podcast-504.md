@@ -13,7 +13,7 @@ filename = "rt_podcast504"
 - [И еще детали](https://www.digitalocean.com/company/blog/block-storage-more-space-to-scale/?utm_medium=email).
 - [IntelliJ IDEA 14](https://www.jetbrains.com/idea/whatsnew/).
 - [Atlassian приобрел StatusPage](https://techcrunch.com/2016/07/14/atlassian-acquires-statuspage/).
-- [Cloud With Me - мнения разделились](https://techcrunch.com/2016/07/12/cloud-with-me-makes-setting-up-and-managing-aws-servers-easier/).
+- [Cloud With Me — мнения разделились](https://techcrunch.com/2016/07/12/cloud-with-me-makes-setting-up-and-managing-aws-servers-easier/).
 - [Хобби проекты полезны](https://medium.com/@gammons/the-life-changing-benefits-of-side-projects-5e2fe47a8961).
 - Темы наших слушателей
 

@@ -10,7 +10,7 @@ filename = "rt_podcast628"
 ![](https://radio-t.com/images/radio-t/rt628.jpg)
 
 - [Apple Music теперь и на Amazon Echo](https://www.theverge.com/2018/12/14/18141112/apple-music-support-amazon-echo-speakers) - *00:02:33*.
-- [Google One - не очень понятно, но стоит денег](https://one.google.com/about) - *00:13:17*.
+- [Google One — не очень понятно, но стоит денег](https://one.google.com/about) - *00:13:17*.
 - [Loki: как Prometheus, но для логов](https://github.com/grafana/loki) - *00:34:45*.
 - [Я порчу разрабам жизни своими код ревью](https://habr.com/post/432822/) - *00:53:01*.
 - [Иди-ка ты на !@# со своей токсичностью](https://habr.com/post/432700/) - *01:27:15*.

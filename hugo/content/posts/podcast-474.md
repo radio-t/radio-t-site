@@ -17,7 +17,7 @@ filename = "rt_podcast474"
 - [Подход Firefox к блокировке](https://itunes.apple.com/app/id1055677337).
 - [Mozilla прекращает глупости с телефонами](http://techcrunch.com/2015/12/08/mozilla-will-stop-developing-and-selling-firefox-os-smartphones/).
 - [Apple Maps вдруг захватил iPhone](http://www.betaboston.com/news/2015/12/07/apple-maps-once-a-laughingstock-now-dominates-iphones/).
-- [Google Pixel C - андроид не подошел](http://gizmodo.com/google-pixel-c-review-androids-not-ready-for-a-tablet-1747368432?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow).
+- [Google Pixel C — андроид не подошел](http://gizmodo.com/google-pixel-c-review-androids-not-ready-for-a-tablet-1747368432?utm_campaign=socialflow_gizmodo_twitter&utm_source=gizmodo_twitter&utm_medium=socialflow).
 - [Они приоткрыли немного рекламы](http://my-chrome.ru/2015/12/taboola-adblock-plus/).
 - Темы наших слушателей
 

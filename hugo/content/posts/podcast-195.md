@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt195.png"
 - Быть Яндексом, но [больше и круче](http://habrahabr.ru/linker/go/98244/)
 - [Назад в 80е](http://www.techvert.com/hottest-gadgets-1980/) и завидные гаджеты тех дней
 
-**_Спонсор этого выпуска – хостинг _[_fastvps.ru_](http://fastvps.ru/)**
+**_Спонсор этого выпуска — хостинг _[_fastvps.ru_](http://fastvps.ru/)**
 
 [Аудио](http://archive.rucast.net/radio-t/media/rt_podcast195.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast195.mp3.torrent)

@@ -18,13 +18,6 @@
 
 {{ partial "assets" . }}
 
-<script>
-  window.remark_config = {
-    site_id: '{{ .Site.Params.remark42 }}',
-    page_title: '{{ .Title }}',
-  };
-</script>
-
 {{ if eq (getenv "HUGO_ENV") "production" }}
   {{ partial "js_head" . }}
 {{ end }}

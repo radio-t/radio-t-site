@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt302.jpg"
 * Что значат [новые API законы](http://www.marco.org/2012/08/16/twitter-api-changes)
 * [Oracle не оправдал](http://www.infoworld.com/t/java-programming/oracle-has-been-good-java-despite-early-fears-200200) наших страхов
 * Первые [30 дней Марисы](http://techcrunch.com/2012/08/17/marissa-mayers-30-days-in/)
-* [Medium](http://www.businessinsider.com/twitter-cofounders-unveil-their-newest-project-an-online-publishing-platform-called-medium-2012-8) - это что было?
+* [Medium](http://www.businessinsider.com/twitter-cofounders-unveil-their-newest-project-an-online-publishing-platform-called-medium-2012-8) — это что было?
 * Империя добра [наносит ответный удар](http://techcrunch.com/2012/08/17/google-files-new-patent-lawsuit-against-apple-seeks-to-block-iphone-ipad-mac-imports-to-u-s/)
 * [Apple уже скучен](http://www.zdnet.com/apple-is-in-danger-of-being-boring-7000002599/) и был таким всегда
 * Что можно сделать [с телевидением](http://www.businessinsider.com/heres-how-apple-is-telling-cable-companies-it-will-make-apple-tv-work-2012-8) если взяться с умом

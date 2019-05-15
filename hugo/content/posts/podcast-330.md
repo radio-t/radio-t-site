@@ -14,7 +14,7 @@ filename = "rt_podcast330"
 * И [пояснил почему](http://www.pcworld.com/article/2029542/linus-torvalds-speaks-out-with-a-secure-boot-plan.html).
 * [Что делать](http://www.articulateventures.com/cultural-communications-2/what-to-do-when-your-non-technical-boss-is-just-plain-wrong/) с глупым начальством.
 * С днeм рождения [Raspberry Pi](http://arstechnica.com/information-technology/2013/03/the-raspberry-pi-one-year-since-launch-one-million-sold/).
-* [NoDBA](http://martinfowler.com/bliki/NoDBA.html) – это нечто сомнительное.
+* [NoDBA](http://martinfowler.com/bliki/NoDBA.html) — это нечто сомнительное.
 * Позор или наоборот? [Yahoo резко прикрыла лавочку](https://medium.com/management-the-art-and-the-science/aaeb644d3652)
 * [Полюби Rebase](http://www.pyladies.com/blog/how-I-learned-to-love-rebase/)
 * Смешной [Slow-Fast Request Balancer](http://railsware.com/blog/2013/02/04/slow-fast-request-balancer/)

@@ -14,7 +14,7 @@ filename = "rt_podcast325"
 * Анлок уже [вне закона](http://www.wired.com/threatlevel/2013/01/mobile-phone-unlocking/)
 * [Тестирование как сервис](http://www.testelf.com/)
 * Cisco [расстается с Linksys](http://allthingsd.com/20130124/ciscos-flirtation-with-consumers-is-over-as-belkin-buys-linksys-unit/)
-* [Atari - совсем все](http://www.marketplace.org/topics/tech/atari-declares-bankruptcy)
+* [Atari — совсем все](http://www.marketplace.org/topics/tech/atari-declares-bankruptcy)
 * Запуск [Яндекс Wonder](http://www.engadget.com/2013/01/25/yandex-launches-wonder-social-search-app/)
 * Что бывает [когда PaaS пропадает](http://gigaom.com/2013/01/25/what-happens-if-your-paas-passes/)
 * [HTC нечто](http://www.theverge.com/2013/1/25/3915700/htc-mini-tiny-phone-companion-for-your-oversized-smartphone) в комплект к лопате

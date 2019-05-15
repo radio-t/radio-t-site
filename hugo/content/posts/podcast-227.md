@@ -10,7 +10,7 @@ image = "https://radio-t.com/images/radio-t/rt227.png"
 ![](https://radio-t.com/images/radio-t/rt227.png)
 
 - Самые [иновационные](http://www.fastcompany.com/most-innovative-companies/2011/) этого года
-- Около-телефонный [бред](http://www.readwriteweb.com/archives/facebook_could_change_telephones_forever.php): FB – Да, Twitter – Нет
+- Около-телефонный [бред](http://www.readwriteweb.com/archives/facebook_could_change_telephones_forever.php): FB — Да, Twitter — Нет
 - Что не так со всеми этими [таблетками](http://www.engadget.com/2011/02/16/motorola-xoom-vs-samsung-galaxy-tab-10-1-vs-lg-g-slate-batt/)
 - Наш человек в стане мобильных радостей
 - [Яндекс](http://clubs.ya.ru/company/replies.xml?item_no=33926) порадовал и добавил ума молодым

@@ -9,7 +9,7 @@ filename = "rt_podcast372"
 
 ![](https://radio-t.com/images/radio-t/rt372.jpg)
 
-* [2013 - год разочарований](http://qz.com/161443/2013-was-a-lost-year-for-tech/).
+* [2013 — год разочарований](http://qz.com/161443/2013-was-a-lost-year-for-tech/).
 * Как мы строили кластер.
 * Радостные [прогнозы на 2014](http://management.fortune.cnn.com/2013/12/27/tech-job-forecast-2014/)
 * [REST курит](http://blog.programmableweb.com/2013/12/19/is-rest-losing-its-flair-rest-api-alternatives-2/) в сторонке?

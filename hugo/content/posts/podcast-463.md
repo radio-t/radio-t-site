@@ -16,7 +16,7 @@ filename = "rt_podcast463"
 * [Nginx с мониторингом и JS](http://www.infoworld.com/article/2986138/web-applications/nginx-web-server-goes-dynamic-adds-monitoring.html).
 * [Pebble Time Round](https://pebble.com).
 * [Запуск мега-мануала от Stackoverflow](http://habrahabr.ru/post/266731/).
-* [Scylla - быстрая Cassandra](http://www.zdnet.com/article/kvm-creators-open-source-fast-cassandra-drop-in-replacement-scylla/).
+* [Scylla — быстрая Cassandra](http://www.zdnet.com/article/kvm-creators-open-source-fast-cassandra-drop-in-replacement-scylla/).
 * [watchOS 2](http://thenextweb.com/insider/2015/09/21/watchos-2-review-apple-watchs-true-killer-feature-is-its-operating-system/)
 - Темы наших слушателей
 

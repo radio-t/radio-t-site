@@ -16,7 +16,7 @@ filename = "rt_podcast501"
 - [Apple прекращает выпуск thunderbolt дисплея](http://thenextweb.com/apple/2016/06/24/apple-letting-thunderbolt-display-die/) - *00:31:55*.
 - [Mark Zuckerberg и черная изолента](http://thenextweb.com/facebook/2016/06/21/mark-zuckerberg-defeats-hackers-piece-tape/) - *00:36:21*.
 - [Оракл очень странно понимает надежность облака](http://fortune.com/2016/06/24/oracle-cloud-maintenance/) - *00:47:30*.
-- [HP Spectre - очередной убийца тонких маков](http://mashable.com/2016/06/23/hp-spectre-review/) - *00:54:42*.
+- [HP Spectre — очередной убийца тонких маков](http://mashable.com/2016/06/23/hp-spectre-review/) - *00:54:42*.
 - [Google повернулась на машинном обучении](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70) - *01:06:16*.
 - Темы наших слушателей
 
