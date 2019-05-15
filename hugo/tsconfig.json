@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
-    "lib": ["es2017", "dom"],
-    "target": "es2017",
+    "target": "es5",
     "jsx": "react",
-    "module": "esnext",
     "esModuleInterop": true,
     "moduleResolution": "node",
     "noImplicitReturns": true,
