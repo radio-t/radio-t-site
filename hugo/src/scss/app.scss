@@ -149,6 +149,11 @@ $jumbotron-arc-width: 120%;
     font-size: 75%;
   }
 }
+.jumbotron-buttons {
+  @include media-breakpoint-down('xs') {
+    flex-direction: column;
+  }
+}
 .jumbotron-btn-subscribe {
   line-height: 1;
   color: $text-muted;
