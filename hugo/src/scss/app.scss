@@ -92,8 +92,14 @@ p, .jumbotron, .text-content {
     //color: #430093;
   }
   p img {
-    float: right;
     @include img-fluid;
+    display: block;
+    margin: 1rem auto;
+    @include media-breakpoint-up('md') {
+      float: right;
+      margin-right: -15%;
+      margin-left: 1rem;
+    }
   }
   pre {
     margin-left: calc((100vw - 100%) / -4);

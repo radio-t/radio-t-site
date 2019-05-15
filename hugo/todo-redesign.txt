@@ -1,17 +1,14 @@
-- Перевести comments
 - favicon в сафари
-- страница лицнзии - бэдж лепится к тексту
 
 - регулировать громкость
 
 Known high severity security vulnerability detected in tar < 4.4.2 defined in package-lock.json.
 package-lock.json update suggested: tar ~> 4.4.2.
 
-Known high severity security vulnerability detected in pyyaml < 4.2b1 defined in requirements-redesign.txt.
-requirements-redesign.txt update suggested: pyyaml ~> 4.2b1.
-
-
 ===
++ страница лицнзии - бэдж лепится к тексту
++ что-то не так с заголовком коммента
++ Перевести comments
 + Проблема с версткой на экранах шириной 320px
 + Логотип на русском
 + update cover image
