@@ -61,10 +61,12 @@ class LastComments extends Component {
   }
 
   componentDidMount() {
-    const min = 60 * 1000;
-    this.visibilityInterval = Visibility.every(min / 2, 5 * min, () => {
-      this.updateComments();
-    });
+    if (process.env.NODE_ENV !== 'development') {
+      const min = 60 * 1000;
+      this.visibilityInterval = Visibility.every(min / 2, 5 * min, () => {
+        this.updateComments();
+      });
+    }
 
     this.updateComments();
   }
