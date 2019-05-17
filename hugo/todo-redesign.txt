@@ -1,11 +1,14 @@
-- favicon в сафари
+- Документация для процесса построения сайта #55 где лого и фавиконки
+- обновление списка свежих комментариев в бэкграудне? #60
+- Нет возможности регулировать громкость воспроизведения. #48
+- Возможность менять скорость воспроизведения #61
 
-- регулировать громкость
-
-Known high severity security vulnerability detected in tar < 4.4.2 defined in package-lock.json.
+#63 Known high severity security vulnerability detected in tar < 4.4.2 defined in package-lock.json.
 package-lock.json update suggested: tar ~> 4.4.2.
 
 ===
++ дублирование запросов на количество комментариев #53
++ favicon в сафари
 + страница лицнзии - бэдж лепится к тексту
 + что-то не так с заголовком коммента
 + Перевести comments

@@ -8,6 +8,8 @@ export default class extends Controller {
   initialize() {
     super.initialize();
 
+    if (this.data.has('init')) return;
+
     const tmp = document.createElement('a');
 
     this.numberTargets.forEach((num) => {
@@ -34,5 +36,7 @@ export default class extends Controller {
     });
 
     $script.get('https://remark42.radio-t.com/web/counter.js', () => {});
+
+    this.data.set('init', '1');
   }
 }
