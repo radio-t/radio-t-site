@@ -772,3 +772,31 @@ $ripple-scale-out: 3.4;
   cursor: default;
   user-select: none;
 }
+.podcast-progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: $gray-300;
+  z-index: 3;
+  pointer-events: none;
+}
+.podcast-progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: $primary;
+}
+.podcast-progress-time {
+  position: absolute;
+  right: 0;
+  bottom: 6px;
+  text-align: right;
+  font-family: $font-family-monospace;
+  font-size: 55%;
+  color: $gray-700;
+  background-color: rgba($gray-300, .8);
+  padding: 0 .3em;
+}
