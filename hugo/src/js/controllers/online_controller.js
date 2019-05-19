@@ -4,7 +4,7 @@ import Controller from '../base_controller';
 import Player from './player_controller';
 
 // const STREAM_SRC = 'http://rfcmedia.streamguys1.com/MusicPulse.mp3'; // demo
-const STREAM_SRC = 'http://stream.radio-t.com/';
+const STREAM_SRC = 'https://stream.radio-t.com/';
 const showTime = {
   day: 6,
   hours: 23,
