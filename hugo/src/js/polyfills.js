@@ -228,7 +228,7 @@ if (!"".trim) String.prototype.trim = function(){ return this.replace(/^[\s]+|[\
         '[class]{x-uCLp/**/:expression(!this.hasOwnProperty("classList")&&window[" uCL"](this))}' //IE7-8
       );
     }
-  })();
+  })(window);
 // 3. Patch in unsupported methods in DOMTokenList
   (function(DOMTokenListProto, testClass){
     if (!DOMTokenListProto.item) DOMTokenListProto.item = function(i){
