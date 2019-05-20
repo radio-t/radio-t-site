@@ -790,8 +790,10 @@ $ripple-scale-out: 3.4;
   left: 0;
   height: 100%;
   background-color: $primary;
+  transition: width .2s ease-out;
 }
 .podcast-progress-time {
+  display: none;
   position: absolute;
   right: 0;
   bottom: 6px;

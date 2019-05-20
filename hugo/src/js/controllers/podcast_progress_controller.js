@@ -9,17 +9,28 @@ export default class extends Controller {
     'progress',
   ];
 
+  initialize() {
+    super.initialize();
+    this.subscribe(`playing-progress-${this.numberTarget.innerText}`, (podcast) => {
+      this.renderProgress(podcast);
+    });
+  }
+
   connect() {
     super.connect();
     if (this.data.has('init')) return;
 
     const podcast = getLocalStorage('podcasts', podcasts => podcasts[this.numberTarget.innerText]);
     if (podcast) {
-      this.progressTarget.style.display = 'block';
-      this.durationTarget.innerText = composeTime(podcast.duration);
-      this.barTarget.style.width = `${podcast.currentTime / podcast.duration * 100}%`;
+      this.renderProgress(podcast);
     }
 
     this.data.set('init', '1');
+  }
+
+  renderProgress(podcast) {
+    this.progressTarget.style.display = 'block';
+    this.durationTarget.innerText = composeTime(podcast.duration);
+    this.barTarget.style.width = `${podcast.currentTime / podcast.duration * 100}%`;
   }
 }
