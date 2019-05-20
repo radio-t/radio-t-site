@@ -103,6 +103,13 @@ export default class Remark extends Component<Props> {
           typeof event.data === "string" ? JSON.parse(event.data) : event.data;
         if (data.remarkIframeHeight) {
           iframe.style.height = `${data.remarkIframeHeight}px`;
+          if (!(data.scrollTo) && window.location.hash === '#comments') {
+            window.scrollTo(
+              window.pageXOffset,
+              iframe.getBoundingClientRect().top +
+              window.pageYOffset
+            );
+          }
         }
 
         if (data.scrollTo) {
