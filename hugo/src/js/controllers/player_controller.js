@@ -2,6 +2,7 @@ import debounce from 'lodash/debounce';
 import capitalize from 'lodash/capitalize';
 import Controller from '../base_controller';
 import { composeTime, getLocalStorage, parseTime, updateLocalStorage } from '../utils';
+import { Events } from '../events';
 
 /**
  * @property {Audio} audioTarget
@@ -192,13 +193,15 @@ export default class extends Controller {
 
     if (!this.detail.online) {
       if (this.detail.number) {
+        const podcastData = {
+          currentTime: this.audioTarget.currentTime,
+          duration: this.audioTarget.duration,
+        };
         updateLocalStorage('podcasts', (podcasts) => {
-          podcasts[this.detail.number] = {
-            currentTime: this.audioTarget.currentTime,
-            duration: this.audioTarget.duration,
-          };
+          podcasts[this.detail.number] = podcastData;
           return podcasts;
         });
+        Events.publish(`playing-progress-${this.detail.number}`, podcastData);
       }
     }
   }

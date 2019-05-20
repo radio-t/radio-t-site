@@ -102,13 +102,15 @@ p, .jumbotron, .text-content {
     }
   }
   pre {
-    margin-left: calc((100vw - 100%) / -4);
-    margin-right: calc((100vw - 100%) / -4);
+    //margin-left: calc((100vw - 100%) / -8);
+    //margin-right: calc((100vw - 100%) / -8);
     > code {
       display: block;
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
+      padding: .5rem 1rem;
+      border-radius: $border-radius;
+      //max-width: 1200px;
+      //margin-left: auto;
+      //margin-right: auto;
     }
   }
   p:empty {
@@ -788,8 +790,10 @@ $ripple-scale-out: 3.4;
   left: 0;
   height: 100%;
   background-color: $primary;
+  transition: width .2s ease-out;
 }
 .podcast-progress-time {
+  display: none;
   position: absolute;
   right: 0;
   bottom: 6px;

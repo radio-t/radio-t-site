@@ -1,6 +1,13 @@
+- время вещания сделать 3 часа, начиная с 23:00 по мск
 - обновление списка свежих комментариев в бэкграудне? #60
 - Нет возможности регулировать громкость воспроизведения. #48
 - Возможность менять скорость воспроизведения #61
+
+- progress
+    - remove duration
+    - dynamic progress
+
+- add number, audio and chat url to front matter? py
 
 #63 Known high severity security vulnerability detected in tar < 4.4.2 defined in package-lock.json.
 package-lock.json update suggested: tar ~> 4.4.2.

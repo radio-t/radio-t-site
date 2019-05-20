@@ -1,7 +1,16 @@
 import { Controller } from 'stimulus';
+import { Events } from './events';
 import debug from './debug';
 
 export default class extends Controller {
+  subscriptions = {};
+  unsubscribe = [];
+
+  subscribe(eventName, handler) {
+    this.subscriptions[eventName] = this.subscriptions[eventName] || [];
+    this.subscriptions[eventName].push(handler);
+  }
+
   debug(...args) {
     debug(`stimulus:${this.identifier}`, ...[...args, this.element]);
   }
@@ -20,11 +29,20 @@ export default class extends Controller {
   connect() {
     this.debug('connect');
     super.connect();
+    for (const eventName in this.subscriptions) {
+      for (const handler of this.subscriptions[eventName]) {
+        const {unsubscribe} = Events.subscribe(eventName, handler);
+        this.unsubscribe.push(unsubscribe);
+      }
+    }
   }
 
   disconnect() {
     this.debug('disconnect');
     super.disconnect();
+    for (const unsubscribe of this.unsubscribe) {
+      unsubscribe();
+    }
   }
 
   // see https://github.com/stimulusjs/stimulus/issues/200#issuecomment-434731830
