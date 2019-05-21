@@ -77,5 +77,6 @@ type Article struct {
 	Domain     string        `json:"domain"`    // домен новости
 	Comments   int           `json:"comments"`  // число комментариев
 	Likes      int           `json:"likes"`     // число лайков
+	ShowNumber int           `json:"show_num"`  // номер выпуска
 }
 ```
