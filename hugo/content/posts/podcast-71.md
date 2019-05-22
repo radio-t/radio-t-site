@@ -19,5 +19,5 @@ filename = "rt_podcast71"
 
 _* Некоторые технические проблемы связи вызвали небольшие накладки в подкасте._
 
-[аудио](http://cdn.radio-t.com/rt_podcast71.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast71.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast71.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast71.mp3" preload="none"></audio>

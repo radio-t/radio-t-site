@@ -17,5 +17,5 @@ image = "https://radio-t.com/images/radio-t/rt36.jpg"
 - Пиратские сексо-радости
 - Компьютер за $139
 
-[аудио](http://cdn.radio-t.com/rt_podcast36.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast36.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast36.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast36.mp3" preload="none"></audio>

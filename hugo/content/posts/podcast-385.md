@@ -19,5 +19,5 @@ filename = "rt_podcast385"
 * [Сдвиг в частные облака](http://gigaom.com/2014/03/28/tectonic-shift-as-public-cloud-giants-acknowledge-the-power-of-private-deployment-options/).
 * [Amazon покажет тв-приставку](http://www.appletvhacks.net/2014/03/27/amazon-to-unveil-its-apple-tv-competitor-next-week/)
 
-[аудио](http://cdn.radio-t.com/rt_podcast385.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-385.html)
-<audio src="http://cdn.radio-t.com/rt_podcast385.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast385.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-385.html)
+<audio src="https://cdn.radio-t.com/rt_podcast385.mp3" preload="none"></audio>

@@ -21,6 +21,6 @@ image = "https://radio-t.com/images/radio-t/rt165.jpg"
 - [Thunderbird ](http://www.opennet.ru/opennews/art.shtml?num=24587)3.0 для всех и не для каждого
 - [10 неудач](http://www.readwriteweb.com/archives/top_10_failures_of_2009.php) прошедшего года
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast165.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast165.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast165.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast165.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast165.mp3" preload="none"></audio>

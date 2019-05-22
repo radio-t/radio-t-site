@@ -21,5 +21,5 @@ filename = "rt_podcast89"
 - [Новый поисковик](http://webplanet.ru/news/service/2008/06/04/wikia.html) пугает Яндекс и Google
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-89/) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast89.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast89.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast89.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast89.mp3" preload="none"></audio>

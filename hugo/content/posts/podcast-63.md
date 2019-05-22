@@ -15,5 +15,5 @@ filename = "rt_podcast63"
 - самые неудачные технологические проекты
 - темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast63.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast63.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast63.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast63.mp3" preload="none"></audio>

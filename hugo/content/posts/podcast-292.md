@@ -22,4 +22,4 @@ image = "https://radio-t.com/images/radio-t/rt292.jpeg"
 - [Windows Azure](http://www.zdnet.com/blog/btl/windows-azure-re-imagined-microsofts-fit-for-the-cloud/79561) пошел в правильную сторону
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast292.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast292.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-292.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_292)<audio src="http://cdn.radio-t.com/rt_podcast292.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast292.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast292.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-292.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_292)<audio src="https://cdn.radio-t.com/rt_podcast292.mp3" preload="none"></audio>

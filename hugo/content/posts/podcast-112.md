@@ -20,5 +20,5 @@ image = "https://radio-t.com/images/radio-t/rt112.png"
 - О непонятном: кабель, callpod и skype в тюрьме
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast112.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast112.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast112.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast112.mp3" preload="none"></audio>

@@ -23,4 +23,4 @@ image = "https://radio-t.com/images/radio-t/rt267.jpg"
 - WebOS станет опен сорс
 - Темы наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast267.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast267.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-267.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast267.mp3" preload="none"></audio>
+[аудио](https://archive.rucast.net/radio-t/media/rt_podcast267.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast267.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-267.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast267.mp3" preload="none"></audio>

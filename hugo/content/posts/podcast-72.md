@@ -15,5 +15,5 @@ filename = "rt_podcast72"
 - Motorola [удивила](http://techlabs.by/news/hardware/21968.html) всех
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-72/) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast72.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast72.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast72.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast72.mp3" preload="none"></audio>

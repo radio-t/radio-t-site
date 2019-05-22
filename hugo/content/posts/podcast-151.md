@@ -19,5 +19,5 @@ image = "https://radio-t.com/images/radio-t/rt151.jpg"
 
 [DNA (torrent) загрузка](http://dnagen.bittorrent.com/bdg/get?url=http%3A%2F%2Frucast.net%2Fdownload%2Fradio-t%2Frt_podcast151.mp3&file=rt_podcast151.mp3&post_download_action=0)
 
-[аудио](http://cdn.radio-t.com/rt_podcast151.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast151.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast151.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast151.mp3" preload="none"></audio>

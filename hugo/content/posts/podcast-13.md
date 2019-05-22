@@ -14,5 +14,5 @@ filename = "rt_podcast13"
 - Клавиатура не для всех
 - Странный, но потенциально полезный [сервис](http://stickis.com/)
 
-[аудио](http://cdn.radio-t.com/rt_podcast13.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast13.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast13.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast13.mp3" preload="none"></audio>

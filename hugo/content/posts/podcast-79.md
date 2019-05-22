@@ -16,5 +16,5 @@ filename = "rt_podcast79"
 - [Обрезанный фотошоп](http://webplanet.ru/news/service/2008/03/28/photozhop.html)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-79/) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast79.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast79.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast79.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast79.mp3" preload="none"></audio>

@@ -22,5 +22,5 @@ filename = "rt_podcast362"
 * [PredictionIO](http://prediction.io/) это очень круто.
 * Закат [распределенного кэша?](http://gridgaintech.wordpress.com/distributed-caching-is-dead-long-live/)
 
-[аудио](http://cdn.radio-t.com/rt_podcast362.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-362.html)
-<audio src="http://cdn.radio-t.com/rt_podcast362.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast362.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-362.html)
+<audio src="https://cdn.radio-t.com/rt_podcast362.mp3" preload="none"></audio>

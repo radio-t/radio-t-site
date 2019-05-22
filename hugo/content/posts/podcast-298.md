@@ -17,4 +17,4 @@ image = "https://radio-t.com/images/radio-t/rt298.jpg"
 * Теперь они убьют [Sparrow](http://arstechnica.com/information-technology/2012/07/you-shall-know-google-by-its-trail-of-dead-a-sparrow-users-lament/)
 * Приоткрытие [Google+ API](http://mashable.com/2012/07/19/google-plus-api-businesses/)
 
-[аудио](http://cdn.radio-t.com/rt_podcast298.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast298.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-298.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_298)<audio src="http://cdn.radio-t.com/rt_podcast298.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast298.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast298.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-298.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_298)<audio src="https://cdn.radio-t.com/rt_podcast298.mp3" preload="none"></audio>

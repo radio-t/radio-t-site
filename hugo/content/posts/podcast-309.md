@@ -18,4 +18,4 @@ image = "https://radio-t.com/images/radio-t/rt309.jpg"
 * [Immutability против Thread Safety?](http://java.dzone.com/articles/do-immutability-really-means)
 * [JavaOne новости](http://jaxenter.com/roundup-java-news-from-javaone-44845.html)
 
-[аудио](http://cdn.radio-t.com/rt_podcast309.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast309.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-309.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_309)<audio src="http://cdn.radio-t.com/rt_podcast309.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast309.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast309.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-309.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_309)<audio src="https://cdn.radio-t.com/rt_podcast309.mp3" preload="none"></audio>

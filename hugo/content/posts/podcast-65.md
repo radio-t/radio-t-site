@@ -11,5 +11,5 @@ filename = "rt_podcast65"
 [Бонус ](http://fotki.yandex.ru/search.xml?type=image&text=radio-t) имени Бобука!
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast65.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast65.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast65.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast65.mp3" preload="none"></audio>

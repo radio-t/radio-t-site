@@ -19,6 +19,6 @@ image = "https://radio-t.com/images/radio-t/rt162.jpg"
 - Что показала [Microsoft](http://internetno.net/2009/11/19/internet-explorer-9/)
 - [ICQ ](http://kara.allthingsd.com/20091118/aol-hires-bankers-to-sell-off-icq-as-internet-service-starts-to-shed-non-core-assets/)продали, но [ретвиты ](http://internetno.net/2009/11/20/twitter-retweets/)добавили
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast162.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast162.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast162.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast162.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast162.mp3" preload="none"></audio>

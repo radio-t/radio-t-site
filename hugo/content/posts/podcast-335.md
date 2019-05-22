@@ -16,4 +16,4 @@ filename = "rt_podcast335"
 * [Связь между тестированием и дизайном](http://fespinoza.github.com/blog/2013/03/31/talk-review-the-deep-synergy-between-testability-and-good-design/).
 * [Cap'n Proto](http://kentonv.github.com/capnproto/index.html).
 
-[аудио](http://cdn.radio-t.com/rt_podcast335.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast335.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-335.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_335)<audio src="http://cdn.radio-t.com/rt_podcast335.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast335.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast335.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-335.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_335)<audio src="https://cdn.radio-t.com/rt_podcast335.mp3" preload="none"></audio>

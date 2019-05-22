@@ -18,7 +18,7 @@ image = "https://radio-t.com/images/radio-t/rt231.jpg"
 - Правительство Германии вернулось в [лоно MS](http://news2.ru/story/298054/)
 _* Спонсоры выпуска: _[_fastvps.ru_](http://fastvps.ru/)_ и _[_CloudConf_](http://www.cloudconf.ru/)
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast231.mp3) ◆ [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast231.mp3.torrent) ◆ [лог чата](http://chat.radio-t.com/logs/radio-t-231.html)
+[аудио](https://archive.rucast.net/radio-t/media/rt_podcast231.mp3) ◆ [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast231.mp3.torrent) ◆ [лог чата](http://chat.radio-t.com/logs/radio-t-231.html)
 
 
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast231.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast231.mp3" preload="none"></audio>

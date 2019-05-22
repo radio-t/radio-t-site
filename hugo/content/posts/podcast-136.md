@@ -23,5 +23,5 @@ image = "https://radio-t.com/images/radio-t/rt136.png"
 - BlackBerry [смеется](http://www.engadget.com/2009/05/04/blackberry-curve-83xx-overtakes-iphone-3g-in-us-smartphone-ranki/) над iPhone
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast136.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast136.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast136.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast136.mp3" preload="none"></audio>

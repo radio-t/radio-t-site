@@ -15,5 +15,5 @@ filename = "rt_podcast58"
 - MS скупает все и всех
 - Гугл нами рулит
 
-[аудио](http://cdn.radio-t.com/rt_podcast58.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast58.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast58.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast58.mp3" preload="none"></audio>

@@ -17,5 +17,5 @@ filename = "rt_podcast91"
 - GCC захотел странного
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast91.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast91.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast91.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast91.mp3" preload="none"></audio>

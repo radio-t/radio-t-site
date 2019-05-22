@@ -6,5 +6,5 @@ filename = "rt_podcast150"
 
 +++
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast150.mp3)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast150.mp3" preload="none"></audio>
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast150.mp3)
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast150.mp3" preload="none"></audio>

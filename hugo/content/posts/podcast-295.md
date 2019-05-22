@@ -23,4 +23,4 @@ image = "https://radio-t.com/images/radio-t/rt295.jpeg"
 * Релиз [Sublime Text 2.0](http://www.sublimetext.com/blog/articles/sublime-text-2-0-released)
 * [Yammer](http://techcrunch.com/2012/06/25/its-official-microsoft-confirms-it-has-acquired-yammer-for-1-2-billion-in-cash/) за 1,2 Instaram-a
 
-[аудио](http://cdn.radio-t.com/rt_podcast295.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast295.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-295.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_295)<audio src="http://cdn.radio-t.com/rt_podcast295.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast295.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast295.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-295.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_295)<audio src="https://cdn.radio-t.com/rt_podcast295.mp3" preload="none"></audio>

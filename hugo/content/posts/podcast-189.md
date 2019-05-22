@@ -18,10 +18,10 @@ image = "https://radio-t.com/images/radio-t/rt189.jpg"
 - [Что](http://techcrunch.com/2010/05/24/steve-jobs-non-disappointing-keynote-will-begin-monday-june-7-at-10-am/) нам покажут 7го
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-189/) наших слушателей
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast189.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast189.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast189.mp3.torrent)
 
 * [Лог чата](http://chat.radio-t.com/logs/radio-t-189.html)
 
 ** _Звук в этом выпуске не фонтан. Из бэкапа_
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast189.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast189.mp3" preload="none"></audio>

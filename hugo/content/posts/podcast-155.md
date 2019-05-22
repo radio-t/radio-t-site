@@ -20,8 +20,8 @@ image = "https://radio-t.com/images/radio-t/rt155.jpg"
 - Пора переименовать [gmail](http://www.securitylab.ru/news/385926.php)
 - [Tорренты ](http://www.securitylab.ru/news/385633.php)на просторах рунета
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast155.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast155.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast155.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-155.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast155.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast155.mp3" preload="none"></audio>

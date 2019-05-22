@@ -18,4 +18,4 @@ image = "https://radio-t.com/images/radio-t/rt291.png"
 - [Vert.x](http://vertx.io/) в качестве асинхронного фрэймворка
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast291.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast291.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-291.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_291)<audio src="http://cdn.radio-t.com/rt_podcast291.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast291.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast291.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-291.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_291)<audio src="https://cdn.radio-t.com/rt_podcast291.mp3" preload="none"></audio>

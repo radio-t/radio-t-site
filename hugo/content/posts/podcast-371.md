@@ -23,5 +23,5 @@ filename = "rt_podcast371"
 * [Канада, водка и передача](http://www.theverge.com/2013/12/20/5230402/york-university-vodka-fan-text-message)
 * [Prismatic](http://venturebeat.com/2013/12/19/prismatic-pivots-so-you-can-share-your-interests-online-without-bothering-people/)  с новым клиентом
 
-[аудио](http://cdn.radio-t.com/rt_podcast371.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-371.html)
-<audio src="http://cdn.radio-t.com/rt_podcast371.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast371.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-371.html)
+<audio src="https://cdn.radio-t.com/rt_podcast371.mp3" preload="none"></audio>

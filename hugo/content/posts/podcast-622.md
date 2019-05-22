@@ -20,5 +20,5 @@ filename = "rt_podcast622"
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast622.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-622.html)
-<audio src="http://cdn.radio-t.com/rt_podcast622.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast622.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-622.html)
+<audio src="https://cdn.radio-t.com/rt_podcast622.mp3" preload="none"></audio>

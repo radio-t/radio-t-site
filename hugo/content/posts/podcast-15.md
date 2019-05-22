@@ -13,5 +13,5 @@ filename = "rt_podcast15"
 - Почти как Flickr
 - Свежие слухи от Apple
 
-[аудио](http://cdn.radio-t.com/rt_podcast15.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast15.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast15.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast15.mp3" preload="none"></audio>

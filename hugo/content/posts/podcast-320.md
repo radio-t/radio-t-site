@@ -19,4 +19,4 @@ filename = "rt_podcast320"
 * Google запустил [Camera для iPhone](http://techcrunch.com/2012/12/17/google-launches-dedicated-youtube-video-camera-app-for-iphone-and-ipad-touch/)
 * [Глубина против плоскости](http://www.codinghorror.com/blog/2012/12/web-discussions-flat-by-design.html)
 
-[аудио](http://cdn.radio-t.com/rt_podcast320.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast320.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-320.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_320)<audio src="http://cdn.radio-t.com/rt_podcast320.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast320.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast320.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-320.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_320)<audio src="https://cdn.radio-t.com/rt_podcast320.mp3" preload="none"></audio>

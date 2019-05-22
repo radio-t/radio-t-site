@@ -18,6 +18,6 @@ image = "https://radio-t.com/images/radio-t/rt164.jpg"
 - [CrunchPad ](http://www.opennet.ru/opennews/art.shtml?num=24477)украли злые китайцы
 - [10 сайтов](http://www.readwriteweb.com/archives/top_10_international_web_products_of_2009.php) 2009
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast164.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast164.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast164.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast164.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast164.mp3" preload="none"></audio>

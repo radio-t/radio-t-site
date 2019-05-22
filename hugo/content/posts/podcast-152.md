@@ -22,7 +22,7 @@ image = "https://radio-t.com/images/radio-t/rt152.png"
 [Лог чата](http://chat.radio-t.com/logs/radio-t-152.html)
 
 [DNA (torrent) загрузка](http://dnagen.bittorrent.com/bdg/get?url=http%3A%2F%2Fradio-t.com%2Fdownloads%2Frt_podcast152.mp3&name=IT%20Podcast%20Radio-T)
-[](http://dnagen.bittorrent.com/bdg/get?url=http%3A%2F%2Fradio-t.com%2Fdownloads%2Frt_podcast152.mp3&name=IT%20Podcast%20Radio-T)[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast152.mp3)
+[](http://dnagen.bittorrent.com/bdg/get?url=http%3A%2F%2Fradio-t.com%2Fdownloads%2Frt_podcast152.mp3&name=IT%20Podcast%20Radio-T)[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast152.mp3)
 **_
 _**
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast152.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast152.mp3" preload="none"></audio>

@@ -21,4 +21,4 @@ image = "https://radio-t.com/images/radio-t/rt297.jpg"
 * Новая революция через [BitTorrent Torque](http://blog.bittorrent.com/2012/07/06/introducing-bittorrent-torque/)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast297.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast297.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-297.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_297)<audio src="http://cdn.radio-t.com/rt_podcast297.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast297.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast297.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-297.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_297)<audio src="https://cdn.radio-t.com/rt_podcast297.mp3" preload="none"></audio>

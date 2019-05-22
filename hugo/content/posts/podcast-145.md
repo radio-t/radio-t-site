@@ -23,5 +23,5 @@ image = "https://radio-t.com/images/radio-t/rt145.jpg"
 - Анекдотичная глупость [Amazon](http://www.engadget.com/2009/07/17/amazon-remotely-deletes-orwell-e-books-from-kindles-unpersons-r/)
 - Правильный [телефон](http://www.engadget.com/2009/07/17/cigarette-lighter-phone-could-light-up-your-death-sticks-life/)
 
-[](http://www.engadget.com/2009/07/17/cigarette-lighter-phone-could-light-up-your-death-sticks-life/)[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast145.mp3)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast145.mp3" preload="none"></audio>
+[](http://www.engadget.com/2009/07/17/cigarette-lighter-phone-could-light-up-your-death-sticks-life/)[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast145.mp3)
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast145.mp3" preload="none"></audio>

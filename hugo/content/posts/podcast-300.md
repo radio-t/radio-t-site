@@ -17,4 +17,4 @@ image = "https://radio-t.com/images/radio-t/rt300.jpg"
 * Почему TCP отстой [а HTTP](http://ayende.com/blog/157282/why-tcp-is-evil-and-http-is-king?key=e3ca0477-7b77-4695-b3b6-788e857003ce) наше все
 * [Раздача подарков](http://www.radio-t.com/p/2012/08/04/podarki-k-iubilieiu/) в процессе подкаста и после подкаста
 
-[аудио](http://cdn.radio-t.com/rt_podcast300.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast300.mp3.torrent)  • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_300)<audio src="http://cdn.radio-t.com/rt_podcast300.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast300.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast300.mp3.torrent)  • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_300)<audio src="https://cdn.radio-t.com/rt_podcast300.mp3" preload="none"></audio>

@@ -18,5 +18,5 @@ filename = "rt_podcast557"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Тинькофф](https://www.tinkoff.ru/cards/debit-cards/tinkoff-black/?utm_source=radiot_tb&utm_medium=ntv.fix&utm_campaign=tb.radiot)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast557.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-557.html)
-<audio src="http://cdn.radio-t.com/rt_podcast557.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast557.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-557.html)
+<audio src="https://cdn.radio-t.com/rt_podcast557.mp3" preload="none"></audio>

@@ -20,5 +20,5 @@ filename = "rt_podcast383"
 * [Апокалипсис от Била](http://www.businessinsider.com/bill-gates-bots-are-taking-away-jobs-2014-3)
 * [Свежие слухи от Apple](http://www.mactrast.com/2014/03/rumor-apple-will-cease-production-13-inch-non-retina-macbook-pro/)
 
-[аудио](http://cdn.radio-t.com/rt_podcast383.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-383.html)
-<audio src="http://cdn.radio-t.com/rt_podcast383.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast383.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-383.html)
+<audio src="https://cdn.radio-t.com/rt_podcast383.mp3" preload="none"></audio>

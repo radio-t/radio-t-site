@@ -20,4 +20,4 @@ image = "https://radio-t.com/images/radio-t/rt270.jpg"
 - Странные [вопросы](http://mashable.com/2011/12/27/glassdoor-interview-questions-2011/)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast270.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast270.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-270.html)<audio src="http://cdn.radio-t.com/rt_podcast270.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast270.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast270.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-270.html)<audio src="https://cdn.radio-t.com/rt_podcast270.mp3" preload="none"></audio>

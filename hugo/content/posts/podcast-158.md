@@ -15,6 +15,6 @@ image = "https://radio-t.com/images/radio-t/rt158.png"
 - Stone в ухе ([Jabra](http://www.mobile-review.com/fullnews/main/2009/October/23.shtml#26849))
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-158/) наших слушателей
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast158.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast158.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast158.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast158.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast158.mp3" preload="none"></audio>

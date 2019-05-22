@@ -16,5 +16,5 @@ filename = "rt_podcast76"
 - [Покупка Digg](http://www.cnews.ru/news/line/index.shtml?2008/03/07/291251), [смерть клавиатур](http://www.mk.ru/blogs/MK/2008/03/14/srochno/343650/) и прочие MS-разговорчики
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-76/#comments) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast76.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast76.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast76.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast76.mp3" preload="none"></audio>

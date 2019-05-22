@@ -19,7 +19,7 @@ image = "https://radio-t.com/images/radio-t/rt144.jpg"
 - Россия больше не в [Топ-10](http://internet.cnews.ru/news/top/index.shtml?2009/07/10/353628)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-144/) наших слушателей
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast144.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast144.mp3)
 
 * Как всегда, спасибо за _Stavor_ за оформление шоунот
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast144.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast144.mp3" preload="none"></audio>

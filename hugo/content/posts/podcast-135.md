@@ -23,5 +23,5 @@ image = "https://radio-t.com/images/radio-t/rt135.png"
 - Как стать котиком для [тестеров](http://www.testandtry.com/2009/04/29/7-ways-to-be-good-developer-from-tester-point-of-view/)
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast135.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast135.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast135.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast135.mp3" preload="none"></audio>

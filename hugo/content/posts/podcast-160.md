@@ -20,6 +20,6 @@ image = "https://radio-t.com/images/radio-t/rt160.jpg"
 - [UHD-TV](http://hothardware.com/News/Got-HDTV-Get-Ready-For-UHDTV/) совсем скоро
 - новый [хром](http://internetno.net/2009/11/03/chrome-bookmarks-sync/) и старый [java](http://java.dzone.com/news/java-app-store-go-live-month)–магазин
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast160.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast160.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast160.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast160.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast160.mp3" preload="none"></audio>

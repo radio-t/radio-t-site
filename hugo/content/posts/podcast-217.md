@@ -16,8 +16,8 @@ image = "https://radio-t.com/images/radio-t/rt217.jpg"
 - Через 100 [дней](http://techcrunch.com/2010/12/07/ipad-2-coming-in-the-next-100-days/) ...
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-217/) наших слушателей
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast217.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast217.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast217.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-217.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast217.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast217.mp3" preload="none"></audio>

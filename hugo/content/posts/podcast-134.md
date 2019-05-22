@@ -23,5 +23,5 @@ image = "https://radio-t.com/images/radio-t/rt134.png"
 - Все цвета [MSI](http://www.engadget.com/2009/04/21/msi-debuts-atom-n280-equipped-wind-u100-plus-netbook/)
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast134.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast134.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast134.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast134.mp3" preload="none"></audio>

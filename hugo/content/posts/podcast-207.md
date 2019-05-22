@@ -17,6 +17,6 @@ image = "https://radio-t.com/images/radio-t/rt207.jpg"
 - [Goo.gl](http://mashable.com/2010/09/30/goo-gl-url-shortener/) разочаровал некоторых
 - Изыски от [Moleskin](http://www.crunchgear.com/2010/10/01/fancy-moleskin-iphone-ipad-cases-prompt-question-what-do-you-look-for-in-a-case/) для iPhone & iPad
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast207.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast207.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast207.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast207.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast207.mp3" preload="none"></audio>

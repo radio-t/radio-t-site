@@ -17,4 +17,4 @@ image = "https://radio-t.com/images/radio-t/rt304.jpg"
 * Так [неужели](http://www.enrico-franchi.org/2012/08/does-object-oriented-programming-really.html) он так уж плох?
 * [Decorator Pattern](http://zishanbilal.wordpress.com/2011/04/28/design-patterns-by-examples-decorator-pattern/) для простых программистов
 
-[аудио](http://cdn.radio-t.com/rt_podcast304.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast304.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-304.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_304)<audio src="http://cdn.radio-t.com/rt_podcast304.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast304.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast304.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-304.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_304)<audio src="https://cdn.radio-t.com/rt_podcast304.mp3" preload="none"></audio>

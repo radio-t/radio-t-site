@@ -19,6 +19,6 @@ image = "https://radio-t.com/images/radio-t/rt174.jpg"
 - Как выжить [Киндлу](http://www.appleinsider.com/articles/10/02/12/amazon_may_compete_with_apple_ipad_by_giving_away_free_kindles.html)
 - [Aperture 3](http://deepapple.com/news/36172.html) все еще тормоз
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast174.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast174.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast174.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast174.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast174.mp3" preload="none"></audio>

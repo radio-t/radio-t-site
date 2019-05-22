@@ -20,8 +20,8 @@ image = "https://radio-t.com/images/radio-t/rt153.jpg"
 - Суверенный [браузер ](http://safe.cnews.ru/news/top/index.shtml?2009/09/10/361401)на подходе
 - Подозрительные [обещания ](http://habrahabr.ru/blogs/Sun/69278/)Oracle
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast153.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast153.mp3)
 [DNA (torrent) загрузка](http://dnagen.bittorrent.com/bdg/get?url=http%3A%2F%2Fradio-t.com%2Fdownloads%2Frt_podcast153.mp3&name=IT%20Podcast%20Radio-T)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-153.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast153.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast153.mp3" preload="none"></audio>

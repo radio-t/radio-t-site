@@ -20,4 +20,4 @@ image = "https://radio-t.com/images/radio-t/rt234.png"
 - Плоская [структура ](http://www.inc.com/magazine/20110401/jason-fried-why-i-run-a-flat-company.html)против дерева
 - [Темы ](http://new.radio-t.com/2011/04/234.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast234.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast234.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-234.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast234.mp3" preload="none"></audio>
+[аудио](https://archive.rucast.net/radio-t/media/rt_podcast234.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast234.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-234.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast234.mp3" preload="none"></audio>

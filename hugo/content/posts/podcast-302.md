@@ -19,4 +19,4 @@ image = "https://radio-t.com/images/radio-t/rt302.jpg"
 * [Apple уже скучен](http://www.zdnet.com/apple-is-in-danger-of-being-boring-7000002599/) и был таким всегда
 * Что можно сделать [с телевидением](http://www.businessinsider.com/heres-how-apple-is-telling-cable-companies-it-will-make-apple-tv-work-2012-8) если взяться с умом
 
-[аудио](http://cdn.radio-t.com/rt_podcast302.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast302.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-302.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_302)<audio src="http://cdn.radio-t.com/rt_podcast302.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast302.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast302.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-302.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_302)<audio src="https://cdn.radio-t.com/rt_podcast302.mp3" preload="none"></audio>

@@ -16,5 +16,5 @@ filename = "rt_podcast369"
 * [Наброс по поводу Scala](http://overwatering.org/blog/2013/12/scala-1-star-would-not-program-again/)
 * [По поводу магии autowiring](http://blog.frankel.ch/tag/autowiring)
 
-[аудио](http://cdn.radio-t.com/rt_podcast369.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-369.html)
-<audio src="http://cdn.radio-t.com/rt_podcast369.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast369.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-369.html)
+<audio src="https://cdn.radio-t.com/rt_podcast369.mp3" preload="none"></audio>

@@ -21,5 +21,5 @@ image = "https://radio-t.com/images/radio-t/rt142.png"
 - [Вирус](http://soft.compulenta.ru/436651/) для вашего твитера
 - [RedHat](http://business.compulenta.ru/436617/) растет, а [Ruby](http://www.securitylab.ru/news/381796.php) и того более
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast142.mp3)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast142.mp3" preload="none"></audio>
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast142.mp3)
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast142.mp3" preload="none"></audio>

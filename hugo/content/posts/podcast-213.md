@@ -20,8 +20,8 @@ image = "https://radio-t.com/images/radio-t/rt213.png"
 - [RockMelt](http://www.opennet.ru/opennews/art.shtml?num=28572) социальный хром с вкусом netscape
 - OSX будет с [Java](http://blogs.oracle.com/henrik/2010/11/oracle_and_apple_announce_openjdk_project_for_osx.html)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast213.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast213.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast213.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-213.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast213.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast213.mp3" preload="none"></audio>

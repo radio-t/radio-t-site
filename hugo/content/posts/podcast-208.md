@@ -19,8 +19,8 @@ image = "https://radio-t.com/images/radio-t/rt208.jpg"
 - Сервера [FTP](http://www.opennet.ru/opennews/art.shtml?num=28210) под ударом
 - [Велосипед](http://www.wired.com/gadgetlab/2010/10/electric-bike-runs-almost-on-water/) с моторчиком и хайтеком
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast208.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast208.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast208.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-208.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast208.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast208.mp3" preload="none"></audio>

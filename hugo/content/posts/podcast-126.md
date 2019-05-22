@@ -20,5 +20,5 @@ image = "https://radio-t.com/images/radio-t/rt126.png"
 - Ноутбуки от apple [взрываются](http://webplanet.ru/news/security/2009/02/27/macbook_explosion.html) а от Nokia [намечаются](http://www.mobilecrunch.com/2009/02/25/nokia-thinking-about-dabbling-in-the-laptop-biz/)
 *[ Лог чата](http://chat.radio-t.com/logs/radio-t-126.html)
 
-[аудио](http://cdn.radio-t.com/rt_podcast126.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast126.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast126.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast126.mp3" preload="none"></audio>

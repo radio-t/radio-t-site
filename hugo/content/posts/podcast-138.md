@@ -20,5 +20,5 @@ image = "https://radio-t.com/images/radio-t/rt138.jpg"
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-138/) наших слушателей
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast138.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast138.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast138.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast138.mp3" preload="none"></audio>

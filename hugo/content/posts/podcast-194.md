@@ -22,8 +22,8 @@ image = "https://radio-t.com/images/radio-t/rt194.png"
 
 **_Спонсор этого выпуска — хостинг _[_fastvps.ru_](http://fastvps.ru/)**
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast194.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast194.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast194.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-194.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast194.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast194.mp3" preload="none"></audio>

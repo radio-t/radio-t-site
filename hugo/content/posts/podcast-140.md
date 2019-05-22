@@ -19,5 +19,5 @@ image = "https://radio-t.com/images/radio-t/rt140.jpg"
 - Конец [аналоговoго ](http://culture.compulenta.ru/432636/)ТВ в отдельно взятой стране
 - [Яндекс](http://internetno.net/2009/06/10/narod/) лицом к “народу”
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast140.mp3)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast140.mp3" preload="none"></audio>
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast140.mp3)
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast140.mp3" preload="none"></audio>

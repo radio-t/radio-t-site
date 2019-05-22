@@ -18,5 +18,5 @@ filename = "rt_podcast85"
 - [SEO](http://habrahabr.ru/blog/searchengines/41539.html): территория зла
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-85/) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast85.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast85.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast85.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast85.mp3" preload="none"></audio>

@@ -19,5 +19,5 @@ filename = "rt_podcast567"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](https://sprintbox.ru/)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast567.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-567.html)
-<audio src="http://cdn.radio-t.com/rt_podcast567.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast567.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-567.html)
+<audio src="https://cdn.radio-t.com/rt_podcast567.mp3" preload="none"></audio>

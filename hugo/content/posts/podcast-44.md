@@ -15,5 +15,5 @@ filename = "rt_podcast44"
 - Как живётся разработчикам открытого софта?
 - [Темы](http://radio-t.com/index.php/2007/07/02/temyi-dlya-43/#comments) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast44.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast44.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast44.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast44.mp3" preload="none"></audio>

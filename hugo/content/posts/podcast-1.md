@@ -13,5 +13,5 @@ filename = "rt_podcast1"
 - Киберсквотеры и увод домейнов
 - И наконец то, что забыли :)
 
-[аудио](http://cdn.radio-t.com/rt_podcast1.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast1.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast1.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast1.mp3" preload="none"></audio>

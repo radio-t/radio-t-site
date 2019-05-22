@@ -17,5 +17,5 @@ filename = "rt_podcast50"
 - Yahoo mail и ALT Linux зарелизелись
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast50.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast50.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast50.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast50.mp3" preload="none"></audio>

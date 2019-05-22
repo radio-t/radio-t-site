@@ -18,4 +18,4 @@ image = "https://radio-t.com/images/radio-t/rt249.jpg"
 - Незавидная [судьба](http://www.jeffblankenburg.com/2011/07/21/source-control-software-is-too-intrusive/) эникейщиков
 - [Темы](http://new.radio-t.com/2011/07/249.html) наших слушателей.
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast249.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast249.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-249.html) • [обсуждение в g+](https://plus.google.com/104578309919492528255/posts/PcEw6FnWjfN)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast249.mp3" preload="none"></audio>
+[аудио](https://archive.rucast.net/radio-t/media/rt_podcast249.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast249.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-249.html) • [обсуждение в g+](https://plus.google.com/104578309919492528255/posts/PcEw6FnWjfN)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast249.mp3" preload="none"></audio>

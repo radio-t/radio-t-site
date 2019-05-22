@@ -14,5 +14,5 @@ filename = "rt_podcast70"
 - [Picasa будет](http://soft.compulenta.ru/345273/) и у макинтошников
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/radio%e2%80%93t-70/) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast70.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast70.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast70.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast70.mp3" preload="none"></audio>

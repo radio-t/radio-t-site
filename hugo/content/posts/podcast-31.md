@@ -15,5 +15,5 @@ filename = "rt_podcast31"
 - Из AppleTV в Mac-nano
 - 10 лучших технических продуктов
 
-[аудио](http://cdn.radio-t.com/rt_podcast31.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast31.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast31.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast31.mp3" preload="none"></audio>

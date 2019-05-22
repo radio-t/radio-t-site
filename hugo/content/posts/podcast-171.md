@@ -21,6 +21,6 @@ image = "https://radio-t.com/images/radio-t/rt171.jpg"
 - [99% у Apple](http://itc.ua/node/43700) вызывает смех аналитегов
 - О [типах ](http://www.codeinstructions.com/2008/10/styles-of-programming.html)программистов
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast171.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast171.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast171.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast171.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast171.mp3" preload="none"></audio>

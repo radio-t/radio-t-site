@@ -14,11 +14,11 @@ categories = [ "podcast",]
 - Sun уходит в грустные дали
 - Темы наших слушателей
 
-[Аудио](http://cdn.radio-t.com/rt_podcast95.mp3)
+[Аудио](https://cdn.radio-t.com/rt_podcast95.mp3)
 
 
 То, что было [после записи #95](http://narod.ru/disk/1566304000/rt95_afterparty.mp3.html), [после записи #94](http://narod.ru/disk/1566377000/rt94_afterparty.mp3.html) и [после #93](http://narod.ru/disk/1566415000/rt93_afterparty.mp3.html)
 
 _Качество контента, как впрочем и качество звука для бонусов НЕ гарантируется_
 
-<audio src="http://cdn.radio-t.com/rt_podcast95.mp3" preload="none"></audio>
+<audio src="https://cdn.radio-t.com/rt_podcast95.mp3" preload="none"></audio>

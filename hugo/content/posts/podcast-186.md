@@ -21,8 +21,8 @@ image = "https://radio-t.com/images/radio-t/rt186.jpg"
 - Саратовские ученные узнали [все](http://ruformator.ru/news/article0665D/default.asp)
 - Свой код надо [ненавидеть](http://coderoom.wordpress.com/2010/04/22/7-reasons-to-hate-your-code/)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast186.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast186.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast186.mp3.torrent)
 
 * [Лог чата](http://chat.radio-t.com/logs/radio-t-186.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast186.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast186.mp3" preload="none"></audio>

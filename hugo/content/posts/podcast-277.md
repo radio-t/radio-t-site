@@ -18,4 +18,4 @@ image = "https://radio-t.com/images/radio-t/rt277.png"
 - Выход [Apache HTTP Server 2.4](http://httpd.apache.org/docs/2.4/new_features_2_4.html)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast277.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast277.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-277.html)<audio src="http://cdn.radio-t.com/rt_podcast277.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast277.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast277.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-277.html)<audio src="https://cdn.radio-t.com/rt_podcast277.mp3" preload="none"></audio>

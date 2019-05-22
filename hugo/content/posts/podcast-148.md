@@ -20,5 +20,5 @@ image = "https://radio-t.com/images/radio-t/rt148.jpg"
 - [CentOS](http://www.opennet.ru/opennews/art.shtml?num=22845) нашел человека с деньгами
 * на последних минутах отвалилась запись гостя. я собрал как смог
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast148.mp3)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast148.mp3" preload="none"></audio>
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast148.mp3)
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast148.mp3" preload="none"></audio>

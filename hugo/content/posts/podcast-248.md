@@ -17,4 +17,4 @@ image = "https://radio-t.com/images/radio-t/rt248.jpg"
 - [Чем](http://habrahabr.ru/blogs/android/124477/) занимаются конкуренты Гугла
 - Последние убегают с корабля [FreeBSD](http://habrahabr.ru/blogs/os/124563/)
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast248.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast248.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-248.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast248.mp3" preload="none"></audio>
+[аудио](https://archive.rucast.net/radio-t/media/rt_podcast248.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast248.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-248.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast248.mp3" preload="none"></audio>

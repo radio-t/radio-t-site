@@ -13,5 +13,5 @@ filename = "rt_podcast12"
 - Замена DRM налогом на "пиратство"
 - MS определяет свои программы как спам
 
-[аудио](http://cdn.radio-t.com/rt_podcast12.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast12.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast12.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast12.mp3" preload="none"></audio>

@@ -17,5 +17,5 @@ filename = "rt_podcast56"
 - Вредный и грубый Яндех из первых рук
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast56.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast56.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast56.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast56.mp3" preload="none"></audio>

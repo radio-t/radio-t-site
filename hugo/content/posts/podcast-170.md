@@ -24,6 +24,6 @@ image = "https://radio-t.com/images/radio-t/rt170.jpg"
 
 *image [source](http://www.freedigitalphotos.net/images/Fruit_g104-Beautiful_Woman_Eating_A_Strawberry_p6972.html)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast170.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast170.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast170.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast170.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast170.mp3" preload="none"></audio>

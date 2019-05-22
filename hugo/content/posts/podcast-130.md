@@ -26,5 +26,5 @@ image = "https://radio-t.com/images/radio-t/rt130.png"
 * _Спасибо **Stavor** за облагораживание шоунот ссылкам__и_
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast130.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast130.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast130.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast130.mp3" preload="none"></audio>

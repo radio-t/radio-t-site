@@ -20,5 +20,5 @@ filename = "rt_podcast98"
 - 8 средств разработки с открытым кодом
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast98.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast98.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast98.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast98.mp3" preload="none"></audio>

@@ -19,5 +19,5 @@ image = "https://radio-t.com/images/radio-t/rt101.jpg"
 - Что нам готовят заклятые друзья в сентябре
 - Темы слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast101.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast101.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast101.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast101.mp3" preload="none"></audio>

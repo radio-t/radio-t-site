@@ -24,8 +24,8 @@ image = "https://radio-t.com/images/radio-t/rt197.jpg"
 
 **_Спонсоры этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast197.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast197.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast197.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-197.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast197.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast197.mp3" preload="none"></audio>

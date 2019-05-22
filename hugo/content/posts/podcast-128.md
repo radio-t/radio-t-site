@@ -22,5 +22,5 @@ image = "https://radio-t.com/images/radio-t/rt128.png"
 - Непонятная [статистика](http://business.compulenta.ru/409072/) смартфонов
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast128.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast128.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast128.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast128.mp3" preload="none"></audio>

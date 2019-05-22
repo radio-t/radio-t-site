@@ -20,5 +20,5 @@ _Предупреждение: разные технические пробле�
 - Около-линуксовые новинки
 - 21 технологическое фиаско
 
-[аудио](http://cdn.radio-t.com/rt_podcast35.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast35.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast35.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast35.mp3" preload="none"></audio>

@@ -21,5 +21,5 @@ image = "https://radio-t.com/images/radio-t/rt149.jpg"
 - Как платить программистам
 - У нас опять украли круглую [идею](http://www.engadget.com/2009/08/11/art-lebedevs-navigarius-gps-concept-proves-its-hip-to-be-round/)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast149.mp3)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast149.mp3" preload="none"></audio>
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast149.mp3)
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast149.mp3" preload="none"></audio>

@@ -17,5 +17,5 @@ image = "https://radio-t.com/images/radio-t/rt33.jpg"
 - Хакерам всегда открыто, а пиратам наоборот
 - 7 Причин для MS полюбить ОpenSource
 
-[аудио](http://cdn.radio-t.com/rt_podcast33.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast33.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast33.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast33.mp3" preload="none"></audio>

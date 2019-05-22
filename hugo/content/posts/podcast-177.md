@@ -19,8 +19,8 @@ image = "https://radio-t.com/images/radio-t/rt177.jpg"
 - Через 3 года [не будет](http://tech.yahoo.com/blogs/null/161280;_ylt=AlQVDO0LMo_zHo.3Wlo1_qB0fNdF) компьютеров
 - Умный [антивирус](http://www.thg.ru/technews/20100301_233800.html) Яндекса
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast177.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast177.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast177.mp3.torrent)
 
 * [Лог чата](http://chat.radio-t.com/logs/radio-t-177.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast177.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast177.mp3" preload="none"></audio>

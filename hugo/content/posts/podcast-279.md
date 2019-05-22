@@ -21,4 +21,4 @@ image = "https://radio-t.com/images/radio-t/rt279.jpeg"
 - Вирус на [иностранном языке](http://www.zdnet.com/blog/security/kaspersky-duqu-trojan-uses-unknown-programming-language/10625)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast279.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast279.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-279.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_279)<audio src="http://cdn.radio-t.com/rt_podcast279.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast279.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast279.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-279.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_279)<audio src="https://cdn.radio-t.com/rt_podcast279.mp3" preload="none"></audio>

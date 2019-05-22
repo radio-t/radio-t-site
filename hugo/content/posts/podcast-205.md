@@ -20,6 +20,6 @@ image = "https://radio-t.com/images/radio-t/rt205.gif"
 - [Ужас](http://www.readwriteweb.com/enterprise/2010/09/it-disasters-what-was-your-big.php) админа
 - Делаем [код](http://java.dzone.com/news/my-top-3-advices-make-better) лучше
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast205.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast205.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast205.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast205.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast205.mp3" preload="none"></audio>

@@ -13,5 +13,5 @@ filename = "rt_podcast60"
 - [Тач](http://webplanet.ru/node/17350) среди нас (вас)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast60.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast60.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast60.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast60.mp3" preload="none"></audio>

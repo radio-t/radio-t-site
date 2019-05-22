@@ -19,8 +19,8 @@ image = "https://radio-t.com/images/radio-t/rt216.jpg"
 - 200 строк, которые сделали [чудо](http://www.phoronix.com/scan.php?page=article&item=linux_2637_video&num=1)
 - Взлом Git-репозитория проекта [X.Org](http://www.opennet.ru/opennews/art.shtml?num=28745)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast216.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast216.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast216.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-216.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast216.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast216.mp3" preload="none"></audio>

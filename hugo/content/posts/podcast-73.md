@@ -20,5 +20,5 @@ filename = "rt_podcast73"
 - SSD-версия: такой МБА нам [не нужен](http://www.engadget.com/2008/02/06/macbook-air-with-ssd-tested-performance-boost-nowhere-to-be-fou/)!
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-73/) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast73.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast73.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast73.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast73.mp3" preload="none"></audio>

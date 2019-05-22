@@ -20,4 +20,4 @@ image = "https://radio-t.com/images/radio-t/rt311.jpg"
 * [С паролями все не так](http://www.wired.com/opinion/2012/10/passwords-and-hackers-security-and-practicality/) опять
 * [GitHub под DDoS](http://techcrunch.com/2012/10/18/github-goes-down-with-major-disruption/)
 
-[аудио](http://cdn.radio-t.com/rt_podcast311.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast311.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-311.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_311)<audio src="http://cdn.radio-t.com/rt_podcast311.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast311.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast311.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-311.html) • [wiki](http://wiki.radio-t.com/%D0%92%D1%8B%D0%BF%D1%83%D1%81%D0%BA_311)<audio src="https://cdn.radio-t.com/rt_podcast311.mp3" preload="none"></audio>

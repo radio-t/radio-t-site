@@ -22,7 +22,7 @@ filename = "rt_podcast74"
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-74/) наших слушателей
 
 
-В качестве компенсации за странности выпуска, предлагаем вашему вниманию фрагмент того, что обычно доступно только для онлайин слушателей (после–шоу). Это НЕ часть подкаста, и прослушивание сего ... хм ...сомнительного звука, очень опционально. Слушать [ **здесь**](http://archive.rucast.net/radio-t/media/rt74extra.mp3).
+В качестве компенсации за странности выпуска, предлагаем вашему вниманию фрагмент того, что обычно доступно только для онлайин слушателей (после–шоу). Это НЕ часть подкаста, и прослушивание сего ... хм ...сомнительного звука, очень опционально. Слушать [ **здесь**](https://archive.rucast.net/radio-t/media/rt74extra.mp3).
 
-[аудио](http://cdn.radio-t.com/rt_podcast74.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast74.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast74.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast74.mp3" preload="none"></audio>

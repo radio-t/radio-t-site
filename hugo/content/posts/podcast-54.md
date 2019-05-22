@@ -17,5 +17,5 @@ filename = "rt_podcast54"
 
 * Первые несколько минут (около 5) имеют место некоторые искажения звука. Самую малость.
 
-[аудио](http://cdn.radio-t.com/rt_podcast54.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast54.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast54.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast54.mp3" preload="none"></audio>

@@ -19,5 +19,5 @@ filename = "rt_podcast16"
 - Уход из Novell (группа самбы), хлопнув дверью
 - 25 самых значимых программ
 
-[аудио](http://cdn.radio-t.com/rt_podcast16.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast16.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast16.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast16.mp3" preload="none"></audio>

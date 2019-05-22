@@ -18,5 +18,5 @@ filename = "rt_podcast83"
 - Как не делать убийцу iMac
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast83.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast83.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast83.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast83.mp3" preload="none"></audio>

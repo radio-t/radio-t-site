@@ -21,5 +21,5 @@ filename = "rt_podcast492"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast492.mp3) • [лог чата](https://gitter.im/umputun/radio-t/archives/2016/04/23)
-<audio src="http://cdn.radio-t.com/rt_podcast492.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast492.mp3) • [лог чата](https://gitter.im/umputun/radio-t/archives/2016/04/23)
+<audio src="https://cdn.radio-t.com/rt_podcast492.mp3" preload="none"></audio>

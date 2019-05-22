@@ -22,5 +22,5 @@ image = "https://radio-t.com/images/radio-t/rt141.jpg"
 - [Google](http://www.thg.ru/technews/20090616_112230.html) проникся нашими восторгами
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-141/) наших слушателей
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast141.mp3)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast141.mp3" preload="none"></audio>
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast141.mp3)
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast141.mp3" preload="none"></audio>

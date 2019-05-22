@@ -17,5 +17,5 @@ filename = "rt_podcast10"
 
 Местами звучит не очень :( У одного из ведущих студия в процессе наладки, у другого студия в 1000 милях от места дислокации.
 
-[аудио](http://cdn.radio-t.com/rt_podcast10.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast10.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast10.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast10.mp3" preload="none"></audio>

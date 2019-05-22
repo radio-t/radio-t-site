@@ -17,5 +17,5 @@ filename = "rt_podcast360"
 * Восход [Puppet](http://jaxenter.com/what-s-driving-the-rise-in-puppet-and-why-should-you-care-48354.html).
 * [Swagger для REST API](http://www.javacodegeeks.com/2013/10/swagger-make-developers-love-working-with-your-rest-api.html).
 
-[аудио](http://cdn.radio-t.com/rt_podcast360.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-360.html)
-<audio src="http://cdn.radio-t.com/rt_podcast360.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast360.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-360.html)
+<audio src="https://cdn.radio-t.com/rt_podcast360.mp3" preload="none"></audio>

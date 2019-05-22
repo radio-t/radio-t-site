@@ -18,8 +18,8 @@ image = "https://radio-t.com/images/radio-t/rt212.jpg"
 - Google ускорит все web [сервера](http://www.readwriteweb.com/archives/googles_obsession_with_speed_comes_to_the_web_serv.php)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-212/) наших слушателей
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast212.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast212.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast212.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-212.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast212.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast212.mp3" preload="none"></audio>

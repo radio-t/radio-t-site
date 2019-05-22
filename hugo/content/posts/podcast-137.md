@@ -20,5 +20,5 @@ image = "https://radio-t.com/images/radio-t/rt137.png"
 - Twitter [меняет](http://habrahabr.ru/blogs/twitter/59497/) @reply: все не так просто
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast137.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast137.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast137.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast137.mp3" preload="none"></audio>

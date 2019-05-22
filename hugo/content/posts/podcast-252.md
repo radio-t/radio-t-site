@@ -18,4 +18,4 @@ image = "https://radio-t.com/images/radio-t/rt252.jpg"
 - Каким будет телевизор от Apple
 - [Темы](http://new.radio-t.com/2011/08/252.html) наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast252.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast252.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-252.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast252.mp3" preload="none"></audio>
+[аудио](https://archive.rucast.net/radio-t/media/rt_podcast252.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast252.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-252.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast252.mp3" preload="none"></audio>

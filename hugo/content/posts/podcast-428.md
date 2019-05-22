@@ -22,5 +22,5 @@ filename = "rt_podcast428"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast428.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-428.html)
-<audio src="http://cdn.radio-t.com/rt_podcast428.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast428.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-428.html)
+<audio src="https://cdn.radio-t.com/rt_podcast428.mp3" preload="none"></audio>

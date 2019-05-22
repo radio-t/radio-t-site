@@ -18,8 +18,8 @@ image = "https://radio-t.com/images/radio-t/rt173.jpg"
 - Больше не будет поддержки [IE6.](http://itc.ua/node/43931) Да!
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-173/) наших слушателей
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast173.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast173.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast173.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-173.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast173.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast173.mp3" preload="none"></audio>

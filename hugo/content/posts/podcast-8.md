@@ -17,5 +17,5 @@ filename = "rt_podcast8"
 - Nokia 870 & что-то с GPS
 - Новый простой [редактор](http://labs.adobe.com/technologies/soundbooth/), от Adobe
 
-[аудио](http://cdn.radio-t.com/rt_podcast8.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast8.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast8.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast8.mp3" preload="none"></audio>

@@ -14,5 +14,5 @@ filename = "rt_podcast52"
 - 10 вредных советов для личной жизни программистов
 - Темы и вопросы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast52.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast52.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast52.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast52.mp3" preload="none"></audio>

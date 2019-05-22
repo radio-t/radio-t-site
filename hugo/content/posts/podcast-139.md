@@ -24,5 +24,5 @@ image = "https://radio-t.com/images/radio-t/rt139.png"
 
 * Спонсор этого выпуска - [**softkey.ru**](http://www.softkey.ru/news_detail.php?ID=8264)
 
-[аудио](http://cdn.radio-t.com/rt_podcast139.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast139.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast139.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast139.mp3" preload="none"></audio>

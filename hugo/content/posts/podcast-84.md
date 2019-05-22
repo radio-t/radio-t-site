@@ -17,5 +17,5 @@ filename = "rt_podcast84"
 - Грядет революция в твитер–разработке
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast84.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast84.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast84.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast84.mp3" preload="none"></audio>

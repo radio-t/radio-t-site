@@ -20,8 +20,8 @@ image = "https://radio-t.com/images/radio-t/rt211.jpg"
 - [Air](http://reviews.cnet.com/laptops/apple-macbook-air/4505-3121_7-32818756.html) обозрели и удивились
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-211/) наших слушателей
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast211.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast211.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast211.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-211.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast211.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast211.mp3" preload="none"></audio>

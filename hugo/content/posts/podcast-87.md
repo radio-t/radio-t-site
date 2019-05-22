@@ -18,5 +18,5 @@ filename = "rt_podcast87"
 - Поговорим о качественных программах
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast87.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast87.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast87.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast87.mp3" preload="none"></audio>

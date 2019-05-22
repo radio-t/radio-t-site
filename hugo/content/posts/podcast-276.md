@@ -18,4 +18,4 @@ image = "https://radio-t.com/images/radio-t/rt276.jpg"
 - Куда двигается линейка [MBP](http://thenextweb.com/apple/2012/02/10/breaking-down-the-rumors-whats-happening-with-apples-macbook-pro/)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast276.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast276.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-276.html)<audio src="http://cdn.radio-t.com/rt_podcast276.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast276.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast276.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-276.html)<audio src="https://cdn.radio-t.com/rt_podcast276.mp3" preload="none"></audio>

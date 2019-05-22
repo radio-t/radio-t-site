@@ -19,5 +19,5 @@ filename = "rt_podcast81"
 - [Придет](http://www.deepapple.com/news/30355.html) ли к нам Apple?
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-81/) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast81.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast81.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast81.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast81.mp3" preload="none"></audio>

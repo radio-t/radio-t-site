@@ -14,5 +14,5 @@ filename = "rt_podcast18"
 - Интернет в кармане и ванной (Nokia N800)
 - Главные новинки недели (AppleTV + iPhone)
 
-[аудио](http://cdn.radio-t.com/rt_podcast18.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast18.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast18.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast18.mp3" preload="none"></audio>

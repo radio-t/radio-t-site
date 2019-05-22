@@ -22,4 +22,4 @@ image = "https://radio-t.com/images/radio-t/rt233.png"
 - Темы наших слушателей
 _Спонсор выпуска — _[fastvps.ru](http://fastvps.ru/)
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast233.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast233.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-233.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast233.mp3" preload="none"></audio>
+[аудио](https://archive.rucast.net/radio-t/media/rt_podcast233.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast233.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-233.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast233.mp3" preload="none"></audio>

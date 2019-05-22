@@ -17,5 +17,5 @@ filename = "rt_podcast20"
 - Suse для WalMart
 - Интел и Сан подружились
 
-[аудио](http://cdn.radio-t.com/rt_podcast20.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast20.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast20.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast20.mp3" preload="none"></audio>

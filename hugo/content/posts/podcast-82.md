@@ -17,5 +17,5 @@ filename = "rt_podcast82"
 - [Камера с WiFi](http://itc.ua/node/31184) на борту и [гламурный ноутбук](http://www.engadget.com/2008/04/15/lenovos-ideapad-u110-coming-soon-to-the-us/)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-82/) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast82.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast82.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast82.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast82.mp3" preload="none"></audio>

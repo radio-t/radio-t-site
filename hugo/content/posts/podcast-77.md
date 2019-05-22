@@ -19,5 +19,5 @@ filename = "rt_podcast77"
 - Кит [против](http://kp.ua/daily/170308/37126/) слона (Android vs. iPhone)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-77/) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast77.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast77.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast77.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast77.mp3" preload="none"></audio>

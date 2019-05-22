@@ -17,5 +17,5 @@ filename = "rt_podcast37"
 - WinServer 2008. Догоним и перегоним линукс
 - Десять вымирающих профессий в сфере IT
 
-[аудио](http://cdn.radio-t.com/rt_podcast37.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast37.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast37.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast37.mp3" preload="none"></audio>

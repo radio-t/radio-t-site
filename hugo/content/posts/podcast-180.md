@@ -21,8 +21,8 @@ image = "https://radio-t.com/images/radio-t/rt180.png"
 - Токийская [биржа](http://www.opennet.ru/opennews/art.shtml?num=25911) и мелкий банк полюбили Linux
 - Каждому ученику немного [win7](http://cnews.ru/news/top/index.shtml?2010/03/24/384162)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast180.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast180.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast180.mp3.torrent)
 
 * [Лог чата](http://chat.radio-t.com/logs/radio-t-180.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast180.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast180.mp3" preload="none"></audio>

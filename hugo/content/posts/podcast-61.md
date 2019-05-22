@@ -28,5 +28,5 @@ filename = "rt_podcast61"
 - 76:38 Темы наших слушателей
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast61.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast61.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast61.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast61.mp3" preload="none"></audio>

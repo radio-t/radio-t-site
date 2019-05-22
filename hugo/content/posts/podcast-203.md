@@ -18,6 +18,6 @@ image = "https://radio-t.com/images/radio-t/rt203.png"
 
 * В этим выпуске больше Apple чем обычно.
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast203.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast203.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast203.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast203.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast203.mp3" preload="none"></audio>

@@ -20,6 +20,6 @@ image = "https://radio-t.com/images/radio-t/rt206.gif"
 - [Гослинг](http://habrahabr.ru/blogs/java/104799/) против Oracle - "они меня не уважают"
 - Самый честный [Google](http://habrahabr.ru/blogs/google/104678/)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast206.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast206.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast206.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast206.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast206.mp3" preload="none"></audio>

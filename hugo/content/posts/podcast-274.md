@@ -20,4 +20,4 @@ image = "https://radio-t.com/images/radio-t/rt274.jpg"
 - Сам себе [IT](http://thenextweb.com/apple/2012/01/24/apple-expects-its-new-employees-to-be-their-own-it-department/?awesm=tnw.to_1CvVh)
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast274.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast274.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-274.html)<audio src="http://cdn.radio-t.com/rt_podcast274.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast274.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast274.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-274.html)<audio src="https://cdn.radio-t.com/rt_podcast274.mp3" preload="none"></audio>

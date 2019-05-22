@@ -18,4 +18,4 @@ image = "https://radio-t.com/images/radio-t/rt247.png"
 - Как макофилов [обидели](http://forkbombr.net/no-lion/)
 - [Темы ](http://new.radio-t.com/2011/07/247.html)наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast247.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast247.mp3.torrent)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast247.mp3" preload="none"></audio>
+[аудио](https://archive.rucast.net/radio-t/media/rt_podcast247.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast247.mp3.torrent)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast247.mp3" preload="none"></audio>

@@ -25,5 +25,5 @@ filename = "rt_podcast481"
 
 _Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast481.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-481.html)
-<audio src="http://cdn.radio-t.com/rt_podcast481.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast481.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-481.html)
+<audio src="https://cdn.radio-t.com/rt_podcast481.mp3" preload="none"></audio>

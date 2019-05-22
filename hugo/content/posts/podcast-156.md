@@ -18,7 +18,7 @@ image = "https://radio-t.com/images/radio-t/rt156.png"
 - [Бэкапы ](http://net.compulenta.ru/463752/)с вирусами в комплекте
 - [Темы ](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-156/)наших слушателей
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast156.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast156.mp3)
 
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast156.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast156.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast156.mp3" preload="none"></audio>

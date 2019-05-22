@@ -22,5 +22,5 @@ image = "https://radio-t.com/images/radio-t/rt146.jpg"
 - Что бывает с тем, кто [слухи](http://webplanet.ru/news/life/2009/07/22/fox.html) подкрепляет
 - Летающая [мото–коляска](http://www.engadget.com/2009/07/19/parajet-skycar-flying-vehicle-evolves-now-ready-for-pre-orders/)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast146.mp3)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast146.mp3" preload="none"></audio>
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast146.mp3)
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast146.mp3" preload="none"></audio>

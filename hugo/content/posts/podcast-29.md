@@ -17,5 +17,5 @@ filename = "rt_podcast29"
 - HP нас удивила
 - Google с его единственным трюком
 
-[аудио](http://cdn.radio-t.com/rt_podcast29.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast29.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast29.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast29.mp3" preload="none"></audio>

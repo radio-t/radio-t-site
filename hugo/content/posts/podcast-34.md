@@ -19,5 +19,5 @@ image = "https://radio-t.com/images/radio-t/rt34.jpg"
 - Такие дорогие гаджеты
 - 10 причин, по которым НЕ стоит переходить на Макинтош
 
-[аудио](http://cdn.radio-t.com/rt_podcast34.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast34.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast34.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast34.mp3" preload="none"></audio>

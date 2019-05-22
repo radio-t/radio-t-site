@@ -14,5 +14,5 @@ filename = "rt_podcast6"
 - О растущей популярности маков
 - Проект "Венеция"
 
-[аудио](http://cdn.radio-t.com/rt_podcast6.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast6.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast6.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast6.mp3" preload="none"></audio>

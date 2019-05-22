@@ -17,8 +17,8 @@ image = "https://radio-t.com/images/radio-t/rt168.jpg"
 - Интернет [закрыт ](http://www.securitylab.ru/news/389348.php)до 8ми часов
 - Грядет [телефон](http://www.mobile-review.com/fullnews/main/2009/December/30.shtml#27721), уже скоро
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast168.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast168.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast168.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-168.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast168.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast168.mp3" preload="none"></audio>

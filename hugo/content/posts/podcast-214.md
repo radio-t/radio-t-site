@@ -18,8 +18,8 @@ image = "https://radio-t.com/images/radio-t/rt214.jpg"
 - Кодекс молодого строителя [Убунты](http://www.opennet.ru/opennews/art.shtml?num=28691)
 - Реклама мошенников против [Audacity](http://www.opennet.ru/opennews/art.shtml?num=28704)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast214.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast214.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast214.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-214.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast214.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast214.mp3" preload="none"></audio>

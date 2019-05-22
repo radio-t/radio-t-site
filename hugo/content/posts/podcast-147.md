@@ -21,5 +21,5 @@ image = "https://radio-t.com/images/radio-t/rt147.jpg"
 - Хакеры с феминистками против [главного](http://www.securitylab.ru/news/383077.php)
 - Долой [SMS](http://webplanet.ru/news/research/2009/07/28/nosms.html)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast147.mp3)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast147.mp3" preload="none"></audio>
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast147.mp3)
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast147.mp3" preload="none"></audio>

@@ -23,5 +23,5 @@ image = "https://radio-t.com/images/radio-t/rt104.png"
 
 * **_ [Лог чата](http://chat.radio-t.com/logs/radio-t-104.html)_**
 
-[аудио](http://cdn.radio-t.com/rt_podcast104.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast104.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast104.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast104.mp3" preload="none"></audio>

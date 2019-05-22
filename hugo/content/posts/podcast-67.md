@@ -18,5 +18,5 @@ filename = "rt_podcast67"
 
 * Внимание! Этот подкаст включает доплнительный бонус-выпуск
 
-[аудио](http://cdn.radio-t.com/rt_podcast67.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast67.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast67.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast67.mp3" preload="none"></audio>

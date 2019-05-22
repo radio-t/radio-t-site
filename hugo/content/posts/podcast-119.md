@@ -26,5 +26,5 @@ image = "https://radio-t.com/images/radio-t/rt119.jpg"
 
 * Лог онлайн–чата [_доступен_](http://chat.radio-t.com/logs/radio-t-119.html)
 
-[аудио](http://cdn.radio-t.com/rt_podcast119.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast119.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast119.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast119.mp3" preload="none"></audio>

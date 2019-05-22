@@ -20,6 +20,6 @@ image = "https://radio-t.com/images/radio-t/rt166.jpg"
 - О чем [шумел ](http://www.techcrunch.com/2009/12/17/twitter-reportedly-hacked-by-iranian-cyber-army/)твитер
 - [Microsoft ](http://www.pcmag.com/article2/0,2817,2357178,00.asp)тянет то, что плохо лежит
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast166.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast166.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast166.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast166.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast166.mp3" preload="none"></audio>

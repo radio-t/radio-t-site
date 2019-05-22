@@ -18,5 +18,5 @@ filename = "rt_podcast86"
 - Ускорение пиратства [уменьшается](http://soft.compulenta.ru/357249/)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-86/) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast86.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast86.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast86.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast86.mp3" preload="none"></audio>

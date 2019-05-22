@@ -12,5 +12,5 @@ filename = "rt_podcast4"
 - [Sony Reader](http://www.gizmodo.com/gadgets/gadgets/sony-reader-gizmodos-hands-all-over-350-in-october-really-203185.php) и PepperPad
 - YouTube, RIAA и LimeWire
 
-[аудио](http://cdn.radio-t.com/rt_podcast4.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast4.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast4.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast4.mp3" preload="none"></audio>

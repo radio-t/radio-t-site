@@ -19,6 +19,6 @@ image = "https://radio-t.com/images/radio-t/rt163.jpg"
 - Книги от [bookee](http://internet.cnews.ru/news/line/index.shtml?2009/11/25/371022): непонятно
 - $167 за [миллион ](http://webplanet.ru/news/business/2009/11/23/spotify.html)легальных скачиваний
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast163.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast163.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast163.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast163.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast163.mp3" preload="none"></audio>

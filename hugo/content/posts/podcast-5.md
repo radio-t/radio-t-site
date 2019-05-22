@@ -16,5 +16,5 @@ filename = "rt_podcast5"
 - Yahoo открывается
 - Всем боятся Гугла
 
-[аудио](http://cdn.radio-t.com/rt_podcast5.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast5.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast5.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast5.mp3" preload="none"></audio>

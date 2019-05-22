@@ -15,5 +15,5 @@ filename = "rt_podcast25"
 - Чего ждать свитчеру на Mac
 - BitTorrent вышел из подполья
 
-[аудио](http://cdn.radio-t.com/rt_podcast25.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast25.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast25.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast25.mp3" preload="none"></audio>

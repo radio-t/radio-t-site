@@ -24,8 +24,8 @@ image = "https://radio-t.com/images/radio-t/rt181.jpg"
 - HP и Dell [разочаровались](http://cnews.ru/news/top/index.shtml?2010/04/02/385231)
 - Как поступать с [бумагой](http://net.compulenta.ru/520144/)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast181.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast181.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast181.mp3.torrent)
 
 * [Лог чата](http://chat.radio-t.com/logs/radio-t-181.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast181.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast181.mp3" preload="none"></audio>

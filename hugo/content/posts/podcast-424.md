@@ -20,5 +20,5 @@ filename = "rt_podcast424"
 
 _Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [kato.im](https://kato.im), [Джинн](http://djinni.co) и [Waltr](http://softorino.com/waltr)_
 
-[аудио](http://cdn.radio-t.com/rt_podcast424.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-424.html)
-<audio src="http://cdn.radio-t.com/rt_podcast424.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast424.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-424.html)
+<audio src="https://cdn.radio-t.com/rt_podcast424.mp3" preload="none"></audio>

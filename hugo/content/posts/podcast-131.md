@@ -23,5 +23,5 @@ image = "https://radio-t.com/images/radio-t/rt131.jpg"
 - Вспоминая традиции: числительные [отмазки](http://savasplace.com/2008/10/20-things-programmers-say-when-something-is-not-working/)
 
 
-[аудио](http://cdn.radio-t.com/rt_podcast131.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast131.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast131.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast131.mp3" preload="none"></audio>

@@ -17,5 +17,5 @@ image = "https://radio-t.com/images/radio-t/rt45.jpg"
 - Еще один способ делания денег
 - Дюжина полезных IT навыков
 
-[аудио](http://cdn.radio-t.com/rt_podcast45.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast45.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast45.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast45.mp3" preload="none"></audio>

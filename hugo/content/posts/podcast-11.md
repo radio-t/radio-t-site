@@ -16,5 +16,5 @@ filename = "rt_podcast11"
 - Slide получил инвестиций а порно-сайты могут получить наши кредитные карточки
 - Линус официально герой
 
-[аудио](http://cdn.radio-t.com/rt_podcast11.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast11.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast11.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast11.mp3" preload="none"></audio>

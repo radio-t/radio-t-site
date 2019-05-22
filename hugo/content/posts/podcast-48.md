@@ -16,5 +16,5 @@ filename = "rt_podcast48"
 - Разговоры вокруг виртуализации
 - Темы [наших слушателей](http://radio-t.com/index.php/2007/08/15/temyi-dlya-47-2/#comments)
 
-[аудио](http://cdn.radio-t.com/rt_podcast48.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast48.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast48.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast48.mp3" preload="none"></audio>

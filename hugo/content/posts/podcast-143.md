@@ -21,5 +21,5 @@ image = "https://radio-t.com/images/radio-t/rt143.jpg"
 - [Стандарту](http://www.crunchgear.com/2009/06/29/micro-usb-to-be-the-standard-phone-charging-port-of-europe/) питания быть? или не быть?
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-143/) наших слушателей
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast143.mp3)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast143.mp3" preload="none"></audio>
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast143.mp3)
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast143.mp3" preload="none"></audio>

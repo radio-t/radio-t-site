@@ -16,5 +16,5 @@ filename = "rt_podcast78"
 - [Так ли хороши SSD](http://hitech.tomsk.ru/newsmobile/7271-tak-li-khoroshi-ssd-diski-kak-ikh.html)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-78/) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast78.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast78.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast78.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast78.mp3" preload="none"></audio>

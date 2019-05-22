@@ -15,5 +15,5 @@ filename = "rt_podcast80"
 - Linux на десктопах [пошел ввысь](http://www.linux.org.ru/view-message.jsp?msgid=2635143)
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-80/) наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast80.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast80.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast80.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast80.mp3" preload="none"></audio>

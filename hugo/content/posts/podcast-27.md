@@ -18,5 +18,5 @@ filename = "rt_podcast27"
 - О доменных проблемах
 - Как осчастливить гиков
 
-[аудио](http://cdn.radio-t.com/rt_podcast27.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast27.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast27.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast27.mp3" preload="none"></audio>

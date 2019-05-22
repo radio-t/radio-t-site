@@ -19,5 +19,5 @@ filename = "rt_podcast539"
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Java-конференция JPoint](http://bit.ly/jpoint-radiot-2017)*
 
-[аудио](http://cdn.radio-t.com/rt_podcast539.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-539.html)
-<audio src="http://cdn.radio-t.com/rt_podcast539.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast539.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-539.html)
+<audio src="https://cdn.radio-t.com/rt_podcast539.mp3" preload="none"></audio>

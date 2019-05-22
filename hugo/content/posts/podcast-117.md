@@ -19,5 +19,5 @@ image = "https://radio-t.com/images/radio-t/rt117.jpg"
 - Новый web.py и возможная Nova
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast117.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast117.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast117.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast117.mp3" preload="none"></audio>

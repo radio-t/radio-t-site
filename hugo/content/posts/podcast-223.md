@@ -21,8 +21,8 @@ image = "https://radio-t.com/images/radio-t/rt223.jpg"
 - [Playboy](http://www.bgr.com/2011/01/19/hugh-hefner-playboy-coming-to-ipad-in-march-uncensored/) для iPad без цензуры
 - [Аттракцион](http://mashable.com/2011/01/18/edge-soirritating/) невиданной щедрости через twitter
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast223.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast223.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast223.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-223.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast223.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast223.mp3" preload="none"></audio>

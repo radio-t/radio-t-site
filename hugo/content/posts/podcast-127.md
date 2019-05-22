@@ -19,5 +19,5 @@ image = "https://radio-t.com/images/radio-t/rt127.jpg"
 - Построим [нашу ос](http://spo.cnews.ru/news/top/index.shtml?2009/03/05/339784), плохо но дорого
 - Хакера [посадят](http://webplanet.ru/news/law/2009/03/06/hack.html) за дело и не сразу
 
-[аудио](http://cdn.radio-t.com/rt_podcast127.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast127.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast127.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast127.mp3" preload="none"></audio>

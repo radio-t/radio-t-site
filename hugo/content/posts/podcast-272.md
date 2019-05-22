@@ -20,4 +20,4 @@ image = "https://radio-t.com/images/radio-t/rt272.jpg"
 - Лучше чем Apple?
 - Темы наших слушателей
 
-[аудио](http://cdn.radio-t.com/rt_podcast272.mp3) • [radio-t.torrent](http://cdn.radio-t.com/torrents/rt_podcast272.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-272.html)<audio src="http://cdn.radio-t.com/rt_podcast272.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast272.mp3) • [radio-t.torrent](https://cdn.radio-t.com/torrents/rt_podcast272.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-272.html)<audio src="https://cdn.radio-t.com/rt_podcast272.mp3" preload="none"></audio>

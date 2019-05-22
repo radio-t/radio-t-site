@@ -21,10 +21,10 @@ image = "https://radio-t.com/images/radio-t/rt230.jpg"
 
 _Спонсор выпуска — _[_fastvps.ru_](http://fastvps.ru/)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast230.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast230.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast230.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-230.html)
 
 
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast230.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast230.mp3" preload="none"></audio>

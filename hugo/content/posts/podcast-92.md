@@ -20,5 +20,5 @@ filename = "rt_podcast92"
 
 * [Лог чата](http://chat.radio-t.com/logs/radio-t-92.html)
 
-[аудио](http://cdn.radio-t.com/rt_podcast92.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast92.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast92.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast92.mp3" preload="none"></audio>

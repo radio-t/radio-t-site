@@ -19,6 +19,6 @@ image = "https://radio-t.com/images/radio-t/rt204.jpg"
 - Странные пунктики [Apple](http://www.readwriteweb.com/archives/apple_relaxes_restrictions_on_mobile_app_development.php)
 - Развлечение и убивание времени [Яндексом](http://interes.yandex.ru/map.xml?reg=1)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast204.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast204.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast204.mp3.torrent)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast204.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast204.mp3" preload="none"></audio>

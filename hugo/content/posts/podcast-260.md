@@ -18,4 +18,4 @@ image = "https://radio-t.com/images/radio-t/rt260.png"
 - [Fossil](http://www.fossil-scm.org/index.html/doc/trunk/www/qandc.wiki), что это?
 - Темы наших слушателей
 
-[аудио](http://archive.rucast.net/radio-t/media/rt_podcast260.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast260.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-260.html)<audio src="http://archive.rucast.net/radio-t/media/rt_podcast260.mp3" preload="none"></audio>
+[аудио](https://archive.rucast.net/radio-t/media/rt_podcast260.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast260.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-260.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast260.mp3" preload="none"></audio>

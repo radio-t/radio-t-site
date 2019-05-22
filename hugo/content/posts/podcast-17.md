@@ -14,5 +14,5 @@ filename = "rt_podcast17"
 - 64 против 32
 - Дилема HDTV
 
-[аудио](http://cdn.radio-t.com/rt_podcast17.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast17.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast17.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast17.mp3" preload="none"></audio>

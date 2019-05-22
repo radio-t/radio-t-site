@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt167.jpg"
 **
 **
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast167.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast167.mp3)
 
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast167.mp3.torrent)
 
@@ -22,4 +22,4 @@ image = "https://radio-t.com/images/radio-t/rt167.jpg"
 
 * спасибо _macsyk_ за картинку
 
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast167.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast167.mp3" preload="none"></audio>

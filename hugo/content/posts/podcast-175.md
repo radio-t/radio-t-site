@@ -17,8 +17,8 @@ image = "https://radio-t.com/images/radio-t/rt175.jpg"
 - [Subversion 1.7](http://subversion.wandisco.com/component/content/article/1/44.html) уже не догонит
 - [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-175/) наших слушателей
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast175.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast175.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast175.mp3.torrent)
 
 * [Лог чата](http://chat.radio-t.com/logs/radio-t-175.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast175.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast175.mp3" preload="none"></audio>

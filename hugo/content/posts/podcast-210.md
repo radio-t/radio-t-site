@@ -22,8 +22,8 @@ image = "https://radio-t.com/images/radio-t/rt210.png"
 - Фрагментация Android из странных [уст](http://habrahabr.ru/blogs/apple/106489/)
 - Темы наших [слушателей](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-210/)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast210.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast210.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast210.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-210.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast210.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast210.mp3" preload="none"></audio>

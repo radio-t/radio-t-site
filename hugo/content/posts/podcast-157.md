@@ -20,8 +20,8 @@ image = "https://radio-t.com/images/radio-t/rt157.jpg"
 - [Мышки ](http://www.engadget.com/2009/10/07/microsoft-multitouch-mouse-prototypes-in-action-video/)от MS в концептах
 - Самые легкие ноутбуки. [Первый](http://hard.compulenta.ru/465726/) и [второй](http://hard.compulenta.ru/465830/)
 
-[Аудио](http://archive.rucast.net/radio-t/media/rt_podcast157.mp3)
+[Аудио](https://archive.rucast.net/radio-t/media/rt_podcast157.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast157.mp3.torrent)
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-157.html)
-<audio src="http://archive.rucast.net/radio-t/media/rt_podcast157.mp3" preload="none"></audio>
+<audio src="https://archive.rucast.net/radio-t/media/rt_podcast157.mp3" preload="none"></audio>

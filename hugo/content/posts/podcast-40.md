@@ -17,5 +17,5 @@ image = "https://radio-t.com/images/radio-t/rt40.JPG"
 - Линус пожурил Sun
 - Приятности от Google
 
-[аудио](http://cdn.radio-t.com/rt_podcast40.mp3)
-<audio src="http://cdn.radio-t.com/rt_podcast40.mp3" preload="none"></audio>
+[аудио](https://cdn.radio-t.com/rt_podcast40.mp3)
+<audio src="https://cdn.radio-t.com/rt_podcast40.mp3" preload="none"></audio>
