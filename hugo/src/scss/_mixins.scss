@@ -10,6 +10,15 @@
   letter-spacing: .07em;
 }
 
+@mixin digits-monospace {
+  // use Inter font's tabular numbers
+  font-family: $font-family-monospace;
+  @supports (font-feature-settings: 'tnum' 1) {
+    font-family: $font-family-base;
+    font-feature-settings: 'tnum' 1;
+  }
+}
+
 // Override outline button styles
 @mixin button-outline-variant($color, $color-hover: color-yiq($color), $active-background: $color, $active-border: $color) {
   color: $color;
