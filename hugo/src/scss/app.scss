@@ -358,11 +358,14 @@ $jumbotron-arc-width: 120%;
 .posts-list {
   .post-podcast-content {
     > * {
-      display: none;
+      //display: none;
     }
     ul:first-of-type {
-      display: block !important;
-      margin: 0;
+      //display: block !important;
+      //margin: 0;
+    }
+    > p:last-child {
+      margin-bottom: 0;
     }
   }
 }
