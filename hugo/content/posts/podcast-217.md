@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt217.jpg"
 - [Атаки](http://mashable.com/2010/12/08/hackers-take-down-visa-com-in-the-name-of-wikileaks/) прошедшей недели
 - Это должен видеть каждый [гик](http://pileofturtles.com/2010/12/the-best-movies-for-programmers/)
 - Через 100 [дней](http://techcrunch.com/2010/12/07/ipad-2-coming-in-the-next-100-days/) ...
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-217/) наших слушателей
+- [Темы](/p/2010/12/08/prep-217/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast217.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast217.mp3.torrent)

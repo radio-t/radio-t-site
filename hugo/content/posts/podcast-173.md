@@ -16,7 +16,7 @@ image = "https://radio-t.com/images/radio-t/rt173.jpg"
 - [PyCharm](http://www.jetbrains.net/confluence/display/PYH/JetBrains+PyCharm+Preview) пока не очень charm
 - У гугла стало на одного пользователя [меньше](http://habrahabr.ru/blogs/apple/82828/)
 - Больше не будет поддержки [IE6.](http://itc.ua/node/43931) Да!
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-173/) наших слушателей
+- [Темы](/p/2010/02/02/prep-173/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast173.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast173.mp3.torrent)

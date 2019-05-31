@@ -20,7 +20,7 @@ image = "https://radio-t.com/images/radio-t/rt197.jpg"
 - Атака [пэдов](http://www.wired.com/gadgetlab/2010/07/lenovo-promises-android-tablet-by-year-end/) по всему фронту
 - Хайтек в массы: экономим [электричество](http://dvice.com/archives/2010/07/turn-your-toile.php) и сбиваем [самолетики](http://dvice.com/archives/2010/07/laser-cannon-th.php)
 - Выход релиза [CouchDB](http://www.dzone.com/links/r/apache_unveils_a_polished_couchdb_10.html) и скоро-будет-релиза MongoDB
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-197/) наших слушателей
+- [Темы](/p/2010/07/21/prep-197/) наших слушателей
 
 **_Спонсоры этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
 

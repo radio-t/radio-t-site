@@ -16,7 +16,7 @@ filename = "rt_podcast88"
 - Маковые [слухи о рефакторинге](http://www.appleinsider.com/articles/08/05/30/apple_may_re_brand__mac_internet_service.html)
 - Самая тяжелая [база](http://www.opennet.ru/opennews/art.shtml?num=16120) на планете
 - [Училка и Linux](http://webplanet.ru/news/soft/2008/05/28/bashkir_linux.html): смелая, но легкая
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-88/) наших слушателей
+- [Темы](/p/2008/05/27/prep-88/) наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast88.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast88.mp3" preload="none"></audio>

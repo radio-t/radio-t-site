@@ -18,7 +18,7 @@ image = "https://radio-t.com/images/radio-t/rt228.png"
 - Уничтожь [е-книгу](http://www.readwriteweb.com/archives/this_library_e-book_will_self-destruct_after_26_ch.php), спаси бобра
 - [Видео](http://www.switched.com/2011/02/22/amazon-prime-now-offers-unlimited-streaming-video/) от амазаона почти бесплатно
 - Атаки на [ЖЖ](http://www.gzt.ru/topnews/hitech/-sup-podtverdil-ddos-ataku-na-zhzh-/349586.html)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-228/) наших слушателей
+- [Темы](/p/2011/02/21/prep-228/) наших слушателей
 
 _Спонсор выпуска — _[_fastvps.ru_](http://fastvps.ru/)
 

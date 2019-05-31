@@ -15,7 +15,7 @@ image = "https://radio-t.com/images/radio-t/rt175.jpg"
 - Самые опасные [ошибки](http://www.opennet.ru/opennews/art.shtml?num=25465) 2009
 - [На чем](http://www.linux.org.ru/news/linux-general/4559794) сидит бородатый
 - [Subversion 1.7](http://subversion.wandisco.com/component/content/article/1/44.html) уже не догонит
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-175/) наших слушателей
+- [Темы](/p/2010/02/16/prep-175/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast175.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast175.mp3.torrent)

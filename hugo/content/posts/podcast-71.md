@@ -15,7 +15,7 @@ filename = "rt_podcast71"
 - [Новый VGA-смартфон](http://www.trustedreviews.com/mobile-devices/news/2008/01/11/E-TEN-Launches-VGA-GPS-Totting-X650/p1) и [первый телефон с eink](http://www.membrana.ru/lenta/?7939)
 - Что будет с [Apple в России](http://hard.compulenta.ru/345887/)?
 - Яндекс [в 10–ке](http://habrahabr.ru/blog/yandex/34614.html)!
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-71/) наших слушателей
+- [Темы](/p/2008/01/22/prep-71/) наших слушателей
 
 _* Некоторые технические проблемы связи вызвали небольшие накладки в подкасте._
 

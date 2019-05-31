@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt144.jpg"
 - Без [твиттер–умений](http://webplanet.ru/news/life/2009/07/08/teimlo.html) нет работы
 - Младший брат ищет [правильно](http://internetno.net/2009/07/10/gimages-cc/)
 - Россия больше не в [Топ-10](http://internet.cnews.ru/news/top/index.shtml?2009/07/10/353628)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-144/) наших слушателей
+- [Темы](/p/2009/07/07/prep-144/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast144.mp3)
 

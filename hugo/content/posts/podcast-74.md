@@ -19,7 +19,7 @@ filename = "rt_podcast74"
 - [Смарт](http://www.engadget.com/2008/02/21/atandt-palm-centro-gets-reviewed/) от Palm
 - Странные [защитники](http://cnews.ru/news/top/index.shtml?2008/02/19/288851) open source
 - Прощание с [ушедшими в небытие](http://net.compulenta.ru/349422/)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-74/) наших слушателей
+- [Темы](/p/2008/02/18/prep-74/) наших слушателей
 
 
 В качестве компенсации за странности выпуска, предлагаем вашему вниманию фрагмент того, что обычно доступно только для онлайин слушателей (после–шоу). Это НЕ часть подкаста, и прослушивание сего ... хм ...сомнительного звука, очень опционально. Слушать [ **здесь**](https://archive.rucast.net/radio-t/media/rt74extra.mp3).

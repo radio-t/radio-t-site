@@ -16,7 +16,7 @@ image = "https://radio-t.com/images/radio-t/rt215.jpg"
 - [Skype](http://internet.cnews.ru/news/top/index.shtml?2010/11/26/417790) сделает видеоконференции платными
 - [iOS 4.2](http://www.engadget.com/2010/11/22/ios-4-2-review-for-ipad/) провоцирует jailbreak
 - [Google Wave](http://mashable.com/2010/11/25/apache-wave-google/) хочет чтоб его откопали
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-215/) наших слушателей
+- [Темы](/p/2010/11/26/prep-215/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast215.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast215.mp3.torrent)

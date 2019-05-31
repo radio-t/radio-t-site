@@ -23,7 +23,7 @@ image = "https://radio-t.com/images/radio-t/rt124.png"
 - [Ответы](http://internetno.net/2009/02/13/ask-yandex/) Яндекса
 - Прокуратура против [контакта](http://webplanet.ru/news/law/2009/02/11/pirotech.html), а [ФАС](http://webplanet.ru/news/soft/2009/02/12/fas.html) за всех
 - Новые [iPhone](http://www.mobile-review.com/fullnews/main/2009/February/11.shtml#23069) уже летом
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-124/) наших слушателей
+- [Темы](/p/2009/02/11/prep-124/) наших слушателей
 
 
 

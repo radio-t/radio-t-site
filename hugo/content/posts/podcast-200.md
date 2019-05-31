@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt200.png"
 - Ждем [iTV](http://itc.ua/node/47929)?
 - Сноповязалка имени [Axon Logic](http://itc.ua/node/47969)
 - [Таблетка](http://mashable.com/2010/08/10/dell-streak-tablet-price/) Dell или большой телефон
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-200/) наших слушателей
+- [Темы](/p/2010/08/11/prep-200/) наших слушателей
 
 * Юбилейная [раздача](https://spreadsheets.google.com/ccc?key=0Apse9MaTqJQ5dHVaMmZjMG1MLUlUaUEwb3RsYTZ6RkE&hl=en) слушателям вот [таких](http://twitpic.com/2ersrj) слонов (исходник изображения)
 

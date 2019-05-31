@@ -20,7 +20,7 @@ image = "https://radio-t.com/images/radio-t/rt210.png"
 - Все переходим на [webOS 2.0](http://mashable.com/2010/10/19/web-os-2-0/)
 - Рейтинг языков программирования немного [удивил](http://habrahabr.ru/blogs/programming/106557/)
 - Фрагментация Android из странных [уст](http://habrahabr.ru/blogs/apple/106489/)
-- Темы наших [слушателей](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-210/)
+- Темы наших [слушателей](/p/2010/10/20/prep-210/)
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast210.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast210.mp3.torrent)

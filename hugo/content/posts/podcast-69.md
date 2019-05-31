@@ -12,7 +12,7 @@ filename = "rt_podcast69"
 - [Телеграфный сервис](http://roem.ru/2008/01/08/top4top/) не для всех
 - Разговоры о [CES](http://www.gazeta.ru/techzone/2008/01/11_a_2541152.shtml)
 - Скоро [Logitech](http://www.engadget.com/2008/01/10/microsoft-to-buy-logitech/) может уйти в даль
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-69/) наших слушателей
+- [Темы](/p/2008/01/08/prep-69/) наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast69.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast69.mp3" preload="none"></audio>

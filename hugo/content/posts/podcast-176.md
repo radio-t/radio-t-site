@@ -16,7 +16,7 @@ image = "https://radio-t.com/images/radio-t/rt176.jpg"
 - Приход [касандры](http://www.linux.org.ru/news/clusters/4588335) в твитер к добру
 - [Чак Норис](http://www.linux.org.ru/news/security/4586997) против раутеров
 - [Взрослый](http://soft.compulenta.ru/508999/) AppStore
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-176/) наших слушателей
+- [Темы](/p/2010/02/23/prep-176/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast176.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast176.mp3.torrent)

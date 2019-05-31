@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt138.jpg"
 - IntelliJ [Плагин](http://maxheapsize.com/2009/05/08/jetbrains-released-a-google-app-engine-plugin-for-intellij/) для Google App Engine
 - [Часы](http://www.engadget.com/2009/05/18/phosphor-intros-new-line-of-curved-e-ink-watches/) на любителя
 - Много разговорчиков о разном
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-138/) наших слушателей
+- [Темы](/p/2009/05/21/prep-138/) наших слушателей
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast138.mp3)

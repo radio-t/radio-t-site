@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt190.png"
 - [Не ходите](http://www.switched.com/2010/05/31/woman-hit-by-car-sues-google-for-bad-directions/) по картам через магистрали
 - В Европе [это](http://techcrunch.com/2010/05/29/apple-ipad-offers-freedom-for-porn-at-least-in-one-berlin-ad/) можно
 - [VoltDB](http://www.readwriteweb.com/enterprise/2010/06/voltdb-launches-open-source-next-generation-database-management-system.php) no-sql без NO
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-190/) наших слушателей
+- [Темы](/p/2010/06/01/prep-190/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast190.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast190.mp3.torrent)

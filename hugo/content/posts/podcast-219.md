@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt219.jpg"
 - Концептуальная [атака](http://www.vedomosti.ru/newspaper/article/252434/yandeks_otkryl_koshelek) от D0z.me
 - Релиз открытого медиацентра [Xbmc 10.0](http://www.opennet.ru/opennews/art.shtml?num=29048)
 - Правильный email клиент [Sparrow](http://www.tuaw.com/2010/12/21/sparrow-for-mac-beta-review/)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-219/) наших слушателей
+- [Темы](/p/2010/12/21/prep-219/) наших слушателей
 
 * спонсор выпуска - [megaplan.ru](http://megaplan.ru)
 

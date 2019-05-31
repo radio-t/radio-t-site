@@ -16,7 +16,7 @@ image = "https://radio-t.com/images/radio-t/rt222.png"
 - iPhone на CDMA и общее [ликование](http://mashable.com/2011/01/11/cdma-umts-att-verizon-networks/)
 - [Права](http://internetno.net/2011/01/12/amerikancy-gotovjat-internet-kontrol/) на работу в интернете подступают?
 - Apple Store против [GPL](http://www.opennet.ru/opennews/art.shtml?num=29231)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-222/) наших слушателей
+- [Темы](/p/2011/01/12/prep-222/) наших слушателей
 
 * _спонсор выпуска — _[_megaplan.ru_](http://megaplan.ru/)
 

@@ -20,7 +20,7 @@ image = "https://radio-t.com/images/radio-t/rt141.jpg"
 - Очередное [фиаско](http://www.engadget.com/2009/06/19/microsoft-extends-xp-downgrade-availability-to-2011-when-will-i/) MS, теперь до 2011
 - Ожесточенная [борьба](http://webplanet.ru/news/security/2009/06/17/drweb_macosx.html) с вирусами на Mac
 - [Google](http://www.thg.ru/technews/20090616_112230.html) проникся нашими восторгами
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-141/) наших слушателей
+- [Темы](/p/2009/06/17/prep-141/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast141.mp3)
 <audio src="https://archive.rucast.net/radio-t/media/rt_podcast141.mp3" preload="none"></audio>

@@ -21,7 +21,7 @@ image = "https://radio-t.com/images/radio-t/rt119.jpg"
 - Молодые [хакеры](http://webplanet.ru/news/security/2008/12/29/young_hackers.html)
 - Непонятный [топ10](http://internetno.net/2008/12/29/best2008/) рунета
 - Самый популярный амазоновский [гаджет](http://culture.compulenta.ru/392982/)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-119/) наших слушателей
+- [Темы](/p/2009/01/01/prep-119/) наших слушателей
 
 
 * Лог онлайн–чата [_доступен_](http://chat.radio-t.com/logs/radio-t-119.html)

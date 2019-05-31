@@ -18,7 +18,7 @@ image = "https://radio-t.com/images/radio-t/rt221.jpg"
 - [NVIDIA](http://www.osnews.com/story/24209/NVIDIA_Announces_ARM_CPU_for_Desktop_Server_HPC) и ARM CPU для нормальных компьютеров
 - Skype будет [за деньги](http://techcrunch.com/2011/01/06/skype-adds-group-video-calling-to-enterprise-offering/)
 - Чем чреваты [технологии](http://www.switched.com/2011/01/04/technology-physically-addictive-information-deprivation-disorder/)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-221/) наших слушателей.
+- [Темы](/p/2011/01/04/prep-221/) наших слушателей.
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast221.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast221.mp3.torrent)
