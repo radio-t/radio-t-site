@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt121.jpg"
 - Кризис ударил по [Intel](http://business.compulenta.ru/396327/) и [MS](http://www.osnews.com/story/20828/Microsoft_To_Cut_5000_Jobs)
 - [Федора](http://www.opennet.ru/opennews/art.shtml?num=19912) обещает Ехт4
 - [CISCO](http://hard.compulenta.ru/395730/) выходит на чуждый рынок
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-121/) наших слушателей
+- Темы наших слушателей
 
 
 ** [лог чата](http://chat.radio-t.com/logs/radio-t-121.html)

@@ -12,7 +12,7 @@ filename = "rt_podcast70"
 - AOL [запустил](http://habrahabr.ru/blog/im/34177.html) jabber-протокол
 - [Незаменимые работники](http://habrahabr.ru/blog/arbeit/33722.html) вокруг нас
 - [Picasa будет](http://soft.compulenta.ru/345273/) и у макинтошников
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/radio%e2%80%93t-70/) наших слушателей
+- [Темы](http://radio-t.com/temi_dlja_vipuskov/radio-70/) наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast70.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast70.mp3" preload="none"></audio>

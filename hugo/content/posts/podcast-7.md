@@ -14,7 +14,7 @@ filename = "rt_podcast7"
 - Visa vs. Allofmp3.com
 - Визит отца Ubuntu
 
-* Звучит музыка предоставленная [Pijups](http://pijups.pnz.ru/)
+Звучит музыка предоставленная [Pijups](http://pijups.pnz.ru/)
 
 [аудио](https://cdn.radio-t.com/rt_podcast7.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast7.mp3" preload="none"></audio>

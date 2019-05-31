@@ -8,8 +8,7 @@ filename = "rt_podcast65"
 
 Выпуск по темам наших слушателей, с раздачей подарков и прочими радостями.
 
-[Бонус ](http://fotki.yandex.ru/search.xml?type=image&text=radio-t) имени Бобука!
-
+[Бонус](http://fotki.yandex.ru/search.xml?type=image&text=radio-t) имени Бобука!
 
 [аудио](https://cdn.radio-t.com/rt_podcast65.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast65.mp3" preload="none"></audio>

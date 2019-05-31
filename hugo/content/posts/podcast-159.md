@@ -15,7 +15,7 @@ image = "https://radio-t.com/images/radio-t/rt159.jpg"
 - [Oracle ](http://habrahabr.ru/blogs/Sun/73708/)сказал всю правду. Мужики сомневаются
 - [PST ](http://soft.compulenta.ru/471573/)на пороге открытия
 - [11 самых](http://www.smashingapps.com/2009/10/27/11-most-popular-open-source-softwares-of-all-time.html) из мира Open Source
-- [Темы ](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-159/)наших слушателей
+- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-159/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast159.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast159.mp3.torrent)
