@@ -1,3 +1,7 @@
+if (process.env.NODE_ENV === 'production' || process.env.ENABLE_SENTRY) {
+  require('./sentry');
+}
+
 require('./polyfills');
 require('./stimulus');
 
