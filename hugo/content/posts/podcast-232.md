@@ -20,6 +20,7 @@ image = "https://radio-t.com/images/radio-t/rt232.jpg"
 - [FF4](http://arstechnica.com/open-source/reviews/2011/03/ars-reviews-firefox-4.ars) и ваши мнения
 - [Color ](http://www.readwriteweb.com/archives/color_ceo_the_tech_justifies_the_41_million.php)потряс всех
 - [Темы](/p/2011/03/23/prep-232/) наших слушателей.
-_Спонсор выпуска — _[fastvps.ru](http://fastvps.ru/)
+
+_Спонсор выпуска_ — [fastvps.ru](http://fastvps.ru/)
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast232.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast232.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-232.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast232.mp3" preload="none"></audio>

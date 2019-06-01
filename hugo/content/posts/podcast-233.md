@@ -20,6 +20,7 @@ image = "https://radio-t.com/images/radio-t/rt233.png"
 - CI против брэнчевания
 - Проклятые .NET программисты
 - Темы наших слушателей
-_Спонсор выпуска — _[fastvps.ru](http://fastvps.ru/)
+
+_Спонсор выпуска_ — [fastvps.ru](http://fastvps.ru/)
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast233.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast233.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-233.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast233.mp3" preload="none"></audio>

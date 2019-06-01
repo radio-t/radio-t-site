@@ -22,4 +22,5 @@ image = "https://radio-t.com/images/radio-t/rt251.gif"
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast251.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast251.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-251.html)
 
-_upd: в связи с невиданной популярностью этого выпуска, [залил подкаст на libsyn](http://traffic.libsyn.com/umputun/rt_podcast251.mp3)_<audio src="http://traffic.libsyn.com/umputun/rt_podcast251.mp3" preload="none"></audio>
+**upd:** в связи с невиданной популярностью этого выпуска, [залил подкаст на libsyn](http://traffic.libsyn.com/umputun/rt_podcast251.mp3)
+<audio src="http://traffic.libsyn.com/umputun/rt_podcast251.mp3" preload="none"></audio>
