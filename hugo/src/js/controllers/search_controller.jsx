@@ -55,7 +55,7 @@ export default class extends Controller {
 
   async search(e) {
     this.searchQuery = e.target.value.trim();
-    this.resultTarget.innerHTML = '';
+    unmountComponentAtNode(this.resultTarget);
     if (this.searchQuery) this.makeSearchRequest(this.searchQuery);
   }
 }
