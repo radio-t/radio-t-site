@@ -17,9 +17,9 @@ image = "https://radio-t.com/images/radio-t/rt218.jpg"
 - Skyfire проиграет вам ... [особое](http://www.wired.com/gadgetlab/2010/12/skyfire-ipad/) видео
 - Отстегивающийся iPhone для вашего [авто](http://www.wired.com/gadgetlab/2010/12/car-stereo-uses-iphone-for-display-control-everything/)
 - Грусть от [Tumblr](http://techcrunch.com/2010/12/17/ok-tumblr-this-is-getting-just-a-little-embarrassing/)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-218/) наших слушателей
+- [Темы](/p/2010/12/14/prep-218/) наших слушателей
 
-* спонсор выпуска - [megaplan.ru](http://megaplan.ru)
+Спонсор выпуска - [megaplan.ru](http://megaplan.ru)
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast218.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast218.mp3.torrent)

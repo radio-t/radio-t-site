@@ -13,7 +13,7 @@ filename = "rt_podcast80"
 - [РИФ](http://2008.rif.ru/) глазами очевидца
 - [Новинки](http://www.3dnews.ru/mobile/lbook_ereader_v3/) рынка eКниг
 - Linux на десктопах [пошел ввысь](http://www.linux.org.ru/view-message.jsp?msgid=2635143)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-80/) наших слушателей
+- [Темы](/p/2008/04/01/prep-80/) наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast80.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast80.mp3" preload="none"></audio>

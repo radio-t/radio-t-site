@@ -16,7 +16,7 @@ filename = "rt_podcast85"
 - [Кнут](http://webplanet.ru/interview/soft/2008/05/06/knuth.html) все еще крут
 - BB9K [доступен](http://www.crunchgear.com/2008/05/08/blackberry-9000-video-overview-looks-nice/)
 - [SEO](http://habrahabr.ru/blog/searchengines/41539.html): территория зла
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-85/) наших слушателей
+- [Темы](/p/2008/05/06/prep-85/) наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast85.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast85.mp3" preload="none"></audio>

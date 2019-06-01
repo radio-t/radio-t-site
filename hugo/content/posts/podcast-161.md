@@ -20,7 +20,7 @@ image = "https://radio-t.com/images/radio-t/rt161.jpg"
 - [Zino HD](http://hitech.tomsk.ru/newshardware/13575-dell-predstavil-inspiron-zino-hd.html) — немного другой Mini
 - Python 3 [законсервирован](http://www.opennet.ru/opennews/art.shtml?num=24234). Срок годности до 26.6.2011
 
-* Отпускной подкаст. Звук полевой, сведение на коленке.
+Отпускной подкаст. Звук полевой, сведение на коленке.
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast161.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast161.mp3.torrent)

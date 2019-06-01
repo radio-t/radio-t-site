@@ -16,7 +16,7 @@ image = "https://radio-t.com/images/radio-t/rt202.jpg"
 - iMac Touch можно [согнуть](http://www.crunchgear.com/2010/08/23/apples-imac-and-macbook-touch-patents-tease-ios-convertible-devices/)
 - Звонки через [Google](http://mashable.com/2010/08/25/google-voice-gmail-2/) и его [баги](http://mashable.com/2010/08/27/gmail-bug-spam/)
 - [Digg](http://internetno.net/2010/08/27/new-digg-review/) меняется к лучшему
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-202/) слушателей
+- [Темы](/p/2010/08/25/prep-202/) слушателей
 
 **_Спонсор этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) **
 

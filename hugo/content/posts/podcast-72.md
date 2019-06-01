@@ -13,7 +13,7 @@ filename = "rt_podcast72"
 - Google [против](http://net.compulenta.ru/346530/) доменных мудрецов
 - Противопиратские [подвижки](http://net.compulenta.ru/346974/) недели
 - Motorola [удивила](http://techlabs.by/news/hardware/21968.html) всех
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-72/) наших слушателей
+- [Темы](/p/2008/01/29/prep-72/) наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast72.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast72.mp3" preload="none"></audio>

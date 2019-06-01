@@ -14,7 +14,7 @@ filename = "rt_podcast76"
 - [Отркытие Komodo](http://cnews.ru/news/line/index.shtml?2008/03/17/292451) и в чем писать программы
 - Дружно скажем [порно](http://www.rosbalt.ru/2008/02/26/459933.html) свое твердое слово
 - [Покупка Digg](http://www.cnews.ru/news/line/index.shtml?2008/03/07/291251), [смерть клавиатур](http://www.mk.ru/blogs/MK/2008/03/14/srochno/343650/) и прочие MS-разговорчики
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-76/#comments) наших слушателей
+- [Темы](/p/2008/03/04/prep-76/#comments) наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast76.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast76.mp3" preload="none"></audio>

@@ -21,8 +21,7 @@ image = "https://radio-t.com/images/radio-t/rt139.png"
 - [Индикатор-6](http://www.engadget.com/2009/06/04/indicator-6-nixie-clock-is-handsome-functional-khruschev-appro/), это надо видеть
 - [iRex](http://www.engadget.com/2009/06/03/irex-to-release-color-e-reader-in-2011/) для любителей читать красиво
 
-
-* Спонсор этого выпуска - [**softkey.ru**](http://www.softkey.ru/news_detail.php?ID=8264)
+Спонсор этого выпуска - [**softkey.ru**](http://www.softkey.ru/news_detail.php?ID=8264)
 
 [аудио](https://cdn.radio-t.com/rt_podcast139.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast139.mp3" preload="none"></audio>

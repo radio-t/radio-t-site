@@ -18,7 +18,7 @@ image = "https://radio-t.com/images/radio-t/rt198.jpg"
 - Кто из новеньких на фронте [таблеток](http://www.switched.com/2010/07/30/rims-blackpad-9-7-inch-tablet-rumored-to-debut-in-november/)
 - Почта на прилетит прямо [домой](http://dvice.com/archives/2010/07/fedexs-dream-of.php)
 - За Уралом YouTube [не будет](http://net.compulenta.ru/550553/)
-- Темы наших [слушателей](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-198/)
+- Темы наших [слушателей](/p/2010/07/27/prep-198/)
 
 **_Спонсоры этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
 

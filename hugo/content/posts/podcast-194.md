@@ -18,7 +18,7 @@ image = "https://radio-t.com/images/radio-t/rt194.png"
 - NoSQL [Membase](http://www.opennet.ru/opennews/art.shtml?num=27085) от автора Memcached
 - [newthreading](http://www.opennet.ru/opennews/art.shtml?num=27107) для python
 - GitHub придумал [Organizations](http://www.readwriteweb.com/start/2010/06/github-introduces-organization.php)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-194/) наших слушателей
+- [Темы](/p/2010/06/30/prep-194/) наших слушателей
 
 **_Спонсор этого выпуска — хостинг _[_fastvps.ru_](http://fastvps.ru/)**
 

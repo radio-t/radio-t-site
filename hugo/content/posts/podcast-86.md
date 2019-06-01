@@ -16,7 +16,7 @@ filename = "rt_podcast86"
 - [Переход](http://lenta.ru/news/2008/05/12/ssd/) Google на SSD
 - XP [против](http://webplanet.ru/news/soft/2008/05/12/hp_dump.html) AMD
 - Ускорение пиратства [уменьшается](http://soft.compulenta.ru/357249/)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-86/) наших слушателей
+- [Темы](/p/2008/05/15/prep-86/) наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast86.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast86.mp3" preload="none"></audio>

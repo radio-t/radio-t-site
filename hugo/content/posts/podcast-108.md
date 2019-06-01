@@ -19,7 +19,7 @@ image = "https://radio-t.com/images/radio-t/rt108.png"
 - Symantec поменяет масло
 - Темы наших слушателей
 
-* **_ [Лог чата](http://chat.radio-t.com/logs/radio-t-108.html)_**
+[Лог чата](http://chat.radio-t.com/logs/radio-t-108.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast108.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast108.mp3" preload="none"></audio>

@@ -16,12 +16,12 @@ image = "https://radio-t.com/images/radio-t/rt189.jpg"
 - Apple [ответит](http://techcrunch.com/2010/05/28/new-apple-tv/) на угрозу Google TV
 - Почему не писать [юнит тесты](http://blogs.msdn.com/b/cashto/archive/2009/03/31/it-s-ok-not-to-write-unit-tests.aspx)
 - [Что](http://techcrunch.com/2010/05/24/steve-jobs-non-disappointing-keynote-will-begin-monday-june-7-at-10-am/) нам покажут 7го
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-189/) наших слушателей
+- [Темы](/p/2010/05/25/prep-189/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast189.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast189.mp3.torrent)
 
-* [Лог чата](http://chat.radio-t.com/logs/radio-t-189.html)
+[Лог чата](http://chat.radio-t.com/logs/radio-t-189.html)
 
 ** _Звук в этом выпуске не фонтан. Из бэкапа_
 <audio src="https://archive.rucast.net/radio-t/media/rt_podcast189.mp3" preload="none"></audio>

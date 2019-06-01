@@ -12,7 +12,7 @@ filename = "rt_podcast546"
 - [Достоверные слухи о новом iPhone 8](https://bgr.com/2017/05/17/iphone-8-release-date-2017-soon-real-life-photos-exclusive/) - *00:01:12*.
 - [Kotlin для Android: Теперь официально](https://habrahabr.ru/company/JetBrains/blog/329028/) - *00:12:38*.
 - [Покупать прямо по Телеграмму](http://mashable.com/2017/05/19/telegram-payment-bots/) - *00:42:55*.
-- [Где все интересных технологии](http://gizmodo.com/googles-coolest-tech-is-getting-harder-and-harder-to-se-1795335888) - *01:12:51*?
+- [Где все интересных технологии?](http://gizmodo.com/googles-coolest-tech-is-getting-harder-and-harder-to-se-1795335888) - *01:12:51*
 - [Tensor Processing Unit](https://www.inverse.com/article/31745-google-tensor-processing-unit) - *01:18:33*.
 - [Android Go для бедных](http://www.androidauthority.com/android-go-usa-market-773723/) - *01:21:45*.
 - [Темы наших слушателей](https://radio-t.com/p/2017/05/16/prep-546/) - *01:44:37*.

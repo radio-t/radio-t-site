@@ -15,7 +15,7 @@ image = "https://radio-t.com/images/radio-t/rt196.jpg"
 - [Microsoft](http://www.readwriteweb.com/enterprise/2010/07/echoing-salesforcecom-microsof.php) CRM SaaS и App Marketplace
 - [Microsoft](http://www.crunchgear.com/2010/07/12/steve-ballmer-says-microsoft-is-hardcore-about-tablet-computers/) очень хочет tablet, но как и HP — не может
 - [Рейтинги](http://www.switched.com/2010/07/15/laptop-grades-tech-support-of-leading-brands-confirms-our-suspi/) служб поддержки
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-196/) наших слушателей
+- [Темы](/p/2010/07/12/prep-196/) наших слушателей
 
 **_Спонсоры этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
 

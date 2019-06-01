@@ -20,10 +20,9 @@ image = "https://radio-t.com/images/radio-t/rt122.png"
 - Нечто новое из [лабораторий](http://net.compulenta.ru/398323/)
 - [Кризис](http://webplanet.ru/news/business/2009/01/30/it_shortering.html) в русском ИТ
 - Прощай, [KDE](http://www.opennet.ru/opennews/art.shtml?num=19972)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-122/) наших слушателей
+- [Темы](/p/2009/01/28/prep-122/) наших слушателей
 
-
-*[ Лог чата](http://chat.radio-t.com/logs/radio-t-122.html)
+[Лог чата](http://chat.radio-t.com/logs/radio-t-122.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast122.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast122.mp3" preload="none"></audio>

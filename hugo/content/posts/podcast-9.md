@@ -6,7 +6,7 @@ filename = "rt_podcast9"
 
 +++
 
-- поговорим/поспорим о [гаджете](http://u10.iriver.com/html/en_us/itsu10.html)
+- Поговорим/поспорим о [гаджете](http://u10.iriver.com/html/en_us/itsu10.html)
 - Гугл приобретает wiki-фирму и увеличивает Gmail
 - WMP11 и сюрприз от MS
 - XP потеряет треть

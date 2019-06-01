@@ -16,7 +16,8 @@ image = "https://radio-t.com/images/radio-t/rt231.jpg"
 - Кибернетическое командование уходит[ в облака](http://corp.cnews.ru/news/top/index.shtml?2011/03/18/432619)
 - Напечатать, прочитать и [сжечь](http://techcrunch.com/2011/03/17/print-and-burn-after-reading-its-time-to-fight-back-against-the-footer-fascists/)
 - Правительство Германии вернулось в [лоно MS](http://news2.ru/story/298054/)
-_* Спонсоры выпуска: _[_fastvps.ru_](http://fastvps.ru/)_ и _[_CloudConf_](http://www.cloudconf.ru/)
+
+Спонсоры выпуска: [fastvps.ru](http://fastvps.ru/) и [CloudConf](http://www.cloudconf.ru/)
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast231.mp3) ◆ [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast231.mp3.torrent) ◆ [лог чата](http://chat.radio-t.com/logs/radio-t-231.html)
 

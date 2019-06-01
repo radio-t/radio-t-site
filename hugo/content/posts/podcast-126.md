@@ -18,7 +18,8 @@ image = "https://radio-t.com/images/radio-t/rt126.png"
 - [Сервер](http://habrahabr.ru/blogs/gadgets/52785/) за $99
 - Что делает вас [монстрами](http://webplanet.ru/news/life/2009/02/25/agress.html)
 - Ноутбуки от apple [взрываются](http://webplanet.ru/news/security/2009/02/27/macbook_explosion.html) а от Nokia [намечаются](http://www.mobilecrunch.com/2009/02/25/nokia-thinking-about-dabbling-in-the-laptop-biz/)
-*[ Лог чата](http://chat.radio-t.com/logs/radio-t-126.html)
+
+[Лог чата](http://chat.radio-t.com/logs/radio-t-126.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast126.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast126.mp3" preload="none"></audio>

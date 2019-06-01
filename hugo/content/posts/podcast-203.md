@@ -14,9 +14,9 @@ image = "https://radio-t.com/images/radio-t/rt203.png"
 - Gmail меняет [почту](http://mashable.com/2010/08/30/gmail-priority-inbox/) концептуально
 - [Twitter](http://internetno.net/2010/09/02/twitter-for-ipad/) с шиком и прочие странные клиенты
 - И Яндекс следит за вами вместе с Google
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-203/) наших слушателей
+- [Темы](/p/2010/09/01/prep-203/) наших слушателей
 
-* В этим выпуске больше Apple чем обычно.
+В этим выпуске больше Apple чем обычно.
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast203.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast203.mp3.torrent)

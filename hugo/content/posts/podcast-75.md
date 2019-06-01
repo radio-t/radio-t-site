@@ -15,7 +15,7 @@ filename = "rt_podcast75"
 - Digg по [версии](http://net.compulenta.ru/349805/) Yahoo
 - Плановая [эволюция](http://www.cnews.ru/news/top/index.shtml?2008/02/27/289727) MB & MBP
 - Российским спамерам [бояться](http://www.businesspress.ru/newspaper/article_mId_37_aId_442378.html)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-75/) наших пользователей
+- [Темы](/p/2008/02/25/prep-75/) наших пользователей
 
 [аудио](https://cdn.radio-t.com/rt_podcast75.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast75.mp3" preload="none"></audio>

@@ -16,7 +16,7 @@ filename = "rt_podcast93"
 - Изречения и крылатые фразы бородатого
 - Темы наших слушателей
 
-* [**Лог чата**](http://chat.radio-t.com/logs/radio-t-93.html)
+[Лог чата](http://chat.radio-t.com/logs/radio-t-93.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast93.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast93.mp3" preload="none"></audio>

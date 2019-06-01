@@ -14,7 +14,7 @@ filename = "rt_podcast78"
 - [Языки программирования](http://www.opennet.ru/opennews/art.shtml?num=14848) не для всех
 - [Интернет–зависимость](http://hitech.tomsk.ru/hitech/7285-internet-zavisimost-priznali.html) как главный бич гиков
 - [Так ли хороши SSD](http://hitech.tomsk.ru/newsmobile/7271-tak-li-khoroshi-ssd-diski-kak-ikh.html)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-78/) наших слушателей
+- [Темы](/p/2008/03/19/prep-78/) наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast78.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast78.mp3" preload="none"></audio>

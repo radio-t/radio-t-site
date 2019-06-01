@@ -18,6 +18,6 @@ image = "https://radio-t.com/images/radio-t/rt243.jpg"
 - [C++](http://habrahabr.ru/blogs/cpp/121941/) Accelerated Massive Parallelism
 - [Apache](http://www.opennet.ru/opennews/art.shtml?num=30868) Traffic Server 3.0 в качестве убийцы
 - Microsoft [IIS ](http://habrahabr.ru/blogs/internet/120839/)все падает
-- [Темы ](http://new.radio-t.com/2011/06/243.html)наших слушателей
+- [Темы](/p/2011/06/15/prep-243/) наших слушателей
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast243.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast243.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-243.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast243.mp3" preload="none"></audio>

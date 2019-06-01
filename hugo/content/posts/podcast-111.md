@@ -18,7 +18,7 @@ image = "https://radio-t.com/images/radio-t/rt111.png"
 - MS не заморачивается с лицензиями
 - Темы наших слушателей
 
-**_ * [Лог чата](http://chat.radio-t.com/logs/radio-t-111.html)_**
+[Лог чата](http://chat.radio-t.com/logs/radio-t-111.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast111.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast111.mp3" preload="none"></audio>

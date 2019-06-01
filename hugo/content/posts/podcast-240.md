@@ -18,6 +18,6 @@ image = "https://radio-t.com/images/radio-t/rt240.png"
 - MS подарит миру [VB6](http://reddevnews.com/articles/2011/05/19/microsoft-to-open-source-vb6.aspx), если не постесняется
 - Кошелек из телефона. [Зачем ](http://habrahabr.ru/blogs/wireless/119477/)и для кого?
 - Как упорядочить работу на дому
-- [Темы ](http://new.radio-t.com/2011/05/240.html)наших слушателей
+- [Темы](/p/2011/05/17/prep-240/) наших слушателей
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast240.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast240.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-240.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast240.mp3" preload="none"></audio>

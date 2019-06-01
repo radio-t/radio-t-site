@@ -19,8 +19,8 @@ image = "https://radio-t.com/images/radio-t/rt42.jpg"
 - Текст-процессор и linux-брелок
 - VeohTV + темы слушателей
 
-[
-](http://radio-t.rpod.ru/30354.html)[](http://rpod.ru/tags/Linux/)
+http://radio-t.rpod.ru/30354.html
+http://rpod.ru/tags/Linux/
 
 [аудио](https://cdn.radio-t.com/rt_podcast42.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast42.mp3" preload="none"></audio>

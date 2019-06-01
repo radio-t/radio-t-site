@@ -1,6 +1,6 @@
-import Controller from '../base_controller';
-import filter from 'lodash/filter';
 import find from 'lodash/find';
+import Controller from '../base_controller';
+import { composeTime, parseTime } from '../utils';
 
 export default class extends Controller {
   connect() {
@@ -16,11 +16,21 @@ export default class extends Controller {
   }
 
   timeLabels() {
+    function isEmpty(child) {
+      return (
+        (child.nodeName === '#text' && child.textContent.match(/^[\s\-.]+$/))
+        || (child.nodeName === 'BR')
+      );
+    }
+
     for (let li of this.element.querySelectorAll('ul:first-of-type li')) {
-      let timeLabel = find(li.children, (child) => child.tagName === 'EM' && child.textContent.match(/^\d+:\d+:\d+$/));
+      let timeLabel = find(li.children, child => {
+        return child.tagName === 'EM' && child.textContent.match(/^(\d+:)?\d+:\d+$/);
+      });
 
       if (timeLabel) {
         timeLabel.remove();
+        timeLabel.textContent = composeTime(parseTime(timeLabel.textContent));
         timeLabel.dataset.action = `click->podcast#goToTimeLabel`;
         const icon = document.createElement('i');
         icon.className = 'fas fa-step-forward fa-fw';
@@ -30,12 +40,12 @@ export default class extends Controller {
       }
 
       // Remove empty nodes
-      while (li.childNodes.length && li.childNodes[li.childNodes.length - 1].nodeName === 'BR') {
-        li.childNodes[li.childNodes.length - 1].remove();
+      while (li.lastChild && isEmpty(li.lastChild)) {
+        li.lastChild.remove();
       }
-      filter(li.childNodes, (child) => {
-        return child.nodeName === '#text' && child.textContent.match(/^[ \-.]+$/);
-      }).forEach((node) => node.remove());
+      if (li.childNodes && li.lastChild.nodeName === '#text') {
+        li.lastChild.textContent = li.lastChild.textContent.replace(/[\s\-.]+$/, '');
+      }
 
       // Wrap all content except time label
       const wrapper = document.createElement('div');

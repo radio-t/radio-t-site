@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt199.jpg"
 - [StarCraft 2](http://www.switched.com/2010/08/03/hands-on-with-starcraft-2-wings-of-liberty/) хорош, хотя ...
 - Старые новости про [Twitter](http://techcrunch.com/2010/08/05/twitter-down/)
 - [Facebook](http://www.bbc.co.uk/news/technology-10796584) "хакнули"
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-199/) слушателей
+- [Темы](/p/2010/08/03/prep-199/) слушателей
 
 **_Спонсоры этого выпуска — _[_fastvps.ru_](http://fastvps.ru/) и [_Rustelekom_](http://robobill.net/)**
 

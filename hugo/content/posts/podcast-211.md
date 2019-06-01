@@ -18,7 +18,7 @@ image = "https://radio-t.com/images/radio-t/rt211.jpg"
 - Новый виртуальный оператор
 - [Office 11](http://www.engadget.com/2010/10/26/office-2011-for-mac-is-available-today-docx/) для мака
 - [Air](http://reviews.cnet.com/laptops/apple-macbook-air/4505-3121_7-32818756.html) обозрели и удивились
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-211/) наших слушателей
+- [Темы](/p/2010/10/26/prep-211/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast211.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast211.mp3.torrent)

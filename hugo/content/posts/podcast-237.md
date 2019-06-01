@@ -17,6 +17,6 @@ image = "https://radio-t.com/images/radio-t/rt237.jpg"
 - Честный ответ [Amazon ](http://habrahabr.ru/blogs/cloud_computing/118434/)
 - [Куда ](http://www.engadget.com/2011/04/29/desk-phone-dock-review/)засунуть [телефон](http://mashable.com/2011/04/28/wow-keys-iphone-keyboard-dock/)
 - Закат buzz по непонятным причинам
-- [Темы ](http://new.radio-t.com/2011/04/237.html)наших слушателей
+- [Темы](/p/2011/04/27/prep-237/) наших слушателей
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast237.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast237.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-237.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast237.mp3" preload="none"></audio>

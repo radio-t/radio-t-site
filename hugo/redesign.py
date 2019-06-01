@@ -4,6 +4,7 @@ import re
 import glob
 from ilio import read, write
 from datetime import datetime
+import dateutil.parser
 import frontmatter
 from string import Template
 
@@ -33,14 +34,46 @@ def extract_image(post_file, post):
 
     return post
 
-def run():
-    for post_file in glob.glob('content/posts/podcast-*'):
-    # for post_file in ['content/posts/podcast-606.md']:
-        post = frontmatter.load(post_file)
-        post = extract_image(post_file, post)
-        write(post_file, frontmatter.dumps(post))
+def get_prep_link(number):
+    prep_file = 'content/posts/prep-' + number + '.md'
+    prep = frontmatter.load(prep_file)
+    date = dateutil.parser.parse(prep.metadata['date'])
+    permalink = date.strftime('/p/%Y/%m/%d/prep-' + number + '/')
+    return permalink
 
-        # break
+
+def fix_prep_link(post_file, post):
+    # exp = r"http://radio-t\.com/temi_dlja_vipuskov/[\w-]+-(\d+)/"
+    exp = r"http://new.radio-t.com/\d+/\d+/(\d+).html"
+
+    match = re.search(exp, post.content)
+    number = match.group(1) if match else None
+    if number:
+        post.content = re.sub(exp, get_prep_link(number), post.content)
+        return post
+
+def insert_final_newline(file):
+    content = read(file)
+    exp = r"\s*$"
+    write(file, re.sub(exp, "\n", content))
+
+
+def run():
+    # # extract image
+    # for post_file in glob.glob('content/posts/podcast-*'):
+    #     post = frontmatter.load(post_file)
+    #     post = extract_image(post_file, post)
+    #     write(post_file, frontmatter.dumps(post))
+
+    # # fix prep links
+    # for post_file in glob.glob('content/posts/podcast-*'):
+    #     post = frontmatter.load(post_file)
+    #     post = fix_prep_link(post_file, post)
+    #     if post:
+    #         write(post_file, frontmatter.dumps(post))
+
+    for file in glob.glob('content/posts/*.md'):
+        insert_final_newline(file)
 
 
 if __name__ == '__main__':

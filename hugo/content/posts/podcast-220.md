@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt220.jpg"
 - Делайте [это](http://weblogs.java.net/blog/mkarg/archive/2010/12/29/release-late-release-rarely) поздно, но редко
 - Невеселое [возвращение](http://techcrunch.com/2010/12/26/platform-dependencies/) платформенной зависимости
 - Почему [NoSQL](http://techblog.bozho.net/?p=295) зло и как с этим быть
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-220/) наших слушателей
+- [Темы](/p/2010/12/29/prep-220/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast220.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast220.mp3.torrent)

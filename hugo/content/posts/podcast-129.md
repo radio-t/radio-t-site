@@ -22,7 +22,7 @@ image = "https://radio-t.com/images/radio-t/rt129.png"
 - Настоящее HD в [iTS](http://www.crunchgear.com/2009/03/19/apple-adds-hd-to-itunes-20-for-a-movie-5-for-rental/)
 
 
-* в подкасте присутствует спойлер последней серии BSG!
+в подкасте присутствует спойлер последней серии BSG!
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast129.mp3)

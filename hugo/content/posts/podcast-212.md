@@ -16,7 +16,7 @@ image = "https://radio-t.com/images/radio-t/rt212.jpg"
 - Новый путь MS к параллельному [коду](http://www.i-programmer.info/news/89-net/1510-microsofts-new-way-with-parallel-code.html)
 - [OAuth](http://thinkvitamin.com/code/introduction-to-oauth/) для простых гиков
 - Google ускорит все web [сервера](http://www.readwriteweb.com/archives/googles_obsession_with_speed_comes_to_the_web_serv.php)
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-212/) наших слушателей
+- [Темы](/p/2010/11/02/prep-212/) наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast212.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast212.mp3.torrent)

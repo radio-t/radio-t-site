@@ -18,7 +18,7 @@ filename = "rt_podcast73"
 - Линус: OSX [лучше](http://habrahabr.ru/blog/linux/35363.html) всего остального
 - [40M](http://webplanet.ru/news/research/2008/02/08/russia_second.html) людей в сети к концу года и все [с паспортами](http://www.cifrovik.ru/publish/open_article/11214/)
 - SSD-версия: такой МБА нам [не нужен](http://www.engadget.com/2008/02/06/macbook-air-with-ssd-tested-performance-boost-nowhere-to-be-fou/)!
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-73/) наших слушателей
+- [Темы](/p/2008/02/04/prep-73/) наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast73.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast73.mp3" preload="none"></audio>

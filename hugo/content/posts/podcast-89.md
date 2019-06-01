@@ -19,7 +19,7 @@ filename = "rt_podcast89"
 - Пираты [против](http://webplanet.ru/news/law/2008/06/04/bluray.html) новых видео технологий
 - IM нам [в помощь](http://www.businesspress.ru/newspaper/article_mId_37_aId_450093.html)
 - [Новый поисковик](http://webplanet.ru/news/service/2008/06/04/wikia.html) пугает Яндекс и Google
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-89/) наших слушателей
+- [Темы](/p/2008/06/03/prep-89/) наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast89.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast89.mp3" preload="none"></audio>

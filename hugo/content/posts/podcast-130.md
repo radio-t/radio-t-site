@@ -23,7 +23,7 @@ image = "https://radio-t.com/images/radio-t/rt130.png"
 - RedHat с хорошими [результатами](http://www.opennet.ru/opennews/art.shtml?num=20950), но [без десктопа](http://www.opennet.ru/opennews/art.shtml?num=20937)
 - Русские [против](http://webplanet.ru/news/soft/2009/03/25/mdc.html) AOL, а пираты через [VPN](http://www.crunchgear.com/2009/03/24/the-pirate-bay-to-launch-vpn-service-to-keep-prying-eyes-away-from-your-torrenting/)
 
-* _Спасибо **Stavor** за облагораживание шоунот ссылкам__и_
+Спасибо **Stavor** за облагораживание шоунот ссылками
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast130.mp3)

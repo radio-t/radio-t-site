@@ -19,7 +19,7 @@ image = "https://radio-t.com/images/radio-t/rt227.png"
 - Отрывная [память](http://www.switched.com/2011/02/16/art-lebedev-fleshkus-cardboard-flash-drive/) от Art Lebedev Studio
 - Googlе ввел [2 шага](http://habrahabr.ru/blogs/google/113603/) к радости параноиков
 - [Флэш](http://mashable.com/2011/02/09/web-video-flash-player-10-2/) стал не таким ужасным как обычно
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-227/) наших слушателей
+- [Темы](/p/2011/02/16/prep-227/) наших слушателей
 
 _Спонсор выпуска — _[_fastvps.ru_](http://fastvps.ru/)
 

@@ -17,7 +17,7 @@ filename = "rt_podcast81"
 - [Новинки](http://www.opennet.ru/opennews/art.shtml?num=15212) от Mandriva
 - Adobe на [рынке мультимедиа](http://internetno.net/2008/04/10/adobe-tv-player/)
 - [Придет](http://www.deepapple.com/news/30355.html) ли к нам Apple?
-- [Темы](http://radio-t.com/temi_dlja_vipuskov/temyi-dlya-81/) наших слушателей
+- [Темы](/p/2008/04/08/prep-81/) наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast81.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast81.mp3" preload="none"></audio>

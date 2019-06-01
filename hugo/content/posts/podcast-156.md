@@ -16,7 +16,7 @@ image = "https://radio-t.com/images/radio-t/rt156.png"
 - [Бред ](http://www.opennet.ru/opennews/art.shtml?num=23691)про open source
 - Возвращение мелих [мониторов](http://www.crunchgear.com/2009/09/30/doublesight-outs-three-new-usb-mini-monitors/)
 - [Бэкапы ](http://net.compulenta.ru/463752/)с вирусами в комплекте
-- [Темы ](http://radio-t.com/temi_dlja_vipuskov/temy-dlya-156/)наших слушателей
+- [Темы ](/p/2009/09/28/prep-156/)наших слушателей
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast156.mp3)
 
