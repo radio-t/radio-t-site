@@ -28,6 +28,5 @@ filename = "rt_podcast510"
 - [Sorge](http://www.sorge.pro/) — заявки на gray@radio-t.com
 - [МоеДело](https://moedelo.org/referal?id=4694031&to=) — промо-код `biz10`
 
-
 [аудио](https://cdn.radio-t.com/rt_podcast510.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-510.html)
 <audio src="https://cdn.radio-t.com/rt_podcast510.mp3" preload="none"></audio>
