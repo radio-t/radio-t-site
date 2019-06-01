@@ -43,7 +43,9 @@ def get_prep_link(number):
 
 
 def fix_prep_link(post_file, post):
-    exp = r"http://radio-t\.com/temi_dlja_vipuskov/[\w-]+-(\d+)/"
+    # exp = r"http://radio-t\.com/temi_dlja_vipuskov/[\w-]+-(\d+)/"
+    exp = r"http://new.radio-t.com/\d+/\d+/(\d+).html"
+
     match = re.search(exp, post.content)
     number = match.group(1) if match else None
     if number:

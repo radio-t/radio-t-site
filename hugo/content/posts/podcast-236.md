@@ -22,6 +22,6 @@ image = "https://radio-t.com/images/radio-t/rt236.jpg"
 - Почти [облако ](http://www.opennet.ru/opennews/art.shtml?num=30332)от KDE
 - Как Groupon, но [другой](http://internetno.net/2011/04/22/google-zapustil-svojj-servis-kollektivnyh-pokupok/)
 - Большие цифры [гитхаба](https://github.com/blog/841-those-are-some-big-numbers)
-- [Темы ](http://new.radio-t.com/2011/04/236.html)наших слушателей
+- [Темы](/p/2011/04/20/prep-236/) наших слушателей
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast236.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast236.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-236.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast236.mp3" preload="none"></audio>

@@ -15,7 +15,7 @@ image = "https://radio-t.com/images/radio-t/rt254.png"
 - [Amazon](http://techcrunch.com/2011/09/02/amazon-kindle-tablet/) видимо опять сможет
 - Citrix открыл [CloudStack](http://www.opennet.ru/opennews/art.shtml?num=31654)
 - Зловредные пользователи DNS мешают [GoDaddy](http://rscott.org/dns/GoDaddy_Selective_DNS_Blackouts.htm)
-- [Темы](http://new.radio-t.com/2011/09/254.html) наших слушателей
+- [Темы](/p/2011/09/08/prep-254/) наших слушателей
 * Закодированный код 10% скидки:
 ortva-onfr64 644 -~0WeEt9P/0Y7DiFQEtqP10LQDhAP4VSORGGpX0W3DigP80YKEtPN2BGRkAjeDbqP60YwDgAP60YNt~ZGNyPt==~====
 

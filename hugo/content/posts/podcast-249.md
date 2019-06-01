@@ -16,6 +16,6 @@ image = "https://radio-t.com/images/radio-t/rt249.jpg"
 - Новый [чемпион](http://www.tipb.com/2011/07/21/apple-passes-nokia-biggest-smartphone-producer-volume/) гонки смартфонов
 - Большие планы [Intel](http://www.zdnet.com/blog/computers/intel-has-big-plans-for-ultrabooks/6463) на маленькие ноуты
 - Незавидная [судьба](http://www.jeffblankenburg.com/2011/07/21/source-control-software-is-too-intrusive/) эникейщиков
-- [Темы](http://new.radio-t.com/2011/07/249.html) наших слушателей.
+- [Темы](/p/2011/07/26/prep-249/) наших слушателей.
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast249.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast249.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-249.html) • [обсуждение в g+](https://plus.google.com/104578309919492528255/posts/PcEw6FnWjfN)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast249.mp3" preload="none"></audio>

@@ -19,6 +19,6 @@ image = "https://radio-t.com/images/radio-t/rt253.jpg"
 - Oracle лишил Linux всего [своего хорошего](http://www.h-online.com/open/news/item/Oracle-retires-licence-for-distributing-its-Java-with-Linux-1332835.html)
 - Producer / Consumer для непосвященных
 - [Сертификатам](http://www.searchengines.ru/news/archives/attackers_stole.html) больше нет веры
-- [Темы](http://new.radio-t.com/2011/08/253.html) наших слушателей
+- [Темы](/p/2011/08/31/prep-253/) наших слушателей
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast253.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast253.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-253.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast253.mp3" preload="none"></audio>

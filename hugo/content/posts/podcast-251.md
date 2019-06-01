@@ -18,7 +18,7 @@ image = "https://radio-t.com/images/radio-t/rt251.gif"
 - Никакие планшеты не нужны кроме [iPad](http://www.zdnet.com/blog/mobile-news/why-consumers-wont-buy-tablets-unless-theyre-ipads/3782)
 - Аналитики [привязали](http://www.readwriteweb.com/enterprise/2011/08/analyst-laptops-are-chaining-w.php) всех к лаптопам
 - Evernote купил себе [странного](http://blog.evernote.com/2011/08/18/evernote-acquires-skitch-evernote_etc/)
-- [Темы](http://new.radio-t.com/2011/08/251.html) наших слушателей
+- [Темы](/p/2011/08/10/prep-251/) наших слушателей
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast251.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast251.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-251.html)
 

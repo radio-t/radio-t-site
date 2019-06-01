@@ -16,6 +16,6 @@ image = "https://radio-t.com/images/radio-t/rt252.jpg"
 - [FB](http://techcrunch.com/2011/08/23/facebooks-massive-kitchen-sink-update-photo-tag-approvals-and-so-much-more/) улучшил много чего незаметного
 - Oracle [купит](http://www.forbes.com/sites/ericsavitz/2011/08/22/thinking-the-unthinkable-is-oracle-considering-buying-hp/) HP?
 - Каким будет телевизор от Apple
-- [Темы](http://new.radio-t.com/2011/08/252.html) наших слушателей
+- [Темы](/p/2011/08/23/prep-252/) наших слушателей
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast252.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast252.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-252.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast252.mp3" preload="none"></audio>

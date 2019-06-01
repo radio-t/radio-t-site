@@ -17,6 +17,6 @@ image = "https://radio-t.com/images/radio-t/rt242.jpg"
 - Что нам готовит осень и [iOS5](http://www.macworld.com/article/160376/2011/06/ios5_faq.html)
 - Кому радость от всеобщей [твитеризации](http://techcrunch.com/2011/06/09/twitter-ios/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:%20Techcrunch%20%28TechCrunch%29)
 - Кому грусть от всех [новинок](http://money.cnn.com/2011/06/07/technology/apple_dropbox_sparrow/)
-- [Темы](http://new.radio-t.com/2011/06/242.html) наших слушателей.
+- [Темы](/p/2011/06/08/prep-242/) наших слушателей.
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast242.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast242.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-242.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast242.mp3" preload="none"></audio>

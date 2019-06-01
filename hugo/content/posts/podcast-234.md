@@ -18,6 +18,6 @@ image = "https://radio-t.com/images/radio-t/rt234.png"
 - Велено построить [все свое](http://www.opennet.ru/opennews/art.shtml?num=30144) за 10 лет
 - Гугл начинает [стриминг](http://www.readwriteweb.com/archives/surprise_its_youtube_live_launching_today.php)
 - Плоская [структура ](http://www.inc.com/magazine/20110401/jason-fried-why-i-run-a-flat-company.html)против дерева
-- [Темы ](http://new.radio-t.com/2011/04/234.html)наших слушателей
+- [Темы](/p/2011/04/06/prep-234/) наших слушателей
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast234.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast234.mp3.torrent) • [лог чата](http://chat.radio-t.com/logs/radio-t-234.html)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast234.mp3" preload="none"></audio>

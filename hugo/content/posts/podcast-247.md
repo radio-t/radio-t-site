@@ -16,6 +16,6 @@ image = "https://radio-t.com/images/radio-t/rt247.png"
 - Первые итоги G+ и странные [цифры](http://techcrunch.com/2011/07/14/larry-page-on-google-over-10-million-users-1-billion-items-shared/)
 - Все грязные секреты оптимизаторов
 - Как макофилов [обидели](http://forkbombr.net/no-lion/)
-- [Темы ](http://new.radio-t.com/2011/07/247.html)наших слушателей
+- [Темы](/p/2011/07/12/prep-247/) наших слушателей
 
 [аудио](https://archive.rucast.net/radio-t/media/rt_podcast247.mp3) • [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast247.mp3.torrent)<audio src="https://archive.rucast.net/radio-t/media/rt_podcast247.mp3" preload="none"></audio>
