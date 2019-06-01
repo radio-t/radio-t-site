@@ -92,7 +92,7 @@ $podcast-player-cover-margin: .5rem;
   margin: -($podcast-player-seek-thumb-height - $podcast-player-seek-height)/2 -2px;
 }
 .player-time {
-  @include digits-monospace;
+  font-family: $font-family-monospace;
   font-size: $small-font-size;
 }
 .player-number {
