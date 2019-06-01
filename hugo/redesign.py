@@ -52,19 +52,28 @@ def fix_prep_link(post_file, post):
         post.content = re.sub(exp, get_prep_link(number), post.content)
         return post
 
-def run():
-    # extract image
-    for post_file in glob.glob('content/posts/podcast-*'):
-        post = frontmatter.load(post_file)
-        post = extract_image(post_file, post)
-        write(post_file, frontmatter.dumps(post))
+def insert_final_newline(file):
+    content = read(file)
+    exp = r"\s*$"
+    write(file, re.sub(exp, "\n", content))
 
-    # fix prep links
-    for post_file in glob.glob('content/posts/podcast-*'):
-        post = frontmatter.load(post_file)
-        post = fix_prep_link(post_file, post)
-        if post:
-            write(post_file, frontmatter.dumps(post))
+
+def run():
+    # # extract image
+    # for post_file in glob.glob('content/posts/podcast-*'):
+    #     post = frontmatter.load(post_file)
+    #     post = extract_image(post_file, post)
+    #     write(post_file, frontmatter.dumps(post))
+
+    # # fix prep links
+    # for post_file in glob.glob('content/posts/podcast-*'):
+    #     post = frontmatter.load(post_file)
+    #     post = fix_prep_link(post_file, post)
+    #     if post:
+    #         write(post_file, frontmatter.dumps(post))
+
+    for file in glob.glob('content/posts/*.md'):
+        insert_final_newline(file)
 
 
 if __name__ == '__main__':
