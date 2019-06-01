@@ -388,14 +388,14 @@ $jumbotron-arc-width: 120%;
         white-space: nowrap;
         color: $text-muted;
         font-style: normal;
-        @include digits-monospace;
+        font-family: $font-family-monospace;
         font-size: $small-font-size;
         flex-shrink: 0;
         width: calc((100% + 30px) / 6 - 15px);
         min-width: 5.5em;
         &:empty { // no time labels
           &:after {
-            content: '––:––:––';
+            content: '--:--:--';
             opacity: .33;
           }
         }
@@ -801,7 +801,7 @@ $ripple-scale-out: 3.4;
   right: 0;
   bottom: 6px;
   text-align: right;
-  @include digits-monospace;
+  font-family: $font-family-monospace;
   font-size: 55%;
   color: $gray-700;
   background-color: rgba($gray-300, .8);

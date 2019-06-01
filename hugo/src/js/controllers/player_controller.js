@@ -136,7 +136,7 @@ export default class extends Controller {
   resetUI() {
     this.showPlayButton();
     this.updateCurrentTime(0, true);
-    this.durationTarget.textContent = '––:––:––';
+    this.durationTarget.textContent = '--:--:--';
   }
 
   setTimeLabel(timeLabel) {
