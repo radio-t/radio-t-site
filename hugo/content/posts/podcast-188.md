@@ -19,6 +19,6 @@ image = "https://radio-t.com/images/radio-t/rt188.png"
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast188.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast188.mp3.torrent)
 
-* [Лог чата](http://chat.radio-t.com/logs/radio-t-188.html)
+[Лог чата](http://chat.radio-t.com/logs/radio-t-188.html)
 ** Очень нестандартный набор ведущих и необычный выпуск
 <audio src="https://archive.rucast.net/radio-t/media/rt_podcast188.mp3" preload="none"></audio>

@@ -11,7 +11,7 @@ image = "https://radio-t.com/images/radio-t/rt170.jpg"
 
 - кризис как бы [закончился](http://cnews.ru/news/top/index.shtml?2010/01/14/376091)
 - а был ли мальчик [убыток](http://business.compulenta.ru/495153/) у iTunes?
-- [ошибки ](http://cnews.ru/news/line/index.shtml?2010/01/14/376159)Nexus One
+- [ошибки](http://cnews.ru/news/line/index.shtml?2010/01/14/376159) Nexus One
 - порно наступает на [Москву ](http://www.securitylab.ru/news/389815.php)и рвётся в [итерактив](http://culture.compulenta.ru/493418/)
 - кто ломится в [Google](http://soft.compulenta.ru/495139/)
 - зачем Microsoft [погнула ](http://hitech.tomsk.ru/newshardware/14043-microsoft-arc-zachem-klaviatura-stala-dugojj.html)хорошую вещь
@@ -22,7 +22,7 @@ image = "https://radio-t.com/images/radio-t/rt170.jpg"
 - что хорошего в [больших ](http://vasilrem.com/blog/software-development/3-reasons-to-stay-in-a-big-company/)компаниях
 
 
-*image [source](http://www.freedigitalphotos.net/images/Fruit_g104-Beautiful_Woman_Eating_A_Strawberry_p6972.html)
+image [source](http://www.freedigitalphotos.net/images/Fruit_g104-Beautiful_Woman_Eating_A_Strawberry_p6972.html)
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast170.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast170.mp3.torrent)

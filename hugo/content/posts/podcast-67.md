@@ -16,7 +16,7 @@ filename = "rt_podcast67"
 - Школьный суперпортал это что?
 - Темы наших слушателей
 
-* Внимание! Этот подкаст включает доплнительный бонус-выпуск
+Внимание! Этот подкаст включает дополнительный бонус-выпуск
 
 [аудио](https://cdn.radio-t.com/rt_podcast67.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast67.mp3" preload="none"></audio>

@@ -20,9 +20,9 @@ image = "https://radio-t.com/images/radio-t/rt109.png"
 - Ужасающий ребрендинг Mini9.
 - Темы слушателей.
 
-* Качество звука несколько пострадало, но все вполне слушабельно
+Качество звука несколько пострадало, но все вполне слушабельно
 
-** **_ [Лог чата](http://chat.radio-t.com/logs/radio-t-109.html)_**
+[Лог чата](http://chat.radio-t.com/logs/radio-t-109.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast109.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast109.mp3" preload="none"></audio>

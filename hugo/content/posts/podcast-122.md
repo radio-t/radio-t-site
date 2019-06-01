@@ -22,8 +22,7 @@ image = "https://radio-t.com/images/radio-t/rt122.png"
 - Прощай, [KDE](http://www.opennet.ru/opennews/art.shtml?num=19972)
 - [Темы](/p/2009/01/28/prep-122/) наших слушателей
 
-
-*[ Лог чата](http://chat.radio-t.com/logs/radio-t-122.html)
+[Лог чата](http://chat.radio-t.com/logs/radio-t-122.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast122.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast122.mp3" preload="none"></audio>

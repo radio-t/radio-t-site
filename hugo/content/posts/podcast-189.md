@@ -21,7 +21,7 @@ image = "https://radio-t.com/images/radio-t/rt189.jpg"
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast189.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast189.mp3.torrent)
 
-* [Лог чата](http://chat.radio-t.com/logs/radio-t-189.html)
+[Лог чата](http://chat.radio-t.com/logs/radio-t-189.html)
 
 ** _Звук в этом выпуске не фонтан. Из бэкапа_
 <audio src="https://archive.rucast.net/radio-t/media/rt_podcast189.mp3" preload="none"></audio>

@@ -18,7 +18,8 @@ image = "https://radio-t.com/images/radio-t/rt148.jpg"
 - На этот раз игровой [планшет](http://hard.compulenta.ru/447117/)
 - Выход [KDE 4.3](http://www.linux.org.ru/view-message.jsp?msgid=3933208)
 - [CentOS](http://www.opennet.ru/opennews/art.shtml?num=22845) нашел человека с деньгами
-* на последних минутах отвалилась запись гостя. я собрал как смог
+
+На последних минутах отвалилась запись гостя. Я собрал как смог
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast148.mp3)
 <audio src="https://archive.rucast.net/radio-t/media/rt_podcast148.mp3" preload="none"></audio>

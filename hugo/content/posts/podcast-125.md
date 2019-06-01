@@ -20,7 +20,7 @@ image = "https://radio-t.com/images/radio-t/rt125.jpg"
 - Интернет [заменит](http://www.thg.ru/technews/20090220_180800.html) телевизор
 - юзеры [разлюбили P2P?](http://webplanet.ru/news/research/2009/02/20/porn_down.html)
 
-*[ Лог чата](http://chat.radio-t.com/logs/radio-t-125.html)
+[Лог чата](http://chat.radio-t.com/logs/radio-t-125.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast125.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast125.mp3" preload="none"></audio>

@@ -18,7 +18,7 @@ image = "https://radio-t.com/images/radio-t/rt222.png"
 - Apple Store против [GPL](http://www.opennet.ru/opennews/art.shtml?num=29231)
 - [Темы](/p/2011/01/12/prep-222/) наших слушателей
 
-* _спонсор выпуска — _[_megaplan.ru_](http://megaplan.ru/)
+Спонсор выпуска — [megaplan.ru](http://megaplan.ru/)
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast222.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast222.mp3.torrent)

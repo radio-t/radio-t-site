@@ -22,7 +22,7 @@ image = "https://radio-t.com/images/radio-t/rt103.png"
 - Писатели против электронных книг
 - Темы наших слушателей
 
-* **_ [Лог чата](http://chat.radio-t.com/logs/radio-t-103.html)_**
+[Лог чата](http://chat.radio-t.com/logs/radio-t-103.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast103.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast103.mp3" preload="none"></audio>

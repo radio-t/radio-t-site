@@ -19,7 +19,7 @@ image = "https://radio-t.com/images/radio-t/rt218.jpg"
 - Грусть от [Tumblr](http://techcrunch.com/2010/12/17/ok-tumblr-this-is-getting-just-a-little-embarrassing/)
 - [Темы](/p/2010/12/14/prep-218/) наших слушателей
 
-* спонсор выпуска - [megaplan.ru](http://megaplan.ru)
+Спонсор выпуска - [megaplan.ru](http://megaplan.ru)
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast218.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast218.mp3.torrent)

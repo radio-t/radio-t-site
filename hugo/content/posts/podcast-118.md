@@ -9,9 +9,7 @@ image = "https://radio-t.com/images/radio-t/rt118.png"
 
 ![](https://radio-t.com/images/radio-t/rt118.png)
 
-**
-
-Итоги 2008, С НОВЫМ ГОДОМ!**
+Итоги 2008, С НОВЫМ ГОДОМ!
 
 
 - Что [MacBook Air](http://www.engadget.com/2008/01/25/macbook-air-review/) нам готовил
@@ -36,12 +34,9 @@ image = "https://radio-t.com/images/radio-t/rt118.png"
 - Интересный жук - [Juick.com](http://juick.com/)
 
 
-* Лог онлайн–чата **[доступен](http://chat.radio-t.com/logs/radio-t-118.html)**
+Лог онлайн–чата [доступен](http://chat.radio-t.com/logs/radio-t-118.html) 
 
-
-
-
-**[](http://chat.radio-t.com/logs/radio-t-118.html)_** Спасибо Stavor за шоуноты_**
+Спасибо Stavor за шоуноты
 
 [аудио](https://cdn.radio-t.com/rt_podcast118.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast118.mp3" preload="none"></audio>

@@ -21,7 +21,7 @@ filename = "rt_podcast96"
 - Темы наших слушателей
 
 
-* [Лог чата](http://chat.radio-t.com/logs/radio-t-96.html) — спасибо sbmaxx
+[Лог чата](http://chat.radio-t.com/logs/radio-t-96.html) — спасибо sbmaxx
 
 [аудио](https://cdn.radio-t.com/rt_podcast96.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast96.mp3" preload="none"></audio>

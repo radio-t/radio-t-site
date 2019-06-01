@@ -21,7 +21,7 @@ image = "https://radio-t.com/images/radio-t/rt102.jpg"
 - Mini9 почти хорош. Жаль что Dell
 - Темы наших слушателей
 
-* **_ [Лог чата](http://chat.radio-t.com/logs/radio-t-102.html)_**
+[Лог чата](http://chat.radio-t.com/logs/radio-t-102.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast102.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast102.mp3" preload="none"></audio>

@@ -19,7 +19,8 @@ image = "https://radio-t.com/images/radio-t/rt182.jpg"
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast182.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast182.mp3.torrent)
 
-* [Лог чата](http://chat.radio-t.com/logs/radio-t-182.html)
+[Лог чата](http://chat.radio-t.com/logs/radio-t-182.html)
 
-** Да, мы в курсе, что у Бобука заикается дорожка. Увы, и техника не железная, иногда ломается
+Да, мы в курсе, что у Бобука заикается дорожка. Увы, и техника не железная, иногда ломается
+
 <audio src="https://archive.rucast.net/radio-t/media/rt_podcast182.mp3" preload="none"></audio>

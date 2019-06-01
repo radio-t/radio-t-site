@@ -25,11 +25,7 @@ image = "https://radio-t.com/images/radio-t/rt124.png"
 - Новые [iPhone](http://www.mobile-review.com/fullnews/main/2009/February/11.shtml#23069) уже летом
 - [Темы](/p/2009/02/11/prep-124/) наших слушателей
 
-
-
-
-
-*[ Лог чата](http://chat.radio-t.com/logs/radio-t-124.html)
+[Лог чата](http://chat.radio-t.com/logs/radio-t-124.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast124.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast124.mp3" preload="none"></audio>

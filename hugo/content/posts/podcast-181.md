@@ -27,5 +27,5 @@ image = "https://radio-t.com/images/radio-t/rt181.jpg"
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast181.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast181.mp3.torrent)
 
-* [Лог чата](http://chat.radio-t.com/logs/radio-t-181.html)
+[Лог чата](http://chat.radio-t.com/logs/radio-t-181.html)
 <audio src="https://archive.rucast.net/radio-t/media/rt_podcast181.mp3" preload="none"></audio>

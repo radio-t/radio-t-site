@@ -17,7 +17,7 @@ filename = "rt_podcast71"
 - Яндекс [в 10–ке](http://habrahabr.ru/blog/yandex/34614.html)!
 - [Темы](/p/2008/01/22/prep-71/) наших слушателей
 
-_* Некоторые технические проблемы связи вызвали небольшие накладки в подкасте._
+Некоторые технические проблемы связи вызвали небольшие накладки в подкасте._
 
 [аудио](https://cdn.radio-t.com/rt_podcast71.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast71.mp3" preload="none"></audio>

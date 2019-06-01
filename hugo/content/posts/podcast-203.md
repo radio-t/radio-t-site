@@ -16,7 +16,7 @@ image = "https://radio-t.com/images/radio-t/rt203.png"
 - И Яндекс следит за вами вместе с Google
 - [Темы](/p/2010/09/01/prep-203/) наших слушателей
 
-* В этим выпуске больше Apple чем обычно.
+В этим выпуске больше Apple чем обычно.
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast203.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast203.mp3.torrent)

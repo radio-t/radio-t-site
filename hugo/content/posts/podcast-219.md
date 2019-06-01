@@ -19,7 +19,7 @@ image = "https://radio-t.com/images/radio-t/rt219.jpg"
 - Правильный email клиент [Sparrow](http://www.tuaw.com/2010/12/21/sparrow-for-mac-beta-review/)
 - [Темы](/p/2010/12/21/prep-219/) наших слушателей
 
-* спонсор выпуска - [megaplan.ru](http://megaplan.ru)
+спонсор выпуска - [megaplan.ru](http://megaplan.ru)
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast219.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast219.mp3.torrent)

@@ -20,7 +20,7 @@ image = "https://radio-t.com/images/radio-t/rt107.png"
 - Новый ОО доступен
 - Полные шоу в YouTube
 
-* **_ [Лог чата](http://chat.radio-t.com/logs/radio-t-107.html)_**
+[Лог чата](http://chat.radio-t.com/logs/radio-t-107.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast107.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast107.mp3" preload="none"></audio>

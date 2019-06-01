@@ -24,7 +24,7 @@ image = "https://radio-t.com/images/radio-t/rt119.jpg"
 - [Темы](/p/2009/01/01/prep-119/) наших слушателей
 
 
-* Лог онлайн–чата [_доступен_](http://chat.radio-t.com/logs/radio-t-119.html)
+Лог онлайн–чата [доступен](http://chat.radio-t.com/logs/radio-t-119.html)
 
 [аудио](https://cdn.radio-t.com/rt_podcast119.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast119.mp3" preload="none"></audio>
