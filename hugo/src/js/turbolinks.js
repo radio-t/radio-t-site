@@ -1,4 +1,18 @@
 import Turbolinks from 'turbolinks';
+import debug from './debug';
+
+const events = [
+  'turbolinks:click',
+  'turbolinks:before-visit',
+  'turbolinks:visit',
+  'turbolinks:request-start',
+  'turbolinks:request-end',
+  'turbolinks:before-cache',
+  'turbolinks:before-render',
+  'turbolinks:render',
+  'turbolinks:load',
+];
+events.forEach(eventName => document.addEventListener(eventName, (e) => debug('turbolinks', e)));
 
 Turbolinks.start();
 
