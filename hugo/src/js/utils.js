@@ -43,3 +43,14 @@ export function composeTime(time) {
   while (pieces.length < 3) pieces.push(0);
   return pieces.reverse().map((t) => padStart(t, 2, '0')).join(':');
 }
+
+export function getTextSnippet(html) {
+  const LENGTH = 120;
+  const tmp = document.createElement('div');
+  tmp.innerHTML = html.replace('</p><p>', ' ');
+
+  const result = tmp.innerText || '';
+  const snippet = result.substr(0, LENGTH);
+
+  return snippet.length === LENGTH && result.length !== LENGTH ? `${snippet}...` : snippet;
+}
