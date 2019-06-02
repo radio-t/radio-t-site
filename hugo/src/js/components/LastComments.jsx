@@ -1,23 +1,13 @@
-import React, { Component } from 'react';
-import { distanceInWordsStrict, format, parse } from 'date-fns';
-import locale from 'date-fns/locale/ru';
-import Visibility from 'visibilityjs';
 import http from 'axios';
+import Visibility from 'visibilityjs';
+import locale from 'date-fns/locale/ru';
+import { distanceInWordsStrict, format, parse } from 'date-fns';
+import React, { useCallback, useEffect, useState } from 'react';
+import { getTextSnippet } from '../utils';
 
 const COMMENT_NODE_CLASSNAME_PREFIX = 'remark42__comment-';
 
-function getTextSnippet(html) {
-  const LENGTH = 120;
-  const tmp = document.createElement('div');
-  tmp.innerHTML = html.replace('</p><p>', ' ');
-
-  const result = tmp.innerText || '';
-  const snippet = result.substr(0, LENGTH);
-
-  return snippet.length === LENGTH && result.length !== LENGTH ? `${snippet}...` : snippet;
-}
-
-const Comment = function ({comment}) {
+function Comment({comment}) {
   const now = new Date();
   const date = parse(comment.time);
   const avatarStyle = comment.user.picture ? {backgroundImage: `url('${comment.user.picture}')`} : {};
@@ -50,41 +40,31 @@ const Comment = function ({comment}) {
       <a href={href}>{getTextSnippet(comment.text)}</a>
     </div>
   </div>;
-};
+}
 
-let comments;
+function LastComments() {
+  const [comments, setComments] = useState([]);
 
-class LastComments extends Component {
-  constructor() {
-    super();
-    this.state = {comments: []};
-  }
-
-  componentDidMount() {
-    if (process.env.NODE_ENV !== 'development') {
-      const min = 60 * 1000;
-      this.visibilityInterval = Visibility.every(min / 2, 5 * min, () => {
-        this.updateComments();
-      });
+  const updateComments = useCallback(async () => {
+    try {
+      const {data} = await http.get('https://remark42.radio-t.com/api/v1/last/30', {params: {site: 'radiot'}});
+      setComments(data);
+    } catch (e) {
+      //
     }
+  }, [setComments]);
 
-    this.updateComments();
-  }
+  useEffect(() => {
+    updateComments();
+    if (process.env.NODE_ENV !== 'development') {
+      const visibilityInterval = Visibility.every(60 * 1000, updateComments);
+      return () => Visibility.stop(visibilityInterval);
+    }
+  }, [updateComments]);
 
-  async updateComments() {
-    const {data} = await http.get('https://remark42.radio-t.com/api/v1/last/30', {params: {site: 'radiot'}});
-    this.setState({comments: data});
-  }
-
-  componentWillUnmount() {
-    Visibility.stop(this.visibilityInterval);
-  }
-
-  render() {
-    return <div className="last-comments-list">{this.state.comments.map((comment) =>
-      <Comment comment={comment} key={comment.id}/>,
-    )}</div>;
-  }
+  return <div className="last-comments-list">{comments.map((comment) =>
+    <Comment comment={comment} key={comment.id}/>,
+  )}</div>;
 }
 
 export default LastComments;
