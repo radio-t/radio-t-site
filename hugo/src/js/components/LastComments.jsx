@@ -1,5 +1,4 @@
 import http from 'axios';
-import Visibility from 'visibilityjs';
 import locale from 'date-fns/locale/ru';
 import { distanceInWordsStrict, format, parse } from 'date-fns';
 import React, { useCallback, useEffect, useState } from 'react';
@@ -56,10 +55,8 @@ function LastComments() {
 
   useEffect(() => {
     updateComments();
-    if (process.env.NODE_ENV !== 'development') {
-      const visibilityInterval = Visibility.every(60 * 1000, updateComments);
-      return () => Visibility.stop(visibilityInterval);
-    }
+    document.addEventListener('turbolinks:visit', updateComments);
+    return () => document.removeEventListener('turbolinks:visit', updateComments);
   }, [updateComments]);
 
   return <div className="last-comments-list">{comments.map((comment) =>
