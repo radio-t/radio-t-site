@@ -12,7 +12,7 @@ filename = "rt_podcast652"
 - [Что модно в 2019](https://hackernoon.com/software-development-trends-in-2019-9c74b55928f0?gi=300a8ef8ce70) - *00:20:41*.
 - [Отучаемся от токсичных практик на код-ревью](https://habr.com/ru/post/453968) - *00:35:21*.
 - [Трагедия Common Lisp](https://medium.com/@erights/the-tragedy-of-the-common-lisp-why-large-languages-explode-4e83096239b9) - *01:15:46*.
-- [Стоит-ли написание хороших программ всех усилий?](https://martinfowler.com/articles/is-quality-worth-cost.html) - *01:27:26*.
+- [Стоит ли написание хороших программ всех усилий?](https://martinfowler.com/articles/is-quality-worth-cost.html) - *01:27:26*.
 - [Темы слушателей](https://radio-t.com/p/2019/05/28/prep-652/) - *01:45:05*.
 
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
