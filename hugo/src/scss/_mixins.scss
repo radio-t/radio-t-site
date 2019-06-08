@@ -2,7 +2,7 @@
   $logo-ar: 123/50; // width/height
   width: $width;
   height: $width / $logo-ar;
-  margin-top: -($width / 10);
+  margin-top: -($width / 15);
 }
 
 @mixin text-uppercase() {

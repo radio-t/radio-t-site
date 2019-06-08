@@ -1,18 +1,15 @@
-- время вещания сделать 3 часа, начиная с 23:00 по мск
-- обновление списка свежих комментариев в бэкграудне? #60
+- skip to specific comment broken in ios safari?
+- setup sentry release as git sha
+- dont include comments counter if there is nothing to count
+
 - Нет возможности регулировать громкость воспроизведения. #48
 - Возможность менять скорость воспроизведения #61
 
-- progress
-    - remove duration
-    - dynamic progress
-
 - add number, audio and chat url to front matter? py
 
-#63 Known high severity security vulnerability detected in tar < 4.4.2 defined in package-lock.json.
-package-lock.json update suggested: tar ~> 4.4.2.
-
 ===
++ обновление списка свежих комментариев в бэкграудне? #60
++ время вещания сделать 3 часа, начиная с 23:00 по мск
 + remember podcast player progress
 + Документация для процесса построения сайта #55 где лого и фавиконки
 + дублирование запросов на количество комментариев #53
