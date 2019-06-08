@@ -1,8 +1,17 @@
 <div>
   <div class="text-muted small">Поделиться</div>
-  <div class="likely" data-controller="likely">
-    <div class="twitter"></div>
+  <div
+    class="likely"
+    data-controller="likely"
+    data-url="{{ .Permalink }}"
+    data-title="{{ .Title }}"
+  >
+    <div class="twitter" data-via="{{ .Site.Params.twitter }}"></div>
     <div class="facebook"></div>
-    <div class="vkontakte"></div>
+    <div
+      class="vkontakte"
+      {{ with .Params.image }}data-image="{{ . }}"{{ end }}
+      data-description="{{ .Site.Params.longDescription }}"
+    ></div>
   </div>
 </div>

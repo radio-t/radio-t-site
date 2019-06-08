@@ -8,6 +8,7 @@
 - add number, audio and chat url to front matter? py
 
 ===
++ fix likely
 + обновление списка свежих комментариев в бэкграудне? #60
 + время вещания сделать 3 часа, начиная с 23:00 по мск
 + remember podcast player progress
