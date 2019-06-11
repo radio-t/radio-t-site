@@ -26,6 +26,7 @@ export default class Remark extends Component<Props> {
   ) => void;
   protected postClickOutsideToIframe?: (event: MouseEvent) => void;
   protected changeTheme?: (theme: RemarkTheme) => void;
+  protected canScroll: boolean = true
 
   constructor(props: Props) {
     super(props);
@@ -103,7 +104,8 @@ export default class Remark extends Component<Props> {
           typeof event.data === "string" ? JSON.parse(event.data) : event.data;
         if (data.remarkIframeHeight) {
           iframe.style.height = `${data.remarkIframeHeight}px`;
-          if (!(data.scrollTo) && window.location.hash === '#comments') {
+          if (this.canScroll && !(data.scrollTo) && window.location.hash === '#comments') {
+            this.canScroll = false;
             window.scrollTo(
               window.pageXOffset,
               iframe.getBoundingClientRect().top +
