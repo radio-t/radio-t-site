@@ -1,3 +1,7 @@
+@function px($px) {
+  @return $px * 1rem / 15;
+}
+
 @mixin logo-size ($width) {
   $logo-ar: 123/50; // width/height
   width: $width;

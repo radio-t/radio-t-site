@@ -7,8 +7,11 @@ const useNodeSass = USE_NODE_SASS ? {implementation: require('node-sass')} : {};
 mix.disableNotifications();
 
 mix.ts('src/js/app.js', '.');
-mix.sass('src/scss/app.scss', '.', useNodeSass);
-mix.sass('src/scss/vendor.scss', '.', useNodeSass);
+
+['app', 'vendor'].forEach((style) => {
+  mix.sass(`src/scss/${style}.scss`, '.', useNodeSass);
+  mix.sass(`src/scss/${style}-dark.scss`, '.', useNodeSass);
+});
 
 mix.babelConfig({
   plugins: [
