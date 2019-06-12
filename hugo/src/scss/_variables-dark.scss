@@ -3,19 +3,20 @@
 //// Variables should follow the `$component-state-property-size` formula for
 //// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 //
+$theme-suffix: '-dark'; // Add suffix to filenames, eg logo-dark.svg
 //// Color system
 // Invert gray scale for dark mode
-$white:    #fff;
-$gray-100: #f8f9fa;
-$gray-200: #eef2f5; //#e9ecef;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
+$white:    #121314;
+$gray-100: #141617;
+$gray-200: #1B1D1F;
+$gray-300: #495057;
+$gray-400: #6c757d;
 $gray-500: #adb5bd;
-$gray-600: #6c757d;
-$gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
-$black:    #000;
+$gray-600: #ced4da;
+$gray-700: #dee2e6;
+$gray-800: #eef2f5; //#e9ecef;
+$gray-900: #f8f9fa;
+$black:    #fff;
 //
 //$grays: ();
 //// stylelint-disable-next-line scss/dollar-variable-default
@@ -165,7 +166,7 @@ $spacers: (
 //// Settings for the `<body>` element.
 //
 //$body-bg:                   $white;
-$body-color:                $gray-900;
+$body-color:                $gray-500; //$gray-900;
 //
 //
 //// Links
@@ -243,7 +244,7 @@ $link-hover-decoration:                   none; //underline;
 //$line-height-sm:              1.5;
 //
 //$border-width:                1px;
-$border-color:                rgba($black, 1 - lightness($gray-300) / 100%);
+$border-color:                #000; //rgba($black, 1 - lightness($gray-800) / 100%);
 //
 //$border-radius:               .25rem;
 //$border-radius-lg:            .3rem;
@@ -749,8 +750,8 @@ $navbar-padding-x:                  0; //$spacer;
 //$navbar-dark-toggler-icon-bg:       str-replace(url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='#{$navbar-dark-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"), "#", "%23");
 //$navbar-dark-toggler-border-color:  rgba($white, .1);
 //
-$navbar-light-color:                rgba($black, .7);
-$navbar-light-hover-color:          rgba($black, .9);
+$navbar-light-color:                rgba($black, .9);
+$navbar-light-hover-color:          rgba($black, 1);
 $navbar-light-active-color:         $link-hover-color; //$primary; //rgba($black, .9);
 //$navbar-light-disabled-color:       rgba($black, .3);
 //$navbar-light-toggler-icon-bg:      str-replace(url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"), "#", "%23");
