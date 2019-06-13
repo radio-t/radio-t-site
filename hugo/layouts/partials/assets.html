@@ -1,9 +1,9 @@
 {{ if eq (getenv "NODE_ENV") "development" }}
-    <link href="/vendor-dark.css" rel="stylesheet" title="Dark">
-    <link href="/app-dark.css" rel="stylesheet" title="Dark">
+    <link href="/vendor-dark.css" rel="stylesheet" data-title="Dark">
+    <link href="/app-dark.css" rel="stylesheet" data-title="Dark">
 
-    <link href="/vendor.css" rel="alternate stylesheet" title="Light">
-    <link href="/app.css" rel="alternate stylesheet" title="Light">
+    <link href="/vendor.css" rel="stylesheet" data-title="Light" media="none">
+    <link href="/app.css" rel="stylesheet" data-title="Light" media="none">
   <script>
     window.themes = {
       light: [],

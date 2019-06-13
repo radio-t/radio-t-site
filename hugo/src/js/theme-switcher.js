@@ -1,5 +1,7 @@
+const titleAttribute = 'data-title';
+
 function getStylesheets() {
-  const styles = document.querySelectorAll('link[title][rel~="stylesheet"]');
+  const styles = document.querySelectorAll(`link[${titleAttribute}][rel~="stylesheet"]`);
   return new Set([].slice.call(styles));
 }
 
@@ -8,24 +10,19 @@ const styleSheets = getStylesheets();
 let dark = true;
 
 function enableStylesheet(link, enable) {
-  const rel = enable ? 'stylesheet' : 'alternate stylesheet';
-  link.setAttribute('rel', rel);
-  link.disabled = true;
-  link.disabled = !enable;
-  // if (enable) {
-  //   link.disabled = true;
-  //   link.disabled = !enable;
-  // } else {
-  //   setTimeout(() => {
-  //     link.disabled = !enable;
-  //   }, 100);
-  // }
+  // const rel = enable ? 'stylesheet' : 'alternate stylesheet';
+  // link.setAttribute('rel', rel);
+  // link.disabled = true;
+  // link.disabled = !enable;
+
+  // link.setAttribute('media', enable ? 'all' : 'none')
+  link.media = enable ? '' : 'none';
 }
 
 function setTheme(theme) {
   console.log(styleSheets);
   getStylesheets().forEach((link) => {
-    enableStylesheet(link, link.getAttribute('title') === theme);
+    enableStylesheet(link, link.getAttribute(titleAttribute) === theme);
   });
 }
 
