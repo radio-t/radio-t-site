@@ -1,11 +1,27 @@
 {{ if eq (getenv "NODE_ENV") "development" }}
-  <link href="/vendor-dark.css" rel="stylesheet" title="Dark">
-  <link href="/app-dark.css" rel="stylesheet" title="Dark">
+    <link href="/vendor-dark.css" rel="stylesheet" title="Dark">
+    <link href="/app-dark.css" rel="stylesheet" title="Dark">
+
+    <link href="/vendor.css" rel="alternate stylesheet" title="Light">
+    <link href="/app.css" rel="alternate stylesheet" title="Light">
+  <script>
+    window.themes = {
+      light: [],
+      dark: [],
+    }
+    console.log(window.themes);
+  </script>
+
+  <script src="/theme-switcher.js"></script>
   <script src="/modernizr-bundle.js"></script>
   <script src="/app.js"></script>
 {{ else }}
-  <link href="/build{{ index .Site.Data.manifest "/vendor.css" }}" rel="stylesheet">
-  <link href="/build{{ index .Site.Data.manifest "/app.css" }}" rel="stylesheet">
+  <link href="/build{{ index .Site.Data.manifest "/vendor.css" }}" rel="stylesheet" title="Light">
+  <link href="/build{{ index .Site.Data.manifest "/app.css" }}" rel="stylesheet" title="Light">
+
+  <link href="/build{{ index .Site.Data.manifest "/vendor-dark.css" }}" rel="alternate stylesheet" title="Dark">
+  <link href="/build{{ index .Site.Data.manifest "/app-dark.css" }}" rel="alternate stylesheet" title="Dark">
+
   <script src="/build{{ index .Site.Data.manifest "/modernizr-bundle.js" }}"></script>
   <script src="/build{{ index .Site.Data.manifest "/manifest.js" }}"></script>
   <script src="/build{{ index .Site.Data.manifest "/vendor.js" }}"></script>

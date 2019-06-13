@@ -7,6 +7,7 @@ const useNodeSass = USE_NODE_SASS ? {implementation: require('node-sass')} : {};
 mix.disableNotifications();
 
 mix.ts('src/js/app.js', '.');
+mix.js('src/js/theme-switcher.js', '.');
 
 ['app', 'vendor'].forEach((style) => {
   mix.sass(`src/scss/${style}.scss`, '.', useNodeSass);

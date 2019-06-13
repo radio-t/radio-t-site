@@ -1,0 +1,47 @@
+{{ define "main" }}
+  <div class="py-4 py-lg-6">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <h1 class="display-4 mb-md-4">{{ .Title }}</h1>
+          <div class="text-content">
+            {{ .Content }}
+
+            <h2>Regular buttons</h2>
+            <p>
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary">Secondary</button>
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-info">Info</button>
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" class="btn btn-danger">Danger</button>
+              <button type="button" class="btn btn-link">Link</button>
+            </p>
+
+            <h2>Outline buttons</h2>
+            <p>
+              <button type="button" class="btn btn-outline-primary">Primary</button>
+              <button type="button" class="btn btn-outline-secondary">Secondary</button>
+              <button type="button" class="btn btn-outline-success">Success</button>
+              <button type="button" class="btn btn-outline-info">Info</button>
+              <button type="button" class="btn btn-outline-warning">Warning</button>
+              <button type="button" class="btn btn-outline-danger">Danger</button>
+            </p>
+
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <h3>
+              Heading
+              <small class="text-muted">with muted text</small>
+            </h3>
+            <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}

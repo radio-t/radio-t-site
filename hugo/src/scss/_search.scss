@@ -56,7 +56,7 @@ label[for="page-search-input"] {
   height: auto;
   padding: .7rem 1rem;
   border-radius: 0;
-  box-shadow: 0 10px 15px -8px rgba($black, .5), 0 0 3px rgba($black, .33) !important;
+  box-shadow: 0 10px 15px -8px rgba(#000, .5), 0 0 3px rgba(#000, .33) !important;
   @include media-breakpoint-up('xl') {
     padding: remVw(0.5) remVw(1);
     font-size: remVw(1.171875);

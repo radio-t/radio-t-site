@@ -21,7 +21,7 @@
 
   @include hover {
     color: darken($color, 10%); //$color-hover;
-    background-color: #fff; //$active-background;
+    background-color: $white; //$active-background;
     border-color: $active-border;
     box-shadow: 0 0 0 1px $color;
     transition-duration: 50ms;

@@ -1,3 +1,16 @@
+Dark theme
+
+how to switch styles?
+alternate
+
+- stylesheet switcher
+
+
+- remark theme switch
+- links
+- online banner
+
+
 - skip to specific comment broken in ios safari?
 - setup sentry release as git sha
 - dont include comments counter if there is nothing to count

@@ -3,6 +3,7 @@
 //// Variables should follow the `$component-state-property-size` formula for
 //// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 //
+$theme: 'light';
 $theme-suffix: '';
 //// Color system
 //
@@ -167,6 +168,7 @@ $spacers: (
 //
 //$body-bg:                   $white;
 $body-color:                $gray-900;
+$footer-bg: $gray-100;
 //
 //
 //// Links

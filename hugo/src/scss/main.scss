@@ -84,7 +84,7 @@ p, .jumbotron, .text-content {
   }
 }
 .btn-primary {
-  text-shadow: 0 1px 2px rgba($black, .15);
+  text-shadow: 0 1px 2px rgba(#000, .15);
 }
 .text-content {
   a:visited {
@@ -249,7 +249,7 @@ $jumbotron-arc-width: 120%;
   background-image: url('../images/banners/help.svg');
 }
 .page-footer {
-  background-color: $gray-100;
+  background-color: $footer-bg;
 }
 .page-footer-links {
   margin: 0;
@@ -260,7 +260,7 @@ $jumbotron-arc-width: 120%;
 }
 .footer-logo-img {
   @include logo-size(5rem);
-  background: url("../images/logo.svg") no-repeat;
+  background: url("../images/logo#{$theme-suffix}.svg") no-repeat;
   background-size: contain;
 }
 .number-title {
@@ -805,4 +805,8 @@ $ripple-scale-out: 3.4;
   color: $gray-700;
   background-color: rgba($gray-300, .8);
   padding: 0 .3em;
+}
+.switch-theme-btn {
+  border-width: 0 !important;
+  box-shadow: none !important;
 }

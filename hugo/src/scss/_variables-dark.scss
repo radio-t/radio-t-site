@@ -3,6 +3,7 @@
 //// Variables should follow the `$component-state-property-size` formula for
 //// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 //
+$theme: 'dark';
 $theme-suffix: '-dark'; // Add suffix to filenames, eg logo-dark.svg
 //// Color system
 // Invert gray scale for dark mode
@@ -101,8 +102,8 @@ $theme-colors: (
 $yiq-contrasted-threshold:  170;
 //
 //// Customize the light and dark text colors for use in our YIQ color contrast function.
-//$yiq-text-dark:             $gray-900;
-//$yiq-text-light:            $white;
+$yiq-text-dark:             $gray-200;
+$yiq-text-light:            $black;
 //
 //
 //// Options
@@ -167,6 +168,7 @@ $spacers: (
 //
 //$body-bg:                   $white;
 $body-color:                $gray-500; //$gray-900;
+$footer-bg: rgba(#000, .4); //mix($white, #000, 90%); //$gray-100;
 //
 //
 //// Links
