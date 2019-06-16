@@ -8,7 +8,12 @@
   </div>
   <div class="col-6 col-sm-4 order-sm-3 flex-shrink-1 text-right">
     {{ if $paginator.HasPrev }}
-      <a href="{{ .RelPermalink }}page/{{ $paginator.Prev.PageNumber }}/">Позже</a> &rarr;
+      {{ if eq $paginator.Prev.PageNumber 1 }}
+        {{/* Don't link to page/1, avoid redirects */}}
+        <a href="{{ .RelPermalink }}">Позже</a> &rarr;
+      {{ else }}
+        <a href="{{ .RelPermalink }}page/{{ $paginator.Prev.PageNumber }}/">Позже</a> &rarr;
+      {{ end }}
     {{ end }}
   </div>
   <div class="col-sm-4 order-sm-2 text-center">
