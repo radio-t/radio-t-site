@@ -1,29 +1,34 @@
 {{ if eq (getenv "NODE_ENV") "development" }}
-    <link href="/vendor-dark.css" rel="stylesheet" data-title="Dark">
-    <link href="/app-dark.css" rel="stylesheet" data-title="Dark">
-
-    <link href="/vendor.css" rel="stylesheet" data-title="Light" media="none">
-    <link href="/app.css" rel="stylesheet" data-title="Light" media="none">
   <script>
-    window.themes = {
-      light: [],
-      dark: [],
-    }
-    console.log(window.themes);
+    window.RADIOT_THEMES = {
+      light: [
+        '/vendor.css',
+        '/app.css',
+      ],
+      dark: [
+        '/vendor-dark.css',
+        '/app-dark.css',
+      ],
+    };
   </script>
-
-  <script src="/theme-switcher.js"></script>
   <script src="/modernizr-bundle.js"></script>
   <script src="/app.js"></script>
 {{ else }}
-  <link href="/build{{ index .Site.Data.manifest "/vendor.css" }}" rel="stylesheet" title="Light">
-  <link href="/build{{ index .Site.Data.manifest "/app.css" }}" rel="stylesheet" title="Light">
-
-  <link href="/build{{ index .Site.Data.manifest "/vendor-dark.css" }}" rel="alternate stylesheet" title="Dark">
-  <link href="/build{{ index .Site.Data.manifest "/app-dark.css" }}" rel="alternate stylesheet" title="Dark">
-
-  <script src="/build{{ index .Site.Data.manifest "/modernizr-bundle.js" }}"></script>
+  <script>
+    window.RADIOT_THEMES = {
+      light: [
+        '/build{{ index .Site.Data.manifest "/vendor.css" | safeJS }}',
+        '/build{{ index .Site.Data.manifest "/app.css" | safeJS }}',
+      ],
+      dark: [
+        '/build{{ index .Site.Data.manifest "/vendor-dark.css" | safeJS }}',
+        '/build{{ index .Site.Data.manifest "/app-dark.css" | safeJS }}',
+      ],
+    };
+  </script>
+  <script>{{ readFile "static/build/theme-init.js" | safeJS }}</script>
   <script src="/build{{ index .Site.Data.manifest "/manifest.js" }}"></script>
+  <script src="/build{{ index .Site.Data.manifest "/modernizr-bundle.js" }}"></script>
   <script src="/build{{ index .Site.Data.manifest "/vendor.js" }}"></script>
   <script src="/build{{ index .Site.Data.manifest "/app.js" }}"></script>
 {{ end }}

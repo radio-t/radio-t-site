@@ -28,14 +28,18 @@
 
       <div class="btn-group mx-auto px-3" role="group">
         <button class="btn btn-link d-inline-flex" data-action="player#seekBackward">
-          <span class="btn-player-icon btn-player-icon-backward"></span>
+          <span class="btn-player-icon btn-player-icon-backward">
+            {{ readFile "src/images/player/backward.svg" | safeHTML }}
+          </span>
         </button>
         <button class="btn btn-link player-play mx-2 mx-md-1" data-action="player#playPause">
           <i class="fas fa-fw fa-play-circle" data-target="player.play"></i>
           <i class="fas fa-fw fa-pause-circle d-none" data-target="player.pause"></i>
         </button>
         <button class="btn btn-link d-inline-flex" data-action="player#seekForward">
-          <span class="btn-player-icon btn-player-icon-forward"></span>
+          <span class="btn-player-icon btn-player-icon-forward">
+            {{ readFile "src/images/player/forward.svg" | safeHTML }}
+          </span>
         </button>
       </div>
 

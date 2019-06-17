@@ -1,6 +1,5 @@
 import Turbolinks from 'turbolinks';
 import debug from './debug';
-import { ensureTheme } from './theme-switcher';
 
 const events = [
   'turbolinks:click',
@@ -17,7 +16,9 @@ events.forEach(eventName => document.addEventListener(eventName, (e) => debug('t
 
 Turbolinks.start();
 
-document.addEventListener('turbolinks:render', ensureTheme);
+document.addEventListener('theme:change', function () {
+  Turbolinks.clearCache();
+});
 
 // open external links in new tab
 document.addEventListener('turbolinks:load', () => {

@@ -23,7 +23,7 @@ export default class extends Controller {
           div.style.backgroundImage = `url('${picture}')`;
           div.classList.add('comments-counter-avatars-item');
           div.style.transitionDelay = `${(limit - index) * 20}ms`;
-          this.element.append(div);
+          this.element.appendChild(div);
         });
         // todo limit waiting time before showing images
         imagesLoaded(this.element, {background: '.comments-counter-avatars-item'}, () => {

@@ -171,11 +171,16 @@ export default class extends Controller {
   seeking(e) {
     this.isSeeking = true;
     this.updateCurrentTime(e.target.value, true);
+    this.seekLaterTimeout = this.seekLater(e);
   }
 
+  seekLater = debounce(this.seek, 100);
+
   seek(e) {
+    console.log('seek');
     this.isSeeking = false;
     if (this.audioTarget.duration) this.updateCurrentTime(e.target.value);
+    clearTimeout(this.seekLaterTimeout);
   }
 
   close() {

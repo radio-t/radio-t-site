@@ -20,7 +20,11 @@
   border-color: rgba($color, .33);
 
   @include hover {
-    color: darken($color, 10%); //$color-hover;
+    @if($theme == 'dark') {
+      color: lighten($color, 10%); //$color-hover;
+    } @else {
+      color: darken($color, 10%); //$color-hover;
+    }
     background-color: $white; //$active-background;
     border-color: $active-border;
     box-shadow: 0 0 0 1px $color;

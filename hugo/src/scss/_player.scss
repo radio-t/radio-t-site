@@ -66,21 +66,30 @@ $podcast-player-cover-margin: .5rem;
   }
 }
 .btn-player-icon {
-  display: inline-block;
-  width: 1.1em;
-  padding-bottom: 100%;
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
+  display: inline-flex;
+  svg {
+    display: block;
+    fill: currentColor !important;
+    width: 1.1em;
+    height: auto;
+    path {
+      fill: currentColor !important;
+    }
+  }
 }
 .btn-player-icon-backward {
-  background-image: url('../images/player/backward.svg');
+  //background-image: url('../images/player/backward.svg');
 }
 .btn-player-icon-forward {
-  background-image: url('../images/player/forward.svg');
+  //background-image: url('../images/player/forward.svg');
+}
+.btn-player-icon-backward,
+.btn-player-icon-forward {
 }
 .podcast-player-seek {
+  position: relative;
   input[type='range'] {
+    position: absolute;
     cursor: pointer;
   }
 }

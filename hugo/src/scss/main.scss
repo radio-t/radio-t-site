@@ -474,7 +474,7 @@ $jumbotron-arc-width: 120%;
   left: 5%;
   width: 90%;
   height: 80%;
-  box-shadow: 0 30px 60px -10px rgba($black, .5);
+  box-shadow: 0 30px 60px -10px rgba(#000, .5);
   opacity: .33;
 }
 .cover-image {
@@ -511,12 +511,12 @@ $jumbotron-arc-width: 120%;
   backdrop-filter: $backdrop-filter;
   border: none;
   border-radius: 50%;
-  color: $white;
+  color: #fff;
   opacity: 1;
   transform: scale(1.0001);
   transition: all 150ms;
   cursor: pointer;
-  box-shadow: inset 0 0 0 2px $white, 0 0 0 4px rgba($link-hover-color, .35);
+  box-shadow: inset 0 0 0 2px #fff, 0 0 0 4px rgba($link-hover-color, .35);
   &:hover, &:focus {
     transform: scale(1.03) translate3d(0, -1px, 0);
     background-color: rgba($link-hover-color, .95);
@@ -525,7 +525,7 @@ $jumbotron-arc-width: 120%;
   }
   &:active {
     transform: scale(.95);
-    box-shadow: inset 0 0 0 1px $white, 0 0 0 1px rgba($link-hover-color, .65);
+    box-shadow: inset 0 0 0 1px #fff, 0 0 0 1px rgba($link-hover-color, .65);
   }
   .icon {
     font-size: $play-button-size / 2;
@@ -628,7 +628,7 @@ $ripple-scale-out: 3.4;
   appearance: none;
   border: 0;
   background: $primary url("../images/logo-icon.svg") center no-repeat;
-  color: $white;
+  color: #fff;
   background-size: cover;
   margin: 0;
   padding: 0 0 100%;
