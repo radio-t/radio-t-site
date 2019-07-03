@@ -5,8 +5,8 @@
   right: 0;
   height: 100%;
   width: 18rem;
-  background-color: $white;
-  box-shadow: 0 0 4px rgba($black, .2);
+  background-color: $sidebar-bg;
+  box-shadow: 0 0 4px rgba(#000, .2);
   display: none;
   &:after {
     content: '';
@@ -16,7 +16,7 @@
     bottom: 0;
     width: 100%;
     height: 3em;
-    @include gradient-y(rgba($white, 0), rgba($white, .85));
+    @include gradient-y(rgba($sidebar-bg, 0), rgba($sidebar-bg, .85));
   }
 }
 .page-sidebar-backdrop {

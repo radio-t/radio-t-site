@@ -5,6 +5,14 @@
     </button>
     <a class="navbar-brand" href="/"><span class="sr-only">Радио-Т Подкаст</span></a>
     <div class="navbar-toolbar order-lg-12">
+      <button
+        type="button"
+        class="icon-btn switch-theme-btn btn btn-outline-secondary mr-lg-1"
+        data-controller="theme"
+        data-action="click->theme#toggle"
+      >
+        <i class="fas fa-adjust"></i>
+      </button>
       <label
         type="button"
         for="page-search-input"
@@ -16,7 +24,7 @@
       </label>
       <button
         type="button"
-        class="icon-btn navbar-btn-sidebar-toggle btn btn-outline-secondary ml-lg-2 page-sidebar-toggle"
+        class="icon-btn navbar-btn-sidebar-toggle btn btn-outline-secondary ml-lg-1 page-sidebar-toggle"
         data-action="sidebar#toggle"
       >
         <i class="far fa-comments"></i>

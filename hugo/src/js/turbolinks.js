@@ -16,6 +16,10 @@ events.forEach(eventName => document.addEventListener(eventName, (e) => debug('t
 
 Turbolinks.start();
 
+document.addEventListener('theme:change', function () {
+  Turbolinks.clearCache();
+});
+
 // open external links in new tab
 document.addEventListener('turbolinks:load', () => {
   [].forEach.call(document.links, link => {

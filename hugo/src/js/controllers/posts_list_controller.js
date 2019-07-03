@@ -14,6 +14,7 @@ export default class extends Controller {
     // Only first page
     if (this.data.get('page-number') !== '1') return;
 
+    // const children = [...this.element.children];
     for (let post of this.element.children) {
       if (post.classList.contains('posts-list-item-category-podcast')) {
         break;

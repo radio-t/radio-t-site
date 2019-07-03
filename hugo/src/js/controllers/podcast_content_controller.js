@@ -34,7 +34,7 @@ export default class extends Controller {
         timeLabel.dataset.action = `click->podcast#goToTimeLabel`;
         const icon = document.createElement('i');
         icon.className = 'fas fa-step-forward fa-fw';
-        timeLabel.prepend(icon);
+        timeLabel.insertBefore(icon, timeLabel.firstChild);
       } else {
         timeLabel = document.createElement('EM');
       }
@@ -50,11 +50,11 @@ export default class extends Controller {
       // Wrap all content except time label
       const wrapper = document.createElement('div');
       wrapper.classList.add('podcast-topic-label');
-      while (li.firstChild) wrapper.append(li.firstChild);
+      while (li.firstChild) wrapper.appendChild(li.firstChild);
 
       // Put into dom
-      li.append(timeLabel);
-      li.append(wrapper);
+      li.appendChild(timeLabel);
+      li.appendChild(wrapper);
     }
   }
 }

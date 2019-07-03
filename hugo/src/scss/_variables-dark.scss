@@ -3,21 +3,21 @@
 //// Variables should follow the `$component-state-property-size` formula for
 //// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 //
-$theme: 'light';
-$theme-suffix: '';
+$theme: 'dark';
+$theme-suffix: '-dark'; // Add suffix to filenames, eg logo-dark.svg
 //// Color system
-//
-$white:    #fff;
-$gray-100: #f8f9fa;
-$gray-200: #eef2f5; //#e9ecef;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
-$gray-500: #adb5bd;
-$gray-600: #6c757d;
-$gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
-$black:    #000;
+// Invert gray scale for dark mode
+$white:    #121314;
+$gray-100: #141617;
+$gray-200: #1B1D1F;
+$gray-300: #495057;
+$gray-400: #6c757d;
+$gray-500: #9da4ab;
+$gray-600: #ced4da;
+$gray-700: #dee2e6;
+$gray-800: #eef2f5; //#e9ecef;
+$gray-900: #f8f9fa;
+$black:    #fff;
 //
 //$grays: ();
 //// stylelint-disable-next-line scss/dollar-variable-default
@@ -102,8 +102,8 @@ $theme-colors: (
 $yiq-contrasted-threshold:  170;
 //
 //// Customize the light and dark text colors for use in our YIQ color contrast function.
-//$yiq-text-dark:             $gray-900;
-//$yiq-text-light:            $white;
+$yiq-text-dark:             $gray-200;
+$yiq-text-light:            $black;
 //
 //
 //// Options
@@ -166,10 +166,10 @@ $spacers: (
 ////
 //// Settings for the `<body>` element.
 //
-$body-bg:                   $white;
-$body-color:                $gray-700;
-$footer-bg: $gray-100;
-$sidebar-bg: $body-bg;
+//$body-bg:                   $white;
+$body-color:                $gray-600; //$gray-900;
+$footer-bg: rgba(#000, .33); //mix($white, #000, 90%); //$gray-100;
+$sidebar-bg: mix($white, #000, 67%); //rgba(#000, .67);
 //
 //
 //// Links
@@ -247,7 +247,7 @@ $link-hover-decoration:                   none; //underline;
 //$line-height-sm:              1.5;
 //
 //$border-width:                1px;
-$border-color:                rgba($black, 1 - lightness($gray-300) / 100%);
+$border-color:                #000; //rgba($black, 1 - lightness($gray-800) / 100%);
 //
 //$border-radius:               .25rem;
 //$border-radius-lg:            .3rem;
@@ -333,7 +333,7 @@ $display-line-height:         1.1; //$headings-line-height;
 $small-font-size:             13/15*100%;
 $smaller-font-size:           12/15*100%;
 //
-$text-muted:                  $gray-600;
+$text-muted:                  $gray-500;
 //
 //$blockquote-small-color:      $gray-600;
 //$blockquote-small-font-size:  $small-font-size;
@@ -753,8 +753,8 @@ $navbar-padding-x:                  0; //$spacer;
 //$navbar-dark-toggler-icon-bg:       str-replace(url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='#{$navbar-dark-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"), "#", "%23");
 //$navbar-dark-toggler-border-color:  rgba($white, .1);
 //
-$navbar-light-color:                rgba($black, .7);
-$navbar-light-hover-color:          rgba($black, .9);
+$navbar-light-color:                rgba($black, .9);
+$navbar-light-hover-color:          rgba($black, 1);
 $navbar-light-active-color:         $link-hover-color; //$primary; //rgba($black, .9);
 //$navbar-light-disabled-color:       rgba($black, .3);
 //$navbar-light-toggler-icon-bg:      str-replace(url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='#{$navbar-light-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"), "#", "%23");

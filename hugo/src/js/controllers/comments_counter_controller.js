@@ -8,6 +8,8 @@ export default class extends Controller {
   initialize() {
     super.initialize();
 
+    if (!this.numberTargets.length) return;
+
     if (this.data.has('init')) return;
 
     const tmp = document.createElement('a');

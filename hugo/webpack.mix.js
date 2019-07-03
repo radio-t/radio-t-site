@@ -1,4 +1,6 @@
+const fs = require('fs');
 const mix = require('laravel-mix');
+const babel = require('@babel/core');
 const ModernizrWebpackPlugin = require('modernizr-webpack-plugin');
 
 const USE_NODE_SASS = true; // faster https://github.com/JeffreyWay/laravel-mix/issues/1832
@@ -7,16 +9,12 @@ const useNodeSass = USE_NODE_SASS ? {implementation: require('node-sass')} : {};
 mix.disableNotifications();
 
 mix.ts('src/js/app.js', '.');
-mix.sass('src/scss/app.scss', '.', useNodeSass);
-mix.sass('src/scss/vendor.scss', '.', useNodeSass);
 
-mix.babelConfig({
-  plugins: [
-    '@babel/plugin-proposal-class-properties',
-    '@babel/plugin-transform-react-jsx',
-    '@babel/plugin-syntax-dynamic-import',
-  ],
+['app', 'vendor'].forEach((style) => {
+  mix.sass(`src/scss/${style}.scss`, '.', useNodeSass);
+  mix.sass(`src/scss/${style}-dark.scss`, '.', useNodeSass);
 });
+
 mix.webpackConfig({plugins: [new ModernizrWebpackPlugin(require('./.modernizr'))]});
 
 // const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
@@ -28,6 +26,22 @@ if (mix.inProduction()) {
   mix.extract();
   mix.version(['static/build/modernizr-bundle.js']);
   Mix.manifest.name = '../../data/manifest.json';
+  mix.then(() => {
+    const {code} = babel.transformFileSync('src/js/theme-init.js', {
+      minified: true,
+      presets: [
+        [
+          '@babel/preset-env',
+          {
+            modules: false,
+            forceAllTransforms: true,
+            useBuiltIns: false,
+          },
+        ],
+      ]
+    });
+    fs.writeFileSync('static/build/theme-init.js', code);
+  });
 } else {
   mix.setPublicPath('dev');
 
