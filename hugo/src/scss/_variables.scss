@@ -166,9 +166,10 @@ $spacers: (
 ////
 //// Settings for the `<body>` element.
 //
-//$body-bg:                   $white;
-$body-color:                $gray-900;
+$body-bg:                   $white;
+$body-color:                $gray-700;
 $footer-bg: $gray-100;
+$sidebar-bg: $body-bg;
 //
 //
 //// Links

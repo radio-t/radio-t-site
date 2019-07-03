@@ -167,8 +167,9 @@ $spacers: (
 //// Settings for the `<body>` element.
 //
 //$body-bg:                   $white;
-$body-color:                $gray-500; //$gray-900;
-$footer-bg: rgba(#000, .4); //mix($white, #000, 90%); //$gray-100;
+$body-color:                $gray-600; //$gray-900;
+$footer-bg: rgba(#000, .33); //mix($white, #000, 90%); //$gray-100;
+$sidebar-bg: mix($white, #000, 67%); //rgba(#000, .67);
 //
 //
 //// Links

@@ -42,7 +42,7 @@ html.js {
     visibility: hidden;
   }
 }
-@mixin link($selector: '&', $border: $body-color, $active-bg: $link-hover-color, $active-color: $white) {
+@mixin link($selector: '&', $border: $body-color, $active-bg: $link-hover-color, $active-color: color-yiq($active-bg)) {
   #{$selector} {
     transition: 350ms ease;
     transition-property: color, background-color, border;
@@ -54,7 +54,7 @@ html.js {
       color: $active-bg;
       //color: inherit;
       background-color: rgba($active-bg, .06);
-      text-shadow: 0 1px rgba($active-color, .33);
+      text-shadow: 0 1px rgba($white, .33);
       transition-duration: 50ms;
       transition-delay: 0ms;
       border-bottom-color: rgba($active-bg, .2);
@@ -120,7 +120,7 @@ pre {
   -webkit-overflow-scrolling: touch;
 }
 .text-light {
-  color: rgba(#fff, .7);
+  color: rgba(#fff, .7) !important;
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6, a:not(.btn) {
     color: #fff;
@@ -129,7 +129,7 @@ pre {
   .h1, .h2, .h3, .h4, .h5, .h6,
   p, .text-content {
     a:not(.btn):not(.nav-link) {
-      @include link('&', $white, $white, $link-hover-color);
+      @include link('&', #fff, #fff, $link-hover-color);
     }
   }
 }

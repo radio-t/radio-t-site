@@ -121,13 +121,6 @@
   .navbar-toolbar {
     display: flex;
   }
-  .navbar-toggler {
-    line-height: 1;
-    position: relative;
-    z-index: $zindex-fixed + 1;
-    padding: 0 1rem 0 $navbar-collapsed-padding-x !important;
-    margin-right: 2rem;
-  }
   .navbar-toggler-icon {}
   .navbar-collapse {
     overflow-y: auto;
@@ -153,7 +146,7 @@
     min-height: 100%;
     max-width: 100%;
     background-color: $white;
-    box-shadow: 0 0 .25rem rgba($black, .2);
+    box-shadow: 0 0 .25rem rgba(#000, .2);
     padding: $navbar-collapsed-height 0 2rem 0;
     transform: translate3d(-15rem, 0, 0);
     transition: 200ms ease-out;
@@ -206,5 +199,14 @@
         transform: translate3d(0, 0, 0);
       }
     }
+  }
+}
+@media (min-width: 340px) {
+  .navbar-toggler {
+    line-height: 1;
+    position: relative;
+    z-index: $zindex-fixed + 1;
+    padding: 0 1rem 0 $navbar-collapsed-padding-x !important;
+    margin-right: 2rem;
   }
 }

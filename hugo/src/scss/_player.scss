@@ -77,15 +77,6 @@ $podcast-player-cover-margin: .5rem;
     }
   }
 }
-.btn-player-icon-backward {
-  //background-image: url('../images/player/backward.svg');
-}
-.btn-player-icon-forward {
-  //background-image: url('../images/player/forward.svg');
-}
-.btn-player-icon-backward,
-.btn-player-icon-forward {
-}
 .podcast-player-seek {
   position: relative;
   input[type='range'] {
