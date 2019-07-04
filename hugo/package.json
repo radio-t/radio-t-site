@@ -7,8 +7,8 @@
     "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "hugo": "cross-env-shell hugo serve --port ${HUGO_PORT:-1313}",
-    "hugo-no-live": "cross-env-shell hugo serve --disableLiveReload --port ${HUGO_PORT:-1313}",
+    "hugo": "cross-env-shell hugo serve --minify --port ${HUGO_PORT:-1313}",
+    "hugo-no-live": "cross-env-shell hugo serve --minify --disableLiveReload --port ${HUGO_PORT:-1313}",
     "start": "cross-env NODE_ENV=development run-p watch hugo",
     "start-turbo": "cross-env NODE_ENV=development cross-env MIX_TURBO=1 run-p watch hugo-no-live"
   },
