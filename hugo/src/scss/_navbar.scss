@@ -179,10 +179,10 @@
         width: 5px;
       }
       &:hover {
-        background-color: rgba($black, 1 - lightness($gray-100) / 100%);
+        background-color: rgba($black, .03);
       }
       &:active {
-        background-color: rgba($black, 1 - lightness($gray-200) / 100%);
+        background-color: rgba($black, .06);
       }
     }
   }
