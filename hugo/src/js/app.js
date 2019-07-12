@@ -18,3 +18,5 @@ if (process.env.NODE_ENV === 'production' || process.env.MIX_TURBO) {
 
 require('./highlight');
 require('./icons');
+
+require('./theme-utils').detectTheme();

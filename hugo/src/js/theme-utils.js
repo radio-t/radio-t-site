@@ -42,3 +42,18 @@ export function setTheme(theme) {
     event.initEvent('theme:change', true);
     document.dispatchEvent(event);
 }
+
+export function detectTheme() {
+    if (!hasNoSupport) {
+        let currentTheme = localStorage.getItem('theme');
+        let sysTheme = isDarkMode ? 'dark' : 'light';
+
+        if (currentTheme === null) {
+            currentTheme = sysTheme;
+        } else {
+            currentTheme = currentTheme !== sysTheme ? sysTheme : currentTheme;
+        }
+
+        setTheme(currentTheme);
+    }
+}
