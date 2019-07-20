@@ -1,15 +1,28 @@
 (function () {
+  function getSystemTheme() {
+    const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+    const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+    const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified;
+
+    return hasNoSupport ? undefined
+      : isDarkMode ? 'dark' : 'light'
+  }
+
   function getPreferredTheme() {
     try {
-      return 'dark' === localStorage.getItem('theme') ? 'dark' : 'light';
+      let theme = localStorage.getItem('theme');
+      return theme
+        ? 'dark' === theme ? 'dark' : 'light'
+        : undefined;
     } catch (e) {
       //
     }
 
-    return 'light';
+    return undefined;
   }
 
-  window.RADIOT_THEME = getPreferredTheme();
+  window.RADIOT_THEME = getPreferredTheme() || getSystemTheme() || 'light';
 
   for (const t in window.RADIOT_THEMES) {
     const active = window.RADIOT_THEME === t;
