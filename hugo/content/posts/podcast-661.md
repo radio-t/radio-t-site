@@ -14,7 +14,7 @@ filename = "rt_podcast661"
 - [OOP — ошибка на миллиард $$$](https://medium.com/codeiq/object-oriented-programming-the-trillion-dollar-disaster-%EF%B8%8F-92a4b666c7c7) - *01:29:18*.
 - [Темы наших слушателей](https://radio-t.com/p/2019/08/01/prep-661/) - *02:00:50*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Skillfactory](https://clc.to/WqiNVA)*
+*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Skillfactory](https://clc.to/QCZe6A)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast661.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-661.html)
