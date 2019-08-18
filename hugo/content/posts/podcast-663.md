@@ -16,7 +16,7 @@ filename = "rt_podcast663"
 - [Фальшивый AI для создания программ](https://www.theverge.com/2019/8/14/20805676/engineer-ai-artificial-intelligence-startup-app-development-outsourcing-humans) - *01:05:28*.
 - [WeWork - это было странно](https://www.theverge.com/2019/8/15/20806366/we-company-wework-ipo-adam-neumann) - *01:18:03*.
 - [В Chrome 77 и Firefox 70 будет прекращена маркировка EV сертификатов](http://www.opennet.ru/opennews/art.shtml?num=51271) - *01:33:36*.
-- [Темы слушателей](https://radio-t.com/p/2019/08/13/prep-663/) - *01:39:57*.
+- [Темы наших слушателей](https://radio-t.com/p/2019/08/13/prep-663/) - *01:39:57*.
 
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
