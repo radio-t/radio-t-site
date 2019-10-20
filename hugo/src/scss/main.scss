@@ -296,6 +296,7 @@ $jumbotron-arc-width: 120%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  visibility: hidden;
 }
 .post-time {
   font-size: $smaller-font-size;
