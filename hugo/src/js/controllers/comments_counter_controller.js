@@ -22,6 +22,7 @@ export default class extends Controller {
     const callback = (mutations) => {
       mutations.forEach((mutation) => {
         const num = mutation.target;
+        num.parentElement.style.visibility = 'visible';
         const n = parseInt(num.innerText);
         if (isNaN(n)) return;
         num.nextElementSibling.innerHTML = getUnits(n, ['комментарий', 'комментария', 'комментариев']);
