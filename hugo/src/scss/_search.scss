@@ -76,6 +76,10 @@ label[for="page-search-input"] {
   }
 }
 @include media-breakpoint-up('md') {
+  .page-search-input-wrapper {
+    border-radius: $border-radius;
+    box-shadow: 0 0 0 4px rgba($primary, .8);
+  }
   .page-search-input {
     border-radius: $border-radius;
   }

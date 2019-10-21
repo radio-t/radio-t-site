@@ -1100,3 +1100,6 @@ $code-color:                        $cyan;
 //
 //$print-page-size:                   a3;
 //$print-body-min-width:              map-get($grid-breakpoints, "lg");
+
+// Custom
+$backdrop-filter: blur(4px) saturate(3);
