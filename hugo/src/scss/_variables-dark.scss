@@ -7,10 +7,10 @@ $theme: 'dark';
 $theme-suffix: '-dark'; // Add suffix to filenames, eg logo-dark.svg
 //// Color system
 // Invert gray scale for dark mode
-$white:    #121314;
-$gray-100: #141617;
-$gray-200: #1B1D1F;
-$gray-300: #495057;
+$white:    #23262a;
+$gray-100: #323a43;
+$gray-200: #434c56;
+$gray-300: #53616e;
 $gray-400: #6c757d;
 $gray-500: #9da4ab;
 $gray-600: #ced4da;
@@ -166,10 +166,10 @@ $spacers: (
 ////
 //// Settings for the `<body>` element.
 //
-//$body-bg:                   $white;
+$body-bg:                   $gray-100; //$white;
 $body-color:                $gray-600; //$gray-900;
 $footer-bg: rgba(#000, .33); //mix($white, #000, 90%); //$gray-100;
-$sidebar-bg: mix($white, #000, 67%); //rgba(#000, .67);
+$sidebar-bg: mix($gray-100, $white, 50%); //rgba(#000, .67);
 //
 //
 //// Links
@@ -247,7 +247,7 @@ $link-hover-decoration:                   none; //underline;
 //$line-height-sm:              1.5;
 //
 //$border-width:                1px;
-$border-color:                #000; //rgba($black, 1 - lightness($gray-800) / 100%);
+$border-color:                mix($white, $gray-100, 50%); //rgba($black, 1 - lightness($gray-800) / 100%);
 //
 //$border-radius:               .25rem;
 //$border-radius-lg:            .3rem;
@@ -800,7 +800,7 @@ $navbar-light-active-color:         $link-hover-color; //$primary; //rgba($black
 //// Jumbotron
 //
 $jumbotron-padding:                 1.5rem;
-//$jumbotron-bg:                      $gray-200;
+$jumbotron-bg:                      $light;
 //
 //
 //// Cards
@@ -1100,3 +1100,6 @@ $code-color:                        $cyan;
 //
 //$print-page-size:                   a3;
 //$print-body-min-width:              map-get($grid-breakpoints, "lg");
+
+// Custom
+$backdrop-filter: blur(4px);

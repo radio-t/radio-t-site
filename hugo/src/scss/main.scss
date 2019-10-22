@@ -751,7 +751,7 @@ $ripple-scale-out: 3.4;
   .text-content {
     padding-top: 1.5em;
     @include media-breakpoint-up('md') {
-      background-color: $white;
+      background-color: $body-bg;
       margin: -8% -6% 0;
       padding: 2em 6%;
     }
