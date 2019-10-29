@@ -14,7 +14,6 @@ export default class extends Controller {
 
   toggle() {
     this.element.classList.toggle('search-open');
-    this.element.focus();
   }
 
   initialize() {
