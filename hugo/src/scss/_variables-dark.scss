@@ -178,7 +178,7 @@ $sidebar-bg: mix($gray-100, $white, 50%); //rgba(#000, .67);
 //
 $link-color:                              $black; //$primary; //theme-color("primary");
 //$link-decoration:                         none;
-$link-hover-color:                        darken($primary, 15%);
+$link-hover-color:                        lighten($primary, 5%);
 $link-hover-decoration:                   none; //underline;
 //// Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 //$emphasized-link-hover-darken-percentage: 15%;
