@@ -80,11 +80,21 @@
   }
   .navbar {
     position: sticky;
-    backdrop-filter: $backdrop-filter;
     top: 0;
     z-index: $zindex-fixed;
     height: $navbar-collapsed-height;
-    background-color: rgba($gray-200, .92) !important;
+    background-color: transparent !important;
+    &:before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      right: 0;
+      bottom: -1px;
+      left: 0;
+      background-color: rgba($gray-200, .92) !important;
+      backdrop-filter: $backdrop-filter;
+    }
     > .container-fluid {
       width: 100%;
       padding-left: 0;
