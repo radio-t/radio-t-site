@@ -22,7 +22,7 @@
     return undefined;
   }
 
-  window.RADIOT_THEME = getPreferredTheme() || getSystemTheme() || 'light';
+  window.RADIOT_THEME = getTheme();
 
   for (const t in window.RADIOT_THEMES) {
     const active = window.RADIOT_THEME === t;
