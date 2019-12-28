@@ -11,7 +11,7 @@ filename = "rt_podcast682"
 - [Учения по изоляции интернета](https://www.engadget.com/2019/12/26/russia-tested-own-internet/) - *00:01:54*.
 - [Safari не переходит на Chromium](https://9to5google.com/2019/12/27/apple-isnt-rebuilding-safari-chromium/) - *00:22:58*.
 - [Лучшие гаджеты 2019](https://mashable.com/feature/best-tech-of-2019/) - *00:31:03*.
-- [Эту 7 ушли от нас в 2019](https://www.usatoday.com/story/tech/2019/12/26/google-mac-itunes-7-tech-products-faded-away-2019/2715253001/) - *01:20:57*.
+- [Эти 7 ушли от нас в 2019](https://www.usatoday.com/story/tech/2019/12/26/google-mac-itunes-7-tech-products-faded-away-2019/2715253001/) - *01:20:57*.
 - [Темы слушателей](https://radio-t.com/p/2019/12/24/prep-682/) - *01:49:00*.
 
 *Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Atlas](https://atlas.ru/wgs?utm_source=podcast&utm_medium=special&utm_campaign=radio-t1219)*
