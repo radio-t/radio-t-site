@@ -40,7 +40,7 @@
             <h1 class="number-title">{{ partial "number-title" . }}</h1>
             <div class="post-time">{{ partial "post-time" . }}</div>
           </div>
-          <div class="col-md">{{ partial "comments" }}</div>
+          <div class="col-md">{{ partial "comments" . }}</div>
           <div class="col-md-2">{{ partial "share" . }}</div>
         </div>
         {{ partial "post-footer" . }}
