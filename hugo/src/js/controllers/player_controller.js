@@ -23,6 +23,9 @@ export default class extends Controller {
     'cover',
     'number',
     'link',
+    'volumeLevel',
+    'mute',
+    'unmute'
   ];
 
   static getState() {
@@ -116,9 +119,11 @@ export default class extends Controller {
       this.updateState({src: detail.src});
       this.linkTargets.forEach((link) => link.href = detail.url);
       this.coverTarget.style.backgroundImage = detail.image;
-      this.coverTarget.classList.toggle('cover-image-online', !!detail.online)
+      this.coverTarget.classList.toggle('cover-image-online', !!detail.online);
       this.numberTarget.textContent = detail.number;
       this.audioTarget.load();
+      this.audioTarget.volume = 1;
+      this.storedVolumeLevel = 100;
       if (!detail.online) {
         if (!detail.timeLabel) {
           const podcast = getLocalStorage('podcasts', podcasts => podcasts[this.numberTarget.innerText]);
@@ -177,10 +182,26 @@ export default class extends Controller {
   seekLater = debounce(this.seek, 100);
 
   seek(e) {
-    console.log('seek');
     this.isSeeking = false;
     if (this.audioTarget.duration) this.updateCurrentTime(e.target.value);
     clearTimeout(this.seekLaterTimeout);
+  }
+
+  volumeChanging(e) {
+    this.setVolume(Number.parseInt(e.target.value, 10));
+  }
+  volumeChange(e) {
+    const volume = Number.parseInt(e.target.value, 10);
+    this.setVolume(volume);
+    if (volume !== 0) {
+      this.storedVolumeLevel = volume;
+    }
+  }
+  setVolume(volumeLevel) {
+    this.isMuted = volumeLevel === 0;
+    this.muteTarget.classList.toggle('d-none', this.isMuted);
+    this.unmuteTarget.classList.toggle('d-none', !this.isMuted);
+    this.audioTarget.volume = volumeLevel / 100;
   }
 
   close() {
@@ -233,5 +254,15 @@ export default class extends Controller {
 
   onEnded() {
     // @todo:
+  }
+
+  muteUnmute() {
+    if (this.isMuted) {
+      this.setVolume(this.storedVolumeLevel);
+      this.volumeLevelTarget.value = this.storedVolumeLevel;
+    } else {
+      this.setVolume(0);
+      this.volumeLevelTarget.value = 0;
+    }
   }
 }
