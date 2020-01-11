@@ -2,6 +2,7 @@
 title = "Радио–Т 32"
 date = "2007-04-23T16:09:00"
 categories = [ "podcast",]
+filename = "rt_podcast32"
 image = "https://radio-t.com/images/radio-t/rt32.jpg"
 
 +++
