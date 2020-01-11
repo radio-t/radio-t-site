@@ -31,6 +31,8 @@ services:
     container_name: publisher 
     restart: always
     logging: *default_logging
+    environment:
+      PYTHONPATH: /srv/publisher
     volumes:
       - ./hugo:/srv/hugo
       - ./publisher:/srv/publisher

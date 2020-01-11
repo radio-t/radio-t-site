@@ -9,7 +9,7 @@ num_before=`docker-compose run publisher print-next-episode-number 2>/dev/null`
 cd ..
 git pull
 git add .
-#git commit -m "auto episode after $num_before" && git push
+git commit -m "auto episode after $num_before" && git push
 ssh master.radio-t.com "cd /srv/site.hugo && git pull && docker-compose run --rm hugo"
 
 cd publisher

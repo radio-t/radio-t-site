@@ -1,2 +1,4 @@
 hugo/public/
 publisher/utils/eyeD3/*.pyc
+.mypy_cache
+.vscode

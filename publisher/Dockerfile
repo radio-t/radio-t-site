@@ -24,5 +24,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 USER $MYUSER
 
-ENTRYPOINT [ "invoke" ]
+ENTRYPOINT ["invoke"]
 CMD ["--list"]
