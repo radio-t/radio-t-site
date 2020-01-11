@@ -24,3 +24,15 @@ services:
     volumes:
       - /home/umputun/.ssh/id_rsa.pub:/home/app/.ssh/id_rsa.pub
       - /home/umputun/.ssh/id_rsa:/home/app/.ssh/id_rsa
+
+  publisher:
+    build: publisher
+    hostname: publisher
+    container_name: publisher 
+    restart: always
+    logging: *default_logging
+    volumes:
+      - ./hugo:/srv/hugo
+      - ./publisher:/srv/publisher
+
+  

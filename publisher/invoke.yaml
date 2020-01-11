@@ -1,0 +1,2 @@
+run: 
+  shell: "/bin/sh"
