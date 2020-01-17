@@ -1,2 +1,6 @@
 run: 
   shell: "/bin/sh"
+http:
+  site_url: "https://radio-t.com/" 
+  user_agent: "Radio-T site generator"
+  timeout: 30
