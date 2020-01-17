@@ -2,16 +2,17 @@ import os
 import re
 import sys
 from datetime import date
+from urllib.parse import urljoin
 
+import requests
+from bs4 import BeautifulSoup
 from eyed3 import core, id3, mimetype
 from invoke import Collection, task
 
-from mp3_chapters import (
-    parse_table_of_contents_from_md,
-    set_mp3_album_tags,
-    set_mp3_table_of_contests,
-)
+from mp3_chapters import parse_table_of_contents_from_md, set_mp3_album_tags, set_mp3_table_of_contests
 
+
+USER_AGENT = {'User-agent': 'Radio-T site generator'}
 
 @task
 def make_new_episode(c):
@@ -34,20 +35,34 @@ def print_next_episode_number(c):
     """
     Print to stdout next podcast episode number parsed from https://radio-t.com/
     """
-    result = c.run("curl https://radio-t.com/ | grep rt_podcast | head -n1", hide=True)
-    num = int(result.stdout.split("rt_podcast")[1][:3]) + 1
-    print(num)
+    resp = requests.get("https://radio-t.com/", headers=USER_AGENT, timeout=30)
+    soup = BeautifulSoup(resp.content, "html.parser")
+
+    for item in soup.find_all("h2", class_="number-title"):
+        if "podcast-" in item.a["href"]:
+            last_podcast_num = int(item.a["href"].strip("/").rsplit("podcast-", 1)[-1])
+            print(last_podcast_num + 1)
+            return
+
+    print("Error:", f"Last podcast episode page not found", file=sys.stderr)
+    sys.exit(1)
 
 
 @task
 def print_last_rt_link(c):
     """
     Print to stdout last podcast episode link parsed from https://radio-t.com/
-    FIXME: currently broken - markup from the site is parsed incorrectly
     """
-    result = c.run("curl https://radio-t.com/ | grep podcast- | head -n1", hide=True)
-    link = "https://radio-t.com" + result.stdout.split('"')[3]
-    print(link)
+    resp = requests.get("https://radio-t.com/", headers=USER_AGENT, timeout=30)
+    soup = BeautifulSoup(resp.content, "html.parser")
+
+    for item in soup.find_all("h2", class_="number-title"):
+        if "podcast-" in item.a["href"]:
+            print(urljoin("https://radio-t.com", item.a["href"]))
+            return
+
+    print("Error:", f"Link to last podcast episode page not found", file=sys.stderr)
+    sys.exit(1)
 
 
 EPISODES_DIRECTORY = os.getenv("EPISODES_DIRECTORY", "/episodes/")
@@ -56,7 +71,7 @@ EPISODES_DIRECTORY = os.getenv("EPISODES_DIRECTORY", "/episodes/")
 @task(
     optional=["overwrite", "verbose"],
     help={
-        "filename": f'podcast mp3 file name. File must be placed into "{EPISODES_DIRECTORY}" directory beforehand',
+        "filename": f'podcast mp3 file name. File must be placed into "{EPISODES_DIRECTORY}" directory in container beforehand',
         "verbose": "flag to show verbose output",
     },
     auto_shortflags=False,
