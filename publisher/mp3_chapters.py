@@ -60,7 +60,7 @@ def parse_table_of_contents_from_md(filename: str) -> List[Chapter]:
 
     # parse episode post markdown
     with open(filename, encoding='utf-8') as f:
-        theme_lines = [line for line in f.readlines() if line.lstrip().startswith('- [')]
+        theme_lines = [line for line in f.readlines() if line.lstrip().startswith('-')]
 
     theme_regexp = re.compile(r'\-\s+?\[(.+?)\].*?\*([\d:]+)\*')
     themes = []

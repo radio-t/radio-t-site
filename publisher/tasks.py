@@ -66,6 +66,16 @@ def set_mp3_tags(c, filename, verbose=False):
     full_path = os.path.join(EPISODES_DIRECTORY, filename)
     if not os.path.exists(full_path):
         print('Error:', f'File "{full_path}" does not exists', file=sys.stderr)
+    # check that hugo template for new episode page is already exists
+    # so we can parse table of contents from there
+    episode_num = int(re.match(r".*rt_podcast(\d*)\.mp3", filename).group(1))
+    episode_page_file_path = f"/srv/hugo/content/posts/podcast-{episode_num}.md"
+    if not os.path.exists(episode_page_file_path):
+        print(
+            "Error:",
+            f'New episode page "{episode_page_file_path}" does not exists',
+            file=sys.stderr,
+        )
         sys.exit(1)
 
     # remove both ID3 v1.x and v2.x tags.
@@ -79,14 +89,12 @@ def set_mp3_tags(c, filename, verbose=False):
     if not isinstance(tag, id3.Tag):
         print('Error: only ID3 tags can be extracted currently.', file=sys.stderr)
         sys.exit(1)
-    
-    episode_num = int(re.match(r'.*rt_podcast(\d*)\.mp3', filename).group(1))
 
     try:
         # set album tags and cover image
         set_mp3_album_tags(tag, filename, episode_num, verbose)
         # set table of contents
-        toc = parse_table_of_contents_from_md(f'/srv/hugo/content/posts/podcast-{episode_num}.md')
+        toc = parse_table_of_contents_from_md(episode_page_file_path)
         set_mp3_table_of_contests(tag, toc, verbose)
     except Exception as exc:
         print('Error:', str(exc), file=sys.stderr)
