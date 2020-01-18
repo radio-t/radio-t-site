@@ -33,6 +33,7 @@ services:
     logging: *default_logging
     environment:
       PYTHONPATH: /srv/publisher
+      RT_NEWS_ADMIN:
     volumes:
       - .:/srv/
       - /Users/q210/.ssh/id_rsa.pub:/home/app/.ssh/id_rsa.pub
