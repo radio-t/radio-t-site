@@ -54,4 +54,29 @@ def new_prep(c):
     """
     Generate new `./content/posts/prep-$(next episode number).md` file
     """
-    c.run("./scripts/make_new_prep.sh")
+    # get new episode number from https://radio-t.com/
+    last_episode_num = get_last_podcast_number(c.http.site_url, c.http.user_agent, c.http.timeout)
+    if not last_episode_num:
+        print("Error:", f"Last podcast episode page not found", file=sys.stderr)
+        sys.exit(1)
+
+    next_episode_num = last_episode_num + 1
+    print(f"New post number: {next_episode_num}")
+
+    # get template for new prep post
+    new_file_path_relative = Template(c.hugo.prep_post).substitute(episode_num=next_episode_num).lstrip("/")
+    new_file_path = os.path.join("/srv", new_file_path_relative)
+    with open(os.path.join(TEMPLATES_DIR, "new_prep_post.tmpl"), "r") as f:
+        new_prep_template = Template(f.read())
+
+    # write new prep post to hugo posts directory
+    with open(new_file_path, "w", encoding="utf-8") as f:
+        f.write(
+            new_prep_template.substitute(
+                episode_num=next_episode_num,
+                timestamp=dt.now().strftime("%Y-%m-%dT%H:%M:%S"),
+            )
+        )
+
+    print("Next episode prep generated. File:")
+    print(new_file_path_relative)

@@ -15,3 +15,4 @@ toc:
   max_episode_hours: 4
 hugo:
   episode_post: "./hugo/content/posts/podcast-${episode_num}.md"
+  prep_post: "./hugo/content/posts/prep-${episode_num}.md"
