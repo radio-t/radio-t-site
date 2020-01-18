@@ -8,11 +8,11 @@ list:
 
 new-episode:
 	@docker-compose run --rm publisher new-episode | tee ${TMPFILE};
-	@${subl} ${makefile_dir}/../hugo/`tail -n 1 ${TMPFILE} | tr -d '\r'`;
+	@${subl} ${makefile_dir}/../`tail -n 1 ${TMPFILE} | tr -d '\r'`;
 
 new-prep:
 	@docker-compose run --rm publisher new-prep | tee ${TMPFILE};
-	@${subl} ${makefile_dir}/../hugo/`tail -n 1 ${TMPFILE} | tr -d '\r'`;
+	@${subl} ${makefile_dir}/../`tail -n 1 ${TMPFILE} | tr -d '\r'`;
 
 print-last-rt-link:
 	@docker-compose run --rm publisher print-last-rt-link
