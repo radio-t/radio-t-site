@@ -73,8 +73,7 @@ def new_prep(c):
     with open(new_file_path, "w", encoding="utf-8") as f:
         f.write(
             new_prep_template.substitute(
-                episode_num=next_episode_num,
-                timestamp=dt.now().strftime("%Y-%m-%dT%H:%M:%S"),
+                episode_num=next_episode_num, timestamp=dt.now().strftime("%Y-%m-%dT%H:%M:%S"),
             )
         )
 
