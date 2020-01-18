@@ -1,6 +1,5 @@
 """
-Write table of contents to podcast episode mp3 file using id3 chapter frames http://id3.org/id3v2-chapters-1.0
-This TOC should be readable by Apple Podcasts.
+Utility functions for working with id3 tags in podcast mp3 files
 """
 from datetime import date, timedelta
 from typing import List

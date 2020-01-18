@@ -34,7 +34,7 @@ services:
     environment:
       PYTHONPATH: /srv/publisher
     volumes:
-      - ./hugo:/srv/hugo
-      - ./publisher:/srv/publisher
+      - .:/srv/
+      - /Users/q210/Workspace/eyeD3/rt-tests:/episodes
 
   

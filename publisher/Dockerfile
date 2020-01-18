@@ -7,7 +7,7 @@ ENV \
     MYUID=1001
 
 RUN \
-    apk add --no-cache --update su-exec tzdata curl openssl && \
+    apk add --no-cache --update su-exec tzdata curl openssl git lftp openssh && \
     ln -s /sbin/su-exec /usr/local/bin/gosu && \
     mkdir -p /home/$MYUSER && \
     adduser -s /bin/sh -D -u $MYUID $MYUSER && chown -R $MYUSER:$MYUSER /home/$MYUSER && \

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 currdir=$(dirname $0)
-cd ${currdir}
-echo "current dir=$currdir"
+cd ${currdir}/../
+echo "current dir=`pwd`"
 
 export LANG="en_US.UTF-8"
 fname=$(basename $1)

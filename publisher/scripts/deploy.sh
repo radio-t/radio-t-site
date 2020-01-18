@@ -1,7 +1,7 @@
 #!/bin/sh
 currdir=`dirname $0`
-echo "current dir=$currdir"
-cd ${currdir}
+cd ${currdir}/../
+echo "current dir=`pwd`"
 
 echo "generates site"
 num_before=`docker-compose run publisher print-next-episode-number 2>/dev/null`

@@ -1,8 +1,8 @@
 #!/bin/sh
 
 currdir=`dirname $0`
-cd ${currdir}
-echo "current dir=$currdir"
+cd ${currdir}/../
+echo "current dir=`pwd`"
 
 post=`invoke print-next-episode-number 2>/dev/null`
 
@@ -21,4 +21,4 @@ echo 'categories = ["prep"]' >> ${outfile}
 echo '+++' >> ${outfile}
 
 echo "next episode prep generated. File:"
-echo "${outfile} "
+echo "../hugo/${outfile}"

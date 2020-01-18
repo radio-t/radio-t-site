@@ -1,5 +1,5 @@
 """
-Utility functions that work with podcast posts in `/hugo/content/` directory
+Utility functions for working with episode posts in `/hugo/content/posts/` directory
 """
 import re
 from dataclasses import dataclass

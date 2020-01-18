@@ -1,8 +1,8 @@
 #!/bin/sh
 
 currdir=$(dirname $0)
-cd ${currdir}
-echo "current dir=$currdir"
+cd ${currdir}/../
+echo "current dir=`pwd`"
 
 post=$(invoke print-next-episode-number 2>/dev/null)
 
@@ -37,4 +37,4 @@ echo "[аудио](https://cdn.radio-t.com/rt_podcast$post.mp3) • [лог ча
 echo "<audio src=\"https://cdn.radio-t.com/rt_podcast$post.mp3\" preload=\"none\"></audio>" >>${outfile}
 
 echo "new episode generated. File:"
-echo "${outfile} "
+echo "${outfile}"

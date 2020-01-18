@@ -8,13 +8,15 @@ docker-compose run --rm hugo
 
 ## публикация подкаста
 
-- `docker-compose build publisher` - сборка образа со скриптами публикации
-- `docker-compose run --rm publisher --list` - вывод списка возможных команд для образа
-- `docker-compose run --rm publisher --help set-mp3-chapters` - вывод справки по конкретной команде
-- `docker-compose run --rm publisher make-new-episode` — создает шаблон нового выпуска, берет темы с news.radio-t.com.
-- `docker-compose run --rm publisher make-new-prep` — создает "Темы для ..." следующего выпуска.
-- `publisher/upload_mp3.sh` — загружает подкаст во все места, предварительно добавляет mp3 теги и картинку и потом разносит по нодам через внешний ansible контейнер.
-- `publisher/deploy.sh` — добавляет в гит и запускает pull + build на мастер. После этого строит лог чата и очищает темы.
+Перед использованием, необходимо иметь собранный docker `publisher`. Команда сборки при помощи docker-compose (конфиг в руте репозитария): `docker-compose build publisher`.
+
+Скрипты публикации могут быть вызваны при помощи make в директории `./publisher`:
+
+- `make` - список доступных команд
+- `make new-episode` — создает шаблон нового выпуска, берет темы с news.radio-t.com
+- `make new-prep` — создает шаблон "Темы для ..." следующего выпуска
+- `make upload-mp3 FILE=rt_podcast685.mp3` - добавляет mp3 теги и картинку в файл подкаста, после чего разносит по нодам его через внешний ansible контейнер. Для выполнения необходимо подключить в docker-compose конфиге директорию с mp3 файлами подкаста как volume в сервис publisher
+- `make deploy` — добавляет в гит и запускает pull + build на мастер. После этого строит лог чата и очищает темы
 
 
 ## переменные окружения
