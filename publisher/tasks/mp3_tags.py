@@ -48,8 +48,8 @@ def print_mp3_tags(c, filename):
 )
 def set_mp3_tags(c, filename, dry=False, verbose=False):
     """
-    Add title, album, artists, album image, write table of contents to podcast episode mp3 file.
-    The TOC should be readable by Apple Podcasts.
+    Add title, album, artists tags, set album image, write table of contents to podcast episode mp3 file.
+    The ToC should be readable by Apple Podcasts.
     """
     full_path = _get_episode_mp3_full_path(filename)
 
@@ -75,11 +75,13 @@ def set_mp3_tags(c, filename, dry=False, verbose=False):
     try:
         print("Creating new album meta tags: title, cover, artists, etc...")
 
-        set_mp3_album_tags(tag, filename, episode_num)
+        set_mp3_album_tags(dict(c.tags), tag, filename, episode_num)
 
         print("Parsing episode themes from markdown template for the episode page in `/hugo/content/posts/`...")
 
-        toc = parse_table_of_contents_from_md(episode_page_file_path)
+        toc = parse_table_of_contents_from_md(
+            episode_page_file_path, c.toc.first_mp3_chapter_name, c.toc.max_episode_hours
+        )
 
         print("Generating table of contents...")
 
@@ -94,7 +96,7 @@ def set_mp3_tags(c, filename, dry=False, verbose=False):
         print("New mp3 tags are saved.")
 
     if verbose:
-        print("\n\n")
+        print("\n")
         print_album_meta(tag)
         print_toc(tag)
 

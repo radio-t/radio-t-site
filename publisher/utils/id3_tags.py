@@ -1,8 +1,10 @@
 """
 Utility functions for working with id3 tags in podcast mp3 files
 """
+import os.path
 from datetime import date, timedelta
-from typing import List
+from string import Template
+from typing import Dict, List
 
 from eyed3 import id3, mimetype
 
@@ -12,6 +14,7 @@ from .episode_posts import Chapter
 def print_album_meta(tag: id3.Tag) -> None:
     meta_info_tags = {
         "Album": tag.album or "none",
+        "Title": tag.title,
         "Cover Image": "<binary>" if tag.images else "none",
         "Artists": tag.artist or "none",
         "Episode": tag.track_num[0],
@@ -36,12 +39,18 @@ def print_toc(tag: id3.Tag) -> None:
             print_chapter_frame(tag.chapters[chap_id])
 
 
-def set_episode_toc(tag: id3.Tag, chapters: List[Chapter]) -> None:
+def set_mp3_table_of_contests(tag: id3.Tag, chapters: List[Chapter]):
     """
     Write table of contents to podcast episode mp3 file using id3 chapter frames
     (http://id3.org/id3v2-chapters-1.0)
     This TOC should be readable by Apple Podcasts.
     """
+    if not chapters:
+        raise RuntimeError("no table of contents received")
+
+    if tag.table_of_contents:
+        raise RuntimeError("File already have table of contents.")
+
     # write chapters info to file id3 metadata
     tag.table_of_contents.set(
         "toc".encode("ascii"),
@@ -56,21 +65,11 @@ def set_episode_toc(tag: id3.Tag, chapters: List[Chapter]) -> None:
         added_chapter.title = item.title
 
 
-def set_mp3_table_of_contests(tag: id3.Tag, chapters: List[Chapter]):
-    if not chapters:
-        raise RuntimeError("no table of contents received")
-
-    if tag.table_of_contents:
-        raise RuntimeError("File already have table of contents.")
-
-    set_episode_toc(tag, chapters)
-
-
-def set_mp3_album_tags(tag: id3.Tag, filename: str, episode_num: int):
+def set_mp3_album_tags(data: Dict[str, str], tag: id3.Tag, filename: str, episode_num: int):
     # set album title and cover image
-    tag.album = "Радио-Т"
+    tag.album = data["album"]
     image_type = id3.frames.ImageFrame.FRONT_COVER
-    image_file = "/srv/hugo/static/images/covers/cover.png"
+    image_file = os.path.join("/srv", data["cover"].lstrip("/"))
     image_mime = mimetype.guessMimetype(image_file)
 
     # set cover image
@@ -78,8 +77,8 @@ def set_mp3_album_tags(tag: id3.Tag, filename: str, episode_num: int):
         tag.images.set(image_type, f.read(), image_mime, "")
 
     # set various meta info
-    tag.artist = "Umputun, Bobuk, Gray, Ksenks"
+    tag.artist = data["artist"]
     tag.track_num = (episode_num, episode_num)
-    tag.title = f"Радио-Т {episode_num}"
+    tag.title = Template(data["title"]).substitute(episode_num=episode_num)
     tag.release_date = str(date.today())
     tag.genre = "Podcast"

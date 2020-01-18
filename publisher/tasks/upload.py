@@ -4,7 +4,7 @@ from invoke import task
 @task
 def upload_mp3(c):
     """
-    Upload episode mp3 file to radio-t.com, archives, and run ansible tasks 
+    Upload episode mp3 file to radio-t.com, archives, and run ansible tasks
     """
     c.run("./scripts/upload_mp3.sh")
 

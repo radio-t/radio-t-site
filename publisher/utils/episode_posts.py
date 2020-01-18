@@ -17,7 +17,7 @@ class Chapter:
     end: int
 
 
-def parse_table_of_contents_from_md(filename: str) -> List[Chapter]:
+def parse_table_of_contents_from_md(filename: str, first_chapter_name: str, max_episode_hours: int) -> List[Chapter]:
     """
     Parse table of contents for episode from Hugo template for this episode post
     """
@@ -38,7 +38,7 @@ def parse_table_of_contents_from_md(filename: str) -> List[Chapter]:
 
     # insert an initial chapter - without it Apple Podcasts will show first chapter starting at 00:00:00
     # regardless of it's actual timings
-    themes.insert(0, ("Вступление", 0))
+    themes.insert(0, (first_chapter_name, 0))
 
     result = []
     for index, theme_meta in enumerate(themes):
@@ -47,7 +47,8 @@ def parse_table_of_contents_from_md(filename: str) -> List[Chapter]:
         if index + 1 < len(themes):
             end = themes[index + 1][1]
         else:
-            end = 4 * 60 * 60  # 4 hours
+            # set last chapter end at estimated end of the episode
+            end = max_episode_hours * 60 * 60
 
         result.append(Chapter(element_id=new_id(index), title=theme, start=start * 1000, end=end * 1000))
 

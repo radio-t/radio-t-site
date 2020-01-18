@@ -12,7 +12,7 @@
 - `make upload-mp3 FILE=rt_podcast685.mp3` - добавляет mp3 теги и картинку в файл подкаста, после чего разносит по нодам его через внешний ansible контейнер. Для выполнения необходимо подключить в docker-compose конфиге директорию с mp3 файлами подкаста как volume в сервис publisher
 - `make deploy` — добавляет в гит и запускает pull + build на мастер. После этого строит лог чата и очищает темы
 
-так и при помощи docker-compose:
+так и при помощи `docker-compose`:
 
 - `docker-compose run --rm publisher --list` - вывод списка возможных команд для образа
 - `docker-compose run --rm publisher --help set-mp3-chapters` - вывод справки по конкретной команде

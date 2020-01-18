@@ -5,8 +5,6 @@ from .hugo_generation import new_episode, new_prep
 from .mp3_tags import print_mp3_tags, set_mp3_tags
 from .upload import deploy, upload_mp3
 
-ns = Collection()
-
 tasks = [
     new_prep,
     new_episode,
@@ -18,4 +16,5 @@ tasks = [
     upload_mp3,
 ]
 
+ns = Collection()
 [ns.add_task(obj) for obj in tasks]
