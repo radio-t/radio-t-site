@@ -15,7 +15,7 @@ filename = "rt_podcast685"
 - [Грустный день для Rust](https://words.steveklabnik.com/a-sad-day-for-rust) - *00:55:04*.
 - [iOS 13 против слежки](https://appleinsider.com/articles/20/01/13/app-tracking-alert-in-ios-13-has-dramatically-cut-location-data-flow-to-ad-industry) - *01:11:51*.
 - [В охоте за куками](https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html) - *01:33:05*.
-- [Прощение с Clean Code](https://overreacted.io/goodbye-clean-code/) - *01:42:55*.
+- [Прощание с Clean Code](https://overreacted.io/goodbye-clean-code/) - *01:42:55*.
 - [Темы слушателей](https://radio-t.com/p/2020/01/14/prep-685/) - *02:04:28*.
 
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
