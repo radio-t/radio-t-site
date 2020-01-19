@@ -12,7 +12,6 @@ EPISODES_DIRECTORY = os.getenv("EPISODES_DIRECTORY", "/episodes/")
 
 
 @task(
-    optional=["verbose"],
     help={
         "filename": f'podcast mp3 file name. \
                       File must be placed into "{EPISODES_DIRECTORY}" directory in container beforehand',
@@ -37,7 +36,7 @@ def print_mp3_tags(c, filename):
 
 
 @task(
-    optional=["overwrite", "verbose"],
+    optional=["dry", "verbose"],
     help={
         "filename": f'podcast mp3 file name. \
                       File must be placed into "{EPISODES_DIRECTORY}" directory in container beforehand',

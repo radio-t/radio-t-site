@@ -13,8 +13,8 @@ new_id = lambda index: f"chapter#{index}".encode("ascii")
 class Chapter:
     element_id: bytes
     title: str
-    start: int
-    end: int
+    start: int  # start of chapter offset, seconds
+    end: int  # end of chapter offset, seconds
 
 
 def parse_table_of_contents_from_md(filename: str, first_chapter_name: str, max_episode_hours: int) -> List[Chapter]:
@@ -28,6 +28,7 @@ def parse_table_of_contents_from_md(filename: str, first_chapter_name: str, max_
     theme_regexp = re.compile(r"\-\s+?\[(.+?)\].*?\*([\d:]+)\*")
     themes = []
     for line in theme_lines:
+        # parse theme line, represent start time as an offset in seconds
         match_obj = theme_regexp.match(line)
         if not match_obj:
             continue

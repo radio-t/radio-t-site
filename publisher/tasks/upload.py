@@ -1,4 +1,5 @@
 import os
+import re
 import sys
 
 import requests
@@ -24,7 +25,7 @@ def upload_mp3(c, filename, dry=False, verbose=False):
     Upload episode mp3 file to radio-t.com, archives, and run ansible tasks
     All lines printed with `!notif` prefix will be send as local notification via makefile
     """
-    episode_num = int(filename.split("rt_podcast", 1)[-1].rsplit(".")[0])
+    episode_num = int(re.match(r".*rt_podcast(\d*)\.mp3", filename).group(1))
     print(f"!notif: Radio-T detected #{episode_num}")
 
     set_mp3_tags(c, filename, dry=dry, verbose=verbose)
@@ -41,16 +42,15 @@ def upload_mp3(c, filename, dry=False, verbose=False):
     c.run(f"scp {ssh_args} {full_path} umputun@master.radio-t.com:/srv/master-node/var/media/{filename}", pty=True)
 
     print("!notif: Removing old media files")
+    find_command = "find /srv/master-node/var/media -type f -mtime +60 -mtime -1200 -exec rm -vf '{}' ';'"
     c.run(
-        f"ssh {ssh_args} umputun@master.radio-t.com"
-        + " \"find /srv/master-node/var/media -type f -mtime +60 -mtime -1200 -exec rm -vf '{}' ';'\"",
-        pty=True,
+        f'ssh {ssh_args} umputun@master.radio-t.com "{find_command}"', pty=True,
     )
 
     print("!notif: Runing ansible tasks")
+    docker_command = f"docker exec -i ansible /srv/deploy_radiot.sh {episode_num}"
     c.run(
-        f'ssh {ssh_args} umputun@master.radio-t.com "docker exec -i ansible /srv/deploy_radiot.sh {episode_num}"',
-        pty=True,
+        f'ssh {ssh_args} umputun@master.radio-t.com "{docker_command}"', pty=True,
     )
 
     print("!notif: Copying to hp-usrv (local) archives")
@@ -61,7 +61,8 @@ def upload_mp3(c, filename, dry=False, verbose=False):
 
     print("!notif: Uploading to archive site")
     c.run(f"scp {ssh_args} {full_path} umputun@master.radio-t.com:/data/archive/radio-t/media/{filename}", pty=True)
-    c.run(f'ssh {ssh_args} umputun@master.radio-t.com "chmod 644 /data/archive/radio-t/media/{filename}"', pty=True)
+    chmod_command = f"chmod 644 /data/archive/radio-t/media/{filename}"
+    c.run(f'ssh {ssh_args} umputun@master.radio-t.com "{chmod_command}"', pty=True)
 
     print(f"!notif: All done for {filename}")
 
@@ -101,15 +102,15 @@ def deploy(c, verbose=False):
     ssh_args = "-v" if verbose else ""
 
     print("Running hugo generation")
+    docker_command = "cd /srv/site.hugo && git pull && docker-compose run --rm hugo"
     c.run(
-        f'ssh {ssh_args} umputun@master.radio-t.com "cd /srv/site.hugo && git pull && docker-compose run --rm hugo"',
-        pty=True,
+        f'ssh {ssh_args} umputun@master.radio-t.com "{docker_command}"', pty=True,
     )
 
     print("Calling gitter-bot")
+    gitter_bot_command = f"docker exec -i gitter-bot /srv/gitter-rt-bot --super=Umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num={current_episode_num} --export-path=/srv/html"
     c.run(
-        f'ssh {ssh_args} umputun@master.radio-t.com "docker exec -i gitter-bot /srv/gitter-rt-bot --super=Umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num={current_episode_num} --export-path=/srv/html"',
-        pty=True,
+        f'ssh {ssh_args} umputun@master.radio-t.com "{gitter_bot_command}"', pty=True,
     )
 
     print("Removing news articles")

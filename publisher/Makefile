@@ -5,29 +5,35 @@ SHELL:=/bin/bash
 
 TMPFILE := $(shell mktemp)
 makefile_dir := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
-notif :="/usr/local/bin/terminal-notifier"
+notif := "/usr/local/bin/terminal-notifier"
 subl := "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
 
 list:
 	@docker-compose run --rm publisher --list
 
+# generate new episode post markdown file and open it using SublimeText 
 new-episode:
 	@docker-compose run --rm publisher new-episode | tee ${TMPFILE};
 	@${subl} ${makefile_dir}/../`tail -n 1 ${TMPFILE} | tr -d '\r'`;
 
+# generate new prep post markdown file and open it using SublimeText 
 new-prep:
 	@docker-compose run --rm publisher new-prep | tee ${TMPFILE};
 	@${subl} ${makefile_dir}/../`tail -n 1 ${TMPFILE} | tr -d '\r'`;
 
+# print url to last podcast episode on https://radio-t.com
 print-last-rt-link:
 	@docker-compose run --rm publisher print-last-rt-link
 
+# print next episode number using info from https://radio-t.com
 print-next-episode-number:
 	@docker-compose run --rm publisher print-next-episode-number
 
+# print mp3 tags from file
 print-mp3-tags:
 	@docker-compose run --rm publisher print-mp3-tags $$FILE
 
+# set necessary tags to episode mp3 file and upload it, notifying via MacOS local notifications on every step
 upload-mp3:
 	@docker-compose run --rm publisher upload-mp3 $$FILE | \
 		while read line; do \
@@ -36,5 +42,6 @@ upload-mp3:
 			fi \
 		done
 
+# deploy new podcast episode page to https://radio-t.com
 deploy:
 	@docker-compose run --rm publisher deploy

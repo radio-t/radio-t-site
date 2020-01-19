@@ -26,8 +26,6 @@ def new_episode(c):
     print(f"New post number: {next_episode_num}")
 
     # get template for new episode post
-    new_file_path_relative = Template(c.hugo.episode_post).substitute(episode_num=next_episode_num).lstrip("/")
-    new_file_path = os.path.join("/srv", new_file_path_relative)
     with open(os.path.join(TEMPLATES_DIR, "new_episode_post.tmpl"), "r") as f:
         new_episode_template = Template(f.read())
 
@@ -36,6 +34,8 @@ def new_episode(c):
     news_api_resp = requests.get(c.http.themes_url, headers=headers, timeout=c.http.timeout)
 
     # write new episode post to hugo posts directory
+    new_file_path_relative = Template(c.hugo.episode_post).substitute(episode_num=next_episode_num).lstrip("/")
+    new_file_path = os.path.join("/srv", new_file_path_relative)
     with open(new_file_path, "w", encoding="utf-8") as f:
         f.write(
             new_episode_template.substitute(
@@ -64,12 +64,12 @@ def new_prep(c):
     print(f"New post number: {next_episode_num}")
 
     # get template for new prep post
-    new_file_path_relative = Template(c.hugo.prep_post).substitute(episode_num=next_episode_num).lstrip("/")
-    new_file_path = os.path.join("/srv", new_file_path_relative)
     with open(os.path.join(TEMPLATES_DIR, "new_prep_post.tmpl"), "r") as f:
         new_prep_template = Template(f.read())
 
     # write new prep post to hugo posts directory
+    new_file_path_relative = Template(c.hugo.prep_post).substitute(episode_num=next_episode_num).lstrip("/")
+    new_file_path = os.path.join("/srv", new_file_path_relative)
     with open(new_file_path, "w", encoding="utf-8") as f:
         f.write(
             new_prep_template.substitute(
