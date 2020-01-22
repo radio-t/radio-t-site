@@ -59,7 +59,11 @@ def set_mp3_table_of_contests(tag: id3.Tag, chapters: List[Chapter]):
         description="Темы",
     )
 
+    prev_end = 0
     for item in chapters:
+        assert item.start >= prev_end, f'Chapters are sorted incorrectly at "{item.title}"'
+        prev_end = item.end
+
         tag.chapters.set(item.element_id, times=(item.start, item.end))
         added_chapter = tag.chapters.get(item.element_id)
         added_chapter.title = item.title

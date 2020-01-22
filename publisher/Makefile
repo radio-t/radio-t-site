@@ -39,6 +39,8 @@ upload-mp3:
 		while read line; do \
 			if [[ $$line =~ ^!notif.* ]]; then \
 				${notif} -title PodPrc -message "`echo $$line | sed 's/!notif: //'`"; \
+			else \
+				echo $$line; \
 			fi \
 		done
 
