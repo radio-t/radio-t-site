@@ -7,18 +7,15 @@ echo "current dir=`pwd`"
 export LANG="en_US.UTF-8"
 fname=$(basename $1)
 
-lftp="/usr/local/bin/lftp"
-notif="/usr/local/bin/terminal-notifier"
-
 episode=$(echo $1 | sed -n 's/.*rt_podcast\(.*\)\.mp3/\1/p')
-${notif} -title PodPrc -message "Radio-T detected #${episode}"
-docker-compose run publisher set-mp3-tags $fname
-${notif} -title PodPrc -message "Radio-T tagged"
+echo "!notif: Radio-T detected #${episode}"
+invoke set-mp3-tags $fname
+echo "!notif: Radio-T tagged"
 
-cd ..
+cd /episodes
 
 echo "upload to radio-t.com"
-${notif} -title PodPrc -message "upload started"
+echo "!notif: upload started"
 scp $1 umputun@master.radio-t.com:/srv/master-node/var/media/${fname}
 
 echo "remove old media files"
@@ -28,7 +25,7 @@ echo "run ansible tasks"
 ssh master.radio-t.com "docker exec -i ansible /srv/deploy_radiot.sh $episode"
 
 echo "copy to hp-usrv archives"
-${notif} -title PodPrc -message "copy to hp-usrv (local) archives"
+echo "!notif: copy to hp-usrv (local) archives"
 scp -P 2222 $1 umputun@archives.umputun.com:/data/archive.rucast.net/radio-t/media/
 
 echo "upload to archive site"
@@ -36,4 +33,4 @@ scp $1 umputun@master.radio-t.com:/data/archive/radio-t/media/${fname}
 ssh umputun@master.radio-t.com "chmod 644 /data/archive/radio-t/media/${fname}"
 
 echo "all done for $fname"
-${notif} -title PodPrc -message "all done for $fname"
+echo "!notif: all done for $fname"
