@@ -10,5 +10,7 @@ WORKDIR /srv/publisher
 
 RUN pip3 install --no-cache-dir -r requirements.txt
 
+USER app
+
 ENTRYPOINT ["invoke"]
 CMD ["--list"]

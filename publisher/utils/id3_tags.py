@@ -69,7 +69,7 @@ def set_mp3_table_of_contests(tag: id3.Tag, chapters: List[Chapter]):
         added_chapter.title = item.title
 
 
-def set_mp3_album_tags(data: Dict[str, str], tag: id3.Tag, filename: str, episode_num: int):
+def set_mp3_album_tags(data: Dict[str, str], tag: id3.Tag, episode_num: int):
     # set album title and cover image
     tag.album = data["album"]
     image_type = id3.frames.ImageFrame.FRONT_COVER

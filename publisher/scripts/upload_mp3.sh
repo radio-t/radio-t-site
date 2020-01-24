@@ -9,7 +9,7 @@ fname=$(basename $1)
 
 episode=$(echo $1 | sed -n 's/.*rt_podcast\(.*\)\.mp3/\1/p')
 echo "!notif: Radio-T detected #${episode}"
-invoke set-mp3-tags $fname
+invoke set-mp3-tags $1
 echo "!notif: Radio-T tagged"
 
 cd /episodes
