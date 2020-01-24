@@ -21,4 +21,4 @@ echo 'categories = ["prep"]' >> ${outfile}
 echo '+++' >> ${outfile}
 
 echo "next episode prep generated. File:"
-echo "../hugo/${outfile}"
+echo "${outfile}"
