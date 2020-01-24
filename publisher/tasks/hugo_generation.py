@@ -29,9 +29,9 @@ def new_episode(c):
     with open(os.path.join(TEMPLATES_DIR, "new_episode_post.tmpl"), "r") as f:
         new_episode_template = Template(f.read())
 
-    # get themes from https://news.radio-t.com API
+    # get articles from https://news.radio-t.com API
     headers = {"User-Agent": c.http.user_agent}
-    news_api_resp = requests.get(c.http.themes_url, headers=headers, timeout=c.http.timeout)
+    news_api_resp = requests.get(c.http.articles_url, headers=headers, timeout=c.http.timeout)
 
     # write new episode post to hugo posts directory
     new_file_path_relative = Template(c.hugo.episode_post).substitute(episode_num=next_episode_num).lstrip("/")
@@ -41,7 +41,7 @@ def new_episode(c):
             new_episode_template.substitute(
                 episode_num=next_episode_num,
                 timestamp=dt.now().strftime("%Y-%m-%dT%H:%M:%S"),
-                themes=news_api_resp.text.strip(),
+                articles=news_api_resp.text.strip(),
             )
         )
 

@@ -76,7 +76,7 @@ def set_mp3_tags(c, filename, dry=False, verbose=False):
 
         set_mp3_album_tags(dict(c.tags), tag, filename, episode_num)
 
-        print("Parsing episode themes from markdown template for the episode page in `/hugo/content/posts/`...")
+        print("Parsing episode articles from markdown template for the episode page in `/hugo/content/posts/`...")
 
         toc = parse_table_of_contents_from_md(
             episode_page_file_path, c.toc.first_mp3_chapter_name, c.toc.max_episode_hours

@@ -2,7 +2,7 @@ run:
   shell: "/bin/sh"
 http:
   site_url: "https://radio-t.com/" 
-  themes_url: "https://news.radio-t.com/api/v1/news/lastmd/12"
+  articles_url: "https://news.radio-t.com/api/v1/news/lastmd/12"
   user_agent: "Radio-T site generator"
   timeout: 30
 tags:
