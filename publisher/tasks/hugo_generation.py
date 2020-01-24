@@ -6,7 +6,7 @@ from string import Template
 import requests
 from invoke import task
 
-from .episode_info import get_last_episode_link, get_last_podcast_number
+from .episode_info import get_last_podcast_number
 
 TEMPLATES_DIR = os.path.join(os.path.abspath(os.path.dirname(__file__)), "..", "templates")
 

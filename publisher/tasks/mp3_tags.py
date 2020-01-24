@@ -19,7 +19,7 @@ def print_mp3_tags(c, path):
     """
     Print title, album, artist, ToC and other mp3 tags (relevant for Radio-T) from podcast episode file.
     """
-    full_path = get_episode_mp3_full_path(filename)
+    full_path = get_episode_mp3_full_path(path)
 
     episode_file = core.load(full_path)
 
@@ -46,7 +46,7 @@ def set_mp3_tags(c, path, dry=False, verbose=False):
     Add title, album, artists tags, set album image, write table of contents to podcast episode mp3 file.
     The ToC should be readable by Apple Podcasts.
     """
-    full_path = get_episode_mp3_full_path(filename)
+    full_path = get_episode_mp3_full_path(path)
 
     # check that hugo template for new episode page is already exists
     # so we can parse table of contents from there
@@ -94,7 +94,7 @@ def set_mp3_tags(c, path, dry=False, verbose=False):
         print_toc(tag)
 
 
-def get_episode_mp3_full_path(filename):
+def get_episode_mp3_full_path(path):
     """
     Return full path to podcast episode mp3 file located in `$EPISODES_DIRECTORY`
     """

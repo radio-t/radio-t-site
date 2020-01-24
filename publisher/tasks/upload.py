@@ -1,4 +1,5 @@
 import os
+import os.path
 import re
 import sys
 
@@ -13,28 +14,28 @@ from .mp3_tags import EPISODES_DIRECTORY, get_episode_mp3_full_path, set_mp3_tag
 @task(
     optional=["dry", "verbose"],
     help={
-        "filename": f'podcast mp3 file name. \
-                      File must be placed into "{EPISODES_DIRECTORY}" directory in container beforehand',
+        "path": f'podcast mp3 path relative to "{EPISODES_DIRECTORY}" directory in container beforehand',
         "dry": "dry-run, running command will not save changes to the mp3 file",
         "verbose": "flag to show verbose output",
     },
     auto_shortflags=False,
 )
-def upload_mp3(c, filename, dry=False, verbose=False):
+def upload_mp3(c, path, dry=False, verbose=False):
     """
     Upload episode mp3 file to radio-t.com, archives, and run ansible tasks
     All lines printed with `!notif` prefix will be send as local notification via makefile
     """
-    episode_num = int(re.match(r".*rt_podcast(\d*)\.mp3", filename).group(1))
+    episode_num = int(re.match(r".*rt_podcast(\d*)\.mp3", path).group(1))
     print(f"!notif: Radio-T detected #{episode_num}")
 
-    set_mp3_tags(c, filename, dry=dry, verbose=verbose)
+    set_mp3_tags(c, path, dry=dry, verbose=verbose)
     if verbose:
         print("\n")
 
     print("!notif: Radio-T tagged")
 
-    full_path = get_episode_mp3_full_path(filename)
+    filename = os.path.basepath(path)
+    full_path = get_episode_mp3_full_path(path)
     ssh_args = "-v" if verbose else ""
 
     print("!notif: Uploading mp3 file")
