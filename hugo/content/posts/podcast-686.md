@@ -17,7 +17,6 @@ filename = "rt_podcast686"
 - [Как начать работать когда не хочется](https://www.deprocrastination.co/blog/3-tricks-to-start-working-despite-not-feeling-like-it) - *01:16:03*.
 - [Apple отказалась от полного шифрования](https://www.reuters.com/article/us-apple-fbi-icloud-exclusive-idUSKBN1ZK1CT) - *01:41:06*.
 - [Темы слушателей](https://radio-t.com/p/2020/01/21/prep-686/) - *01:51:56*.
-- Темы наших слушателей
 
 *Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
