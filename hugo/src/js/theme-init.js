@@ -1,21 +1,24 @@
-(function () {
-  function getPreferredTheme() {
+(function (window, themesList) {
+  const theme = (() => {
     try {
-      return 'dark' === localStorage.getItem('theme') ? 'dark' : 'light';
+      const themeFromStore = localStorage.getItem('theme');
+
+      if (['dark', 'light'].includes(themeFromStore)) {
+        return themeFromStore;
+      }
+
+      return window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light';
     } catch (e) {
-      //
+      return 'light'
     }
+  })();
 
-    return 'light';
-  }
-
-  window.RADIOT_THEME = getPreferredTheme();
-
-  for (const t in window.RADIOT_THEMES) {
-    const active = window.RADIOT_THEME === t;
-    window.RADIOT_THEMES[t].forEach(function (style) {
-      const tag = `<link href="${style}" rel="stylesheet" data-theme="${t}" media="${active ? '' : 'none'}">`;
-      document.writeln(tag);
+  for (const t in themesList) {
+    const active = theme === t;
+    themesList[t].forEach((style) => {
+      document.writeln(`<link href="${style}" rel="stylesheet" data-theme="${t}" media="${active ? '' : 'none'}">`);
     });
   }
-}());
+
+  window.RADIOT_THEME = theme;
+}(window, window.RADIOT_THEMES));
