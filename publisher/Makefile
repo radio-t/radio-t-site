@@ -31,11 +31,13 @@ print-next-episode-number:
 
 # print mp3 tags from file
 print-mp3-tags:
-	@docker-compose run --rm publisher print-mp3-tags $$FILE
+	@FDIR=`dirname "$$FILE" | xargs -0 basename` && FNAME=`basename "$$FILE"` && \
+		docker-compose run --rm publisher print-mp3-tags "$$FDIR/$$FNAME";
 
 # set necessary tags to episode mp3 file and upload it, notifying via MacOS local notifications on every step
 upload-mp3:
-	@docker-compose run --rm --entrypoint /bin/sh publisher scripts/upload_mp3.sh $$FILE | \
+	@FDIR=`dirname "$$FILE" | xargs -0 basename` && FNAME=`basename "$$FILE"` && \
+	docker-compose run --rm --entrypoint /bin/sh publisher scripts/upload_mp3.sh "$$FDIR/$$FNAME" | \
 		while read line; do \
 			if [[ $$line =~ ^!notif.* ]]; then \
 				${notif} -title PodPrc -message "`echo $$line | sed 's/!notif: //'`"; \
