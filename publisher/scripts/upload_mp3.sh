@@ -19,14 +19,14 @@ echo "!notif: upload started"
 scp $1 umputun@master.radio-t.com:/srv/master-node/var/media/${fname}
 
 echo "remove old media files"
-ssh master.radio-t.com "find /srv/master-node/var/media -type f -mtime +60 -mtime -1200 -exec rm -vf '{}' ';'"
+ssh umputun@master.radio-t.com "find /srv/master-node/var/media -type f -mtime +60 -mtime -1200 -exec rm -vf '{}' ';'"
 
 echo "run ansible tasks"
-ssh master.radio-t.com "docker exec -i ansible /srv/deploy_radiot.sh $episode"
+ssh umputun@master.radio-t.com "docker exec -i ansible /srv/deploy_radiot.sh $episode"
 
 echo "copy to hp-usrv archives"
 echo "!notif: copy to hp-usrv (local) archives"
-scp -P 2222 $1 umputun@archives.umputun.com:/data/archive.rucast.net/radio-t/media/
+scp -P 2222 $1 umputun@192.168.1.24:/data/archive.rucast.net/radio-t/media/
 
 echo "upload to archive site"
 scp $1 umputun@master.radio-t.com:/data/archive/radio-t/media/${fname}
