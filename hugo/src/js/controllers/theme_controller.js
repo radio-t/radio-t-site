@@ -1,16 +1,23 @@
 import Controller from '../base_controller';
 
 const titleAttribute = 'data-theme';
-let theme = window.RADIOT_THEME;
-
 export default class extends Controller {
-  toggle() {
-    this.toggleTheme();
+  initialize() {
+    super.initialize();
+
+    if (!this.isSaved()) {
+      window.matchMedia("(prefers-color-scheme: dark)").addListener((e) => {
+        this.setTheme(e.matches ? 'dark' : 'light', false);
+      });
+    }
   }
 
-  getStylesheets() {
-    const styles = document.querySelectorAll(`link[${titleAttribute}][rel~="stylesheet"]`);
-    return [].slice.call(styles);
+  isSaved() {
+    try {
+      return Boolean(localStorage.getItem('theme'));
+    } catch(e) {
+      return false;
+    }
   }
 
   enableStylesheet(link, enable) {
@@ -23,14 +30,16 @@ export default class extends Controller {
     }
   }
 
-  setTheme(theme) {
+  setTheme(theme, save = true) {
     try {
-      localStorage.setItem('theme', theme);
-    } catch (e) {
-      //
-    }
+      if (save) {
+        localStorage.setItem('theme', theme);
+      }
+    } catch (e) {}
 
-    this.getStylesheets().forEach((link) => {
+    const styles = [...document.querySelectorAll(`link[${titleAttribute}][rel~="stylesheet"]`)];
+
+    styles.forEach((link) => {
       this.enableStylesheet(link, link.getAttribute(titleAttribute) === theme);
     });
 
@@ -41,9 +50,7 @@ export default class extends Controller {
     document.dispatchEvent(event);
   }
 
-  toggleTheme() {
-    theme = 'dark' === theme ? 'light' : 'dark';
-
-    this.setTheme(theme);
+  toggle() {
+    this.setTheme(window.RADIOT_THEME === 'dark' ? 'light' : 'dark')
   }
 }

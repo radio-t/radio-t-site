@@ -111,7 +111,17 @@ def run():
                 if feed['count'] < 30 and feed['size'] is True:
                     fsize = get_mp3_size(attr('filename') + ".mp3")
 
-                item = body.format(title=post['config']['title'], content=markdown(post['data']),
+                # добавляем строчку "Темы" в описание эпизода перед списком тем, чтобы верстка списка не ехала в Apple Podcasts,
+                # см. примеры в https://github.com/radio-t/radio-t-site/pull/128
+                # при этом summary надо оставить как есть, т.к. оно показывается в одну строчку и там проблемы с версткой нет
+                post_description_html = markdown(post['data'])
+                rss_description_html = (post_description_html
+                    .replace('<ul>', '<p><em>Темы</em><ul>', 1)
+                    .replace('</ul>', '</ul></p>', 1))
+
+                item = body.format(title=post['config']['title'], 
+                                   description=rss_description_html,
+                                   summary=post_description_html,
                                    filename=attr('filename'),
                                    filesize=fsize,
                                    fixed_url='{}/{}'.format(mconfig['baseurl'], post['url']).replace("//p", "/p"),

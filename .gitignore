@@ -4,3 +4,5 @@ publisher/utils/eyeD3/*.pyc
 .vscode
 *.code-workspace
 .env
+.DS_Store
+publisher/target/
