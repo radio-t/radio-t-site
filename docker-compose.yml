@@ -36,7 +36,8 @@ services:
       RT_NEWS_ADMIN:
     volumes:
       - .:/srv/
-      - $HOME/.ssh:/home/app/.ssh
-      - $HOME/Workspace/rt-tests:/episodes
+      - /Users/umputun/.ssh/id_rsa.pub:/home/app/.ssh/id_rsa.pub
+      - /Users/umputun/.ssh/id_rsa:/home/app/.ssh/id_rsa
+      - /Volumes/Podcasts/radio-t:/episodes
 
   

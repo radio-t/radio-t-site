@@ -56,7 +56,7 @@ def upload_mp3(c, path, dry=False, verbose=False):
 
     print("!notif: Copying to hp-usrv (local) archives")
     c.run(
-        f"scp -P 2222 {ssh_args} {full_path} umputun@archives.umputun.com:/data/archive.rucast.net/radio-t/media/",
+        f"scp -P 2222 {ssh_args} {full_path} umputun@192.168.1.24:/data/archive.rucast.net/radio-t/media/",
         pty=True,
     )
 

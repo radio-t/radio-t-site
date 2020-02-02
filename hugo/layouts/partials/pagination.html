@@ -1,0 +1,16 @@
+<div class="col-6 col-md-auto order-md-1 flex-shrink-1 text-left">
+  {{ if .PrevPage }}
+    {{ if eq .PrevPage.Type "posts" }}
+      &larr; <a href="{{ .PrevPage.RelPermalink }}">{{ .PrevPage.Title }}</a>
+    {{ end }}
+  {{ end }}
+</div>
+<div class="col-6 col-md-auto order-md-3 flex-shrink-1 text-right">
+  {{ if .NextPage }}
+    {{ if eq .NextPage.Type "posts" }}
+      <a href="{{ .NextPage.RelPermalink }}">{{ .NextPage.Title }}</a> &rarr;
+    {{ end }}
+  {{ else if in .Params.categories "podcast" }}
+    <strong>Сбор тем начинается в среду</strong>
+  {{ end }}
+</div>

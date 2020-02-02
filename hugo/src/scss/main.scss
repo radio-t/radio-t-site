@@ -734,6 +734,9 @@ $ripple-scale-out: 3.4;
   color: $text-muted;
   font-size: $small-font-size;
   border-left: 2px solid $gray-500;
+  .hide-comment-policy & {
+    display: none;
+  }
 }
 .page-cover-image {
   display: block;
