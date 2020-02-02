@@ -10,10 +10,10 @@ cd ..
 git pull
 git add .
 git commit -m "auto episode after $num_before" && git push
-ssh master.radio-t.com "cd /srv/site.hugo && git pull && docker-compose run --rm hugo"
+ssh umputun@master.radio-t.com "cd /srv/site.hugo && git pull && docker-compose run --rm hugo"
 
 cd publisher
-ssh master.radio-t.com "docker exec -i gitter-bot /srv/gitter-rt-bot --super=Umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num=$num_before --export-path=/srv/html"
+ssh umputun@master.radio-t.com "docker exec -i gitter-bot /srv/gitter-rt-bot --super=Umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num=$num_before --export-path=/srv/html"
 num_after=`invoke print-next-episode-number 2>/dev/null`
 
 if [[ $num_before != $num_after ]]
