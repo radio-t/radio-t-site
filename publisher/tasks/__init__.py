@@ -16,5 +16,4 @@ tasks = [
     upload_mp3,
 ]
 
-ns = Collection()
-[ns.add_task(obj) for obj in tasks]
+ns = Collection(*tasks)

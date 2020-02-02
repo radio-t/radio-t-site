@@ -1,5 +1,5 @@
 import sys
-from typing import Union
+from typing import Optional
 from urllib.parse import urljoin
 
 import requests
@@ -20,7 +20,7 @@ def print_next_episode_number(c):
     print(last_episode_num + 1)
 
 
-def get_last_podcast_number(site_url: str, user_agent: str, timeout: int = 30) -> Union[int, None]:
+def get_last_podcast_number(site_url: str, user_agent: str, timeout: int = 30) -> Optional[int]:
     headers = {"User-Agent": user_agent}
     resp = requests.get(site_url, headers=headers, timeout=timeout)
     soup = BeautifulSoup(resp.content, "html.parser")
@@ -44,7 +44,7 @@ def print_last_rt_link(c):
     print(last_podcast_page_link)
 
 
-def get_last_episode_link(site_url: str, user_agent: str, timeout: int = 30) -> Union[str, None]:
+def get_last_episode_link(site_url: str, user_agent: str, timeout: int = 30) -> Optional[str]:
     headers = {"User-Agent": user_agent}
     resp = requests.get(site_url, headers=headers, timeout=timeout)
     soup = BeautifulSoup(resp.content, "html.parser")

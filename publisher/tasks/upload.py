@@ -1,5 +1,4 @@
 import os
-import os.path
 import re
 import sys
 
@@ -82,7 +81,7 @@ def deploy(c, verbose=False):
         print("Error:", "RT_NEWS_ADMIN environment variable not set", file=sys.stderr)
         sys.exit(1)
 
-    news_user, news_passwd = auth.split(":")
+    news_user, news_passwd = auth.split(":", 1)
 
     last_episode_num = get_last_podcast_number(c.http.site_url, c.http.user_agent, c.http.timeout)
     if not last_episode_num:
