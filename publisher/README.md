@@ -18,7 +18,7 @@
 - `docker-compose run --rm publisher --help set-mp3-chapters` - вывод справки по конкретной команде
 - `docker-compose run --rm publisher new-episode` — создает шаблон нового выпуска, темы берутся с news.radio-t.com
 - `docker-compose run --rm publisher new-prep` — создает шаблон "Темы для ..." следующего выпуска
-- `docker-compose run --rm publisher upload-mp3 rt_podcast685.mp3` — загружает подкаст во все места, предварительно добавляет mp3 теги и картинку и потом разносит по нодам через внешний ansible контейнер. Для выполнения необходимо подключить в docker-compose конфиге директорию с mp3 файлами подкаста как volume в сервис publisher
+- `docker-compose run --rm publisher upload-mp3 rt_podcast685/rt_podcast685.mp3` — загружает подкаст во все места, предварительно добавляет mp3 теги и картинку и потом разносит по нодам через внешний ansible контейнер. Для выполнения необходимо подключить в docker-compose конфиге директорию с mp3 файлами подкаста как volume в сервис publisher
 - `docker-compose run --rm publisher deploy` — добавляет в гит и запускает push + build на мастер. После этого строит лог чата и очищает темы
  
 
