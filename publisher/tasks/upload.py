@@ -108,7 +108,7 @@ def deploy(c, verbose=False):
     )
 
     print("Calling gitter-bot")
-    gitter_bot_command = f"docker exec -i gitter-bot /srv/gitter-rt-bot --super=Umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num={current_episode_num} --export-path=/srv/html"
+    gitter_bot_command = f"docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num={current_episode_num} --export-path=/srv/html"
     c.run(
         f'ssh {ssh_args} umputun@master.radio-t.com "{gitter_bot_command}"', pty=True,
     )
