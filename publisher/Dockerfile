@@ -1,3 +1,12 @@
+FROM umputun/baseimage:buildgo-latest as build
+
+ADD app /build
+WORKDIR  /build
+RUN go test -mod=vendor ./...
+RUN CGO_ENABLED=0 GOOS=linux go build -mod=vendor -o /target/publisher -ldflags \
+    "-X main.revision=$(git rev-parse --abbrev-ref HEAD)-$(git describe --abbrev=7 --always --tags)-$(date +%Y%m%d-%H:%M:%S)"
+
+
 FROM umputun/baseimage:app-latest
 
 RUN \
@@ -13,6 +22,7 @@ RUN \
     chmod 600 /home/app/.ssh/* && \
     chmod 700 /home/app/.ssh
 
+COPY --from=build /target/publisher /srv/publisher/publisher
 COPY . /srv/publisher
 WORKDIR /srv/publisher
 
