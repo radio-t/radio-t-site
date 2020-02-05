@@ -1,9 +1,3 @@
-run: 
-  shell: "/bin/sh"
-http:
-  site_url: "https://radio-t.com/" 
-  user_agent: "Radio-T site generator"
-  timeout: 30
 tags:
   album: "Радио-Т"
   cover: "./hugo/static/images/covers/cover.png"

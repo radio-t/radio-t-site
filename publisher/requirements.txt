@@ -1,6 +1,0 @@
-invoke==1.4.0
-eyeD3==0.9 
-python-dateutil==2.8.1
-beautifulsoup4==4.8.2
-requests==2.22.0
-httpie==2.0.0 # for deploy.sh

@@ -32,7 +32,11 @@ def parse_table_of_contents_from_md(filename: str, first_chapter_name: str, max_
         # parse article line, represent start time as an offset in seconds
         match_obj = article_regexp.match(line)
         if not match_obj:
-            print(f'WARNING: could not parse article or timing from the following line (expected pattern is `- [<description>](<url>) - *<timing>*`):\n{line}')
+            print(
+                "WARNING: could not parse article or timing from the following line "
+                "(expected pattern is `- [<description>](<url>) - *<timing>*`):\n"
+                f"{line}"
+            )
             continue
 
         article, offset_str = match_obj.groups()

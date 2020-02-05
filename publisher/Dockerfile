@@ -22,13 +22,15 @@ RUN \
     chmod 600 /home/app/.ssh/* && \
     chmod 700 /home/app/.ssh
 
-COPY --from=build /target/publisher /srv/publisher/publisher
+COPY --from=build /target/publisher /usr/local/bin/publisher
 COPY . /srv/publisher
-WORKDIR /srv/publisher
+RUN chmod 600 /srv/publisher/mp3tags/cmd.py && \
+    ln -s /srv/publisher/mp3tags/cmd.py /usr/local/bin/mp3tags
 
-RUN pip3 install --no-cache-dir -r requirements.txt
+WORKDIR /srv/hugo
+
+RUN pip3 install --no-cache-dir -r /srv/publisher/mp3tags/requirements.txt
 
 USER app
 
-ENTRYPOINT ["invoke"]
-CMD ["--list"]
+ENTRYPOINT ["/usr/local/bin/publisher"]
