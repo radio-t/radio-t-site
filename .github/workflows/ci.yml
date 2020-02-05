@@ -11,6 +11,5 @@ jobs:
       uses: actions/checkout@v2
 
     - name: build puiblisher image
-      run: |
-        docker build -t radio-t/puiblisher .
-      working-directory: piblisher
+      run: docker build -t radio-t/puiblisher .
+      working-directory: puiblisher
