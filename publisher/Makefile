@@ -30,10 +30,9 @@ print-mp3-tags:
 upload-mp3:
 	@docker-compose run --rm publisher upload --episode="$$EPISODE" | \
 		while read line; do \
+			echo $$line; \
 			if [[ $$line =~ ^.*\[INFO\].* ]]; then \
 				${notif} -title PodPrc -message "`echo $$line`"; \
-			else \
-				echo $$line; \
 			fi \
 		done
 
