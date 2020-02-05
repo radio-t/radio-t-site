@@ -120,6 +120,7 @@ func runPrep(episodeNum int) {
 func runUpload(episodeNum int) {
 	upload := cmd.Upload{
 		Executor: &cmd.ShellExecutor{Dry: opts.Dry},
+		Location: opts.UploadCmd.Location,
 	}
 	upload.Do(episodeNum)
 	log.Printf("[INFO] deployed #%d", episodeNum)

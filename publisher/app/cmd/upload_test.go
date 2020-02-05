@@ -6,6 +6,8 @@ import (
 
 func TestUpload_Do(t *testing.T) {
 	ex := &MockExecutor{}
+
+	ex.On("Run", "mp3tags set-tags %d", 123)
 	ex.On("Run", "scp %s umputun@master.radio-t.com:/srv/master-node/var/media/%s", "/tmp/rt_podcast123/rt_podcast123.mp3", "rt_podcast123.mp3")
 	ex.On("Run", `ssh umputun@master.radio-t.com "chmod 644 /data/archive/radio-t/media/%s"`, "rt_podcast123.mp3")
 	ex.On("Run", `ssh umputun@master.radio-t.com "find /srv/master-node/var/media -type f -mtime +60 -mtime -1200 -exec rm -vf '{}' ';'"`)
@@ -19,5 +21,5 @@ func TestUpload_Do(t *testing.T) {
 	}
 
 	d.Do(123)
-	ex.AssertNumberOfCalls(t, "Run", 6)
+	ex.AssertNumberOfCalls(t, "Run", 7)
 }
