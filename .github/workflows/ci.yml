@@ -10,6 +10,6 @@ jobs:
     - name: check out code
       uses: actions/checkout@v2
 
-    - name: build puiblisher image
-      run: docker build -t radio-t/puiblisher .
+    - name: build publisher image
+      run: docker build -t radio-t/publisher .
       working-directory: publisher
