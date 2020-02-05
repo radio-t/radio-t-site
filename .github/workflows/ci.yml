@@ -1,7 +1,17 @@
 name: build
-on: [push, pull_request]
-jobs:
+on:
+  push:
+    branches:
+    tags:
+    paths:
+      - '.github/workflows/ci.yml'
+      - 'publisher/**'
+  pull_request:
+    paths:
+      - '.github/workflows/ci.yml'
+      - 'publisher/**'
 
+jobs:
   build:
     name: build
     runs-on: ubuntu-latest
