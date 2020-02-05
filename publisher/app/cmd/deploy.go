@@ -11,7 +11,7 @@ import (
 
 // Deploy delivers site update
 type Deploy struct {
-	Executor     Executor
+	Executor
 	NewsPasswd   string
 	NewsAPI      string
 	NewsDuration time.Duration
@@ -23,19 +23,20 @@ type Deploy struct {
 // may panic on executor error
 func (d *Deploy) Do(episodeNum int) error {
 	log.Printf("[INFO] commit new episode to git")
-	d.Executor.Run("git pull && git commit -am episode %d && git push", episodeNum)
+	d.Run("git pull && git commit -am episode %d && git push", episodeNum)
 
 	log.Printf("[INFO] remote site update")
-	d.Executor.Run(`ssh umputun@master.radio-t.com "cd /srv/site.hugo && git pull && docker-compose run --rm hugo"`)
+	d.Run(`ssh umputun@master.radio-t.com "cd /srv/site.hugo && git pull && docker-compose run --rm hugo"`)
 
 	log.Printf("[INFO] create chat log")
-	d.Executor.Run(`ssh umputun@master.radio-t.com "docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num=%d --export-path=/srv/html"`, episodeNum)
+	d.Run(`ssh umputun@master.radio-t.com "docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num=%d --export-path=/srv/html"`, episodeNum)
 
 	log.Printf("[INFO] archive news")
 	err := d.archiveNews()
 	return err
 }
 
+// archiveNews invokes news-api like https://news.radio-t.com/api/v1/news/active/last/12
 func (d *Deploy) archiveNews() error {
 	req, err := http.NewRequest("DELETE", fmt.Sprintf("%s/active/last/%d", d.NewsAPI, int(d.NewsDuration.Hours())), nil)
 	if err != nil {

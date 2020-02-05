@@ -1,5 +1,7 @@
 package cmd
 
+//go:generate mockery -inpkg -name Executor -case snake
+
 import (
 	"encoding/json"
 	"fmt"
@@ -11,11 +13,10 @@ import (
 )
 
 type Executor interface {
-	Do(cmd string) error
 	Run(cmd string, params ...interface{})
 }
 
-// LastShow get the number of latest published podcast via site-api
+// LastShow get the number of the latest published podcast via site-api
 // GET /last/{posts}?categories=podcast
 func LastShow(client http.Client, siteAPI string) (int, error) {
 	resp, err := client.Get(fmt.Sprintf("%s/last/1?categories=podcast", siteAPI))
@@ -48,8 +49,16 @@ type ShellExecutor struct {
 	Dry bool
 }
 
+// Run makes the final command in printf style and panic on error
+func (c *ShellExecutor) Run(cmd string, params ...interface{}) {
+	command := fmt.Sprintf(cmd, params...)
+	if err := c.do(command); err != nil {
+		log.Fatalf("[ERROR] %v", err)
+	}
+}
+
 // Do executes command and returns error if failed
-func (c *ShellExecutor) Do(cmd string) error {
+func (c *ShellExecutor) do(cmd string) error {
 	log.Printf("[DEBUG] execute %q", cmd)
 	if c.Dry {
 		return nil
@@ -58,12 +67,4 @@ func (c *ShellExecutor) Do(cmd string) error {
 	ex.Stdout = log.ToWriter(log.Default(), "INFO")
 	ex.Stderr = log.ToWriter(log.Default(), "WARN")
 	return errors.Wrapf(ex.Run(), "failed to run %q", cmd)
-}
-
-// Run makes the final command in printf style and panic on error
-func (c *ShellExecutor) Run(cmd string, params ...interface{}) {
-	command := fmt.Sprintf(cmd, params...)
-	if err := c.Do(command); err != nil {
-		log.Fatalf("[ERROR] %v", err)
-	}
 }

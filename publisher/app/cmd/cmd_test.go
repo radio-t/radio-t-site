@@ -34,14 +34,14 @@ func TestCmd_LastShowFailed(t *testing.T) {
 	assert.Contains(t, err.Error(), "can't get last shows")
 }
 
-func TestShellExecutor_Do(t *testing.T) {
+func TestShellExecutor_do(t *testing.T) {
 	c := ShellExecutor{}
-	err := c.Do("ls -la")
+	err := c.do("ls -la")
 	assert.NoError(t, err)
 
-	err = c.Do("ls -la && pwd")
+	err = c.do("ls -la && pwd")
 	assert.NoError(t, err)
 
-	err = c.Do("lxxxxxxs -la")
+	err = c.do("lxxxxxxs -la")
 	assert.Error(t, err)
 }
