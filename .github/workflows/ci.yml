@@ -12,4 +12,4 @@ jobs:
 
     - name: build puiblisher image
       run: docker build -t radio-t/puiblisher .
-      working-directory: puiblisher
+      working-directory: publisher
