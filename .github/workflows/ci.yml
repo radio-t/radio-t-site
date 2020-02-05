@@ -1,0 +1,16 @@
+name: build
+on: [push, pull_request]
+jobs:
+
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: check out code
+      uses: actions/checkout@v2
+
+    - name: build puiblisher image
+      run: |
+        docker build -t radio-t/puiblisher .
+      working-directory: piblisher
