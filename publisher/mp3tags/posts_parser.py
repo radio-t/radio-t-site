@@ -25,13 +25,18 @@ def parse_table_of_contents_from_md(filename: str, first_chapter_name: str, max_
     with open(filename, encoding="utf-8") as f:
         article_lines = [line for line in f.readlines() if line.lstrip().startswith("-")]
 
-    article_regexp = re.compile(r"\-\s+?\[(.+?)\].*?\*([\d:]+)\*")
+    article_regexp = re.compile(r"\-\s+?\[(.+?)\].*?\*(\d\d:\d\d:\d\d)\*")
     articles = []
     prev_start = 0
     for line in article_lines:
         # parse article line, represent start time as an offset in seconds
         match_obj = article_regexp.match(line)
         if not match_obj:
+            print(
+                "WARNING: could not parse article or timing from the following line "
+                "(expected pattern is `- [<description>](<url>) - *<timing>*`):\n"
+                f"{line}"
+            )
             continue
 
         article, offset_str = match_obj.groups()

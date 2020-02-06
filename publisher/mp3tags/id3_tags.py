@@ -8,7 +8,7 @@ from typing import Dict, List
 
 from eyed3 import id3, mimetype
 
-from .episode_posts import Chapter
+from mp3tags.posts_parser import Chapter
 
 
 def print_album_meta(tag: id3.Tag) -> None:

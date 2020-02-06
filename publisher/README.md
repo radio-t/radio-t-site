@@ -6,21 +6,11 @@
 
 После сборки образа, скриптами публикации можно пользоваться как с помощью `make`:
 
-- `make` - список доступных команд
-- `make new-episode` — создает шаблон нового выпуска, темы берутся с news.radio-t.com
-- `make new-prep` — создает шаблон "Темы для ..." следующего выпуска
-- `make upload-mp3 FILE=rt_podcast685/rt_podcast685.mp3` - добавляет mp3 теги и картинку в файл подкаста, после чего разносит его по нодам через внешний ansible контейнер. Для выполнения необходимо подключить в docker-compose конфиге директорию с mp3 файлами подкаста как volume в сервис publisher
+- `make new` — создает шаблон нового выпуска, темы берутся с news.radio-t.com
+- `make prep` — создает шаблон "Темы для ..." следующего выпуска
+- `make print-mp3-tags EPISODE=685` - выводит mp3 теги файла эпизода подскаста
+- `make upload-mp3 EPISODE=685` - добавляет mp3 теги и картинку в файл эпизода подкаста, после чего разносит его по нодам через внешний ansible контейнер. Для выполнения необходимо подключить в docker-compose конфиге директорию с mp3 файлами подкаста как volume в сервис publisher
 - `make deploy` — добавляет в гит и запускает pull + build на мастер. После этого строит лог чата и очищает темы
-
-так и при помощи `docker-compose`:
-
-- `docker-compose run --rm publisher --list` - вывод списка возможных команд для образа
-- `docker-compose run --rm publisher --help set-mp3-chapters` - вывод справки по конкретной команде
-- `docker-compose run --rm --entrypoint /bin/sh publisher scripts/make_new_episode.sh` — создает шаблон нового выпуска, темы берутся с news.radio-t.com
-- `docker-compose run --rm --entrypoint /bin/sh publisher scripts/make_new_prep.sh` — создает шаблон "Темы для ..." следующего выпуска
-- `docker-compose run --rm --entrypoint /bin/sh publisher scripts/upload_mp3.sh rt_podcast685/rt_podcast685.mp3` — загружает подкаст во все места, предварительно добавляет mp3 теги и картинку и потом разносит по нодам через внешний ansible контейнер. Для выполнения необходимо подключить в docker-compose конфиге директорию с mp3 файлами подкаста как volume в сервис publisher
-- `docker-compose run --rm --entrypoint /bin/sh publisher scripts/deploy.sh` — добавляет в гит и запускает push + build на мастер. После этого строит лог чата и очищает темы
- 
 
 ## Для разработчика
 
