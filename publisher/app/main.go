@@ -101,7 +101,7 @@ func runNew(episodeNum int) {
 	if err := prep.MakeShow(episodeNum); err != nil {
 		log.Fatalf("[ERROR] failed to make new podcast #%d, %v", episodeNum, err)
 	}
-	log.Printf("[INFO] created new podcast:\n%s/podcast-%d.md", opts.NewShowCmd.Dest, episodeNum)
+	log.Printf("[INFO] created new podcast: %s/podcast-%d.md", opts.NewShowCmd.Dest, episodeNum)
 }
 
 func runPrep(episodeNum int) {
@@ -114,7 +114,7 @@ func runPrep(episodeNum int) {
 	if err := prep.MakePrep(episodeNum); err != nil {
 		log.Fatalf("[ERROR] failed to make new prep #%d, %v", episodeNum, err)
 	}
-	log.Printf("[INFO] created new prep:\n%s/prep-%d.md", opts.PrepShowCmd.Dest, episodeNum)
+	log.Printf("[INFO] created new prep: %s/prep-%d.md", opts.PrepShowCmd.Dest, episodeNum)
 }
 
 func runUpload(episodeNum int) {
