@@ -18,6 +18,9 @@ type Upload struct {
 func (u *Upload) Do(episodeNum int) {
 	mp3file := fmt.Sprintf("%s/rt_podcast%d/rt_podcast%d.mp3", u.Location, episodeNum, episodeNum)
 
+	log.Printf("[INFO] set mp3 tags for %s", mp3file)
+	u.Run("mp3tags set-tags %d", episodeNum)
+
 	log.Printf("[INFO] upload %s to master.radio-t.com", mp3file)
 	u.Run("scp %s umputun@master.radio-t.com:/srv/master-node/var/media/%s", mp3file, path.Base(mp3file))
 
