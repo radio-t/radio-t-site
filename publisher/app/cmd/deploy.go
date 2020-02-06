@@ -3,7 +3,6 @@ package cmd
 import (
 	"fmt"
 	"net/http"
-	"time"
 
 	log "github.com/go-pkgz/lgr"
 	"github.com/pkg/errors"
@@ -12,11 +11,11 @@ import (
 // Deploy delivers site update
 type Deploy struct {
 	Executor
-	NewsPasswd   string
-	NewsAPI      string
-	NewsDuration time.Duration
-	Client       http.Client
-	Dry          bool
+	NewsPasswd string
+	NewsAPI    string
+	NewsHrs    int
+	Client     http.Client
+	Dry        bool
 }
 
 // Do run deploy sequence for the given episodeNum
@@ -38,7 +37,7 @@ func (d *Deploy) Do(episodeNum int) error {
 
 // archiveNews invokes news-api like https://news.radio-t.com/api/v1/news/active/last/12
 func (d *Deploy) archiveNews() error {
-	req, err := http.NewRequest("DELETE", fmt.Sprintf("%s/active/last/%d", d.NewsAPI, int(d.NewsDuration.Hours())), nil)
+	req, err := http.NewRequest("DELETE", fmt.Sprintf("%s/active/last/%d", d.NewsAPI, d.NewsHrs), nil)
 	if err != nil {
 		return errors.Wrap(err, "failed to prepare news archive request")
 	}

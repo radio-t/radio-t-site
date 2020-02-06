@@ -38,11 +38,11 @@ categories = ["prep"]
 
 // Prep implements both preparation of md file for the new podcast and for prep-show post
 type Prep struct {
-	Client       http.Client
-	NewsDuration time.Duration
-	NewsAPI      string
-	Dest         string
-	Dry          bool
+	Client  http.Client
+	NewsAPI string
+	NewsHrs int
+	Dest    string
+	Dry     bool
 
 	now func() time.Time
 }
@@ -62,7 +62,7 @@ func (p *Prep) MakeShow(episodeNum int) (err error) {
 		TS:         p.now(),
 	}
 
-	if tp.News, err = p.lastNews(int(p.NewsDuration.Hours())); err != nil {
+	if tp.News, err = p.lastNews(p.NewsHrs); err != nil {
 		return errors.Wrap(err, "failed to load last news")
 	}
 

@@ -23,11 +23,11 @@ func TestDeploy_Do(t *testing.T) {
 	ex.On("Run", `ssh umputun@master.radio-t.com "docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num=%d --export-path=/srv/html"`, 123)
 
 	d := Deploy{
-		NewsPasswd:   "passwd",
-		NewsAPI:      ts.URL,
-		NewsDuration: time.Hour * 12,
-		Client:       http.Client{Timeout: 10 * time.Millisecond},
-		Executor:     ex,
+		NewsPasswd: "passwd",
+		NewsAPI:    ts.URL,
+		NewsHrs:    12,
+		Client:     http.Client{Timeout: 10 * time.Millisecond},
+		Executor:   ex,
 	}
 
 	require.NoError(t, d.Do(123))
@@ -42,10 +42,10 @@ func TestDeploy_archiveNews(t *testing.T) {
 	defer ts.Close()
 
 	d := Deploy{
-		NewsPasswd:   "passwd",
-		NewsAPI:      ts.URL,
-		NewsDuration: time.Hour * 12,
-		Client:       http.Client{Timeout: 10 * time.Millisecond},
+		NewsPasswd: "passwd",
+		NewsAPI:    ts.URL,
+		NewsHrs:    12,
+		Client:     http.Client{Timeout: 10 * time.Millisecond},
 	}
 
 	assert.NoError(t, d.archiveNews())

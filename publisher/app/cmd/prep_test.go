@@ -20,11 +20,11 @@ func TestPrep_MakeShow(t *testing.T) {
 	defer ts.Close()
 
 	p := Prep{
-		Client:       http.Client{Timeout: 100 * time.Millisecond},
-		NewsDuration: 12 * time.Hour,
-		NewsAPI:      ts.URL,
-		Dest:         "/tmp",
-		now:          func() time.Time { return time.Date(2020, 2, 3, 20, 18, 53, 0, time.Local) },
+		Client:  http.Client{Timeout: 100 * time.Millisecond},
+		NewsHrs: 12,
+		NewsAPI: ts.URL,
+		Dest:    "/tmp",
+		now:     func() time.Time { return time.Date(2020, 2, 3, 20, 18, 53, 0, time.Local) },
 	}
 
 	err := p.MakeShow(123)
@@ -55,10 +55,10 @@ filename = "rt_podcast123"
 
 func TestPrep_MakePrep(t *testing.T) {
 	p := Prep{
-		Client:       http.Client{Timeout: 100 * time.Millisecond},
-		NewsDuration: 12 * time.Hour,
-		Dest:         "/tmp",
-		now:          func() time.Time { return time.Date(2020, 2, 3, 20, 18, 53, 0, time.Local) },
+		Client:  http.Client{Timeout: 100 * time.Millisecond},
+		NewsHrs: 12,
+		Dest:    "/tmp",
+		now:     func() time.Time { return time.Date(2020, 2, 3, 20, 18, 53, 0, time.Local) },
 	}
 
 	err := p.MakePrep(123)

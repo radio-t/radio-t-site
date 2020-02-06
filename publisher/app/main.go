@@ -92,11 +92,11 @@ func episode() (int, error) {
 func runNew(episodeNum int) {
 	log.Printf("[INFO] make new episode %d", episodeNum)
 	prep := cmd.Prep{
-		Client:       http.Client{Timeout: 10 * time.Second},
-		NewsDuration: time.Hour * time.Duration(opts.NewShowCmd.NewsHrs),
-		NewsAPI:      opts.NewShowCmd.NewsAPI,
-		Dest:         opts.NewShowCmd.Dest,
-		Dry:          opts.Dry,
+		Client:  http.Client{Timeout: 10 * time.Second},
+		NewsAPI: opts.NewShowCmd.NewsAPI,
+		NewsHrs: opts.NewShowCmd.NewsHrs,
+		Dest:    opts.NewShowCmd.Dest,
+		Dry:     opts.Dry,
 	}
 	if err := prep.MakeShow(episodeNum); err != nil {
 		log.Fatalf("[ERROR] failed to make new podcast #%d, %v", episodeNum, err)
@@ -128,12 +128,12 @@ func runUpload(episodeNum int) {
 
 func runDeploy(episodeNum int) {
 	deploy := cmd.Deploy{
-		Client:       http.Client{Timeout: 10 * time.Second},
-		Executor:     &cmd.ShellExecutor{Dry: opts.Dry},
-		NewsAPI:      opts.DeployCmd.NewsAPI,
-		NewsPasswd:   opts.DeployCmd.NewsPasswd,
-		NewsDuration: time.Hour * time.Duration(opts.DeployCmd.NewsHrs),
-		Dry:          opts.Dry,
+		Client:     http.Client{Timeout: 10 * time.Second},
+		Executor:   &cmd.ShellExecutor{Dry: opts.Dry},
+		NewsAPI:    opts.DeployCmd.NewsAPI,
+		NewsPasswd: opts.DeployCmd.NewsPasswd,
+		NewsHrs:    opts.DeployCmd.NewsHrs,
+		Dry:        opts.Dry,
 	}
 	if err := deploy.Do(episodeNum); err != nil {
 		log.Fatalf("[ERROR] failed to deploy #%d, %v", episodeNum, err)
