@@ -1,12 +1,17 @@
 .DEFAULT_GOAL := help
 SHELL:=/bin/bash
 .ONESHELL:
-.PHONY: new prep print-mp3-tags upload-mp3 deploy
+.PHONY: new prep print-mp3-tags upload-mp3 deploy build
 
 TMPFILE := $(shell mktemp)
 makefile_dir := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 notif := "/usr/local/bin/terminal-notifier"
 subl := "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
+
+B=$(shell git rev-parse --abbrev-ref HEAD)
+BRANCH=$(subst /,-,$(B))
+GITREV=$(shell git describe --abbrev=7 --always --tags)
+REV=$(GITREV)-$(BRANCH)-$(shell date +%Y%m%d-%H:%M:%S)
 
 help:
 	@echo 'Avalable commands: new, prep, print-mp3-tags, upload-mp3, deploy'
@@ -39,3 +44,7 @@ upload-mp3:
 # deploy new podcast episode page to https://radio-t.com
 deploy:
 	@docker-compose run --rm publisher deploy
+
+build:
+	@echo $(REV)
+	@docker build -t radio-t/publisher --build-arg REV=$(REV) .

@@ -26,6 +26,7 @@ services:
       - /home/umputun/.ssh/id_rsa:/home/app/.ssh/id_rsa
 
   publisher:
+    image: radio-t/publisher
     build: publisher
     hostname: publisher
     container_name: publisher 

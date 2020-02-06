@@ -1,10 +1,11 @@
 FROM umputun/baseimage:buildgo-latest as build
 
+ARG REV
 ADD app /build
 WORKDIR  /build
 RUN go test -mod=vendor ./...
-RUN CGO_ENABLED=0 GOOS=linux go build -mod=vendor -o /target/publisher -ldflags \
-    "-X main.revision=$(git rev-parse --abbrev-ref HEAD)-$(git describe --abbrev=7 --always --tags)-$(date +%Y%m%d-%H:%M:%S)"
+RUN echo "version=${REV}"
+RUN CGO_ENABLED=0 GOOS=linux go build -mod=vendor -o /target/publisher -ldflags "-X main.revision=${REV}"
 
 
 FROM umputun/baseimage:app-latest
