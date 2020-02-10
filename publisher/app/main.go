@@ -8,23 +8,22 @@ import (
 
 	log "github.com/go-pkgz/lgr"
 	"github.com/pkg/errors"
-	"github.com/radio-t/publisher/cmd"
 	"github.com/umputun/go-flags"
+
+	"github.com/radio-t/publisher/cmd"
 )
 
 var opts struct {
 	SiteAPI string `long:"site-api" env:"SITE_API" default:"https://radio-t.com/site-api" description:"site API url"`
 
 	NewShowCmd struct {
-		Episode int    `short:"n" long:"episode" default:"-1" description:"show number"`
 		NewsAPI string `long:"news" env:"NEWS" default:"https://news.radio-t.com/api/v1/news" description:"news API url"`
 		NewsHrs int    `long:"news-hrs" env:"NEWS_HRS" default:"12" description:"news duration in hours"`
 		Dest    string `long:"dest" env:"DEST" default:"./content/posts" description:"path to posts"`
 	} `command:"new" description:"make new podcast"`
 
 	PrepShowCmd struct {
-		Episode int    `short:"n" long:"episode" default:"-1" description:"show number"`
-		Dest    string `long:"dest" env:"DEST" default:"./content/posts" description:"path to posts"`
+		Dest string `long:"dest" env:"DEST" default:"./content/posts" description:"path to posts"`
 	} `command:"prep" description:"make new prep podcast post"`
 
 	UploadCmd struct {
@@ -37,7 +36,7 @@ var opts struct {
 		NewsPasswd string `long:"news-passwd" env:"NEWS_PASSWD" required:"true" description:"news api admin passwd"`
 	} `command:"deploy" description:"make new prep podcast post"`
 
-	Episode int  `short:"e" long:"episode" description:"episode number"`
+	Episode int  `short:"e" long:"episode" default:"-1" description:"episode number"`
 	Dry     bool `long:"dry" description:"dry run"`
 	Dbg     bool `long:"dbg" env:"DEBUG" description:"debug mode"`
 }
@@ -49,7 +48,6 @@ func main() {
 
 	p := flags.NewParser(&opts, flags.Default)
 	if _, err := p.ParseArgs(os.Args[1:]); err != nil {
-		log.Printf("[ERROR] failed to parse flags: %v", err)
 		os.Exit(1)
 	}
 
@@ -59,6 +57,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("[ERROR] can't get last podcast number, %v", err)
 	}
+	log.Printf("[DEBUG] episode %d", episodeNum)
 
 	if p.Active != nil && p.Command.Find("new") == p.Active {
 		runNew(episodeNum)
@@ -77,6 +76,7 @@ func main() {
 	}
 }
 
+// episode gets the next episode number by hitting site-api
 func episode() (int, error) {
 	if opts.Episode > 0 {
 		return opts.Episode, nil

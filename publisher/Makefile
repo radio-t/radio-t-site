@@ -47,4 +47,4 @@ deploy:
 
 build:
 	@echo $(REV)
-	@docker build -t radio-t/publisher --build-arg REV=$(REV) .
+	@docker build -t publisher --build-arg REV=$(REV) .

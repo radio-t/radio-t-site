@@ -3,6 +3,7 @@ FROM umputun/baseimage:buildgo-latest as build
 ARG REV
 ADD app /build
 WORKDIR  /build
+
 RUN go test -mod=vendor ./...
 RUN echo "version=${REV}"
 RUN CGO_ENABLED=0 GOOS=linux go build -mod=vendor -o /target/publisher -ldflags "-X main.revision=${REV}"
