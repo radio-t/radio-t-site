@@ -10,6 +10,7 @@ type Props = {
   id?: string;
   className?: string;
   theme?: RemarkTheme;
+  locale: string;
 };
 
 export default class Remark extends Component<Props> {
@@ -56,11 +57,13 @@ export default class Remark extends Component<Props> {
       page_title: string;
       url?: string;
       theme: RemarkTheme;
+      locale: string,
     } = {
       baseurl: this.props.baseurl || "https://remark42.radio-t.com",
       site_id: this.props.site_id,
       page_title: this.props.page_title,
       theme: this.props.theme || "light",
+      locale: this.props.locale,
     };
 
     if (!remark_config.site_id) {
