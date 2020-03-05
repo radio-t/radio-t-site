@@ -6,3 +6,4 @@ publisher/utils/eyeD3/*.pyc
 .env
 .DS_Store
 publisher/target/
+.idea

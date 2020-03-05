@@ -27,6 +27,7 @@ export default class extends Controller {
       url={'https://radio-t.com' + location.pathname}
       page_title={window.remark_config.page_title}
       theme={theme}
+      locale={window.remark_config.locale}
     />), this.element);
   }
 
