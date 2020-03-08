@@ -9,7 +9,7 @@ filename = "rt_podcast692"
 ![](https://radio-t.com/images/radio-t/rt692.jpg)
 
 - [DigitalOcean Container Registry](https://www.digitalocean.com/products/container-registry/?utm_medium=email) - *00:02:28*.
-- [ЧТо не так с Git Flow](https://georgestocker.com/2020/03/04/please-stop-recommending-git-flow/) - *00:10:37*.
+- [Что не так с Git Flow](https://georgestocker.com/2020/03/04/please-stop-recommending-git-flow/) - *00:10:37*.
 - [Что не так с совершенным кодом](https://frederickvanbrabant.com/post/2020-02-07-the-economics-of-clean-code/) - *00:41:48*.
 - [8 проблем кубернетиса](https://pythonspeed.com/articles/dont-need-kubernetes/) - *00:51:15*.
 - [Тенденция тоста параметров с CLI](https://danluu.com/cli-complexity/) - *01:27:43*.
