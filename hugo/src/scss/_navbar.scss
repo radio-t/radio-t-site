@@ -210,11 +210,12 @@
     }
   }
 }
-@media (min-width: 320px) {
-  .navbar-toggler {
-    line-height: 1;
-    position: relative;
-    z-index: $zindex-fixed + 1;
-    padding: 0 1rem 0 $navbar-collapsed-padding-x !important;
+.navbar-toggler {
+  line-height: 1;
+  position: relative;
+  z-index: $zindex-fixed + 1;
+  padding: 0 1rem 0 $navbar-collapsed-padding-x !important;
+  @media (min-width: 340px) {
+    margin-right: 2rem;
   }
 }

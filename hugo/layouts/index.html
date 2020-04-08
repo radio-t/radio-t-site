@@ -7,7 +7,7 @@
     {{ partial "jumbotron" . }}
   {{/*{{ end }}*/}}
 
-  <div class="pt-3 pt-md-5">
+  <div class="pt-3 pt-sm-5">
     <div class="posts-list" data-controller="posts-list" data-posts-list-page-number="{{ $paginator.PageNumber }}">
       {{ if (ne $paginator.PageNumber 1) }}
         <div class="container-fluid">
