@@ -122,8 +122,6 @@ export default class extends Controller {
       this.coverTarget.classList.toggle('cover-image-online', !!detail.online);
       this.numberTarget.textContent = detail.number;
       this.audioTarget.load();
-      this.audioTarget.volume = 1;
-      this.storedVolumeLevel = 100;
       if (!detail.online) {
         if (!detail.timeLabel) {
           const podcast = getLocalStorage('podcasts', podcasts => podcasts[this.numberTarget.innerText]);
@@ -262,6 +260,7 @@ export default class extends Controller {
       this.volumeLevelTarget.value = this.storedVolumeLevel;
     } else {
       this.setVolume(0);
+      this.storedVolumeLevel = this.volumeLevelTarget.value;
       this.volumeLevelTarget.value = 0;
     }
   }
