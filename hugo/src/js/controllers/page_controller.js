@@ -1,4 +1,3 @@
-import fastclick from 'fastclick';
 import Controller from '../base_controller';
 import Player from './player_controller';
 
@@ -10,7 +9,6 @@ export default class extends Controller {
 
   initialize() {
     super.initialize();
-    fastclick.attach(this.element);
   }
 
   updatePodcasts(e) {
