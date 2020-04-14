@@ -24,6 +24,7 @@ document.addEventListener('theme:change', function () {
 document.addEventListener('turbolinks:load', () => {
   [].forEach.call(document.links, link => {
     if (link.hostname !== window.location.hostname) {
+      link.rel = link.rel.length ? link.rel + ' noopener' : 'noopener';
       link.target = '_blank';
     }
   });
