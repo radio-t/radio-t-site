@@ -9,8 +9,8 @@ filename = "rt_podcast698"
 ![](https://radio-t.com/images/radio-t/rt698.jpg)
 
 - [GitHub для групп теперь бесплатно](https://www.engadget.com/github-core-features-free-211014706.html) - *00:02:53*.
-- [iPhone SE новый телефон в старом корпусе](https://www.apple.com/newsroom/2020/04/iphone-se-a-powerful-new-smartphone-in-a-popular-design/) - *00:18:42*.
-- [Чат пос SSH](https://github.com/shazow/ssh-chat) - *00:37:56*.
+- [iPhone SE – новый телефон в старом корпусе](https://www.apple.com/newsroom/2020/04/iphone-se-a-powerful-new-smartphone-in-a-popular-design/) - *00:18:42*.
+- [Чат по SSH](https://github.com/shazow/ssh-chat) - *00:37:56*.
 - [ProtonMail Bridge открылся](https://protonmail.com/blog/bridge-open-source/) - *00:43:51*.
 - [Уверяю вас, пандемия приведет к буму](https://reminder.media/post/pandemiya-privedet-k-bumu-tekhnologicheskikh-otkrytiy) - *00:53:50*.
 - [Мелкая камера Blink за $35](https://www.engadget.com/amazons-blink-mini-camera-announcement-183048551.html) - *01:04:12*.
