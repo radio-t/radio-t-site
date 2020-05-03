@@ -4,14 +4,14 @@
     <title>{title}</title>
     <link>{url}</link>
     <language>ru</language>
-    <copyright>Umputun, Bobuk, Gray, Ksenks</copyright>
-    <itunes:author>Umputun, Bobuk, Gray, Ksenks</itunes:author>
+    <copyright>Umputun, Bobuk, Gray, Ksenks, Alek.sys</copyright>
+    <itunes:author>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:author>
     <itunes:subtitle>{subtitle}</itunes:subtitle>
     <description>{description}</description>
     <itunes:explicit>no</itunes:explicit>
 
     <itunes:owner>
-      <itunes:name>Umputun, Bobuk, Gray, Ksenks</itunes:name>
+      <itunes:name>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:name>
       <itunes:email>podcast@radio-t.com</itunes:email>
     </itunes:owner>
 

@@ -7,7 +7,7 @@ http:
 tags:
   album: "Радио-Т"
   cover: "./hugo/static/images/covers/cover.png"
-  artist: "Umputun, Bobuk, Gray, Ksenks"
+  artist: "Umputun, Bobuk, Gray, Ksenks, Alek.sys"
   title: "Радио-Т ${episode_num}"
 toc:
   first_mp3_chapter_name: "Вступление"

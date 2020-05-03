@@ -19,11 +19,11 @@
     <copyright>radio-t, {{ with .Site.Copyright }}{{.}}{{ end }}</copyright>
 
     <language>ru</language>
-    <itunes:author>Umputun, Bobuk, Gray, Ksenks</itunes:author>
+    <itunes:author>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:author>
     <itunes:subtitle>{{ .Site.Params.subtitle }}</itunes:subtitle>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
-      <itunes:name>Umputun, Bobuk, Gray, Ksenks</itunes:name>
+      <itunes:name>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:name>
       <itunes:email>podcast@radio-t.com</itunes:email>
     </itunes:owner>
 
