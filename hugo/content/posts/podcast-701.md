@@ -15,7 +15,7 @@ filename = "rt_podcast701"
 - [Authenticator теперь может](https://mashable.com/article/google-authenticator-transfer-data/?europe=true).
 - [Новинки семейства Surface](https://blogs.windows.com/devices/2020/05/06/introducing-surface-go-2-surface-book-3-surface-headphones-2-and-surface-earbuds/).
 - [Фреймворки против библиотек](https://www.brandonsmith.ninja/blog/libraries-not-frameworks).
-- [Темы слушателей](https://radio-t.com/p/2020/05/05/prep-701/) - *00:00:09*.
+- [Темы слушателей](https://radio-t.com/p/2020/05/05/prep-701/).
 
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 
