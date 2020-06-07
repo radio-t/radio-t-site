@@ -11,7 +11,7 @@ filename = "rt_podcast705"
 - [С качеством кода все плохо](https://news.ycombinator.com/item?id=23426574) - *00:05:41*.
 - [Ebay сканирует локальные порты](https://blog.nem.ec/2020/05/24/ebay-port-scanning/) - *00:34:18*.
 - [Представим, что OOP не случилось](https://www.johndcook.com/blog/2020/05/15/pretending-oop-never-happened/) - *00:43:08*.
-- [Atlassian для DevOps](https://consent.yahoo.com/collectConsent?sessionId=3_cc-session_eac7add6-1544-4fd8-8524-11599ecd10e7&lang=de-DE&inline=false) - *01:10:19*.
+- [Atlassian для DevOps](https://techcrunch.com/2020/06/02/atlassian-launches-new-devops-features/) - *01:10:19*.
 - [Пересмотр багов и управления ими](https://almad.blog/essays/no-bugs-just-todos/) - *01:12:28*.
 - [Темы слушателей](https://radio-t.com/p/2020/06/03/prep-705/) - *01:54:00*.
 
