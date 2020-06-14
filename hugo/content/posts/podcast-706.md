@@ -16,7 +16,7 @@ filename = "rt_podcast706"
 - [Async Python совсем не быстрее](http://calpaterson.com/async-python-is-not-faster.html) - *01:39:54*.
 - [Темы слушателей](https://radio-t.com/p/2020/06/09/prep-706/) - *01:59:51*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Veeam](http://vee.am/veeamontour-russia)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast706.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-706.html)
