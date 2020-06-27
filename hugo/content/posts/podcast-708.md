@@ -12,7 +12,7 @@ filename = "rt_podcast708"
 - [iOS14 случайно выявила негодяев](https://www.reddit.com/r/apple/comments/hejb9i/ios14_catches_apps_spying_on_your_clipboard/) - *00:57:05*.
 - [Microsoft закроет свою пародию на Apple Store](https://www.theverge.com/2020/6/26/21297400/microsoft-retail-stores-closing-cities-open) - *01:06:20*.
 - [AWS Honeycode](https://www.geekwire.com/2020/aws-honeycode-makes-amazon-player-booming-no-code-software-movement/) - *01:11:30*.
-- [QA противTDD](https://www.functionize.com/blog/testers-vs-tdd/) - *01:19:48*.
+- [QA против TDD](https://www.functionize.com/blog/testers-vs-tdd/) - *01:19:48*.
 - [Mixer уходит](https://www.theverge.com/2020/6/22/21299032/microsoft-mixer-closing-facebook-gaming-partnership-xcloud-features) - *01:44:35*.
 - [Темы слушателей](https://radio-t.com/p/2020/06/23/prep-708/) - *01:53:34*.
 
