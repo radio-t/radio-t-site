@@ -7,7 +7,7 @@
 >
   <div class="player-placeholder"></div>
   <div class="podcast-player-container">
-    <div class="podcast-player container-fluid d-flex align-items-center flex-nowrap">
+    <div class="podcast-player container-fluid d-md-flex align-items-center flex-nowrap">
 
       <div class="podcast-player-cover podcast-cover flex-shrink-0">
         <a class="cover-image cover-image-online" data-target="player.cover player.link">
@@ -26,7 +26,7 @@
         <a data-target="player.number player.link"></a>
       </h3>
 
-      <div class="btn-group mx-auto px-3" role="group">
+      <div class="btn-group mx-auto px-3 player-playback"  role="group">
         <button class="btn btn-link d-inline-flex" data-action="player#seekBackward">
           <span class="btn-player-icon btn-player-icon-backward">
             {{ readFile "src/images/player/backward.svg" | safeHTML }}
@@ -43,7 +43,7 @@
         </button>
       </div>
 
-      <div class="player-playback container-fluid flex-grow-1 d-flex align-items-center">
+      <div class="player-seek container-fluid flex-grow-1 d-flex align-items-center">
         <div class="player-time" data-target="player.currentTime">00:00:00</div>
         <div class="podcast-player-seek flex-grow-1 mx-3 d-flex align-items-center">
           <input
@@ -73,6 +73,10 @@
             data-action="input->player#volumeChanging change->player#volumeChange"
           >
         </div>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center player-rate">
+        <button class="btn btn-link" data-action="player#togglePlaybackRate" data-target="player.rate">1x</button>
       </div>
 
       <button class="player-close btn btn-link ml-md-3" data-action="player#close">

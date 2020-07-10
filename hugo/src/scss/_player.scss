@@ -105,30 +105,44 @@ $podcast-player-cover-margin: .5rem;
   min-width: $podcast-player-cover-size;
   margin: $podcast-player-cover-margin 0;
 }
+.player-rate {
+  min-width: 60px;
+  text-align: center;
+}
 @include media-breakpoint-down('sm') {
-  .player-number {
-    font-size: 1em;
-  }
   .podcast-player {
-    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 36px 48px auto 48px 36px;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "seek seek seek seek seek"
+      "cover number playback speed close";
     padding-bottom: .3rem;
   }
-  .player-playback {
-    position: absolute;
-    z-index: 10;
-    left: 0;
-    right: 0;
-    top: 0;
+  .player-seek {
+    grid-area: seek;
     height: 2rem;
+    padding: 0;
+  }
+  .podcast-player-cover {
+    grid-area: cover;
+    margin: 0;
+  }
+  .player-number {
+    grid-area: number;
+    font-size: 1em;
+  }
+  .player-playback {
+    grid-area: playback;
+  }
+  .player-rate {
+    grid-area: speed;
   }
   .player-close {
-    margin-left: 2.5rem; // try to center controls
+    grid-area: close;
   }
   .player-time {
     font-size: $smaller-font-size;
-  }
-  .podcast-player-cover {
-    margin: 0;
   }
   .podcast-player-volumeLevel {
     display: none !important;
