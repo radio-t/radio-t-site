@@ -4,20 +4,6 @@ import Controller from '../base_controller';
 import { composeTime, getLocalStorage, parseTime, updateLocalStorage } from '../utils';
 import { Events } from '../events';
 
-function* rateGenerator(initialRate) {
-  let rate = initialRate;
-
-  while (true) {
-    if (rate >= 2) {
-      rate = 0.25;
-    }
-
-    rate += 0.25;
-
-    yield rate;
-  }
-}
-
 /**
  * @property {Audio} audioTarget
  */
@@ -138,7 +124,6 @@ export default class extends Controller {
       this.numberTarget.textContent = detail.number;
       this.audioTarget.load();
       this.rateTarget.textContent = this.audioTarget.playbackRate + 'x';
-      this.rateController = rateGenerator(this.audioTarget.playbackRate);
       if (!detail.online) {
         if (!detail.timeLabel) {
           const podcast = getLocalStorage('podcasts', podcasts => podcasts[this.numberTarget.innerText]);
@@ -283,7 +268,11 @@ export default class extends Controller {
   }
 
   togglePlaybackRate() {
-    const rate = this.rateController.next().value;
+    let rate = this.audioTarget.playbackRate + 0.25;
+
+    if (rate > 2) {
+      rate = 0.5;
+    }
 
     this.audioTarget.playbackRate = rate;
     this.rateTarget.innerText = rate + 'x';
