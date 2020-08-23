@@ -13,7 +13,7 @@ image = "https://radio-t.com/images/radio-t/rt300.jpg"
 * [Open source](http://radar.oreilly.com/2012/07/open-source-won.html) победил всех
 * Вина и самобичевание против [производительности труда](http://www.hanselman.com/blog/ProductivityVsGuiltAndSelfLoathing.aspx)
 * Microsoft [сделали невероятное](http://gizmodo.com/5930358/microsoft-did-the-impossible-the-new-hotmail-is-fantastic)
-* Фромальная, нo удобная модель [Git-flow и HG-flow](http://blog.sourcetreeapp.com/2012/08/01/smart-branching-with-sourcetree-and-git-flow/)
+* Формальная, нo удобная модель [Git-flow и HG-flow](http://blog.sourcetreeapp.com/2012/08/01/smart-branching-with-sourcetree-and-git-flow/)
 * Почему TCP отстой [а HTTP](http://ayende.com/blog/157282/why-tcp-is-evil-and-http-is-king?key=e3ca0477-7b77-4695-b3b6-788e857003ce) наше все
 * [Раздача подарков](http://www.radio-t.com/p/2012/08/04/podarki-k-iubilieiu/) в процессе подкаста и после подкаста
 

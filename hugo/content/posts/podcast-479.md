@@ -16,7 +16,7 @@ filename = "rt_podcast479"
 - [Безумная идея stackexchange](http://meta.stackexchange.com/questions/272956/a-new-code-license-the-mit-this-time-with-attribution-required?cb=1).
 - [Вся правда о Яндекс.Браузере](http://gaskarov.com/yabrowser/).
 - [Дорогой github](https://github.com/dear-github/dear-github)...
-- [Подробности перезда Python на GitHub](http://www.snarky.ca/the-history-behind-the-decision-to-move-python-to-github).
+- [Подробности переезда Python на GitHub](http://www.snarky.ca/the-history-behind-the-decision-to-move-python-to-github).
 - [Новые Scheduled RI](https://aws.amazon.com/blogs/aws/new-scheduled-reserved-instances/?sc_channel=em).
 - [PaaS мертв или мертв](http://blog.fortrabbit.com/cloudscapes-rerevisited)?
 - Темы наших слушателей

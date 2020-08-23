@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt290.jpeg"
 - [Все](http://www.edutopia.org/literacy-computer-programming) обязаны программировать!
 - Прошлый пункт это полная [дичь](http://www.codinghorror.com/blog/2012/05/please-dont-learn-to-code.html)
 - [Bootstrap 2.0](https://dev.twitter.com/blog/say-hello-to-bootstrap-2) и куда его вообще
-- Странцы [распухли](http://www.webperformancetoday.com/2012/05/24/average-web-page-size-1-mb/) до 1 MB
+- Страницы [распухли](http://www.webperformancetoday.com/2012/05/24/average-web-page-size-1-mb/) до 1 MB
 - [ownCloud](http://www.readwriteweb.com/cloud/2012/05/owncloud-growing-into-its-own-with-versioning-apis-and-collaboration.php) растет и развивается
 - Зачем вам нужна [Private beta](http://andrewdumont.me/an-argument-for-private-beta)
 - [Кук](http://tech.fortune.cnn.com/2012/05/24/apple-tim-cook-ceo/) обижает наших

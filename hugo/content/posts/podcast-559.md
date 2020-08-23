@@ -14,7 +14,7 @@ filename = "rt_podcast559"
 - [Skype Preview для десктопов](https://blogs.skype.com/news/2017/08/17/hello-desktops-meet-skype-preview/) - *00:19:28*.
 - [Newton для email](https://www.engadget.com/2017/08/17/newton-email-app-windows-launch/) - *00:36:04*.
 - [Firefox Focus](https://blog.mozilla.org/firefox/lightweight-browser-focus-does-less-which-is-much-more/) - *00:53:14*.
-- [Следущий Apple Watch](http://mashable.com/2017/08/14/apple-watch-3-must-have/) - *00:58:55*.
+- [Следующий Apple Watch](http://mashable.com/2017/08/14/apple-watch-3-must-have/) - *00:58:55*.
 - [AWS Glue — ETL Service](https://aws.amazon.com/glue/) - *01:15:21*.
 - [MongoDB готовится к IPO](https://techcrunch.com/2017/08/15/database-provider-mongodb-has-filed-confidentially-for-ipo/) - *01:27:09*.
 - [AWS запускает Macie с ML/AI](http://www.zdnet.com/article/aws-launches-data-security-service-called-macie-with-machine-learning/) - *01:31:26*.

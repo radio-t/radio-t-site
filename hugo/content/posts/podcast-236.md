@@ -15,7 +15,7 @@ image = "https://radio-t.com/images/radio-t/rt236.jpg"
 - Samsung [против ](http://itc.ua/news/otvetnyj_isk_samsung_protiv_apple_ne_zastavil_sebya_zhdat_53122)Apple
 - [Они ](http://mashable.com/2011/04/20/iphone-location-history/)следят за нами, и не только эти
 - [Все ](http://www.cnews.ru/news/top/index.shtml?2011/04/20/437360)ненавидят яблоки
-- Одноклассники [прийдут ](http://itc.ua/news/_odnoklassniki_i_vkontakte_mogut_obedinit_53108?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:%20itc_)в контакт
+- Одноклассники [придут ](http://itc.ua/news/_odnoklassniki_i_vkontakte_mogut_obedinit_53108?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:%20itc_)в контакт
 - ЖЖ теперь не ЖЖ, а [наоборот](http://www.gzt.ru/topnews/hitech/-rukovodstvo-livejournal-zapretilo-nazyvatj-ego-/358133.html?from=reader)
 - [Dropbox ](http://www.tuaw.com/2011/04/19/dropbox-under-fire-for-security-concerns/)нас всех сдал. Все 25 миллионов
 - Вот и [убийца ](http://arstechnica.com/open-source/news/2011/04/the-rationale-for-ceylon-red-hats-new-programming-language.ars)Java. Лет через 10

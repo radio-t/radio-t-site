@@ -13,7 +13,7 @@ image = "https://radio-t.com/images/radio-t/rt280.jpg"
 - Яндекс.[Навигатор](http://habrahabr.ru/blogs/yandex/139854/) — вполне неплохо, хотя...
 - Дороги России с участием [Google](http://habrahabr.ru/post/140022/#habracut)
 - В [Китае](http://kp.ru/daily/25851.4/2820855/) ввели паспортный интернет
-- [Posterous](http://www.engadget.com/2012/03/12/twitter-snatches-up-posterous/) захвчен злобным Twitter
+- [Posterous](http://www.engadget.com/2012/03/12/twitter-snatches-up-posterous/) захвачен злобным Twitter
 - Из Google одни [уходят](http://habrahabr.ru/post/140070/#habracut), а другие [приходят](http://allthingsd.com/20120315/exclusive-kevin-rose-will-join-google/)
 - [Семантический](http://www.readwriteweb.com/archives/google_semantic_search_bad_for_seo_good_for_you.php) поиск?
 - O легализации [торрентов](http://habrahabr.ru/post/140080/)

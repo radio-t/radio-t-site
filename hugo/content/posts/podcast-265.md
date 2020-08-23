@@ -16,7 +16,7 @@ image = "https://radio-t.com/images/radio-t/rt265.jpg"
 - 144-ядерный процессор Чарльза Мура
 - Apple’s Siri против Microsoft’s Tellme
 - Western Digital купит немного Hitachi
-- Из офлайн мира в онлайн через Twine
+- Из оффлайн мира в онлайн через Twine
 - 16 подарочков для гиков
 - iPad3 точно будет
 - Темы наших слушателей

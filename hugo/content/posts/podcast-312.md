@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt312.jpg"
 * Что  такое [Apple Fusion Drive?](http://allthingsd.com/20121023/so-what-the-heck-is-an-apple-fusion-drive-anyway/)
 * [Amazon радуется](http://allthingsd.com/20121026/amazon-says-kindle-withstood-ipad-mini-assault/) выходу iPad mini
 * [Microsoft радует](http://www.economist.com/news/business/21565225-microsoft-makes-its-pitch-mobile-age-tablets-high)
-* Как там, в [паралельной вселенной](http://www.marco.org/2012/10/26/an-alternate-universe)
+* Как там, в [параллельной вселенной](http://www.marco.org/2012/10/26/an-alternate-universe)
 * [Microsoft подкупает очередь](http://www.mactrast.com/2012/10/microsoft-bribes-people-to-stand-in-line-for-surface-tablets/)
 * Проблемы [Amazon уложили половину инернета](http://gigaom.com/cloud/amazon-problems-take-down-reddit-other-sites/)
 * [Google положил](http://techcrunch.com/2012/10/26/google-app-engine-down-with-major-service-disruption-as-dropbox-and-tumblr-also-suffer/) вторую половину

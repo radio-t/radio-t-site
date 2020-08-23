@@ -7,7 +7,7 @@ filename = "rt_podcast11"
 +++
 
 - Портативный DVD [плеер](http://mobbit.info/item/2025) c разъёмом для iPod
-- Hon Hai будет произволить новые ноутбуки и iPhone
+- Hon Hai будет производить новые ноутбуки и iPhone
 - Визуальная [фотосреда](http://labs.live.com/photosynth/) от Microsoft
 - Линукс ворует нашу собственность (MS, С.Баллмер)
 - Открытие Java

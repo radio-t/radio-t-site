@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt303.jpg"
 * Очень привлекательный [Amazon Glacier](http://www.backupcentral.com/mr-backup-blog-mainmenu-47/13-mr-backup-blog/404-amazon-glacier-release.html)
 * [Samsung Galaxy Note 10.1](http://www.androidpolice.com/2012/08/21/samsung-galaxy-note-10-1-review-an-embarrassing-lazy-arrogant-money-grab/) уныл совершенно
 * [Samsung открыл](http://www.smh.com.au/digital-life/digital-life-news/store-wars-samsung-apple-gadgets-at-10-paces-20120823-24njn.html) Apple store
-* Продвижение [GTD](http://habrahabr.ru/post/149878/) и адатация под реалии
+* Продвижение [GTD](http://habrahabr.ru/post/149878/) и адаптация под реалии
 * [Sex индустрия](http://gizmodo.com/5935201/the-internet-is-terrible-for-the-sex-industry-no-really) страдает от интернетов
 * Все не так c [null pointers](http://beust.com/weblog/2012/08/19/a-note-on-null-pointers/)
 

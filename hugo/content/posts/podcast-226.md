@@ -11,7 +11,7 @@ image = "https://radio-t.com/images/radio-t/rt226.jpg"
 
 - HP и ее [новинки](http://habrahabr.ru/blogs/hardware/113483/). Это радует
 - Nokia и ее [новости](http://arstechnica.com/gadgets/news/2011/02/nokia-ceo-company-must-jump-from-burning-platform.ars). Это расстраивает
-- Google и перводчик. Это восхищает
+- Google и переводчик. Это восхищает
 
 * Много, много телефонно-мобильных разговоров.
 

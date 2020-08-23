@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt193.jpg"
 - [Helios](http://www.opennet.ru/opennews/art.shtml?num=27073) хорош и ярок
 - [Планшеты](http://hard.compulenta.ru/540441/) с Windows 7 уже пугают
 - Твитер, [инженеры](http://habrahabr.ru/blogs/twitter/97131/) и [скорость](http://mashable.com/2010/06/25/tps-record/)
-- Удивительный [Pandigital](http://www.engadget.com/2010/06/25/pandigital-novel-preview/) Novel
+- Удивительный [Pandigital](http://www.engadget.com/2010/06/25/pandigital-novel-preview/) Novell
 - [Google Voice](http://www.readwriteweb.com/archives/google_voice_is_now_open_for_everyone.php) для всех, кому надо
 - Скоро откроют [взрослый](http://www.crunchgear.com/2010/06/25/the-internet-is-for-xxx-top-level-domain-gets-initial-approval/) domain
 - Хакер-извращенец [терроризирует](http://www.switched.com/2010/06/23/man-charged-with-extortion-remotely-hacked-into-computers-for-ho/) блондинку

@@ -11,7 +11,7 @@ filename = "rt_podcast354"
 
 * [Ballmer уходит](http://www.nytimes.com/2013/08/24/technology/ballmer-announces-retirement-from-microsoft.html)
 * В чем [корень проблем Apple](http://venturebeat.com/2013/08/23/the-core-of-apples-problem-is-tim-cook-scoble-says/)
-* [Yahoo обогнал Google](http://habrahabr.ru/post/190998/)  по генерируемому траффику в США
+* [Yahoo обогнал Google](http://habrahabr.ru/post/190998/) по генерируемому трафику в США
 * Что гики [делают с детьми](http://lifehacker.com/5974087/i-raised-my-kids-on-the-command-lineand-they-love-it)
 * Очередное [свидетельство проблем](http://gigaom.com/2013/08/23/microsoft-reportedly-cutting-surface-touch-cover-prices-to-79/) в MicroSoft
 * [SourceForge пал низко](http://www.gluster.org/2013/08/how-far-the-once-mighty-sourceforge-has-fallen/)

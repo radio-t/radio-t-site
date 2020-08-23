@@ -10,7 +10,7 @@ image = "https://radio-t.com/images/radio-t/rt224.gif"
 ![](https://radio-t.com/images/radio-t/rt224.gif)
 
 - 15000 день unix [эпохи](http://habrahabr.ru/blogs/nix/112532/). Надо праздновать
-- Oracle черз год бесчинств
+- Oracle через год бесчинств
 - Что новенького в мобильном мире
 - Data Privacy [Day](http://www.readwriteweb.com/archives/how_5_big_companies_are_marking_data_privacy_day.php), а Google [фильтрует](http://internet.cnews.ru/news/line/index.shtml?2011/01/27/424964)
 - Взлом серверов [SourceForge](http://www.opennet.ru/opennews/art.shtml?num=29410)

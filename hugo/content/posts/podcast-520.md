@@ -10,7 +10,7 @@ filename = "rt_podcast520"
 ![](https://radio-t.com/images/radio-t/rt520.jpg)
 
 - [Vim отмечает 25 лет](https://opensource.com/life/16/11/happy-birthday-vim-25) - *00:18:10*.
-- [Goolge обидел Go тусовку](https://hackernoon.com/gos-alias-proposal-and-all-my-concerns-of-google-controlling-go-a39f6c6046aa?gi=6b6d3f10700d) - *00:29:48*.
+- [Google обидел Go тусовку](https://hackernoon.com/gos-alias-proposal-and-all-my-concerns-of-google-controlling-go-a39f6c6046aa?gi=6b6d3f10700d) - *00:29:48*.
 - [Keygen — невнятный продукт для понятных проблем](https://keygen.sh/) - *00:39:06*.
 - [Ужас Docker в прoдaкшен](https://thehftguy.wordpress.com/2016/11/01/docker-in-production-an-history-of-failure/) - *00:47:10*.
 - [Что такое FlyWeb](https://flyweb.github.io/posts/2016/11/01/introducing-flyweb.html) - *01:22:17*.

@@ -11,7 +11,7 @@ filename = "rt_podcast473"
 
 - [Let's Encrypt — SSL для всех, но не для каждого](http://boingboing.net/2015/12/03/lets-encrypt-enters-public-b.html).
 - [IPFS](http://ipfs.io/).
-- [Swift теперь OpenSOurce продукт](https://swift.org/blog/welcome/).
+- [Swift теперь OpenSource продукт](https://swift.org/blog/welcome/).
 - [За и против ORM](http://martinfowler.com/bliki/OrmHate.html).
 - [Проблема эллитизма среди программистов](http://social.techcrunch.com/2015/11/27/software-developers-growing-elitism-problem/).
 - [Компания Microsoft открыла код DMTK](http://www.opennet.ru/opennews/art.shtml?num=43323).

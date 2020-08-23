@@ -10,7 +10,7 @@ image = "https://radio-t.com/images/radio-t/rt171.jpg"
 ![](https://radio-t.com/images/radio-t/rt171.jpg)
 
 - Вся [правда ](http://www.appleinsider.com/articles/10/01/19/apples_tablet_announcement_games_could_be_a_focus_music_unlikely.html)о мероприятии Apple
-- GDrive родилa [мышь](http://habrahabr.ru/blogs/google/81524/)
+- GDrive родила [мышь](http://habrahabr.ru/blogs/google/81524/)
 - [Новый FF](http://www.computerworld.com/s/article/9147539/Review_Firefox_3.6_adds_speed_and_Personas_but_is_it_enough_?taxonomyId=18) быстрее и попсовее чем старый
 - Интернету больше [нельзя ](http://itc.ua/node/43756)верить
 - Английские [менеджеры ](http://business.compulenta.ru/497690/)не понимают

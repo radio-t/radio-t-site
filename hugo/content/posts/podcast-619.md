@@ -13,7 +13,7 @@ filename = "rt_podcast619"
 - [Чо посшло не так с Google+](https://www.engadget.com/2018/10/12/goodbye-google-plus-you-beautiful-squandered-opportunity/) - *00:09:12*.
 - [Firefox убрал поддержку RSS/Atom](https://www.gijsk.com/blog/2018/10/firefox-removes-core-product-support-for-rss-atom-feeds/) - *00:25:47*.
 - [Отучить VSCode от плохих привычек](https://code.visualstudio.com/docs/supporting/faq) - *00:39:18*.
-- [Amazon разработал сексисткий AI](https://www.theverge.com/2018/10/10/17958784/ai-recruiting-tool-bias-amazon-report) - *01:02:55*.
+- [Amazon разработал сексистский AI](https://www.theverge.com/2018/10/10/17958784/ai-recruiting-tool-bias-amazon-report) - *01:02:55*.
 - [12 факторов для CLI](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46) - *01:14:13*.
 - Темы наших слушателей
 

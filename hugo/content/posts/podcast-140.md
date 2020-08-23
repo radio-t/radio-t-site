@@ -16,7 +16,7 @@ image = "https://radio-t.com/images/radio-t/rt140.jpg"
 - [Снежный барс](http://macradar.ru/events/wwdc-2009-1/) еще не прыгнул
 - Google сделает [Exchange](http://www.infoq.com/news/2009/06/Google-App-Outlook-Plug-in) без Exchange
 - [WordPress 2.8](http://habrahabr.ru/blogs/wordpress/61850/) уже тут
-- Конец [аналоговoго ](http://culture.compulenta.ru/432636/)ТВ в отдельно взятой стране
+- Конец [аналогового](http://culture.compulenta.ru/432636/) ТВ в отдельно взятой стране
 - [Яндекс](http://internetno.net/2009/06/10/narod/) лицом к “народу”
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast140.mp3)

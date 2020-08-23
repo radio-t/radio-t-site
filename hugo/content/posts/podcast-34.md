@@ -10,7 +10,7 @@ image = "https://radio-t.com/images/radio-t/rt34.jpg"
 ![](https://radio-t.com/images/radio-t/rt34.jpg)
 
 - Смертельный номер — прямой эфир
-- Joost на подьеме, а Digg под ударом
+- Joost на подъеме, а Digg под ударом
 - Версионная FS: Ext3cow
 - Приятные открывания (MySQL utils от Google, Core CLR от MS и FLEX от Adobe)
 - Перспективы новых дисплеев в MacBook Pro

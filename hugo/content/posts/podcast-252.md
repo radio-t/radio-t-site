@@ -11,7 +11,7 @@ image = "https://radio-t.com/images/radio-t/rt252.jpg"
 
 - Стив Джобс [покинул](http://habrahabr.ru/blogs/apple/127024/) должность CEO
 - Чем хорош [Tim Cook](http://www.wired.com/epicenter/2011/08/why-tim-cook/)
--  [Plastic Logic](http://www.engadget.com/2011/08/23/plastic-logic-granted-a-second-life-scores-trial-in-russian-sch/) спасен
+- [Plastic Logic](http://www.engadget.com/2011/08/23/plastic-logic-granted-a-second-life-scores-trial-in-russian-sch/) спасен
 - Яндекс [купил](http://thenextweb.com/eu/2011/08/26/russian-search-giant-yandex-acquires-twitter-powered-news-startup-in-social-push/?awesm=tnw.) немного социальщины
 - [FB](http://techcrunch.com/2011/08/23/facebooks-massive-kitchen-sink-update-photo-tag-approvals-and-so-much-more/) улучшил много чего незаметного
 - Oracle [купит](http://www.forbes.com/sites/ericsavitz/2011/08/22/thinking-the-unthinkable-is-oracle-considering-buying-hp/) HP?
