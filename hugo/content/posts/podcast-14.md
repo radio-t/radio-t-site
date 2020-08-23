@@ -13,7 +13,7 @@ filename = "rt_podcast14"
 - Самые последние и самые достоверные слухи О ...
 - Zune и UMG
 - Грамотная активация висты "особым" образом
-- Oбзор [гаджетов](http://crunchgear.com/2006/12/05/crunchgears-best-of-2006/)
+- Обзор [гаджетов](http://crunchgear.com/2006/12/05/crunchgears-best-of-2006/)
 
 [аудио](https://cdn.radio-t.com/rt_podcast14.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast14.mp3" preload="none"></audio>

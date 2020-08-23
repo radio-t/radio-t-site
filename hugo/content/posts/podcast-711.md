@@ -14,7 +14,7 @@ filename = "rt_podcast711"
 - [VPN хранящий все интимные детали](https://www.comparitech.com/blog/vpn-privacy/ufo-vpn-data-exposure/) - *00:33:18*.
 - [Microsoft починили Windows DNS Server](https://www.cyberscoop.com/microsoft-dns-patch-check-point-july-2020/) - *00:42:50*.
 - [Как в Яндексе развивался Python](https://habr.com/ru/company/yandex/blog/509352/) - *00:47:05*.
-- [Устройсвто для видео-звонков за $599](https://www.cnbc.com/2020/07/15/zoom-expands-into-hardware-with-599-video-chat-device.html) - *01:13:22*.
+- [Устройство для видео-звонков за $599](https://www.cnbc.com/2020/07/15/zoom-expands-into-hardware-with-599-video-chat-device.html) - *01:13:22*.
 - [Программисты-бездельники атакуют](https://www.mrlacey.com/2020/07/youve-only-added-two-lines-why-did-that.html) - *01:23:47*.
 - [Темы слушателей](https://radio-t.com/p/2020/07/14/prep-711/) - *01:47:05*.
 

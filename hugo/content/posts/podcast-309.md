@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt309.jpg"
 * Переход из [Erlang в Python](http://code.mixpanel.com/2011/08/05/how-and-why-we-switched-from-erlang-to-python/)
 * [Travis-CI — Continuous Integration Server](http://meri-stuff.blogspot.sk/2012/10/travis-ci-continuous-integration-server.html?m=1) для любителей github
 * Как не надо организовывать [Source Control](http://www.readability.com/articles/mjreucfy)
-* Microsoft показaли нам [TypeScript](http://www.readability.com/articles/w1osrrfx)
+* Microsoft показали нам [TypeScript](http://www.readability.com/articles/w1osrrfx)
 * [Immutability против Thread Safety?](http://java.dzone.com/articles/do-immutability-really-means)
 * [JavaOne новости](http://jaxenter.com/roundup-java-news-from-javaone-44845.html)
 

@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt297.jpg"
 * Взлом [Formspring](http://habrahabr.ru/post/147593/)
 * Фильтрация рунета [одобрена Госдумой](http://hi-tech.mail.ru/news/misc/runet_filtration.html)
 * [Digg всего за $500,000](http://gizmodo.com/5925586/digg-sells-itself-for-pathetic-pocketchange-500000)
-* Смелый русский хаккер против [iOS in-app покупок](http://www.macworld.com/article/1167677/hacker_exploits_ios_flaw_for_free_in_app_purchases.html)
+* Смелый русский хакер против [iOS in-app покупок](http://www.macworld.com/article/1167677/hacker_exploits_ios_flaw_for_free_in_app_purchases.html)
 * Британский судья [оценил iPad](http://habrahabr.ru/post/147425/)
 * Github [получает инвестиции](http://habrahabr.ru/post/147464/)
 * Построим наш [открытый Twitter](http://gigaom.com/2012/07/04/we-could-build-an-open-twitter-but-would-anyone-use-it/)

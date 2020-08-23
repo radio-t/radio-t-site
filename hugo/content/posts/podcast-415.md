@@ -11,7 +11,7 @@ filename = "rt_podcast415"
 
 * [10 лет Ubuntu](http://arstechnica.com/information-technology/2014/10/ten-years-of-ubuntu-how-linuxs-beloved-newcomer-became-its-criticized-king)
 * [Ubuntu 14.10](http://prsm.tc/s1aysS)
-* [Aнонсы облака Microsoft Azure](http://habrahabr.ru/company/microsoft/blog/241261/)
+* [Анонсы облака Microsoft Azure](http://habrahabr.ru/company/microsoft/blog/241261/)
 * [Как бороться за свои авторские права](http://www.csoonline.com/article/2837851/supply-chain-security/chipmaker-deliberately-cripples-user-devices-with-driver-update.h)
 * [Новость о Twitpic](http://blog.twitpic.com/2014/10/twitpics-future/)
 * [Twitter опять хочет дружить](http://www.marco.org/2014/10/20/wsj-twitter-peace-offering)

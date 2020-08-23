@@ -9,7 +9,7 @@ filename = "rt_podcast323"
 
 ![](https://radio-t.com/images/radio-t/rt323.jpg)
 
-* [Apple Safari](http://www.tuaw.com/2013/01/07/apple-safari-is-10-years-old-today/) с намии уже 10 лет
+* [Apple Safari](http://www.tuaw.com/2013/01/07/apple-safari-is-10-years-old-today/) с нами уже 10 лет
 * Да, [Джобс был прав](http://www.tuaw.com/2013/01/09/tablets-overtake-laptops-just-as-steve-jobs-predicted/)
 * [Pebble](http://www.technologyreview.com/view/509791/pebble-a-transitional-form-of-wearable-computer/) не для каждой руки
 * [BitTorrent Certified](http://arstechnica.com/business/2013/01/android-bittorrent-certified-box-wants-to-bring-torrents-to-your-tv/) для каждого ТВ

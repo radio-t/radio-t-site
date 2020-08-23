@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt213.png"
 - [Ask.com](http://mashable.com/2010/11/09/ask-com-shut-down/) больше не ищет
 - [Домен РФ](http://habrahabr.ru/blogs/domains/108057/) для всех
 - [Instant Preview](http://internetno.net/2010/11/10/google-uskoryaet-poisk-za-schet-instant-preview/), за и против
-- Коллеция для разработчиков от [Яндекс](http://www.opennet.ru/opennews/art.shtml?num=28625)
+- Коллекция для разработчиков от [Яндекс](http://www.opennet.ru/opennews/art.shtml?num=28625)
 - Гугл порадовал своих [гуглеров](http://internetno.net/2010/11/12/google-zabrosaet-svoih-sotrudnikov-premiyami-iz-za-hanterstva-facebook/)
 - [Facebook](http://www.switched.com/2010/11/12/facebook-email-gmail-killer-titan-launch/) запустит нечто
 - [RockMelt](http://www.opennet.ru/opennews/art.shtml?num=28572) социальный хром с вкусом netscape

@@ -15,9 +15,9 @@ image = "https://radio-t.com/images/radio-t/rt131.jpg"
 - Еще одна веха [BlackBerry](http://www.engadget.com/2009/04/03/rim-sells-its-50-millionth-blackberry-surprises-even-itself-wit/)
 - Секретный [сервер](http://news.cnet.com/8301-1001_3-10209580-92.html) Гугла
 - [Twitter](http://webplanet.ru/news/advert/2009/04/04/twitter_google.html) с улучшенным поиском за недорого
-- [Skype](http://net.compulenta.ru/414980/) для iPhone: первые впечателния
+- [Skype](http://net.compulenta.ru/414980/) для iPhone: первые впечатления
 - Сокращаем [ссылки](http://habrahabr.ru/blogs/startup/56001/) всего за $2М
-- Повторямость [кода](http://www.opennet.ru/opennews/art.shtml?num=21002) в OSS
+- Повторяемость [кода](http://www.opennet.ru/opennews/art.shtml?num=21002) в OSS
 - Позорная новость о [Chrome](http://digg.com/d1nVco)
 - На подходе [офис](http://soft.compulenta.ru/416040/) для iPhone
 - Вспоминая традиции: числительные [отмазки](http://savasplace.com/2008/10/20-things-programmers-say-when-something-is-not-working/)

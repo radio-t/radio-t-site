@@ -11,7 +11,7 @@ image = "https://radio-t.com/images/radio-t/rt119.jpg"
 
 - Главная новость от [Apple](http://www.mobile-review.com/fullnews/main/2009/January/07.shtml#22631)
 - Вторая главная новость от [Palm](http://habrahabr.ru/blogs/palm/48616/)
-- [Лучше](http://www.techcrunch.com/2009/01/08/tweetvisor-a-contender-for-best-alternate-twitter-interface/) чем твитер ?
+- [Лучше](http://www.techcrunch.com/2009/01/08/tweetvisor-a-contender-for-best-alternate-twitter-interface/) чем твитер?
 - Массовое [самоубийство](http://gizmodo.com/5121311/30gb-zunes-failing-everywhere-all-at-once) под НГ
 - Мелкие, но славные новинки от [Sony](http://hitech.tomsk.ru/newsmobile/11116-novyjj-8mi-djujjmovyjj-noutbuk-ot-sony.html) и [Dell](http://www.engadget.com/2009/01/09/dell-launches-mini-10/)
 - Слухи о [многих](http://www.macrumors.com/2009/01/08/new-multi-core-iphone-with-firmware-3-0/) телефонных ядрах

@@ -9,7 +9,7 @@ image = "https://radio-t.com/images/radio-t/rt134.png"
 
 ![](https://radio-t.com/images/radio-t/rt134.png)
 
-- Новость недели! Оracle [поглощает](http://www.macrumors.com/2009/04/21/oracle-to-acquire-sun-for-7-4-billion/) Sun
+- Новость недели! Oracle [поглощает](http://www.macrumors.com/2009/04/21/oracle-to-acquire-sun-for-7-4-billion/) Sun
 - Выход [Ubuntu 9.04](http://soft.compulenta.ru/421880/), Jaunty Jackalope
 - У [ФСБ](http://webplanet.ru/news/law/2009/04/24/radarix.html) длинные руки
 - Кризис дотянулся и до [GeoCities](http://webplanet.ru/news/service/2009/04/24/geocities_rip.html)

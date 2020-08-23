@@ -12,8 +12,8 @@ filename = "rt_podcast492"
 - [Ubuntu Server 16.04](https://habrahabr.ru/company/selectel/blog/282229/) - *00:00:02*.
 - [Snap не спасет](http://www.zdnet.com/article/linux-expert-matthew-garrett-ubuntu-16-04s-new-snap-format-is-a-security-risk/) - *00:14:42*.
 - [Apple 2016 MacBook](http://mashable.com/2016/04/22/apple-macbook-review-2016/) - *00:26:22*.
-- [Opera беплатным VPN](http://mashable.com/2016/04/21/opera-free-vpn/) - *00:50:25*.
-- [Стеклянные iphone на горизонте](http://www.cultofmac.com/423611/apple-may-ditch-aluminum-for-all-glass-iphone-casing-next-year/) - *01:01:08*.
+- [Opera с бесплатным VPN](http://mashable.com/2016/04/21/opera-free-vpn/) - *00:50:25*.
+- [Стеклянные iPhone на горизонте](http://www.cultofmac.com/423611/apple-may-ditch-aluminum-for-all-glass-iphone-casing-next-year/) - *01:01:08*.
 - [Facebook F8](http://techcrunch.com/gallery/everything-announced-at-facebooks-f8-conference-today/) - *01:04:14*.
 - [Kite — ваш второй пилот](https://kite.com/) - *01:19:35*.
 - [Let's Encrypt вышел в релиз](https://letsencrypt.org//2016/04/12/leaving-beta-new-sponsors.html) - *01:28:50*.

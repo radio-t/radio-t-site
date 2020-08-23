@@ -11,7 +11,7 @@ image = "https://radio-t.com/images/radio-t/rt100.jpg"
 
 [Лог чата](http://chat.radio-t.com/logs/radio-t-100.html)
 
-Спасибо macsyk за юбилейню картинку
+Спасибо macsyk за юбилейную картинку
 
 Сайт **[Пираты–РТ](http://pirate.radio-t.com/)**
 

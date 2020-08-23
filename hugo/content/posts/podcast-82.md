@@ -13,7 +13,7 @@ filename = "rt_podcast82"
 - Завлекательный, но бестолковый [EeePC](http://hard.compulenta.ru/354765/)
 - Apple по дешевке, почти [даром](http://hard.compulenta.ru/354429/) для всех
 - [Лицензирование пиратов](http://habrahabr.ru/blog/lenta/40118.html) по закону
-- Злобствования вокруг [кристалльного Dell](http://www.engadget.com/2008/04/18/dells-22-inch-crystal-lcd-monitor-gets-reviewed-panned/)
+- Злобствования вокруг [кристального Dell](http://www.engadget.com/2008/04/18/dells-22-inch-crystal-lcd-monitor-gets-reviewed-panned/)
 - [Камера с WiFi](http://itc.ua/node/31184) на борту и [гламурный ноутбук](http://www.engadget.com/2008/04/15/lenovos-ideapad-u110-coming-soon-to-the-us/)
 - [Темы](/p/2008/04/15/prep-82/) наших слушателей
 

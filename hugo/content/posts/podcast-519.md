@@ -10,7 +10,7 @@ filename = "rt_podcast519"
 ![](https://radio-t.com/images/radio-t/rt519.jpg)
 
 - [Apple придумали ТВ 21 века, но не совсем](http://fortune.com/2016/10/27/apple-tv-holes/) - *00:07:10*.
-- [Apple показалии новый MacBook Pro](https://techcrunch.com/2016/10/27/apples-macbook-pro-event-recap-2016/) - *00:14:40*.
+- [Apple показали новый MacBook Pro](https://techcrunch.com/2016/10/27/apples-macbook-pro-event-recap-2016/) - *00:14:40*.
 - [MacBook Pro больше не для нас](https://blog.devteam.space/new-macbook-pro-is-not-a-laptop-for-developers-anymore-d0d4b1b8b7de?gi=7d3054683958) - *00:46:55*.
 - [Что на показал Microsoft](https://techcrunch.com/gallery/everything-announced-at-microsofts-windows-10-and-surface-event/) - *01:08:08*.
 - [Pornhub и 6 секунд Vine](https://www.cnet.com/news/pornhub-offers-to-buy-vine-6-seconds-twitter-jack-dorsey/) - *02:16:31*.

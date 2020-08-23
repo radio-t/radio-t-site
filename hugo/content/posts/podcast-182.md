@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt182.jpg"
 ](http://www.appsafari.com/news/11295/iphone-os-40-features/) — Им лучше видно на чем нам писать
 - [Parallels](http://www.opennet.ru/opennews/art.shtml?num=26113) стала еще ближе к Linux
 - Пользователей [Ubuntu](http://www.opennet.ru/opennews/art.shtml?num=26144) посчитали
-- Голосованиe за [NoSQL](http://java.dzone.com/articles/nosql-dzone-poll-results)
+- Голосование за [NoSQL](http://java.dzone.com/articles/nosql-dzone-poll-results)
 
 [Аудио](https://archive.rucast.net/radio-t/media/rt_podcast182.mp3)
 [radio-t.torrent](http://www.radio-t.com/torrents/rt_podcast182.mp3.torrent)

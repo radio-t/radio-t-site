@@ -10,7 +10,7 @@ image = "https://radio-t.com/images/radio-t/rt317.jpg"
 ![](https://radio-t.com/images/radio-t/rt317.jpg)
 
 * [10 подарков](http://jaxenter.com/10-christmas-gift-ideas-for-developers-45677.html) для гиков
-* Библиотеки [не доллжны быть таким отстоем](http://akkartik.name/blog/libraries2)
+* Библиотеки [не должны быть таким отстоем](http://akkartik.name/blog/libraries2)
 * [Ninja IDE](http://ninja-ide.org/) не понравилась ведущим
 * Теневое IT [и как с этим бороться](http://www.mrc-productivity.com/blog/2012/11/3-ways-it-causes-shadow-it-and-how-to-fix-it/)
 * [20 жаргонных выражений](http://www.businessinsider.com/20-hilarious-programming-jargon-phrases-you-should-know-when-talking-to-engineers-2012-7) от гиков

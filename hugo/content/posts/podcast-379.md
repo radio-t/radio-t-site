@@ -11,7 +11,7 @@ filename = "rt_podcast379"
 
 * Взлет и падение [Flappy Bird](http://www.wired.co.uk/news/archive/2014-02/13/flappy-bird)
 * [Microsoft чинит Skype](http://www.theverge.com/2014/2/13/5407762/skype-message-sync-fixes-features)
-* Viber  продали [почти за инстагамм $](http://recode.net/2014/02/13/rakuten-buys-messaging-company-viber-for-900-million/)
+* Viber продали [почти за инстагамм $](http://recode.net/2014/02/13/rakuten-buys-messaging-company-viber-for-900-million/)
 * [400Gbps NTP Amplification DDoS Attack](http://blog.cloudflare.com/technical-details-behind-a-400gbps-ntp-amplification-ddos-attack)
 * [Facebook Paper](http://thenextweb.com/facebook/2014/02/13/10-days-facebook-paper-im-still-using/)
 * VMWare принесет Windows [в хромбуки](http://googleenterprise.blogspot.com/2014/02/vmware-to-bring-traditional-windows_12.html)
