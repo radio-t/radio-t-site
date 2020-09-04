@@ -45,7 +45,7 @@
     "mark.js": "^8.11.1",
     "modernizr": "^3.7.1",
     "modernizr-webpack-plugin": "^1.0.7",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "npm-check": "^5.9.0",
     "npm-run-all": "^4.1.5",
     "popmotion-pose": "^3.4.8",
