@@ -24,9 +24,9 @@ ssh umputun@master.radio-t.com "find /srv/master-node/var/media -type f -mtime +
 echo "run ansible tasks"
 ssh umputun@master.radio-t.com "docker exec -i ansible /srv/deploy_radiot.sh $episode"
 
-echo "copy to hp-usrv archives"
-echo "!notif: copy to hp-usrv (local) archives"
-scp -P 2222 $1 umputun@192.168.1.24:/data/archive.rucast.net/radio-t/media/
+echo "copy to nas archives"
+echo "!notif: copy to NAS archives"
+scp $1 umputun@nas.umputun.com:/Podcasts/radio-t/
 
 echo "upload to archive site"
 scp $1 umputun@master.radio-t.com:/data/archive/radio-t/media/${fname}
