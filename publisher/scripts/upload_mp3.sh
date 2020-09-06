@@ -26,7 +26,7 @@ ssh umputun@master.radio-t.com "docker exec -i ansible /srv/deploy_radiot.sh $ep
 
 echo "copy to nas archives"
 echo "!notif: copy to NAS archives"
-scp $1 umputun@nas.umputun.com:/Podcasts/radio-t/
+scp $1 umputun@nas.umputun.com:/Podcasts/radio-t/${fname}
 
 echo "upload to archive site"
 scp $1 umputun@master.radio-t.com:/data/archive/radio-t/media/${fname}
