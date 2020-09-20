@@ -15,7 +15,7 @@ filename = "rt_podcast720"
 - [Злобные менеджеры и их deadline](http://misc-stuff.terraaeon.com/articles/engineering-deadlines.html/) - *01:14:44*.
 - [Темы слушателей 720](https://radio-t.com/p/2020/09/16/prep-720/) - *02:10:39*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Veeam Software](http://vee.am/get-free-trial)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast720.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-720.html)
