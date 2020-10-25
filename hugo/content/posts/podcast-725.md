@@ -9,7 +9,7 @@ filename = "rt_podcast725"
 ![](https://radio-t.com/images/radio-t/rt725.jpg)
 
 - [RIAA и GitHub забанил youtube-dl](https://www.zdnet.com/article/riaa-blitz-takes-down-18-github-projects-used-for-downloading-youtube-videos/) - *00:01:42*.
-- [Сертификат от github](https://github.com/certifications) - *00:22:49*.
+- [Сертификат от GitHub](https://github.com/certifications) - *00:22:49*.
 - [Забудь о хобби проектах](https://manuel.darcemont.fr/posts/focus-on-jour-job/) - *00:42:39*.
 - [Технический долг совершенно недопустим](https://labcodes.com.br/blog/articles/tech-debt.html) - *00:54:37*.
 - [Очередной опрос разработчиков](https://www.theregister.com/2020/10/21/developer_survey_c_losing_ground/) - *01:03:34*.
