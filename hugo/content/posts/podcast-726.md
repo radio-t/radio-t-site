@@ -16,10 +16,9 @@ filename = "rt_podcast726"
 - [AMD Radeon RX 6000 порадовал фанатов](https://www.anandtech.com/show/16202/amd-reveals-the-radeon-rx-6000-series-rdna2-starts-at-the-highend-coming-november-18th) - *01:15:44*.
 - [Новые Google лого](https://social.techcrunch.com/2020/10/06/googles-new-logos-are-bad/) - *01:18:19*.
 - [Mailchimp в борьбе против неправильных писем](https://reclaimthenet.org/mailchimp-misinformation-censorship/) - *01:29:39*.
-- [Темы наших слушателей](https://radio-t.com/p/2020/10/27/prep-726/) - *02:01:31*.
+- [Темы наших слушателей](https://radio-t.com/p/2020/10/27/prep-726/) - *02:01:31*
 
 *Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
-
 
 [аудио](https://cdn.radio-t.com/rt_podcast726.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-726.html)
 <audio src="https://cdn.radio-t.com/rt_podcast726.mp3" preload="none"></audio>
