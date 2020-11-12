@@ -7,5 +7,5 @@
       <itunes:author><![CDATA[Umputun, Bobuk, Gray, Ksenks, Alek.sys]]></itunes:author>
       <itunes:summary></itunes:summary>
       <itunes:image href="{image}" />
-      <enclosure url="http://archive.rucast.net/radio-t/media/{filename}.mp3" type="audio/mp3" />
+      <enclosure url="https://archive.rucast.net/radio-t/media/{filename}.mp3" type="audio/mp3" />
     </item>
