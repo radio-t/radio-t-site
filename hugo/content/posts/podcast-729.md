@@ -8,7 +8,7 @@ filename = "rt_podcast729"
 
 ![](https://radio-t.com/images/radio-t/rt729.jpg)
 
-- [Можно ли сэкономить, набирая junior специалистов?) - *00:05:42*.
+- [Можно ли сэкономить, набирая junior специалистов?](https://m.habr.com/ru/post/528988/) - *00:05:42*.
 - [Apple предлагает скидки для маленьких](https://www.apple.com/newsroom/2020/11/apple-announces-app-store-small-business-program/) - *00:43:10*.
 - [Но это все обман](https://www.johnluxford.com/blog/apples-15-percent-deflection-tactic/) - *00:58:29*.
 - [AWS Network Firewall](https://aws.amazon.com/blogs/aws/aws-network-firewall-new-managed-firewall-service-in-vpc/) - *01:16:40*.
