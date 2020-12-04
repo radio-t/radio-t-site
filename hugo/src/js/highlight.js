@@ -1,4 +1,4 @@
-import hljs from 'highlight.js/lib/highlight';
+import hljs from 'highlight.js';
 import 'highlight.js/styles/atom-one-dark.css';
 
 const languages = {
