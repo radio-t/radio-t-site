@@ -1,5 +1,6 @@
 .navbar {
   font-size: 1rem;
+  white-space: nowrap;
   > .container-fluid,
   > .container {
     padding-left: $grid-gutter-width / 2;
@@ -8,6 +9,11 @@
 }
 .navbar-nav {
 }
+.navbar-toolbar {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 @include media-breakpoint-up('lg') {
   .navbar-nav {
     font-size: $small-font-size;
@@ -18,7 +24,7 @@
     }
     .nav-link {
       position: relative;
-      padding: ($spacer * 2) ($spacer / 3) !important;
+      padding: ($spacer * 2) ($spacer / 2) !important;
       &:after {
         content: '';
         position: absolute;
@@ -126,9 +132,6 @@
     .navbar-btn-search {
       font-size: 1.1rem;
     }
-  }
-  .navbar-toolbar {
-    display: flex;
   }
   .navbar-toggler-icon {}
   .navbar-collapse {
