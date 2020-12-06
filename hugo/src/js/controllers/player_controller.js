@@ -123,7 +123,7 @@ export default class extends Controller {
       this.coverTarget.classList.toggle('cover-image-online', !!detail.online);
       this.numberTarget.textContent = detail.number;
       this.audioTarget.load();
-      this.rateTarget.textContent = this.audioTarget.playbackRate + 'x';
+      this.rateTarget.textContent = this.audioTarget.playbackRate;
       if (!detail.online) {
         if (!detail.timeLabel) {
           const podcast = getLocalStorage('podcasts', podcasts => podcasts[this.numberTarget.innerText]);
@@ -275,6 +275,6 @@ export default class extends Controller {
     }
 
     this.audioTarget.playbackRate = rate;
-    this.rateTarget.innerText = rate + 'x';
+    this.rateTarget.innerText = rate;
   }
 }

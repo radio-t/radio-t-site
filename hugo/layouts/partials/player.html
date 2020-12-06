@@ -56,12 +56,12 @@
         <div class="player-time player-duration" data-target="player.duration"></div>
       </div>
 
-      <div class="d-flex align-items-center podcast-player-volumeLevel">
+      <div class="d-none d-md-flex align-items-center podcast-player-volumeLevel">
         <button class="btn btn-link" data-action="player#muteUnmute">
           <i class="fas fa-fw fa-volume-up" data-target="player.mute"></i>
           <i class="fas fa-fw fa-volume-off d-none" data-target="player.unmute"></i>
         </button>
-        <div class="mx-3 d-flex align-items-center">
+        <div class="mx-3 d-none d-lg-flex align-items-center">
           <input
             autocomplete="off"
             min="0"
@@ -76,10 +76,10 @@
       </div>
 
       <div class="d-flex align-items-center justify-content-center player-rate">
-        <button class="btn btn-link" data-action="player#togglePlaybackRate" data-target="player.rate">1x</button>
+        <button class="btn btn-link" data-action="player#togglePlaybackRate" data-target="player.rate">1</button>
       </div>
 
-      <button class="player-close btn btn-link ml-md-3" data-action="player#close">
+      <button class="player-close btn btn-link ml-lg-2" data-action="player#close">
         <i class="fas fa-fw fa-times"></i>
       </button>
 
