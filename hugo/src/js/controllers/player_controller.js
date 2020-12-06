@@ -25,7 +25,8 @@ export default class extends Controller {
     'link',
     'volumeLevel',
     'mute',
-    'unmute'
+    'unmute',
+    'rate'
   ];
 
   static getState() {
@@ -122,6 +123,7 @@ export default class extends Controller {
       this.coverTarget.classList.toggle('cover-image-online', !!detail.online);
       this.numberTarget.textContent = detail.number;
       this.audioTarget.load();
+      this.rateTarget.textContent = this.audioTarget.playbackRate;
       if (!detail.online) {
         if (!detail.timeLabel) {
           const podcast = getLocalStorage('podcasts', podcasts => podcasts[this.numberTarget.innerText]);
@@ -263,5 +265,16 @@ export default class extends Controller {
       this.storedVolumeLevel = this.volumeLevelTarget.value;
       this.volumeLevelTarget.value = 0;
     }
+  }
+
+  togglePlaybackRate() {
+    let rate = this.audioTarget.playbackRate + 0.25;
+
+    if (rate > 2) {
+      rate = 0.5;
+    }
+
+    this.audioTarget.playbackRate = rate;
+    this.rateTarget.innerText = rate;
   }
 }
