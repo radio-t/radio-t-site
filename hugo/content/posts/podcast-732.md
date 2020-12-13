@@ -8,7 +8,7 @@ filename = "rt_podcast732"
 
 ![](https://radio-t.com/images/radio-t/rt732.jpg)
 
-- Гость нам все пояснил про graphql - *02:14:22*.
+- Гость нам все пояснил про graphql - *00:01:22*.
 - [Apple показали наушники за $549](https://www.theverge.com/2020/12/8/21438042/apple-max-studio-noise-canceling-headphones-price-date?scrolla=5eb6d68b7fedc32c19ef33b4) - *00:54:07*.
 - [CentOS - похоже все](https://arstechnica.com/gadgets/2020/12/centos-shifts-from-red-hat-unbranded-to-red-hat-beta/) - *01:12:19*.
 - [Сколько надо GNU/Linux пользователей на вкручивание лампочки](https://www.gnu.org/fun/jokes/users-lightbulb.html) - *01:18:20*.
