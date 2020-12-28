@@ -17,7 +17,7 @@ filename = "rt_podcast621"
 - [Protobuffers — это неправильно](https://habr.com/post/427265/) - *01:34:55*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast621.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-621.html)

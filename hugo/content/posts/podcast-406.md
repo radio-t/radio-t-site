@@ -17,7 +17,7 @@ filename = "rt_podcast406"
 * [Google и Mesosphere](http://venturebeat.com/2014/08/18/google-cloud-adds-easy-installation-of-mesospheres-hot-management-software/).
 * [Microsoft показала Azure DocumentDB](http://gigaom.com/2014/08/21/microsoft-unveils-documentdb-a-nosql-database-built-for-azure/).
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast406.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-406.html)
 <audio src="https://cdn.radio-t.com/rt_podcast406.mp3" preload="none"></audio>

@@ -26,7 +26,7 @@ filename = "rt_podcast485"
 - [p-e-w/maybe](https://github.com/p-e-w/maybe) - *01:21:53*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast485.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-485.html)
 <audio src="https://cdn.radio-t.com/rt_podcast485.mp3" preload="none"></audio>

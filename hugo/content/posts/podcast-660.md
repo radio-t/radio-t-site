@@ -18,7 +18,7 @@ filename = "rt_podcast660"
 - [Редизайн твитера](https://techcrunch.com/2019/07/15/twitter-rolls-out-its-redesigned-desktop-website-with-simplified-navigation-more-features/) - *01:30:29*.
 - [Темы слушателей](https://radio-t.com/p/2019/07/23/prep-660/) - *01:38:46*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast660.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-660.html)

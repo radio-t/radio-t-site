@@ -16,7 +16,7 @@ filename = "rt_podcast670"
 - [Откуда взялись эти названия](https://opensource.com/article/19/10/open-source-name-origins) - *01:18:54*.
 - [Темы слушателей](https://radio-t.com/p/2019/10/01/prep-670/) - *01:38:41*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast670.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-670.html)

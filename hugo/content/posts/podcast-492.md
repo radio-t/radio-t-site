@@ -19,7 +19,7 @@ filename = "rt_podcast492"
 - [Let's Encrypt вышел в релиз](https://letsencrypt.org//2016/04/12/leaving-beta-new-sponsors.html) - *01:28:50*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast492.mp3) • [лог чата](https://gitter.im/umputun/radio-t/archives/2016/04/23)
 <audio src="https://cdn.radio-t.com/rt_podcast492.mp3" preload="none"></audio>

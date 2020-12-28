@@ -21,7 +21,7 @@ filename = "rt_podcast422"
 * [JetBrains Upsource ](http://blog.jetbrains.com/upsource/2014/12/09/jetbrains-upsource-1-0-is-released-available-for-purchase/)
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast422.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-422.html)
 <audio src="https://cdn.radio-t.com/rt_podcast422.mp3" preload="none"></audio>

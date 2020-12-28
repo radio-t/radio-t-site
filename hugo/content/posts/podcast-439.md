@@ -21,7 +21,7 @@ filename = "rt_podcast439"
 * [Google показал 4 хромбука и Chrome OS на палочке](http://www.linux.com/news/hardware/laptops/820930-google-unveils-4-new-chromebooks-and-chrome-os-on-a-stick/).
 - Темы наших слушателей.
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast439.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-439.html)
 <audio src="https://cdn.radio-t.com/rt_podcast439.mp3" preload="none"></audio>

@@ -17,7 +17,7 @@ filename = "rt_podcast447"
 * [Microsoft полюбит SSH](http://blogs.msdn.com/b/looking_forward_microsoft__support_for_secure_shell_ssh1/archive/2015/06/02/managing-looking-forward-mic).
 - Темы наших слушателей.
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast447.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-447.html)
 <audio src="https://cdn.radio-t.com/rt_podcast447.mp3" preload="none"></audio>

@@ -15,7 +15,7 @@ filename = "rt_podcast712"
 - [Примеры плохого поведения](https://medium.com/swlh/five-damaging-attitudes-in-software-development-71552d1d6e50) - *01:18:55*.
 - [Темы слушателей](https://radio-t.com/p/2020/07/21/prep-712/) - *01:44:15*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast712.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-712.html)

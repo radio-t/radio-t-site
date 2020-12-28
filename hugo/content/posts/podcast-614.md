@@ -18,7 +18,7 @@ filename = "rt_podcast614"
 - [Microsoft собирается радикально улучшить Skype](https://habr.com/post/422421/) - *01:48:48*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast614.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-614.html)

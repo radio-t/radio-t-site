@@ -19,7 +19,7 @@ filename = "rt_podcast417"
 * [Будем выбрасывать код часто и радостно](http://prsm.tc/JyILYp)
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com)  и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot)  и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast417.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-417.html)
 <audio src="https://cdn.radio-t.com/rt_podcast417.mp3" preload="none"></audio>

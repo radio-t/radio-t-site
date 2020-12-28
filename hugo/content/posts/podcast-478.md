@@ -23,7 +23,7 @@ filename = "rt_podcast478"
 - [Griffin вернет нам MagSafe](https://news.radio-t.com/post/the-griffin-breaksafe-brings-magsafe-back-to-the-macbook).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast478.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-478.html)
 <audio src="https://cdn.radio-t.com/rt_podcast478.mp3" preload="none"></audio>

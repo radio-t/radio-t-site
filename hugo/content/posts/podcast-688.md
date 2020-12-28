@@ -15,7 +15,7 @@ filename = "rt_podcast688"
 - [Почему Discord ушел из Go в Rust](https://blog.discordapp.com/why-discord-is-switching-from-go-to-rust-a190bbca2b1f?gi=db06ca518908) - *01:39:59*.
 - [Темы слушателей](https://radio-t.com/p/2020/02/04/prep-688/) - *01:51:26*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast688.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-688.html)

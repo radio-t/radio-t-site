@@ -16,7 +16,7 @@ filename = "rt_podcast470"
 * [То, чего не хватает для любви](http://thenextweb.com/insider/2015/11/14/review-satechis-usb-c-3-in-1-combo-for-macbook-is-the-hub-youre-looking-for/).
 - Темы наших слушателей.
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast470.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-470.html)
 <audio src="https://cdn.radio-t.com/rt_podcast470.mp3" preload="none"></audio>

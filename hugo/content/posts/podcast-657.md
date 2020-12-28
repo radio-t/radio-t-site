@@ -16,7 +16,7 @@ filename = "rt_podcast657"
 - [Надо отвлекаться](https://medium.com/better-programming/i-do-my-best-software-development-when-im-not-developing-dd8f18c7b378) - *01:40:48*.
 - [Темы слушателей](https://radio-t.com/p/2019/07/02/prep-657/) - *01:54:35*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast657.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-657.html)

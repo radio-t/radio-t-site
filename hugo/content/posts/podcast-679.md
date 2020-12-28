@@ -15,7 +15,7 @@ filename = "rt_podcast679"
 - [Amazon Kendra](https://aws.amazon.com/kendra/) - *01:32:31*.
 - [Темы слушателей](https://radio-t.com/p/2019/12/03/prep-679/) - *01:59:49*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast679.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-679.html)

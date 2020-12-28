@@ -17,7 +17,7 @@ filename = "rt_podcast543"
 - Темы наших слушателей.
 
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](https://sprintbox.ru)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](https://sprintbox.ru)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast543.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-543.html)
 <audio src="https://cdn.radio-t.com/rt_podcast543.mp3" preload="none"></audio>

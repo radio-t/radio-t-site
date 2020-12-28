@@ -17,7 +17,7 @@ filename = "rt_podcast393"
 * [Bitbucket — новый интерфейс](http://habrahabr.ru/post/223669/)
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast393.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-393.html)
 <audio src="https://cdn.radio-t.com/rt_podcast393.mp3" preload="none"></audio>

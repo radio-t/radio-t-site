@@ -18,7 +18,7 @@ filename = "rt_podcast508"
 - [Adblock Plus против Facebook](http://mashable.com/2016/08/11/facebook-adblock-plus-ads/) - *01:27:35*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast508.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-508.html)
 <audio src="https://cdn.radio-t.com/rt_podcast508.mp3" preload="none"></audio>

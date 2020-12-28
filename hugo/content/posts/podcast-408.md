@@ -17,7 +17,7 @@ filename = "rt_podcast408"
 * [Скажем нет Акторам и прочим Green Threads на JVM](http://boundary.com/blog/2014/09/03/no-you-cant-have-a-pony/)
 * [Apache CouchDB](http://www.infoq.com/articles/apache-couchdb-the-definitive-introduction)
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast408.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-408.html)
 <audio src="https://cdn.radio-t.com/rt_podcast408.mp3" preload="none"></audio>

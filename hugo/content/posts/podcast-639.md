@@ -17,7 +17,7 @@ filename = "rt_podcast639"
 - [Rackspace уволил 200 работников](https://techcrunch.com/2019/03/01/rackspace-announces-it-has-laid-off-200-workers/) - *01:44:09*.
 - [Темы слушателей 639](https://radio-t.com/p/2019/02/26/prep-639/) - *01:44:51*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast639.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-639.html)

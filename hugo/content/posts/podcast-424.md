@@ -18,7 +18,7 @@ filename = "rt_podcast424"
 * Впечатления от первого лица о подступающей виртуальной реальности.
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [kato.im](https://kato.im), [Джинн](http://djinni.co) и [Waltr](http://softorino.com/waltr)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [kato.im](https://kato.im), [Джинн](http://djinni.co) и [Waltr](http://softorino.com/waltr)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast424.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-424.html)
 <audio src="https://cdn.radio-t.com/rt_podcast424.mp3" preload="none"></audio>

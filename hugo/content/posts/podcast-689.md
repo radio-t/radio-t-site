@@ -17,7 +17,7 @@ filename = "rt_podcast689"
 - [HQ Trivia взлетела и упала](https://techcrunch.com/2020/02/14/hq-trivia-shuts-down/) - *01:29:12*.
 - [Темы слушателей](https://radio-t.com/p/2020/02/11/prep-689/) - *01:34:59*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast689.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-689.html)

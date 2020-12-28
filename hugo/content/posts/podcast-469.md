@@ -19,7 +19,7 @@ filename = "rt_podcast469"
 * [Devd HTTP server](http://www.ghacks.net/2015/10/28/devd-is-a-lightweight-http-server/)
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast469.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-469.html)
 <audio src="https://cdn.radio-t.com/rt_podcast469.mp3" preload="none"></audio>

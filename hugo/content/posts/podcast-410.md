@@ -18,7 +18,7 @@ filename = "rt_podcast410"
 * [BitTorrent Bleep](http://blog.bittorrent.com/2014/09/17/bittorrent-bleep-alpha-goes-public-introduces-mac-and-android-apps/)
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [HighLoad](http://highload.ru/radio-t/)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [HighLoad](http://highload.ru/radio-t/)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast410.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-410.html)
 <audio src="https://cdn.radio-t.com/rt_podcast410.mp3" preload="none"></audio>

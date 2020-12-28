@@ -15,7 +15,7 @@ filename = "rt_podcast642"
 - [Плохие новости для пользователей Gmail](https://mashable.com/article/gmail-ifttt-shutdown-google/) - *01:43:21*.
 - [Темы слушателей](https://radio-t.com/p/2019/03/19/prep-642/) - *01:46:16*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast642.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-642.html)

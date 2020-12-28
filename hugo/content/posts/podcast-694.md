@@ -15,7 +15,7 @@ filename = "rt_podcast694"
 - [Netflix и YouTube порежут качество](https://arstechnica.com/tech-policy/2020/03/netflix-and-youtube-cut-streaming-quality-in-europe-to-handle-pandemic/) - *01:40:31*.
 - [Темы слушателей 694](https://radio-t.com/p/2020/03/17/prep-694/) - *01:53:03*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast694.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-694.html)

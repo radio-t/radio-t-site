@@ -18,7 +18,7 @@ filename = "rt_podcast537"
 - [Confide, но не совсем](https://arstechnica.com/security/2017/03/unfixed-weaknesses-in-confide-stoke-doubts-about-end-to-end-crypto-claims/) - *02:06:51*.
 - Темы наших слушателей
 
-Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)
+Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)
 
 _Специальное предложение [Тинькофф Банка для слушателей Радио-Т](http://l.tinkoff.ru/radiot)_
 

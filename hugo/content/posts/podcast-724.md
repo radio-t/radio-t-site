@@ -18,7 +18,7 @@ filename = "rt_podcast724"
 - [Google о данных работы из дома](https://www.theinformation.com/articles/googles-internal-data-show-engineers-found-it-harder-to-code-from-home) - *01:40:32*.
 - [Темы слушателей](https://radio-t.com/p/2020/10/13/prep-724/) - *01:48:09*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast724.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-724.html)

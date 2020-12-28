@@ -18,7 +18,7 @@ filename = "rt_podcast503"
 - [Лунный код открыт](http://qz.com/726338/the-code-that-took-america-to-the-moon-was-just-published-to-github-and-its-like-a-1960s-time-capsule/).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast503.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-503.html)
 <audio src="https://cdn.radio-t.com/rt_podcast503.mp3" preload="none"></audio>

@@ -18,7 +18,7 @@ filename = "rt_podcast520"
 - [Второе дыхание Google](https://techcrunch.com/2016/10/26/googles-dart-programming-language-returns-to-the-spotlight/) - *01:31:38*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast520.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-520.html)
 <audio src="https://cdn.radio-t.com/rt_podcast520.mp3" preload="none"></audio>

@@ -17,7 +17,7 @@ filename = "rt_podcast707"
 - [Уроки code review](https://habr.com/ru/company/skillfactory/blog/507432/) - *01:47:17*.
 - [Темы слушателей](https://radio-t.com/p/2020/06/16/prep-707/) - *02:15:45*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast707.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-707.html)

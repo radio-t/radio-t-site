@@ -14,7 +14,7 @@ filename = "rt_podcast655"
 - [Google борется за души гиков](https://mashable.com/article/google-wants-geeks-pixel-4-pixelbook/) - *01:20:51*.
 - [Темы слушателей](https://radio-t.com/p/2019/06/19/prep-655/) - *01:46:26*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast655.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-655.html)

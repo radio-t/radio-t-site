@@ -17,7 +17,7 @@ filename = "rt_podcast719"
 - [Android 11](https://flipboard.com/@tech/everything-you-should-know-about-android-11-8a41i5vn11fn4d43) - *01:33:25*.
 - [Темы слушателей](https://radio-t.com/p/2020/09/08/prep-719/) - *01:42:15*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast719.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-719.html)

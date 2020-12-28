@@ -17,7 +17,7 @@ filename = "rt_podcast723"
 - [ProtonMail тоже против](https://www.techspot.com/news/87043-protonmail-ceo-calls-apple-forced-app-purchases-mafia.html) - *01:39:52*.
 - [Темы слушателей](https://radio-t.com/p/2020/10/06/prep-723/) - *01:47:54*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast723.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-723.html)

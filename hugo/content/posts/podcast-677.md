@@ -16,7 +16,7 @@ filename = "rt_podcast677"
 - [Ubiquiti показали AmpliFi Alien](https://www.theverge.com/circuitbreaker/2019/11/20/20973887/ubiquiti-amplifi-alien-wi-fi-6-router-mesh-network-price) - *01:24:07*.
 - [Темы слушателей](https://radio-t.com/p/2019/11/19/prep-677/) - *01:29:57*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast677.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-677.html)

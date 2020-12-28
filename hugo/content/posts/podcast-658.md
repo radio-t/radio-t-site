@@ -18,7 +18,7 @@ filename = "rt_podcast658"
 - [Что случилось с Cloudflare](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/) - *01:24:20*.
 - [Темы слушателей](https://radio-t.com/p/2019/07/09/prep-658/) - *01:40:05*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast658.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-658.html)

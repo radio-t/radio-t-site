@@ -17,7 +17,7 @@ filename = "rt_podcast593"
 - [Твитер прикрывает API](http://apps-of-a-feather.com/) - *02:03:34*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast593.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-593.html)

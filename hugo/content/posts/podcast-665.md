@@ -16,7 +16,7 @@ filename = "rt_podcast665"
 - [Главный в Twitter обижен школьниками](https://techcrunch.com/2019/08/30/someone-hacked-jack-dorseys-own-twitter-account/) - *01:33:09*.
 - [Темы слушателей](https://radio-t.com/p/2019/08/28/prep-665/) - *01:39:21*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast665.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-665.html)

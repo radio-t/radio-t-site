@@ -20,7 +20,7 @@ filename = "rt_podcast599"
 - [Намордник для болтунов](https://gizmodo.com/hello-youve-reached-gothams-reckoning-how-may-i-direc-1826276053?utm_source=gizmodo_twitter).
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast599.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-599.html)

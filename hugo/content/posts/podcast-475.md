@@ -20,7 +20,7 @@ filename = "rt_podcast475"
 - [Запуск Slack Platform](http://slackhq.com/post/134878632730/launch-platform).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast475.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-475.html)
 <audio src="https://cdn.radio-t.com/rt_podcast475.mp3" preload="none"></audio>

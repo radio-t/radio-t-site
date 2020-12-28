@@ -17,7 +17,7 @@ filename = "rt_podcast456"
 * [Принтер который вас не обманет](http://www.wired.com/2015/08/epson-printer-no-cartridge/).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast456.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-456.html)
 <audio src="https://cdn.radio-t.com/rt_podcast456.mp3" preload="none"></audio>

@@ -16,7 +16,7 @@ filename = "rt_podcast728"
 - [Это все надо забыть](https://dev.to/selawsky/13-things-you-should-give-up-if-you-want-to-be-a-successful-developer-pim) - *01:11:32*.
 - [Темы слушателей](https://radio-t.com/p/2020/11/10/prep-728/) - *01:54:52*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast728.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-728.html)

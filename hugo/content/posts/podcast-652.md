@@ -15,7 +15,7 @@ filename = "rt_podcast652"
 - [Стоит ли написание хороших программ всех усилий?](https://martinfowler.com/articles/is-quality-worth-cost.html) - *01:27:26*.
 - [Темы слушателей](https://radio-t.com/p/2019/05/28/prep-652/) - *01:45:05*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast652.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-652.html)

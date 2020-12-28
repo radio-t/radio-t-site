@@ -15,7 +15,7 @@ filename = "rt_podcast643"
 - [3 неписанных правила для разработчиков](https://clubhouse.io/blog/dont-deploy-on-frida-3-other-unwritten-rules-of-software-engineering/) - *01:46:48*.
 - [Темы слушателей](https://radio-t.com/p/2019/03/26/prep-643/) - *02:13:03*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast643.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-643.html)

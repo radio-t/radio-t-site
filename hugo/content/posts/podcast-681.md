@@ -18,7 +18,7 @@ filename = "rt_podcast681"
 - [Полезные гаджеты 2019](https://www.zdnet.com/article/most-useful-gadgets-of-2019/) - *01:58:15*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast681.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-681.html)

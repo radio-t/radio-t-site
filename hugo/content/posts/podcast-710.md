@@ -16,7 +16,7 @@ filename = "rt_podcast710"
 - [Франция усложнит жизнь пользователей взрослых сайтов](https://www.politico.eu/article/france-to-introduce-controversial-age-verification-system-for-adult-pornography-websites/) - *01:24:10*.
 - [Темы слушателей](https://radio-t.com/p/2020/07/07/prep-710/) - *01:41:40*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast710.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-710.html)

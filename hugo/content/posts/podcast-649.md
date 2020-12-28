@@ -18,7 +18,7 @@ filename = "rt_podcast649"
 - [В Chrome появится защита от передачи сторонних cookie](http://www.opennet.ru/opennews/art.shtml?num=50661) - *01:26:24*.
 - [Темы слушателей](https://radio-t.com/p/2019/05/07/prep-649/) - *01:37:40*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast649.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-649.html)

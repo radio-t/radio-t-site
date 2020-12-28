@@ -17,7 +17,7 @@ filename = "rt_podcast722"
 - [С документацией совсем беда](https://www.techrepublic.com/article/software-makers-have-gotten-worse-at-documentation-and-heres-why-thats-a-problem/) - *01:27:18*.
 - [Темы слушателей](https://radio-t.com/p/2020/09/29/prep-722/) - *01:49:11*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast722.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-722.html)

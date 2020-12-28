@@ -20,7 +20,7 @@ filename = "rt_podcast559"
 - [AWS запускает Macie с ML/AI](http://www.zdnet.com/article/aws-launches-data-security-service-called-macie-with-machine-learning/) - *01:31:26*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast559.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-559.html)
 <audio src="https://cdn.radio-t.com/rt_podcast559.mp3" preload="none"></audio>

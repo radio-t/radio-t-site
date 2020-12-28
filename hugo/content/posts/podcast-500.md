@@ -18,7 +18,7 @@ filename = "rt_podcast500"
 - [JSON Web Tokens — за и против](https://float-middle.com/json-web-tokens-jwt-vs-sessions/).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast500.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-500.html)
 <audio src="https://cdn.radio-t.com/rt_podcast500.mp3" preload="none"></audio>

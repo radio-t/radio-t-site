@@ -17,7 +17,7 @@ filename = "rt_podcast472"
 * [Amazon диск всего за $5](http://www.theverge.com/2015/11/26/9805438/amazon-one-year-unlimited-storage-five-dollars).
 - Темы наших слушателей.
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast472.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-472.html)
 <audio src="https://cdn.radio-t.com/rt_podcast472.mp3" preload="none"></audio>

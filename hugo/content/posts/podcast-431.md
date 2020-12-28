@@ -21,7 +21,7 @@ filename = "rt_podcast431"
 * [Swift 1.2](http://news360.com/article/278054838)
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast431.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-431.html)
 <audio src="https://cdn.radio-t.com/rt_podcast431.mp3" preload="none"></audio>

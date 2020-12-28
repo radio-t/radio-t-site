@@ -17,7 +17,7 @@ filename = "rt_podcast390"
 * [С чего начать программирование?](http://prsm.tc/HEBkuu)
 * [Полезная штука — ngrok](http://prsm.tc/FUK3Qn)
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Teamlab Office](https://personal.teamlab.com/)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Teamlab Office](https://personal.teamlab.com/)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast390.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-390.html)
 <audio src="https://cdn.radio-t.com/rt_podcast390.mp3" preload="none"></audio>

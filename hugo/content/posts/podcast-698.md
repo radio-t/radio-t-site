@@ -18,7 +18,7 @@ filename = "rt_podcast698"
 - [Закат удобства пользования](https://datagubbe.se/decusab/) - *01:27:51*.
 - [Темы слушателей](https://radio-t.com/p/2020/04/14/prep-698/) - *01:38:52*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast698.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-698.html)

@@ -16,7 +16,7 @@ filename = "rt_podcast730"
 - [Metal для IntelliJ](https://blog.jetbrains.com/platform/2020/11/metal-for-intellij-platform/) - *01:46:22*.
 - [Темы слушателей](https://radio-t.com/p/2020/11/24/prep-730/) - *01:52:08*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [online.swiftbook](https://online.swiftbook.ru/)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [online.swiftbook](https://online.swiftbook.ru/)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast730.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-730.html)

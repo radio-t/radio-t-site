@@ -17,7 +17,7 @@ filename = "rt_podcast569"
 - [Заработать на Alexa skills](https://techcrunch.com/2017/10/25/amazon-introduces-subscriptions-for-alexa-skills-makes-them-free-for-prime-members/) - *01:26:34*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast569.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-569.html)
 <audio src="https://cdn.radio-t.com/rt_podcast569.mp3" preload="none"></audio>

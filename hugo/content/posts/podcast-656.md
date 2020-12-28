@@ -17,7 +17,7 @@ filename = "rt_podcast656"
 - [AWS с поддержкой UDP в NLB](https://aws.amazon.com/blogs/aws/new-udp-load-balancing-for-network-load-balancer/) - *01:31:06*.
 - [Темы слушателей](https://radio-t.com/p/2019/06/25/prep-656/) - *01:44:15*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast656.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-656.html)

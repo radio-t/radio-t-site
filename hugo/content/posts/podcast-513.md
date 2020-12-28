@@ -18,7 +18,7 @@ filename = "rt_podcast513"
 - [Новинки GitHub](https://github.com/blog/2256-a-whole-new-github-universe-announcing-new-tools-forums-and-features) - *01:11:25*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast513.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-513.html)
 <audio src="https://cdn.radio-t.com/rt_podcast513.mp3" preload="none"></audio>

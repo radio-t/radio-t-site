@@ -18,7 +18,7 @@ filename = "rt_podcast691"
 - [Google Earth теперь во всех бразуерах](https://medium.com/google-earth/google-earth-comes-to-more-browsers-thanks-to-webassembly-1877d95810d6) - *01:23:04*.
 - [Темы слушателей](https://radio-t.com/p/2020/02/25/prep-691/) - *01:38:16*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast691.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-691.html)

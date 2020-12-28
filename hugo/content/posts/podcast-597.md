@@ -19,7 +19,7 @@ filename = "rt_podcast597"
 - [Linux программы теперь и на Chrome OS](https://techcrunch.com/2018/05/08/you-can-now-run-linux-apps-on-chrome-os/) - *01:53:46*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast597.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-597.html)

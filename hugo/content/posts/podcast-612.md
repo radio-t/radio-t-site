@@ -19,7 +19,7 @@ filename = "rt_podcast612"
 - [Google Chrome и не очень приватный режим](https://www.independent.co.uk/life-style/gadgets-and-tech/news/google-chrome-incognito-mode-personal-data-private-browser-a8502386.html) - *01:18:28*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast612.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-612.html)

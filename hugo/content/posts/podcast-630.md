@@ -19,7 +19,7 @@ filename = "rt_podcast630"
 - [Темы слушателей](https://radio-t.com/p/2018/12/24/prep-630/) - *01:34:13*.
 
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast630.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-630.html)

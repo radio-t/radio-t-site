@@ -19,7 +19,7 @@ filename = "rt_podcast611"
 - [Amazon выходит на рынок DVR](https://www.theverge.com/circuitbreaker/2018/8/17/17723464/amazon-live-tv-recording-fire-tv-device) - *01:30:05*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast611.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-611.html)

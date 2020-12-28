@@ -16,7 +16,7 @@ filename = "rt_podcast732"
 - [Cloudflare Web Analytics для параноиков](https://blog.cloudflare.com/privacy-first-web-analytics/) - *01:41:52*.
 - [Темы слушателей](https://radio-t.com/p/2020/12/08/prep-732/) - *01:45:40*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast732.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-732.html)

@@ -18,7 +18,7 @@ filename = "rt_podcast605"
 - [Яндекс начал индексировать Google](https://habr.com/post/416219/) - *01:25:24*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast605.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-605.html)

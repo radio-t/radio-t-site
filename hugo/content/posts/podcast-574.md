@@ -23,7 +23,7 @@ filename = "rt_podcast574"
 - [Почему ESR не любит C++](https://developers.slashdot.org/story/17/11/27/039226/why-esr-hates-c-respects-java-and-thinks-go-but-not-rust-will-replace-c) - *01:49:50*.
 - [Темы наших слушателей](https://radio-t.com/p/2017/11/28/prep-574/) - *01:53:53*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast574.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-574.html)
 <audio src="https://cdn.radio-t.com/rt_podcast574.mp3" preload="none"></audio>

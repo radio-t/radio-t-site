@@ -20,7 +20,7 @@ filename = "rt_podcast727"
 - [The Raspberry Pi 400](https://www.jeffgeerling.com/blog/2020/raspberry-pi-400-teardown-and-review) - *01:45:35*.
 - [Темы слушателей](https://radio-t.com/p/2020/11/03/prep-727/) - *01:57:11*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast727.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-727.html)

@@ -20,7 +20,7 @@ filename = "rt_podcast554"
 - [Microsoft показали чем победить Amazon и Google](http://www.businessinsider.com/microsoft-azure-stack-hybrid-cloud-released-2017-7) - *01:13:14*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Тинькофф](http://bit.ly/tinkoff-rt2)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [Vscale](http://bit.ly/radio-t_vscale) и [Тинькофф](http://bit.ly/tinkoff-rt2)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast554.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-554.html)

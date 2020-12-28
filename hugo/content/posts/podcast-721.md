@@ -14,7 +14,7 @@ filename = "rt_podcast721"
 - [1Password теперь с Privacy.com](https://blog.1password.com/privacy-virtual-cards/) - *01:18:36*.
 - [Темы слушателей](https://radio-t.com/p/2020/09/22/prep-721/) - *01:41:08*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [SkillFactory](https://clc.am/S30ZfA)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [SkillFactory](https://clc.am/S30ZfA)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast721.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-721.html)

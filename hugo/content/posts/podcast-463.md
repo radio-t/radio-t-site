@@ -20,7 +20,7 @@ filename = "rt_podcast463"
 * [watchOS 2](http://thenextweb.com/insider/2015/09/21/watchos-2-review-apple-watchs-true-killer-feature-is-its-operating-system/)
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast463.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-463.html)
 <audio src="https://cdn.radio-t.com/rt_podcast463.mp3" preload="none"></audio>

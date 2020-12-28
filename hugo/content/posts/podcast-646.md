@@ -16,7 +16,7 @@ filename = "rt_podcast646"
 - [Galaxy Fold разнообразно ломается](https://qz.com/1598094/the-samsung-galaxy-folds-display-seems-to-have-problems/) - *01:26:20*.
 - [Темы слушателей](https://radio-t.com/p/2019/04/16/prep-646/) - *01:36:54*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast646.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-646.html)

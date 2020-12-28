@@ -20,7 +20,7 @@ filename = "rt_podcast454"
 * [Уязвимость в Yosemite](http://www.theregister.co.uk/2015/07/22/os_x_root_hole/).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast454.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-454.html)
 <audio src="https://cdn.radio-t.com/rt_podcast454.mp3" preload="none"></audio>

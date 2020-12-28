@@ -9,7 +9,7 @@ filename = "rt_podcast453"
 
 ![](https://radio-t.com/images/radio-t/rt453.jpg)
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast453.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-453.html)
 <audio src="https://cdn.radio-t.com/rt_podcast453.mp3" preload="none"></audio>

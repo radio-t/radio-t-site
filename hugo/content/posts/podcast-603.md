@@ -21,7 +21,7 @@ filename = "rt_podcast603"
 - [Reddit добавляет новостей](https://www.engadget.com/2018/06/22/reddit-news-tab-ios-app-desktop/) - *02:00:17*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast603.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-603.html)

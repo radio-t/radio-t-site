@@ -13,7 +13,7 @@ filename = "rt_podcast549"
 - [WWDC 2017](https://docs.google.com/document/d/16zOhYDSrBPCaaUr2Hfl0TbdjhaP-a48hV4f3bMNsvLk/pub) - *00:17:43*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast549.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-549.html)
 <audio src="https://cdn.radio-t.com/rt_podcast549.mp3" preload="none"></audio>

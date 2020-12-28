@@ -15,7 +15,7 @@ filename = "rt_podcast731"
 - [Radicle для приватного git](https://radicle.xyz/) - *02:08:54*.
 - [Темы слушателей](https://radio-t.com/p/2020/12/01/prep-731/) - *02:15:24*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast731.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-731.html)

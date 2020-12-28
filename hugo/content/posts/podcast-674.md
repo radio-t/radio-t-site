@@ -13,7 +13,7 @@ filename = "rt_podcast674"
 - [DevOps — всё](https://habr.com/ru/post/473006/) - *01:35:49*.
 - [Темы слушателей](https://radio-t.com/p/2019/10/29/prep-674/) - *02:08:37*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast674.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-674.html)

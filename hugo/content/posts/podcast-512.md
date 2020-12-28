@@ -18,7 +18,7 @@ filename = "rt_podcast512"
 - [Chrome обидит нас еще больше](http://www.theverge.com/2016/9/8/12847880/chrome-warning-encryption-web-google-ssl-https) - *01:26:23*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast512.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-512.html)
 <audio src="https://cdn.radio-t.com/rt_podcast512.mp3" preload="none"></audio>

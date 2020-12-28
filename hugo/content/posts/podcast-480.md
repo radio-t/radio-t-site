@@ -20,7 +20,7 @@ filename = "rt_podcast480"
 - [Компромисс между приватностью и безопасностью](http://thenextweb.com/insider/2016/01/18/the-compromise-the-us-government-seeks-in-regards-to-encryptionbackdoors-doesnt-exist/) - *01:13:30*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast480.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-480.html)
 <audio src="https://cdn.radio-t.com/rt_podcast480.mp3" preload="none"></audio>

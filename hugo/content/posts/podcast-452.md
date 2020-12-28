@@ -17,7 +17,7 @@ filename = "rt_podcast452"
 * [DC2 — на вид как контейнер](https://www.kickstarter.com/projects/dickhardt/dc2-desktop-container-computer-for-docker-containe).
 - Темы наших слушателей.
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast452.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-452.html)
 <audio src="https://cdn.radio-t.com/rt_podcast452.mp3" preload="none"></audio>

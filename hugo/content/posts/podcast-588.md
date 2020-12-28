@@ -19,7 +19,7 @@ filename = "rt_podcast588"
 - [Alfred через 8 лет](https://www.alfredapp.com/blog/fun-and-interesting/alfred-is-8-years-old-today/) - *01:42:24*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast588.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-588.html)
 <audio src="https://cdn.radio-t.com/rt_podcast588.mp3" preload="none"></audio>

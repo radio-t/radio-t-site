@@ -17,7 +17,7 @@ filename = "rt_podcast533"
 - [Опять на вечную тему](https://www.washingtonpost.com/posteverything/wp/2014/12/30/google-got-it-wrong-the-open-office-trend-is-destroying-the-workplace/) - *01:23:43*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast533.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-533.html)
 <audio src="https://cdn.radio-t.com/rt_podcast533.mp3" preload="none"></audio>

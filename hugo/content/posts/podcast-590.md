@@ -19,7 +19,7 @@ filename = "rt_podcast590"
 - [Будущее FааS уже здесь](https://diginomica.com/2018/03/23/aws-lambda-kubernetes-future-serverless/) - *01:59:04*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast590.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-590.html)

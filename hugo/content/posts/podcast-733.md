@@ -22,7 +22,7 @@ filename = "rt_podcast733"
 - [Amazon EBS gp3](https://aws.amazon.com/blogs/aws/new-amazon-ebs-gp3-volume-lets-you-provision-performance-separate-from-capacity-and-offers-20-lower-price/) - *01:39:17*.
 - [Темы слушателей](https://radio-t.com/p/2020/12/15/prep-733/) - *01:43:31*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast733.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-733.html)

@@ -21,7 +21,7 @@ filename = "rt_podcast449"
 * [AWS Lambda теперь и с Java](https://aws.amazon.com/blogs/aws/aws-lambda-update-run-java-code-in-response-to-events/)
 - Темы наших слушателей.
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast449.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-449.html)
 <audio src="https://cdn.radio-t.com/rt_podcast449.mp3" preload="none"></audio>

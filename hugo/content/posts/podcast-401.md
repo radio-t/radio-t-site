@@ -18,7 +18,7 @@ filename = "rt_podcast401"
 * [Американцы выдали Яндексу доменную зону](http://izvestia.ru/news/573843)
 * [Rust это наше все?](http://prsm.tc/299jQB)
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast401.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-401.html)
 <audio src="https://cdn.radio-t.com/rt_podcast401.mp3" preload="none"></audio>

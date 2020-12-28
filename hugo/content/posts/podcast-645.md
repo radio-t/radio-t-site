@@ -14,7 +14,7 @@ filename = "rt_podcast645"
 - [Разработчиков надо выращивать](https://sizovs.net/2019/04/10/the-best-developers-are-raised-not-hired/) - *01:35:29*.
 - [Темы слушателей](https://radio-t.com/p/2019/04/09/prep-645/) - *01:56:03*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast645.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-645.html)

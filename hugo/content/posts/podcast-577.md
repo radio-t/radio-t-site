@@ -19,7 +19,7 @@ filename = "rt_podcast577"
 - [Amazon Music запретит хранение ваших MP3](https://www.slashgear.com/amazon-music-scraps-storage-subscriptions-for-mp3-imports-19512374/) - *01:20:18*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast577.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-577.html)
 <audio src="https://cdn.radio-t.com/rt_podcast577.mp3" preload="none"></audio>

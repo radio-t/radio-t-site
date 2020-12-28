@@ -16,7 +16,7 @@ filename = "rt_podcast695"
 - [Выход Swift 5.2](https://www.opennet.ru/opennews/art.shtml?num=52623) - *01:16:19*.
 - [Темы слушателей](https://radio-t.com/p/2020/03/24/prep-695/) - *01:49:13*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast695.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-695.html)

@@ -19,7 +19,7 @@ filename = "rt_podcast633"
 - [RAZR возвращается, но за $1,500](https://www.theverge.com/circuitbreaker/2019/1/16/18185101/motorola-razr-smartphone-fold-price-verizon-lenovo) - *01:35:54*.
 - [Темы слушателей](https://radio-t.com/p/2019/01/15/prep-633/) - *01:48:08*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast633.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-633.html)

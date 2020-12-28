@@ -20,7 +20,7 @@ filename = "rt_podcast495"
 - [Facebook жульничает?](http://www.theguardian.com/technology/2016/may/12/facebook-trending-news-leaked-documents-editor-guidelines) - *01:19:16*
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast495.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-495.html)
 <audio src="https://cdn.radio-t.com/rt_podcast495.mp3" preload="none"></audio>

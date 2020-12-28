@@ -17,7 +17,7 @@ filename = "rt_podcast637"
 - [Как красота убивает](https://uxdesign.cc/how-white-space-killed-an-enterprise-app-and-why-data-density-matters-b3afad6a5f2a?gi=f389c4ebc085) - *01:45:33*.
 - [Темы слушателей](https://radio-t.com/p/2019/02/12/prep-637/) - *02:08:05*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast637.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-637.html)

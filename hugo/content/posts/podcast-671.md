@@ -16,7 +16,7 @@ filename = "rt_podcast671"
 - [История и истерия вокруг HKmap.live](https://daringfireball.net/linked/2019/10/10/cook-hkmap-live-email) - *01:14:59*.
 - [Темы слушателей](https://radio-t.com/p/2019/10/08/prep-671/) - *01:41:01*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast671.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-671.html)

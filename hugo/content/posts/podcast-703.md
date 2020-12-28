@@ -16,7 +16,7 @@ filename = "rt_podcast703"
 - [Joe Rogan превратил свой подкаст в нечто иное](https://www.theverge.com/2020/5/19/21263927/joe-rogan-spotify-experience-exclusive-content-episodes-youtube) - *01:38:15*.
 - [Темы слушателей](https://radio-t.com/p/2020/05/19/prep-703/) - *01:52:22*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com) и [SkillFactory](https://clc.to/1MD7cw)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot) и [SkillFactory](https://clc.to/1MD7cw)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast703.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-703.html)
 <audio src="https://cdn.radio-t.com/rt_podcast703.mp3" preload="none"></audio>

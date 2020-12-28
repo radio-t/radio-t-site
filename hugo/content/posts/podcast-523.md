@@ -18,7 +18,7 @@ filename = "rt_podcast523"
 - [Что ждать от AWS?](http://fortune.com/2016/11/22/amazon-cloud-conference/) - *01:48:31*
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast523.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-523.html)
 <audio src="https://cdn.radio-t.com/rt_podcast523.mp3" preload="none"></audio>

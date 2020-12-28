@@ -17,7 +17,7 @@ filename = "rt_podcast701"
 - [Фреймворки против библиотек](https://www.brandonsmith.ninja/blog/libraries-not-frameworks) - *01:46:00*
 - [Темы слушателей](https://radio-t.com/p/2020/05/05/prep-701/) - *02:10:16*
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast701.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-701.html)

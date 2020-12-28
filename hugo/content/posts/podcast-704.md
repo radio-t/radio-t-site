@@ -17,7 +17,7 @@ filename = "rt_podcast704"
 - [Triplebyte сел в лужу](https://news.ycombinator.com/item?id=23303037) - *01:36:38*.
 - [Темы слушателей](https://radio-t.com/p/2020/05/26/prep-704/) - *01:49:42*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast704.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-704.html)

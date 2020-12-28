@@ -19,7 +19,7 @@ filename = "rt_podcast640"
 - [Twitter поборет всю токсичность](https://www.wired.com/story/twitter-let-users-hide-replies-fight-toxic-comments/) - *01:50:12*.
 - [Темы слушателей](https://radio-t.com/p/2019/03/05/prep-640/) - *01:59:14*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast640.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-640.html)

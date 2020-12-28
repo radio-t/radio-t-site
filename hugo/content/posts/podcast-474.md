@@ -21,7 +21,7 @@ filename = "rt_podcast474"
 - [Они приоткрыли немного рекламы](http://my-chrome.ru/2015/12/taboola-adblock-plus/).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast474.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-474.html)
 <audio src="https://cdn.radio-t.com/rt_podcast474.mp3" preload="none"></audio>

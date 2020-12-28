@@ -16,7 +16,7 @@ filename = "rt_podcast462"
 * [Детская проблема в защите Android 5](http://www.slate.com/blogs/future_tense/2015/09/17/android_version_5_phone_hack_emergency_number_hack_bypasses_passwords.html).
 - Темы наших слушателей.
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Selectel](https://selectel.ru/services/vpc/)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Selectel](https://selectel.ru/services/vpc/)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast462.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-462.html)
 <audio src="https://cdn.radio-t.com/rt_podcast462.mp3" preload="none"></audio>

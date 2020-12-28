@@ -20,7 +20,7 @@ filename = "rt_podcast476"
 - [Что они несут про шифрование?](http://social.techcrunch.com/2015/12/20/hey-hey-my-my-strong-encryption-will-never-die/)
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast476.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-476.html)
 <audio src="https://cdn.radio-t.com/rt_podcast476.mp3" preload="none"></audio>

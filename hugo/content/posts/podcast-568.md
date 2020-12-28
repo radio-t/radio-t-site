@@ -17,7 +17,7 @@ filename = "rt_podcast568"
 - [Виртуальный модем как хак](https://techcrunch.com/2017/10/20/this-hack-turns-connects-you-to-the-internet-via-a-virtual-modem/) - *01:35:39*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast568.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-568.html)
 <audio src="https://cdn.radio-t.com/rt_podcast568.mp3" preload="none"></audio>

@@ -15,7 +15,7 @@ filename = "rt_podcast521"
 - [Как неправильно готовить Docker](https://www.voxxed.com/blog/2016/11/docker-container-anti-patterns/) - *01:13:22*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast521.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-521.html)
 <audio src="https://cdn.radio-t.com/rt_podcast521.mp3" preload="none"></audio>

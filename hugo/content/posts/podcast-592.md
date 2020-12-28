@@ -19,7 +19,7 @@ filename = "rt_podcast592"
 - [Бегство из Gradle в Maven](https://blog.philipphauer.de/moving-back-from-gradle-to-maven/) - *01:50:01*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast592.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-592.html)

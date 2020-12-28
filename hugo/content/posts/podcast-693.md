@@ -19,7 +19,7 @@ filename = "rt_podcast693"
 - [Bitcoin тоже не удержался](https://mashable.com/article/bitcoin-safe-haven/?europe=true) - *01:40:43*.
 - [Темы слушателей](https://radio-t.com/p/2020/03/10/prep-693/) - *01:50:48*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast693.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-693.html)

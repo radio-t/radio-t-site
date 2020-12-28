@@ -17,7 +17,7 @@ filename = "rt_podcast412"
 * [Нет, это другое](http://prsm.tc/l9pD5D)
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [HighLoad](http://highload.ru/radio-t/)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [HighLoad](http://highload.ru/radio-t/)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast412.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-412.html)
 <audio src="https://cdn.radio-t.com/rt_podcast412.mp3" preload="none"></audio>

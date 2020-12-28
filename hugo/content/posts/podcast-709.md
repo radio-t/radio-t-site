@@ -16,7 +16,7 @@ filename = "rt_podcast709"
 - [Zettlr - Markdown редактор для знаний](https://www.zettlr.com) - *01:41:54*.
 - [Темы слушателей](https://radio-t.com/p/2020/06/30/prep-709/) - *01:54:10*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast709.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-709.html)

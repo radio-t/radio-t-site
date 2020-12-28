@@ -17,7 +17,7 @@ filename = "rt_podcast714"
 - [Atlassian теперь совсем из дома](https://www.cnbc.com/2020/08/07/atlassian-tells-employees-they-can-work-from-home-indefinitely.html) - *01:42:50*.
 - [Темы слушателей](https://radio-t.com/p/2020/08/04/prep-714/) - *02:01:06*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast714.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-714.html)

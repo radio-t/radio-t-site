@@ -17,7 +17,7 @@ filename = "rt_podcast546"
 - [Android Go для бедных](http://www.androidauthority.com/android-go-usa-market-773723/) - *01:21:45*.
 - [Темы наших слушателей](https://radio-t.com/p/2017/05/16/prep-546/) - *01:44:37*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast546.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-546.html)
 <audio src="https://cdn.radio-t.com/rt_podcast546.mp3" preload="none"></audio>

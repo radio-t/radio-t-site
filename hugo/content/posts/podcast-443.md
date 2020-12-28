@@ -23,7 +23,7 @@ filename = "rt_podcast443"
 * [BitTorrent разогнал четверть конторы](http://www.engadget.com/2015/04/24/bittorrent-reportedly-laid-off-dozens-of-employees/).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast443.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-443.html)
 <audio src="https://cdn.radio-t.com/rt_podcast443.mp3" preload="none"></audio>

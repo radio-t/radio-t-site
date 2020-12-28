@@ -17,7 +17,7 @@ filename = "rt_podcast623"
 - [Складные экраны надолго или это мода](https://mashable.com/article/foldable-phones-fad/) - *01:33:21*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast623.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-623.html)

@@ -18,7 +18,7 @@ filename = "rt_podcast458"
 * [Flash еще с нами?](http://gizmodo.com/when-is-flash-finally-going-to-die-1725511417)
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast458.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-458.html)
 <audio src="https://cdn.radio-t.com/rt_podcast458.mp3" preload="none"></audio>

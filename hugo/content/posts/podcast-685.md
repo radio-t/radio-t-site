@@ -18,7 +18,7 @@ filename = "rt_podcast685"
 - [Прощание с Clean Code](https://overreacted.io/goodbye-clean-code/) - *01:42:55*.
 - [Темы слушателей](https://radio-t.com/p/2020/01/14/prep-685/) - *02:04:28*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast685.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-685.html)
 <audio src="https://cdn.radio-t.com/rt_podcast685.mp3" preload="none"></audio>

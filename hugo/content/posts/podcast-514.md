@@ -23,7 +23,7 @@ filename = "rt_podcast514"
 - [Выход Swift 3.0](http://www.opennet.ru/opennews/art.shtml?num=45177) - *01:19:30*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast514.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-514.html)
 <audio src="https://cdn.radio-t.com/rt_podcast514.mp3" preload="none"></audio>

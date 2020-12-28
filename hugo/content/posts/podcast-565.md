@@ -18,7 +18,7 @@ filename = "rt_podcast565"
 - [Время веба уходит](https://blog.plan99.net/its-time-to-kill-the-web-974a9fe80c89?gi=cbb2aa694813) - *01:28:32*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast565.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-565.html)
 <audio src="https://cdn.radio-t.com/rt_podcast565.mp3" preload="none"></audio>

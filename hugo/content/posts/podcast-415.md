@@ -20,7 +20,7 @@ filename = "rt_podcast415"
 * [Bitcasa закрывает безлимит](http://techcrunch.com/2014/10/24/bitcasa-no-unlimited/)
 * [USB Security Key](http://www.extremetech.com/computing/192553-google-launches-usb-security-key-for-super-secure-two-step-verification)
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast415.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-415.html)
 <audio src="https://cdn.radio-t.com/rt_podcast415.mp3" preload="none"></audio>

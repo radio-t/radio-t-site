@@ -16,7 +16,7 @@ filename = "rt_podcast519"
 - [Pornhub и 6 секунд Vine](https://www.cnet.com/news/pornhub-offers-to-buy-vine-6-seconds-twitter-jack-dorsey/) - *02:16:31*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast519.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-519.html)
 <audio src="https://cdn.radio-t.com/rt_podcast519.mp3" preload="none"></audio>

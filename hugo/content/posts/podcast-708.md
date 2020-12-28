@@ -16,7 +16,7 @@ filename = "rt_podcast708"
 - [Mixer уходит](https://www.theverge.com/2020/6/22/21299032/microsoft-mixer-closing-facebook-gaming-partnership-xcloud-features) - *01:44:35*.
 - [Темы слушателей](https://radio-t.com/p/2020/06/23/prep-708/) - *01:53:34*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [SkillFactory](https://clc.to/1FOp-g )*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [SkillFactory](https://clc.to/1FOp-g )*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast708.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-708.html)

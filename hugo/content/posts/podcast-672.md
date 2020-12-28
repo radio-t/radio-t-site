@@ -16,7 +16,7 @@ filename = "rt_podcast672"
 - [Как отрефакторить 15 тысяч строк кода](https://habr.com/ru/post/471628/) - *01:08:48*.
 - [Темы слушателей](https://radio-t.com/p/2019/10/15/prep-672/) - *01:33:08*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast672.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-672.html)

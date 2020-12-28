@@ -20,7 +20,7 @@ filename = "rt_podcast468"
 * [PyPy](http://morepypy.blogspot.com/2015/10/pypy-400-released-jit-with-simd.html)
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast468.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-468.html)
 <audio src="https://cdn.radio-t.com/rt_podcast468.mp3" preload="none"></audio>

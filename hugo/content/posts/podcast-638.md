@@ -18,7 +18,7 @@ filename = "rt_podcast638"
 - [Как не делать формы логина](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/) - *01:33:50*.
 - [Темы слушателей](https://radio-t.com/p/2019/02/19/prep-638/) - *01:47:14*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast638.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-638.html)

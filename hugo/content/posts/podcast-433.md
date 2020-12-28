@@ -21,7 +21,7 @@ filename = "rt_podcast433"
 * [Google Blogger против порно](http://www.theguardian.com/technology/2015/feb/27/google-backtracks-on-porn-ban-in-blogger)
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast433.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-433.html)
 <audio src="https://cdn.radio-t.com/rt_podcast433.mp3" preload="none"></audio>

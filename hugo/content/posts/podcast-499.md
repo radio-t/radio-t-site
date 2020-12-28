@@ -16,7 +16,7 @@ filename = "rt_podcast499"
 - [Moto Z и его модули](http://www.theverge.com/2016/6/9/11889076/lenovo-moto-z-mod-smartphone-specs-announcement) - *01:49:52*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast499.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-499.html)
 <audio src="https://cdn.radio-t.com/rt_podcast499.mp3" preload="none"></audio>

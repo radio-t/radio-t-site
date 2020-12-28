@@ -16,7 +16,7 @@ filename = "rt_podcast692"
 - [CLUI - Graphical Command Line](https://blog.repl.it/clui) - *01:31:08*.
 - [Темы слушателей](https://radio-t.com/p/2020/03/03/prep-692/) - *01:45:14*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast692.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-692.html)

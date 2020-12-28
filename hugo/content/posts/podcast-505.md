@@ -16,7 +16,7 @@ filename = "rt_podcast505"
 - [Одно неверное движение](https://techcrunch.com/2016/07/20/man-behind-webs-biggest-illegal-film-site-arrested-following-legal-itunes-purchase/).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast505.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-505.html)
 <audio src="https://cdn.radio-t.com/rt_podcast505.mp3" preload="none"></audio>

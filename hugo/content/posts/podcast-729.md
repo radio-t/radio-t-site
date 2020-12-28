@@ -15,7 +15,7 @@ filename = "rt_podcast729"
 - [Dev Fonts](https://devfonts.gafi.dev/) - *01:25:15*.
 - [Темы слушателей](https://radio-t.com/p/2020/11/17/prep-729/) - *01:35:20*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast729.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-729.html)

@@ -22,7 +22,7 @@ filename = "rt_podcast524"
 - [Выход MongoDB 3.4](https://docs.mongodb.com/manual/release-notes/3.4/) - *01:55:44*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast524.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-524.html)
 <audio src="https://cdn.radio-t.com/rt_podcast524.mp3" preload="none"></audio>

@@ -16,7 +16,7 @@ filename = "rt_podcast502"
 - [Как завести себе google.com](https://www.computest.nl/blog/startencrypt-considered-harmful-today/) - *01:22:05*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast502.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-502.html)
 <audio src="https://cdn.radio-t.com/rt_podcast502.mp3" preload="none"></audio>

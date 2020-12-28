@@ -21,7 +21,7 @@ filename = "rt_podcast418"
 * [Регулируем интернеты](http://techcrunch.com/2014/11/10/president-obama-calls-for-a-free-and-open-internet-wants-it-reclassified-as-a-utility/)
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast418.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-418.html)
 <audio src="https://cdn.radio-t.com/rt_podcast418.mp3" preload="none"></audio>

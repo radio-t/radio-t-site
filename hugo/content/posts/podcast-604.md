@@ -21,7 +21,7 @@ filename = "rt_podcast604"
 - [ALB теперь с Authentication](https://aws.amazon.com/blogs/aws/built-in-authentication-in-alb/) - *01:35:39*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast604.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-604.html)

@@ -16,7 +16,7 @@ filename = "rt_podcast696"
 - [Яндекс шутит](https://yandex.ru/lab/calc?lang=en) - *01:56:29*.
 - [Темы слушателей 696](https://radio-t.com/p/2020/03/31/prep-696/) - *01:57:18*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast696.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-696.html)

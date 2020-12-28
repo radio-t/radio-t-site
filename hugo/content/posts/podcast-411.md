@@ -21,7 +21,7 @@ filename = "rt_podcast411"
 * [JetBrains для студентов](http://blog.jetbrains.com/blog/2014/09/23/jetbrains-makes-its-products-free-for-students/)
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [HighLoad](http://highload.ru/radio-t/)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [HighLoad](http://highload.ru/radio-t/)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast411.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-411.html)
 <audio src="https://cdn.radio-t.com/rt_podcast411.mp3" preload="none"></audio>

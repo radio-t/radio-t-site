@@ -18,7 +18,7 @@ filename = "rt_podcast725"
 - [Chrome исключил Google](https://lapcatsoftware.com/articles/chrome-google.html) - *01:34:38*.
 - [Темы слушателей](https://radio-t.com/p/2020/10/20/prep-725/) - *01:42:44*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast725.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-725.html)

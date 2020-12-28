@@ -16,7 +16,7 @@ filename = "rt_podcast667"
 - [Лучше меньше, да лучше](https://uxdesign.cc/great-products-do-less-things-but-better-5dde0ee3fc76?gi=85708717ec43) - *01:32:56*.
 - [Темы слушателей 667](https://radio-t.com/p/2019/09/10/prep-667/) - *01:44:05*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com), [SkillFactory](https://clc.to/kgO_TQ) и [Joker](https://jokerconf.com/registration/personal/) (промо-код `jokerRadioTgpc`)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot), [SkillFactory](https://clc.to/kgO_TQ) и [Joker](https://jokerconf.com/registration/personal/) (промо-код `jokerRadioTgpc`)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast667.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-667.html)

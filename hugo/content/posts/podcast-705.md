@@ -15,7 +15,7 @@ filename = "rt_podcast705"
 - [Пересмотр багов и управления ими](https://almad.blog/essays/no-bugs-just-todos/) - *01:12:28*.
 - [Темы слушателей](https://radio-t.com/p/2020/06/03/prep-705/) - *01:54:00*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast705.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-705.html)

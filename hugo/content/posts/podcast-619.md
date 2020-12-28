@@ -17,7 +17,7 @@ filename = "rt_podcast619"
 - [12 факторов для CLI](https://medium.com/@jdxcode/12-factor-cli-apps-dd3c227a0e46) - *01:14:13*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast619.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-619.html)

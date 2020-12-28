@@ -18,7 +18,7 @@ filename = "rt_podcast530"
 - [У разработчика должен быть опыт сисадминства](https://habrahabr.ru/post/319686/) - *01:36:05*.
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Sprinthost](https://sprintbox.ru)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Sprinthost](https://sprintbox.ru)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast530.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-530.html)
 <audio src="https://cdn.radio-t.com/rt_podcast530.mp3" preload="none"></audio>

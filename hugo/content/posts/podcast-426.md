@@ -19,7 +19,7 @@ filename = "rt_podcast426"
 * [Western Digital обещает быстрый диск](http://prsm.tc/Tt0iGk)
 - Темы наших слушателей.
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast426.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-426.html)
 <audio src="https://cdn.radio-t.com/rt_podcast426.mp3" preload="none"></audio>

@@ -22,7 +22,7 @@ filename = "rt_podcast448"
 * [AWS запустил M4](http://social.techcrunch.com/2015/06/11/aws-launches-m4-general-purpose-instances-for-ec2/).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast448.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-448.html)
 <audio src="https://cdn.radio-t.com/rt_podcast448.mp3" preload="none"></audio>

@@ -15,7 +15,7 @@ filename = "rt_podcast702"
 - [Секреты для GitHub Organization](https://github.blog/changelog/2020-05-14-organization-secrets/) - *01:46:33*.
 - [Темы слушателей](https://radio-t.com/p/2020/05/12/prep-702/) - *01:59:09*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast702.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-702.html)

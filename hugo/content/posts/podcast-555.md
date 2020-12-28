@@ -20,7 +20,7 @@ filename = "rt_podcast555"
 - [Google с потоком новостей](http://www.bbc.co.uk/news/technology-40656033) - *01:33:52*.
 - [Темы наших слушателей](https://radio-t.com/p/2017/07/18/prep-555/) - *01:44:47*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Тинькофф](http://bit.ly/tinkoff-rt2)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [Vscale](http://bit.ly/radio-t_vscale) и [Тинькофф](http://bit.ly/tinkoff-rt2)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast555.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-555.html)
 <audio src="https://cdn.radio-t.com/rt_podcast555.mp3" preload="none"></audio>

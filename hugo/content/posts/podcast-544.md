@@ -17,7 +17,7 @@ filename = "rt_podcast544"
 - [Год с Go в реальной работе](http://p.umputun.com/2017/04/18/god-s-go-v-riealnoi-rabotie/) - *01:24:12*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast544.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-544.html)
 <audio src="https://cdn.radio-t.com/rt_podcast544.mp3" preload="none"></audio>

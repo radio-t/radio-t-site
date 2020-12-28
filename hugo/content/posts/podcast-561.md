@@ -17,7 +17,7 @@ filename = "rt_podcast561"
 - [Выход Rust 1.20](https://blog.rust-lang.org/2017/08/31/Rust-1.20.html) - *01:26:54*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast561.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-561.html)
 <audio src="https://cdn.radio-t.com/rt_podcast561.mp3" preload="none"></audio>

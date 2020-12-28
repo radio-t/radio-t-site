@@ -15,7 +15,7 @@ filename = "rt_podcast648"
 - [Темы слушателей](https://radio-t.com/p/2019/04/30/prep-648/) - *01:50:45*.
 
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast648.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-648.html)

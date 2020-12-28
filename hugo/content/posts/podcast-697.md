@@ -16,7 +16,7 @@ filename = "rt_podcast697"
 - [В iOS 14 появятся Clips](https://9to5mac.com/2020/04/09/ios-14-apple-developing-clips-feature-for-using-apps-without-requiring-full-downloads/) - *01:28:21*.
 - [Темы слушателей](https://radio-t.com/p/2020/04/07/prep-697/) - *01:44:17*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast697.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-697.html)

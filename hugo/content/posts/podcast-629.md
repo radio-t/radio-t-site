@@ -20,7 +20,7 @@ filename = "rt_podcast629"
 - [Google перенёс закрытие Google+](http://www.opennet.ru/opennews/art.shtml?num=49758) - *01:33:59*.
 - [Темы слушателей](https://radio-t.com/p/2018/12/18/prep-629/) - *01:40:01*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast629.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-629.html)

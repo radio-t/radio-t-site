@@ -18,7 +18,7 @@ filename = "rt_podcast404"
 * [SSH для Developers Console](http://googlecloudplatform.blogspot.com/2014/08/introducing-ssh-from-developers-console.html)
 
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [OnlyOffice](http://www.onlyoffice.com)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [OnlyOffice](http://www.onlyoffice.com)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast404.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-404.html)
 <audio src="https://cdn.radio-t.com/rt_podcast404.mp3" preload="none"></audio>

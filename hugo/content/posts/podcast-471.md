@@ -19,7 +19,7 @@ filename = "rt_podcast471"
 * [AWS SDK для Go](https://aws.amazon.com/blogs/aws/now-available-version-1-0-of-the-aws-sdk-for-go/).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast471.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-471.html)
 <audio src="https://cdn.radio-t.com/rt_podcast471.mp3" preload="none"></audio>

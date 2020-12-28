@@ -19,7 +19,7 @@ filename = "rt_podcast464"
 * [Парковка для EC2](http://www.parkmycloud.com/2015/09/15/you-want-me-to-do-what-with-my-ec2-instances/).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast464.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-464.html)
 <audio src="https://cdn.radio-t.com/rt_podcast464.mp3" preload="none"></audio>

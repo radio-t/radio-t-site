@@ -18,7 +18,7 @@ filename = "rt_podcast461"
 * [Абсурд званий и названий](https://medium.com/@sethington/the-absurdity-of-titles-b44bbdb365b0).
 - Темы наших слушателей.
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Selectel](https://selectel.ru/services/vpc/)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Selectel](https://selectel.ru/services/vpc/)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast461.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-461.html)
 <audio src="https://cdn.radio-t.com/rt_podcast461.mp3" preload="none"></audio>

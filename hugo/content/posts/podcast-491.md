@@ -22,7 +22,7 @@ filename = "rt_podcast491"
 - [NexDock за $149. Лаптоп для вашего телефона](http://venturebeat.com/2016/04/08/nexdock-the-149-laptop-shell-passes-300000-funding-goal/) - *01:24:00*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast491.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-491.html)
 <audio src="https://cdn.radio-t.com/rt_podcast491.mp3" preload="none"></audio>

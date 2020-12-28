@@ -17,7 +17,7 @@ filename = "rt_podcast532"
 - Куда нам деть инфраструктурных ежиков? - *02:16:12*
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Sprinthost](https://sprintbox.ru)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Sprinthost](https://sprintbox.ru)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast532.mp3) 
 <audio src="https://cdn.radio-t.com/rt_podcast532.mp3" preload="none"></audio>

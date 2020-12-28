@@ -24,7 +24,7 @@ filename = "rt_podcast435"
 * [Цензура ссылок скайпом](http://habrahabr.ru/post/252725/)
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast435.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-435.html)
 <audio src="https://cdn.radio-t.com/rt_podcast435.mp3" preload="none"></audio>

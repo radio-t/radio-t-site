@@ -18,7 +18,7 @@ filename = "rt_podcast726"
 - [Mailchimp в борьбе против неправильных писем](https://reclaimthenet.org/mailchimp-misinformation-censorship/) - *01:29:39*.
 - [Темы наших слушателей](https://radio-t.com/p/2020/10/27/prep-726/) - *02:01:31*
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast726.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-726.html)
 <audio src="https://cdn.radio-t.com/rt_podcast726.mp3" preload="none"></audio>

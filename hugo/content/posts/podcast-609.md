@@ -18,7 +18,7 @@ filename = "rt_podcast609"
 - [Обновления Bitbucket](https://blog.bitbucket.org/2018/07/19/13-new-bitbucket-cloud-features/) - *01:49:40*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast609.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-609.html)

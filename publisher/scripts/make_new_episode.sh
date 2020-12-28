@@ -30,7 +30,7 @@ cat /tmp/last-temi.tmp >>${outfile}
 echo "- Темы наших слушателей" >>${outfile}
 echo "" >>${outfile}
 
-echo "*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+echo "*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 " >>${outfile}
 echo "" >>${outfile}
 echo "[аудио](https://cdn.radio-t.com/rt_podcast$post.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-$post.html)" >>${outfile}

@@ -14,7 +14,7 @@ filename = "rt_podcast589"
 - [Гость про CQRS](http://vladikk.com/2017/03/20/tackling-complexity-in-cqrs/).
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast589.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-589.html)
 <audio src="https://cdn.radio-t.com/rt_podcast589.mp3" preload="none"></audio>

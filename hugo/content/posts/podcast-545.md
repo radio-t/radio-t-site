@@ -16,7 +16,7 @@ filename = "rt_podcast545"
 - [Чем промерять разработчика](https://dev.to/pbeekums/how-do-you-know-a-developer-is-doing-a-good-job) - *01:08:39*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale), [SprintBox](http://bit.ly/2qfc9W8) и [Answerdesk](http://bit.ly/2pwf4Lo)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [Vscale](http://bit.ly/radio-t_vscale), [SprintBox](http://bit.ly/2qfc9W8) и [Answerdesk](http://bit.ly/2pwf4Lo)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast545.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-545.html)
 <audio src="https://cdn.radio-t.com/rt_podcast545.mp3" preload="none"></audio>

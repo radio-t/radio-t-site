@@ -18,7 +18,7 @@ filename = "rt_podcast571"
 - [Logitech создал и решил кризис с Harmony Link](https://www.engadget.com/2017/11/09/logitech-will-brick-harmony-link-in-march/) - *01:50:42*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](https://sprintbox.ru/)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](https://sprintbox.ru/)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast571.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-571.html)
 <audio src="https://cdn.radio-t.com/rt_podcast571.mp3" preload="none"></audio>

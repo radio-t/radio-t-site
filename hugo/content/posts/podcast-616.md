@@ -15,7 +15,7 @@ filename = "rt_podcast616"
 - [Amazon и его бесконечный ряд новинок](https://www.theverge.com/2018/9/20/17883242/amazon-alexa-event-2018-news-recap-echo-auto-dot-sub-link-auto-microwave) - *01:06:18*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast616.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-616.html)

@@ -16,7 +16,7 @@ filename = "rt_podcast713"
 - [Разделять frontend и backend это зло](https://www.thoughtworks.com/insights/blog/dividing-frontend-backend-antipattern) - *01:41:06*.
 - [Темы слушателей](https://radio-t.com/p/2020/07/28/prep-713/) - *01:54:25*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast713.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-713.html)

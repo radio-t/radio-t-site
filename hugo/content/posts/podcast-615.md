@@ -17,7 +17,7 @@ filename = "rt_podcast615"
 - [Plex уходит из облаков](https://variety.com/2018/digital/news/plex-cloud-shutting-down-1202936840/).
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast615.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-615.html)

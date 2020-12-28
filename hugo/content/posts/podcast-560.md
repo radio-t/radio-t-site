@@ -20,7 +20,7 @@ filename = "rt_podcast560"
 - [Android — 8.0 Oreo](https://www.android.com/versions/oreo-8-0/) - *01:30:43*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast560.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-560.html)
 <audio src="https://cdn.radio-t.com/rt_podcast560.mp3" preload="none"></audio>

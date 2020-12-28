@@ -15,7 +15,7 @@ filename = "rt_podcast734"
 - [Яндекс отключил расширения для 8 млн пользователей](https://habr.com/ru/company/yandex/blog/534586/) - *01:34:23*.
 - [Темы слушателей](https://radio-t.com/p/2020/12/22/prep-734/) - *01:54:22*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Selectel](https://slc.tl/AqVl9)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Selectel](https://slc.tl/AqVl9)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast734.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-734.html)

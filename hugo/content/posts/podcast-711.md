@@ -18,7 +18,7 @@ filename = "rt_podcast711"
 - [Программисты-бездельники атакуют](https://www.mrlacey.com/2020/07/youve-only-added-two-lines-why-did-that.html) - *01:23:47*.
 - [Темы слушателей](https://radio-t.com/p/2020/07/14/prep-711/) - *01:47:05*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast711.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-711.html)

@@ -17,7 +17,7 @@ filename = "rt_podcast399"
 * [Dropbox покидает Python](http://prsm.tc/kSUXjC)
 * [MongoDB 2.8 обещает много чего](http://prsm.tc/2R6BsC).
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast399.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-399.html)
 <audio src="https://cdn.radio-t.com/rt_podcast399.mp3" preload="none"></audio>

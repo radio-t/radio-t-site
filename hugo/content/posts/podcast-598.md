@@ -18,7 +18,7 @@ filename = "rt_podcast598"
 - [iOS 11.4 закроет USB на седьмой день](https://blog.elcomsoft.com/2018/05/ios-11-4-to-disable-usb-port-after-7-days-what-it-means-for-mobile-forensics/) - *01:24:59*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Adamant](https://adamant.im/?utm_source=radiot&utm_medium=website&utm_campaign=messenger)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Adamant](https://adamant.im/?utm_source=radiot&utm_medium=website&utm_campaign=messenger)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast598.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-598.html)

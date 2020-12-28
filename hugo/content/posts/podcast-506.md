@@ -14,7 +14,7 @@ filename = "rt_podcast506"
 - [Apple патент о странном стилусе](http://mashable.com/2016/07/26/apple-pencil-stylus-patent/).
 - [7 вещей о том, на что мы согласились](http://mashable.com/2016/07/26/terms-of-service-facebook-twitter-instagram/).
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast506.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-506.html)
 <audio src="https://cdn.radio-t.com/rt_podcast506.mp3" preload="none"></audio>

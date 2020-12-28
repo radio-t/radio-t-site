@@ -17,7 +17,7 @@ filename = "rt_podcast716"
 - [Lightroom потеряли фотографии](https://petapixel.com/2020/08/20/lightroom-app-update-wipes-users-photos-and-presets-adobe-says-they-are-not-recoverable/) - *01:46:34*.
 - [Темы слушателей](https://radio-t.com/p/2020/08/18/prep-716/) - *01:51:58*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast716.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-716.html)

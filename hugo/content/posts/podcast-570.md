@@ -16,7 +16,7 @@ filename = "rt_podcast570"
 - [Анти-рейтинг языков программирования](https://stackoverflow.blog/2017/10/31/disliked-programming-languages/) - *01:40:16*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast570.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-570.html)

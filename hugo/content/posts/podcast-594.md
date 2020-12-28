@@ -18,7 +18,7 @@ filename = "rt_podcast594"
 - [Будь приятным чуваком или ищи новую работу](https://sites.google.com/a/athaydes.com/renato-athaydes/posts/belikeableorgetfired) - *01:50:54*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast594.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-594.html)

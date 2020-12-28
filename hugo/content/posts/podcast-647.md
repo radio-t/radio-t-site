@@ -16,7 +16,7 @@ filename = "rt_podcast647"
 - [Яндекс опубликовал обзор рынка ИТ-вакансий](https://habr.com/ru/company/yandex/blog/449270/) - *01:31:22*.
 - [Темы слушателей](https://radio-t.com/p/2019/04/23/prep-647/) - *01:48:40*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast647.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-647.html)

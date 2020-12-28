@@ -14,7 +14,7 @@ filename = "rt_podcast718"
 - [Жестокая правда будней программиста](https://habr.com/ru/company/ruvds/blog/517318/) - *01:37:42*.
 - [Темы слушателей](https://radio-t.com/p/2020/09/01/prep-718/) - *02:08:47*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Oнлайн-Школа Алексея Ефимова
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Oнлайн-Школа Алексея Ефимова
 ](http://learnmetoo.info/)*
 
 

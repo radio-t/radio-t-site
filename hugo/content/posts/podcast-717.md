@@ -18,7 +18,7 @@ filename = "rt_podcast717"
 - [Facebook готовится к удару от iOS 14](https://www.facebook.com/business/news/preparing-our-partners-for-ios-14-launch/) - *01:46:10*.
 - [Темы слушателей](https://radio-t.com/p/2020/08/25/prep-717/) - *02:07:25*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [SkillFactory](https://clc.am/sY2omQ)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [SkillFactory](https://clc.am/sY2omQ)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast717.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-717.html)
