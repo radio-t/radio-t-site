@@ -70,5 +70,8 @@
     "webpack": "^4.34.0",
     "webpack-bundle-analyzer": "^3.3.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@size-limit/file": "^4.9.1",
+    "size-limit": "^4.9.1"
+  }
 }
