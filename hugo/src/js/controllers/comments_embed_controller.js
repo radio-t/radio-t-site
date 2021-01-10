@@ -1,8 +1,6 @@
-/** @jsx h */
-import {h} from 'preact';
 import { render } from 'preact';
 import Controller from '../base_controller';
-import Remark from '../components/remark.tsx';
+import Remark from '../components/remark';
 
 export default class extends Controller {
   initialize() {

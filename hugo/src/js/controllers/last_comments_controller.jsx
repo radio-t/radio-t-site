@@ -1,5 +1,4 @@
-/** @jsx h */
-import {h, render} from 'preact'
+import { h, render } from 'preact'
 import Controller from '../base_controller';
 import LastComments from '../components/LastComments';
 
