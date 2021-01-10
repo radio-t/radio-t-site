@@ -26,7 +26,7 @@ RUN \
     echo "CDT" > /etc/timezone && date && \
     rm -rf /var/cache/apk/*
 
-ENV HUGO_VER=0.55.5
+ENV HUGO_VER=0.80.0
 ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VER}/hugo_${HUGO_VER}_Linux-64bit.tar.gz /tmp/hugo.tar.gz
 RUN \
     cd /tmp && tar -zxf hugo.tar.gz && ls -la && \

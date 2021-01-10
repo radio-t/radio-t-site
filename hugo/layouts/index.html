@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-  {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
+  {{ $paginator := where site.RegularPages "Type" "posts" | .Paginate }}
   {{ .Scratch.Set "paginator" $paginator }}
 
   {{/*{{ if (eq $paginator.PageNumber 1) }}*/}}
