@@ -27,8 +27,8 @@
     };
   </script>
   <script>{{ readFile "static/build/theme-init.js" | safeJS }}</script>
-  <script src="/build{{ index .Site.Data.manifest "/manifest.js" }}"></script>
-  <script src="/build{{ index .Site.Data.manifest "/modernizr-bundle.js" }}"></script>
-  <script src="/build{{ index .Site.Data.manifest "/vendor.js" }}"></script>
-  <script src="/build{{ index .Site.Data.manifest "/app.js" }}"></script>
+  <script src="/build{{ index .Site.Data.manifest "/manifest.js" }}" async defer></script>
+  <script src="/build{{ index .Site.Data.manifest "/modernizr-bundle.js" }}" async defer></script>
+  <script src="/build{{ index .Site.Data.manifest "/vendor.js" }}" async defer></script>
+  <script src="/build{{ index .Site.Data.manifest "/app.js" }}"> async defer></script>
 {{ end }}
