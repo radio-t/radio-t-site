@@ -38,6 +38,6 @@ ignoreFiles = [ "\\.xml$"]
 
 [blackfriday]
   extensions = ["hardLineBreak"]
-  
+
 [markup.goldmark.renderer]
-    unsafe = true
+  unsafe = true

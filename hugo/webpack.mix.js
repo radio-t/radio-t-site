@@ -16,7 +16,7 @@ mix.webpackConfig({
     },
    },
  })
- .react('src/js/app.js', '.')
+ .ts('src/js/app.js', '.')
  .version();
 
 ['app', 'vendor'].forEach((style) => {
