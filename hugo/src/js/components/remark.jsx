@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+/** @jsx h */
+import { h, Component } from 'preact';
 
 export default class Remark extends Component {
   canScroll = true

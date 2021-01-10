@@ -1,8 +1,8 @@
-import React from 'react';
-import { render, unmountComponentAtNode } from 'react-dom';
+/** @jsx h */
+import {h} from 'preact';
+import { render } from 'preact';
 import Controller from '../base_controller';
-import Remark from '../components/remark';
-import Turbolinks from 'turbolinks';
+import Remark from '../components/remark.jsx';
 
 export default class extends Controller {
   initialize() {
@@ -34,6 +34,6 @@ export default class extends Controller {
   disconnect() {
     super.disconnect();
     document.removeEventListener('theme:change', this.render);
-    unmountComponentAtNode(this.element);
+    render(null, this.element);
   }
 }

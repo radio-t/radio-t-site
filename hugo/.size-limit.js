@@ -13,6 +13,6 @@ module.exports = [
   },
   {
     path: 'static/build/vendor.js',
-    vendor: '424.46 KB',
+    limit: '100 KB',
   },
 ];

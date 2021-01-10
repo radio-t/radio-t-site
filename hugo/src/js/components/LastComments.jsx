@@ -1,14 +1,15 @@
+/** @jsx h */
+import {h} from 'preact'
+import { useCallback, useEffect, useState } from 'preact/hooks';
 import http from 'axios';
 import locale from 'date-fns/locale/ru';
-import { distanceInWordsStrict, format, parse } from 'date-fns';
-import React, { useCallback, useEffect, useState } from 'react';
+import { formatDistance, format, parseISO } from 'date-fns';
 import { getTextSnippet } from '../utils';
-
 const COMMENT_NODE_CLASSNAME_PREFIX = 'remark42__comment-';
 
 function Comment({comment}) {
   const now = new Date();
-  const date = parse(comment.time);
+  const date = parseISO(comment.time);
   const avatarStyle = comment.user.picture ? {backgroundImage: `url('${comment.user.picture}')`} : {};
   const href = (new URL(comment.locator.url)).pathname + `#${COMMENT_NODE_CLASSNAME_PREFIX}${comment.id}`;
 
@@ -28,10 +29,10 @@ function Comment({comment}) {
         </h5>
         <a
           href={href}
-          title={format(date, 'DD MMM YYYY, HH:mm', {locale})}
+          title={format(date, 'dd MMM yyyy, HH:mm', {locale})}
           className="small text-muted"
         >
-          {distanceInWordsStrict(now, date, {locale, addSuffix: true})}
+          {formatDistance(now, date, {locale, addSuffix: true})}
         </a>
       </div>
     </div>
