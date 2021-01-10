@@ -7,7 +7,7 @@ title = "Радио-Т Подкаст"
 
 paginate = 15
 paginatePath = "page"
-
+pygmentsUseClasses = true
 publishdir = "public"
 ignoreFiles = [ "\\.xml$"]
 

@@ -6,6 +6,7 @@
 @import "remark";
 @import "archives";
 @import "last-comments";
+@import "chroma";
 @mixin dark {
   background-color: #000;
   filter: invert(1) hue-rotate(180deg);

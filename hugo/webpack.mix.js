@@ -8,7 +8,16 @@ const useNodeSass = USE_NODE_SASS ? {implementation: require('node-sass')} : {};
 
 mix.disableNotifications();
 
-mix.ts('src/js/app.js', '.');
+mix.webpackConfig({
+  'resolve': {
+    'alias': {
+      'react': 'preact/compat',
+      'react-dom': 'preact/compat',
+    },
+   },
+ })
+ .react('src/js/app.js', '.')
+ .version();
 
 ['app', 'vendor'].forEach((style) => {
   mix.sass(`src/scss/${style}.scss`, '.', useNodeSass);
@@ -17,8 +26,11 @@ mix.ts('src/js/app.js', '.');
 
 mix.webpackConfig({plugins: [new ModernizrWebpackPlugin(require('./.modernizr'))]});
 
-// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
-// mix.webpackConfig({plugins: [new BundleAnalyzerPlugin()]});
+if (process.env.ANALYZE) {
+  const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer');
+
+  mix.webpackConfig({plugins: [new BundleAnalyzerPlugin()]});
+}
 
 if (mix.inProduction()) {
   mix.setPublicPath('static/build');
