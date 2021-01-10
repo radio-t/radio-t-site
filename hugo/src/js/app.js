@@ -13,3 +13,6 @@ if (process.env.NODE_ENV === 'production' || process.env.MIX_TURBO) {
   require('./quicklink');
 }
 
+if (process.env.NODE_ENV === 'production' || process.env.ENABLE_SENTRY) {
+  require('./sentry');
+}

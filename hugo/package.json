@@ -10,7 +10,8 @@
     "hugo": "cross-env-shell hugo serve --minify --port ${HUGO_PORT:-1313}",
     "hugo-no-live": "cross-env-shell hugo serve --minify --disableLiveReload --port ${HUGO_PORT:-1313}",
     "start": "cross-env NODE_ENV=development run-p watch hugo",
-    "start-turbo": "cross-env NODE_ENV=development cross-env MIX_TURBO=1 run-p watch hugo-no-live"
+    "start-turbo": "cross-env NODE_ENV=development cross-env MIX_TURBO=1 run-p watch hugo-no-live",
+    "size": "npm run prod && size-limit"
   },
   "dependencies": {
     "@babel/cli": "^7.4.4",
@@ -19,6 +20,7 @@
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-transform-react-jsx": "^7.3.0",
     "@fortawesome/fontawesome-free": "^5.9.0",
+    "@sentry/browser": "^5.29.2",
     "axios": "^0.21.1",
     "axios-extensions": "^3.1.3",
     "bootstrap": "^4.3.1",

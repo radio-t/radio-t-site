@@ -13,6 +13,18 @@ module.exports = [
   },
   {
     path: 'static/build/vendor.js',
-    limit: '100 KB',
+    limit: '115 KB',
   },
+  {
+    path: 'static/build/app.css',
+    limit: '9 KB',
+  },
+  {
+    path: 'static/build/app-dark.css',
+    limit: '9 KB',
+  },
+  {
+    path: 'static/build/vendor.css',
+    limit: '37 KB',
+  }
 ];
