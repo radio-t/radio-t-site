@@ -1,20 +1,50 @@
 /** @jsx h */
-import { h, Component } from 'preact';
+import { h, Component } from 'preact'
 
-export default class Remark extends Component {
-  canScroll = true
+type RemarkTheme = "light" | "dark";
+
+type Props = {
+  baseurl?: string;
+  site_id: string;
+  page_title: string;
+  url?: string;
+  id?: string;
+  className?: string;
+  theme?: RemarkTheme;
+  locale: string;
+};
+
+export default class Remark extends Component<Props> {
+  protected ref?: HTMLDivElement;
+  protected receiveMessages?: (
+    event: Event & {
+      data?: any;
+    }
+  ) => void;
+  protected postHashToIframe?: (
+    event: Event & {
+      newURL: string;
+    }
+  ) => void;
+  protected postClickOutsideToIframe?: (event: MouseEvent) => void;
+  protected changeTheme?: (theme: RemarkTheme) => void;
+  protected canScroll: boolean = true
+
+  constructor(props: Props) {
+    super(props);
+  }
 
   render() {
     return (
       <div
         className={`remark42 ${this.props.className || ""}`}
         id={this.props.id}
-        ref={ref => (this.ref = ref)}
+        ref={ref => (this.ref = ref!)}
       />
     );
   }
 
-  shouldComponentUpdate(nextProps) {
+  shouldComponentUpdate(nextProps: Props) {
     if (nextProps.theme !== this.props.theme) return true;
     return false;
   }
@@ -22,7 +52,14 @@ export default class Remark extends Component {
   componentDidMount() {
     const COMMENT_NODE_CLASSNAME_PREFIX = "remark42__comment-";
 
-    const remark_config = {
+    const remark_config: {
+      baseurl: string;
+      site_id: string;
+      page_title: string;
+      url?: string;
+      theme: RemarkTheme;
+      locale: string,
+    } = {
       baseurl: this.props.baseurl || "https://remark42.radio-t.com",
       site_id: this.props.site_id,
       page_title: this.props.page_title,
@@ -43,12 +80,12 @@ export default class Remark extends Component {
       .map(
         key =>
           `${encodeURIComponent(key)}=${encodeURIComponent(
-            (remark_config)[key]
+            (remark_config as any)[key]
           )}`
       )
       .join("&");
 
-    node.innerHTML = `
+    node!.innerHTML = `
     <iframe
       src="${remark_config.baseurl}/web/iframe.html?${query}"
       width="100%"
@@ -63,7 +100,7 @@ export default class Remark extends Component {
     ></iframe>
   `;
 
-    const iframe = node.getElementsByTagName("iframe")[0];
+    const iframe = node!.getElementsByTagName("iframe")[0];
 
     this.receiveMessages = function (event) {
       try {
@@ -113,7 +150,7 @@ export default class Remark extends Component {
     };
 
     this.postClickOutsideToIframe = function (e) {
-      if (!iframe.contains(e.target)) {
+      if (!iframe.contains(e.target as HTMLElement)) {
         iframe.contentWindow &&
           iframe.contentWindow.postMessage(
             JSON.stringify({ clickOutside: true }),
@@ -133,13 +170,27 @@ export default class Remark extends Component {
     setTimeout(this.postHashToIframe, 1000);
 
     const remarkRootId = "remark-km423lmfdslkm34";
-    const userInfo = {
+    const userInfo: {
+      node: HTMLElement | null;
+      back: HTMLElement | null;
+      closeEl: HTMLElement | null;
+      iframe: HTMLElement | null;
+      style: HTMLElement | null;
+      init: (user: any) => void;
+      close: () => void;
+      delay: number | null;
+      events: string[];
+      animationStop: any;
+      onAnimationClose: () => void;
+      remove: () => void;
+      onKeyDown: (e: KeyboardEvent) => void;
+    } = {
       node: null,
       back: null,
       closeEl: null,
       iframe: null,
       style: null,
-      init(user) {
+      init(user: any) {
         this.animationStop();
         if (!this.style) {
           this.style = document.createElement("style");
@@ -239,9 +290,9 @@ export default class Remark extends Component {
         document.body.appendChild(this.node);
         document.addEventListener("keydown", this.onKeyDown);
         window.setTimeout(() => {
-          this.back.setAttribute("data-animation", "");
-          this.node.setAttribute("data-animation", "");
-          this.iframe.focus();
+          this.back!.setAttribute("data-animation", "");
+          this.node!.setAttribute("data-animation", "");
+          this.iframe!.focus();
         }, 400);
       },
       close() {
@@ -264,8 +315,8 @@ export default class Remark extends Component {
           return;
         }
         this.delay = window.setTimeout(this.animationStop, 1000);
-        this.events.forEach((event) =>
-          el.addEventListener(event, this.animationStop, false)
+        this.events.forEach((event: string) =>
+          el!.addEventListener(event, this.animationStop, false)
         );
       },
       onKeyDown(e) {
@@ -284,7 +335,7 @@ export default class Remark extends Component {
           t.delay = null;
         }
         t.events.forEach(event =>
-          t.node.removeEventListener(event, t.animationStop, false)
+          t.node!.removeEventListener(event, t.animationStop, false)
         );
         return t.remove();
       },
@@ -298,12 +349,12 @@ export default class Remark extends Component {
   }
 
   componentWillUnmount() {
-    window.removeEventListener("message", this.receiveMessages);
-    window.removeEventListener("hashchange", this.postHashToIframe);
-    document.removeEventListener("click", this.postClickOutsideToIframe);
+    window.removeEventListener("message", this.receiveMessages!);
+    window.removeEventListener("hashchange", this.postHashToIframe!);
+    document.removeEventListener("click", this.postClickOutsideToIframe!);
   }
 
-  componentDidUpdate(prevProps) {
+  componentDidUpdate(prevProps: Props) {
     if (prevProps.theme !== this.props.theme) {
       this.changeTheme && this.changeTheme(this.props.theme || "light");
     }

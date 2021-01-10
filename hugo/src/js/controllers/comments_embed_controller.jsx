@@ -2,7 +2,7 @@
 import {h} from 'preact';
 import { render } from 'preact';
 import Controller from '../base_controller';
-import Remark from '../components/remark.jsx';
+import Remark from '../components/remark.tsx';
 
 export default class extends Controller {
   initialize() {
