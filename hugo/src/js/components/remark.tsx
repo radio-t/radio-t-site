@@ -1,4 +1,3 @@
-/** @jsx h */
 import { h, Component } from 'preact'
 
 type RemarkTheme = "light" | "dark";

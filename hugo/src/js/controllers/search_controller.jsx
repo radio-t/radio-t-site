@@ -1,5 +1,4 @@
-/** @jsx h */
-import {h, render} from 'preact'
+import { h, render } from 'preact'
 import { format, parseISO } from 'date-fns';
 import locale from 'date-fns/locale/ru';
 import debounce from 'lodash/debounce';

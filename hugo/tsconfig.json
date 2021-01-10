@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "jsx": "react",
+    "jsxFactory": "h",
     "esModuleInterop": true,
     "moduleResolution": "node",
     "noImplicitReturns": true,
