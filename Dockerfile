@@ -3,10 +3,10 @@ FROM node:10 as build
 RUN mkdir -p /app
 WORKDIR /app
 
-ENV NODE_ENV=production
 COPY hugo/package.json hugo/package-lock.json ./
-RUN npm install --only=production
+RUN npm ci
 
+ENV NODE_ENV=production
 COPY hugo/.modernizr.js hugo/webpack.mix.js hugo/tsconfig.json hugo/.babelrc.js ./
 COPY hugo/src/ src/
 RUN npm run production
