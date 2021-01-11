@@ -1,4 +1,4 @@
-import { render } from 'preact';
+import { h, render } from 'preact';
 import Controller from '../base_controller';
 import Remark from '../components/remark';
 
