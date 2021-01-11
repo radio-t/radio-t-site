@@ -8,7 +8,6 @@ const COMMENT_NODE_CLASSNAME_PREFIX = 'remark42__comment-';
 
 function Comment({comment}) {
   const date = parseISO(comment.time);
-  const avatarStyle = comment.user.picture ? {backgroundImage: `url('${comment.user.picture}')`} : {};
   const href = (new URL(comment.locator.url)).pathname + `#${COMMENT_NODE_CLASSNAME_PREFIX}${comment.id}`;
 
   return <div className="last-comments-list-item">
@@ -18,7 +17,7 @@ function Comment({comment}) {
     </div>
     <div className="mb-2 media last-comments-header align-items-center">
       <div className="last-comments-avatar mr-2">
-        <div className="last-comments-avatar-image" style={avatarStyle}/>
+        {comment.user.picture && <img className="last-comments-avatar-image" src={comment.user.picture} alt={comment.user.name} loading="lazy" width={28} height={28}/>}
       </div>
       <div className="media-body">
         <h5 className="m-0 small font-weight-bold">
