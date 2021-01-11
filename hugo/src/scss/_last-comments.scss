@@ -8,22 +8,12 @@
     border-top: 1px solid $border-color;
   }
 }
-.last-comments-header {
-}
 .last-comments-avatar {
-  width: 1.8rem;
-}
-.last-comments-avatar-image {
-  display: block;
-  position: relative;
-  width: 100%;
+  overflow: hidden;
+  width: 28px;
+  height: 28px;
   border-radius: 4px;
-  padding-bottom: 100%;
-  //background-image: url('../images/default-avatar.jpg');
   background-color: $gray-200;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 .last-comments-comment__verification {
   display: inline-block;
