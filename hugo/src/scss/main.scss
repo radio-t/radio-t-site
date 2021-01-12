@@ -1,4 +1,3 @@
-@import "likely";
 @import "player";
 @import "navbar";
 @import "sidebar";
@@ -7,6 +6,7 @@
 @import "archives";
 @import "last-comments";
 @import "chroma";
+@import "share";
 @mixin dark {
   background-color: #000;
   filter: invert(1) hue-rotate(180deg);

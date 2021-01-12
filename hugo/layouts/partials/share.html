@@ -1,17 +1,35 @@
 <div>
   <div class="text-muted small">Поделиться</div>
-  <div
-    class="likely"
-    data-controller="likely"
-    data-url="{{ .Permalink }}"
-    data-title="{{ .Title }}"
-  >
-    <div class="twitter" data-via="{{ .Site.Params.twitter }}"></div>
-    <div class="facebook"></div>
-    <div
-      class="vkontakte"
-      {{ with .Params.image }}data-image="{{ . }}"{{ end }}
-      data-description="{{ .Site.Params.longDescription }}"
-    ></div>
+  <div class="share">
+    <a
+      href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}&via={{ .Site.Params.twitter }}"
+      class="share__link share__link_twitter"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <svg width="16" height="16" viewBox="0 0 16 16" class="share__icon">
+        <use xlink:href="#twitter-icon"></use>
+      </svg>
+    </a>
+    <a
+      href="https://www.facebook.com/sharer.php?u={{ .Permalink }}"
+      class="share__link share__link_facebook"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <svg width="16" height="16" viewBox="0 0 16 16" class="share__icon">
+        <use xlink:href="#facebook-icon"></use>
+      </svg>
+    </a>
+    <a
+      href="https://vk.com/share.php?url={{ .Permalink }}&title={{ .Title }}&description={{ .Site.Params.longDescription }}{{ with .Params.image }}&image={{ . }}{{ end }}"
+      class="share__link share__link_vk"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <svg width="16" height="16" viewBox="0 0 16 16" class="share__icon">
+        <use xlink:href="#vk-icon"></use>
+      </svg>
+    </a>
   </div>
 </div>
