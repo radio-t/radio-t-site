@@ -3,7 +3,7 @@ import { h, Component } from 'preact'
 type RemarkTheme = "light" | "dark";
 
 type Props = {
-  baseurl?: string;
+  host: string;
   site_id: string;
   page_title: string;
   url?: string;
@@ -52,14 +52,14 @@ export default class Remark extends Component<Props> {
     const COMMENT_NODE_CLASSNAME_PREFIX = "remark42__comment-";
 
     const remark_config: {
-      baseurl: string;
+      host: string;
       site_id: string;
       page_title: string;
       url?: string;
       theme: RemarkTheme;
       locale: string,
     } = {
-      baseurl: this.props.baseurl || "https://remark42.radio-t.com",
+      host: this.props.host || "https://remark42.radio-t.com",
       site_id: this.props.site_id,
       page_title: this.props.page_title,
       theme: this.props.theme || "light",
@@ -86,7 +86,7 @@ export default class Remark extends Component<Props> {
 
     node!.innerHTML = `
     <iframe
-      src="${remark_config.baseurl}/web/iframe.html?${query}"
+      src="${remark_config.host}/web/iframe.html?${query}"
       width="100%"
       frameborder="0"
       allowtransparency="true"
@@ -270,7 +270,7 @@ export default class Remark extends Component<Props> {
           ""}&isDefaultPicture=${user.isDefaultPicture || 0}`;
         this.node.innerHTML = `
       <iframe
-        src="${remark_config.baseurl}/web/iframe.html?${queryUserInfo}"
+        src="${remark_config.host}/web/iframe.html?${queryUserInfo}"
         width="100%"
         height="100%"
         frameborder="0"
