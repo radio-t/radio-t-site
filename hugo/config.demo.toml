@@ -32,7 +32,6 @@ ignoreFiles = ["\\.xml$"]
 
   twitter = "radio_t"
   twitterNews = "radiot_news"
-  twitterWidgetId = "351604787772534785"
 
   googlePlus = "111734605124061464121"
   remark42 = "radiot"
