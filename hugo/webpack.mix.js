@@ -1,9 +1,7 @@
 const fs = require('fs');
-const glob = require('glob')
 const mix = require('laravel-mix');
 const babel = require('@babel/core');
 const ModernizrWebpackPlugin = require('modernizr-webpack-plugin');
-const PurgecssPlugin = require('purgecss-webpack-plugin')
 
 const USE_NODE_SASS = true; // faster https://github.com/JeffreyWay/laravel-mix/issues/1832
 const useNodeSass = USE_NODE_SASS ? {implementation: require('node-sass')} : {};
@@ -26,12 +24,7 @@ mix.webpackConfig({
   mix.sass(`src/scss/${style}-dark.scss`, '.', useNodeSass);
 });
 
-mix.webpackConfig({
-  plugins: [
-    new ModernizrWebpackPlugin(require('./.modernizr')),
-    new PurgecssPlugin({ paths: glob.sync(`layouts/**/*.html`, { nodir: true }) }),
-  ]
-});
+mix.webpackConfig({plugins: [new ModernizrWebpackPlugin(require('./.modernizr'))]});
 
 if (process.env.ANALYZE) {
   const {BundleAnalyzerPlugin} = require('webpack-bundle-analyzer');
