@@ -4,7 +4,7 @@ on:
     branches:
       - master
     paths:
-      - 'hugo/**/*.{js,jsxts,tsx,scss,css}'
+      - 'hugo/**/*.{js,jsx,ts,tsx,scss,css}'
 
 jobs:
   size:
