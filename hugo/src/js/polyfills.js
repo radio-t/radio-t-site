@@ -4,8 +4,6 @@ smoothscroll.polyfill();
 require('custom-event-polyfill');
 require('intersection-observer');
 require('core-js/features/dom-collections');
-require('core-js/es/string/starts-with');
-require('core-js/es/string/ends-with');
 
 //matches
 if (!Element.prototype.matches) {

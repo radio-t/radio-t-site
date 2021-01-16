@@ -20,7 +20,7 @@ export default class extends Controller {
     // Mark active nav item
     for (let item of this.element.querySelectorAll('.nav-link')) {
       if (item.hasAttribute('no-active')) continue;
-      item.classList.toggle('active', window.location.href.startsWith(item.href));
+      item.classList.toggle('active', window.location.href.indexOf(item.href) === 0);
     }
   }
 

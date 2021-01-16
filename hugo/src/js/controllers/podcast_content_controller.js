@@ -1,4 +1,5 @@
 import find from 'lodash/find';
+
 import Controller from '../base_controller';
 import { composeTime, parseTime } from '../utils';
 
