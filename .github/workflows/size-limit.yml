@@ -1,8 +1,11 @@
-name: "size"
+name: "check frontend js/css bundle size"
 on:
   pull_request:
     branches:
       - master
+    paths:
+      - 'hugo/**/*.{js,jsxts,tsx,scss,css}'
+
 jobs:
   size:
     runs-on: ubuntu-latest
