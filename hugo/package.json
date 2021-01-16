@@ -30,7 +30,6 @@
     "cross-env": "^5.2.0",
     "custom-event-polyfill": "^1.0.7",
     "date-fns": "^2.16.1",
-    "domready": "^1.0.8",
     "imagesloaded": "^4.1.4",
     "intersection-observer": "^0.7.0",
     "light-event-bus": "^1.0.1",

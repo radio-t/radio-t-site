@@ -1,5 +1,3 @@
-import padStart from 'lodash/padStart';
-
 export function getLocalStorage(key, selector = s => s) {
   let data;
   try {
@@ -34,14 +32,7 @@ export function parseTime(time) {
 
 // 144 => 00:02:24
 export function composeTime(time) {
-  const pieces = [];
-  time = parseInt(time);
-  while (time) {
-    pieces.push(time % 60);
-    time = Math.floor(time / 60);
-  }
-  while (pieces.length < 3) pieces.push(0);
-  return pieces.reverse().map((t) => padStart(t, 2, '0')).join(':');
+  return new Date(isNaN(time) ? 0 : time * 1000).toISOString().substr(11, 8)
 }
 
 export function getTextSnippet(html) {

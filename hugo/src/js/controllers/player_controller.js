@@ -1,8 +1,9 @@
 import debounce from 'lodash/debounce';
 import capitalize from 'lodash/capitalize';
+
+import {Events} from '../events'
 import Controller from '../base_controller';
 import { composeTime, getLocalStorage, parseTime, updateLocalStorage } from '../utils';
-import { Events } from '../events';
 
 /**
  * @property {Audio} audioTarget

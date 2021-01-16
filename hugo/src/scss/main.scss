@@ -460,6 +460,10 @@ $jumbotron-arc-width: 120%;
 }
 .podcast-cover {
   position: relative;
+  transition: transform 0.2s cubic-bezier(0.13, 1.18, 0.88, 1.49);
+  .playing & {
+    transform: scale(1.1);
+  }
   .post-podcast & {
     max-width: 18rem;
     @include media-breakpoint-down('sm') {
