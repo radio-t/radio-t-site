@@ -461,7 +461,7 @@ $jumbotron-arc-width: 120%;
 .podcast-cover {
   position: relative;
   transform: scale(0.9) translateY(0);
-  transition: transform 0.1s linear;
+  transition: transform 0.1s ease-out;
   &::before {
     position: absolute;
     bottom: 0;
@@ -473,7 +473,7 @@ $jumbotron-arc-width: 120%;
     background-color: transparent;
     transform: translate3d(0, -10%, 0);
     transition-property: transform, opacity;
-    transition-timing-function: linear;
+    transition-timing-function: ease-out;
     transition-duration: 0.1s;
     box-shadow: 0 30px 60px -10px rgba(#000, .5);
     opacity: .33;
