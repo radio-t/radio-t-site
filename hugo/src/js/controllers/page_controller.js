@@ -8,7 +8,7 @@ export default class extends Controller {
   }
 
   updatePodcasts() {
-    this.playerStateReceiverTargets.forEach(podcast => {
+    this.playerStateReceiverTargets.forEach((podcast) => {
       this.dispatchEvent(podcast, new CustomEvent('player-state', { bubbles: false }));
     });
   }

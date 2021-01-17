@@ -1,5 +1,5 @@
 module.exports = {
-  classPrefix: '',
-  options: ['setClasses'],
+  'classPrefix': '',
+  'options': ['setClasses'],
   'feature-detects': ['css/cssgrid'],
 };

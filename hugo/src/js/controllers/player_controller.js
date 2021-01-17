@@ -52,21 +52,21 @@ export default class extends Controller {
 
   // https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events
   addEventListeners() {
-    ['timeupdate', 'durationchange', 'play', 'pause', 'ended'].forEach(event => {
+    ['timeupdate', 'durationchange', 'play', 'pause', 'ended'].forEach((event) => {
       const handlerName = `on${capitalize(event)}`;
       if (this[handlerName]) this.audioTarget.addEventListener(event, this[handlerName].bind(this));
     });
 
     const updateLoadingState = debounce(
-      isLoading => this.element.classList.toggle('player-loading', isLoading),
+      (isLoading) => this.element.classList.toggle('player-loading', isLoading),
       500
     );
     const eventsLoadingOn = ['seeking', 'waiting', 'loadstart'];
     const eventsLoadingOff = ['playing', 'seeked', 'canplay', 'loadeddata', 'error'];
-    eventsLoadingOn.forEach(event =>
+    eventsLoadingOn.forEach((event) =>
       this.audioTarget.addEventListener(event, updateLoadingState.bind(this, true))
     );
-    eventsLoadingOff.forEach(event =>
+    eventsLoadingOff.forEach((event) =>
       this.audioTarget.addEventListener(event, updateLoadingState.bind(this, false))
     );
 
@@ -98,8 +98,8 @@ export default class extends Controller {
       'volumechange',
       'waiting',
     ];
-    debugEvents.forEach(event =>
-      this.audioTarget.addEventListener(event, e => this.debug('audio event', event, e))
+    debugEvents.forEach((event) =>
+      this.audioTarget.addEventListener(event, (e) => this.debug('audio event', event, e))
     );
 
     window.addEventListener('beforeunload', () => {
@@ -133,7 +133,7 @@ export default class extends Controller {
       this.element.classList.remove('d-none');
       this.audioTarget.src = detail.src;
       this.updateState({ src: detail.src });
-      this.linkTargets.forEach(link => (link.href = detail.url));
+      this.linkTargets.forEach((link) => (link.href = detail.url));
       this.coverTarget.style.backgroundImage = detail.image;
       this.coverTarget.classList.toggle('cover-image-online', !!detail.online);
       this.numberTarget.textContent = detail.number;
@@ -143,7 +143,7 @@ export default class extends Controller {
         if (!detail.timeLabel) {
           const podcast = getLocalStorage(
             'podcasts',
-            podcasts => podcasts[this.numberTarget.innerText]
+            (podcasts) => podcasts[this.numberTarget.innerText]
           );
           if (podcast) {
             detail.timeLabel = composeTime(podcast.currentTime);
@@ -241,7 +241,7 @@ export default class extends Controller {
           currentTime: this.audioTarget.currentTime,
           duration: this.audioTarget.duration,
         };
-        updateLocalStorage('podcasts', podcasts => {
+        updateLocalStorage('podcasts', (podcasts) => {
           podcasts[this.detail.number] = podcastData;
           return podcasts;
         });

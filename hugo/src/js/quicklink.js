@@ -11,7 +11,7 @@ function start(options = {}) {
 }
 
 document.addEventListener('turbolinks:load', start);
-document.addEventListener('quicklink', e => start(e.detail || {}));
+document.addEventListener('quicklink', (e) => start(e.detail || {}));
 
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', start);

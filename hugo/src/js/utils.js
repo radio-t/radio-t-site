@@ -1,4 +1,4 @@
-export function getLocalStorage(key, selector = s => s) {
+export function getLocalStorage(key, selector = (s) => s) {
   let data;
   try {
     data = JSON.parse(localStorage.getItem(key) || '{}');

@@ -1,4 +1,4 @@
-(function(window, themesList) {
+(function (window, themesList) {
   const theme = (() => {
     try {
       const themeFromStore = localStorage.getItem('theme');
@@ -15,7 +15,7 @@
 
   for (const t in themesList) {
     const active = theme === t;
-    themesList[t].forEach(style => {
+    themesList[t].forEach((style) => {
       document.writeln(
         `<link href="${style}" rel="stylesheet" data-theme="${t}" media="${active ? '' : 'none'}">`
       );

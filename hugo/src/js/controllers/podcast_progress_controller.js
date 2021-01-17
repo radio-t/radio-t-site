@@ -6,7 +6,7 @@ export default class extends Controller {
 
   initialize() {
     super.initialize();
-    this.subscribe(`playing-progress-${this.numberTarget.innerText}`, podcast => {
+    this.subscribe(`playing-progress-${this.numberTarget.innerText}`, (podcast) => {
       this.renderProgress(podcast);
     });
   }
@@ -15,7 +15,10 @@ export default class extends Controller {
     super.connect();
     if (this.data.has('init')) return;
 
-    const podcast = getLocalStorage('podcasts', podcasts => podcasts[this.numberTarget.innerText]);
+    const podcast = getLocalStorage(
+      'podcasts',
+      (podcasts) => podcasts[this.numberTarget.innerText]
+    );
     if (podcast) {
       this.renderProgress(podcast);
     }

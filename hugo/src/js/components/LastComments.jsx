@@ -74,7 +74,7 @@ function LastComments() {
 
   return (
     <div className="last-comments-list">
-      {comments.map(comment => (
+      {comments.map((comment) => (
         <Comment comment={comment} key={comment.id} />
       ))}
     </div>

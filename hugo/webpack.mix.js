@@ -10,7 +10,7 @@ mix
   .webpackConfig({
     resolve: {
       alias: {
-        react: 'preact/compat',
+        'react': 'preact/compat',
         'react-dom': 'preact/compat',
       },
     },
@@ -18,7 +18,7 @@ mix
   .ts('src/js/app.js', '.')
   .version();
 
-['app', 'vendor'].forEach(style => {
+['app', 'vendor'].forEach((style) => {
   mix.sass(`src/scss/${style}.scss`, '.', { implementation: nodeSass });
   mix.sass(`src/scss/${style}-dark.scss`, '.', { implementation: nodeSass });
 });
@@ -77,7 +77,7 @@ if (mix.inProduction()) {
     snippetOptions: {
       rule: {
         match: /<\/head>/i,
-        fn: function(snippet, match) {
+        fn: function (snippet, match) {
           return snippet + match;
         },
       },
