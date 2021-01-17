@@ -18,11 +18,11 @@ echo '+++' >${outfile}
 echo "title = \"Радио-Т $post\"" >>${outfile}
 echo "date = \"${today}T${hhmmss}\"" >>${outfile}
 echo 'categories = ["podcast"]' >>${outfile}
-echo "image = \"https://radio-t.com/images/radio-t/rt$post.webp\"" >>${outfile}
+echo "image = \"https://radio-t.com/images/radio-t/rt$post.jpg\"" >>${outfile}
 echo "filename = \"rt_podcast${post}\"" >>${outfile}
 echo '+++' >>${outfile}
 echo "" >>${outfile}
-echo "![](https://radio-t.com/images/radio-t/rt${post}.webp)" >>${outfile}
+echo "![](https://radio-t.com/images/radio-t/rt${post}.jpg)" >>${outfile}
 echo "" >>${outfile}
 
 wget https://news.radio-t.com/api/v1/news/lastmd/12 -O /tmp/last-temi.tmp

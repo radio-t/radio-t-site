@@ -2,11 +2,11 @@
 title = "Радио-Т 737"
 date = "2021-01-16T17:18:18"
 categories = ["podcast"]
-image = "https://radio-t.com/images/radio-t/rt737.webp"
+image = "https://radio-t.com/images/radio-t/rt737.jpg"
 filename = "rt_podcast737"
 +++
 
-![](https://radio-t.com/images/radio-t/rt737.webp)
+![](https://radio-t.com/images/radio-t/rt737.jpg)
 
 - [2021 MacBook Pro с MagSafe и без Touch Bar](https://9to5mac.com/2021/01/14/kuo-details-2021-macbook-pro-new-design-with-squared-off-sides-magsafe-connector-and-io-return-touch-bar-removed/) - *00:04:16*.
 - [WhatsApp приостановили слив](https://www.dw.com/en/whatsapp-delays-privacy-changes-following-backlash/a-56243714) - *00:28:44*.
