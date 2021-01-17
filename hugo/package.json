@@ -66,6 +66,7 @@
     "debug": "^4.1.1",
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-react": "^7.22.0",
     "laravel-mix": "^4.0.16",
     "prettier": "^2.2.1",
     "size-limit": "^4.9.1",
