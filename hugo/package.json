@@ -13,7 +13,7 @@
     "start-turbo": "cross-env NODE_ENV=development cross-env MIX_TURBO=1 run-p watch hugo-no-live",
     "size": "npm run prod && size-limit",
     "prettier": "prettier '**/*.{js,jsx,ts,tsx,scss}' --write",
-    "eslint": "eslint '**/*.{js,jsx,ts,tsx}' --fix"
+    "eslint": "eslint '**/*.{js,jsx,ts,tsx}'"
   },
   "dependencies": {
     "@babel/cli": "^7.4.4",
