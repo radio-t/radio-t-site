@@ -1,4 +1,4 @@
-name: "check frontend js/css bundle size"
+name: "Check size limit for CSS and JS bundles"
 on:
   push:
     branches:
