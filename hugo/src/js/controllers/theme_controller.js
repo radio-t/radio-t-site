@@ -6,7 +6,7 @@ export default class extends Controller {
     super.initialize();
 
     if (!this.isSaved()) {
-      window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+      window.matchMedia('(prefers-color-scheme: dark)').addListener((e) => {
         this.setTheme(e.matches ? 'dark' : 'light', false);
       });
     }
@@ -41,7 +41,7 @@ export default class extends Controller {
 
     const styles = [...document.querySelectorAll(`link[${titleAttribute}][rel~="stylesheet"]`)];
 
-    styles.forEach(link => {
+    styles.forEach((link) => {
       this.enableStylesheet(link, link.getAttribute(titleAttribute) === theme);
     });
 

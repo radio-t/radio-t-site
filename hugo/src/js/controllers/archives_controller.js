@@ -16,14 +16,16 @@ export default class extends Controller {
     if (this.data.get('initialized')) return;
     this.data.set('initialized', '1');
 
-    this.ranges = this.listTargets.map(list => {
-      const latest = find(list.children, post => post.querySelector('.podcast-title-number'));
-      const earliest = findLast(list.children, post => post.querySelector('.podcast-title-number'));
+    this.ranges = this.listTargets.map((list) => {
+      const latest = find(list.children, (post) => post.querySelector('.podcast-title-number'));
+      const earliest = findLast(list.children, (post) =>
+        post.querySelector('.podcast-title-number')
+      );
       return uniq([latest, earliest])
-        .map(post => {
+        .map((post) => {
           if (post) return post.querySelector('.podcast-title-number').textContent;
         })
-        .filter(s => s)
+        .filter((s) => s)
         .join(' – ');
     });
 

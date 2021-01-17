@@ -25,7 +25,7 @@ export default class extends Controller {
     }
 
     for (let li of this.element.querySelectorAll('ul:first-of-type li')) {
-      let timeLabel = find(li.children, child => {
+      let timeLabel = find(li.children, (child) => {
         return child.tagName === 'EM' && child.textContent.match(/^(\d+:)?\d+:\d+$/);
       });
 
