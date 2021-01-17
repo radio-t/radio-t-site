@@ -26,14 +26,14 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - run: npm ci --loglevel warn
-        working-directory: ./frontend
+        working-directory: ./hugo
 
       - uses: actions/cache@v2
         with:
-          path: ${{ github.workspace }}/frontend/node_modules/.cache
+          path: ${{ github.workspace }}/hugo/node_modules/.cache
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
       - run: npm run eslint
-        working-directory: ./frontend
+        working-directory: ./hugo
