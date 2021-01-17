@@ -1,18 +1,17 @@
-require('./polyfills');
-
+import './polyfills';
 
 if (process.env.NODE_ENV !== 'production') {
   // Include here for dev, but inline for prod
-  require('./theme-init');
+  import './theme-init';
 }
 
-require('./stimulus');
+import './stimulus';
 
 if (process.env.NODE_ENV === 'production' || process.env.MIX_TURBO) {
-  require('./turbolinks');
-  require('./quicklink');
+  import './turbolinks';
+  import './quicklink';
 }
 
 if (process.env.NODE_ENV === 'production' || process.env.ENABLE_SENTRY) {
-  require('./sentry');
+  import './sentry';
 }

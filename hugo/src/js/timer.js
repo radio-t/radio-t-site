@@ -10,23 +10,25 @@ const showTime = {
 const durationMinutes = 3 * 60;
 
 function padTime(n) {
-  return ('0' + n).slice(-2);
+  return `0${n}`.slice(-2);
 }
 
 function formatSeconds(totalSeconds) {
-  let seconds = totalSeconds % 60,
-    minutes = Math.round((totalSeconds - seconds) / 60) % 60,
-    hours = Math.round((totalSeconds - seconds - minutes * 60) / 3600),
-    days = (hours - hours % 24) / 24;
+  const seconds = totalSeconds % 60;
+  const minutes = Math.round((totalSeconds - seconds) / 60) % 60;
+  const days = (hours - (hours % 24)) / 24;
+  let hours = Math.round((totalSeconds - seconds - minutes * 60) / 3600);
 
   hours %= 24;
 
   let html = '';
   if (days > 0) {
-    html += days + ' ' + getUnits(days, ['день', 'дня', 'дней']) + ' ';
+    html += `${days} ${getUnits(days, ['день', 'дня', 'дней'])} `;
   }
 
-  html += `${padTime(hours)}:${padTime(minutes)}<span style="opacity: .5;">:${padTime(seconds)}</span>`;
+  html += `${padTime(hours)}:${padTime(minutes)}<span style="opacity: .5;">:${padTime(
+    seconds
+  )}</span>`;
   return html;
 }
 
@@ -42,7 +44,7 @@ function timeToMinutes(time) {
 }
 
 function showEndTime(time, duration) {
-  let endTime = startOfWeek(new Date()/*, {weekStartsOn: 0}*/); // week starts on Sunday
+  let endTime = startOfWeek(new Date() /*, {weekStartsOn: 0}*/); // week starts on Sunday
 
   endTime = addMinutes(endTime, timeToMinutes(time) + duration);
 
@@ -69,5 +71,5 @@ export function timer(now = new Date()) {
 
   const html = isOnline ? 'Мы в эфире!' : formatSeconds(totalSeconds);
 
-  return {isOnline, html};
+  return { isOnline, html };
 }

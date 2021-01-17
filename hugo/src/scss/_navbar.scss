@@ -34,7 +34,7 @@
         height: 10px;
         margin-left: -9.5px;
         margin-top: -1.65em;
-        background: url("../images/nav-active.svg") no-repeat center;
+        background: url('../images/nav-active.svg') no-repeat center;
         background-size: contain;
         transition: transform 150ms;
         transform: translate3d(0, 10px, 0) scale(0, 0);
@@ -43,9 +43,6 @@
       &:active:after,
       &.active:after {
         transform: translate3d(0, 0, 0) scale(1, 1);
-      }
-      &.active {
-        //font-weight: $font-weight-bold;
       }
     }
   }
@@ -76,7 +73,7 @@
   background-size: contain;
   transition: transform 75ms;
   &:active {
-    transform: scale(.98);
+    transform: scale(0.98);
   }
 }
 // navbar in left sidebar
@@ -98,7 +95,7 @@
       right: 0;
       bottom: -1px;
       left: 0;
-      background-color: rgba($gray-200, .92) !important;
+      background-color: rgba($gray-200, 0.92) !important;
       backdrop-filter: $backdrop-filter;
     }
     > .container-fluid {
@@ -133,7 +130,6 @@
       font-size: 1.1rem;
     }
   }
-  .navbar-toggler-icon {}
   .navbar-collapse {
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
@@ -158,11 +154,11 @@
     min-height: 100%;
     max-width: 100%;
     background-color: $white;
-    box-shadow: 0 0 .25rem rgba(#000, .2);
+    box-shadow: 0 0 0.25rem rgba(#000, 0.2);
     padding: $navbar-collapsed-height 0 2rem 0;
     transform: translate3d(-15rem, 0, 0);
     transition: 200ms ease-out;
-    transition-timing-function: cubic-bezier(.61, .67, .02, .99);
+    transition-timing-function: cubic-bezier(0.61, 0.67, 0.02, 0.99);
     transition-property: transform;
     .nav-item {
       opacity: 0;
@@ -191,10 +187,10 @@
         width: 5px;
       }
       &:hover {
-        background-color: rgba($black, .03);
+        background-color: rgba($black, 0.03);
       }
       &:active {
-        background-color: rgba($black, .06);
+        background-color: rgba($black, 0.06);
       }
     }
   }

@@ -1,5 +1,5 @@
-const Sentry = require("@sentry/browser");
+import Sentry from '@sentry/browser';
 
 Sentry.init({
-  dsn: "https://6571368ba3af42308da7865628a950b6@sentry.io/1467904",
+  dsn: 'https://6571368ba3af42308da7865628a950b6@sentry.io/1467904',
 });

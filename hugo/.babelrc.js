@@ -14,12 +14,6 @@ module.exports = {
     '@babel/plugin-syntax-dynamic-import',
     '@babel/plugin-proposal-class-properties',
     '@babel/plugin-proposal-object-rest-spread',
-    ['@babel/plugin-transform-react-jsx', {pragma: 'h'}],
-    // [
-    //   '@babel/plugin-transform-runtime',
-    //   {
-    //     helpers: false,
-    //   },
-    // ],
+    ['@babel/plugin-transform-react-jsx', { pragma: 'h' }],
   ],
 };

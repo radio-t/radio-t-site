@@ -19,8 +19,8 @@ export default class extends Controller {
   timeLabels() {
     function isEmpty(child) {
       return (
-        (child.nodeName === '#text' && child.textContent.match(/^[\s\-.]+$/))
-        || (child.nodeName === 'BR')
+        (child.nodeName === '#text' && child.textContent.match(/^[\s\-.]+$/)) ||
+        child.nodeName === 'BR'
       );
     }
 

@@ -14,22 +14,26 @@ export default class extends Controller {
 
     const tmp = document.createElement('a');
 
-    this.numberTargets.forEach((num) => {
+    this.numberTargets.forEach(num => {
       tmp.href = num.getAttribute('data-url');
-      num.setAttribute('data-url', 'https://radio-t.com' + (new URL(tmp.href)).pathname);
+      num.setAttribute('data-url', `https://radio-t.com${new URL(tmp.href).pathname}`);
     });
 
-    const callback = (mutations) => {
-      mutations.forEach((mutation) => {
+    const callback = mutations => {
+      mutations.forEach(mutation => {
         const num = mutation.target;
         num.parentElement.style.visibility = 'visible';
         const n = parseInt(num.innerText);
         if (isNaN(n)) return;
-        num.nextElementSibling.innerHTML = getUnits(n, ['комментарий', 'комментария', 'комментариев']);
+        num.nextElementSibling.innerHTML = getUnits(n, [
+          'комментарий',
+          'комментария',
+          'комментариев',
+        ]);
       });
     };
     const observer = new MutationObserver(callback);
-    this.numberTargets.forEach((num) => {
+    this.numberTargets.forEach(num => {
       observer.observe(num, {
         characterData: true,
         attributes: true,
