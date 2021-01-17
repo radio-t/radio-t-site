@@ -12,11 +12,11 @@ const events = [
   'turbolinks:render',
   'turbolinks:load',
 ];
-events.forEach(eventName => document.addEventListener(eventName, (e) => debug('turbolinks', e)));
+events.forEach(eventName => document.addEventListener(eventName, e => debug('turbolinks', e)));
 
 Turbolinks.start();
 
-document.addEventListener('theme:change', function () {
+document.addEventListener('theme:change', function() {
   Turbolinks.clearCache();
 });
 
@@ -24,7 +24,7 @@ document.addEventListener('theme:change', function () {
 document.addEventListener('turbolinks:load', () => {
   [].forEach.call(document.links, link => {
     if (link.hostname !== window.location.hostname) {
-      link.rel = link.rel.length ? link.rel + ' noopener' : 'noopener';
+      link.rel = link.rel.length ? `${link.rel} noopener` : 'noopener';
       link.target = '_blank';
     }
   });

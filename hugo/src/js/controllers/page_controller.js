@@ -1,23 +1,19 @@
 import Controller from '../base_controller';
-import Player from './player_controller';
 
 export default class extends Controller {
-  static targets = [
-    'player',
-    'playerStateReceiver',
-  ];
+  static targets = ['player', 'playerStateReceiver'];
 
   initialize() {
     super.initialize();
   }
 
-  updatePodcasts(e) {
-    this.playerStateReceiverTargets.forEach((podcast) => {
-      this.dispatchEvent(podcast, new CustomEvent('player-state', {bubbles: false}))
+  updatePodcasts() {
+    this.playerStateReceiverTargets.forEach(podcast => {
+      this.dispatchEvent(podcast, new CustomEvent('player-state', { bubbles: false }));
     });
   }
 
-  playPodcast({detail}) {
+  playPodcast({ detail }) {
     this.getPlayerController().playPodcast(detail);
   }
 

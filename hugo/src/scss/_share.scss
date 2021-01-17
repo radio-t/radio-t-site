@@ -1,5 +1,5 @@
 .share {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   display: block;
 }
 .share__link {
@@ -10,15 +10,15 @@
   border-radius: 2px;
   color: $gray-600;
   &:hover {
-    background-color: rgba(191,237,250,.8);
+    background-color: rgba(191, 237, 250, 0.8);
   }
-  &_twitter:hover{
+  &_twitter:hover {
     color: #04b7ec;
   }
-  &_facebook:hover{
+  &_facebook:hover {
     color: #425497;
   }
-  &_vk:hover{
+  &_vk:hover {
     color: #526e8f;
   }
 }

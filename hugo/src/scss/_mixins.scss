@@ -2,7 +2,7 @@
   @return $px * 1rem / 15;
 }
 
-@mixin logo-size ($width) {
+@mixin logo-size($width) {
   $logo-ar: 123/50; // width/height
   width: $width;
   height: $width / $logo-ar;
@@ -11,16 +11,21 @@
 
 @mixin text-uppercase() {
   text-transform: uppercase;
-  letter-spacing: .07em;
+  letter-spacing: 0.07em;
 }
 
 // Override outline button styles
-@mixin button-outline-variant($color, $color-hover: color-yiq($color), $active-background: $color, $active-border: $color) {
+@mixin button-outline-variant(
+  $color,
+  $color-hover: color-yiq($color),
+  $active-background: $color,
+  $active-border: $color
+) {
   color: $color;
-  border-color: rgba($color, .33);
+  border-color: rgba($color, 0.33);
 
   @include hover {
-    @if($theme == 'dark') {
+    @if ($theme == 'dark') {
       color: lighten($color, 10%); //$color-hover;
     } @else {
       color: darken($color, 10%); //$color-hover;
@@ -33,7 +38,7 @@
 
   &:focus,
   &.focus {
-    box-shadow: 0 0 0 1px $color, 0 0 0 $btn-focus-width rgba($color, .33);
+    box-shadow: 0 0 0 1px $color, 0 0 0 $btn-focus-width rgba($color, 0.33);
     transition-duration: 50ms;
   }
 
@@ -47,12 +52,12 @@
   &:not(:disabled):not(.disabled).active,
   .show > &.dropdown-toggle {
     color: darken($color, 10%); //color-yiq($active-background);
-    background-color: rgba($active-background, .15);
+    background-color: rgba($active-background, 0.15);
     //border-color: $active-border;
     transition-duration: 50ms;
 
     &:focus {
-      box-shadow: 0 0 0 1px $color, 0 0 0 $btn-focus-width rgba($color, .33);
+      box-shadow: 0 0 0 1px $color, 0 0 0 $btn-focus-width rgba($color, 0.33);
     }
   }
 }

@@ -14,7 +14,7 @@ export default class extends Controller {
     lozad(this.element, {
       load: async () => {
         this.element.classList.add('loaded');
-        const {data} = await this.getComments();
+        const { data } = await this.getComments();
         const pictures = uniq(filter(map(data.comments, 'user.picture'))).reverse();
         this.element.innerHTML = '';
         pictures.slice(0, limit).forEach((picture, index) => {
@@ -26,7 +26,7 @@ export default class extends Controller {
           this.element.appendChild(div);
         });
         // todo limit waiting time before showing images
-        imagesLoaded(this.element, {background: '.comments-counter-avatars-item'}, () => {
+        imagesLoaded(this.element, { background: '.comments-counter-avatars-item' }, () => {
           this.reflow();
           this.element.classList.remove('loaded');
         });
@@ -35,6 +35,10 @@ export default class extends Controller {
   }
 
   getComments() {
-    return http.get(`https://remark42.radio-t.com/api/v1/find?url=https://radio-t.com${this.data.get('url')}&sort=-time&site=radiot&view=user`);
+    const url = this.data.get('url');
+
+    return http.get(
+      `https://remark42.radio-t.com/api/v1/find?url=https://radio-t.com${url}&sort=-time&site=radiot&view=user`
+    );
   }
 }

@@ -29,8 +29,7 @@ export default class extends Controller {
 
   isCurrentlyPlaying() {
     return (
-      Player.getState().src === this.getPodcastInfo().src
-      && Player.getState().paused === false
+      Player.getState().src === this.getPodcastInfo().src && Player.getState().paused === false
     );
   }
 
@@ -38,13 +37,16 @@ export default class extends Controller {
     e.preventDefault();
     e.stopPropagation();
 
-    this.dispatchEvent(this.element, new CustomEvent('podcast-play', {
-      bubbles: true,
-      detail: {
-        ...this.getPodcastInfo(),
-        ...(timeLabel ? {timeLabel} : {}),
-      },
-    }));
+    this.dispatchEvent(
+      this.element,
+      new CustomEvent('podcast-play', {
+        bubbles: true,
+        detail: {
+          ...this.getPodcastInfo(),
+          ...(timeLabel ? { timeLabel } : {}),
+        },
+      })
+    );
 
     setTimeout(() => this.fetchPlayingState(), 0);
   }

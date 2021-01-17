@@ -1,4 +1,4 @@
-import { h, render } from 'preact'
+import { render } from 'preact';
 import { format, parseISO } from 'date-fns';
 import locale from 'date-fns/locale/ru';
 import debounce from 'lodash/debounce';
@@ -32,9 +32,9 @@ export default class extends Controller {
   closeOnEscape(e) {
     let isEscape = false;
     if ('key' in e) {
-      isEscape = (e.key === 'Escape' || e.key === 'Esc');
+      isEscape = e.key === 'Escape' || e.key === 'Esc';
     } else {
-      isEscape = (e.keyCode === 27);
+      isEscape = e.keyCode === 27;
     }
     if (isEscape) {
       this.toggle();
@@ -42,38 +42,53 @@ export default class extends Controller {
   }
 
   destroy() {
-    render(null, this.resultTarget)
+    render(null, this.resultTarget);
   }
 
-  makeSearchRequest = debounce(async (query) => {
+  makeSearchRequest = debounce(async query => {
     if (this.searchQuery !== query) return;
-    const {data} = await http.get('https://radio-t.com/site-api/search', {params: {q: query}});
+    const { data } = await http.get('https://radio-t.com/site-api/search', {
+      params: { q: query },
+    });
     if (this.searchQuery !== query) return;
-    this.destroy()
+    this.destroy();
     this.scrollTarget.scrollTo(0, 0);
-    render(<Results results={data}/>, this.resultTarget);
+    render(<Results results={data} />, this.resultTarget);
     this.Mark.mark(query);
-    this.dispatchEvent(document, new CustomEvent('quicklink', {detail: {el: this.resultTarget}}));
+    this.dispatchEvent(
+      document,
+      new CustomEvent('quicklink', { detail: { el: this.resultTarget } })
+    );
   }, 300);
 
   async search(e) {
     this.searchQuery = e.target.value.trim();
-    this.destroy()
+    this.destroy();
     if (this.searchQuery) this.makeSearchRequest(this.searchQuery);
   }
 }
 
-const Results = function ({results}) {
+const Results = function({ results }) {
   return (
-    <div className="page-search-list">{results.map((result) =>
-      <a href={(new URL(result.url)).pathname} className="page-search-list-item py-3 px-3" key={result.url}>
-        {result.image && <div className="podcast-cover">
-          <div className="cover-image" style={{backgroundImage: `url('${result.image}')`}}/>
-        </div>}
-        <h4 className="m-0">{result.title}</h4>
-        <div className="small text-muted">{format(parseISO(result.date), 'dd MMM yyyy', {locale})}</div>
-        <div className="small">{result.show_notes}</div>
-      </a>,
-    )}</div>
+    <div className="page-search-list">
+      {results.map(result => (
+        <a
+          href={new URL(result.url).pathname}
+          className="page-search-list-item py-3 px-3"
+          key={result.url}
+        >
+          {result.image && (
+            <div className="podcast-cover">
+              <div className="cover-image" style={{ backgroundImage: `url('${result.image}')` }} />
+            </div>
+          )}
+          <h4 className="m-0">{result.title}</h4>
+          <div className="small text-muted">
+            {format(parseISO(result.date), 'dd MMM yyyy', { locale })}
+          </div>
+          <div className="small">{result.show_notes}</div>
+        </a>
+      ))}
+    </div>
   );
 };

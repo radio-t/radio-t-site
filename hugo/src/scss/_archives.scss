@@ -43,9 +43,9 @@
   top: 0;
   z-index: $zindex-sticky;
   overflow-y: hidden;
-  background-color: rgba($body-bg, .87);
+  background-color: rgba($body-bg, 0.87);
   backdrop-filter: $backdrop-filter;
-  box-shadow: 0 2px 2px rgba(#000, .12);
+  box-shadow: 0 2px 2px rgba(#000, 0.12);
   height: 4.5rem;
   .nav {
     display: flex;
@@ -62,7 +62,7 @@
   .nav-link {
     position: relative;
     z-index: 10;
-    padding: .5rem 0 .8rem;
+    padding: 0.5rem 0 0.8rem;
     border-bottom: 2px solid transparent;
     height: 4.5rem;
     + .nav-link {
@@ -73,7 +73,8 @@
     }
   }
 }
-@include media-breakpoint-down('md') { // dont overlap with sticky navbar
+@include media-breakpoint-down('md') {
+  // dont overlap with sticky navbar
   .nav-blog-archives {
     top: $navbar-collapsed-height;
   }

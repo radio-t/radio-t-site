@@ -15,7 +15,7 @@
   pre.chroma {
     color: var(--chroma-base);
     background-color: var(--chroma-bg);
-  
+
     /* Comments */
     & .c1,
     & .cm,
@@ -26,20 +26,20 @@
     & .cs {
       color: var(--chroma-c);
     }
-  
+
     & .ge {
       font-style: italic;
     }
-  
+
     & .gr,
     & .gs {
       font-weight: 700;
     }
-  
+
     & .kd {
       color: var(--chroma-07);
     }
-  
+
     & .kn,
     & .k,
     & .kc,
@@ -49,12 +49,12 @@
     & .ow {
       color: var(--chroma-01);
     }
-  
+
     & .nb,
     & .nc {
       color: var(--chroma-02);
     }
-  
+
     & .bp,
     & .n,
     & .na,
@@ -76,7 +76,7 @@
     & .vm {
       color: var(--chroma-03);
     }
-  
+
     & .dl,
     & .il,
     & .l,
@@ -102,7 +102,7 @@
     & .sx {
       color: var(--chroma-04);
     }
-  
+
     & .g,
     & .gd,
     & .ge,

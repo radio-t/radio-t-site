@@ -2,7 +2,7 @@ $podcast-player-seek-height: 2px;
 $podcast-player-seek-thumb-height: 16px;
 $podcast-player-seek-thumb-width: 4px;
 $podcast-player-cover-size: 2.2rem;
-$podcast-player-cover-margin: .5rem;
+$podcast-player-cover-margin: 0.5rem;
 .player-placeholder {
   height: 3.4rem;
 }
@@ -12,7 +12,7 @@ $podcast-player-cover-margin: .5rem;
   width: 100%;
   bottom: 0;
   backdrop-filter: $backdrop-filter;
-  background-color: rgba($gray-200, .95);
+  background-color: rgba($gray-200, 0.95);
   background-clip: padding-box;
   color: inherit;
   border-top: 1px solid $border-color;
@@ -30,7 +30,7 @@ $podcast-player-cover-margin: .5rem;
     transition: 1500ms;
     opacity: 0;
     background-size: $progress-height $progress-height;
-    @include gradient-striped(rgba(mix($black, $primary), .10));
+    @include gradient-striped(rgba(mix($black, $primary), 0.1));
     animation: progress-bar-stripes $progress-bar-animation-timing;
     .player-loading & {
       opacity: 1;
@@ -41,7 +41,7 @@ $podcast-player-cover-margin: .5rem;
 .podcast-player {
   .btn {
     color: inherit;
-    padding: .25rem .25rem;
+    padding: 0.25rem 0.25rem;
     font-size: 1.2em;
     transition: all 50ms;
     transform: scale(1);
@@ -49,7 +49,7 @@ $podcast-player-cover-margin: .5rem;
       transform: scale(1.05);
     }
     &:active {
-      transform: scale(.9);
+      transform: scale(0.9);
     }
   }
   .player-play {
@@ -62,7 +62,7 @@ $podcast-player-cover-margin: .5rem;
     }
   }
   .fa-pause {
-    transform: scale(.85);
+    transform: scale(0.85);
   }
 }
 .btn-player-icon {
@@ -126,9 +126,9 @@ $podcast-player-cover-margin: .5rem;
     grid-template-columns: auto 1fr 1fr 1fr auto;
     grid-template-rows: auto;
     grid-template-areas:
-      "seek  seek   seek     seek  seek"
-      "cover number playback speed close";
-    padding-bottom: .3rem;
+      'seek  seek   seek     seek  seek'
+      'cover number playback speed close';
+    padding-bottom: 0.3rem;
   }
   .player-seek {
     grid-area: seek;

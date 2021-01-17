@@ -19,7 +19,11 @@ export function updateLocalStorage(key, fn) {
 }
 
 export function getUnits(value, units) {
-  return (/^[0,2-9]?[1]$/.test(value)) ? units[0] : ((/^[0,2-9]?[2-4]$/.test(value)) ? units[1] : units[2]);
+  return /^[0,2-9]?[1]$/.test(value)
+    ? units[0]
+    : /^[0,2-9]?[2-4]$/.test(value)
+    ? units[1]
+    : units[2];
 }
 
 // 00:02:24 => 144
@@ -32,7 +36,7 @@ export function parseTime(time) {
 
 // 144 => 00:02:24
 export function composeTime(time) {
-  return new Date(isNaN(time) ? 0 : time * 1000).toISOString().substr(11, 8)
+  return new Date(isNaN(time) ? 0 : time * 1000).toISOString().substr(11, 8);
 }
 
 export function getTextSnippet(html) {
