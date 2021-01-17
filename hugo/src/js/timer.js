@@ -16,8 +16,8 @@ function padTime(n) {
 function formatSeconds(totalSeconds) {
   const seconds = totalSeconds % 60;
   const minutes = Math.round((totalSeconds - seconds) / 60) % 60;
-  const days = (hours - (hours % 24)) / 24;
   let hours = Math.round((totalSeconds - seconds - minutes * 60) / 3600);
+  const days = (hours - (hours % 24)) / 24;
 
   hours %= 24;
 
