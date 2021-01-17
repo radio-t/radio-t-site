@@ -6,7 +6,7 @@ import Player from './player_controller';
  * @property {Audio} audioTarget
  */
 export default class extends Controller {
-  static targets = ['playButton', 'number', 'cover', 'coverShadow', 'audio'];
+  static targets = ['playButton', 'number', 'cover', 'audio'];
 
   initialize() {
     super.initialize();
