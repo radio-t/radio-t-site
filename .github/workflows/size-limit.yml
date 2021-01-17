@@ -1,8 +1,6 @@
 name: "check frontend js/css bundle size"
 on:
   pull_request:
-    branches:
-      - master
     paths:
       - 'hugo/**/*.{js,jsx,ts,tsx,scss,css}'
 
