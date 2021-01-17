@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
 /* eslint-disable no-prototype-builtins */
-import { Component, createRef } from 'preact';
+import { h, Component, createRef } from 'preact';
 
 type RemarkTheme = 'light' | 'dark';
 
@@ -74,7 +74,7 @@ export default class Remark extends Component<Props> {
     const node = this.ref.current;
 
     if (node === null) {
-      return null;
+      return;
     }
 
     const query = Object.keys(remark_config)

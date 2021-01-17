@@ -1,17 +1,18 @@
-import './polyfills';
+// TODO: fix babel-loader and use import
+require('./polyfills');
 
 if (process.env.NODE_ENV !== 'production') {
   // Include here for dev, but inline for prod
-  import './theme-init';
+  require('./theme-init');
 }
 
-import './stimulus';
+require('./stimulus');
 
 if (process.env.NODE_ENV === 'production' || process.env.MIX_TURBO) {
-  import './turbolinks';
-  import './quicklink';
+  require('./turbolinks');
+  require('./quicklink');
 }
 
 if (process.env.NODE_ENV === 'production' || process.env.ENABLE_SENTRY) {
-  import './sentry';
+  require('./sentry');
 }
