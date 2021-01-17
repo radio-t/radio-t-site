@@ -32,11 +32,11 @@ if (process.env.ANALYZE) {
 }
 
 if (mix.inProduction()) {
+  Mix.manifest.name = '../../data/manifest.json'; // eslint-disable-line no-undef
   mix.setPublicPath('static/build');
   mix.setResourceRoot('/build');
   mix.extract();
   mix.version(['static/build/modernizr-bundle.js']);
-  mix.manifest.name = '../../data/manifest.json';
   mix.then(() => {
     const { code } = babel.transformFileSync('src/js/theme-init.js', {
       minified: true,
