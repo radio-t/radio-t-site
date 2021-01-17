@@ -1,12 +1,5 @@
 name: "Check size limit for CSS and JS bundles"
 on:
-  push:
-    branches:
-    tags:
-    paths:
-      - "hugo/**/*.jsx?"
-      - "hugo/**/*.tsx?"
-      - "hugo/**/*.scss"
   pull_request:
     paths:
       - "hugo/**/*.jsx?"
