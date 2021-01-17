@@ -1,8 +1,17 @@
 name: "check frontend js/css bundle size"
 on:
+  push:
+    branches:
+    tags:
+    paths:
+      - "hugo/**/*.jsx?"
+      - "hugo/**/*.tsx?"
+      - "hugo/**/*.scss"
   pull_request:
     paths:
-      - 'hugo/**/*.{js,jsx,ts,tsx,scss,css}'
+      - "hugo/**/*.jsx?"
+      - "hugo/**/*.tsx?"
+      - "hugo/**/*.scss"
 
 jobs:
   size:
