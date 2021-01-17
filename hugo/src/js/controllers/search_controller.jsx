@@ -6,6 +6,31 @@ import Mark from 'mark.js';
 import Controller from '../base_controller';
 import http from '../http-client';
 
+const Results = function ({ results }) {
+  return (
+    <div className="page-search-list">
+      {results.map((result) => (
+        <a
+          href={new URL(result.url).pathname}
+          className="page-search-list-item py-3 px-3"
+          key={result.url}
+        >
+          {result.image && (
+            <div className="podcast-cover">
+              <div className="cover-image" style={{ backgroundImage: `url('${result.image}')` }} />
+            </div>
+          )}
+          <h4 className="m-0">{result.title}</h4>
+          <div className="small text-muted">
+            {format(parseISO(result.date), 'dd MMM yyyy', { locale })}
+          </div>
+          <div className="small">{result.show_notes}</div>
+        </a>
+      ))}
+    </div>
+  );
+};
+
 export default class extends Controller {
   static targets = ['result', 'backdrop', 'scroll'];
 
@@ -45,7 +70,7 @@ export default class extends Controller {
     render(null, this.resultTarget);
   }
 
-  makeSearchRequest = debounce(async query => {
+  makeSearchRequest = debounce(async (query) => {
     if (this.searchQuery !== query) return;
     const { data } = await http.get('https://radio-t.com/site-api/search', {
       params: { q: query },
@@ -67,28 +92,3 @@ export default class extends Controller {
     if (this.searchQuery) this.makeSearchRequest(this.searchQuery);
   }
 }
-
-const Results = function({ results }) {
-  return (
-    <div className="page-search-list">
-      {results.map(result => (
-        <a
-          href={new URL(result.url).pathname}
-          className="page-search-list-item py-3 px-3"
-          key={result.url}
-        >
-          {result.image && (
-            <div className="podcast-cover">
-              <div className="cover-image" style={{ backgroundImage: `url('${result.image}')` }} />
-            </div>
-          )}
-          <h4 className="m-0">{result.title}</h4>
-          <div className="small text-muted">
-            {format(parseISO(result.date), 'dd MMM yyyy', { locale })}
-          </div>
-          <div className="small">{result.show_notes}</div>
-        </a>
-      ))}
-    </div>
-  );
-};

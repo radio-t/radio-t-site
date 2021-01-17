@@ -28,6 +28,7 @@ module.exports = {
     'one-var': ['error', 'never'],
     'prefer-template': 'error',
     'react/prop-types': 'off',
+    'no-use-before-define': 'error',
   },
   settings: {
     react: {

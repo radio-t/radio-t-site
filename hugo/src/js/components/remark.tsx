@@ -79,7 +79,7 @@ export default class Remark extends Component<Props> {
 
     const query = Object.keys(remark_config)
       .map(
-        key =>
+        (key) =>
           `${encodeURIComponent(key)}=${encodeURIComponent(
             (remark_config as Record<string, string>)[key]
           )}`
@@ -102,66 +102,6 @@ export default class Remark extends Component<Props> {
   `;
 
     const iframe = node.getElementsByTagName('iframe')[0];
-
-    this.receiveMessages = function(event) {
-      try {
-        const data = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
-        if (data.remarkIframeHeight) {
-          iframe.style.height = `${data.remarkIframeHeight}px`;
-          if (this.canScroll && !data.scrollTo && window.location.hash === '#comments') {
-            this.canScroll = false;
-            window.scrollTo(
-              window.pageXOffset,
-              iframe.getBoundingClientRect().top + window.pageYOffset
-            );
-          }
-        }
-
-        if (data.scrollTo) {
-          window.scrollTo(
-            window.pageXOffset,
-            data.scrollTo + iframe.getBoundingClientRect().top + window.pageYOffset
-          );
-        }
-
-        if (data.hasOwnProperty('isUserInfoShown')) {
-          if (data.isUserInfoShown) {
-            userInfo.init(data.user || {});
-          } else {
-            userInfo.close();
-          }
-        }
-      } catch (e) {
-        //
-      }
-    };
-
-    this.postHashToIframe = function(e) {
-      const hash = e ? `#${e.newURL.split('#')[1]}` : window.location.hash;
-
-      if (hash.indexOf(`#${COMMENT_NODE_CLASSNAME_PREFIX}`) === 0) {
-        if (e) e.preventDefault();
-
-        iframe.contentWindow && iframe.contentWindow.postMessage(JSON.stringify({ hash }), '*');
-      }
-    };
-
-    this.postClickOutsideToIframe = function(e) {
-      if (!iframe.contains(e.target as HTMLElement)) {
-        iframe.contentWindow &&
-          iframe.contentWindow.postMessage(JSON.stringify({ clickOutside: true }), '*');
-      }
-    };
-
-    this.changeTheme = function(theme) {
-      iframe.contentWindow && iframe.contentWindow.postMessage(JSON.stringify({ theme }), '*');
-    };
-
-    window.addEventListener('message', this.receiveMessages);
-    window.addEventListener('hashchange', this.postHashToIframe);
-    document.addEventListener('click', this.postClickOutsideToIframe);
-    setTimeout(this.postHashToIframe, 1000);
-
     const remarkRootId = 'remark-km423lmfdslkm34';
     const userInfo: {
       node: HTMLElement | null;
@@ -259,8 +199,9 @@ export default class Remark extends Component<Props> {
         }
         const queryUserInfo =
           `${query}&page=user-info&` +
-          `&id=${user.id}&name=${user.name}&picture=${user.picture ||
-            ''}&isDefaultPicture=${user.isDefaultPicture || 0}`;
+          `&id=${user.id}&name=${user.name}&picture=${user.picture || ''}&isDefaultPicture=${
+            user.isDefaultPicture || 0
+          }`;
         this.node.innerHTML = `
       <iframe
         src="${remark_config.host}/web/iframe.html?${queryUserInfo}"
@@ -298,7 +239,7 @@ export default class Remark extends Component<Props> {
         document.removeEventListener('keydown', this.onKeyDown);
       },
       delay: null,
-      events: ['', 'webkit', 'moz', 'MS', 'o'].map(prefix =>
+      events: ['', 'webkit', 'moz', 'MS', 'o'].map((prefix) =>
         prefix ? `${prefix}TransitionEnd` : 'transitionend'
       ),
       onAnimationClose() {
@@ -326,7 +267,7 @@ export default class Remark extends Component<Props> {
           clearTimeout(t.delay);
           t.delay = null;
         }
-        t.events.forEach(event => t.node!.removeEventListener(event, t.animationStop, false));
+        t.events.forEach((event) => t.node!.removeEventListener(event, t.animationStop, false));
         return t.remove();
       },
       remove() {
@@ -336,6 +277,65 @@ export default class Remark extends Component<Props> {
         t.style && t.style.remove();
       },
     };
+
+    this.receiveMessages = function (event) {
+      try {
+        const data = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
+        if (data.remarkIframeHeight) {
+          iframe.style.height = `${data.remarkIframeHeight}px`;
+          if (this.canScroll && !data.scrollTo && window.location.hash === '#comments') {
+            this.canScroll = false;
+            window.scrollTo(
+              window.pageXOffset,
+              iframe.getBoundingClientRect().top + window.pageYOffset
+            );
+          }
+        }
+
+        if (data.scrollTo) {
+          window.scrollTo(
+            window.pageXOffset,
+            data.scrollTo + iframe.getBoundingClientRect().top + window.pageYOffset
+          );
+        }
+
+        if (data.hasOwnProperty('isUserInfoShown')) {
+          if (data.isUserInfoShown) {
+            userInfo.init(data.user || {});
+          } else {
+            userInfo.close();
+          }
+        }
+      } catch (e) {
+        //
+      }
+    };
+
+    this.postHashToIframe = function (e) {
+      const hash = e ? `#${e.newURL.split('#')[1]}` : window.location.hash;
+
+      if (hash.indexOf(`#${COMMENT_NODE_CLASSNAME_PREFIX}`) === 0) {
+        if (e) e.preventDefault();
+
+        iframe.contentWindow && iframe.contentWindow.postMessage(JSON.stringify({ hash }), '*');
+      }
+    };
+
+    this.postClickOutsideToIframe = function (e) {
+      if (!iframe.contains(e.target as HTMLElement)) {
+        iframe.contentWindow &&
+          iframe.contentWindow.postMessage(JSON.stringify({ clickOutside: true }), '*');
+      }
+    };
+
+    this.changeTheme = function (theme) {
+      iframe.contentWindow && iframe.contentWindow.postMessage(JSON.stringify({ theme }), '*');
+    };
+
+    window.addEventListener('message', this.receiveMessages);
+    window.addEventListener('hashchange', this.postHashToIframe);
+    document.addEventListener('click', this.postClickOutsideToIframe);
+    setTimeout(this.postHashToIframe, 1000);
   }
 
   componentWillUnmount() {
