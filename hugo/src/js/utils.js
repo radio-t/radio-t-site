@@ -42,7 +42,7 @@ export function composeTime(time) {
 export function getTextSnippet(html) {
   const LENGTH = 120;
   const tmp = document.createElement('div');
-  tmp.innerHTML = html.replace('</p><p>', ' ');
+  tmp.innerHTML = html.replace('</p><p>', ' ').replace(/src=".*"/, '');
 
   const result = tmp.innerText || '';
   const snippet = result.substr(0, LENGTH);
