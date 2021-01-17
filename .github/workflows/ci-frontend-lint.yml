@@ -1,4 +1,4 @@
-name: test_frontend
+name: "Lint JS files"
 
 on:
   push:
