@@ -9,6 +9,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:react/recommended',
     'prettier',
     'prettier/@typescript-eslint',
     'prettier/prettier',
@@ -22,10 +23,18 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'react'],
   rules: {
     'one-var': ['error', 'never'],
     'prefer-template': 'error',
+    'react/prop-types': 'off',
+  },
+  settings: {
+    react: {
+      pragma: 'h',
+      fragment: 'Fragment',
+      version: '17',
+    },
   },
   overrides: [
     {

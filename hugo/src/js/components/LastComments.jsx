@@ -1,3 +1,4 @@
+import { h } from 'preact';
 import { useCallback, useEffect, useState } from 'preact/hooks';
 import http from 'axios';
 import locale from 'date-fns/locale/ru';
