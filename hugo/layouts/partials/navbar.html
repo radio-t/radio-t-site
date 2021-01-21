@@ -9,28 +9,34 @@
         type="button"
         title="Поменять цветовую тему"
         aria-label="Поменять цветовую тему"
-        class="icon-btn switch-theme-btn btn btn-outline-secondary mr-lg-1"
+        class="switch-theme-btn btn btn-outline-secondary mr-lg-1"
         data-controller="theme"
         data-action="click->theme#toggle"
       >
-        <i class="fas fa-adjust"></i>
+      <svg class="icon-btn" viewBox="0 0 512 512">
+        <use xlink:href="#icon-adjust" />
+      </svg>
       </button>
       <label
         type="button"
         for="page-search-input"
-        class="icon-btn navbar-btn-search btn btn-outline-secondary m-0"
+        class="navbar-btn-search btn btn-outline-secondary m-0"
         data-action="click->search#toggle"
         tabindex="0"
       >
-        <i class="fas fa-search"></i>
+      <svg class="icon-btn" viewBox="0 0 512 512">
+        <use xlink:href="#icon-search" />
+      </svg>
         <span class="d-none d-lg-inline-block">&nbsp;Поиск</span>
       </label>
       <button
         type="button"
-        class="icon-btn navbar-btn-sidebar-toggle btn btn-outline-secondary ml-lg-1 page-sidebar-toggle"
+        class="navbar-btn-sidebar-toggle btn btn-outline-secondary ml-lg-1 page-sidebar-toggle"
         data-action="sidebar#toggle"
       >
-        <i class="far fa-comments"></i>
+      <svg class="icon-btn icon-btn-comments" viewBox="0 0 576 512">
+        <use xlink:href="#icon-comments" />
+      </svg>
       </button>
     </div>
     <div class="navbar-collapse" data-target="navbar.backdrop navbar.scroll" data-action="click->navbar#closeFromBackdrop">

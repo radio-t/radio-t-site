@@ -8,7 +8,6 @@
   <div class="player-placeholder"></div>
   <div class="podcast-player-container">
     <div class="podcast-player container-fluid d-md-flex align-items-center flex-nowrap">
-
       <div class="podcast-player-cover podcast-cover flex-shrink-0">
         <a class="cover-image cover-image-online" data-target="player.cover player.link">
           <div class="online-animation">
@@ -27,19 +26,23 @@
       </h3>
 
       <div class="btn-group mx-auto player-playback"  role="group">
-        <button class="btn btn-link d-inline-flex" data-action="player#seekBackward">
-          <span class="btn-player-icon btn-player-icon-backward">
-            {{ readFile "src/images/player/backward.svg" | safeHTML }}
-          </span>
+        <button class="btn btn-link d-inline-flex btn-player-icon" data-action="player#seekBackward">
+          <svg width="18" height="18" viewBox="0 0 20 20">
+            <use xlink:href="#icon-backward-15" />
+          </svg>
         </button>
-        <button class="btn btn-link player-play mx-2 mx-md-1" data-action="player#playPause">
-          <i class="fas fa-fw fa-play-circle" data-target="player.play"></i>
-          <i class="fas fa-fw fa-pause-circle d-none" data-target="player.pause"></i>
+        <button class="btn btn-link player-play btn-player-icon mx-2 mx-md-1" data-action="player#playPause">
+          <svg class="play-icon" data-target="player.play" viewBox="0 0 512 512">
+            <use xlink:href="#icon-play-circle" />
+          </svg>
+          <svg class="pause-icon" data-target="player.pause" viewBox="0 0 512 512">
+            <use xlink:href="#icon-pause-circle" />
+          </svg>
         </button>
-        <button class="btn btn-link d-inline-flex" data-action="player#seekForward">
-          <span class="btn-player-icon btn-player-icon-forward">
-            {{ readFile "src/images/player/forward.svg" | safeHTML }}
-          </span>
+        <button class="btn btn-link btn-player-icon d-inline-flex" data-action="player#seekForward">
+          <svg width="18" height="18" viewBox="0 0 20 20">
+            <use xlink:href="#icon-forward-15" />
+          </svg>
         </button>
       </div>
 
@@ -58,8 +61,12 @@
 
       <div class="d-none d-md-flex align-items-center podcast-player-volumeLevel">
         <button class="btn btn-link" data-action="player#muteUnmute">
-          <i class="fas fa-fw fa-volume-up" data-target="player.mute"></i>
-          <i class="fas fa-fw fa-volume-off d-none" data-target="player.unmute"></i>
+          <svg width="18" height="18" viewBox="0 0 576 512" data-target="player.mute">
+            <use xlink:href="#icon-volume-up" />
+          </svg>
+          <svg class="d-none" width="18" height="18" viewBox="0 0 576 512" data-target="player.unmute">
+            <use xlink:href="#icon-volume-off" />
+          </svg>
         </button>
         <div class="mx-3 d-none d-lg-flex align-items-center">
           <input
@@ -75,12 +82,12 @@
         </div>
       </div>
 
-      <div class="d-flex align-items-center justify-content-center player-rate">
-        <button class="btn btn-link" data-action="player#togglePlaybackRate" data-target="player.rate">1</button>
-      </div>
+      <button class="btn btn-link player-rate" data-action="player#togglePlaybackRate" data-target="player.rate">1</button>
 
       <button class="player-close btn btn-link ml-lg-2" data-action="player#close">
-        <i class="fas fa-fw fa-times"></i>
+        <svg width="18" height="18" viewBox="0 0 512 512" data-target="player.mute">
+          <use xlink:href="#icon-times" />
+        </svg>
       </button>
 
       <audio data-target="player.audio" class="d-none"></audio>

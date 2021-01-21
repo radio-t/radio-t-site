@@ -1,17 +1,23 @@
 <ul class="list-unstyled text-content">
   <li class="mb-1">
-    <i class="far fa-comment-dots fa-fw mr-2"></i>
+    <svg class="mr-2" width="16" height="16" viewBox="0 0 512 512">
+      <use xlink:href="#icon-comment-dots" />
+    </svg>
     <a href="https://t.me/radio_t_chat">Чат подкаста</a>
   </li>
   <li class="mb-1">
-    <i class="fas fa-align-left fa-fw mr-2"></i>
+    <svg class="mr-2" width="16" height="16" viewBox="0 0 448 512">
+      <use xlink:href="#icon-align-left" />
+    </svg>
     <a href="https://news.radio-t.com/">Темы выпусков</a> от авторов
   </li>
   {{ $prep := index (index .Site.Taxonomies.categories "prep").Pages 0 }}
   {{ $podcast := index (index .Site.Taxonomies.categories "podcast").Pages 0 }}
   {{ if and $prep $podcast }}
     <li>
-      <i class="far fa-comments fa-fw mr-2"></i>
+      <svg class="mr-2" width="16" height="16" viewBox="0 0 576 512">
+        <use xlink:href="#icon-comments" />
+      </svg>
       {{ if gt $prep.Date $podcast.Date }}
         <a href="{{ $prep.RelPermalink }}" title="{{ $prep.LinkTitle }}">Предложить тему</a>
         <small>&rarr;</small>

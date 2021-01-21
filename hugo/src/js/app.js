@@ -3,7 +3,7 @@ require('./polyfills');
 
 if (process.env.NODE_ENV !== 'production') {
   // Include here for dev, but inline for prod
-  require('./theme-init');
+  require('./inline');
 }
 
 require('./stimulus');

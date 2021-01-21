@@ -76,6 +76,10 @@
     transform: scale(0.98);
   }
 }
+.icon-btn {
+  width: 16px;
+  height: 16px;
+}
 // navbar in left sidebar
 @include media-breakpoint-down('md') {
   .navbar-brand {
@@ -124,7 +128,12 @@
       }
     }
     .icon-btn {
-      font-size: 1.3rem;
+      width: 18px;
+      height: 18px;
+    }
+    .icon-btn-comments {
+      width: 20px;
+      height: 20px;
     }
     .navbar-btn-search {
       font-size: 1.1rem;
