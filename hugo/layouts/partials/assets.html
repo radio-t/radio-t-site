@@ -28,7 +28,7 @@
       ],
     };
   </script>
-  <script>{{ readFile "static/build/theme-init.js" | safeJS }}</script>
+  <script>{{ readFile "static/build/inline.js" | safeJS }}</script>
   <script src="/build{{ index .Site.Data.manifest "/manifest.js" }}" defer></script>
   <script src="/build{{ index .Site.Data.manifest "/modernizr-bundle.js" }}" defer></script>
   <script src="/build{{ index .Site.Data.manifest "/vendor.js" }}" defer></script>

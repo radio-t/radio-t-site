@@ -10,7 +10,6 @@
   data-controller="page sidebar search comments-counter"
   data-action="podcast-play->page#playPodcast player-state->page#updatePodcasts"
 >
-<div class="d-none">{{ readFile "src/images/share-sprite.svg" | safeHTML }}</div>
 <script>
   window.remark_config = {
     site_id: '{{ .Site.Params.remark42 }}',

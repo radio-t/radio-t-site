@@ -12,8 +12,12 @@
       data-target="podcast.playButton"
       data-action="podcast#play"
     >
-      <span class="fas fa-fw fa-play icon play-icon"></span>
-      <span class="fas fa-fw fa-pause icon pause-icon"></span>
+      <svg class="play-icon" width="48%" height="48%" viewBox="0 0 448 512">
+        <use xlink:href="#icon-play" />
+      </svg>
+      <svg class="pause-icon" width="48%" height="48%" viewBox="0 0 448 512">
+        <use xlink:href="#icon-pause" />
+      </svg>
     </button>
   </a>
   {{ partial "podcast-progress" }}

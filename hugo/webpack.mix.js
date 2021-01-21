@@ -38,7 +38,7 @@ if (mix.inProduction()) {
   mix.extract();
   mix.version(['static/build/modernizr-bundle.js']);
   mix.then(() => {
-    const { code } = babel.transformFileSync('src/js/theme-init.js', {
+    const { code } = babel.transformFileSync('src/js/inline.js', {
       minified: true,
       presets: [
         [
@@ -51,7 +51,7 @@ if (mix.inProduction()) {
         ],
       ],
     });
-    fs.writeFileSync('static/build/theme-init.js', code);
+    fs.writeFileSync('static/build/inline.js', code);
   });
 } else {
   mix.setPublicPath('dev');
