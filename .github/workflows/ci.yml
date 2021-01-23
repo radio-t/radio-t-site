@@ -12,5 +12,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Docker daemon info
+        run: docker version
       - name: build docker image
-        run: docker build .
+        run: docker build -t radio-t-site .
+        env:
+          DOCKER_BUILDKIT: 1

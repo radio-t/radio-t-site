@@ -1,6 +1,5 @@
 FROM node:10-alpine as build
 
-RUN mkdir -p /app
 WORKDIR /app
 
 COPY hugo/package.json hugo/package-lock.json ./
@@ -35,7 +34,8 @@ RUN \
 COPY --from=build /app/static/build/ /app/static/build/
 COPY --from=build /app/data/manifest.json /app/data/manifest.json
 
-COPY exec.sh /srv/exec.sh
-RUN chmod +x /srv/exec.sh
+## Implemented at https://github.com/moby/buildkit/pull/1492
+COPY --chmod=0755 exec.sh /srv/exec.sh
+# RUN chmod +x /srv/exec.sh
 
 CMD ["/srv/exec.sh"]
