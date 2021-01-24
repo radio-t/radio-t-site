@@ -12,8 +12,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Install Latest Docker
+        run: |
+          curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+          sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu  $(lsb_release -cs)  stable"
+          sudo apt-get update
+          sudo apt-get install docker-ce
       - name: Docker daemon info
-        run: docker version
+        run: docker info
       - name: build docker image
         run: docker build -t radio-t-site .
         env:

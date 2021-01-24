@@ -34,8 +34,11 @@ RUN \
 COPY --from=build /app/static/build/ /app/static/build/
 COPY --from=build /app/data/manifest.json /app/data/manifest.json
 
+## COPY --chmod=0755 exec.sh /srv/exec.sh worked for docker CE >= 20.10
 ## Implemented at https://github.com/moby/buildkit/pull/1492
+## Current version of docker daemon in Github Actions is 19.03.13+azure
 COPY --chmod=0755 exec.sh /srv/exec.sh
+# COPY exec.sh /srv/exec.sh
 # RUN chmod +x /srv/exec.sh
 
 CMD ["/srv/exec.sh"]
