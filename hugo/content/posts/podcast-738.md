@@ -16,7 +16,7 @@ filename = "rt_podcast738"
 - [Raspberry Pi Pico за $4](https://habr.com/ru/company/selectel/blog/538778/) - *00:58:52*.
 - [GitHub Enterprise Server 3.0](https://github.blog/2021-01-15-github-enterprise-server-3-0-is-here/) - *01:07:32*.
 - [Google против Австралии](https://www.bbc.com/news/world-australia-55760673) - *01:36:21*.
-- Темы наших слушателей
+- Темы наших слушателей - *01:56:11*.
 
 *Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
