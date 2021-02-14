@@ -15,7 +15,7 @@ filename = "rt_podcast741"
 - [System76 опубликовала открытую клавиатуру](https://github.com/system76/launch) - *01:02:14*.
 - [AWS, IBM, Google и Microsoft говорят о AI версии 2.0](https://www.techrepublic.com/article/aws-ibm-google-and-microsoft-are-taking-ai-from-1-0-to-2-0-according-to-forrester/) - *01:09:09*.
 - [Проект Tor представил систему анонимных тикетов для GitLab](https://www.opennet.ru/opennews/art.shtml?num=54571) - *01:15:57*.
-- [Apple скорет IP ot гугла](https://www.zdnet.com/article/apple-will-proxy-safe-browsing-traffic-on-ios-14-5-to-hide-user-ips-from-google/) - *01:30:32*.
+- [Apple скроет IP от гугла](https://www.zdnet.com/article/apple-will-proxy-safe-browsing-traffic-on-ios-14-5-to-hide-user-ips-from-google/) - *01:30:32*.
 - [Pattern matching в Python](https://lwn.net/Articles/845480/) - *01:34:05*.
 - [Темы слушателей](https://radio-t.com/p/2021/02/09/prep-741/) - *01:47:19*.
 
