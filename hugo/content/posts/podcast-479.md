@@ -18,7 +18,7 @@ filename = "rt_podcast479"
 - [Дорогой github...](https://github.com/dear-github/dear-github) - *01:01:39*.
 - [Подробности переезда Python на GitHub](http://www.snarky.ca/the-history-behind-the-decision-to-move-python-to-github) - *01:14:13*.
 - [Новые Scheduled RI](https://aws.amazon.com/blogs/aws/new-scheduled-reserved-instances/?sc_channel=em) - *01:21:57*.
-- [PaaS мертв или мертв?](http://log.fortrabbit.com/cloudscapes-rerevisited) - *01:28:48*.
+- [PaaS мертв или мертв?](http://blog.fortrabbit.com/cloudscapes-rerevisited) - *01:28:48*.
 - [Темы наших слушателей](https://radio-t.com/p/2016/01/12/prep-479/) - *01:33:00*.
 
 _Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
