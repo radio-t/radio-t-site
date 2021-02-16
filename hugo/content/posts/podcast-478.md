@@ -16,7 +16,7 @@ filename = "rt_podcast478"
 - [В новом iPhone 3.5mm точно не будет](https://news.radio-t.com/post/report-next-generation-iphone-design-will-ditch-the-3-5mm-headphone-jack) - *00:29:52*.
 - [Motorola уходит совсем](https://news.radio-t.com/post/motorola-will-be-no-more-lenovo-to-remove-brand-name-from-its-phones) - *00:36:46*.
 - [Microsoft прекращает поддержку всех версий IE, кроме 11](https://news.radio-t.com/post/na-sleduiushchei-nedele-microsoft-prekrashchaet-podderzhku-vsekh-versii-ie-krome-11) - *00:40:14*.
-- [Let’s Encrypt’ на службе злобных хакеров](https://news.radio-t.com/post/hackers-are-abusing-let-s-encrypt-s-free-https-certificates) - *00:49:18*.
+- [Let's Encrypt' на службе злобных хакеров](https://news.radio-t.com/post/hackers-are-abusing-let-s-encrypt-s-free-https-certificates) - *00:49:18*.
 - [Netflix теперь везде](https://news.radio-t.com/post/netflix-officially-arrives-in-india-russia-vietnam-and-more-totaling-130-new-countries) - *00:49:18*.
 - [Вышел PostgreSQL 9.5](https://news.radio-t.com/post/vyshel-postgresql-9-5-upsert-rls-i-big-data) - *00:54:00*.
 - [IPv6 празднует 20 лет и 10%](https://news.radio-t.com/post/ipv6-celebrates-its-20th-birthday-by-reaching-10-percent-deployment) - *01:03:46*.
