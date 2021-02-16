@@ -9,12 +9,13 @@ filename = "rt_podcast477"
 
 ![](https://radio-t.com/images/radio-t/rt477.jpg)
 
-- Вне плана о [code review](https://news.radio-t.com/post/code-review).
-- [Consul 0.6](https://news.radio-t.com/post/consul-0-6-hashicorp).
-- [Куда пойдет технология в 2016](https://news.radio-t.com/post/9-developer-trends-you-can-bank-on-in-2016).
-- [Еще одни покидает тонущий меркуриал](https://news.radio-t.com/post/razrabotka-python-perenositsia-na-git-i-github).
-- [Убить магию](https://news.radio-t.com/post/let-the-magic-die-murze-be).
-- Темы наших слушателей
+- Вне плана о [code review](https://news.radio-t.com/post/code-review) - *0:02:02*.
+- [Consul 0.6](https://news.radio-t.com/post/consul-0-6-hashicorp) - *00:31:13*.
+- [Куда пойдет технология в 2016](https://news.radio-t.com/post/9-developer-trends-you-can-bank-on-in-2016) - *01:01:34*.
+- * Плохой интернет и разработчик - *01:15:25*.
+- [Еще одни покидает тонущий меркуриал](https://news.radio-t.com/post/razrabotka-python-perenositsia-na-git-i-github) - *01:26:16*.
+- [Убить магию](https://news.radio-t.com/post/let-the-magic-die-murze-be) - *01:39:04*.
+- [Темы наших слушателей](https://radio-t.com/p/2015/12/29/prep-477/) - *02:05:26*.
 
 _Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
