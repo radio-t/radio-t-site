@@ -18,7 +18,7 @@ filename = "rt_podcast459"
 - [Amazon разогнал всех участников провала Fire телефона](http://www.cnet.com/news/amazon-reportedly-laying-off-engineers-after-fire-phone-flameout/) - *01:15:57*.
 - [Стильные, но дешевые](http://www.engadget.com/2015/08/26/obi-worldphones/) - *01:23:45*.
 - [Темы наших слушателей](https://radio-t.com/p/2015/08/25/prep-459/) - *01:36:28*.
-- 
+
 _Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast459.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-459.html)
