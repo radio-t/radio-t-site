@@ -9,14 +9,14 @@ filename = "rt_podcast451"
 
 ![](https://radio-t.com/images/radio-t/rt451.jpg)
 
-* [Microsoft поломал Wi-Fi](http://prsm.tc/ECX8M6).
-* [Компромиссы микро-сервисов](http://habrahabr.ru/post/261689/).
-* [9 анти-шаблонов](http://prsm.tc/cBRD9P).
-* [Flocker 1.0](http://www.infoq.com/news/2015/07/flocker-docker-volume-migration)
-* [Amazon представил TLS crypto](http://www.theregister.co.uk/2015/07/01/amazon_s2n_tls_library/).
-* [Сравнение алгоритмов балансировки](http://prsm.tc/MFoeJw).
-- Темы наших слушателей.
-* [Видео-трансляция](https://www.youtube.com/watch?v=bpMn5y56clA&feature=youtu.be).
+- [Microsoft поломал Wi-Fi](http://prsm.tc/ECX8M6) - *00:03:51*.
+- [Компромиссы микро-сервисов](http://habrahabr.ru/post/261689/) - *00:18:55*.
+- [9 анти-шаблонов](http://prsm.tc/cBRD9P) - *01:08:37*.
+- [Flocker 1.0](http://www.infoq.com/news/2015/07/flocker-docker-volume-migration) - *01:35:23*.
+- [Amazon представил TLS crypto](http://www.theregister.co.uk/2015/07/01/amazon_s2n_tls_library/) - *01:39:13*.
+- [Сравнение алгоритмов балансировки](http://prsm.tc/MFoeJw) - *01:41:37*.
+- [Темы наших слушателей](https://radio-t.com/p/2015/06/30/prep-451/) - *02:01:27*.
+- [Видео-трансляция](https://www.youtube.com/watch?v=bpMn5y56clA&feature=youtu.be).
 
 _Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
