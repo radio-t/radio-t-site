@@ -19,7 +19,7 @@ filename = "rt_podcast454"
 - [Странные изобретения, без которых вы легко проживете](http://prsm.tc/dhAs0Y) - *01:05:48*.
 - [Рынок разработки сайтов умирает](http://siliconrus.com/2015/07/digital-is-dying/) - *01:18:18*.
 - [Темы наших слушателей](https://radio-t.com/p/2015/07/21/prep-454/)- *01:34:36*.
-- 
+
 _Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast454.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-454.html)
