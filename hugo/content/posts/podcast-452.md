@@ -9,13 +9,13 @@ filename = "rt_podcast452"
 
 ![](https://radio-t.com/images/radio-t/rt452.jpg)
 
-* [Линус о наступление AI](http://gizmodo.com/linux-creator-linus-torvalds-laughs-at-the-ai-apocalyps-1716383135).
-* [Все упало и сразу](http://arstechnica.com/security/2015/07/simultaneous-downing-of-ny-stock-exchange-united-and-wsj-com-rattle-nerves/).
-* [Amazon API Gateway](https://aws.amazon.com/blogs/aws/amazon-api-gateway-build-and-run-scalable-application-backends/)
-* [MS проиграла еще одну войну](http://www.wired.com/2015/07/microsoft-phone-job-cuts/).
-* [Azure в 4 раза дороже?](http://prsm.tc/zuB9PL)
-* [DC2 — на вид как контейнер](https://www.kickstarter.com/projects/dickhardt/dc2-desktop-container-computer-for-docker-containe).
-- Темы наших слушателей.
+- [Линус о наступление AI](http://gizmodo.com/linux-creator-linus-torvalds-laughs-at-the-ai-apocalyps-1716383135) - *00:01:46*.
+- [Все упало и сразу](http://arstechnica.com/security/2015/07/simultaneous-downing-of-ny-stock-exchange-united-and-wsj-com-rattle-nerves/) - *00:24:06*.
+- [Amazon API Gateway](https://aws.amazon.com/blogs/aws/amazon-api-gateway-build-and-run-scalable-application-backends/) - *00:32:12*.
+- [Azure в 4 раза дороже?](http://prsm.tc/zuB9PL) - *01:07:51*.
+- [DC2 — на вид как контейнер](https://www.kickstarter.com/projects/dickhardt/dc2-desktop-container-computer-for-docker-containe) - *01:16:11*.
+- [MS проиграла еще одну войну](http://www.wired.com/2015/07/microsoft-phone-job-cuts/) - *01:24:17*.
+- [Темы наших слушателей](https://radio-t.com/p/2015/07/07/prep-452/) - *01:41:18*.
 
 _Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
