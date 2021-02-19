@@ -9,7 +9,7 @@ filename = "rt_podcast471"
 
 ![](https://radio-t.com/images/radio-t/rt471.jpg)
 
-- * Go. Что было в предыдущей серии - *00:02:42*.
+- Go. Что было в предыдущей серии - *00:02:42*.
 - [“Hoverboard” — самая крутая технология 2015](http://www.ACASUALSENSE.com/hoverboard-coolest-technology-of-2015/) - *00:05:36*.
 - [Секретно, как булыжник](http://www.geeksaresexy.net/2015/11/19/new-gadget-promises-rock-solid-security/) - *00:16:06*.
 - [Rdio закрывает подписку](http://www.digitalmusicnews.com/2015/11/20/breaking-rdio-is-terminating-all-subscriptions-on-monday/) - *00:23:25*.
