@@ -18,10 +18,10 @@ filename = "rt_podcast481"
 - [Amazon поможет организовать утечку](http://thenextweb.com/insider/2016/01/25/amazons-continual-failure-to-protect-user-details-could-put-your-other-accounts-at-risk/) - *01:05:07*.
 - [Новая угроза доминированию Google](http://www.businessinsider.com/amazon-said-to-be-in-talks-with-oems-to-get-services-on-android-phones-2016-1) - *01:09:40*.
 - [IBM купил UStream](http://techcrunch.com/2016/01/21/ibm-confirms-acquisition-of-ustream-forms-new-cloud-video-unit/) - *01:16:09*.
-- [Искусственный интеллект понимает Go](http://thenextweb.com/google/2016/01/28/google-trumps-facebook-in-building-ai-that-can-win-at-go/) - *1:20:20*.
-- [Nikon выпускает странное](http://www.theverge.com/2016/1/9/10742974/nikon-gopro-action-cameras-360-video-ces-2016) - *1:28:10*.
-- [FF проверит все за нас](https://blog.mozilla.org/addons/2016/01/22/add-on-signing-update/) - *1:39:58*.
-- [Темы наших слушателей](https://radio-t.com/p/2016/01/26/prep-481/) - *1:42:38*.
+- [Искусственный интеллект понимает Go](http://thenextweb.com/google/2016/01/28/google-trumps-facebook-in-building-ai-that-can-win-at-go/) - *01:20:20*.
+- [Nikon выпускает странное](http://www.theverge.com/2016/1/9/10742974/nikon-gopro-action-cameras-360-video-ces-2016) - *01:28:10*.
+- [FF проверит все за нас](https://blog.mozilla.org/addons/2016/01/22/add-on-signing-update/) - *01:39:58*.
+- [Темы наших слушателей](https://radio-t.com/p/2016/01/26/prep-481/) - *01:42:38*.
 
 _Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
