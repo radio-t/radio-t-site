@@ -12,7 +12,7 @@ filename = "rt_podcast475"
 - [Поломать линукс за 28 нажатий](http://www.engadget.com/2015/12/18/log-into-most-any-linux-system-by-hitting-backspace-28-times/) - *00:05:39*.
 - [MacKeeper обидел 13 Млн](http://www.cnet.com/news/mackeeper-exposes-personal-data-of-13-million-users/) - *00:10:30*.
 - [Утечка 684 Тб данных из открытых монг](http://www.opennet.ru/opennews/art.shtml?num=43540) - *00:19:08*.
-- * Apache ActiveMQ 5.11 -> 5.13 -> 5.11 - *00:36:22*.
+- Apache ActiveMQ 5.11 -> 5.13 -> 5.11 - *00:36:22*.
 - [Правильный NAT для AWS](https://aws.amazon.com/blogs/aws/new-managed-nat-network-address-translation-gateway-for-aws/) - *00:40:20*.
 - [T2.Nano доступно в AWS](https://aws.amazon.com/blogs/aws/ec2-update-t2-nano-instances-now-available/) - *00:48:10*.
 - [Evernote отстреливает полезное](http://techcrunch.com/2015/12/17/rip-skitch/) - *00:52:36*.
