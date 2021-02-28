@@ -29,6 +29,7 @@ def print_mp3_tags(c, path):
         sys.exit(1)
 
     print_album_meta(tag)
+    print('ID3 tag header version:', '.'.join(map(str, tag.header.version)))
     print_toc(tag)
 
 
@@ -63,7 +64,9 @@ def set_mp3_tags(c, path, dry=False, verbose=False):
     id3.Tag.remove(full_path, remove_version)
 
     episode_file = core.load(full_path)
-    episode_file.initTag(version=id3.ID3_V2_4)
+    # using ID3v2.3 tags, because using newer ID3v2.4 version leads to problems with Apple Podcasts and Telegram
+    # (they will stop showing chapters with long titles at all, see https://github.com/radio-t/radio-t-site/issues/209)
+    episode_file.initTag(version=id3.ID3_V2_3)
 
     tag = episode_file.tag
 
