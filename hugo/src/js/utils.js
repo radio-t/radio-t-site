@@ -22,8 +22,8 @@ export function getUnits(value, units) {
   return /^[0,2-9]?[1]$/.test(value)
     ? units[0]
     : /^[0,2-9]?[2-4]$/.test(value)
-    ? units[1]
-    : units[2];
+      ? units[1]
+      : units[2];
 }
 
 // 00:02:24 => 144
@@ -48,4 +48,24 @@ export function getTextSnippet(html) {
   const snippet = result.substr(0, LENGTH);
 
   return snippet.length === LENGTH && result.length !== LENGTH ? `${snippet}...` : snippet;
+}
+
+//https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
+export function copyTextToClipboard(text) {
+  if (!navigator.clipboard) {
+    fallbackCopyTextToClipboard(text);
+    return;
+  }
+  navigator.clipboard.writeText(text).then(function () {
+    alert('Временная метка скопирована в буфер обмена\nTO DO: сделать красивое оповещение');
+  }, function (err) {
+    alert('ОШИБКА: невозможно скопировать временную метку в буфер обмена    ', err, "\nTO DO: сделать красивое оповещение");
+  });
+}
+
+export function addTimeToURL(podcastPathname, currentTime) {
+  // add full link to URL
+  if (window.history.pushState) {
+    window.history.pushState(null, null, [podcastPathname, "?t=", currentTime].join(""));
+  }
 }

@@ -1,5 +1,6 @@
 import Controller from '../base_controller';
 import Player from './player_controller';
+import { addTimeToURL } from '../utils'
 
 /**
  * @property playButtonTarget
@@ -52,6 +53,8 @@ export default class extends Controller {
   }
 
   goToTimeLabel(e) {
+    // add each seek time to URL as t?=00:00:00
+    this.podcastAddTimeToURL(e);
     this.play(e, e.target.textContent);
   }
 
@@ -62,5 +65,10 @@ export default class extends Controller {
       image: this.coverTarget.style.backgroundImage,
       number: this.numberTarget.textContent,
     };
+  }
+
+  podcastAddTimeToURL(e) {
+    let podcastPathname = this.data.get('url');
+    addTimeToURL(podcastPathname, e.target.textContent);
   }
 }
