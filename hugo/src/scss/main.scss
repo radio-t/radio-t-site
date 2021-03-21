@@ -193,6 +193,7 @@ $jumbotron-arc-width: 120%;
   }
 }
 .jumbotron-btn-subscribe {
+  min-width: 200px;
   line-height: 1;
   color: $text-muted;
   &:not(:hover, :focus, :active) {
@@ -866,6 +867,8 @@ $ripple-scale-out: 3.4;
   padding: 0 0.3em;
 }
 .switch-theme-btn {
+  display: flex;
+  align-items: center;
   border-width: 0 !important;
   box-shadow: none !important;
 }

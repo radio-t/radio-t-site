@@ -51,6 +51,8 @@
     font-weight: $font-weight-normal;
     padding-left: ($spacer / 1.5);
     border-color: transparent !important;
+    display: flex;
+    align-items: center;
     &:not(:active, :focus, :hover) {
       color: $text-muted;
     }

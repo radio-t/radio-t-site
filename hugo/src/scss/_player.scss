@@ -41,8 +41,10 @@ $podcast-player-cover-margin: 0.5rem;
 .podcast-player {
   height: 52px;
   .btn {
+    display: flex;
+    justify-content: center;
     color: inherit;
-    padding: 0.25rem 0.25rem;
+    padding: 0.5rem;
     font-size: 1.2em;
     transition: all 50ms;
     transform: scale(1);
@@ -69,6 +71,7 @@ $podcast-player-cover-margin: 0.5rem;
 }
 .btn-player-icon {
   display: inline-flex;
+  padding: 0.25em;
   margin: auto;
   svg {
     display: block;
@@ -109,7 +112,6 @@ $podcast-player-cover-margin: 0.5rem;
 .player-rate {
   min-width: 60px;
   text-align: center;
-  font-size: inherit;
   font-weight: 600;
   letter-spacing: -0.05em;
   &:after {
@@ -125,6 +127,10 @@ $podcast-player-cover-margin: 0.5rem;
       'seek  seek   seek     seek  seek'
       'cover number playback speed close';
     padding-bottom: 0.3rem;
+    height: auto;
+    .btn {
+      padding: 0.25rem;
+    }
   }
   .player-seek {
     grid-area: seek;
