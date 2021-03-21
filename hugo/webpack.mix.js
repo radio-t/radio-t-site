@@ -1,5 +1,4 @@
 const fs = require('fs');
-const util = require('util');
 const glob = require('glob');
 const mix = require('laravel-mix');
 const babel = require('@babel/core');
@@ -7,10 +6,6 @@ const ModernizrWebpackPlugin = require('modernizr-webpack-plugin');
 const PurgecssPlugin = require('purgecss-webpack-plugin');
 const purgecssHtml = require('purgecss-from-html');
 const nodeSass = require('node-sass');
-const purgecssPaths = [
-  ...glob.sync('layouts/**/*.html', { nodir: true }),
-  ...glob.sync('src/**/*.{js,ts,jsx,tsx}', { nodir: true }),
-]
 
 mix.disableNotifications();
 
@@ -36,16 +31,15 @@ mix.webpackConfig({
     new ModernizrWebpackPlugin(require('./.modernizr')),
     new PurgecssPlugin({
       rejected: true,
-      paths: purgecssPaths,
+      paths: [
+				...glob.sync('layouts/**/*.html', { nodir: true }),
+				...glob.sync('src/**/*.{js,ts,jsx,tsx}', { nodir: true }),
+			],
       safelist: () => ({
-        deep: [/^is-online/],
+        deep: [/is-online/, /has-audio/, /post-podcast-content/, /fa-step-forward/],
       }),
       extractors: [{
-        extractor: (content) => {
-          const classNames = purgecssHtml(content)
-
-          return classNames
-        },
+        extractor: purgecssHtml,
         extensions: ['html']
       },{
         extractor: (content) => {
