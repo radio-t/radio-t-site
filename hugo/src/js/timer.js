@@ -1,4 +1,6 @@
-import { startOfWeek, addWeeks, addMinutes } from 'date-fns';
+import startOfWeek from 'date-fns/startOfWeek';
+import addWeeks from 'date-fns/addWeeks';
+import addMinutes from 'date-fns/addMinutes';
 import { getUnits } from './utils';
 
 const showTime = {

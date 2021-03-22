@@ -2,7 +2,8 @@ import { h } from 'preact';
 import { useCallback, useEffect, useState } from 'preact/hooks';
 import http from 'axios';
 import locale from 'date-fns/locale/ru';
-import { formatDistanceToNowStrict, format, parseISO } from 'date-fns';
+import formatDistanceToNowStrict from 'date-fns/formatDistanceToNow';
+import parseISO from 'date-fns/parseISO'
 import { getTextSnippet } from '../utils';
 const COMMENT_NODE_CLASSNAME_PREFIX = 'remark42__comment-';
 

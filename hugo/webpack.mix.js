@@ -1,7 +1,7 @@
 const fs = require('fs');
 const mix = require('laravel-mix');
 const babel = require('@babel/core');
-const ModernizrWebpackPlugin = require('modernizr-webpack-plugin');
+const CssoWebpackPlugin = require('csso-webpack-plugin').default;
 const nodeSass = require('node-sass');
 
 mix.disableNotifications();
@@ -23,20 +23,19 @@ mix
   mix.sass(`src/scss/${style}-dark.scss`, '.', { implementation: nodeSass });
 });
 
-mix.webpackConfig({ plugins: [new ModernizrWebpackPlugin(require('./.modernizr'))] });
-
 if (process.env.ANALYZE) {
   const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
   mix.webpackConfig({ plugins: [new BundleAnalyzerPlugin()] });
 }
 
+mix.webpackConfig({ plugins: [new CssoWebpackPlugin()] });
+
 if (mix.inProduction()) {
   Mix.manifest.name = '../../data/manifest.json'; // eslint-disable-line no-undef
   mix.setPublicPath('static/build');
   mix.setResourceRoot('/build');
   mix.extract();
-  mix.version(['static/build/modernizr-bundle.js']);
   mix.then(() => {
     const { code } = babel.transformFileSync('src/js/theme-init.js', {
       minified: true,

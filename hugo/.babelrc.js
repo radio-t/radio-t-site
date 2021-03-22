@@ -7,6 +7,7 @@ module.exports = {
         forceAllTransforms: true,
         useBuiltIns: 'usage',
         corejs: 3,
+        browserslist: 'default, not IE 11',
       },
     ],
   ],
