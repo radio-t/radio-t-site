@@ -1,13 +1,4 @@
-import { startOfWeek, addWeeks, addMinutes } from 'date-fns';
 import { getUnits } from './utils';
-
-const showTime = {
-  day: 6, // 6=Sat, 0..6 - Sun..Sat
-  hours: 23,
-  minutes: 0,
-};
-
-const durationMinutes = 3 * 60;
 
 function padTime(n) {
   return `0${n}`.slice(-2);
@@ -32,41 +23,23 @@ function formatSeconds(totalSeconds) {
   return html;
 }
 
-function inMoscow(date) {
-  const timeInMoscow = new Date(date.getTime());
-  timeInMoscow.setMinutes(timeInMoscow.getMinutes() + timeInMoscow.getTimezoneOffset() + 3 * 60);
-
-  return timeInMoscow;
-}
-
-function timeToMinutes(time) {
-  return time.day * 24 * 60 + time.hours * 60 + time.minutes;
-}
-
-function showEndTime(time, duration) {
-  let endTime = startOfWeek(new Date() /*, {weekStartsOn: 0}*/); // week starts on Sunday
-
-  endTime = addMinutes(endTime, timeToMinutes(time) + duration);
-
-  return {
-    day: endTime.getDay(),
-    hours: endTime.getHours(),
-    minutes: endTime.getMinutes(),
-  };
-}
-
-function getNextOccurrence(now, time) {
-  const offsetMinutes = timeToMinutes(time);
-  return addMinutes(addWeeks(startOfWeek(addMinutes(now, -offsetMinutes)), 1), offsetMinutes);
-}
-
+/**
+ * Show airs from 20:00 to 23:00 Saturday UTC
+ * So we'll skip all the timezone's troubles
+ */
 export function timer(now = new Date()) {
-  const timeInMoscow = inMoscow(now);
+  const showStart = new Date(Date.UTC(
+    now.getUTCFullYear(),
+    now.getUTCMonth(),
+    now.getUTCDate() + 6 - now.getUTCDay(),
+    20
+  ));
 
-  const showEnd = getNextOccurrence(timeInMoscow, showEndTime(showTime, durationMinutes));
-  const showStart = addMinutes(showEnd, -durationMinutes);
+  let totalSeconds = Math.floor((showStart - now) / 1000);
+  if (totalSeconds <= -3 * 60 * 60) {
+    totalSeconds += 7 * 24 * 60 * 60;
+  }
 
-  const totalSeconds = Math.floor((showStart - timeInMoscow) / 1000);
   const isOnline = totalSeconds <= 0;
 
   const html = isOnline ? 'Мы в эфире!' : formatSeconds(totalSeconds);
