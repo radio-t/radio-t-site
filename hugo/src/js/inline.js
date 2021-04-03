@@ -1,2 +1,2 @@
-require('./load-svg-sprite')
-require('./theme-init')
+import './load-svg-sprite';
+import './theme-init';
