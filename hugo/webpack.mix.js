@@ -1,6 +1,4 @@
-const fs = require('fs');
 const mix = require('laravel-mix');
-const babel = require('@babel/core');
 const ModernizrWebpackPlugin = require('modernizr-webpack-plugin');
 const nodeSass = require('node-sass');
 
@@ -17,6 +15,8 @@ mix
   })
   .ts('src/js/app.js', '.')
   .version();
+
+mix.js('src/js/inline.js', '.');
 
 ['app', 'vendor'].forEach((style) => {
   mix.sass(`src/scss/${style}.scss`, '.', { implementation: nodeSass });
@@ -37,22 +37,6 @@ if (mix.inProduction()) {
   mix.setResourceRoot('/build');
   mix.extract();
   mix.version(['static/build/modernizr-bundle.js']);
-  mix.then(() => {
-    const { code } = babel.transformFileSync('src/js/inline.js', {
-      minified: true,
-      presets: [
-        [
-          '@babel/preset-env',
-          {
-            modules: false,
-            forceAllTransforms: true,
-            useBuiltIns: false,
-          },
-        ],
-      ],
-    });
-    fs.writeFileSync('static/build/inline.js', code);
-  });
 } else {
   mix.setPublicPath('dev');
 
