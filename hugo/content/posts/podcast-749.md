@@ -9,7 +9,7 @@ filename = "rt_podcast749"
 ![](https://radio-t.com/images/radio-t/rt749.jpg)
 
 - [Google одержал победу в разбирательстве с Oracle](https://www.opennet.ru/opennews/art.shtml?num=54907) - *00:02:33*.
-- [Поечему их два](https://blog.djmnet.org/2019/08/02/why-do-long-options-start-with/) - *00:14:16*
+- [Почему их два](https://blog.djmnet.org/2019/08/02/why-do-long-options-start-with/) - *00:14:16*
 - [Музыка Звёзд](https://soundofstars.ru/) - *00:49:00*.
 - [IntelliJ IDEA 2021.1](https://www.jetbrains.com/idea/whatsnew/) - *00:57:00*.
 - [Docker Desktop 3.3 починили, но не для всех](https://www.docker.com/blog/changing-how-updates-work-with-docker-desktop-3-3/) - *01:01:02*.
