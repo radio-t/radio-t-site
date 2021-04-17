@@ -17,7 +17,7 @@ class Chapter:
     end: int  # end of chapter offset, seconds
 
 
-def parse_table_of_contents_from_md(filename: str, first_chapter_name: str, max_episode_hours: int) -> List[Chapter]:
+def parse_table_of_contents_from_md(filename: str, first_chapter_name: str, episode_length_secs: int) -> List[Chapter]:
     """
     Parse table of contents for episode from Hugo template for this episode post
     """
@@ -53,8 +53,8 @@ def parse_table_of_contents_from_md(filename: str, first_chapter_name: str, max_
         if index + 1 < len(articles):
             end = articles[index + 1][1]
         else:
-            # set last chapter end at estimated end of the episode
-            end = max_episode_hours * 60 * 60
+            # set last chapter end at total duration of the mp3 file
+            end = episode_length_secs
 
         result.append(Chapter(element_id=new_id(index), title=article, start=start * 1000, end=end * 1000))
 
