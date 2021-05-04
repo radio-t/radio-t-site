@@ -27,4 +27,8 @@ module.exports = [
     path: 'static/build/vendor.css',
     limit: '36.5 KB',
   },
+  {
+    path: 'static/build/vendor-dark.css',
+    limit: '36.5 KB',
+  },
 ];
