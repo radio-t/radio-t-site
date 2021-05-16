@@ -22,8 +22,8 @@ export function getUnits(value, units) {
   return /^[0,2-9]?[1]$/.test(value)
     ? units[0]
     : /^[0,2-9]?[2-4]$/.test(value)
-    ? units[1]
-    : units[2];
+      ? units[1]
+      : units[2];
 }
 
 // 00:02:24 => 144
@@ -48,4 +48,48 @@ export function getTextSnippet(html) {
   const snippet = result.substr(0, LENGTH);
 
   return snippet.length === LENGTH && result.length !== LENGTH ? `${snippet}...` : snippet;
+}
+
+//https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
+function fallbackCopyTextToClipboard(text) {
+  var textArea = document.createElement("textarea");
+  textArea.value = text;
+
+  // Avoid scrolling to bottom
+  textArea.style.top = "0";
+  textArea.style.left = "0";
+  textArea.style.position = "fixed";
+
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+
+  try {
+    var successful = document.execCommand('copy');
+    var msg = successful ? 'successful' : 'unsuccessful';
+    alert('Временная метка скопирована в буфер обмена', msg, '\nTO DO: сделать красивое оповещение');
+  } catch (err) {
+    alert('ОШИБКА: невозможно скопировать временную метку в буфер обмена    ', err, "\nTO DO: сделать красивое оповещение");
+  }
+
+  document.body.removeChild(textArea);
+}
+
+export function copyTextToClipboard(text) {
+  if (!navigator.clipboard) {
+    fallbackCopyTextToClipboard(text);
+    return;
+  }
+  navigator.clipboard.writeText(text).then(function () {
+    alert('Временная метка скопирована в буфер обмена\nTO DO: сделать красивое оповещение');
+  }, function (err) {
+    alert('ОШИБКА: невозможно скопировать временную метку в буфер обмена    ', err, "\nTO DO: сделать красивое оповещение");
+  });
+}
+
+export function addTimeToURL(podcastPathname, currentTime) {
+  // add full link to URL
+  if (window.history.pushState) {
+    window.history.pushState(null, null, [podcastPathname, "?t=", currentTime].join(""));
+  }
 }
