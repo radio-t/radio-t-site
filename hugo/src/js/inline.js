@@ -50,4 +50,8 @@
         }
       };
     });
+
+  document.addEventListener('turbolinks:load', () => {
+    insert();
+  });
 })(window, window.RADIOT_THEMES);
