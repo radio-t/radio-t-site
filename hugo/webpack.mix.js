@@ -22,8 +22,8 @@ mix
   .version();
 
 ['app', 'vendor'].forEach((style) => {
-  mix.sass(`src/scss/${style}.scss`, '.', { implementation: nodeSass });
-  mix.sass(`src/scss/${style}-dark.scss`, '.', { implementation: nodeSass });
+  mix.sass(`src/scss/${style}.scss`, '.', { implementation: nodeSass }).options({ postCss: [require('cssnano')]});
+  mix.sass(`src/scss/${style}-dark.scss`, '.', { implementation: nodeSass }).options({ postCss: [require('cssnano')]});
 });
 
 mix.webpackConfig({
