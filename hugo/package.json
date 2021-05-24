@@ -10,6 +10,7 @@
     "dev:turbo": "cross-env NODE_ENV=development cross-env MIX_TURBO=1 run-p watch hugo-no-live",
     "serve": "run-s build hugo",
     "size": "npm run build && size-limit",
+    "prod": "npm run build",
     "prettier": "prettier '**/*.{js,jsx,ts,tsx,scss}' --write",
     "eslint": "eslint '**/*.{js,jsx,ts,tsx}'"
   },
