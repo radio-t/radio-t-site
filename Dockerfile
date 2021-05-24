@@ -7,7 +7,7 @@ RUN npm ci
 
 ENV NODE_ENV=production
 
-COPY ./hugo/.modernizr.js hugo/webpack.mix.js hugo/tsconfig.json hugo/.babelrc.js /app/
+COPY ./hugo/webpack.mix.js ./hugo/tsconfig.json ./hugo/.babelrc.js /app/
 COPY ./hugo/src/ /app/src/
 COPY ./hugo/layouts /app/layouts/
 
