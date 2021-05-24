@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <div class="py-4 py-lg-6 {{ if .Params.image }}page-with-cover-image{{ end }}">
+    {{ if .Params.image }}<div class="py-4 py-lg-6 page-with-cover-image">{{ else }}<div class="py-4 py-lg-6">{{ end }}
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-8 offset-md-2">

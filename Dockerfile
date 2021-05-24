@@ -1,18 +1,18 @@
 FROM node:10-alpine as build
 
-RUN mkdir -p /app
 WORKDIR /app
 
 COPY hugo/package.json hugo/package-lock.json ./
 RUN npm ci
 
 ENV NODE_ENV=production
-COPY hugo/.modernizr.js hugo/webpack.mix.js hugo/tsconfig.json hugo/.babelrc.js ./
-COPY hugo/src/ src/
-RUN npm run production
 
-###
-###
+COPY ./hugo/.modernizr.js hugo/webpack.mix.js hugo/tsconfig.json hugo/.babelrc.js /app/
+COPY ./hugo/src/ /app/src/
+COPY ./hugo/layouts /app/layouts/
+
+RUN npm run build
+
 
 FROM alpine:3.8
 

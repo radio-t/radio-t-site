@@ -1,19 +1,19 @@
 module.exports = [
   {
     path: 'static/build/app.js',
-    limit: '14.33 KB',
+    limit: '16 KB',
   },
   {
     path: 'static/build/manifest.js',
-    limit: '717 B',
+    limit: '1 KB',
   },
   {
     path: 'static/build/modernizr-bundle.js',
-    limit: '1.98 KB',
+    limit: '3 KB',
   },
   {
     path: 'static/build/vendor.js',
-    limit: '108 KB',
+    limit: '100 KB',
   },
   {
     path: 'static/build/app.css',
@@ -25,10 +25,10 @@ module.exports = [
   },
   {
     path: 'static/build/vendor.css',
-    limit: '36.5 KB',
+    limit: '8 KB',
   },
   {
     path: 'static/build/vendor-dark.css',
-    limit: '36.5 KB',
+    limit: '8 KB',
   },
 ];

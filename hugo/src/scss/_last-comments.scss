@@ -14,6 +14,8 @@
   height: 28px;
   border-radius: 4px;
   background-color: $gray-200;
+  overflow: hidden;
+  border-radius: 2px;
 }
 .last-comments-comment__verification {
   display: inline-block;
