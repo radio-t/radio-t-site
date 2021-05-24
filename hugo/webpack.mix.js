@@ -35,7 +35,15 @@ mix.webpackConfig({
         ...glob.sync('src/**/*.{js,ts,jsx,tsx}', { nodir: true }),
       ],
       safelist: () => ({
-        deep: [/is-online/, /has-audio/, /post-podcast-content/, /fa-step-forward/, /sidebar-open/],
+        deep: [
+          /is-online/,
+          /has-audio/,
+          /post-podcast-content/,
+          /fa-step-forward/,
+          /sidebar-open/,
+          /comments-counter-avatars-item/,
+          /loaded/,
+        ],
       }),
       extractors: [
         {
