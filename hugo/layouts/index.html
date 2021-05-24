@@ -7,32 +7,30 @@
     {{ partial "jumbotron" . }}
   {{/*{{ end }}*/}}
 
-  <div class="pt-3 pt-sm-5">
-    <div class="posts-list" data-controller="posts-list" data-posts-list-page-number="{{ $paginator.PageNumber }}">
-      {{ if (ne $paginator.PageNumber 1) }}
-        <div class="container-fluid">
-          <div class="py-3 border-bottom">
-            {{ partial "paginator" . }}
-          </div>
-        </div>
-      {{ end }}
-
-      {{ range $index, $_ := $paginator.Pages }}
-        {{ .Render "li" }}
-        {{ if (eq $paginator.PageNumber 1) }}
-          {{ if (eq $index 1) }}
-            {{ partial "banner-online" . }}
-          {{ end }}
-          {{ if (eq $index 5) }}
-            {{ partial "banner-links" . }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-
+  <div class="posts-list pt-3 pt-sm-5" data-controller="posts-list" data-posts-list-page-number="{{ $paginator.PageNumber }}">
+    {{ if (ne $paginator.PageNumber 1) }}
       <div class="container-fluid">
-        <div class="mt-5 py-3 border-top">
+        <div class="py-3 border-bottom">
           {{ partial "paginator" . }}
         </div>
+      </div>
+    {{ end }}
+
+    {{ range $index, $_ := $paginator.Pages }}
+      {{ .Render "li" }}
+      {{ if (eq $paginator.PageNumber 1) }}
+        {{ if (eq $index 1) }}
+          {{ partial "banner-online" . }}
+        {{ end }}
+        {{ if (eq $index 5) }}
+          {{ partial "banner-links" . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    <div class="container-fluid">
+      <div class="mt-5 py-3 border-top">
+        {{ partial "paginator" . }}
       </div>
     </div>
   </div>

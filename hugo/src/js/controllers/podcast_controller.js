@@ -6,7 +6,7 @@ import Player from './player_controller';
  * @property {Audio} audioTarget
  */
 export default class extends Controller {
-  static targets = ['playButton', 'number', 'cover', 'audio'];
+  static targets = ['playButton', 'number', 'cover', 'audio', 'icon'];
 
   initialize() {
     super.initialize();
@@ -24,16 +24,17 @@ export default class extends Controller {
   }
 
   fetchPlayingState() {
-    this.element.classList.toggle('playing', this.isCurrentlyPlaying());
+    this.element.classList.toggle('playing', this.isCurrentlyPlaying);
+		this.iconTarget.setAttribute('xlink:href', this.isCurrentlyPlaying ? '#icon-pause' : '#icon-play')
   }
 
-  isCurrentlyPlaying() {
+  get isCurrentlyPlaying() {
     return (
       Player.getState().src === this.getPodcastInfo().src && Player.getState().paused === false
     );
   }
 
-  play(e, timeLabel = null) {
+  toggle(e, timeLabel = null) {
     e.preventDefault();
     e.stopPropagation();
 

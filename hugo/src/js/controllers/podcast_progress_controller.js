@@ -4,9 +4,13 @@ import { composeTime, getLocalStorage } from '../utils';
 export default class extends Controller {
   static targets = ['bar', 'number', 'duration', 'progress'];
 
+  get podcastNumber() {
+    return this.numberTarget.dataset.number;
+  }
+
   initialize() {
     super.initialize();
-    this.subscribe(`playing-progress-${this.numberTarget.innerText}`, (podcast) => {
+    this.subscribe(`playing-progress-${this.podcastNumber}`, (podcast) => {
       this.renderProgress(podcast);
     });
   }
@@ -15,10 +19,7 @@ export default class extends Controller {
     super.connect();
     if (this.data.has('init')) return;
 
-    const podcast = getLocalStorage(
-      'podcasts',
-      (podcasts) => podcasts[this.numberTarget.innerText]
-    );
+    const podcast = getLocalStorage('podcasts', (podcasts) => podcasts[this.podcastNumber]);
     if (podcast) {
       this.renderProgress(podcast);
     }
