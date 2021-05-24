@@ -2,21 +2,17 @@
   h3:not(.number-title) {
     font-size: 2em;
   }
-  html.cssgrid & {
-    .row {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
-      grid-auto-flow: dense;
-      > div {
-        max-width: none;
-        &.span-2 {
-          grid-column: auto / span 2;
-        }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    grid-auto-flow: dense;
+    > div {
+      max-width: none;
+      &.span-2 {
+        grid-column: auto / span 2;
       }
     }
   }
-}
-.blog-archives-year {
 }
 .blog-archives-year-anchor {
   display: block;

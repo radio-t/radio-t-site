@@ -2,7 +2,6 @@ const fs = require('fs');
 const glob = require('glob');
 const mix = require('laravel-mix');
 const babel = require('@babel/core');
-const ModernizrWebpackPlugin = require('modernizr-webpack-plugin');
 const PurgecssPlugin = require('purgecss-webpack-plugin');
 const nodeSass = require('node-sass');
 const purgecssHtml = require('purgecss-from-html');
@@ -28,7 +27,6 @@ mix
 
 mix.webpackConfig({
   plugins: [
-    new ModernizrWebpackPlugin(require('./.modernizr')),
     new PurgecssPlugin({
       paths: [
         ...glob.sync('layouts/**/*.html', { nodir: true }),
@@ -81,7 +79,6 @@ if (mix.inProduction()) {
   mix.setPublicPath('static/build');
   mix.setResourceRoot('/build');
   mix.extract();
-  mix.version(['static/build/modernizr-bundle.js']);
   mix.then(() => {
     const { code } = babel.transformFileSync('src/js/inline.js', {
       minified: true,

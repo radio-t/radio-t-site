@@ -11,7 +11,6 @@
       ],
     };
   </script>
-  <script src="/modernizr-bundle.js"></script>
   <script src="/app.js"></script>
 {{ else }}
   <script>
@@ -28,7 +27,6 @@
   </script>
   <script>{{ readFile "static/build/inline.js" | safeJS }}</script>
   <script src="/build{{ index .Site.Data.manifest "/manifest.js" }}" defer></script>
-  <script src="/build{{ index .Site.Data.manifest "/modernizr-bundle.js" }}" defer></script>
   <script src="/build{{ index .Site.Data.manifest "/vendor.js" }}" defer></script>
   <script src="/build{{ index .Site.Data.manifest "/app.js" }}" defer></script>
 {{ end }}
