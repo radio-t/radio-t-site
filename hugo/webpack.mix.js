@@ -5,6 +5,7 @@ const babel = require('@babel/core');
 const ModernizrWebpackPlugin = require('modernizr-webpack-plugin');
 const PurgecssPlugin = require('purgecss-webpack-plugin');
 const nodeSass = require('node-sass');
+const purgecssHtml = require('purgecss-from-html');
 
 mix.disableNotifications();
 
@@ -32,6 +33,32 @@ mix.webpackConfig({
       paths: [
         ...glob.sync('layouts/**/*.html', { nodir: true }),
         ...glob.sync('src/**/*.{js,ts,jsx,tsx}', { nodir: true }),
+      ],
+      safelist: () => ({
+        deep: [/is-online/, /has-audio/, /post-podcast-content/, /fa-step-forward/, /sidebar-open/],
+      }),
+      extractors: [
+        {
+          extractor: purgecssHtml,
+          extensions: ['html'],
+        },
+        {
+          extractor: (content) => {
+            const regexStr = "/classList\\.\\w+\\(\\'(.*)\\'\\)/";
+            const globalRegex = new RegExp(regexStr, 'g');
+            const localRegex = new RegExp(regexStr);
+            const match = content.match(globalRegex);
+
+            if (match === null) {
+              return [];
+            }
+
+            const classes = match.map((s) => s.match(localRegex)[1]);
+
+            return { classes };
+          },
+          extensions: ['js'],
+        },
       ],
     }),
   ],

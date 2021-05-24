@@ -67,6 +67,7 @@
     "eslint-plugin-react": "^7.22.0",
     "laravel-mix": "^4.1.4",
     "prettier": "^2.2.1",
+    "purgecss-from-html": "^4.0.3",
     "purgecss-webpack-plugin": "^4.0.3",
     "size-limit": "^4.10.1",
     "ts-loader": "^6.2.2",
