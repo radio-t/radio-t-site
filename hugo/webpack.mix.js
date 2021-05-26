@@ -47,13 +47,14 @@ mix.webpackConfig({
       }),
       extractors: [
         {
-          extractor: purgecssHtml,
           extensions: ['html'],
+          extractor: purgecssHtml,
         },
         {
-          extractor: (content) => {
-            const regexStr = "/classList\\.\\w+\\(\\'(.*)\\'\\)/";
-            const globalRegex = new RegExp(regexStr, 'g');
+          extensions: ['js'],
+          extractor(content) {
+            const regexStr = "classList.\\w+.\\('(.*)'";
+            const globalRegex = new RegExp(regexStr, 'gm');
             const localRegex = new RegExp(regexStr);
             const match = content.match(globalRegex);
 
@@ -61,11 +62,8 @@ mix.webpackConfig({
               return [];
             }
 
-            const classes = match.map((s) => s.match(localRegex)[1]);
-
-            return { classes };
+            return { classes: match.map((s) => s.match(localRegex)[1]) };
           },
-          extensions: ['js'],
         },
       ],
     }),
