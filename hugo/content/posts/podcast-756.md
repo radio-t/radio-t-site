@@ -17,7 +17,7 @@ filename = "rt_podcast756"
 - [Protonmail сливал или нет](https://www.reuters.com/world/europe/email-bomb-threat-sent-after-bloggers-plane-was-diverted-over-belarus-swiss-2021-05-27/) - *01:19:25*.
 - [Темы слушателей](https://radio-t.com/p/2021/05/25/prep-756/) - *01:38:35*.
 
-*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
+*Спонсоры этого выпуска [Veeam](http://vee.am/radio-t) и [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast756.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-756.html)
