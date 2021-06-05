@@ -8,10 +8,6 @@ module.exports = [
     limit: '1 KB',
   },
   {
-    path: 'static/build/modernizr-bundle.js',
-    limit: '3 KB',
-  },
-  {
     path: 'static/build/vendor.js',
     limit: '100 KB',
   },
