@@ -772,6 +772,11 @@ $ripple-scale-out: 3.4;
     }
   }
 }
+.banner-online .banner-online-play-button {
+  width: 1em;
+  margin-right: 0.25em;
+}
+
 .online-countdown {
   @include media-breakpoint-down('sm') {
     padding-left: 0;
