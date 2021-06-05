@@ -21,8 +21,12 @@ mix
   .version();
 
 ['app', 'vendor'].forEach((style) => {
-  mix.sass(`src/scss/${style}.scss`, '.', { implementation: nodeSass }).options({ postCss: [require('cssnano')]});
-  mix.sass(`src/scss/${style}-dark.scss`, '.', { implementation: nodeSass }).options({ postCss: [require('cssnano')]});
+  mix
+    .sass(`src/scss/${style}.scss`, '.', { implementation: nodeSass })
+    .options({ postCss: [require('cssnano')] });
+  mix
+    .sass(`src/scss/${style}-dark.scss`, '.', { implementation: nodeSass })
+    .options({ postCss: [require('cssnano')] });
 });
 
 mix.webpackConfig({
@@ -41,6 +45,10 @@ mix.webpackConfig({
           /sidebar-open/,
           /comments-counter-avatars-item/,
           /loaded/,
+          /highlight/,
+          /language-/,
+          /code/,
+          /pre/,
         ],
       }),
       extractors: [
@@ -55,11 +63,9 @@ mix.webpackConfig({
             const globalRegex = new RegExp(regexStr, 'gm');
             const localRegex = new RegExp(regexStr);
             const match = content.match(globalRegex);
-
             if (match === null) {
               return [];
             }
-
             return { classes: match.map((s) => s.match(localRegex)[1]) };
           },
         },
