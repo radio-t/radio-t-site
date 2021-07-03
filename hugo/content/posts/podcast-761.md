@@ -15,7 +15,6 @@ filename = "rt_podcast761"
 - [Русские хакеры опять атакуют](https://www.bbc.com/news/world-us-canada-57703836) - *01:34:22*.
 - [Раутры Netgear тоже под угрозой](https://www.tomsguide.com/news/netgear-router-admin-hack) - *01:40:53*.
 - [Темы слушателей](https://radio-t.com/p/2021/06/29/prep-761/) - *01:48:38*.
-- Темы наших слушателей
 
 *Спонсор этого выпуска [DigitalOcean](http://do.co/radiot-mongo)*
 
