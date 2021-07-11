@@ -7,7 +7,7 @@
     "hugo:no-live": "cross-env-shell hugo serve --minify --disableLiveReload --port ${HUGO_PORT:-1313}",
     "dev": "cross-env NODE_ENV=development run-p dev:watch hugo",
     "dev:watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "dev:turbo": "cross-env NODE_ENV=development cross-env MIX_TURBO=1 run-p watch hugo-no-live",
+    "dev:turbo": "cross-env NODE_ENV=development cross-env MIX_TURBO=1 run-p dev:watch hugo:no-live",
     "serve": "run-s build hugo",
     "size": "npm run build && size-limit",
     "prod": "npm run build",
