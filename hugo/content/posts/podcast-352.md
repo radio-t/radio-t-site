@@ -2,12 +2,8 @@
 title = "Радио-Т 352"
 date = "2013-08-10T17:51:00"
 categories = [ "podcast",]
-image = "https://radio-t.com/images/radio-t/rt352.jpg"
 filename = "rt_podcast352"
-
 +++
-
-![](https://radio-t.com/images/radio-t/rt352.jpg)
 
 * Вредные [программы полезны для андроидов](http://www.telegraph.co.uk/technology/apple/10226145/The-apps-that-Apple-does-not-want-you-to-use.html)
 * [Pirate Bay](http://www.bbc.co.uk/news/technology-23587447) еще жив.
