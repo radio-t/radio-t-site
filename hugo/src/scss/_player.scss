@@ -1,7 +1,6 @@
 $podcast-player-seek-height: 2px;
 $podcast-player-seek-thumb-height: 16px;
 $podcast-player-seek-thumb-width: 4px;
-$podcast-player-cover-size: 2.2rem;
 $podcast-player-cover-margin: 0.5rem;
 .player-placeholder {
   height: 3.4rem;
@@ -106,8 +105,10 @@ $podcast-player-cover-margin: 0.5rem;
   white-space: nowrap;
 }
 .podcast-player-cover {
-  width: $podcast-player-cover-size;
-  min-width: $podcast-player-cover-size;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
 }
 .player-rate {
   min-width: 60px;

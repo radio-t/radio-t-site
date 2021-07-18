@@ -28,7 +28,7 @@ export default class extends Controller {
   }
 
   renderProgress(podcast) {
-    this.progressTarget.style.display = 'block';
+    this.progressTarget.removeAttribute('hidden');
     this.durationTarget.innerText = composeTime(podcast.duration);
     this.barTarget.style.width = `${(podcast.currentTime / podcast.duration) * 100}%`;
   }

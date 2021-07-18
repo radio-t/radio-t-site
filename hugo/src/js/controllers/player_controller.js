@@ -130,12 +130,13 @@ export default class extends Controller {
     this.detail = detail;
     if (this.audioTarget.src !== detail.src) {
       this.resetUI();
-      this.element.classList.remove('d-none');
       this.audioTarget.src = detail.src;
       this.updateState({ src: detail.src });
-      this.linkTargets.forEach((link) => (link.href = detail.url));
-      this.coverTarget.style.backgroundImage = detail.image;
-      this.coverTarget.classList.toggle('cover-image-online', !!detail.online);
+      this.linkTargets.forEach((link) => {
+        link.href = detail.url;
+      });
+      this.coverTarget.style.backgroundImage = `url(${detail.image})`;
+      this.coverTarget.classList.toggle('podcast-player-cover_online', !!detail.online);
       this.numberTarget.textContent = detail.number;
       this.audioTarget.load();
       this.rateTarget.textContent = this.audioTarget.playbackRate;
@@ -150,9 +151,11 @@ export default class extends Controller {
           }
         }
       }
+      this.element.removeAttribute('hidden');
       this.once(this.audioTarget, 'canplay', () => this.setTimeLabel(detail.timeLabel));
       return true;
     }
+
     return false;
   }
 
@@ -224,7 +227,7 @@ export default class extends Controller {
 
   close() {
     window.localStorage.removeItem('player');
-    this.element.classList.add('d-none');
+    this.element.setAttribute('hidden', '');
     this.audioTarget.src = '';
     this.updateState({ src: null, paused: null });
     this.detail = {};

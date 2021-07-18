@@ -8,6 +8,12 @@ import Player from './player_controller';
 export default class extends Controller {
   static targets = ['playButton', 'number', 'cover', 'audio', 'icon'];
 
+  get isCurrentlyPlaying() {
+    const state = Player.getState();
+
+    return state.src === this.audioTarget.src && state.paused === false;
+  }
+
   initialize() {
     super.initialize();
 
@@ -24,44 +30,32 @@ export default class extends Controller {
   }
 
   fetchPlayingState() {
-    this.element.classList.toggle('playing', this.isCurrentlyPlaying);
-		this.iconTarget.setAttribute('xlink:href', this.isCurrentlyPlaying ? '#icon-pause' : '#icon-play')
-  }
-
-  get isCurrentlyPlaying() {
-    return (
-      Player.getState().src === this.getPodcastInfo().src && Player.getState().paused === false
+    this.playButtonTarget.classList.toggle('podcast-cover_playing', this.isCurrentlyPlaying);
+    this.iconTarget.classList.toggle('podcast-cover-icon_play', !this.isCurrentlyPlaying);
+    this.iconTarget.classList.toggle('podcast-cover-icon_pause', this.isCurrentlyPlaying);
+    this.iconTarget.firstChild.setAttribute(
+      'xlink:href',
+      this.isCurrentlyPlaying ? '#icon-pause' : '#icon-play'
     );
   }
 
   toggle(e, timeLabel = null) {
     e.preventDefault();
     e.stopPropagation();
-
-    this.dispatchEvent(
-      this.element,
-      new CustomEvent('podcast-play', {
-        bubbles: true,
-        detail: {
-          ...this.getPodcastInfo(),
-          ...(timeLabel ? { timeLabel } : {}),
-        },
-      })
-    );
+    const detail = {
+      src: this.audioTarget.src,
+      url: this.data.get('url'),
+      image: this.coverTarget.currentSrc,
+      number: this.playButtonTarget.dataset.number,
+      timeLabel,
+    };
+    console.log(detail.image);
+    this.dispatchEvent(this.element, new CustomEvent('podcast-play', { bubbles: true, detail }));
 
     setTimeout(() => this.fetchPlayingState(), 0);
   }
 
   goToTimeLabel(e) {
     this.play(e, e.target.textContent);
-  }
-
-  getPodcastInfo() {
-    return {
-      src: this.audioTarget.src,
-      url: this.data.get('url'),
-      image: this.coverTarget.style.backgroundImage,
-      number: this.numberTarget.textContent,
-    };
   }
 }

@@ -1,9 +1,12 @@
 <!-- create small cover -->
-{{ $cover := .Params.image  }}
-{{ if .Params.image }}
-{{ else }}
-  {{ $cover = "/images/covers/cover.png" }}
-{{ end }}
+{{ $cover := .Params.image | default "images/cover.jpg" }}
+{{ $cover = resources.Get $cover }}
+{{ $cover130 := $cover.Resize "x130 jpg" }}
+{{ $coverWebp130 := $cover.Resize "x130 webp" }}
+{{ $cover260 := $cover.Resize "x260 jpg" }}
+{{ $coverWebp260 := $cover.Resize "x260 webp" }}
+{{ $cover520 := $cover.Resize "x520 jpg" }}
+{{ $coverWebp520 := $cover.Resize "x520 webp" }}
 
 <button
   class="podcast-cover"
@@ -12,13 +15,17 @@
   data-target="podcast.playButton podcast.number podcast-progress.number"
   data-number="{{ index (findRE `\d+$` .Title) 0 }}"
 >
-
-  <picture class="podcast-picture d-block" data-target="podcast.cover">
-    <source src="{{ replaceRE `.(jpg|png)$` ".webp" $cover }}" media="image/webp" />
-    <img class="podcast-image d-block" src="{{ $cover }}" loading="lazy" decoding="async"/>
+  <picture class="podcast-cover-picture">
+    <source srcset="{{ $coverWebp130.RelPermalink }} 1x, {{ $coverWebp260.RelPermalink }} 2x" media="image/webp" />
+    <source srcset="{{ $cover130.RelPermalink }} 1x, {{ $cover260.RelPermalink }} 2x" media="image/jpg" />
+    <source media="(min-width: 768px)" srcset="{{ $coverWebp260.RelPermalink }} 1x, {{ $coverWebp520.RelPermalink }} 2x" media="image/webp" />
+    <source media="(min-width: 768px)" srcset="{{ $cover260.RelPermalink }} 1x, {{ $cover520.RelPermalink }} 2x" media="image/jpg" />
+    <img data-target="podcast.cover" class="podcast-cover-image" src="{{ $cover260.RelPermalink }}"/>
   </picture>
-  <svg  class="podcast-icon" width="48%" height="48%" viewBox="0 0 448 512">
-    <use data-target="podcast.icon" xlink:href="#icon-play" />
-  </svg>
+  <div class="podcast-cover-circle">
+    <svg class="podcast-cover-icon podcast-cover-icon_play" data-target="podcast.icon" width="48%" height="48%" viewBox="0 0 448 512">
+      <use xlink:href="#icon-play" />
+    </svg>
+  </div>
   {{ partial "podcast-progress" }}
 </button>
