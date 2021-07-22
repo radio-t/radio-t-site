@@ -1,5 +1,5 @@
 <!-- create small cover -->
-{{ $cover := .Params.image | default "images/cover.jpg" }}
+{{ $cover := .Params.image | default "images/cover-default.jpg" }}
 {{ $cover = resources.Get $cover }}
 {{ $cover130 := $cover.Resize "x130 jpg" }}
 {{ $coverWebp130 := $cover.Resize "x130 webp" }}
