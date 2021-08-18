@@ -8,9 +8,9 @@ title = "Радио-Т Подкаст"
 
 paginate = 15
 paginatePath = "page"
-
+pygmentsUseClasses = true
 publishdir = "public"
-ignoreFiles = ["\\.xml$"]
+ignoreFiles = [ "\\.xml$"]
 
 [author]
   name = "radio-t"
@@ -38,3 +38,6 @@ ignoreFiles = ["\\.xml$"]
 
 [blackfriday]
   extensions = ["hardLineBreak"]
+
+[markup.goldmark.renderer]
+  unsafe = true
