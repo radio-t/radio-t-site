@@ -9,7 +9,7 @@ filename = "rt_podcast770"
 ![](https://radio-t.com/images/radio-t/rt770.jpg)
 
 - [Apple сдала назад, мы победили (пока)](https://www.macrumors.com/2021/09/03/apple-delaying-rollout-of-child-safety-features/) - *00:01:36*.
-- [Docker Desctop стал немного платным](https://www.docker.com/blog/updating-product-subscriptions/) - *00:15:37*.
+- [Docker Desktop стал немного платным](https://www.docker.com/blog/updating-product-subscriptions/) - *00:15:37*.
 - [Lima: Альтернатива Docker for Mac](https://medium.com/nttlabs/containerd-and-lima-39e0b64d2a59) - *00:33:15*.
 - [Прочие альтернативы Docker Desktop](https://matt-rickard.com/docker-desktop-alternatives/) - *00:36:05*.
 - [AWS сделал как Redis, но MemoryDB](https://www.zdnet.com/article/aws-introduces-amazon-memorydb-for-redis/) - *00:45:35*.
