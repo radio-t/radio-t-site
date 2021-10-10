@@ -9,7 +9,7 @@ filename = "rt_podcast775"
 ![](https://radio-t.com/images/radio-t/rt775.jpg)
 
 - [Произошёл глобальный сбой в работе Facebook](https://habr.com/ru/news/t/581506/) - *00:01:31*.
-- [Facebook упал ее раз](https://www.theverge.com/2021/10/8/22716860/facebook-instagram-outage-issues) - *00:15:29*.
+- [Facebook упал еще раз](https://www.theverge.com/2021/10/8/22716860/facebook-instagram-outage-issues) - *00:15:29*.
 - [Уникальная защита SSH](https://www.techrepublic.com/article/a-unique-method-of-securing-ssh/) - *00:21:42*.
 - [Python 3.10.0 | Python.org](https://www.python.org/downloads/release/python-3100/) - *00:33:10*.
 - [20 премудростей от опытного программиста](https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/) - *01:07:54*.
