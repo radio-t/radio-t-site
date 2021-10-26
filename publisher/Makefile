@@ -18,7 +18,7 @@ new-episode:
 
 # generate new prep post markdown file and open it using SublimeText 
 new-prep:
-	@docker-compose run --rm --entrypoint /bin/sh publisher scripts/make_new_prep.sh | tee ${TMPFILE};
+	@docker compose run --rm --entrypoint /bin/sh publisher scripts/make_new_prep.sh | tee ${TMPFILE};
 	@${subl} ${makefile_dir}/../hugo/`tail -n 1 ${TMPFILE} | tr -d '\r'`;
 
 # print url to last podcast episode on https://radio-t.com
