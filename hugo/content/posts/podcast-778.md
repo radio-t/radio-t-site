@@ -8,7 +8,7 @@ filename = "rt_podcast778"
 
 ![](https://radio-t.com/images/radio-t/rt778.jpg)
 
-- [Facebook назвлся Meta](https://www.theverge.com/22749919/mark-zuckerberg-facebook-meta-company-rebrand?utm_campaign=theverge) - *00:02:46*.
+- [Facebook назвался Meta](https://www.theverge.com/22749919/mark-zuckerberg-facebook-meta-company-rebrand?utm_campaign=theverge) - *00:02:46*.
 - [Facebook Project Cambria](https://www.theverge.com/2021/10/28/22749008/facebook-oculus-project-cambria-pro-vr-ar-headset) - *00:17:29*.
 - [Copilot и в IDEA](https://github.com/github/copilot-docs/tree/main/docs) - *00:23:45*.
 - [Copilot пролез в 30% кода](https://www.axios.com/copilot-artificial-intelligence-coding-github-9a202f40-9af7-4786-9dcb-b678683b360f.html) - *00:31:36*.
