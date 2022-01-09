@@ -9,6 +9,7 @@ filename = "rt_podcast788"
 ![](https://radio-t.com/images/radio-t/rt788.jpg)
 
 - [Странное с faker](https://news.ycombinator.com/item?id=29837473) - *00:06:13*.
+- [Почему я уволился из Amazon уже через 10 месяцев](https://news.ycombinator.com/item?id=29813261) - *00:20:13*.
 - [DoorDash пошлет всех в поле](https://www.marketwatch.com/story/doordash-will-require-all-workers-to-deliver-goods-or-perform-other-gigs-and-some-of-them-arent-happy-11640300491) - *00:33:43*.
 - [Что такое web3](https://moxie.org/2022/01/07/web3-first-impressions.html) - *00:56:25*.
 - [Все иначе с web3](https://www.reddit.com/r/ethereum/comments/ryk3it/my_first_impressions_of_web3/hrrz15r/) - *01:08:04*.
