@@ -222,9 +222,9 @@ $jumbotron-arc-width: 120%;
 }
 .jumbotron-logo {
   position: absolute;
-  width: 125px;
+  width: 110px;
   max-width: 15vw;
-  bottom: 4px;
+  bottom: 0;
   left: 50%;
   margin-bottom: -($jumbotron-arc-height / 2); // bottom of arc
 }
@@ -234,7 +234,7 @@ $jumbotron-arc-width: 120%;
   left: -50%;
   margin-bottom: -50%;
   padding-bottom: 100%;
-  background: url('../images/xmas-logo-icon.svg') center no-repeat;
+  background: url('../images/logo-icon.svg') center no-repeat;
   background-size: contain;
 }
 .banner-online {
@@ -297,7 +297,7 @@ $jumbotron-arc-width: 120%;
 }
 .footer-logo-img {
   @include logo-size(5rem);
-  background: url('../images/xmas-logo#{$theme-suffix}.svg') no-repeat;
+  background: url('../images/logo#{$theme-suffix}.svg') no-repeat;
   background-size: contain;
 }
 .number-title {
