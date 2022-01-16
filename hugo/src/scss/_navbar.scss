@@ -71,7 +71,7 @@
   display: inline-block;
   margin: 0;
   @include logo-size(110px);
-  background: transparent url('../images/xmas-logo#{$theme-suffix}.svg') no-repeat center;
+  background: transparent url('../images/logo#{$theme-suffix}.svg') no-repeat center;
   background-size: contain;
   transition: transform 75ms;
   &:active {
