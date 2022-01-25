@@ -8,7 +8,7 @@ filename = "rt_podcast790"
 
 ![](https://radio-t.com/images/radio-t/rt790.jpg)
 
-- [G Suite передумали по вечное](https://9to5google.com/2022/01/19/g-suite-legacy-free-edition/) - *00:02:56*.
+- [G Suite передумали про вечное](https://9to5google.com/2022/01/19/g-suite-legacy-free-edition/) - *00:02:56*.
 - [Curl добавит JSON](https://curl.se/mail/archive-2022-01/0043.html) - *00:30:55*.
 - [Так мы инженеры, или нет?](https://www.hillelwayne.com/post/are-we-really-engineers/) - *00:56:29*.
 - [Темы слушателей](https://radio-t.com/p/2022/01/18/prep-790/) - *01:41:43*.
