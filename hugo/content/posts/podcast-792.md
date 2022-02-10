@@ -8,8 +8,8 @@ filename = "rt_podcast792"
 
 ![](https://radio-t.com/images/radio-t/rt792.jpg)
 
-- [Автор FSNotes в студии](https://fsnot.es) - *00:03:00**
-- [Еще один гость пор DDD, но с подарками](https://www.amazon.com/Learning-Domain-Driven-Design-Aligning-Architecture/dp/1098100131) - *00:45:00**
+- [Автор FSNotes в студии](https://fsnot.es) - *00:03:00*.
+- [Еще один гость про DDD, но с подарками](https://www.amazon.com/Learning-Domain-Driven-Design-Aligning-Architecture/dp/1098100131) - *00:45:00*.
 - [Выходим за рамки тестового покрытия](https://habr.com/ru/company/otus/blog/649617/) - *01:20:24*.
 - [О подходах к изучению программирования](https://habr.com/ru/post/649187/) - *01:43:56*.
 - [Тело в GET requests](https://evertpot.com/get-request-bodies/) - *02:05:27*.
