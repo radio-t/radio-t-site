@@ -18,7 +18,8 @@ filename = "rt_podcast798"
 
 
 *Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
-*[Помочь] Украине(https://blognot.co/donate/)*
+
+*[Помочь](https://blognot.co/donate/) Украине*
 
 [аудио](https://cdn.radio-t.com/rt_podcast798.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-798.html)
 <audio src="https://cdn.radio-t.com/rt_podcast798.mp3" preload="none"></audio>
