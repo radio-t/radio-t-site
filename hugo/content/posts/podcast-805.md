@@ -14,7 +14,6 @@ filename = "rt_podcast805"
 - [Лучший язык чтоб изучить в 2022](https://torquemag.io/2022/04/best-programming-language-to-learn/) - *02:09:11*.
 - [Большой человек не захотел обратно в офис](https://www.macrumors.com/2022/05/07/apple-director-of-machine-learning-resigns/?scrolla=5eb6d68b7fedc32c19ef33b4) - *02:58:37*.
 - [Темы слушателей](https://radio-t.com/p/2022/05/04/prep-805/) - *03:11:52*.
-- Темы наших слушателей
 
 *Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
