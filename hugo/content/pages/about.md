@@ -33,7 +33,7 @@ image = "/images/studio.jpeg"
 
 Резонный вопрос. А кто, собственно авторы есть, что берут на себя смелость и наглость рассуждать на любые IT темы?
 
-Они, т.е. мы — это [Ksenks](https://twitter.com/ksenks), [Alek.sys](https://twitter.com/alek_sys), [Bobuk](https://twitter.com/bobuk), [Gray](https://twitter.com/gray_ru) и [Umputun](http://umputun.com). Связаться с нами можно напрямую, написав либо в комментарии либо на [podcast@radio-t.com](mailto:podcast@radio-t.com).
+Они, т.е. мы — это [Ksenks](https://twitter.com/ksenks), [Alek.sys](https://twitter.com/alek_sys), [Bobuk](https://twitter.com/bobuk), [Gray](https://twitter.com/GrayOdesa) и [Umputun](http://umputun.com). Связаться с нами можно напрямую, написав либо в комментарии либо на [podcast@radio-t.com](mailto:podcast@radio-t.com).
 
 {{% authors %}}
 
