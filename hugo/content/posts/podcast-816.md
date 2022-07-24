@@ -17,6 +17,5 @@ filename = "rt_podcast816"
 
 *Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
-
 [аудио](https://cdn.radio-t.com/rt_podcast816.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-816.html)
 <audio src="https://cdn.radio-t.com/rt_podcast816.mp3" preload="none"></audio>
