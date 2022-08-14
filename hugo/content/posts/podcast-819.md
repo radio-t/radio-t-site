@@ -2,11 +2,11 @@
 title = "Радио-Т 819"
 date = "2022-08-13T18:08:02"
 categories = ["podcast"]
-image = "https://radio-t.com/images/radio-t/rt819.jpg"
+image = "https://radio-t.com/images/radio-t/rt819.png"
 filename = "rt_podcast819"
 +++
 
-![](https://radio-t.com/images/radio-t/rt818.jpg)
+![](https://radio-t.com/images/radio-t/rt818.png)
 
 *Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
