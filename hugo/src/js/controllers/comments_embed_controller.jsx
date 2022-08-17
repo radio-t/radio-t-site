@@ -6,18 +6,19 @@ export default class extends Controller {
   }
   initialize() {
     super.initialize();
+    window.remark_config.url = `https://radio-t.com${location.pathname}`;
+    window.remark_config.page_title = document.title;
+    window.remark_config.theme = this.theme;
+    if (window.REMARK42) {
+      window.REMARK42.destroy();
+      window.REMARK42.createInstance(window.remark_config);
+    }
   }
 
   connect() {
     super.connect();
     document.addEventListener('theme:change', this.changeTheme);
   }
-
-  render = () => {
-    window.remark_config.url = `https://radio-t.com${location.pathname}`;
-    window.remark_config.page_title = document.title;
-    window.remark_config.theme = this.theme;
-  };
 
   disconnect() {
     super.disconnect();
