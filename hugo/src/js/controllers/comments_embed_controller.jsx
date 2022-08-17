@@ -1,41 +1,31 @@
-import { h, render } from 'preact';
 import Controller from '../base_controller';
 
-import Remark from '../components/remark';
-
 export default class extends Controller {
+  get theme() {
+    return window.RADIOT_THEME === 'dark' ? 'dark' : 'light';
+  }
   initialize() {
     super.initialize();
-    this.render = this.render.bind(this);
   }
 
   connect() {
     super.connect();
-    window.remark_config = window.remark_config || {};
+    document.addEventListener('theme:change', this.changeTheme);
+  }
+
+  render = () => {
     window.remark_config.url = `https://radio-t.com${location.pathname}`;
-
-    this.render();
-    document.addEventListener('theme:change', this.render);
-  }
-
-  render() {
-    const theme = window.RADIOT_THEME === 'dark' ? 'dark' : 'light';
-
-    render(
-      <Remark
-        site_id={window.remark_config.site_id}
-        url={`https://radio-t.com${location.pathname}`}
-        page_title={window.remark_config.page_title}
-        theme={theme}
-        locale={window.remark_config.locale}
-      />,
-      this.element
-    );
-  }
+    window.remark_config.page_title = document.title;
+    window.remark_config.theme = this.theme;
+  };
 
   disconnect() {
     super.disconnect();
-    document.removeEventListener('theme:change', this.render);
-    render(null, this.element);
+    document.removeEventListener('theme:change', this.changeTheme);
+  }
+
+  changeTheme() {
+    window.remark_config.theme = this.theme;
+    window.REMARK42.changeTheme(this.theme);
   }
 }
