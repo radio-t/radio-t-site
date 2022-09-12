@@ -34,7 +34,7 @@
     document.body.prepend(container);
   }
 
-  fetch('/build/images/icons-sprite.svg')
+  fetch('/build/images/icons-sprite.svg?v=1')
     .then((r) => r.text())
     .then((data) => {
       container.innerHTML = data;
