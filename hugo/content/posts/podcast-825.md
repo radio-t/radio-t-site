@@ -8,7 +8,7 @@ filename = "rt_podcast825"
 
 ![](https://radio-t.com/images/radio-t/rt825.jpg)
 
-- [Mozilla обиделась на Apple, Google и Microsof](https://www.techradar.com/news/mozilla-claims-apple-google-and-microsoft-force-users-to-use-default-web-browsers) - *00:28:17*.
+- [Mozilla обиделась на Apple, Google и Microsoft](https://www.techradar.com/news/mozilla-claims-apple-google-and-microsoft-force-users-to-use-default-web-browsers) - *00:28:17*.
 - [Adobe показал Project Shasta](https://pages.adobe.com/shasta/) - *00:51:23*.
 - [Тонкие балансы между стабильностью и развитием](https://www.redhat.com/en/blog/balancing-if-it-aint-broke-dont-fix-it-vs-release-early-and-often) - *00:55:04*.
 - [Linux на лаптопе](https://clivethompson.medium.com/linux-on-the-laptop-works-so-damn-well-that-its-boring-29014b347941) - *01:23:44*.
