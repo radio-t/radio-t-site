@@ -13,6 +13,8 @@ RUN \
     chmod 600 /home/app/.ssh/* && \
     chmod 700 /home/app/.ssh
 
+RUN git config --global --add safe.directory /srv
+
 COPY . /srv/publisher
 WORKDIR /srv/publisher
 
