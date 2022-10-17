@@ -18,4 +18,4 @@ filename = "rt_podcast828"
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast828.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-828.html)
-<audio src="https://cdn.radio-t.com/rt_podcast.mp3" preload="none"></audio>
+<audio src="https://cdn.radio-t.com/rt_podcast828.mp3" preload="none"></audio>
