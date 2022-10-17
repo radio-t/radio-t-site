@@ -17,14 +17,11 @@ RUN \
 COPY . /srv/publisher
 WORKDIR /srv/publisher
 
-
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 USER app
 
-RUN \
-    cd /srv/publisher && \
-    git config --global --add safe.directory /srv
+RUN git config --global --add safe.directory /srv
 
 ENTRYPOINT ["invoke"]
 CMD ["--list"]
