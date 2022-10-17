@@ -13,14 +13,18 @@ RUN \
     chmod 600 /home/app/.ssh/* && \
     chmod 700 /home/app/.ssh
 
-RUN git config --global --add safe.directory /srv
 
 COPY . /srv/publisher
 WORKDIR /srv/publisher
 
+
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 USER app
+
+RUN \
+    cd /srv/publisher && \
+    git config --global --add safe.directory /srv
 
 ENTRYPOINT ["invoke"]
 CMD ["--list"]
