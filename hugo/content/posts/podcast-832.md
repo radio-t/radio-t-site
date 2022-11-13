@@ -8,7 +8,7 @@ filename = "rt_podcast832"
 
 ![](https://radio-t.com/images/radio-t/rt832.jpg)
 
-- [Продолжение разговоров про Аqua](https://www.jetbrains.com/aqua/)
+- [Продолжение разговоров про Аqua](https://www.jetbrains.com/aqua/) - *00:01:14*.
 - [Новые фонты Mona Sans и Hubot Sans](https://github.com/mona-sans) - *00:54:22*.
 - [Продолжение череды увольнений](https://about.fb.com/news/2022/11/mark-zuckerberg-layoff-message-to-employees/) - *01:05:55*.
 - [Драма вокруг FTX](https://www.reuters.com/technology/ftx-says-will-file-us-bankruptcy-latest-blow-crypto-2022-11-11/) - *01:20:26*.
