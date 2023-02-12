@@ -18,8 +18,5 @@ filename = "rt_podcast845"
 - [Подготовка к появлению альтернатив WebKit](https://www.theregister.com/2023/02/07/mozilla_google_apple_webkit/) - *01:43:57*.
 - [Темы слушателей](https://radio-t.com/p/2023/02/07/prep-845/) - *02:00:11*.
 
-*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
-
-
 [аудио](https://cdn.radio-t.com/rt_podcast845.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-845.html)
 <audio src="https://cdn.radio-t.com/rt_podcast845.mp3" preload="none"></audio>
