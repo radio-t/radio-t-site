@@ -14,7 +14,7 @@ filename = "rt_podcast849"
 - [Главный банк хайтека SVB обвалился](https://www.cnbc.com/2023/03/10/silicon-valley-bank-collapse-how-it-happened.html) - *00:44:59*.
 - [MacBook Air 15 на подходе](https://www.tomsguide.com/news/macbook-air-15-inch-everything-we-know-so-far) - *01:12:47*.
 - [GitHub 2FA будет обязательным и скоро](https://github.blog/2023-03-09-raising-the-bar-for-software-security-github-2fa-begins-march-13/) - *01:26:42*.
-- [Темы слушателей(https://radio-t.com/p/2023/03/07/prep-849/) - *01:35:14*.
+- [Темы слушателей](https://radio-t.com/p/2023/03/07/prep-849/) - *01:35:14*.
 
 [аудио](https://cdn.radio-t.com/rt_podcast849.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-849.html)
 <audio src="https://cdn.radio-t.com/rt_podcast849.mp3" preload="none"></audio>
