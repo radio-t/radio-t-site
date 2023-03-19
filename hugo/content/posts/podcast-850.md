@@ -13,7 +13,7 @@ filename = "rt_podcast850"
 - [Работникам меты надо искать себе занятие](https://archive.ph/maka7) - *00:49:23*.
 - [Докер пригрозил сломать весь мир](https://blog.alexellis.io/docker-is-deleting-open-source-images/) - *01:00:20*.
 - [Докер передумал ломать весь мир](https://www.docker.com/blog/we-apologize-we-did-a-terrible-job-announcing-the-end-of-docker-free-teams/) - *01:03:06*.
-- [Zed - шустрый, но незамысловатый редактор](https://www.zed.dev/) - *01:21:55*.
+- [Zed - шустрый, но незамысловатый редактор](https://zed.dev/) - *01:21:55*.
 - [Вечный вопрос о переписывании и повторении кода](https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and) - *01:34:00*.
 - [Темы слушателей](https://radio-t.com/p/2023/03/14/prep-850/) - *02:14:22*.
 
