@@ -18,8 +18,5 @@ filename = "rt_podcast851"
 - [Java 20](https://mail.openjdk.org/pipermail/jdk-dev/2023-March/007517.html) - *01:49:58*.
 - [Темы слушателей](https://radio-t.com/p/2023/03/21/prep-851/) - *01:54:25*.
 
-*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
-
-
 [аудио](https://cdn.radio-t.com/rt_podcast851.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-851.html)
 <audio src="https://cdn.radio-t.com/rt_podcast851.mp3" preload="none"></audio>
