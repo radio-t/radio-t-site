@@ -16,8 +16,5 @@ filename = "rt_podcast859"
 - [Что-то пошло не так с обещаниями](https://crnkovic.dev/testing-converso/) - *01:23:37*.
 - [Темы слушателей](https://radio-t.com/p/2023/05/18/prep-859/) - *01:40:12*.
 
-*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
-
-
 [аудио](https://cdn.radio-t.com/rt_podcast859.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-859.html)
 <audio src="https://cdn.radio-t.com/rt_podcast859.mp3" preload="none"></audio>
