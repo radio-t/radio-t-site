@@ -13,6 +13,8 @@ filename = "rt_podcast861"
 - [fq - как jq но для бинарных данных](https://github.com/wader/fq/blob/master/README.md) - *00:38:21*.
 - [Опять про DI](https://martinfowler.com/articles/dependency-composition.html) - *00:43:39*.
 - [Angry Miao HATSU Wireless Split Ergonomic Keyboard](https://drop.com/buy/angry-miao-hatsu-wireless-ergonomic-split-ergo-keyboard?referer=YXXZ8A) - *01:05:13*.
+- Темы наших слушателей
+
 
 [аудио](https://cdn.radio-t.com/rt_podcast861.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-861.html)
 <audio src="https://cdn.radio-t.com/rt_podcast861.mp3" preload="none"></audio>
