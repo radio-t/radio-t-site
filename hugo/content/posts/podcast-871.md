@@ -13,7 +13,8 @@ filename = "rt_podcast871"
 - [Новинки в Go 1.21](https://go.dev/doc/go1.21) - *00:32:02*.
 - [80% руководителей уже жалеют](https://www.cnbc.com/2023/08/11/80percent-of-bosses-say-they-regret-earlier-return-to-office-plans.html) - *00:52:58*.
 - [Slack радикально обновился](https://www.theverge.com/2023/8/9/23824562/slack-redesign-app-dms-activity-later) - *01:18:17*.
-- Темы наших слушателей
+- [Новая Web IDE от Google](https://developers.googleblog.com/2023/08/introducing-project-idx-experiment-to-improve-full-stack-multiplatform-app-development.html) - *01:32:58*.
+- [Темы наших слушателей](https://radio-t.com/p/2023/08/08/prep-871/) - *01:46:01*.
 
 [аудио](https://cdn.radio-t.com/rt_podcast871.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-871.html)
 <audio src="https://cdn.radio-t.com/rt_podcast871.mp3" preload="none"></audio>
