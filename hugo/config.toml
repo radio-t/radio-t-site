@@ -40,3 +40,6 @@ ignoreFiles = [ "\\.xml$"]
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[security.funcs]
+getenv = ['^HUGO_', '^CI$', '^NODE_ENV$']
