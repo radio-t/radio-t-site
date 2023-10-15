@@ -12,7 +12,7 @@ filename = "rt_podcast879"
 - [Никогда не отвечай "нет"](https://longform.asmartbear.com/say-yes/).
 - [Microsoft-Activision сделка одобрена](https://www.theverge.com/2023/10/13/23796552/microsoft-activision-blizzard-cma-approval-uk).
 - [Все используют AI неправильно](https://botharetrue.substack.com/p/every-app-that-adds-ai-looks-like).
-- [Утчечка из 23andMe](https://www.bleepingcomputer.com/news/security/genetics-firm-23andme-says-user-data-stolen-in-credential-stuffing-attack/).
+- [Утечка из 23andMe](https://www.bleepingcomputer.com/news/security/genetics-firm-23andme-says-user-data-stolen-in-credential-stuffing-attack/).
 - [Netflix и Java ](https://www.infoq.com/news/2023/10/java-at-netflix-bakker/).
 - [ChatGPT пошел в настоящий интернет](https://www.theverge.com/2023/9/27/23892781/openai-chatgpt-live-web-results-browse-with-bing).
 - [Темы слушателей](https://radio-t.com/p/2023/10/11/prep-879/).
