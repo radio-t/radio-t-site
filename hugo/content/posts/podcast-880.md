@@ -8,10 +8,10 @@ filename = "rt_podcast880"
 
 ![](https://radio-t.com/images/radio-t/rt880.jpg)
 
-- [Така на никому не нужный jabber.ru](https://notes.valdikss.org.ru/jabber.ru-mitm/) - *00:02:02*.
+- [Атака на никому не нужный jabber.ru](https://notes.valdikss.org.ru/jabber.ru-mitm/) - *00:02:02*.
 - [Telegram все еще сливает адреса и явки](https://techcrunch.com/2023/10/19/telegram-is-still-leaking-user-ip-addresses-to-contacts/) - *00:09:41*.
 - [Первый PC со складным экраном](https://arstechnica.com/gadgets/2023/09/the-first-foldable-pc-era-is-unfolding/) - *00:14:58*.
-- [Templ – интересный способ создание web приложений на Go](https://templ.guide/) - *00:26:52*.
+- [Templ – интересный способ создания web приложений на Go](https://templ.guide/) - *00:26:52*.
 - [Почему надо писать бесполезную ерунду](https://ntietz.com/blog/write-more-useless-software/) - *00:50:36*.
 - [Не быть веб разработчиком это счастье](https://thecodist.com/i-am-happy-not-to-be-a-web-developer-anymore/) - *00:52:40*.
 - [Meta против Python](https://lerner.co.il/2023/10/19/im-banned-for-life-from-advertising-on-meta-because-i-teach-python/) - *01:04:05*.
