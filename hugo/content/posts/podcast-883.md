@@ -14,8 +14,5 @@ filename = "rt_podcast883"
 - [Вся правда о нашей работе, о которой умалчивают](https://www.mensurdurakovic.com/hard-to-swallow-truths-they-wont-tell-you-about-software-engineer-job/) - *01:36:12*.
 - [Темы слушателей](https://radio-t.com/p/2023/11/07/prep-883/) - *02:13:59*.
 
-*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
-
-
 [аудио](https://cdn.radio-t.com/rt_podcast883.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-883.html)
 <audio src="https://cdn.radio-t.com/rt_podcast883.mp3" preload="none"></audio>
