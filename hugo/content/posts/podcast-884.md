@@ -14,7 +14,7 @@ filename = "rt_podcast884"
 - [Apple добавит поддержку RCS](https://9to5mac.com/2023/11/16/apple-rcs-coming-to-iphone/) - *00:42:55*.
 - [YouTube начал борьбу с AI](https://arstechnica.com/information-technology/2023/11/youtube-will-require-creators-to-disclose-realistic-ai-generated-or-altered-content/) - *00:48:52*.
 - [Почему WAF это плохо](https://www.macchaffee.com/blog/2023/wafs/) - *00:54:53*.
-- [The Lack of Compensation in Open Source Software is Unsustainable](https://trstringer.com/oss-compensation-broken/) - *01:15:51*.
+- [Open Source нуждается в деньгах](https://trstringer.com/oss-compensation-broken/) - *01:15:51*.
 - [Microsoft Loop - как Notion, но другой](https://www.theverge.com/2023/11/15/23959801/microsoft-loop-launch-notion-competitor) - *01:24:18*.
 - [Темы слушателей](https://radio-t.com/p/2023/11/14/prep-884/) - *01:36:57*.
 
