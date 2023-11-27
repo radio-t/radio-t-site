@@ -10,7 +10,7 @@ filename = "rt_podcast882"
 
 - [Новый M3 для новых MacBook Pro](https://www.apple.com/macbook-pro/) - *00:07:49*.
 - [Свежая HHKB клавиатура](https://www.theverge.com/23929303/hhkb-studio-review-trackpoint-mx-switches) - *00:37:59*.
-- [Прелесть завешенного софта](https://josem.co/the-beauty-of-finished-software/) - *00:52:09*.
+- [Прелесть завершенного софта](https://josem.co/the-beauty-of-finished-software/) - *00:52:09*.
 - [Поговорим про Lambdalith](https://rehanvdm.com/blog/should-you-use-a-lambda-monolith-lambdalith-for-the-api) - *01:13:19*.
 - [Как долго должен работать CI](https://graphite.dev/blog/how-long-should-ci-take) - *01:41:48*.
 - [Темы слушателей](https://radio-t.com/p/2023/10/31/prep-882/) - *01:48:11*.
