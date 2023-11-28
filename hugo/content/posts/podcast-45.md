@@ -3,7 +3,7 @@ title = "Радио-T 45"
 date = "2007-07-22T03:22:00"
 categories = [ "podcast",]
 filename = "rt_podcast45"
-image = "https://radio-t.com/images/radio-t/rt45.jpg"
+image = "images/radio-t/rt45.jpg"
 
 +++
 

@@ -1,24 +1,31 @@
-<div class="podcast-cover ml-auto">
-  <a
-    class="cover-image"
-    data-target="podcast.cover"
-    href="{{ .RelPermalink }}"
-    {{ with .Params.image }}
-      style="background-image: url('{{ . }}');"
-    {{ end }}
-  >
-    <button
-      class="cover-play-button fas d-none"
-      data-target="podcast.playButton"
-      data-action="podcast#play"
-    >
-      <svg class="play-icon" width="48%" height="48%" viewBox="0 0 448 512">
-        <use xlink:href="#icon-play" />
-      </svg>
-      <svg class="pause-icon" width="48%" height="48%" viewBox="0 0 448 512">
-        <use xlink:href="#icon-pause" />
-      </svg>
-    </button>
-  </a>
+<!-- create small cover -->
+{{ $cover := .Params.image | default "images/cover-default.jpg" }}
+{{ $cover = resources.Get $cover }}
+{{ $cover130 := $cover.Resize "x130 jpg" }}
+{{ $coverWebp130 := $cover.Resize "x130 webp" }}
+{{ $cover260 := $cover.Resize "x260 jpg" }}
+{{ $coverWebp260 := $cover.Resize "x260 webp" }}
+{{ $cover520 := $cover.Resize "x520 jpg" }}
+{{ $coverWebp520 := $cover.Resize "x520 webp" }}
+
+<button
+  class="podcast-cover"
+  title="Слушать {{ .Title }}"
+  data-action="podcast#toggle"
+  data-target="podcast.playButton podcast.number podcast-progress.number"
+  data-number="{{ index (findRE `\d+$` .Title) 0 }}"
+>
+  <picture class="podcast-cover-picture">
+    <source srcset="{{ $coverWebp130.RelPermalink }} 1x, {{ $coverWebp260.RelPermalink }} 2x" media="image/webp" />
+    <source srcset="{{ $cover130.RelPermalink }} 1x, {{ $cover260.RelPermalink }} 2x" media="image/jpg" />
+    <source media="(min-width: 768px)" srcset="{{ $coverWebp260.RelPermalink }} 1x, {{ $coverWebp520.RelPermalink }} 2x" media="image/webp" />
+    <source media="(min-width: 768px)" srcset="{{ $cover260.RelPermalink }} 1x, {{ $cover520.RelPermalink }} 2x" media="image/jpg" />
+    <img data-target="podcast.cover" class="podcast-cover-image" src="{{ $cover260.RelPermalink }}"/>
+  </picture>
+  <div class="podcast-cover-circle">
+    <svg class="podcast-cover-icon podcast-cover-icon_play" data-target="podcast.icon" width="48%" height="48%" viewBox="0 0 448 512">
+      <use xlink:href="#icon-play" />
+    </svg>
+  </div>
   {{ partial "podcast-progress" }}
-</div>
+</button>

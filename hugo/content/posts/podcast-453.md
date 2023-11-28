@@ -2,12 +2,8 @@
 title = "Радио-Т 453"
 date = "2015-07-18T21:32:00"
 categories = [ "podcast",]
-image = "https://radio-t.com/images/radio-t/rt453.jpg"
 filename = "rt_podcast453"
-
 +++
-
-![](https://radio-t.com/images/radio-t/rt453.jpg)
 
 - [Почта умирает + отчёт компании Symantec](http://thenextweb.com/insider/2015/07/18/rejoice-spam-rate-hits-12-year-low/)
 - [Обращение Линуса Торвальдса к Google Mail Team](https://plus.google.com/+LinusTorvalds/posts/DiG9qANf5PA)

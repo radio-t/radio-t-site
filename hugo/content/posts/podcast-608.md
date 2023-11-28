@@ -2,12 +2,9 @@
 title = "Радио-Т 608"
 date = "2018-07-28T22:30:06"
 categories = [ "podcast",]
-image = "https://radio-t.com/images/radio-t/rt608.jpg"
 filename = "rt_podcast608"
 
 +++
-
-![](https://radio-t.com/images/radio-t/rt608.jpg)
 
 - [Конец hipcat](https://www.atlassian.com/blog/announcements/new-atlassian-slack-partnership)
 - [Почему Slack захватил рынок](https://zapier.com/blog/slack-versus-hipchat/).

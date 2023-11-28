@@ -4,3 +4,4 @@ dev/
 golayouts/
 .netlify
 .direnv/
+resources/_gen/images

@@ -2,7 +2,7 @@
 title = "Радио-Т 584"
 date = "2018-02-10T18:26:28"
 categories = [ "podcast",]
-image = "https://radio-t.com/images/radio-t/rt584.jpg"
+image = "images/radio-t/rt584.jpg"
 filename = "rt_podcast584"
 
 +++
