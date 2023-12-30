@@ -14,7 +14,7 @@ COPY ./hugo/layouts /app/layouts/
 RUN npm run build
 
 
-FROM alpine:3.8
+FROM alpine:3.18
 
 RUN \
     apk add --update --no-cache tzdata curl openssl git openssh-client python3 ca-certificates && \
