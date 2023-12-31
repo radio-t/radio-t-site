@@ -1,11 +1,16 @@
 package cmd
 
 import (
+	"embed"
 	"fmt"
-	"path"
+	"time"
 
+	"github.com/bogem/id3v2"
 	log "github.com/go-pkgz/lgr"
 )
+
+//go:embed artifacts/*
+var artifactsFS embed.FS
 
 // Upload handles podcast upload to all destination
 type Upload struct {
@@ -14,28 +19,49 @@ type Upload struct {
 }
 
 // Do runs uploads for given episode
-// panics on error
-func (u *Upload) Do(episodeNum int) {
+func (u *Upload) Do(episodeNum int) error {
 	mp3file := fmt.Sprintf("%s/rt_podcast%d/rt_podcast%d.mp3", u.Location, episodeNum, episodeNum)
 
+	err := u.setMp3Tags(episodeNum)
+	if err != nil {
+		log.Printf("[WARN] can't set mp3 tags for %s, %v", mp3file, err)
+	}
+
+	u.Run("spot", "-e mp3:"+mp3file, `--task="deploy to master`, "-v", mp3file)
+	u.Run("spot", "-e mp3:"+mp3file, `--task="deploy to nodes"`, "-v", mp3file)
+	return nil
+}
+
+// setMp3Tags sets mp3 tags for given episode. It uses artifactsFS to read cover.jpg
+func (u *Upload) setMp3Tags(episodeNum int) error {
+	mp3file := fmt.Sprintf("%s/rt_podcast%d/rt_podcast%d.mp3", u.Location, episodeNum, episodeNum)
 	log.Printf("[INFO] set mp3 tags for %s", mp3file)
-	u.Run("mp3tags set-tags %d", episodeNum)
 
-	log.Printf("[INFO] upload %s to master.radio-t.com", mp3file)
-	u.Run("scp %s umputun@master.radio-t.com:/srv/master-node/var/media/%s", mp3file, path.Base(mp3file))
+	tag, err := id3v2.Open(mp3file, id3v2.Options{Parse: true})
+	if err != nil {
+		return fmt.Errorf("can't open mp3 file %s, %w", mp3file, err)
+	}
+	defer tag.Close()
 
-	log.Printf("[INFO] set permission for %s on master.radio-t.com", mp3file)
-	u.Run(`ssh umputun@master.radio-t.com "chmod 644 /data/archive/radio-t/media/%s"`, path.Base(mp3file))
+	tag.SetTitle(fmt.Sprintf("Радио-Т %d", episodeNum))
+	tag.SetArtist("Umputun, Bobuk, Gray, Ksenks, Alek.sys")
+	tag.SetAlbum("Радио-Т")
+	tag.SetYear(fmt.Sprintf("%d", time.Now().Year()))
+	tag.SetGenre("Podcast")
 
-	log.Printf("[INFO] remove old media files")
-	u.Run(`ssh umputun@master.radio-t.com "find /srv/master-node/var/media -type f -mtime +60 -mtime -1200 -exec rm -vf '{}' ';'"`)
+	artwork, err := artifactsFS.ReadFile("artifacts/cover.png")
+	if err != nil {
+		return fmt.Errorf("can't read cover.jpg from artifacts, %w", err)
+	}
 
-	log.Printf("[INFO] run ansible tasks")
-	u.Run(`ssh umputun@master.radio-t.com "docker exec -i ansible /srv/deploy_radiot.sh %d"`, episodeNum)
+	pic := id3v2.PictureFrame{
+		Encoding:    id3v2.EncodingUTF8,
+		MimeType:    "image/png",
+		PictureType: id3v2.PTFrontCover,
+		Description: "Front Cover",
+		Picture:     artwork,
+	}
+	tag.AddAttachedPicture(pic)
 
-	log.Printf("[INFO] copy to hp-usrv archives")
-	u.Run(`scp -P 2222 %s umputun@192.168.1.24:/data/archive.rucast.net/radio-t/media/"`, mp3file)
-
-	log.Printf("[INFO] upload to archive site")
-	u.Run(`scp %s umputun@master.radio-t.com:/data/archive/radio-t/media/%s`, mp3file, path.Base(mp3file))
+	return tag.Save()
 }

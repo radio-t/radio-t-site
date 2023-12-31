@@ -1,20 +1,24 @@
 FROM umputun/baseimage:buildgo-latest as build
 
-ARG REV
-ADD app /build
-WORKDIR  /build
+ARG GIT_BRANCH
+ARG GITHUB_SHA
+ARG CI
+ENV GOFLAGS="-mod=vendor"
 
-RUN go test -mod=vendor ./...
-RUN echo "version=${REV}"
-RUN CGO_ENABLED=0 GOOS=linux go build -mod=vendor -o /target/publisher -ldflags "-X main.revision=${REV}"
+ADD . /build
+
+RUN cd /build/app && go test ./...
+RUN \
+    if [ -z "$CI" ] ; then \
+    echo "runs outside of CI" && version=$(git rev-parse --abbrev-ref HEAD)-$(git log -1 --format=%h)-$(date +%Y%m%dT%H:%M:%S); \
+    else version=${GIT_BRANCH}-${GITHUB_SHA:0:7}-$(date +%Y%m%dT%H:%M:%S); fi && \
+    echo "version=$version" && \
+    cd  /build/app && go build -o /build/bin/publisher -ldflags "-X main.revision=${version} -s -w" &&\
+    ls -la /build/bin/publisher
+
 
 
 FROM umputun/baseimage:app-latest
-
-RUN \
-    apk add --no-cache --update python3 py-pip git && \
-    rm -rf /var/cache/apk/* && \
-    pip3 install --upgrade pip
 
 RUN \
     apk add --update openssh-client && \
@@ -24,15 +28,16 @@ RUN \
     chmod 600 /home/app/.ssh/* && \
     chmod 700 /home/app/.ssh
 
-COPY --from=build /target/publisher /usr/local/bin/publisher
-COPY . /srv/publisher
-RUN chmod 600 /srv/publisher/mp3tags/cmd.py && \
-    ln -s /srv/publisher/mp3tags/cmd.py /usr/local/bin/mp3tags
+RUN \
+    wget https://github.com/umputun/spot/releases/download/v1.12.0/spot_v1.12.0_linux_amd64.apk && \
+    ls -la spot_v1.12.0_linux_amd64.apk && \
+    apk add --allow-untrusted  spot_v1.12.0_linux_amd64.apk && \
+    rm spot_v1.12.0_linux_amd64.apk && \
+    spot --version
+
+COPY --from=build  /build/bin/publisher /usr/local/bin/publisher
 
 WORKDIR /srv/hugo
-
-RUN pip3 install --no-cache-dir -r /srv/publisher/mp3tags/requirements.txt
-
 USER app
 
 ENTRYPOINT ["/usr/local/bin/publisher"]

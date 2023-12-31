@@ -34,7 +34,7 @@ var opts struct {
 		NewsAPI    string `long:"news" env:"NEWS" default:"https://news.radio-t.com/api/v1/news" description:"news API url"`
 		NewsHrs    int    `long:"news-hrs" env:"NEWS_HRS" default:"12" description:"news duration in hours"`
 		NewsPasswd string `long:"news-passwd" env:"NEWS_PASSWD" required:"true" description:"news api admin passwd"`
-	} `command:"deploy" description:"make new prep podcast post"`
+	} `command:"deploy" description:"deploy podcast to site"`
 
 	Episode int  `short:"e" long:"episode" default:"-1" description:"episode number"`
 	Dry     bool `long:"dry" description:"dry run"`

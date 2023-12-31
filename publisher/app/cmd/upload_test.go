@@ -1,8 +1,13 @@
 package cmd
 
 import (
+	"fmt"
+	"io"
+	"os"
 	"testing"
+	"time"
 
+	"github.com/bogem/id3v2"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
@@ -11,7 +16,7 @@ import (
 
 func TestUpload_Do(t *testing.T) {
 	ex := &mocks.ExecutorMock{
-		RunFunc: func(cmd string, params ...interface{}) {},
+		RunFunc: func(cmd string, params ...string) {},
 	}
 
 	d := Upload{
@@ -19,27 +24,46 @@ func TestUpload_Do(t *testing.T) {
 		Location: "/tmp",
 	}
 
-	d.Do(123)
-	require.Equal(t, 7, len(ex.RunCalls()))
-	assert.Equal(t, "mp3tags set-tags %d", ex.RunCalls()[0].Cmd)
-	assert.Equal(t, []any{123}, ex.RunCalls()[0].Params)
+	err := d.Do(123)
+	require.NoError(t, err)
 
-	assert.Equal(t, "scp %s umputun@master.radio-t.com:/srv/master-node/var/media/%s", ex.RunCalls()[1].Cmd)
-	assert.Equal(t, 2, len(ex.RunCalls()[1].Params))
-	assert.Equal(t, []any{"/tmp/rt_podcast123/rt_podcast123.mp3", "rt_podcast123.mp3"}, ex.RunCalls()[1].Params)
+	require.Equal(t, 2, len(ex.RunCalls()))
+	assert.Equal(t, "spot", ex.RunCalls()[0].Cmd)
+	assert.Equal(t, []string{"-e mp3:/tmp/rt_podcast123/rt_podcast123.mp3", "--task=\"deploy to master", "-v", "/tmp/rt_podcast123/rt_podcast123.mp3"}, ex.RunCalls()[0].Params)
 
-	assert.Equal(t, `ssh umputun@master.radio-t.com "chmod 644 /data/archive/radio-t/media/%s"`, ex.RunCalls()[2].Cmd)
-	assert.Equal(t, []any{"rt_podcast123.mp3"}, ex.RunCalls()[2].Params)
+	assert.Equal(t, "spot", ex.RunCalls()[1].Cmd)
+	assert.Equal(t, 4, len(ex.RunCalls()[1].Params))
+	assert.Equal(t, []string{"-e mp3:/tmp/rt_podcast123/rt_podcast123.mp3", "--task=\"deploy to nodes\"", "-v", "/tmp/rt_podcast123/rt_podcast123.mp3"}, ex.RunCalls()[1].Params)
+}
 
-	assert.Equal(t, `ssh umputun@master.radio-t.com "find /srv/master-node/var/media -type f -mtime +60 -mtime -1200 -exec rm -vf '{}' ';'"`, ex.RunCalls()[3].Cmd)
-	assert.Equal(t, 0, len(ex.RunCalls()[3].Params))
+func TestUpload_setMp3Tags(t *testing.T) {
+	tempDir, err := os.MkdirTemp("", "tags")
+	require.NoError(t, err)
+	defer os.RemoveAll(tempDir)
 
-	assert.Equal(t, `ssh umputun@master.radio-t.com "docker exec -i ansible /srv/deploy_radiot.sh %d"`, ex.RunCalls()[4].Cmd)
-	assert.Equal(t, []any{123}, ex.RunCalls()[4].Params)
+	dest := tempDir + "/rt_podcast123"
+	err = os.MkdirAll(dest, 0o755)
+	require.NoError(t, err)
 
-	assert.Equal(t, `scp -P 2222 %s umputun@192.168.1.24:/data/archive.rucast.net/radio-t/media/"`, ex.RunCalls()[5].Cmd)
-	assert.Equal(t, []any{"/tmp/rt_podcast123/rt_podcast123.mp3"}, ex.RunCalls()[5].Params)
+	// copy test file to dest
+	src, err := os.Open("testdata/test.mp3")
+	require.NoError(t, err)
+	defer src.Close()
+	dst, err := os.Create(dest + "/rt_podcast123.mp3")
+	require.NoError(t, err)
+	defer dst.Close()
+	_, err = io.Copy(dst, src)
+	require.NoError(t, err)
 
-	assert.Equal(t, `scp %s umputun@master.radio-t.com:/data/archive/radio-t/media/%s`, ex.RunCalls()[6].Cmd)
-	assert.Equal(t, []any{"/tmp/rt_podcast123/rt_podcast123.mp3", "rt_podcast123.mp3"}, ex.RunCalls()[6].Params)
+	u := Upload{Location: tempDir}
+	err = u.setMp3Tags(123)
+	require.NoError(t, err)
+
+	tag, err := id3v2.Open(dst.Name(), id3v2.Options{Parse: true})
+	require.NoError(t, err)
+	assert.Equal(t, "Радио-Т 123", tag.Title())
+	assert.Equal(t, "Umputun, Bobuk, Gray, Ksenks, Alek.sys", tag.Artist())
+	assert.Equal(t, "Радио-Т", tag.Album())
+	assert.Equal(t, fmt.Sprintf("%d", time.Now().Year()), tag.Year())
+	assert.Equal(t, "Podcast", tag.Genre())
 }

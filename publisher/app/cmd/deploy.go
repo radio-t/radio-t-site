@@ -3,6 +3,7 @@ package cmd
 import (
 	"fmt"
 	"net/http"
+	"strconv"
 
 	log "github.com/go-pkgz/lgr"
 	"github.com/pkg/errors"
@@ -24,13 +25,13 @@ type Deploy struct {
 // may panic on executor error
 func (d *Deploy) Do(episodeNum int) error {
 	log.Printf("[INFO] commit new episode to git")
-	d.Run("git pull && git commit -am episode %d && git push", episodeNum)
+	d.Run("git pull && git commit -am episode %d && git push", strconv.Itoa(episodeNum))
 
 	log.Printf("[INFO] remote site update")
 	d.Run(`ssh umputun@master.radio-t.com "cd /srv/site.hugo && git pull && docker-compose run --rm hugo"`)
 
 	log.Printf("[INFO] create chat log")
-	d.Run(`ssh umputun@master.radio-t.com "docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num=%d --export-path=/srv/html"`, episodeNum)
+	d.Run(`ssh umputun@master.radio-t.com "docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num=%d --export-path=/srv/html"`, strconv.Itoa(episodeNum))
 
 	log.Printf("[INFO] archive news")
 	err := d.archiveNews()

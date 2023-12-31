@@ -13,7 +13,7 @@ import (
 //
 //		// make and configure a mocked cmd.Executor
 //		mockedExecutor := &ExecutorMock{
-//			RunFunc: func(cmd string, params ...interface{})  {
+//			RunFunc: func(cmd string, params ...string)  {
 //				panic("mock out the Run method")
 //			},
 //		}
@@ -24,7 +24,7 @@ import (
 //	}
 type ExecutorMock struct {
 	// RunFunc mocks the Run method.
-	RunFunc func(cmd string, params ...interface{})
+	RunFunc func(cmd string, params ...string)
 
 	// calls tracks calls to the methods.
 	calls struct {
@@ -33,20 +33,20 @@ type ExecutorMock struct {
 			// Cmd is the cmd argument value.
 			Cmd string
 			// Params is the params argument value.
-			Params []interface{}
+			Params []string
 		}
 	}
 	lockRun sync.RWMutex
 }
 
 // Run calls RunFunc.
-func (mock *ExecutorMock) Run(cmd string, params ...interface{}) {
+func (mock *ExecutorMock) Run(cmd string, params ...string) {
 	if mock.RunFunc == nil {
 		panic("ExecutorMock.RunFunc: method is nil but Executor.Run was just called")
 	}
 	callInfo := struct {
 		Cmd    string
-		Params []interface{}
+		Params []string
 	}{
 		Cmd:    cmd,
 		Params: params,
@@ -63,11 +63,11 @@ func (mock *ExecutorMock) Run(cmd string, params ...interface{}) {
 //	len(mockedExecutor.RunCalls())
 func (mock *ExecutorMock) RunCalls() []struct {
 	Cmd    string
-	Params []interface{}
+	Params []string
 } {
 	var calls []struct {
 		Cmd    string
-		Params []interface{}
+		Params []string
 	}
 	mock.lockRun.RLock()
 	calls = mock.calls.Run

@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"net/http"
 	"os/exec"
+	"strings"
 
 	log "github.com/go-pkgz/lgr"
 	"github.com/pkg/errors"
@@ -14,7 +15,7 @@ import (
 
 // Executor is a simple interface to run commands
 type Executor interface {
-	Run(cmd string, params ...interface{})
+	Run(cmd string, params ...string)
 }
 
 // LastShow get the number of the latest published podcast via site-api
@@ -51,8 +52,8 @@ type ShellExecutor struct {
 }
 
 // Run makes the final command in printf style and panic on error
-func (c *ShellExecutor) Run(cmd string, params ...interface{}) {
-	command := fmt.Sprintf(cmd, params...)
+func (c *ShellExecutor) Run(cmd string, params ...string) {
+	command := fmt.Sprintf(cmd, strings.Join(params, " "))
 	if err := c.do(command); err != nil {
 		log.Fatalf("[ERROR] %v", err)
 	}

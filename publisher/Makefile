@@ -14,7 +14,7 @@ GITREV=$(shell git describe --abbrev=7 --always --tags)
 REV=$(GITREV)-$(BRANCH)-$(shell date +%Y%m%d-%H:%M:%S)
 
 help:
-	@echo 'Avalable commands: new, prep, print-mp3-tags, upload-mp3, deploy'
+	@echo 'Available commands: new, prep, print-mp3-tags, upload-mp3, deploy'
 
 
 # generate new episode post markdown file and open it using SublimeText 
