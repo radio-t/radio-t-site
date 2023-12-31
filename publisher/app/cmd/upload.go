@@ -16,7 +16,7 @@ import (
 //go:embed artifacts/*
 var artifactsFS embed.FS
 
-// Upload handles podcast upload to all destinations. It uses spot to deploy and set mp3 tags before deploy
+// Upload handles podcast upload to all destinations. It sets mp3 tags first and then deploys to master and nodes via spot tool.
 type Upload struct {
 	Executor
 	LocationMp3   string
@@ -24,7 +24,13 @@ type Upload struct {
 	Dry           bool
 }
 
-// Do runs uploads for given episode
+// Do uploads an episode to all destinations. It takes an episode number as input and returns an error if any of the actions fail.
+// It performs the following actions:
+//  1. Set mp3 tags.
+//  2. Deploy to master.
+//  3. Deploy to nodes.
+//
+// deploy performed by spot tool, see spot.yml
 func (u *Upload) Do(episodeNum int) error {
 	log.Printf("[INFO] upload episode %d, mp3 location:%q, posts location:%q", episodeNum, u.LocationMp3, u.LocationPosts)
 	mp3file := fmt.Sprintf("%s/rt_podcast%d/rt_podcast%d.mp3", u.LocationMp3, episodeNum, episodeNum)
@@ -58,7 +64,8 @@ type chapter struct {
 	Begin time.Duration
 }
 
-// setMp3Tags sets mp3 tags for given episode. It uses artifactsFS to read cover.jpg
+// setMp3Tags sets mp3 tags for a given episode. It uses artifactsFS to read cover.jpg
+// and uses the chapter information to set the chapter tags.
 func (u *Upload) setMp3Tags(episodeNum int, chapters []chapter) error {
 	mp3file := fmt.Sprintf("%s/rt_podcast%d/rt_podcast%d.mp3", u.LocationMp3, episodeNum, episodeNum)
 	log.Printf("[INFO] set mp3 tags for %s", mp3file)
@@ -121,7 +128,7 @@ func (u *Upload) setMp3Tags(episodeNum int, chapters []chapter) error {
 	return tag.Save()
 }
 
-// parseChapters parses the input content and returns a slice of chapters
+// parseChapters parses md post content and returns a list of chapters
 func (u *Upload) parseChapters(content string) ([]chapter, error) {
 	parseDuration := func(timestamp string) (time.Duration, error) {
 		parts := strings.Split(timestamp, ":")
@@ -146,8 +153,8 @@ func (u *Upload) parseChapters(content string) ([]chapter, error) {
 	}
 
 	chapters := []chapter{}
+	// - [Chapter One](http://example.com/one) - *00:01:00*.
 	chapterRegex := regexp.MustCompile(`-\s+\[(.*?)\]\((.*?)\)\s+-\s+\*(.*?)\*\.`)
-
 	matches := chapterRegex.FindAllStringSubmatch(content, -1)
 	for _, match := range matches {
 		if len(match) == 4 {

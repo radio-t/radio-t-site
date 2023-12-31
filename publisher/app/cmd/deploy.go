@@ -3,6 +3,7 @@ package cmd
 import (
 	"fmt"
 	"net/http"
+	"strings"
 
 	log "github.com/go-pkgz/lgr"
 	"github.com/pkg/errors"
@@ -20,8 +21,15 @@ type Deploy struct {
 	Dry        bool
 }
 
-// Do run deploy sequence for the given episodeNum
-// may panic on executor error
+var supers = []string{"umputun", "bobuk", "ksenks", "grayodesa"}
+
+// Do performs a series of actions to deploy a new episode.
+// It takes an episode number as input and returns an error if any of the actions fail.
+// It performs the following actions:
+//  1. Commit the new episode to git.
+//  2. Update the remote hugo site via ssh.
+//  3. Create the chat log.
+//  4. Archive the news.
 func (d *Deploy) Do(episodeNum int) error {
 	log.Printf("[INFO] commit new episode to git")
 	d.Run(fmt.Sprintf(`git pull && git commit -am "episode %d" && git push`, episodeNum))
@@ -30,7 +38,12 @@ func (d *Deploy) Do(episodeNum int) error {
 	d.Run("ssh umputun@master.radio-t.com", `cd /srv/site.hugo && git pull && docker-compose run --rm hugo`)
 
 	log.Printf("[INFO] create chat log")
-	d.Run("ssh umputun@master.radio-t.com", fmt.Sprintf(`docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayodesa --dbg --export-num=%d --export-path=/srv/html`, episodeNum))
+	slParams := []string{}
+	for _, s := range supers {
+		slParams = append(slParams, fmt.Sprintf("--super=%s", s))
+	}
+	d.Run("ssh umputun@master.radio-t.com", fmt.Sprintf(`docker exec -i super-bot /srv/telegram-rt-bot %s --dbg --export-num=%d --export-path=/srv/html`,
+		strings.Join(slParams, " "), episodeNum))
 
 	log.Printf("[INFO] archive news")
 	err := d.archiveNews()
