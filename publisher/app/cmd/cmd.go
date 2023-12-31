@@ -51,7 +51,7 @@ type ShellExecutor struct {
 
 // Run makes the final command in printf style and panic on error
 func (c *ShellExecutor) Run(cmd string, params ...string) {
-	command := fmt.Sprintf(cmd, strings.Join(params, " "))
+	command := fmt.Sprintf("%s %s", cmd, strings.Join(params, " "))
 	if err := c.do(command); err != nil {
 		log.Fatalf("[ERROR] %v", err)
 	}
@@ -59,7 +59,7 @@ func (c *ShellExecutor) Run(cmd string, params ...string) {
 
 // Do executes command and returns error if failed
 func (c *ShellExecutor) do(cmd string) error {
-	log.Printf("[DEBUG] execute %s", cmd)
+	log.Printf("[DEBUG] execute: %s", cmd)
 	if c.Dry {
 		return nil
 	}
