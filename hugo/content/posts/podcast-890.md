@@ -3,7 +3,7 @@ title = "Радио-Т 890"
 date = "2023-12-30T17:50:37"
 categories = ["podcast"]
 image = "https://radio-t.com/images/radio-t/rt890.jpg"
-filename = "rt_podcast890
+filename = "rt_podcast890"
 +++
 
 ![](https://radio-t.com/images/radio-t/rt.jpg)
