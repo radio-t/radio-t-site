@@ -38,6 +38,4 @@ func (u *Upload) Do(episodeNum int) {
 
 	log.Printf("[INFO] upload to archive site")
 	u.Run(`scp %s umputun@master.radio-t.com:/data/archive/radio-t/media/%s`, mp3file, path.Base(mp3file))
-
-	return
 }

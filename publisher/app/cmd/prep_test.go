@@ -1,7 +1,6 @@
 package cmd
 
 import (
-	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"os"
@@ -31,7 +30,7 @@ func TestPrep_MakeShow(t *testing.T) {
 	require.NoError(t, err)
 	defer os.Remove("/tmp/podcast-123.md")
 
-	b, err := ioutil.ReadFile("/tmp/podcast-123.md")
+	b, err := os.ReadFile("/tmp/podcast-123.md")
 	require.NoError(t, err)
 	exp := `+++
 title = "Радио-Т 123"
@@ -46,7 +45,6 @@ filename = "rt_podcast123"
 - blah1
 - blah2
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 [аудио](https://cdn.radio-t.com/rt_podcast123.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-123.html)
 <audio src="https://cdn.radio-t.com/rt_podcast123.mp3" preload="none"></audio>
 `
@@ -65,7 +63,7 @@ func TestPrep_MakePrep(t *testing.T) {
 	require.NoError(t, err)
 	defer os.Remove("/tmp/prep-123.md")
 
-	b, err := ioutil.ReadFile("/tmp/prep-123.md")
+	b, err := os.ReadFile("/tmp/prep-123.md")
 	require.NoError(t, err)
 	exp := `+++
 title = "Темы для 123"

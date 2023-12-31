@@ -3,9 +3,10 @@ package cmd
 import (
 	"bytes"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
+	"os"
 	"text/template"
 	"time"
 
@@ -24,7 +25,6 @@ filename = "rt_podcast{{.EpisodeNum}}"
 
 {{.News}}
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
 [аудио](https://cdn.radio-t.com/rt_podcast{{.EpisodeNum}}.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-{{.EpisodeNum}}.html)
 <audio src="https://cdn.radio-t.com/rt_podcast{{.EpisodeNum}}.mp3" preload="none"></audio>
 `
@@ -87,7 +87,7 @@ func (p *Prep) MakePrep(episodeNum int) (err error) {
 }
 
 // applyTemplate writes the applied template to outFile
-func (p *Prep) applyTemplate(outFile string, tmpl string, tp interface{}) error {
+func (p *Prep) applyTemplate(outFile, tmpl string, tp any) error {
 	t, err := template.New("tmpl").Parse(tmpl)
 	if err != nil {
 		return errors.Wrapf(err, "can't parse template")
@@ -97,10 +97,10 @@ func (p *Prep) applyTemplate(outFile string, tmpl string, tp interface{}) error 
 		return errors.Wrapf(err, "can't apply template")
 	}
 	if p.Dry {
-		log.Printf(msg.String())
+		log.Print(msg.String())
 		return nil
 	}
-	return errors.Wrapf(ioutil.WriteFile(outFile, msg.Bytes(), 0660), "can't write %s", outFile)
+	return errors.Wrapf(os.WriteFile(outFile, msg.Bytes(), 0o660), "can't write %s", outFile) //nolint
 }
 
 // lastNews gets news from news API for the lase hrs hours
@@ -113,7 +113,7 @@ func (p *Prep) lastNews(hrs int) (string, error) {
 	if resp.StatusCode != http.StatusOK {
 		return "", errors.Errorf("invalid status code %s", resp.Status)
 	}
-	b, err := ioutil.ReadAll(resp.Body)
+	b, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return "", errors.Wrap(err, "can't read news body")
 	}

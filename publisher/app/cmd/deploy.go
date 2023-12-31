@@ -8,6 +8,8 @@ import (
 	"github.com/pkg/errors"
 )
 
+//go:generate moq --out mocks/executor.go --pkg mocks --with-resets --skip-ensure . Executor
+
 // Deploy delivers site update
 type Deploy struct {
 	Executor
@@ -37,7 +39,7 @@ func (d *Deploy) Do(episodeNum int) error {
 
 // archiveNews invokes news-api like https://news.radio-t.com/api/v1/news/active/last/12
 func (d *Deploy) archiveNews() error {
-	req, err := http.NewRequest("DELETE", fmt.Sprintf("%s/active/last/%d", d.NewsAPI, d.NewsHrs), nil)
+	req, err := http.NewRequest("DELETE", fmt.Sprintf("%s/active/last/%d", d.NewsAPI, d.NewsHrs), http.NoBody)
 	if err != nil {
 		return errors.Wrap(err, "failed to prepare news archive request")
 	}

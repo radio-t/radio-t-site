@@ -8,6 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/radio-t/publisher/cmd/mocks"
 )
 
 func TestDeploy_Do(t *testing.T) {
@@ -17,10 +19,9 @@ func TestDeploy_Do(t *testing.T) {
 	}))
 	defer ts.Close()
 
-	ex := &MockExecutor{}
-	ex.On("Run", "git pull && git commit -am episode %d && git push", 123)
-	ex.On("Run", `ssh umputun@master.radio-t.com "cd /srv/site.hugo && git pull && docker-compose run --rm hugo"`)
-	ex.On("Run", `ssh umputun@master.radio-t.com "docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num=%d --export-path=/srv/html"`, 123)
+	ex := &mocks.ExecutorMock{
+		RunFunc: func(cmd string, params ...interface{}) {},
+	}
 
 	d := Deploy{
 		NewsPasswd: "passwd",
@@ -31,7 +32,14 @@ func TestDeploy_Do(t *testing.T) {
 	}
 
 	require.NoError(t, d.Do(123))
-	ex.AssertNumberOfCalls(t, "Run", 3)
+	require.Equal(t, 3, len(ex.RunCalls()))
+	assert.Equal(t, "git pull && git commit -am episode %d && git push", ex.RunCalls()[0].Cmd)
+	assert.Equal(t, []interface{}{123}, ex.RunCalls()[0].Params)
+	assert.Equal(t, `ssh umputun@master.radio-t.com "cd /srv/site.hugo && git pull && docker-compose run --rm hugo"`, ex.RunCalls()[1].Cmd)
+	assert.Equal(t, 0, len(ex.RunCalls()[1].Params))
+	assert.Equal(t, `ssh umputun@master.radio-t.com "docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayru --dbg --export-num=%d --export-path=/srv/html"`, ex.RunCalls()[2].Cmd)
+	assert.Equal(t, []interface{}{123}, ex.RunCalls()[2].Params)
+
 }
 
 func TestDeploy_archiveNews(t *testing.T) {

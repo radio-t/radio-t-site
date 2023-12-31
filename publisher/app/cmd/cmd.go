@@ -12,6 +12,7 @@ import (
 	"github.com/pkg/errors"
 )
 
+// Executor is a simple interface to run commands
 type Executor interface {
 	Run(cmd string, params ...interface{})
 }

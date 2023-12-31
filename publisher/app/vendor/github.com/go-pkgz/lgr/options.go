@@ -1,11 +1,14 @@
 package lgr
 
-import "io"
+import (
+	"io"
+	"strings"
+)
 
 // Option func type
 type Option func(l *Logger)
 
-// Out sets out writer, stdout by default
+// Out sets output writer, stdout by default
 func Out(w io.Writer) Option {
 	return func(l *Logger) {
 		l.stdout = w
@@ -73,6 +76,23 @@ func Msec(l *Logger) {
 // Useful to prevent passwords or other sensitive tokens to be logged.
 func Secret(vals ...string) Option {
 	return func(l *Logger) {
-		l.secrets = vals
+		for _, v := range vals {
+			if strings.TrimSpace(v) == "" {
+				continue // skip empty secrets
+			}
+			l.secrets = append(l.secrets, []byte(v))
+		}
 	}
+}
+
+// Map sets mapper functions to change elements of the logged message based on levels.
+func Map(m Mapper) Option {
+	return func(l *Logger) {
+		l.mapper = m
+	}
+}
+
+// StackTraceOnError turns on stack trace for ERROR level.
+func StackTraceOnError(l *Logger) {
+	l.errorDump = true
 }
