@@ -37,9 +37,9 @@ func TestUpload_Do(t *testing.T) {
 	}
 
 	d := Upload{
-		Executor:     ex,
-		LocationMp3:  tempDir,
-		LocationPost: "testdata",
+		Executor:      ex,
+		LocationMp3:   tempDir,
+		LocationPosts: "testdata",
 	}
 
 	err = d.Do(123)

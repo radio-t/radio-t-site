@@ -27,7 +27,8 @@ var opts struct {
 	} `command:"prep" description:"make new prep podcast post"`
 
 	UploadCmd struct {
-		Location string `long:"location" env:"LOCATION" default:"/Volumes/Podcasts/radio-t/" description:"podcast location"`
+		Location  string `long:"location" env:"LOCATION" default:"/Volumes/Podcasts/radio-t/" description:"podcast location"`
+		HugoPosts string `long:"hugo-posts" env:"HUGO_POSTS" default:"/srv/hugo/content/posts" description:"hugo posts location"`
 	} `command:"upload" description:"upload podcast"`
 
 	DeployCmd struct {
@@ -122,10 +123,14 @@ func runPrep(episodeNum int) {
 
 func runUpload(episodeNum int) {
 	upload := cmd.Upload{
-		Executor:    &cmd.ShellExecutor{Dry: opts.Dry},
-		LocationMp3: opts.UploadCmd.Location,
+		Executor:      &cmd.ShellExecutor{Dry: opts.Dry},
+		LocationMp3:   opts.UploadCmd.Location,
+		LocationPosts: opts.UploadCmd.HugoPosts,
+		Dry:           opts.Dry,
 	}
-	upload.Do(episodeNum)
+	if err := upload.Do(episodeNum); err != nil {
+		log.Fatalf("[ERROR] failed to upload #%d, %v", episodeNum, err)
+	}
 	log.Printf("[INFO] deployed #%d", episodeNum)
 }
 

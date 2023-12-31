@@ -19,14 +19,18 @@ var artifactsFS embed.FS
 // Upload handles podcast upload to all destinations. It uses spot to deploy and set mp3 tags before deploy
 type Upload struct {
 	Executor
-	LocationMp3  string
-	LocationPost string
+	LocationMp3   string
+	LocationPosts string
+	Dry           bool
 }
 
 // Do runs uploads for given episode
 func (u *Upload) Do(episodeNum int) error {
+	log.Printf("[INFO] upload episode %d, mp3 location:%q, posts location:%q", episodeNum, u.LocationMp3, u.LocationPosts)
 	mp3file := fmt.Sprintf("%s/rt_podcast%d/rt_podcast%d.mp3", u.LocationMp3, episodeNum, episodeNum)
-	hugoPost := fmt.Sprintf("%s/podcast-%d.md", u.LocationPost, episodeNum)
+	log.Printf("[DEBUG] mp3 file %s", mp3file)
+	hugoPost := fmt.Sprintf("%s/podcast-%d.md", u.LocationPosts, episodeNum)
+	log.Printf("[DEBUG] hugo post file %s", hugoPost)
 	posstContent, err := os.ReadFile(hugoPost)
 	if err != nil {
 		return fmt.Errorf("can't read post file %s, %w", hugoPost, err)
@@ -35,6 +39,7 @@ func (u *Upload) Do(episodeNum int) error {
 	if err != nil {
 		return fmt.Errorf("can't parse chapters from post %s, %w", hugoPost, err)
 	}
+	log.Printf("[DEBUG] chapters %v", chapters)
 
 	err = u.setMp3Tags(episodeNum, chapters)
 	if err != nil {
@@ -57,7 +62,9 @@ type chapter struct {
 func (u *Upload) setMp3Tags(episodeNum int, chapters []chapter) error {
 	mp3file := fmt.Sprintf("%s/rt_podcast%d/rt_podcast%d.mp3", u.LocationMp3, episodeNum, episodeNum)
 	log.Printf("[INFO] set mp3 tags for %s", mp3file)
-
+	if u.Dry {
+		return nil
+	}
 	tag, err := id3v2.Open(mp3file, id3v2.Options{Parse: true})
 	if err != nil {
 		return fmt.Errorf("can't open mp3 file %s, %w", mp3file, err)
