@@ -31,7 +31,7 @@ func (d *Deploy) Do(episodeNum int) error {
 	d.Run("ssh umputun@master.radio-t.com", `cd /srv/site.hugo && git pull && docker-compose run --rm hugo`)
 
 	log.Printf("[INFO] create chat log")
-	d.Run("ssh umputun@master.radio-t.com", `docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayodesa --dbg --export-num=%s --export-path=/srv/html"`, strconv.Itoa(episodeNum))
+	d.Run("ssh umputun@master.radio-t.com", `docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayodesa --dbg --export-num=%s --export-path=/srv/html`, strconv.Itoa(episodeNum))
 
 	log.Printf("[INFO] archive news")
 	err := d.archiveNews()
