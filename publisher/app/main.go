@@ -10,7 +10,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/umputun/go-flags"
 
-	"github.com/radio-t/publisher/cmd"
+	"github.com/radio-t/radio-t-site/publisher/app/cmd"
 )
 
 var opts struct {

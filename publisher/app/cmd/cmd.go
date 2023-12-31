@@ -1,7 +1,5 @@
 package cmd
 
-//go:generate mockery -inpkg -name Executor -case snake
-
 import (
 	"encoding/json"
 	"fmt"

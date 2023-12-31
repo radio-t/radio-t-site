@@ -33,13 +33,7 @@ print-mp3-tags:
 
 # set necessary tags to episode mp3 file and upload it, notifying via MacOS local notifications on every step
 upload-mp3:
-	@docker-compose run --rm publisher upload --episode="$$EPISODE" | \
-		while read line; do \
-			echo $$line; \
-			if [[ $$line =~ ^.*\[INFO\].* ]]; then \
-				${notif} -title PodPrc -message "`echo $$line`"; \
-			fi \
-		done
+	@docker-compose run --rm publisher upload --episode="$$EPISODE" --dbg
 
 # deploy new podcast episode page to https://radio-t.com
 deploy:

@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/radio-t/publisher/cmd/mocks"
+	"github.com/radio-t/radio-t-site/publisher/app/cmd/mocks"
 )
 
 func TestDeploy_Do(t *testing.T) {
