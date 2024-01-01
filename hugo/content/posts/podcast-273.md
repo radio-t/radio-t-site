@@ -15,7 +15,7 @@ image = "https://radio-t.com/images/radio-t/rt273.jpg"
 - [Megaupload](http://gizmodo.com/5877612/feds-kill-megaupload) убит властями
 - Как [Kodak](http://mashable.com/2012/01/20/kodak-digital-missteps/) дошли до банкротства
 - Что за [Футубра](http://mrmurtazin.com/2012/01/18/futubra-dobro-pozhalovat-v-konclager-ot-mejl-ru/) такая
-- [Мечта](http://www.redferret.net/?p=30493) всякого гика, совем недорого
+- [Мечта](http://www.redferret.net/?p=30493) всякого гика, совсем недорого
 - Нам [не удалят](http://www.omgubuntu.co.uk/2012/01/canonical-reverse-java-uninstall-decision/) Java, ура!
 - [Nokia Lumia 710](http://allthingsd.com/20120118/talk-is-cheap-and-reliable-on-nokias-50-phone/), красота за $50
 - Темы наших слушателей

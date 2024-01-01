@@ -20,7 +20,7 @@ filename = "rt_podcast617"
 - [Tor выпустил мобильный browser](https://venturebeat.com/2018/09/07/tor-gets-its-first-official-mobile-browser/) - *01:35:35*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast617.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-617.html)

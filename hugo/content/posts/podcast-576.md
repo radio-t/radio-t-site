@@ -20,7 +20,7 @@ filename = "rt_podcast576"
 - [Федеральное агентство по связи США отменяет правила сетевого нейтралитета](http://www.opennet.ru/opennews/art.shtml?num=47747) - *01:33:42*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast576.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-576.html)

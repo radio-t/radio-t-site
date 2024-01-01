@@ -16,7 +16,7 @@ filename = "rt_podcast423"
 * [7 радостей от микросервисов](http://eugenedvorkin.com/seven-micro-services-architecture-advantages/)
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast423.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-423.html)
 <audio src="https://cdn.radio-t.com/rt_podcast423.mp3" preload="none"></audio>

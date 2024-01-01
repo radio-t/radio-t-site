@@ -7,7 +7,7 @@ title = "Радио-Т Подкаст"
 
 paginate = 15
 paginatePath = "page"
-
+pygmentsUseClasses = true
 publishdir = "public"
 ignoreFiles = [ "\\.xml$"]
 
@@ -31,10 +31,15 @@ ignoreFiles = [ "\\.xml$"]
 
   twitter = "radio_t"
   twitterNews = "radiot_news"
-  twitterWidgetId = "351604787772534785"
 
   googlePlus = "111734605124061464121"
   remark42 = "radiot"
 
 [blackfriday]
   extensions = ["hardLineBreak"]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[security.funcs]
+getenv = ['^HUGO_', '^CI$', '^NODE_ENV$']

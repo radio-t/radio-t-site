@@ -18,7 +18,7 @@ filename = "rt_podcast676"
 - [Mirantis купил кусок Docker](https://www.mirantis.com/blog/mirantis-acquires-docker-enterprise-platform-business/) - *01:34:46*.
 - [Темы слушателей](https://radio-t.com/p/2019/11/12/prep-676/) - *01:42:34*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast676.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-676.html)

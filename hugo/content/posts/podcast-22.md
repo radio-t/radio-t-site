@@ -15,7 +15,7 @@ filename = "rt_podcast22"
 - Yahoo запустила RSS-агрегатор [Pipes](http://pipes.yahoo.com/)
 - Слухи о новой OSX, Zune Phone и Google
 - Обманутый отец
-- 10 заблужений по поводу висты
+- 10 заблуждений по поводу висты
 
 [аудио](https://cdn.radio-t.com/rt_podcast22.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast22.mp3" preload="none"></audio>

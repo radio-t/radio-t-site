@@ -1,5 +1,9 @@
-@import "boot-dark";
-@import "main";
+@import 'boot-dark';
+@import 'main';
+
+:root {
+  --chroma-bg: rgba(0, 0, 0, 0.2);
+}
 
 .page-sidebar {
   box-shadow: none;

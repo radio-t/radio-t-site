@@ -1,15 +1,18 @@
-@import "likely";
-@import "player";
-@import "navbar";
-@import "sidebar";
-@import "search";
-@import "remark";
-@import "archives";
-@import "last-comments";
+@import 'player';
+@import 'navbar';
+@import 'sidebar';
+@import 'search';
+@import 'remark';
+@import 'archives';
+@import 'last-comments';
+@import 'chroma';
+@import 'share';
 @mixin dark {
   background-color: #000;
   filter: invert(1) hue-rotate(180deg);
-  img, .cover-image, .img {
+  img,
+  .cover-image,
+  .img {
     filter: invert(1) hue-rotate(180deg);
   }
 }
@@ -42,22 +45,27 @@ html.js {
     visibility: hidden;
   }
 }
-@mixin link($selector: '&', $border: $body-color, $active-bg: $link-hover-color, $active-color: color-yiq($active-bg)) {
+@mixin link(
+  $selector: '&',
+  $border: $body-color,
+  $active-bg: $link-hover-color,
+  $active-color: color-yiq($active-bg)
+) {
   #{$selector} {
     transition: 350ms ease;
     transition-property: color, background-color, border;
     transition-delay: 25ms;
-    border-bottom: 1px solid rgba($border, .15);
+    border-bottom: 1px solid rgba($border, 0.15);
   }
   &:hover {
     #{$selector} {
       color: $active-bg;
       //color: inherit;
-      background-color: rgba($active-bg, .06);
-      text-shadow: 0 1px rgba($white, .33);
+      background-color: rgba($active-bg, 0.06);
+      text-shadow: 0 1px rgba($white, 0.33);
       transition-duration: 50ms;
       transition-delay: 0ms;
-      border-bottom-color: rgba($active-bg, .2);
+      border-bottom-color: rgba($active-bg, 0.2);
     }
     &:active {
       #{$selector} {
@@ -68,9 +76,21 @@ html.js {
     }
   }
 }
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6,
-p, .jumbotron, .text-content {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p,
+.jumbotron,
+.text-content {
   a:not(.btn):not(.nav-link) {
     @include link('&');
   }
@@ -80,16 +100,13 @@ p, .jumbotron, .text-content {
 }
 .btn-scale {
   &:active {
-    transform: scale(.98);
+    transform: scale(0.98);
   }
 }
 .btn-primary {
-  text-shadow: 0 1px 2px rgba(#000, .15);
+  text-shadow: 0 1px 2px rgba(#000, 0.15);
 }
 .text-content {
-  a:visited {
-    //color: #430093;
-  }
   p img {
     @include img-fluid;
     display: block;
@@ -105,7 +122,7 @@ p, .jumbotron, .text-content {
     //margin-right: calc((100vw - 100%) / -8);
     > code {
       display: block;
-      padding: .5rem 1rem;
+      padding: 0.5rem 1rem;
       border-radius: $border-radius;
       //max-width: 1200px;
       //margin-left: auto;
@@ -120,14 +137,36 @@ pre {
   -webkit-overflow-scrolling: touch;
 }
 .text-light {
-  color: rgba(#fff, .7) !important;
-  h1, h2, h3, h4, h5, h6,
-  .h1, .h2, .h3, .h4, .h5, .h6, a:not(.btn) {
+  color: rgba(#fff, 0.7) !important;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  a:not(.btn) {
     color: #fff;
   }
-  h1, h2, h3, h4, h5, h6,
-  .h1, .h2, .h3, .h4, .h5, .h6,
-  p, .text-content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  p,
+  .text-content {
     a:not(.btn):not(.nav-link) {
       @include link('&', #fff, #fff, $link-hover-color);
     }
@@ -136,10 +175,7 @@ pre {
 .text-uppercase {
   @include text-uppercase();
 }
-small,
-.small {
-  //font-weight: inherit;
-}
+
 .container-fluid {
   max-width: 1170px;
   @include media-breakpoint-up('sm') {
@@ -157,6 +193,7 @@ $jumbotron-arc-width: 120%;
   }
 }
 .jumbotron-btn-subscribe {
+  min-width: 200px;
   line-height: 1;
   color: $text-muted;
   &:not(:hover, :focus, :active) {
@@ -197,26 +234,26 @@ $jumbotron-arc-width: 120%;
   left: -50%;
   margin-bottom: -50%;
   padding-bottom: 100%;
-  background: url("../images/logo-icon.svg");
+  background: url('../images/logo-icon.svg') center no-repeat;
   background-size: contain;
 }
 .banner-online {
   background: $primary;
   background: repeating-radial-gradient(
-      circle at -140px,
-      darken($primary, 8%),
-      darken($primary, 8%) 20px,
-      $white 20px,
-      $white 40px
+    circle at -140px,
+    darken($primary, 8%),
+    darken($primary, 8%) 20px,
+    $white 20px,
+    $white 40px
   );
 }
 .banner-online-inner {
   background: $primary;
   background: radial-gradient(
-      circle at -140px,
-      rgba(darken($primary, 4%), .92),
-      rgba(darken($primary, 8%), .99) 70%,
-      rgba(darken($primary, 12%), 1) 100%
+    circle at -140px,
+    rgba(darken($primary, 4%), 0.92),
+    rgba(darken($primary, 8%), 0.99) 70%,
+    rgba(darken($primary, 12%), 1) 100%
   );
 }
 @include media-breakpoint-down('lg') {
@@ -255,18 +292,18 @@ $jumbotron-arc-width: 120%;
   margin: 0;
   padding: 0;
   > li {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
 }
 .footer-logo-img {
   @include logo-size(5rem);
-  background: url("../images/logo#{$theme-suffix}.svg") no-repeat;
+  background: url('../images/logo#{$theme-suffix}.svg') no-repeat;
   background-size: contain;
 }
 .number-title {
   @include font-size($h2-font-size);
-  margin-top: -.4rem;
-  margin-bottom: .32rem;
+  margin-top: -0.4rem;
+  margin-bottom: 0.32rem;
   > a {
     transition: none !important;
     border-bottom: none !important;
@@ -300,7 +337,7 @@ $jumbotron-arc-width: 120%;
 }
 .post-time {
   font-size: $smaller-font-size;
-  line-height: $line-height-base * (1/.8);
+  line-height: $line-height-base * (1/0.8);
   .comments-counter + & {
     margin-top: $topic-spacer;
   }
@@ -308,8 +345,8 @@ $jumbotron-arc-width: 120%;
 .comments-counter-avatars {
   @include responsive-font-size(2rem);
   min-height: 1px;
-  margin-top: .5em;
-  margin-bottom: .4em;
+  margin-top: 0.5em;
+  margin-bottom: 0.4em;
   margin-right: -100vw;
   display: flex;
   flex-direction: row-reverse;
@@ -321,7 +358,7 @@ $jumbotron-arc-width: 120%;
     height: 1em;
   }
   @include media-breakpoint-down('xs') {
-    margin-top: .3em;
+    margin-top: 0.3em;
   }
 }
 .comments-counter-avatars-item {
@@ -330,18 +367,18 @@ $jumbotron-arc-width: 120%;
   vertical-align: middle;
   width: 1em;
   height: 1em;
-  margin-right: -.25em;
+  margin-right: -0.25em;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  opacity: .8;
+  opacity: 0.8;
   transition: 350ms;
   transition-property: transform, opacity;
   border-radius: 50%;
   //border-radius: 6px;
   //transform: rotate(-10deg);
   .comments-counter-avatars.loaded & {
-    transform: translate3d(.15em, .15em, 0) scale(.8);
+    transform: translate3d(0.15em, 0.15em, 0) scale(0.8);
     opacity: 0;
     transition-duration: 0ms;
   }
@@ -357,13 +394,6 @@ $jumbotron-arc-width: 120%;
 // Show only first ul in podcast content in list
 .posts-list {
   .post-podcast-content {
-    > * {
-      //display: none;
-    }
-    ul:first-of-type {
-      //display: block !important;
-      //margin: 0;
-    }
     > p:last-child {
       margin-bottom: 0;
     }
@@ -376,7 +406,7 @@ $jumbotron-arc-width: 120%;
   ul:first-of-type {
     padding: 0;
     list-style: none none;
-    line-height: $line-height-base - .1;
+    line-height: $line-height-base - 0.1;
     li {
       display: flex;
       align-items: baseline;
@@ -393,34 +423,37 @@ $jumbotron-arc-width: 120%;
         flex-shrink: 0;
         width: calc((100% + 30px) / 6 - 15px);
         min-width: 5.5em;
-        &:empty { // no time labels
+        &:empty {
+          // no time labels
           &:after {
             content: '--:--:--';
-            opacity: .33;
+            opacity: 0.33;
           }
         }
-        .fas {
-          display: none;
+        i {
+          display: inline-block;
         }
         .has-audio &[data-action] {
           cursor: pointer;
           transition: transform 50ms;
           transform: translateX(0) scale(1.0001);
-          .fas {
+          svg {
             display: inline-block;
+            width: 18px;
+            height: 18px;
             opacity: 0;
-            margin-left: -(1.25em + .3em);
-            margin-right: .3em;
+            margin-left: -(1.25em + 0.3em);
+            margin-right: 0.3em;
             pointer-events: none;
-            transform: translateX(.8em);
+            transform: translateX(0.8em);
             transition-duration: 150ms;
             transition-property: transform, opacity;
           }
           &:hover {
             color: $link-hover-color;
-            transform: translateX(.05em);
-            .fas {
-              opacity: .5;
+            transform: translateX(0.05em);
+            svg {
+              opacity: 0.5;
               pointer-events: none;
               transform: translateX(0);
             }
@@ -443,7 +476,8 @@ $jumbotron-arc-width: 120%;
           width: auto;
           min-width: 0;
           font-size: $smaller-font-size;
-          &:empty { // no time labels
+          &:empty {
+            // no time labels
             &:after {
               display: none;
             }
@@ -459,24 +493,41 @@ $jumbotron-arc-width: 120%;
 }
 .podcast-cover {
   position: relative;
+  transform: scale(0.9) translateY(0);
+  transition: transform 0.1s ease-out;
+  &::before {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    z-index: 1;
+    width: 90%;
+    height: 80%;
+    content: '';
+    background-color: transparent;
+    transform: translate3d(0, -10%, 0);
+    transition-property: transform, opacity;
+    transition-timing-function: ease-out;
+    transition-duration: 0.1s;
+    box-shadow: 0 30px 60px -10px rgba(#000, 0.5);
+    opacity: 0.33;
+  }
+  .playing & {
+    transform: scale(1) translateY(-3%);
+    transition-duration: 0.25s;
+    transition-timing-function: cubic-bezier(0, 1.4, 1, 1.13);
+  }
+  .playing &::before {
+    transition-duration: 0.25s;
+    transition-timing-function: cubic-bezier(0, 1.4, 1, 1.13);
+    transform: scale(1) translateY(-10%);
+    opacity: 1;
+  }
   .post-podcast & {
     max-width: 18rem;
     @include media-breakpoint-down('sm') {
       max-width: 9rem;
     }
   }
-}
-.cover-image-shadow {
-  position: absolute;
-  z-index: 1;
-  background-color: transparent;
-  bottom: 0;
-  transform: translate3d(0, -10%, 0);
-  left: 5%;
-  width: 90%;
-  height: 80%;
-  box-shadow: 0 30px 60px -10px rgba(#000, .5);
-  opacity: .33;
 }
 .cover-image {
   display: block;
@@ -505,10 +556,10 @@ $jumbotron-arc-width: 120%;
   left: 50%;
   width: $play-button-size;
   height: $play-button-size;
-  margin-top: (- $play-button-size) / 2;
-  margin-left: (- $play-button-size) / 2;
+  margin-top: (-$play-button-size) / 2;
+  margin-left: (-$play-button-size) / 2;
   padding: 0;
-  background-color: rgba($link-hover-color, .65);
+  background-color: rgba($link-hover-color, 0.65);
   backdrop-filter: $backdrop-filter;
   border: none;
   border-radius: 50%;
@@ -517,23 +568,25 @@ $jumbotron-arc-width: 120%;
   transform: scale(1.0001);
   transition: all 150ms;
   cursor: pointer;
-  box-shadow: inset 0 0 0 2px #fff, 0 0 0 4px rgba($link-hover-color, .35);
-  &:hover, &:focus {
+  box-shadow: inset 0 0 0 2px #fff, 0 0 0 4px rgba($link-hover-color, 0.35);
+  &:hover,
+  &:focus {
     transform: scale(1.03) translate3d(0, -1px, 0);
-    background-color: rgba($link-hover-color, .95);
+    background-color: rgba($link-hover-color, 0.95);
     transition-duration: 30ms;
     outline: none;
   }
   &:active {
-    transform: scale(.95);
-    box-shadow: inset 0 0 0 1px #fff, 0 0 0 1px rgba($link-hover-color, .65);
+    transform: scale(0.95);
+    box-shadow: inset 0 0 0 1px #fff, 0 0 0 1px rgba($link-hover-color, 0.65);
   }
   .icon {
     font-size: $play-button-size / 2;
     cursor: pointer;
   }
   .play-icon {
-    margin-left: .13em;
+    margin: auto;
+    transform: translateX(10%);
   }
   .pause-icon {
     display: none;
@@ -573,7 +626,8 @@ $ripple-scale-out: 3.4;
   background-color: darken($primary, 15%);
   border: 3px solid #fff;
   border-radius: 50%;
-  animation: online-animation-dot ($online-animation-duration / 2) ease-out ($online-animation-duration / 8 - $online-animation-duration) infinite alternate;
+  animation: online-animation-dot ($online-animation-duration / 2) ease-out
+    ($online-animation-duration / 8 - $online-animation-duration) infinite alternate;
 }
 .online-animation-ripple {
   position: absolute;
@@ -585,15 +639,22 @@ $ripple-scale-out: 3.4;
   margin-top: -($dot-size / 2);
   margin-left: -($dot-size / 2);
   //border: 1px solid #fff;
-  background-image: radial-gradient(circle closest-side, rgba(#fff, 0) 0%, rgba(#fff, .5) 80%, #fff 100%);
+  background-image: radial-gradient(
+    circle closest-side,
+    rgba(#fff, 0) 0%,
+    rgba(#fff, 0.5) 80%,
+    #fff 100%
+  );
   background-repeat: no-repeat;
   border-radius: 50%;
-  animation: online-animation-ripple ($online-animation-duration * $ripples-count) linear 0s infinite;
+  animation: online-animation-ripple ($online-animation-duration * $ripples-count) linear 0s
+    infinite;
   display: none;
   @for $i from 1 through $ripples-count {
     &-#{$i} {
       display: block;
-      animation-delay: ($online-animation-duration * ($i - 1)) - ($online-animation-duration * $ripples-count);
+      animation-delay: ($online-animation-duration * ($i - 1)) -
+        ($online-animation-duration * $ripples-count);
     }
   }
 }
@@ -602,20 +663,20 @@ $ripple-scale-out: 3.4;
     transform: scale(1);
   }
   100% {
-    transform: scale(.75);
+    transform: scale(0.75);
   }
 }
 @keyframes online-animation-ripple {
   0% {
-    transform: scale(.92);
-    opacity: .6;
+    transform: scale(0.92);
+    opacity: 0.6;
   }
   15% {
-    opacity: .8;
+    opacity: 0.8;
   }
   30% {
     transform: scale($ripple-scale-out / 2);
-    opacity: .4;
+    opacity: 0.4;
   }
   100% {
     transform: scale($ripple-scale-out);
@@ -628,7 +689,7 @@ $ripple-scale-out: 3.4;
   width: 100%;
   appearance: none;
   border: 0;
-  background: $primary url("../images/logo-icon.svg") center no-repeat;
+  background: $primary url('../images/logo-icon.svg') center no-repeat;
   color: #fff;
   background-size: cover;
   margin: 0;
@@ -640,18 +701,19 @@ $ripple-scale-out: 3.4;
   .is-online & {
     background: $primary;
   }
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     transform: scale(1.03) translate3d(0, -1px, 0);
     transition-duration: 30ms;
   }
   &:active {
-    transform: scale(.98);
+    transform: scale(0.98);
   }
   .pause-icon {
     display: none;
   }
   .play-icon {
-    margin-left: .13em;
+    transform: translateX(10%);
   }
   .playing & {
     .play-icon {
@@ -690,12 +752,13 @@ $ripple-scale-out: 3.4;
   .is-online & {
     display: inline-block;
   }
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     transform: scale(1.1) translate3d(0, -1px, 0);
     transition-duration: 30ms;
   }
   &:active {
-    transform: scale(.94);
+    transform: scale(0.94);
   }
   .pause-icon {
     display: none;
@@ -709,6 +772,11 @@ $ripple-scale-out: 3.4;
     }
   }
 }
+.banner-online .banner-online-play-button {
+  width: 1em;
+  margin-right: 0.25em;
+}
+
 .online-countdown {
   @include media-breakpoint-down('sm') {
     padding-left: 0;
@@ -721,16 +789,9 @@ $ripple-scale-out: 3.4;
     }
   }
 }
-//.post-prep-title {
-//}
-.post-footer {
-}
-.post-comments {
-  //background-color: $gray-100;
-}
 .comment-policy {
-  background-color: rgba($gray-500, .15);
-  padding: .5rem 1rem;
+  background-color: rgba($gray-500, 0.15);
+  padding: 0.5rem 1rem;
   color: $text-muted;
   font-size: $small-font-size;
   border-left: 2px solid $gray-500;
@@ -766,7 +827,7 @@ $ripple-scale-out: 3.4;
   text-align: center;
   img {
     display: block;
-    margin: 0 auto .5rem;
+    margin: 0 auto 0.5rem;
     border-radius: 50%;
     width: 100%;
     max-width: 120px;
@@ -776,7 +837,7 @@ $ripple-scale-out: 3.4;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-[data-target="online.time"] {
+[data-target='online.time'] {
   cursor: default;
   user-select: none;
 }
@@ -796,7 +857,7 @@ $ripple-scale-out: 3.4;
   left: 0;
   height: 100%;
   background-color: $primary;
-  transition: width .2s ease-out;
+  transition: width 0.2s ease-out;
 }
 .podcast-progress-time {
   display: none;
@@ -807,9 +868,12 @@ $ripple-scale-out: 3.4;
   font-family: $font-family-monospace;
   font-size: 55%;
   color: $gray-700;
-  background-color: rgba($gray-300, .8);
-  padding: 0 .3em;
+  background-color: rgba($gray-300, 0.8);
+  padding: 0 0.3em;
 }
 .switch-theme-btn {
+  display: flex;
+  align-items: center;
   border-width: 0 !important;
+  box-shadow: none !important;
 }

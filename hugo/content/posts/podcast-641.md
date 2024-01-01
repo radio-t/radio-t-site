@@ -18,7 +18,7 @@ filename = "rt_podcast641"
 - [Я.Аура](https://yandex.ru/aura/promo/) - *01:31:34*.
 - [Темы слушателей](https://radio-t.com/p/2019/03/12/prep-641/) - *01:45:33*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast641.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-641.html)

@@ -19,7 +19,7 @@ filename = "rt_podcast420"
 * [10 великих достижений 2014 года](http://www.popsci.com/popular-sciences-best-whats-new-gallery)
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast420.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-420.html)
 <audio src="https://cdn.radio-t.com/rt_podcast420.mp3" preload="none"></audio>

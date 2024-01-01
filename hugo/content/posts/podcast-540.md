@@ -19,7 +19,7 @@ filename = "rt_podcast540"
 - [Лимитеры в API](https://stripe.com/blog/rate-limiters).
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast540.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-540.html)
 <audio src="https://cdn.radio-t.com/rt_podcast540.mp3" preload="none"></audio>

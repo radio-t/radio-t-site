@@ -17,7 +17,7 @@ filename = "rt_podcast539"
 - [GitLab 9.0](https://about.gitlab.com/2017/03/22/gitlab-9-0-released/) - *01:34:04*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Java-конференция JPoint](http://bit.ly/jpoint-radiot-2017)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [Vscale](http://bit.ly/radio-t_vscale) и [Java-конференция JPoint](http://bit.ly/jpoint-radiot-2017)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast539.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-539.html)
 <audio src="https://cdn.radio-t.com/rt_podcast539.mp3" preload="none"></audio>

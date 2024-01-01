@@ -19,7 +19,7 @@ filename = "rt_podcast407"
 * [Red Hat отстает?](http://www.infoworld.com/t/open-source-software/how-red-hat-can-catch-the-developer-train-249225)
 * [BitTorrent Sync теперь еще лучше](http://prsm.tc/d08ou8).
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast407.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-407.html)
 <audio src="https://cdn.radio-t.com/rt_podcast407.mp3" preload="none"></audio>

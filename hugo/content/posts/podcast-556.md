@@ -20,7 +20,7 @@ filename = "rt_podcast556"
 - [MS Paint уходит, но остается](https://blogs.windows.com/windowsexperience/2017/07/24/ms-paint-stay/) - *01:42:40*.
 - [Темы наших слушателей](https://radio-t.com/p/2017/07/26/prep-556/) - *01:47:26*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Тинькофф](http://bit.ly/tinkoff-rt2)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [Vscale](http://bit.ly/radio-t_vscale) и [Тинькофф](http://bit.ly/tinkoff-rt2)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast556.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-556.html)
 <audio src="https://cdn.radio-t.com/rt_podcast556.mp3" preload="none"></audio>

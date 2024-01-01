@@ -17,7 +17,7 @@ filename = "rt_podcast547"
 - [Групповой чат как ежедневная погоня](https://habrahabr.ru/company/alconost/blog/329422/).
 - [Темы наших слушателей](https://radio-t.com/p/2017/05/23/prep-547/).
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](http://bit.ly/2qfc9W8)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](http://bit.ly/2qfc9W8)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast547.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-547.html)
 <audio src="https://cdn.radio-t.com/rt_podcast547.mp3" preload="none"></audio>

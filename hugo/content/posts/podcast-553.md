@@ -17,7 +17,7 @@ filename = "rt_podcast553"
 - [А эту не обидишь](https://communequation.wordpress.com/2017/07/05/im-not-a-woman-in-tech/) - *01:46:35*.
 - [Темы наших слушателей](https://radio-t.com/p/2017/07/04/prep-553/) - *02:02:20*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast553.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-553.html)
 <audio src="https://cdn.radio-t.com/rt_podcast553.mp3" preload="none"></audio>

@@ -15,7 +15,7 @@ filename = "rt_podcast635"
 - [Первый стабильный выпуск Corretto 8](http://www.opennet.ru/opennews/art.shtml?num=50071) - *01:44:12*.
 - [Темы слушателей](https://radio-t.com/p/2019/01/29/prep-635/) - *01:46:12*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast635.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-635.html)

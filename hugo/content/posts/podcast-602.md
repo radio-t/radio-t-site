@@ -16,7 +16,7 @@ filename = "rt_podcast602"
 - [Неправильные code review](https://habr.com/company/badoo/blog/413965/) - *00:56:06*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast602.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-602.html)

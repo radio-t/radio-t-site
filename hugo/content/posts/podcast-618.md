@@ -20,7 +20,7 @@ filename = "rt_podcast618"
 - [Чем так плох JWT](https://developer.okta.com/blog/2017/08/17/why-jwts-suck-as-session-tokens) - *01:44:56*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast618.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-618.html)

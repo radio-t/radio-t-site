@@ -17,7 +17,7 @@ filename = "rt_podcast583"
 - [Что нового в Python 3.7](https://docs.python.org/3.7/whatsnew/3.7.html).
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast583.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-583.html)
 <audio src="https://cdn.radio-t.com/rt_podcast583.mp3" preload="none"></audio>

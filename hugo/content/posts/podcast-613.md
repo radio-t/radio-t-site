@@ -18,7 +18,7 @@ filename = "rt_podcast613"
 - [Gitpod — странное IDE для GitHub](https://medium.com/gitpod/gitpod-gitpod-online-ide-for-github-6296b907a886).
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast613.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-613.html)

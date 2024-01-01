@@ -20,7 +20,7 @@ filename = "rt_podcast501"
 - [Google повернулась на машинном обучении](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70) - *01:06:16*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast501.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-501.html)
 <audio src="https://cdn.radio-t.com/rt_podcast501.mp3" preload="none"></audio>

@@ -19,7 +19,7 @@ filename = "rt_podcast416"
 
 В гостях засланцы из дружественных подкастов [Разбор полетов](http://razbor-poletov.com) и [DevZen Podcast](http://devzen.ru)
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast416.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-416.html)
 <audio src="https://cdn.radio-t.com/rt_podcast416.mp3" preload="none"></audio>

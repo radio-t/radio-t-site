@@ -20,7 +20,7 @@ filename = "rt_podcast531"
 - [10 триллионов на DuckDuckGo](https://spreadprivacy.com/10-billion-fc7808c91343?gi=64a4e9860df5) - *01:28:36*.
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Sprinthost](https://sprintbox.ru)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Sprinthost](https://sprintbox.ru)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast531.mp3)
 <audio src="https://cdn.radio-t.com/rt_podcast531.mp3" preload="none"></audio>

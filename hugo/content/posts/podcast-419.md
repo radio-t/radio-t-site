@@ -19,7 +19,7 @@ filename = "rt_podcast419"
 * [Skynet уже через 5 лет](http://prsm.tc/XtfUMB)
 * [Чем хороши Docker Data Containers](http://prsm.tc/2Nsohw)
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast419.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-419.html)
 <audio src="https://cdn.radio-t.com/rt_podcast419.mp3" preload="none"></audio>

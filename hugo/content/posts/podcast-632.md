@@ -19,7 +19,7 @@ filename = "rt_podcast632"
 - [VLC скоро с  Airplay](https://www.slashgear.com/vlc-gets-airplay-soon-what-3-billion-downloads-mean-for-the-app-10561306/) - *01:47:00*.
 - [Темы слушателей](https://radio-t.com/p/2019/01/08/prep-632/) - *01:56:06*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast632.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-632.html)

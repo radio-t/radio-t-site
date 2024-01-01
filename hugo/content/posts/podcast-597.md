@@ -14,12 +14,12 @@ filename = "rt_podcast597"
 - [Говорящие помощники](https://www.nbcnews.com/tech/tech-news/google-now-ready-let-its-tech-do-your-talking-n872436) - *00:54:58*.
 - [Android P](https://www.theverge.com/2018/5/8/17327302/android-p-update-new-features-changes-video-google-io-2018) - *01:05:14*.
 - [Notepad стал лучше](https://blogs.msdn.microsoft.com/commandline/2018/05/08/extended-eol-in-notepad/) - *01:16:18*.
-- [Что покзали на Microsoft Build 2018](https://www.theverge.com/2018/5/8/17319908/microsoft-build-conference-2018-news-recap-highlights-windows-10) - *01:20:57*.
+- [Что показали на Microsoft Build 2018](https://www.theverge.com/2018/5/8/17319908/microsoft-build-conference-2018-news-recap-highlights-windows-10) - *01:20:57*.
 - [Amazon Aurora Backtrack](https://aws.amazon.com/blogs/aws/amazon-aurora-backtrack-turn-back-time/) - *01:47:56*.
 - [Linux программы теперь и на Chrome OS](https://techcrunch.com/2018/05/08/you-can-now-run-linux-apps-on-chrome-os/) - *01:53:46*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast597.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-597.html)

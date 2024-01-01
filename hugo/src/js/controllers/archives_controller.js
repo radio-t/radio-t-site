@@ -18,13 +18,18 @@ export default class extends Controller {
 
     this.ranges = this.listTargets.map((list) => {
       const latest = find(list.children, (post) => post.querySelector('.podcast-title-number'));
-      const earliest = findLast(list.children, (post) => post.querySelector('.podcast-title-number'));
-      return uniq([latest, earliest]).map((post) => {
-        if (post) return post.querySelector('.podcast-title-number').textContent;
-      }).filter(s => s).join(' – ');
+      const earliest = findLast(list.children, (post) =>
+        post.querySelector('.podcast-title-number')
+      );
+      return uniq([latest, earliest])
+        .map((post) => {
+          if (post) return post.querySelector('.podcast-title-number').textContent;
+        })
+        .filter((s) => s)
+        .join(' – ');
     });
 
-    this.rangeTargets.forEach((target, index) => target.textContent = this.ranges[index]);
+    this.rangeTargets.forEach((target, index) => (target.textContent = this.ranges[index]));
 
     this.scroll = new SmoothScroll('a[href*="#"]', {
       speed: 100,

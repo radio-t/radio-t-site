@@ -2,6 +2,8 @@
   "compilerOptions": {
     "target": "es5",
     "jsx": "react",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "h.Fragment",
     "esModuleInterop": true,
     "moduleResolution": "node",
     "noImplicitReturns": true,

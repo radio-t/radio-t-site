@@ -19,7 +19,7 @@ filename = "rt_podcast413"
 * [Что ждать от Apple](http://prsm.tc/l3xt2g)
 * [Google опять подрезал цены](http://prsm.tc/CblmaT)
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast413.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-413.html)
 <audio src="https://cdn.radio-t.com/rt_podcast413.mp3" preload="none"></audio>

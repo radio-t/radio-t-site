@@ -22,7 +22,7 @@ filename = "rt_podcast624"
 - [Мифический взлом Protonmail](https://pastebin.com/bwvqHhbA?fbclid=IwAR3Nk2wKnv4MjRycU0oQQas5eXQ3v5x9Or_KAsefmgmykH0PviLS74fIR1c) - *01:32:22*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast624.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-624.html)

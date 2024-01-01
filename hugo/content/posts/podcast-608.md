@@ -16,7 +16,7 @@ filename = "rt_podcast608"
 - [23andMe нашел себе подозрительных друзей](https://www.scientificamerican.com/article/23andme-is-sharing-genetic-data-with-drug-giant/).
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast608.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-608.html)

@@ -21,7 +21,7 @@ filename = "rt_podcast572"
 - [Microsoft и GitHub создадут GVFS](https://arstechnica.com/gadgets/2017/11/microsoft-and-github-team-up-to-take-git-virtual-file-system-to-macos-linux/).
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast572.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-572.html)
 <audio src="https://cdn.radio-t.com/rt_podcast572.mp3" preload="none"></audio>

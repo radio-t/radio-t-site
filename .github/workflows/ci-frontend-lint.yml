@@ -1,0 +1,39 @@
+name: "Lint JS files"
+
+on:
+  push:
+    branches:
+    tags:
+    paths:
+      - "hugo/**/*.jsx?"
+      - "hugo/**/*.tsx?"
+  pull_request:
+    paths:
+      - "hugo/**/*.jsx?"
+      - "hugo/**/*.tsx?"
+
+jobs:
+  frontend-lint:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [14.15]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+
+      - run: npm ci --loglevel warn
+        working-directory: ./hugo
+
+      - uses: actions/cache@v2
+        with:
+          path: ${{ github.workspace }}/hugo/node_modules/.cache
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - run: npm run eslint
+        working-directory: ./hugo

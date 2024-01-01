@@ -16,7 +16,7 @@ export default class extends Controller {
 
     this.numberTargets.forEach((num) => {
       tmp.href = num.getAttribute('data-url');
-      num.setAttribute('data-url', 'https://radio-t.com' + (new URL(tmp.href)).pathname);
+      num.setAttribute('data-url', `https://radio-t.com${new URL(tmp.href).pathname}`);
     });
 
     const callback = (mutations) => {
@@ -25,7 +25,11 @@ export default class extends Controller {
         num.parentElement.style.visibility = 'visible';
         const n = parseInt(num.innerText);
         if (isNaN(n)) return;
-        num.nextElementSibling.innerHTML = getUnits(n, ['комментарий', 'комментария', 'комментариев']);
+        num.nextElementSibling.innerHTML = getUnits(n, [
+          'комментарий',
+          'комментария',
+          'комментариев',
+        ]);
       });
     };
     const observer = new MutationObserver(callback);

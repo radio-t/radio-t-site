@@ -17,7 +17,7 @@ filename = "rt_podcast562"
 - [RedHat открыл AWX](https://www.ansible.com/awx-project-faq) - *01:02:41*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast562.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-562.html)
 <audio src="https://cdn.radio-t.com/rt_podcast562.mp3" preload="none"></audio>

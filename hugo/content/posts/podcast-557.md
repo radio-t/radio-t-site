@@ -16,7 +16,7 @@ filename = "rt_podcast557"
 - [Как нам распилить монолит](http://programmingisterrible.com/post/162346490883/how-do-you-cut-a-monolith-in-half) - *01:45:47*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Тинькофф](https://www.tinkoff.ru/cards/debit-cards/tinkoff-black/?utm_source=radiot_tb&utm_medium=ntv.fix&utm_campaign=tb.radiot)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [Vscale](http://bit.ly/radio-t_vscale) и [Тинькофф](https://www.tinkoff.ru/cards/debit-cards/tinkoff-black/?utm_source=radiot_tb&utm_medium=ntv.fix&utm_campaign=tb.radiot)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast557.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-557.html)
 <audio src="https://cdn.radio-t.com/rt_podcast557.mp3" preload="none"></audio>

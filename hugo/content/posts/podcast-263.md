@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt263.jpg"
 - [Eee Pad](http://campuslife.asus.com/index/4946/asus-announces-the-eee-pad-transformer-prime/) Transformer Prime
 - [Dropbox](http://blog.dropbox.com/?p=933) пришел в группы и пойдет дальше
 - [Google TV](http://www.theverge.com/2011/11/10/2553406/logitech-ceo-google-tv-cost-us-dearly-no-revue-replacement-coming) как причина для убытков
-- Apple Store [Self-Check Out](http://techland.time.com/2011/11/11/apple-store-self-check-out-shopping-perfected/) для самых страных
+- Apple Store [Self-Check Out](http://techland.time.com/2011/11/11/apple-store-self-check-out-shopping-perfected/) для самых странных
 - Неограниченные мобильные радости за [$19](http://techcrunch.com/2011/11/07/republic-wireless-officially-unveils-19month-service-unlimited-everything-no-contracts/)
 - [Google+](http://www.slate.com/articles/technology/technology/2011/11/google_had_a_chance_to_compete_with_facebook_not_anymore_.html) сделал непонятное
 - Темы наших слушателей

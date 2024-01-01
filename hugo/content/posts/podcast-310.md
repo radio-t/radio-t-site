@@ -14,7 +14,7 @@ image = "https://radio-t.com/images/radio-t/rt310.jpg"
 * [Ubuntu One Cloud Storage пришел на Mac ](http://techcrunch.com/2012/10/12/canonicals-ubuntu-one-cloud-storage-service-comes-to-the-mac/)
 * Microsoft решили [добить Flash](http://blog.rabidgremlin.com/2012/10/11/did-microsoft-just-kill-flash-ie10-wont-run-flash-unless-your-site-is-on-a-microsoft-whi)?
 * [Mini Galaxy S III](http://www.wired.com/gadgetlab/2012/10/samsung-galaxy-s-iii-mini-4-inch-screen/) с 4"
-* Статистика [о типичых пользователях Twitter](http://gigaom.com/2012/10/10/the-typical-twitter-user-is-a-young-woman-with-an-iphone-and-208-followers/)
+* Статистика [о типичных пользователях Twitter](http://gigaom.com/2012/10/10/the-typical-twitter-user-is-a-young-woman-with-an-iphone-and-208-followers/)
 * [Bitbucket — большое обновление](http://habrahabr.ru/post/154255/)
 * [Google Mod_Pagespeed](http://techcrunch.com/2012/10/10/googles-mod_pagespeed-is-now-out-of-beta-and-ready-to-make-your-sites-faster/) — хорошее дело
 

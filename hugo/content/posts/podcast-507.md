@@ -15,7 +15,7 @@ filename = "rt_podcast507"
 - [Как они ушли из Amazon Web Services на Google Cloud Platform](https://lugassy.net/why-we-moved-from-amazon-web-services-to-google-cloud-platform-726c412fd667?gi=19a0d692f727) - *01:24:15*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast507.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-507.html)
 <audio src="https://cdn.radio-t.com/rt_podcast507.mp3" preload="none"></audio>

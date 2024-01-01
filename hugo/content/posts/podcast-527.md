@@ -17,7 +17,7 @@ filename = "rt_podcast527"
 - [Релиз Python 3.6](https://habrahabr.ru/company/kingservers/blog/318354/) - *01:45:28*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast527.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-527.html)
 <audio src="https://cdn.radio-t.com/rt_podcast527.mp3" preload="none"></audio>

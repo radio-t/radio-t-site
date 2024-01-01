@@ -19,7 +19,7 @@ filename = "rt_podcast482"
 - [Автоматическое нахождение плохого кода](http://news.mit.edu/2016/faster-automatic-bug-repair-code-errors-0129) - *01:27:15*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast482.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-482.html)
 <audio src="https://cdn.radio-t.com/rt_podcast482.mp3" preload="none"></audio>

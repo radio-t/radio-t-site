@@ -17,7 +17,7 @@ filename = "rt_podcast528"
 - [2016 был плох для NoSQL](http://www.techrepublic.com/article/2016-was-a-bad-year-for-nosql-databases-and-the-cloud-is-to-blame/) - *01:25:15*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast528.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-528.html)
 <audio src="https://cdn.radio-t.com/rt_podcast528.mp3" preload="none"></audio>

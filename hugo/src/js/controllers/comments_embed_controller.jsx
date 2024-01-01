@@ -1,38 +1,31 @@
-import React from 'react';
-import { render, unmountComponentAtNode } from 'react-dom';
 import Controller from '../base_controller';
-import Remark from '../components/remark';
-import Turbolinks from 'turbolinks';
 
 export default class extends Controller {
+  get theme() {
+    return window.RADIOT_THEME === 'dark' ? 'dark' : 'light';
+  }
   initialize() {
     super.initialize();
-    this.render = this.render.bind(this);
+    window.remark_config.url = `https://radio-t.com${location.pathname}`;
+    window.remark_config.theme = this.theme;
+    if (window.REMARK42) {
+      window.REMARK42.destroy();
+      window.REMARK42.createInstance(window.remark_config);
+    }
   }
 
   connect() {
     super.connect();
-    window.remark_config = window.remark_config || {};
-    window.remark_config.url = 'https://radio-t.com' + location.pathname;
-
-    this.render();
-    document.addEventListener('theme:change', this.render);
-  }
-
-  render() {
-    const theme = window.RADIOT_THEME === 'dark' ? 'dark' : 'light';
-
-    render((<Remark
-      site_id={window.remark_config.site_id}
-      url={'https://radio-t.com' + location.pathname}
-      page_title={window.remark_config.page_title}
-      theme={theme}
-    />), this.element);
+    document.addEventListener('theme:change', this.changeTheme);
   }
 
   disconnect() {
     super.disconnect();
-    document.removeEventListener('theme:change', this.render);
-    unmountComponentAtNode(this.element);
+    document.removeEventListener('theme:change', this.changeTheme);
+  }
+
+  changeTheme() {
+    window.remark_config.theme = this.theme;
+    window.REMARK42.changeTheme(this.theme);
   }
 }

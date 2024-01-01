@@ -1,8 +1,9 @@
 import debounce from 'lodash/debounce';
 import capitalize from 'lodash/capitalize';
+
+import { Events } from '../events';
 import Controller from '../base_controller';
 import { composeTime, getLocalStorage, parseTime, updateLocalStorage } from '../utils';
-import { Events } from '../events';
 
 /**
  * @property {Audio} audioTarget
@@ -25,7 +26,8 @@ export default class extends Controller {
     'link',
     'volumeLevel',
     'mute',
-    'unmute'
+    'unmute',
+    'rate',
   ];
 
   static getState() {
@@ -34,10 +36,13 @@ export default class extends Controller {
 
   updateState(state) {
     Object.assign(this.constructor.state, state);
-    this.dispatchEvent(this.element, new CustomEvent('player-state', {
-      detail: {state: this.constructor.state},
-      bubbles: true,
-    }));
+    this.dispatchEvent(
+      this.element,
+      new CustomEvent('player-state', {
+        detail: { state: this.constructor.state },
+        bubbles: true,
+      })
+    );
   }
 
   initialize() {
@@ -47,56 +52,67 @@ export default class extends Controller {
 
   // https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events
   addEventListeners() {
-    ['timeupdate', 'durationchange', 'play', 'pause', 'ended']
-      .forEach(event => {
-        const handlerName = `on${capitalize(event)}`;
-        if (this[handlerName]) this.audioTarget.addEventListener(event, this[handlerName].bind(this));
-      });
+    ['timeupdate', 'durationchange', 'play', 'pause', 'ended'].forEach((event) => {
+      const handlerName = `on${capitalize(event)}`;
+      if (this[handlerName]) this.audioTarget.addEventListener(event, this[handlerName].bind(this));
+    });
 
-    const updateLoadingState = debounce((isLoading) => this.element.classList.toggle('player-loading', isLoading), 500);
+    const updateLoadingState = debounce(
+      (isLoading) => this.element.classList.toggle('player-loading', isLoading),
+      500
+    );
     const eventsLoadingOn = ['seeking', 'waiting', 'loadstart'];
     const eventsLoadingOff = ['playing', 'seeked', 'canplay', 'loadeddata', 'error'];
-    eventsLoadingOn.forEach(event => this.audioTarget.addEventListener(event, updateLoadingState.bind(this, true)));
-    eventsLoadingOff.forEach(event => this.audioTarget.addEventListener(event, updateLoadingState.bind(this, false)));
+    eventsLoadingOn.forEach((event) =>
+      this.audioTarget.addEventListener(event, updateLoadingState.bind(this, true))
+    );
+    eventsLoadingOff.forEach((event) =>
+      this.audioTarget.addEventListener(event, updateLoadingState.bind(this, false))
+    );
 
     const debugEvents = [
-      "abort",
-      "canplay",
-      "canplaythrough",
-      "durationchange",
-      "emptied",
-      "encrypted",
-      "ended",
-      "error",
-      "interruptbegin",
-      "interruptend",
-      "loadeddata",
-      "loadedmetadata",
-      "loadstart",
-      "mozaudioavailable",
-      "pause",
-      "play",
-      "playing",
-      "progress",
-      "ratechange",
-      "seeked",
-      "seeking",
-      "stalled",
-      "suspend",
-      "timeupdate",
-      "volumechange",
-      "waiting"
+      'abort',
+      'canplay',
+      'canplaythrough',
+      'durationchange',
+      'emptied',
+      'encrypted',
+      'ended',
+      'error',
+      'interruptbegin',
+      'interruptend',
+      'loadeddata',
+      'loadedmetadata',
+      'loadstart',
+      'mozaudioavailable',
+      'pause',
+      'play',
+      'playing',
+      'progress',
+      'ratechange',
+      'seeked',
+      'seeking',
+      'stalled',
+      'suspend',
+      'timeupdate',
+      'volumechange',
+      'waiting',
     ];
-    debugEvents.forEach(event => this.audioTarget.addEventListener(event, (e) => this.debug('audio event', event, e)));
+    debugEvents.forEach((event) =>
+      this.audioTarget.addEventListener(event, (e) => this.debug('audio event', event, e))
+    );
 
-    window.addEventListener('beforeunload', (e) => {
+    window.addEventListener('beforeunload', () => {
       const isPlaying = this.constructor.state.src && !this.constructor.state.paused;
       if (!isPlaying) return;
-      window.localStorage.setItem('player', JSON.stringify({
-        ...this.detail,
-        currentTime: this.audioTarget.currentTime,
-        duration: this.audioTarget.duration,
-      }));
+      window.localStorage.setItem(
+        'player',
+        JSON.stringify({
+          ...this.detail,
+          currentTime: this.audioTarget.currentTime,
+          duration: this.audioTarget.duration,
+        })
+      );
     });
   }
 
@@ -116,17 +132,19 @@ export default class extends Controller {
       this.resetUI();
       this.element.classList.remove('d-none');
       this.audioTarget.src = detail.src;
-      this.updateState({src: detail.src});
-      this.linkTargets.forEach((link) => link.href = detail.url);
+      this.updateState({ src: detail.src });
+      this.linkTargets.forEach((link) => (link.href = detail.url));
       this.coverTarget.style.backgroundImage = detail.image;
       this.coverTarget.classList.toggle('cover-image-online', !!detail.online);
       this.numberTarget.textContent = detail.number;
       this.audioTarget.load();
-      this.audioTarget.volume = 1;
-      this.storedVolumeLevel = 100;
+      this.rateTarget.textContent = this.audioTarget.playbackRate;
       if (!detail.online) {
         if (!detail.timeLabel) {
-          const podcast = getLocalStorage('podcasts', podcasts => podcasts[this.numberTarget.innerText]);
+          const podcast = getLocalStorage(
+            'podcasts',
+            (podcasts) => podcasts[this.numberTarget.innerText]
+          );
           if (podcast) {
             detail.timeLabel = composeTime(podcast.currentTime);
           }
@@ -208,7 +226,7 @@ export default class extends Controller {
     window.localStorage.removeItem('player');
     this.element.classList.add('d-none');
     this.audioTarget.src = '';
-    this.updateState({src: null, paused: null});
+    this.updateState({ src: null, paused: null });
     this.detail = {};
   }
 
@@ -239,12 +257,12 @@ export default class extends Controller {
 
   onPlay() {
     this.showPlayButton(false);
-    this.updateState({paused: false});
+    this.updateState({ paused: false });
   }
 
   onPause() {
     this.showPlayButton(true);
-    this.updateState({paused: true});
+    this.updateState({ paused: true });
   }
 
   showPlayButton(paused = false) {
@@ -262,7 +280,19 @@ export default class extends Controller {
       this.volumeLevelTarget.value = this.storedVolumeLevel;
     } else {
       this.setVolume(0);
+      this.storedVolumeLevel = this.volumeLevelTarget.value;
       this.volumeLevelTarget.value = 0;
     }
+  }
+
+  togglePlaybackRate() {
+    let rate = this.audioTarget.playbackRate + 0.25;
+
+    if (rate > 2) {
+      rate = 0.5;
+    }
+
+    this.audioTarget.playbackRate = rate;
+    this.rateTarget.innerText = rate;
   }
 }

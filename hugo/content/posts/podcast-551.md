@@ -19,7 +19,7 @@ filename = "rt_podcast551"
 - [MongoDB Stitch](https://thenextweb.com/dd/2017/06/20/mongodb-launches-stitch-put-rad-non-relational-databases/) - *01:17:50*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast551.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-551.html)
 <audio src="https://cdn.radio-t.com/rt_podcast551.mp3" preload="none"></audio>

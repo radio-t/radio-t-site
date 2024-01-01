@@ -17,7 +17,7 @@ filename = "rt_podcast622"
 - [Как cat, но лучше](https://github.com/sharkdp/bat).
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast622.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-622.html)

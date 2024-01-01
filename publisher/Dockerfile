@@ -37,4 +37,7 @@ COPY --from=build  /build/bin/publisher /usr/local/bin/publisher
 WORKDIR /srv/hugo
 USER app
 
+RUN git config --global --add safe.directory /srv
+
+CMD ["--list"]
 ENTRYPOINT ["/usr/local/bin/publisher"]

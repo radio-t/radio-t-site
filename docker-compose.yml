@@ -1,6 +1,5 @@
-version: '2'
+version: "2"
 services:
-
   hugo:
     image: hugo.radio-t
     build: .
@@ -29,7 +28,7 @@ services:
     image: radio-t/publisher
     build: publisher
     hostname: publisher
-    container_name: publisher 
+    container_name: publisher
     restart: always
     logging: *default_logging
     environment:
@@ -40,5 +39,3 @@ services:
       - /Users/umputun/.ssh/id_rsa.pub:/home/app/.ssh/id_rsa.pub
       - /Users/umputun/.ssh/id_rsa:/home/app/.ssh/id_rsa
       - /Volumes/Podcasts/radio-t:/episodes
-
-  

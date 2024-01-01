@@ -10,7 +10,7 @@ filename = "rt_podcast417"
 ![](https://radio-t.com/images/radio-t/rt417.jpg)
 
 * [Amazon Echo](http://www.cnet.com/news/amazon-echo-is-a-star-trek-computer-for-your-home/)
-* [Еще одно усторйство из Star Trek](http://www.forbes.com/sites/aarontilley/2014/11/05/onbeep-onyx/)
+* [Еще одно устройство из Star Trek](http://www.forbes.com/sites/aarontilley/2014/11/05/onbeep-onyx/)
 * [IntelliJ IDEA 14 уже здесь](http://habrahabr.ru/company/JetBrains/blog/242395/)
 * [Как хакнули iPhone](http://www.theverge.com/2014/11/6/7167431/the-iphone-just-lost-its-perfect-security-record-now-what)
 * [Google Cloud радует](http://mashable.com/2014/11/04/google-cloud-price-discounts/)
@@ -19,7 +19,7 @@ filename = "rt_podcast417"
 * [Будем выбрасывать код часто и радостно](http://prsm.tc/JyILYp)
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com)  и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot)  и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast417.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-417.html)
 <audio src="https://cdn.radio-t.com/rt_podcast417.mp3" preload="none"></audio>

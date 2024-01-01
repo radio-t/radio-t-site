@@ -16,7 +16,7 @@ filename = "rt_podcast607"
 - [Walmart тоже хочет быть видео сервисом](https://thenextweb.com/insider/2018/07/18/walmart-is-reportedly-building-a-video-streaming-service-to-take-on-netflix/)
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast607.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-607.html)

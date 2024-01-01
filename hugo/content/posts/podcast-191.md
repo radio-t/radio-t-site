@@ -15,7 +15,7 @@ image = "https://radio-t.com/images/radio-t/rt191.jpg"
 - [MS ](http://www.opennet.ru/opennews/art.shtml?num=26921)тихо делает нам приятно
 - Почему [умное ](http://java.dzone.com/articles/dont-build-software-thats-too)ПО это плохо
 - Pulse [обидел ](http://bits.blogs.nytimes.com/2010/06/08/times-company-objects-to-news-reader-app/)NYT
-- Хакеры атaкуют [AT&T;](http://www.switched.com/2010/06/10/hackers-target-atandt-ipad-users-obtain-114-000-high-profile-e-ma/)
+- Хакеры атакуют [AT&T;](http://www.switched.com/2010/06/10/hackers-target-atandt-ipad-users-obtain-114-000-high-profile-e-ma/)
 
 **_Спонсор этого выпуска — хостинг _[_fastvps.ru_](http://fastvps.ru/)**
 

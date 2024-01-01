@@ -15,7 +15,7 @@ filename = "rt_podcast634"
 - [Google Hangouts скоро исчезнет](https://www.theverge.com/2019/1/22/18193303/google-hangouts-end-transition-october-gsuite-chat-meet) - *01:02:27*.
 - [Темы слушателей](https://radio-t.com/p/2019/01/22/prep-634/) - *01:12:38*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast634.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-634.html)

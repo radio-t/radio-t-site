@@ -18,7 +18,7 @@ image = "https://radio-t.com/images/radio-t/rt115.jpg"
 - Выход новой версии OpenSolaris
 - Поет–ли "поющая птичка"?
 - Чудовищные трафики Google
-- Окло–эпловые слухи и новинки
+- Около–эпловые слухи и новинки
 - Темы наших слушателей
 
 [аудио](https://cdn.radio-t.com/rt_podcast115.mp3)

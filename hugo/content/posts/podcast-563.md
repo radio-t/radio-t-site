@@ -17,7 +17,7 @@ filename = "rt_podcast563"
 - [Atom-IDE](http://blog.atom.io/2017/09/12/announcing-atom-ide.html) - *01:52:56*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast563.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-563.html)
 <audio src="https://cdn.radio-t.com/rt_podcast563.mp3" preload="none"></audio>

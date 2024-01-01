@@ -17,7 +17,7 @@ filename = "rt_podcast580"
 - [Ужас удаленной работы](https://hackernoon.com/the-stress-of-remote-working-38be5bdcf4da?gi=10a84f22dba3) - *01:12:00*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast580.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-580.html)
 <audio src="https://cdn.radio-t.com/rt_podcast580.mp3" preload="none"></audio>

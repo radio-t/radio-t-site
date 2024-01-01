@@ -8,6 +8,7 @@ pip install pytoml mistune
 
 import glob
 import subprocess
+import argparse
 
 import mistune
 import pytoml as toml
@@ -25,6 +26,12 @@ FEEDS = [
     {'name': 'podcast-archives-short', 'title': 'Радио-Т Архивы',
      'image': 'https://radio-t.com/images/covers/cover-archive.png', 'count': 25, 'size': False},
 ]
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Generate RSS files")
+    parser.add_argument("--save-to", dest="save_to", default="/srv/hugo/public", help="Override save directory")
+    return parser.parse_args()
 
 
 def parse_file(name, source):
@@ -137,4 +144,6 @@ def run():
 
 
 if __name__ == '__main__':
+    args = parse_args()
+    SAVE_TO = args.save_to  # Override SAVE_TO if --save-to is provided
     run()

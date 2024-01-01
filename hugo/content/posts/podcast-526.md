@@ -20,7 +20,7 @@ filename = "rt_podcast526"
 - [Закат еще одной железки](https://www.bloomberg.com/news/articles/2016-11-21/apple-said-to-abandon-development-of-wireless-routers-ivs0ssec) - *01:19:49*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast526.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-526.html)
 <audio src="https://cdn.radio-t.com/rt_podcast526.mp3" preload="none"></audio>

@@ -17,7 +17,7 @@ filename = "rt_podcast515"
 - [Виновен в Over-Engineering](https://dzone.com/articles/are-you-guilty-of-over-engineering) - *01:31:47*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast515.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-515.html)
 <audio src="https://cdn.radio-t.com/rt_podcast515.mp3" preload="none"></audio>

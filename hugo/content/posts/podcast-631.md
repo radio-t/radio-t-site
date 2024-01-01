@@ -16,7 +16,7 @@ filename = "rt_podcast631"
 - [5 уроков от производителя инфраструктурного кода](https://blog.gruntwork.io/5-lessons-learned-from-writing-over-300-000-lines-of-infrastructure-code-36ba7fadeac1?gi=7b1222ca61c) - *01:27:27*.
 - [Темы слушателей](https://radio-t.com/p/2019/01/01/prep-631/) - *01:54:50*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast631.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-631.html)

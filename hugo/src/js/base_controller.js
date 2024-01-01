@@ -31,7 +31,7 @@ export default class extends Controller {
     super.connect();
     for (const eventName in this.subscriptions) {
       for (const handler of this.subscriptions[eventName]) {
-        const {unsubscribe} = Events.subscribe(eventName, handler);
+        const { unsubscribe } = Events.subscribe(eventName, handler);
         this.unsubscribe.push(unsubscribe);
       }
     }

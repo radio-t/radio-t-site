@@ -21,7 +21,7 @@ filename = "rt_podcast591"
 - [Glitch для тех, кто не осилил](https://thenextweb.com/dd/2018/03/30/glitch-rewind-wants-make-version-control-easy-everyone/) - *01:42:25*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast591.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-591.html)
 <audio src="https://cdn.radio-t.com/rt_podcast591.mp3" preload="none"></audio>

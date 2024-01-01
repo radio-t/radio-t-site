@@ -17,7 +17,7 @@ image = "https://radio-t.com/images/radio-t/rt192.png"
 - [RIM](http://www.mobile-review.com/fullnews/main/2010/June/15.shtml#29606) тоже хочет убийцу
 - Нам показали, что будет [Google TV](http://mashable.com/2010/06/15/google-tv-video/)
 - [iPad](http://mashable.com/2010/06/13/ipod-touch-marijuana-ipad-craigslist/) доведет до казенного дома
-- Урюпинсим детям [интернетов](http://habrahabr.ru/blogs/lenta/96748/) не увидить
+- Урюпинским детям [интернетов](http://habrahabr.ru/blogs/lenta/96748/) не увидеть
 - [YouTube](http://www.readwriteweb.com/archives/youtube_gets_a_cloud-based_video_editor.php) даст немного поредактировать
 - Чем [их](http://agile.dzone.com/articles/3-things-motivate-us) заинтересовать ?
 

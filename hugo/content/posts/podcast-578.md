@@ -20,7 +20,7 @@ filename = "rt_podcast578"
 - [Как работает Netflix, для самых маленьких](http://highscalability.com/blog/2017/12/11/netflix-what-happens-when-you-press-play.html) - *01:33:45*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast578.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-578.html)
 <audio src="https://cdn.radio-t.com/rt_podcast578.mp3" preload="none"></audio>

@@ -15,7 +15,7 @@ filename = "rt_podcast684"
 - [Лаптопы на CES 2020](https://www.digitaltrends.com/computing/biggest-laptop-trends-ces-2020/) - *01:33:44*.
 - [Темы слушателей](https://radio-t.com/p/2020/01/07/prep-684/) - *01:55:53*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast684.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-684.html)

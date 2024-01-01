@@ -19,7 +19,7 @@ filename = "rt_podcast483"
 - [SCO и его бессмертная миссия](http://www.theregister.co.uk/2016/02/08/sco_slapped_in_latest_round_of_eternal_who_owns_unix_lawsuit/) - *01:19:39*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast483.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-483.html)
 <audio src="https://cdn.radio-t.com/rt_podcast483.mp3" preload="none"></audio>

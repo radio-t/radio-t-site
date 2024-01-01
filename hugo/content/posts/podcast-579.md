@@ -16,7 +16,7 @@ filename = "rt_podcast579"
 - [XPS 13 Developer Edition](https://bartongeorge.io/2018/01/04/xps-13-developer-edition-the-7th-gen-is-here/) - *02:02:50*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast579.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-579.html)
 <audio src="https://cdn.radio-t.com/rt_podcast579.mp3" preload="none"></audio>

@@ -19,7 +19,7 @@ filename = "rt_podcast414"
 * [Как выбрасывают с Kickstarter](http://www.theguardian.com/technology/2014/oct/17/anonymous-router-anonabox-suspended-kickstarter-campaign-backlash)
 * Гости встали на защиту PHP
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast414.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-414.html)
 <audio src="https://cdn.radio-t.com/rt_podcast414.mp3" preload="none"></audio>

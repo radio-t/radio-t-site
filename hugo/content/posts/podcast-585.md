@@ -20,7 +20,7 @@ filename = "rt_podcast585"
 - [AMP для email](https://techcrunch.com/2018/02/13/amp-for-email-is-a-terrible-idea/) - *02:01:47*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast585.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-585.html)
 <audio src="https://cdn.radio-t.com/rt_podcast585.mp3" preload="none"></audio>

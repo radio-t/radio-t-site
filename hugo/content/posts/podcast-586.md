@@ -21,7 +21,7 @@ filename = "rt_podcast586"
 - [1Password предупредит об утекших паролях](https://www.theverge.com/2018/2/23/17044106/1password-feature-password-leaked) - *01:30:45*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast586.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-586.html)
 <audio src="https://cdn.radio-t.com/rt_podcast586.mp3" preload="none"></audio>

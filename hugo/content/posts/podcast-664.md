@@ -15,7 +15,7 @@ filename = "rt_podcast664"
 - [Apple Card и как за ней ухаживать](https://thenextweb.com/plugged/2019/08/22/apple-card-credit/) - *01:18:45*.
 - [Темы слушателей](https://radio-t.com/p/2019/08/20/prep-664/) - *01:40:03*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast664.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-664.html)

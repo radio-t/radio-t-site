@@ -18,7 +18,7 @@ filename = "rt_podcast391"
 * [Google Maps теперь еще лучше](http://prsm.tc/9fdngC)
 * [Dropbox сливает?](http://grahamcluley.com/2014/05/dropbox-box-leak/)
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Teamlab Office](https://personal.teamlab.com/)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Teamlab Office](https://personal.teamlab.com/)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast391.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-391.html)
 <audio src="https://cdn.radio-t.com/rt_podcast391.mp3" preload="none"></audio>

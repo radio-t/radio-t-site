@@ -15,7 +15,7 @@ filename = "rt_podcast651"
 - [Учиться не надо](https://www.macrumors.com/2019/05/10/apple-ceo-tim-cook-says-no-degree-needed-to-code/) - *01:25:32*.
 - [Темы слушателей](https://radio-t.com/p/2019/05/21/prep-651/) - *01:52:50*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast651.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-651.html)

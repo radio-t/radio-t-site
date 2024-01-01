@@ -10,11 +10,14 @@
   data-controller="page sidebar search comments-counter"
   data-action="podcast-play->page#playPodcast player-state->page#updatePodcasts"
 >
-
 <script>
   window.remark_config = {
+    host: 'https://remark42.radio-t.com',
     site_id: '{{ .Site.Params.remark42 }}',
     page_title: '{{ .Title }}',
+    url: 'https://radio-t.com' + location.pathname,
+    theme: window.RADIOT_THEME || 'light',
+    locale: 'ru',
   };
 </script>
 

@@ -16,7 +16,7 @@ filename = "rt_podcast538"
 - [Python IDE  для обучения](https://www.jetbrains.com/pycharm-edu/) - *01:32:46*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [Java-конференция JPoint](https://jpoint.ru/registration/?utm_source=radiot&utm_medium=special&utm_campaign=jpoint2017)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [Vscale](http://bit.ly/radio-t_vscale) и [Java-конференция JPoint](https://jpoint.ru/registration/?utm_source=radiot&utm_medium=special&utm_campaign=jpoint2017)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast538.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-538.html)
 <audio src="https://cdn.radio-t.com/rt_podcast538.mp3" preload="none"></audio>

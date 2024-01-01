@@ -16,7 +16,7 @@ filename = "rt_podcast564"
 - [Go 10 лет](https://commandcenter.blogspot.com/2017/09/go-ten-years-and-climbing.html) - *01:23:38*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](https://sprintbox.ru/)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [Vscale](http://bit.ly/radio-t_vscale) и [SprintBox](https://sprintbox.ru/)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast564.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-564.html)

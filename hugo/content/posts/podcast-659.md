@@ -20,7 +20,7 @@ filename = "rt_podcast659"
 - [Raspberry Pi 4 нуждается в вентиляторе](https://www.jeffgeerling.com/blog/2019/raspberry-pi-4-needs-fan-heres-why-and-how-you-can-add-one) - *01:27:01*.
 - [Темы слушателей](https://radio-t.com/p/2019/07/16/prep-659/) - *01:32:16*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast659.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-659.html)

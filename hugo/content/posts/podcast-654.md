@@ -16,7 +16,7 @@ filename = "rt_podcast654"
 - [Эпоха обновления паролей закончилась](https://techcrunch.com/2019/06/02/password-expiration-is-dead-long-live-your-passwords/) - *01:26:18*.
 - [Темы слушателей 654](https://radio-t.com/p/2019/06/11/prep-654/) - *01:35:48*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast654.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-654.html)

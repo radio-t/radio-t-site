@@ -22,7 +22,7 @@ filename = "rt_podcast487"
 - [Как нарушить закон использованием контейнера](http://blog.takipi.com/running-java-on-docker-youre-breaking-the-law/) - *01:28:39*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast487.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-487.html)
 <audio src="https://cdn.radio-t.com/rt_podcast487.mp3" preload="none"></audio>

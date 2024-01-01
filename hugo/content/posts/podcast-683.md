@@ -13,7 +13,7 @@ filename = "rt_podcast683"
 - [10 самых популярных языков](https://dev.to/javinpaul/top-10-most-popular-programming-languages-and-their-creators-59el) - *01:05:11*.
 - [Темы слушателей](https://radio-t.com/p/2019/12/31/prep-683/) - *01:57:11*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast683.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-683.html)

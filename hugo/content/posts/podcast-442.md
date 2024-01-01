@@ -19,7 +19,7 @@ filename = "rt_podcast442"
 * [Как Virtuozzo улучшает безопасность Docker](http://habrahabr.ru/company/parallels/blog/256961/).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast442.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-442.html)
 <audio src="https://cdn.radio-t.com/rt_podcast442.mp3" preload="none"></audio>

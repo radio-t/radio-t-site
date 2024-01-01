@@ -1,0 +1,20 @@
+name: "Check size limit for CSS and JS bundles"
+on:
+  pull_request:
+    paths:
+      - "hugo/**/*.jsx?"
+      - "hugo/**/*.tsx?"
+      - "hugo/**/*.scss"
+
+jobs:
+  size:
+    runs-on: ubuntu-latest
+    env:
+      CI_JOB_NUMBER: 1
+    steps:
+      - uses: actions/checkout@v1
+      - uses: andresz1/size-limit-action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          directory: hugo/
+          build_script: build

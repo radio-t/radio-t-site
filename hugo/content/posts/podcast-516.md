@@ -20,7 +20,7 @@ filename = "rt_podcast516"
 - [Понюхать свежий мак в любое время](https://9to5mac.com/2016/10/03/new-mac-smell-candle-twelvesouth/) - *01:37:10*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast516.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-516.html)
 <audio src="https://cdn.radio-t.com/rt_podcast516.mp3" preload="none"></audio>

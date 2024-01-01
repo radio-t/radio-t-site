@@ -1,0 +1,27 @@
+.share {
+  margin-top: 0.5rem;
+  display: block;
+}
+.share__link {
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  margin: 0 5px;
+  border-radius: 2px;
+  color: $gray-600;
+  &:hover {
+    background-color: rgba(191, 237, 250, 0.8);
+  }
+  &_twitter:hover {
+    color: #04b7ec;
+  }
+  &_facebook:hover {
+    color: #425497;
+  }
+  &_vk:hover {
+    color: #526e8f;
+  }
+}
+.share__icon {
+  margin: auto;
+}

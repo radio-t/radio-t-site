@@ -21,7 +21,7 @@ filename = "rt_podcast493"
 - [Увидел свет HTTP-сервер nginx 1.10.0](http://www.opennet.ru/opennews/art.shtml?num=44316) - *01:16:57*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast493.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-493.html)
 <audio src="https://cdn.radio-t.com/rt_podcast493.mp3" preload="none"></audio>

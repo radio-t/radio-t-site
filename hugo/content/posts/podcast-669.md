@@ -16,7 +16,7 @@ filename = "rt_podcast669"
 - [Uber собирает все в одну кучку](https://www.theverge.com/2019/9/26/20884800/uber-app-announcement-ubereats-safety-transit-updates) - *01:42:42*.
 - [Темы слушателей 669](https://radio-t.com/p/2019/09/24/prep-669/) - *01:58:23*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com).*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot).*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast669.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-669.html)

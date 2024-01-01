@@ -23,7 +23,7 @@ filename = "rt_podcast496"
 - [Google убьет Flash в этом году](http://venturebeat.com/2016/05/15/google-targets-html5-default-for-chrome-instead-of-flash-in-q4-2016/) - *01:58:32*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast496.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-496.html)
 <audio src="https://cdn.radio-t.com/rt_podcast496.mp3" preload="none"></audio>

@@ -18,7 +18,7 @@ filename = "rt_podcast584"
 - [Слив кода iPhone](https://www.engadget.com/2018/02/08/crucial-iphone-source-code-posted-in-unprecedented-leak/) - *01:32:53*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast584.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-584.html)
 <audio src="https://cdn.radio-t.com/rt_podcast584.mp3" preload="none"></audio>

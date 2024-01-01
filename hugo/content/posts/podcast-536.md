@@ -16,7 +16,7 @@ filename = "rt_podcast536"
 - [Kotlin 1.1 вышел](https://blog.jetbrains.com/kotlin/2017/03/kotlin-1-1/) - *01:44:41*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast536.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-536.html)
 <audio src="https://cdn.radio-t.com/rt_podcast536.mp3" preload="none"></audio>

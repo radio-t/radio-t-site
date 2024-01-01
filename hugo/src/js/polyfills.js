@@ -1,20 +1,19 @@
+import 'custom-event-polyfill';
+import 'intersection-observer';
+import 'core-js/features/dom-collections';
 import smoothscroll from 'smoothscroll-polyfill';
 
 smoothscroll.polyfill();
-require('custom-event-polyfill');
-require('intersection-observer');
-require('core-js/features/dom-collections');
-require('core-js/es/string/starts-with');
-require('core-js/es/string/ends-with');
 
 //matches
 if (!Element.prototype.matches) {
-  Element.prototype.matches = Element.prototype.msMatchesSelector ||
-    Element.prototype.webkitMatchesSelector;
+  Element.prototype.matches =
+    Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
 }
+
 //closest
 if (!Element.prototype.closest) {
-  Element.prototype.closest = function(s) {
+  Element.prototype.closest = function (s) {
     var el = this;
 
     do {

@@ -15,7 +15,7 @@ filename = "rt_podcast644"
 - [Что оправдывает микросервис](https://content.pivotal.io/blog/should-that-be-a-microservice-keep-these-six-factors-in-mind) - *00:56:15*.
 - [Темы слушателей](https://radio-t.com/p/2019/04/02/prep-644/) - *01:47:24*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast644.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-644.html)

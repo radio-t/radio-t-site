@@ -18,7 +18,7 @@ filename = "rt_podcast650"
 - [Забудете ООП, немедленно](https://habr.com/ru/post/451982/) - *01:21:33*.
 - [Темы слушателей 650](https://radio-t.com/p/2019/05/14/prep-650/) - *01:50:57*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast650.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-650.html)

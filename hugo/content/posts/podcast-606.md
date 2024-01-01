@@ -19,7 +19,7 @@ filename = "rt_podcast606"
 - [Прощай, NoSQL. Твое время ушло](http://blog.memsql.com/nosql/) - *01:36:56*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast606.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-606.html)

@@ -11,7 +11,7 @@ image = "https://radio-t.com/images/radio-t/rt178.jpg"
 
 - [SearchWiki](http://habrahabr.ru/blogs/google/87354/) весь вышел
 - Новое "[право на сеть](http://internet.cnews.ru/news/line/index.shtml?2010/03/09/382035)"
-- Прболемы зоны .[xxx](http://net.compulenta.ru/514172/)
+- Проблемы зоны .[xxx](http://net.compulenta.ru/514172/)
 - Очень много атак на одно [приложение](http://itc.ua/node/44783)
 - Twitter [следит](http://internetno.net/2010/03/11/twitter-nachal-sledit-za-ssyilkami/) за ссылками, для пользы дела
 - Странный [ридер](http://www.mobile-review.com/fullnews/main/2010/March/12.shtml#28554) от Google

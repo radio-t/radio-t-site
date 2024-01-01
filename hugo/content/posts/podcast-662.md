@@ -14,7 +14,7 @@ filename = "rt_podcast662"
 - [Samsung Galaxy Note 10 Plus против iPhone XS Max](https://www.digitaltrends.com/mobile/samsung-galaxy-note-10-plus-vs-iphone-xs-max/) - *01:18:54*.
 - [Темы слушателей](https://radio-t.com/p/2019/08/06/prep-662/) - *01:38:35*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast662.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-662.html)

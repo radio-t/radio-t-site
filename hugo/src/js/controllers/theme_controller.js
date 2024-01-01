@@ -6,7 +6,7 @@ export default class extends Controller {
     super.initialize();
 
     if (!this.isSaved()) {
-      window.matchMedia("(prefers-color-scheme: dark)").addListener((e) => {
+      window.matchMedia('(prefers-color-scheme: dark)').addListener((e) => {
         this.setTheme(e.matches ? 'dark' : 'light', false);
       });
     }
@@ -15,7 +15,7 @@ export default class extends Controller {
   isSaved() {
     try {
       return Boolean(localStorage.getItem('theme'));
-    } catch(e) {
+    } catch (e) {
       return false;
     }
   }
@@ -26,7 +26,7 @@ export default class extends Controller {
       link.media = '';
     } else {
       // Delay disabling to prevent FOUC
-      setTimeout(() => link.media = 'none', 100);
+      setTimeout(() => (link.media = 'none'), 100);
     }
   }
 
@@ -35,7 +35,9 @@ export default class extends Controller {
       if (save) {
         localStorage.setItem('theme', theme);
       }
-    } catch (e) {}
+    } catch (e) {
+      //
+    }
 
     const styles = [...document.querySelectorAll(`link[${titleAttribute}][rel~="stylesheet"]`)];
 
@@ -51,6 +53,6 @@ export default class extends Controller {
   }
 
   toggle() {
-    this.setTheme(window.RADIOT_THEME === 'dark' ? 'light' : 'dark')
+    this.setTheme(window.RADIOT_THEME === 'dark' ? 'light' : 'dark');
   }
 }

@@ -18,7 +18,7 @@ filename = "rt_podcast600"
 - [Первые жертвы GDPR](https://jacquesmattheij.com/so-your-start-up-receive-the-nightmare-gdpr-letter) - *01:46:18*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast600.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-600.html)

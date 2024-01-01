@@ -16,7 +16,7 @@ filename = "rt_podcast620"
 - [Helm для почти локальной почты](https://thehelm.com/) - *01:24:31*.
 - Темы наших слушателей
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast620.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-620.html)

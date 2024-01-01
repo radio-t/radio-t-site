@@ -9,7 +9,7 @@ filename = "rt_podcast408"
 
 ![](https://radio-t.com/images/radio-t/rt408.jpg)
 
-* [DigitalOcean продвигаeт CoreOS](http://techcrunch.com/2014/09/05/digitalocean-partners-with-coreos-to-bring-large-scale-cluster-deployments-to-its-platform/) в массы.
+* [DigitalOcean продвигает CoreOS](http://techcrunch.com/2014/09/05/digitalocean-partners-with-coreos-to-bring-large-scale-cluster-deployments-to-its-platform/) в массы.
 * [Страсти вокруг Markdown](http://habrahabr.ru/post/235611/).
 * [Если бы они были оружием ...](http://bjorn.tipling.com/if-programming-languages-were-weapons)
 * [ZooKeeper — Царь горы](http://prsm.tc/DAkIk2).
@@ -17,7 +17,7 @@ filename = "rt_podcast408"
 * [Скажем нет Акторам и прочим Green Threads на JVM](http://boundary.com/blog/2014/09/03/no-you-cant-have-a-pony/)
 * [Apache CouchDB](http://www.infoq.com/articles/apache-couchdb-the-definitive-introduction)
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast408.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-408.html)
 <audio src="https://cdn.radio-t.com/rt_podcast408.mp3" preload="none"></audio>

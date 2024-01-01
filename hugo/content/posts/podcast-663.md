@@ -18,7 +18,7 @@ filename = "rt_podcast663"
 - [В Chrome 77 и Firefox 70 будет прекращена маркировка EV сертификатов](http://www.opennet.ru/opennews/art.shtml?num=51271) - *01:33:36*.
 - [Темы наших слушателей](https://radio-t.com/p/2019/08/13/prep-663/) - *01:39:57*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [Skillfactory](https://clc.to/QCZe6A) и [TechTrain](https://techtrain.ru)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [Skillfactory](https://clc.to/QCZe6A) и [TechTrain](https://techtrain.ru)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast663.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-663.html)

@@ -19,7 +19,7 @@ filename = "rt_podcast581"
 - [Google Linux переходит на Debian](http://www.androidpolice.com/2018/01/19/googles-linux-workstations-switching-ubuntu-debian/) - *01:40:46*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast581.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-581.html)
 <audio src="https://cdn.radio-t.com/rt_podcast581.mp3" preload="none"></audio>

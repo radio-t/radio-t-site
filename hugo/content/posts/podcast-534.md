@@ -17,7 +17,7 @@ filename = "rt_podcast534"
 - [Роботы тоже должны платить](https://qz.com/911968/bill-gates-the-robot-that-takes-your-job-should-pay-taxes/) - *01:28:09*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast534.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-534.html)
 <audio src="https://cdn.radio-t.com/rt_podcast534.mp3" preload="none"></audio>

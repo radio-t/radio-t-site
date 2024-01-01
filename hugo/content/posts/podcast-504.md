@@ -17,7 +17,7 @@ filename = "rt_podcast504"
 - [Хобби проекты полезны](https://medium.com/@gammons/the-life-changing-benefits-of-side-projects-5e2fe47a8961).
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast504.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-504.html)
 <audio src="https://cdn.radio-t.com/rt_podcast504.mp3" preload="none"></audio>

@@ -16,7 +16,7 @@ filename = "rt_podcast668"
 - [ZenBook Pro Duo](https://www.engadget.com/2019/09/18/asus-zenbook-pro-duo-review/).
 - [Темы слушателей 668](https://radio-t.com/p/2019/09/17/prep-668/).
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast668.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-668.html)

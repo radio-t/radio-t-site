@@ -19,7 +19,7 @@ filename = "rt_podcast525"
 - [Amazon магазин в оффлайне](http://mashable.com/2016/12/05/amazon-go-shopping/) - *01:50:24*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast525.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-525.html)
 <audio src="https://cdn.radio-t.com/rt_podcast525.mp3" preload="none"></audio>

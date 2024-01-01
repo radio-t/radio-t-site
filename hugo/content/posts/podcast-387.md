@@ -10,7 +10,7 @@ filename = "rt_podcast387"
 ![](https://radio-t.com/images/radio-t/rt387.jpg)
 
 * [Heartbleed — баг века](http://heartbleed.com/).
-* [Немнго технического разговора](http://security.stackexchange.com/questions/55343/how-to-explain-heartbleed-without-technical-terms) на тему.
+* [Немного технического разговора](http://security.stackexchange.com/questions/55343/how-to-explain-heartbleed-without-technical-terms) на тему.
 * [NSA его использовало?](http://gizmodo.com/nsa-used-heartbleed-to-spy-on-people-for-years-1562307207?utm_campaign=socialflow_gizmodo_twitter&utm_source=).
 * [Выход MongoDB 2.6](http://docs.mongodb.org/manual/release-notes/2.6).
 * [Скажи нет NoSQL](http://technosophos.com/2014/04/11/nosql-no-more.html).

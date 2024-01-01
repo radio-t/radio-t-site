@@ -1,44 +1,55 @@
+import { h } from 'preact';
+import { useCallback, useEffect, useState } from 'preact/hooks';
 import http from 'axios';
 import locale from 'date-fns/locale/ru';
-import { distanceInWordsStrict, format, parse } from 'date-fns';
-import React, { useCallback, useEffect, useState } from 'react';
+import { formatDistanceToNowStrict, format, parseISO } from 'date-fns';
 import { getTextSnippet } from '../utils';
-
 const COMMENT_NODE_CLASSNAME_PREFIX = 'remark42__comment-';
 
-function Comment({comment}) {
-  const now = new Date();
-  const date = parse(comment.time);
-  const avatarStyle = comment.user.picture ? {backgroundImage: `url('${comment.user.picture}')`} : {};
-  const href = (new URL(comment.locator.url)).pathname + `#${COMMENT_NODE_CLASSNAME_PREFIX}${comment.id}`;
+function Comment({ comment }) {
+  const date = parseISO(comment.time);
+  const href = `${new URL(comment.locator.url).pathname}#${COMMENT_NODE_CLASSNAME_PREFIX}${
+    comment.id
+  }`;
 
-  return <div className="last-comments-list-item">
-    <div className="mb-3 text-content">
-      <a href={href}>{comment.title}</a>
-      <small className="text-muted"> &rarr;</small>
-    </div>
-    <div className="mb-2 media last-comments-header align-items-center">
-      <div className="last-comments-avatar mr-2">
-        <div className="last-comments-avatar-image" style={avatarStyle}/>
+  return (
+    <div className="last-comments-list-item">
+      <div className="mb-3 text-content">
+        <a href={href}>{comment.title}</a>
+        <small className="text-muted"> &rarr;</small>
       </div>
-      <div className="media-body">
-        <h5 className="m-0 small font-weight-bold">
-          {comment.user.name}
-          {comment.user.verified && <div className="last-comments-comment__verification"></div>}
-        </h5>
-        <a
-          href={href}
-          title={format(date, 'DD MMM YYYY, HH:mm', {locale})}
-          className="small text-muted"
-        >
-          {distanceInWordsStrict(now, date, {locale, addSuffix: true})}
-        </a>
+      <div className="mb-2 media last-comments-header align-items-center">
+        <div className="last-comments-avatar mr-2">
+          {comment.user.picture && (
+            <img
+              className="last-comments-avatar-image"
+              src={comment.user.picture}
+              alt={comment.user.name}
+              loading="lazy"
+              width={28}
+              height={28}
+            />
+          )}
+        </div>
+        <div className="media-body">
+          <h5 className="m-0 small font-weight-bold">
+            {comment.user.name}
+            {comment.user.verified && <div className="last-comments-comment__verification" />}
+          </h5>
+          <a
+            href={href}
+            title={format(date, 'dd MMM yyyy, HH:mm', { locale })}
+            className="small text-muted"
+          >
+            {formatDistanceToNowStrict(date, { locale, addSuffix: true })}
+          </a>
+        </div>
+      </div>
+      <div className="last-comments-text">
+        <a href={href}>{getTextSnippet(comment.text)}</a>
       </div>
     </div>
-    <div className="last-comments-text">
-      <a href={href}>{getTextSnippet(comment.text)}</a>
-    </div>
-  </div>;
+  );
 }
 
 function LastComments() {
@@ -46,7 +57,9 @@ function LastComments() {
 
   const updateComments = useCallback(async () => {
     try {
-      const {data} = await http.get('https://remark42.radio-t.com/api/v1/last/30', {params: {site: 'radiot'}});
+      const { data } = await http.get('https://remark42.radio-t.com/api/v1/last/30', {
+        params: { site: 'radiot' },
+      });
       setComments(data);
     } catch (e) {
       //
@@ -59,9 +72,13 @@ function LastComments() {
     return () => document.removeEventListener('turbolinks:visit', updateComments);
   }, [updateComments]);
 
-  return <div className="last-comments-list">{comments.map((comment) =>
-    <Comment comment={comment} key={comment.id}/>,
-  )}</div>;
+  return (
+    <div className="last-comments-list">
+      {comments.map((comment) => (
+        <Comment comment={comment} key={comment.id} />
+      ))}
+    </div>
+  );
 }
 
 export default LastComments;

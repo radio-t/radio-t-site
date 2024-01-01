@@ -15,7 +15,7 @@ filename = "rt_podcast666"
 - [В нашей комнате нет взрослых](https://letterstoanewdeveloper.com/2019/08/12/there-are-no-adults-in-the-room/) - *01:15:22*.
 - [Темы слушателей](https://radio-t.com/p/2019/09/03/prep-666/) - *01:26:41*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com), [JokerConf](https://jokerconf.com) и [Skillfactory](https://clc.to/7pxfZw)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot), [JokerConf](https://jokerconf.com) и [Skillfactory](https://clc.to/7pxfZw)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast666.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-666.html)

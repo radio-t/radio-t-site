@@ -16,7 +16,7 @@ filename = "rt_podcast550"
 - [YotaPhone 3 почти готов](https://www.theverge.com/circuitbreaker/2017/6/16/15821268/yotaphone-3-price-release-date) - *01:34:38*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 [аудио](https://cdn.radio-t.com/rt_podcast550.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-550.html)
 <audio src="https://cdn.radio-t.com/rt_podcast550.mp3" preload="none"></audio>

@@ -19,7 +19,7 @@ filename = "rt_podcast486"
 - [Как стать лучшим разработчиком](https://dzone.com/articles/8-ways-to-become-a-better-coder) - *01:43:04*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast486.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-486.html)
 <audio src="https://cdn.radio-t.com/rt_podcast486.mp3" preload="none"></audio>

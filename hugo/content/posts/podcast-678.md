@@ -20,7 +20,7 @@ filename = "rt_podcast678"
 - [Twitter пока передумал удалять](https://www.axios.com/twitter-pauses-plan-to-delete-inactive-accounts-56b33547-b3e6-421d-ba18-255073ff4190.html) - *01:38:29*.
 - [Темы слушателей 678](https://radio-t.com/p/2019/11/26/prep-678/) - *01:43:54*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast678.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-678.html)

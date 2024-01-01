@@ -16,7 +16,7 @@ image = "https://radio-t.com/images/radio-t/rt228.png"
 - Что вы видите в 30% фильмов и как [оно](http://www.crunchgear.com/2011/02/22/someone-at-apple-a-product-placement-genius-appearance-in-30-of-top-movies-in-2010/) туда попало
 - Очень грустное [обновление](http://arstechnica.com/microsoft/news/2011/02/everything-that-can-go-wrong-with-windows-phone-7-update-does.ars) Windows Phone 7
 - Уничтожь [е-книгу](http://www.readwriteweb.com/archives/this_library_e-book_will_self-destruct_after_26_ch.php), спаси бобра
-- [Видео](http://www.switched.com/2011/02/22/amazon-prime-now-offers-unlimited-streaming-video/) от амазаона почти бесплатно
+- [Видео](http://www.switched.com/2011/02/22/amazon-prime-now-offers-unlimited-streaming-video/) от амазона почти бесплатно
 - Атаки на [ЖЖ](http://www.gzt.ru/topnews/hitech/-sup-podtverdil-ddos-ataku-na-zhzh-/349586.html)
 - [Темы](/p/2011/02/21/prep-228/) наших слушателей
 

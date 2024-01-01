@@ -19,7 +19,7 @@ filename = "rt_podcast558"
 - [Миф Full Stack разработчика](https://www.themartec.com/insidelook/full-stack-developer-myth) - *01:51:41*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast558.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-558.html)

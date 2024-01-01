@@ -11,7 +11,7 @@ image = "https://radio-t.com/images/radio-t/rt126.png"
 
 - Главное событие недели [Xfce 4.6.0](http://www.osnews.com/story/21054/Xfce_4_6_0_Impresses_with_Slew_of_New_Features)
 - [Мini9](http://www.engadget.com/2009/02/27/dells-inspiron-mini-9-drops-to-a-delicious-199/) по неимоверной цене
-- Падения и нововедения [гугла](http://www.readwriteweb.com/archives/gmail_give_millions_a_holiday.php)
+- Падения и нововведения [гугла](http://www.readwriteweb.com/archives/gmail_give_millions_a_holiday.php)
 - [13 известных](http://paultiseo.wordpress.com/2009/02/18/top-13-funny-software-development-quotes/) и не очень аккордеонов
 - [Safari4](http://www.readwriteweb.com/archives/safari_4_review.php) здесь и он прекрасен
 - Тупиковая [русская ОС](http://webplanet.ru/news/soft/2009/02/26/communism.html)

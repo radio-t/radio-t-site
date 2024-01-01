@@ -15,7 +15,7 @@ filename = "rt_podcast680"
 - [20 лучших гаджетов 2019](https://www.theguardian.com/technology/2019/dec/08/the-20-best-gadgets-of-2019-bose-frames-applewatch-iphone-vax-rega-samsung-sonos) - *01:20:03*.
 - [Темы слушателей](https://radio-t.com/p/2019/12/10/prep-680/) - *02:01:40*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [atlas](https://atlas.ru/wgs?utm_source=podcast&utm_medium=special&utm_campaign=radio-t1219)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [atlas](https://atlas.ru/wgs?utm_source=podcast&utm_medium=special&utm_campaign=radio-t1219)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast680.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-680.html)

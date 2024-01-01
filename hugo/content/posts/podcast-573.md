@@ -19,7 +19,7 @@ filename = "rt_podcast573"
 - [Google следит за пользователями Android](https://qz.com/1131515/google-collects-android-users-locations-even-when-location-services-are-disabled/).
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast573.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-573.html)

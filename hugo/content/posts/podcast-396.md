@@ -19,7 +19,7 @@ filename = "rt_podcast396"
 - О машинках — про [такси](http://www.forbes.com/sites/jaymcgregor/2014/06/11/uber-sees-850-per-cent-increase-in-sign-ups-amidst-london-protests/) и [патенты](http://www.teslamotors.com/blog/all-our-patent-are-belong-you)
 - Темы наших пользователей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast396.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-396.html)
 <audio src="https://cdn.radio-t.com/rt_podcast396.mp3" preload="none"></audio>

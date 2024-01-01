@@ -1,4 +1,5 @@
 import find from 'lodash/find';
+
 import Controller from '../base_controller';
 import { composeTime, parseTime } from '../utils';
 
@@ -18,13 +19,13 @@ export default class extends Controller {
   timeLabels() {
     function isEmpty(child) {
       return (
-        (child.nodeName === '#text' && child.textContent.match(/^[\s\-.]+$/))
-        || (child.nodeName === 'BR')
+        (child.nodeName === '#text' && child.textContent.match(/^[\s\-.]+$/)) ||
+        child.nodeName === 'BR'
       );
     }
 
     for (let li of this.element.querySelectorAll('ul:first-of-type li')) {
-      let timeLabel = find(li.children, child => {
+      let timeLabel = find(li.children, (child) => {
         return child.tagName === 'EM' && child.textContent.match(/^(\d+:)?\d+:\d+$/);
       });
 
@@ -33,10 +34,10 @@ export default class extends Controller {
         timeLabel.textContent = composeTime(parseTime(timeLabel.textContent));
         timeLabel.dataset.action = `click->podcast#goToTimeLabel`;
         const icon = document.createElement('i');
-        icon.className = 'fas fa-step-forward fa-fw';
+        icon.innerHTML = `<svg width="18" height="18" viewBox="0 0 512 512"><use xlink:href="#icon-forward-step" /></svg>`;
         timeLabel.insertBefore(icon, timeLabel.firstChild);
       } else {
-        timeLabel = document.createElement('EM');
+        timeLabel = document.createElement('em');
       }
 
       // Remove empty nodes

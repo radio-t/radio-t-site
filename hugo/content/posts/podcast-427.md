@@ -20,7 +20,7 @@ filename = "rt_podcast427"
 * [Как измерить программиста](http://prsm.tc/DQUbJw)
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast427.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-427.html)
 <audio src="https://cdn.radio-t.com/rt_podcast427.mp3" preload="none"></audio>

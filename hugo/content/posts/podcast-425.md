@@ -16,7 +16,7 @@ filename = "rt_podcast425"
 * [EC2 Virtualization двигается от PV к HVM](http://prsm.tc/z7iEU6)
 - Темы наших слушателей
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast425.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-425.html)
 <audio src="https://cdn.radio-t.com/rt_podcast425.mp3" preload="none"></audio>

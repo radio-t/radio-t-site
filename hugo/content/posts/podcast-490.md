@@ -14,7 +14,7 @@ filename = "rt_podcast490"
 - [Microsoft Azure Functions](http://techcrunch.com/2016/03/31/microsoft-answers-aws-lambdas-event-triggered-serverless-apps-with-azure-functions/) - *01:29:14*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast490.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-490.html)
 <audio src="https://cdn.radio-t.com/rt_podcast490.mp3" preload="none"></audio>

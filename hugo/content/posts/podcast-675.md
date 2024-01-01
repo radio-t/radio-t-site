@@ -16,7 +16,7 @@ filename = "rt_podcast675"
 - [Android это тупик](https://www.digitaltrends.com/android/google-android-ecosystem-assistant-analysis/) - *01:46:41*.
 - [Темы слушателей](https://radio-t.com/p/2019/11/05/prep-675/) - *01:55:42*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast675.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-675.html)

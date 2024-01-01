@@ -13,7 +13,7 @@ filename = "rt_podcast358"
 * OpenZFS: по-настоящему открытый [преемник ZFS](http://habrahabr.ru/post/194168/).
 * [BlackBerry не удивил](http://press.blackberry.com/financial/2013/blackberry-announces-preliminary-second-quarter-fiscal-2014-resu.html).
 * [iOS 7 вышел](http://www.theguardian.com/technology/2013/sep/18/ios-7-review-apple)
-* Проблемы [облaка Apple](http://www.telegraph.co.uk/technology/apple/iphone/10319579/iOS-7-download-problems-as-Apples-servers-struggle.html).
+* Проблемы [облака Apple](http://www.telegraph.co.uk/technology/apple/iphone/10319579/iOS-7-download-problems-as-Apples-servers-struggle.html).
 * [Google представил Coder](http://habrahabr.ru/post/194012/).
 * Amazon выдал [локальный DynamoDB](http://gigaom.com/2013/09/13/amazon-goes-local-with-dynamodb-kinda/).
 

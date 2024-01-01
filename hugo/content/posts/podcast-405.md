@@ -18,7 +18,7 @@ filename = "rt_podcast405"
 * [Разоблачаем облачные мифы](http://cloudcomputing.sys-con.com/node/3150161).
 - Темы наших слушателей.
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [OnlyOffice](http://www.onlyoffice.com)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [OnlyOffice](http://www.onlyoffice.com)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast405.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-405.html)
 <audio src="https://cdn.radio-t.com/rt_podcast405.mp3" preload="none"></audio>

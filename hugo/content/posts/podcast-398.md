@@ -19,7 +19,7 @@ filename = "rt_podcast398"
 * [Как не мигрировать из AWS](http://instagram-engineering.tumblr.com/post/89992572022/migrating-aws-fb)
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast398.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-398.html)
 <audio src="https://cdn.radio-t.com/rt_podcast398.mp3" preload="none"></audio>

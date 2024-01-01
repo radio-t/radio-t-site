@@ -16,7 +16,7 @@ filename = "rt_podcast673"
 - [Jeff Bezos и PowerPoint](https://www.inc.com/geoffrey-james/jeff-bezos-banned-powerpoint-its-arguably-smartest-management-move-that-hes-ever-made.html) - *01:39:39*.
 - [Темы слушателей](https://radio-t.com/p/2019/10/23/prep-673/) - *01:47:19*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast673.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-673.html)

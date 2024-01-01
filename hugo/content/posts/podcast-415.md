@@ -11,7 +11,7 @@ filename = "rt_podcast415"
 
 * [10 лет Ubuntu](http://arstechnica.com/information-technology/2014/10/ten-years-of-ubuntu-how-linuxs-beloved-newcomer-became-its-criticized-king)
 * [Ubuntu 14.10](http://prsm.tc/s1aysS)
-* [Aнонсы облака Microsoft Azure](http://habrahabr.ru/company/microsoft/blog/241261/)
+* [Анонсы облака Microsoft Azure](http://habrahabr.ru/company/microsoft/blog/241261/)
 * [Как бороться за свои авторские права](http://www.csoonline.com/article/2837851/supply-chain-security/chipmaker-deliberately-cripples-user-devices-with-driver-update.h)
 * [Новость о Twitpic](http://blog.twitpic.com/2014/10/twitpics-future/)
 * [Twitter опять хочет дружить](http://www.marco.org/2014/10/20/wsj-twitter-peace-offering)
@@ -20,7 +20,7 @@ filename = "rt_podcast415"
 * [Bitcasa закрывает безлимит](http://techcrunch.com/2014/10/24/bitcasa-no-unlimited/)
 * [USB Security Key](http://www.extremetech.com/computing/192553-google-launches-usb-security-key-for-super-secure-two-step-verification)
 
-_Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [kato.im](https://kato.im)_
+_Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [kato.im](https://kato.im)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast415.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-415.html)
 <audio src="https://cdn.radio-t.com/rt_podcast415.mp3" preload="none"></audio>

@@ -19,7 +19,7 @@ filename = "rt_podcast489"
 - [Docker для Mac, скоро](https://blog.docker.com/2016/03/docker-for-mac-windows-beta/) - *01:26:24*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast489.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-489.html)
 <audio src="https://cdn.radio-t.com/rt_podcast489.mp3" preload="none"></audio>

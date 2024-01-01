@@ -19,7 +19,7 @@ filename = "rt_podcast517"
 - [MacBook Pro порадует в этом месяце](http://www.inquisitr.com/3596687/macbook-pro-2016-produces-huge-excitement-during-alleged-release-month/) - *01:29:45*.
 - Темы наших слушателей.
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast517.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-517.html)
 <audio src="https://cdn.radio-t.com/rt_podcast517.mp3" preload="none"></audio>

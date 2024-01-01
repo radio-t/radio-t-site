@@ -14,7 +14,7 @@ filename = "rt_podcast682"
 - [Эти 7 ушли от нас в 2019](https://www.usatoday.com/story/tech/2019/12/26/google-mac-itunes-7-tech-products-faded-away-2019/2715253001/) - *01:20:57*.
 - [Темы слушателей](https://radio-t.com/p/2019/12/24/prep-682/) - *01:49:00*.
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Atlas](https://atlas.ru/wgs?utm_source=podcast&utm_medium=special&utm_campaign=radio-t1219)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Atlas](https://atlas.ru/wgs?utm_source=podcast&utm_medium=special&utm_campaign=radio-t1219)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast682.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-682.html)

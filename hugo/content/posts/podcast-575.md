@@ -20,7 +20,7 @@ filename = "rt_podcast575"
 - [Google блокирует YouTube для Amazon](https://www.engadget.com/2017/12/05/google-blocking-youtube-on-amazon-echo-show-fire-tv/) - *01:46:36*.
 - Темы наших слушателей
 
-*Спонсоры этого выпуска [DigitalOcean](https://www.digitalocean.com) и [Vscale](http://bit.ly/radio-t_vscale)*
+*Спонсоры этого выпуска [DigitalOcean](https://do.co/radiot) и [Vscale](http://bit.ly/radio-t_vscale)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast575.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-575.html)

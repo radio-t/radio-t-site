@@ -18,7 +18,7 @@ filename = "rt_podcast529"
 - [Хакеры атакуют MongoDB](https://habrahabr.ru/company/pt/blog/319186/) - *01:37:03*.
 - Темы наших слушателей
 
-_Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)_
+_Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)_
 
 [аудио](https://cdn.radio-t.com/rt_podcast529.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-529.html)
 <audio src="https://cdn.radio-t.com/rt_podcast529.mp3" preload="none"></audio>

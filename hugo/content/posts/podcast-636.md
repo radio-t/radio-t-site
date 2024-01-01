@@ -17,7 +17,7 @@ filename = "rt_podcast636"
 - [Cloud Patron против Patreon](http://www.opennet.ru/opennews/art.shtml?num=50072) - *01:14:26*.
 - [Темы слушателей](https://radio-t.com/p/2019/02/05/prep-636/) - *01:20:45*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast636.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-636.html)

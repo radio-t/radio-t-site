@@ -16,7 +16,7 @@ filename = "rt_podcast628"
 - [Иди-ка ты на !@# со своей токсичностью](https://habr.com/post/432700/) - *01:27:15*.
 - [Темы наших слушателей](https://radio-t.com/p/2018/12/11/prep-628/) - *01:56:48*.
 
-*Спонсор этого выпуска [DigitalOcean](https://www.digitalocean.com)*
+*Спонсор этого выпуска [DigitalOcean](https://do.co/radiot)*
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast628.mp3) • [лог чата](http://chat.radio-t.com/logs/radio-t-628.html)
