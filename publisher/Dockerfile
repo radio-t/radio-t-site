@@ -1,5 +1,4 @@
 FROM umputun/baseimage:buildgo-latest as build
-
 ARG GIT_BRANCH
 ARG GITHUB_SHA
 ARG CI
@@ -8,11 +7,16 @@ ENV GOFLAGS="-mod=vendor"
 
 ADD . /build
 
-RUN cd /build/app && go test ./...
 RUN \
-    cd  /build/app && go build -o /build/bin/publisher -ldflags "-X main.revision=${REV} -s -w" &&\
-    ls -la /build/bin/publisher
+    cd /build/app &&\
+    go test ./...
 
+RUN \
+    if [ -z "$CI" ] ; then echo "runs outside of CI" && version=${REV}; \
+    else version=${GIT_BRANCH}-${GITHUB_SHA:0:7}-$(date +%Y%m%dT%H:%M:%S); fi && \
+    echo "version=$version" && \
+    cd  /build/app && go build -o /build/bin/publisher -ldflags "-X main.revision=${version} -s -w" &&\
+    ls -la /build/bin/publisher
 
 
 FROM umputun/baseimage:app-latest
@@ -32,12 +36,13 @@ RUN \
     rm spot_v1.12.0_linux_amd64.apk && \
     spot --version
 
-COPY --from=build  /build/bin/publisher /usr/local/bin/publisher
+COPY --from=build /build/bin/publisher /usr/local/bin/publisher
+COPY spot.yml /srv/spot.yml
 
 WORKDIR /srv/hugo
 USER app
 
 RUN git config --global --add safe.directory /srv
 
-CMD ["--list"]
+CMD ["-h"]
 ENTRYPOINT ["/usr/local/bin/publisher"]
