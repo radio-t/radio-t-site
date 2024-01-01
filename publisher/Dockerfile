@@ -18,7 +18,7 @@ RUN \
 FROM umputun/baseimage:app-latest
 
 RUN \
-    apk add --update openssh-client && \
+    apk add --update openssh-client git && \
     mkdir -p /home/app/.ssh && \
     echo "StrictHostKeyChecking=no" > /home/app/.ssh/config && \
     chown -R app:app /home/app/.ssh/ && \
