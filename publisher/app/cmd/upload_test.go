@@ -47,11 +47,12 @@ func TestUpload_Do(t *testing.T) {
 
 	require.Equal(t, 2, len(ex.RunCalls()))
 	assert.Equal(t, "spot", ex.RunCalls()[0].Cmd)
-	assert.Equal(t, []string{"-e mp3:/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3", "--task=\"deploy to master", "-v", "/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3"}, ex.RunCalls()[0].Params)
+	assert.Equal(t, []string{"-e mp3:/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3", "--task=\"deploy to master\"", "-v"},
+		ex.RunCalls()[0].Params)
 
 	assert.Equal(t, "spot", ex.RunCalls()[1].Cmd)
-	assert.Equal(t, 4, len(ex.RunCalls()[1].Params))
-	assert.Equal(t, []string{"-e mp3:/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3", "--task=\"deploy to nodes\"", "-v", "/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3"}, ex.RunCalls()[1].Params)
+	assert.Equal(t, []string{"-e mp3:/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3", "--task=\"deploy to nodes\"", "-v"},
+		ex.RunCalls()[1].Params)
 }
 
 func TestUpload_setMp3Tags(t *testing.T) {
@@ -124,12 +125,13 @@ func TestUpload_parseChapters(t *testing.T) {
 		{
 			name: "Valid chapters",
 			content: `
-- [Chapter One](http://example.com/one) - *00:01:00*.
-- [Chapter Two](http://example.com/two) - *00:02:30*.
+- [Часть номер One](http://example.com/one) - *00:01:00*.
+- [Часть номер Two](http://example.com/two) - *00:02:30*.
 `,
 			expected: []chapter{
-				{"Chapter One", "http://example.com/one", time.Minute},
-				{"Chapter Two", "http://example.com/two", time.Minute*2 + time.Second*30},
+				{"Вступление", "", 0},
+				{"Часть номер One", "http://example.com/one", time.Minute},
+				{"Часть номер Two", "http://example.com/two", time.Minute*2 + time.Second*30},
 			},
 			expectError: false,
 		},
@@ -193,6 +195,7 @@ filename = "rt_podcast686"
 `
 
 	expectedChapters := []chapter{
+		{"Вступление", "", 0},
 		{"Первому Macintosh 36 лет", "https://www.macrumors.com/2020/01/24/macintosh-36th-anniversary/", 4*time.Minute + 18*time.Second},
 		{"JetBrains придумает новую IntelliJ", "https://devclass.com/2020/01/21/jetbrains-reimagines-intellij-as-text-editor-machine-learning/", 11*time.Minute + 10*time.Second},
 		{"Мы учим не тому", "https://www.bloomberg.com/tosv2.html?vid=&uuid=59d32d10-31cd-11ea-a482-59e1177b04c0&url=L29waW5pb24vYXJ0aWNsZXMvMjAyMC0wMS0wNy9jb2RpbmctaXMtY29sbGFib3JhdGl2ZS1hbmQtc3RlbS1lZHVjYXRpb24tc2hvdWxkLWJlLXRvbw==", 28*time.Minute + 16*time.Second},

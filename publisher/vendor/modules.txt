@@ -17,6 +17,10 @@ github.com/pmezard/go-difflib/difflib
 ## explicit; go 1.20
 github.com/stretchr/testify/assert
 github.com/stretchr/testify/require
+# github.com/tcolgate/mp3 v0.0.0-20170426193717-e79c5a46d300
+## explicit
+github.com/tcolgate/mp3
+github.com/tcolgate/mp3/internal/data
 # github.com/umputun/go-flags v1.5.1
 ## explicit; go 1.12
 github.com/umputun/go-flags

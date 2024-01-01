@@ -59,7 +59,7 @@ func (c *ShellExecutor) Run(cmd string, params ...string) {
 
 // Do executes command and returns error if failed
 func (c *ShellExecutor) do(cmd string) error {
-	log.Printf("[DEBUG] execute: %s", cmd)
+	log.Printf("[INFO] execute: %s", cmd)
 	if c.Dry {
 		return nil
 	}

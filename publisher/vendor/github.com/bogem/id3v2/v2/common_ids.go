@@ -134,10 +134,9 @@ var (
 // parsing of corresponding frame.
 // You should consider that there is no text frame parser. That's why you should
 // check at first, if it's a text frame:
-//
-//		if strings.HasPrefix(id, "T") {
-//	 	...
-//		}
+//	if strings.HasPrefix(id, "T") {
+//  	...
+//	}
 var parsers = map[string]func(*bufReader, byte) (Framer, error){
 	"APIC": parsePictureFrame,
 	"CHAP": parseChapterFrame,

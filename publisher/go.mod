@@ -7,6 +7,7 @@ require (
 	github.com/go-pkgz/lgr v0.11.1
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.4
+	github.com/tcolgate/mp3 v0.0.0-20170426193717-e79c5a46d300
 	github.com/umputun/go-flags v1.5.1
 )
 

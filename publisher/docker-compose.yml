@@ -1,0 +1,21 @@
+
+services:
+  publisher:
+    image: radio-t/publisher
+    build: .
+    hostname: publisher
+    container_name: publisher
+    restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+    environment:
+      PYTHONPATH: /srv/publisher
+      RT_NEWS_ADMIN:
+    volumes:
+      - ../:/srv/
+      - /Volumes/Podcasts/radio-t:/episodes
+      - /Users/umputun/.ssh/id_rsa.pub:/home/app/.ssh/id_rsa.pub:ro
+      - /Users/umputun/.ssh/id_rsa:/home/app/.ssh/id_rsa:ro

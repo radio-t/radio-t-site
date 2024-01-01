@@ -27,8 +27,9 @@ var opts struct {
 	} `command:"prep" description:"make new prep podcast post"`
 
 	UploadCmd struct {
-		Location  string `long:"location" env:"LOCATION" default:"/Volumes/Podcasts/radio-t/" description:"podcast location"`
-		HugoPosts string `long:"hugo-posts" env:"HUGO_POSTS" default:"/srv/hugo/content/posts" description:"hugo posts location"`
+		Location     string `long:"location" env:"LOCATION" default:"/episodes" description:"podcast location"`
+		HugoPosts    string `long:"hugo-posts" env:"HUGO_POSTS" default:"/srv/hugo/content/posts" description:"hugo posts location"`
+		SkipTransfer bool   `long:"skip-transfer" env:"SKIP_TRANSFER" description:"skip transfer to remote locations"`
 	} `command:"upload" description:"upload podcast"`
 
 	DeployCmd struct {
@@ -58,7 +59,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("[ERROR] can't get last podcast number, %v", err)
 	}
-	log.Printf("[DEBUG] episode %d", episodeNum)
+	log.Printf("[DEBUG] dtected episode: %d", episodeNum)
 
 	if p.Active != nil && p.Command.Find("new") == p.Active {
 		runNew(episodeNum)
@@ -126,6 +127,7 @@ func runUpload(episodeNum int) {
 		Executor:      &cmd.ShellExecutor{Dry: opts.Dry},
 		LocationMp3:   opts.UploadCmd.Location,
 		LocationPosts: opts.UploadCmd.HugoPosts,
+		SkipTransfer:  opts.UploadCmd.SkipTransfer,
 		Dry:           opts.Dry,
 	}
 	if err := upload.Do(episodeNum); err != nil {

@@ -1,16 +1,20 @@
 package cmd
 
 import (
+	"bytes"
 	"embed"
 	"fmt"
+	"io"
 	"os"
 	"regexp"
 	"strconv"
 	"strings"
 	"time"
+	"unicode/utf8"
 
 	"github.com/bogem/id3v2/v2"
 	log "github.com/go-pkgz/lgr"
+	"github.com/tcolgate/mp3"
 )
 
 //go:embed artifacts/*
@@ -22,6 +26,7 @@ type Upload struct {
 	LocationMp3   string
 	LocationPosts string
 	Dry           bool
+	SkipTransfer  bool
 }
 
 // Do uploads an episode to all destinations. It takes an episode number as input and returns an error if any of the actions fail.
@@ -52,8 +57,13 @@ func (u *Upload) Do(episodeNum int) error {
 		log.Printf("[WARN] can't set mp3 tags for %s, %v", mp3file, err)
 	}
 
-	u.Run("spot", "-e mp3:"+mp3file, `--task="deploy to master`, "-v", mp3file)
-	u.Run("spot", "-e mp3:"+mp3file, `--task="deploy to nodes"`, "-v", mp3file)
+	if u.SkipTransfer {
+		log.Printf("[WARN] skip transfer of %s", mp3file)
+		return nil
+	}
+
+	u.Run("spot", "-e mp3:"+mp3file, `--task="deploy to master"`, "-v")
+	u.Run("spot", "-e mp3:"+mp3file, `--task="deploy to nodes"`, "-v")
 	return nil
 }
 
@@ -72,24 +82,29 @@ func (u *Upload) setMp3Tags(episodeNum int, chapters []chapter) error {
 	if u.Dry {
 		return nil
 	}
+
 	tag, err := id3v2.Open(mp3file, id3v2.Options{Parse: true})
 	if err != nil {
 		return fmt.Errorf("can't open mp3 file %s, %w", mp3file, err)
 	}
 	defer tag.Close()
 
-	tag.SetTitle(fmt.Sprintf("Радио-Т %d", episodeNum))
+	tag.DeleteAllFrames() // clear all existing tags
+
+	tag.SetDefaultEncoding(id3v2.EncodingUTF8)
+
+	title := fmt.Sprintf("Радио-Т %d", episodeNum)
+	tag.SetTitle(title)
 	tag.SetArtist("Umputun, Bobuk, Gray, Ksenks, Alek.sys")
 	tag.SetAlbum("Радио-Т")
 	tag.SetYear(fmt.Sprintf("%d", time.Now().Year()))
 	tag.SetGenre("Podcast")
-	tag.SetDefaultEncoding(id3v2.EncodingUTF8)
 
+	// Set artwork
 	artwork, err := artifactsFS.ReadFile("artifacts/cover.png")
 	if err != nil {
-		return fmt.Errorf("can't read cover.jpg from artifacts, %w", err)
+		return fmt.Errorf("can't read cover.png from artifacts, %w", err)
 	}
-
 	pic := id3v2.PictureFrame{
 		Encoding:    id3v2.EncodingUTF8,
 		MimeType:    "image/png",
@@ -99,13 +114,27 @@ func (u *Upload) setMp3Tags(episodeNum int, chapters []chapter) error {
 	}
 	tag.AddAttachedPicture(pic)
 
+	// we need to get mp3 duration to set the correct end time for the last chapter
+	duration, err := u.getMP3Duration(mp3file)
+	if err != nil {
+		return fmt.Errorf("can't get mp3 duration, %w", err)
+	}
+
+	// create a CTOC frame manually
+	ctocFrame := u.createCTOCFrame(chapters)
+	tag.AddFrame(tag.CommonID("CTOC"), ctocFrame)
+
+	// add chapters
 	for i, chapter := range chapters {
 		var endTime time.Duration
 		if i < len(chapters)-1 {
-			// use the start time of the next chapter as the end time
 			endTime = chapters[i+1].Begin
 		} else {
-			endTime = 0
+			endTime = duration
+		}
+		chapterTitle := chapter.Title
+		if !utf8.ValidString(chapterTitle) {
+			return fmt.Errorf("chapter title contains invalid UTF-8 characters")
 		}
 		chapFrame := id3v2.ChapterFrame{
 			ElementID:   strconv.Itoa(i + 1),
@@ -115,11 +144,11 @@ func (u *Upload) setMp3Tags(episodeNum int, chapters []chapter) error {
 			EndOffset:   id3v2.IgnoredOffset,
 			Title: &id3v2.TextFrame{
 				Encoding: id3v2.EncodingUTF8,
-				Text:     chapter.Title,
+				Text:     chapterTitle,
 			},
 			Description: &id3v2.TextFrame{
 				Encoding: id3v2.EncodingUTF8,
-				Text:     chapter.Title,
+				Text:     chapterTitle,
 			},
 		}
 		tag.AddChapterFrame(chapFrame)
@@ -152,8 +181,11 @@ func (u *Upload) parseChapters(content string) ([]chapter, error) {
 		return time.Duration(hours)*time.Hour + time.Duration(minutes)*time.Minute + time.Duration(seconds)*time.Second, nil
 	}
 
-	chapters := []chapter{}
-	// - [Chapter One](http://example.com/one) - *00:01:00*.
+	chapters := []chapter{
+		{Title: "Вступление", Begin: 0},
+	}
+
+	// get form md like this "- [Chapter One](http://example.com/one) - *00:01:00*."
 	chapterRegex := regexp.MustCompile(`-\s+\[(.*?)\]\((.*?)\)\s+-\s+\*(.*?)\*\.`)
 	matches := chapterRegex.FindAllStringSubmatch(content, -1)
 	for _, match := range matches {
@@ -174,6 +206,45 @@ func (u *Upload) parseChapters(content string) ([]chapter, error) {
 			})
 		}
 	}
-
+	if len(chapters) == 1 {
+		return []chapter{}, nil // no chapters found, don't return the introduction chapter
+	}
 	return chapters, nil
+}
+
+func (u *Upload) getMP3Duration(filePath string) (time.Duration, error) {
+	file, err := os.Open(filePath)
+	if err != nil {
+		return 0, err
+	}
+	defer file.Close()
+	d := mp3.NewDecoder(file)
+	var f mp3.Frame
+	var skipped int
+	var duration float64
+
+	for err == nil {
+		if err = d.Decode(&f, &skipped); err != nil && err != io.EOF {
+			log.Printf("[WARN] can't get duration for provided stream: %v", err)
+			return 0, nil
+		}
+		duration += f.Duration().Seconds()
+	}
+	return time.Second * time.Duration(duration), nil
+}
+
+func (u *Upload) createCTOCFrame(chapters []chapter) *id3v2.UnknownFrame {
+	var frameBody bytes.Buffer
+	frameBody.WriteByte(0x03)                // write flags (e.g., 0x03 for top-level and ordered chapters)
+	frameBody.WriteByte(byte(len(chapters))) // write the number of child elements
+
+	// append child element IDs (chapter IDs)
+	for i, _ := range chapters {
+		elementID := fmt.Sprintf("%d", i+1)
+		frameBody.WriteString(elementID)
+		frameBody.WriteByte(0x00) // Null separator for IDs
+	}
+
+	// create and return an UnknownFrame with the constructed body
+	return &id3v2.UnknownFrame{Body: frameBody.Bytes()}
 }
