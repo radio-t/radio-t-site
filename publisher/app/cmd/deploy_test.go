@@ -40,8 +40,9 @@ func TestDeploy_Do(t *testing.T) {
 	assert.Equal(t, `cd /srv/site.hugo && git pull && docker-compose run --rm hugo`, ex.RunCalls()[1].Params[0])
 
 	assert.Equal(t, `ssh umputun@master.radio-t.com`, ex.RunCalls()[2].Cmd)
-	assert.Equal(t, []string{"docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayodesa --dbg --export-num=123 --export-path=/srv/html"}, ex.RunCalls()[2].Params)
-
+	assert.Equal(t, []string{"docker exec -i super-bot /srv/telegram-rt-bot " +
+		"--super=umputun --super=bobuk --super=ksenks --super=grayodesa --super=aleks_sys " +
+		"--dbg --export-num=123 --export-path=/srv/html"}, ex.RunCalls()[2].Params)
 }
 
 func TestDeploy_archiveNews(t *testing.T) {

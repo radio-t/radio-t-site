@@ -21,7 +21,7 @@ type Deploy struct {
 	Dry        bool
 }
 
-var supers = []string{"umputun", "bobuk", "ksenks", "grayodesa"}
+var superUsersTelegram = []string{"umputun", "bobuk", "ksenks", "grayodesa", "aleks_sys"}
 
 // Do performs a series of actions to deploy a new episode.
 // It takes an episode number as input and returns an error if any of the actions fail.
@@ -39,7 +39,7 @@ func (d *Deploy) Do(episodeNum int) error {
 
 	log.Printf("[INFO] create chat log")
 	slParams := []string{}
-	for _, s := range supers {
+	for _, s := range superUsersTelegram {
 		slParams = append(slParams, fmt.Sprintf("--super=%s", s))
 	}
 	d.Run("ssh umputun@master.radio-t.com", fmt.Sprintf(`docker exec -i super-bot /srv/telegram-rt-bot %s --dbg --export-num=%d --export-path=/srv/html`,

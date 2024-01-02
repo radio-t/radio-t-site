@@ -33,11 +33,6 @@ type Proc struct {
 var authors = []string{"Umputun", "Bobuk", "Gray", "Ksenks", "Alek.sys"}
 
 // Do uploads an episode to all destinations. It takes an episode number as input and returns an error if any of the actions fail.
-// It performs the following actions:
-//  1. Set mp3 tags.
-//  2. Deploy to master.
-//  3. Deploy to nodes.
-//
 // deploy performed by spot tool, see spot.yml
 func (p *Proc) Do(episodeNum int) error {
 	log.Printf("[INFO] upload episode %d, mp3 location:%q, posts location:%q", episodeNum, p.LocationMp3, p.LocationPosts)
@@ -226,6 +221,8 @@ func (p *Proc) parseChapters(content string) ([]chapter, error) {
 	return chapters, nil
 }
 
+// getMP3Duration returns the duration of an MP3 file given its file path.
+// It takes the file path as an input and returns the duration as a time.Duration and an error if any.
 func (p *Proc) getMP3Duration(filePath string) (time.Duration, error) {
 	file, err := os.Open(filePath)
 	if err != nil {

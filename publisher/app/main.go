@@ -60,26 +60,29 @@ func main() {
 
 	setupLog(opts.Dbg)
 
-	episodeNum, err := episode()
-	if err != nil {
-		log.Fatalf("[ERROR] can't get last podcast number, %v", err)
+	episodeNum := func() int {
+		num, err := episode()
+		if err != nil {
+			log.Fatalf("[ERROR] can't get last podcast number, %v", err)
+		}
+		log.Printf("[DEBUG] detcted episode: %d", num)
+		return num
 	}
-	log.Printf("[DEBUG] detcted episode: %d", episodeNum)
 
 	if p.Active != nil && p.Command.Find("new") == p.Active {
-		runNew(episodeNum)
+		runNew(episodeNum())
 	}
 
 	if p.Active != nil && p.Command.Find("prep") == p.Active {
-		runPrep(episodeNum)
+		runPrep(episodeNum())
 	}
 
 	if p.Active != nil && p.Command.Find("proc") == p.Active {
-		runProc(episodeNum)
+		runProc(episodeNum())
 	}
 
 	if p.Active != nil && p.Command.Find("deploy") == p.Active {
-		runDeploy(episodeNum)
+		runDeploy(episodeNum())
 	}
 
 	if p.Active != nil && p.Command.Find("tags") == p.Active {
