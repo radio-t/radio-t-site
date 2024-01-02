@@ -106,7 +106,7 @@ func TestProc_setMp3Tags(t *testing.T) {
 
 		chapterFrames := tag.GetFrames(tag.CommonID("CHAP"))
 		require.Len(t, chapterFrames, 2)
-		assert.Equal(t, "1", chapterFrames[0].(id3v2.ChapterFrame).ElementID)
+		assert.Equal(t, "chp0", chapterFrames[0].(id3v2.ChapterFrame).ElementID)
 		assert.Equal(t, "Chapter One", chapterFrames[0].(id3v2.ChapterFrame).Title.Text)
 		assert.Equal(t, time.Second, chapterFrames[0].(id3v2.ChapterFrame).StartTime)
 		assert.Equal(t, 5*time.Second, chapterFrames[0].(id3v2.ChapterFrame).EndTime)
