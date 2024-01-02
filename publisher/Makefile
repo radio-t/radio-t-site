@@ -25,7 +25,10 @@ prep-show-post:
 	@docker-compose run --rm -it publisher prep | tee ${TMPFILE};
 	@${subl} ${makefile_dir}/../hugo/`tail -n 1 ${TMPFILE} | tr -d '\r'`;
 
-# set necessary tags to episode mp3 file and upload it to master and all nodes
+# show tags for mp3 file
+show-tags:
+	@docker-compose run --rm -it publisher tags --file="$$FILE" --dbg
+
 proc-mp3:
 	@docker-compose run --rm -it publisher proc --file="$$FILE"
 
