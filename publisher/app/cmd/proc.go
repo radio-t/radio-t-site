@@ -30,6 +30,8 @@ type Proc struct {
 	SkipTransfer  bool
 }
 
+var authors = []string{"Umputun", "Bobuk", "Gray", "Ksenks", "Alek.sys"}
+
 // Do uploads an episode to all destinations. It takes an episode number as input and returns an error if any of the actions fail.
 // It performs the following actions:
 //  1. Set mp3 tags.
@@ -97,7 +99,7 @@ func (p *Proc) setMp3Tags(episodeNum int, chapters []chapter) error {
 
 	title := fmt.Sprintf("Радио-Т %d", episodeNum)
 	tag.SetTitle(title)
-	tag.SetArtist("Umputun, Bobuk, Gray, Ksenks, Alek.sys")
+	tag.SetArtist(strings.Join(authors, ", "))
 	tag.SetAlbum("Радио-Т")
 	tag.SetYear(fmt.Sprintf("%d", time.Now().Year()))
 	tag.SetGenre("Podcast")
@@ -108,11 +110,11 @@ func (p *Proc) setMp3Tags(episodeNum int, chapters []chapter) error {
 		return fmt.Errorf("can't read cover.png from artifacts, %w", err)
 	}
 	pic := id3v2.PictureFrame{
-		Encoding:    id3v2.EncodingUTF8,
 		MimeType:    "image/png",
 		PictureType: id3v2.PTFrontCover,
 		Description: "Front Cover",
 		Picture:     artwork,
+		Encoding:    id3v2.EncodingUTF8,
 	}
 	tag.AddAttachedPicture(pic)
 
@@ -127,9 +129,14 @@ func (p *Proc) setMp3Tags(episodeNum int, chapters []chapter) error {
 	tag.AddFrame(tag.CommonID("CTOC"), ctocFrame)
 
 	// add other tags
-	tag.AddFrame("TLEN", id3v2.TextFrame{Encoding: id3v2.EncodingISO, Text: strconv.FormatInt(duration.Milliseconds(), 10)})
-	tag.AddFrame("TYER", id3v2.TextFrame{Encoding: id3v2.EncodingISO, Text: fmt.Sprintf("%d", time.Now().Year())})
-	tag.AddFrame("TENC", id3v2.TextFrame{Encoding: id3v2.EncodingISO, Text: "Forecast"})
+	tag.AddFrame("TLEN", id3v2.TextFrame{Encoding: id3v2.EncodingUTF8, Text: strconv.FormatInt(duration.Milliseconds(), 10)})
+	tag.AddFrame("TYER", id3v2.TextFrame{Encoding: id3v2.EncodingUTF8, Text: fmt.Sprintf("%d", time.Now().Year())})
+	tag.AddFrame("TENC", id3v2.TextFrame{Encoding: id3v2.EncodingUTF8, Text: "Publisher"})
+
+	tag.AddTextFrame(tag.CommonID("TRCK"), id3v2.EncodingUTF8, strconv.Itoa(episodeNum))
+	tag.AddTextFrame(tag.CommonID("TCON"), id3v2.EncodingUTF8, "Podcast")
+	tag.AddTextFrame(tag.CommonID("TCOP"), id3v2.EncodingUTF8, "Some rights reserved, Radio-T")
+	tag.AddTextFrame(tag.CommonID("WXXX"), id3v2.EncodingUTF8, "https://radio-t.com")
 
 	// add chapters
 	for i, chapter := range chapters {
@@ -150,11 +157,7 @@ func (p *Proc) setMp3Tags(episodeNum int, chapters []chapter) error {
 			StartOffset: id3v2.IgnoredOffset,
 			EndOffset:   id3v2.IgnoredOffset,
 			Title: &id3v2.TextFrame{
-				Encoding: id3v2.EncodingUTF16,
-				Text:     chapterTitle,
-			},
-			Description: &id3v2.TextFrame{
-				Encoding: id3v2.EncodingUTF16,
+				Encoding: id3v2.EncodingUTF8,
 				Text:     chapterTitle,
 			},
 		}
@@ -245,9 +248,7 @@ func (p *Proc) getMP3Duration(filePath string) (time.Duration, error) {
 }
 
 // createCTOCFrame creates a CTOC frame for the given list of chapters in the provided mp3 file.
-// Note: all this insanity is an attempt to make CTOC frames because id3v2 doesn't support it directly.
-// It also is trying to replicate the behavior of the Python script that was used to create CTOC frames before this.
-// Another reference for this code was the output of Forecast app, which also creates proper chapter frames and CTOC frames.
+// Making CTOC frames manually needed because id3v2 doesn't support it directly.
 func (p *Proc) createCTOCFrame(chapters []chapter) *id3v2.UnknownFrame {
 	var frameBody bytes.Buffer
 
@@ -268,7 +269,6 @@ func (p *Proc) createCTOCFrame(chapters []chapter) *id3v2.UnknownFrame {
 		frameBody.WriteString(elementID)
 		frameBody.WriteByte(0x00) // Null separator for IDs
 	}
-
 	// create and return an UnknownFrame with the constructed body
 	return &id3v2.UnknownFrame{Body: frameBody.Bytes()}
 }
@@ -284,10 +284,26 @@ func (p *Proc) ShowAllTags(fname string) {
 	defer tag.Close()
 	frames := tag.AllFrames()
 
-	for name, frame := range frames {
+	for name, frameSlice := range frames {
 		if name == "APIC" {
 			continue
 		}
-		log.Printf("[DEBUG] frame %s: %+v", name, frame)
+
+		for _, frame := range frameSlice {
+			switch f := frame.(type) {
+			case id3v2.ChapterFrame:
+				log.Printf("[DEBUG] frame %s: ElementID:%s StartTime:%v EndTime:%v StartOffset:%v EndOffset:%v",
+					name, f.ElementID, f.StartTime, f.EndTime, f.StartOffset, f.EndOffset)
+
+				if f.Title != nil {
+					log.Printf("[DEBUG] CHAP Title: Encoding:%+v Text:%s", f.Title.Encoding, f.Title.Text)
+				}
+				if f.Description != nil {
+					log.Printf("[DEBUG] CHAP Description: Encoding:%+v Text:%s", f.Description.Encoding, f.Description.Text)
+				}
+			default:
+				log.Printf("[DEBUG] frame %s: %+v", name, frame)
+			}
+		}
 	}
 }
