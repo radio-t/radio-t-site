@@ -32,7 +32,7 @@ var superUsersTelegram = []string{"umputun", "bobuk", "ksenks", "grayodesa", "al
 //  4. Archive the news.
 func (d *Deploy) Do(episodeNum int) error {
 	log.Printf("[INFO] commit new episode to git")
-	d.Run(fmt.Sprintf(`git pull && git commit -am "episode %d" && git push`, episodeNum))
+	d.Run(fmt.Sprintf(`git pull && git add . && git commit -m "episode %d" && git push`, episodeNum))
 
 	log.Printf("[INFO] remote site update")
 	d.Run("ssh umputun@master.radio-t.com",
