@@ -42,7 +42,11 @@ tasks:
       options: {local: true}
 
     - name: copy mp3 file
-      copy: {src: "$mp3", dst: "$DST_MP3_FILE_NAME", mkdir: true}
+      copy: {src: "$mp3", dst: "$DST_MP3_FILE_NAME", mkdir: true, force: true}
+
+    - name: set permissions
+      script: chmod 644 $DST_MP3_FILE_NAME
+      options: {sudo: true}
 
     - name: clean old files
       script: find /srv/media/radio-t -type f -mtime +60 -mtime -1200 -iname *.mp3 -exec rm {} \;

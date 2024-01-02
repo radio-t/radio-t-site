@@ -62,8 +62,8 @@ func (p *Proc) Do(mp3file string) error {
 		return nil
 	}
 
-	p.Run("spot", "-p /etc/spot.yml", "-e mp3:"+mp3file, `--task="deploy to master"`, "-v")
-	p.Run("spot", "-p /etc/spot.yml", "-e mp3:"+mp3file, `--task="deploy to nodes"`, "-v")
+	p.Run("spot", "-p /etc/spot.yml", "-e mp3:"+mp3file, `--task="deploy to master"`)
+	p.Run("spot", "-p /etc/spot.yml", "-e mp3:"+mp3file, `--task="deploy to nodes"`, "-c 2")
 	return nil
 }
 

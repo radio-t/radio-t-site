@@ -27,7 +27,7 @@ prep-show-post:
 
 # set necessary tags to episode mp3 file and upload it to master and all nodes
 proc-mp3:
-	@docker-compose run --rm -it publisher proc --file="$$FILE" --dbg
+	@docker-compose run --rm -it publisher proc --file="$$FILE"
 
 # deploy new podcast episode page to https://radio-t.com and regenerate site
 deploy-site:

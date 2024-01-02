@@ -47,11 +47,11 @@ func TestProc_Do(t *testing.T) {
 	require.Equal(t, 2, len(ex.RunCalls()))
 	assert.Equal(t, "spot", ex.RunCalls()[0].Cmd)
 	assert.Equal(t, []string{"-p /etc/spot.yml", "-e mp3:/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3",
-		"--task=\"deploy to master\"", "-v"}, ex.RunCalls()[0].Params)
+		"--task=\"deploy to master\""}, ex.RunCalls()[0].Params)
 
 	assert.Equal(t, "spot", ex.RunCalls()[1].Cmd)
 	assert.Equal(t, []string{"-p /etc/spot.yml", "-e mp3:/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3",
-		"--task=\"deploy to nodes\"", "-v"}, ex.RunCalls()[1].Params)
+		"--task=\"deploy to nodes\"", "-c 2"}, ex.RunCalls()[1].Params)
 }
 
 func TestProc_setMp3Tags(t *testing.T) {
