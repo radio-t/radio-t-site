@@ -126,7 +126,6 @@ func (p *Proc) setMp3Tags(mp3file string, episodeNum int, chapters []chapter) er
 
 	// add other tags
 	tag.AddFrame("TLEN", id3v2.TextFrame{Encoding: id3v2.EncodingUTF8, Text: strconv.FormatInt(duration.Milliseconds(), 10)})
-	tag.AddFrame("TYER", id3v2.TextFrame{Encoding: id3v2.EncodingUTF8, Text: fmt.Sprintf("%d", time.Now().Year())})
 	tag.AddFrame("TENC", id3v2.TextFrame{Encoding: id3v2.EncodingUTF8, Text: "Publisher"})
 
 	tag.AddTextFrame(tag.CommonID("TRCK"), id3v2.EncodingUTF8, strconv.Itoa(episodeNum))
