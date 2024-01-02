@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 SHELL:=/bin/bash
 .ONESHELL:
-.PHONY: new prep print-mp3-tags upload-mp3 deploy build
+.PHONY: new-show-post prep-show-post proc-mp3 deploy-site build
 
 TMPFILE := $(shell mktemp)
 makefile_dir := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
@@ -13,26 +13,26 @@ GITREV=$(shell git describe --abbrev=7 --always --tags)
 REV=$(GITREV)-$(BRANCH)-$(shell date +%Y%m%d-%H:%M:%S)
 
 help:
-	@echo 'available commands: new, prep, upload-mp3, deploy'
+	@echo 'available commands: new-show-post, prep-show-post, proc-mp3, deploy-site'
 
 # generate new episode post markdown file and open it using SublimeText 
-new:
+new-episode:
 	@docker-compose run --rm -it publisher new | tee ${TMPFILE};
 	@${subl} ${makefile_dir}/../hugo/`tail -n 1 ${TMPFILE} | tr -d '\r'`;
 
 # generate new prep post markdown file and open it using SublimeText 
-prep:
+prep-show-post:
 	@docker-compose run --rm -it publisher prep | tee ${TMPFILE};
 	@${subl} ${makefile_dir}/../hugo/`tail -n 1 ${TMPFILE} | tr -d '\r'`;
 
 # set necessary tags to episode mp3 file and upload it to master and all nodes
-proc:
-	@docker-compose run --rm -it publisher proc --episode="$$EPISODE" --dbg
+proc-mp3:
+	@docker-compose run --rm -it publisher proc --file="$$FILE" --dbg
 
 # deploy new podcast episode page to https://radio-t.com and regenerate site
-deploy:
+deploy-site:
 	@docker-compose run --rm -it publisher deploy
 
 build:
 	@echo $(REV)
-	@docker build -t publisher --build-arg REV=$(REV) .
+	@docker build -t radio-t/publisher --build-arg REV=$(REV) .

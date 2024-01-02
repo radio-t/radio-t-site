@@ -28,7 +28,7 @@ var opts struct {
 	} `command:"prep" description:"make new prep podcast post"`
 
 	ProcessCmd struct {
-		Location     string `long:"location" env:"LOCATION" default:"/episodes" description:"podcast location"`
+		File         string `long:"file" env:"FILE" description:"mp3 file name"`
 		HugoPosts    string `long:"hugo-posts" env:"HUGO_POSTS" default:"/srv/hugo/content/posts" description:"hugo posts location"`
 		SkipTransfer bool   `long:"skip-transfer" env:"SKIP_TRANSFER" description:"skip transfer to remote locations"`
 	} `command:"proc" description:"proces podcast - tag mp3 and upload"`
@@ -78,7 +78,7 @@ func main() {
 	}
 
 	if p.Active != nil && p.Command.Find("proc") == p.Active {
-		runProc(episodeNum())
+		runProc()
 	}
 
 	if p.Active != nil && p.Command.Find("deploy") == p.Active {
@@ -134,18 +134,17 @@ func runPrep(episodeNum int) {
 	fmt.Printf("%s/prep-%d.md", opts.PrepShowCmd.Dest, episodeNum) // don't delete! used by external callers
 }
 
-func runProc(episodeNum int) {
+func runProc() {
 	proc := cmd.Proc{
 		Executor:      &cmd.ShellExecutor{Dry: opts.Dry},
-		LocationMp3:   opts.ProcessCmd.Location,
 		LocationPosts: opts.ProcessCmd.HugoPosts,
 		SkipTransfer:  opts.ProcessCmd.SkipTransfer,
 		Dry:           opts.Dry,
 	}
-	if err := proc.Do(episodeNum); err != nil {
-		log.Fatalf("[ERROR] failed to proc #%d, %v", episodeNum, err)
+	if err := proc.Do(opts.ProcessCmd.File); err != nil {
+		log.Fatalf("[ERROR] failed to proc %s, %v", opts.ProcessCmd.File, err)
 	}
-	log.Printf("[INFO] deployed #%d", episodeNum)
+	log.Printf("[INFO] processsed %s", opts.ProcessCmd.File)
 }
 
 func runTags() {

@@ -1,3 +1,4 @@
+user: umputun
 targets:
   nodes:
     hosts: [{host: "n10.radio-t.com"}, {host: "n11.radio-t.com"}]

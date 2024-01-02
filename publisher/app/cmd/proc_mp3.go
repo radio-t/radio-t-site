@@ -24,7 +24,6 @@ var artifactsFS embed.FS
 // Proc handles podcast upload to all destinations. It sets mp3 tags first and then deploys to master and nodes via spot tool.
 type Proc struct {
 	Executor
-	LocationMp3   string
 	LocationPosts string
 	Dry           bool
 	SkipTransfer  bool
@@ -32,12 +31,15 @@ type Proc struct {
 
 var authors = []string{"Umputun", "Bobuk", "Gray", "Ksenks", "Alek.sys"}
 
-// Do uploads an episode to all destinations. It takes an episode number as input and returns an error if any of the actions fail.
-// deploy performed by spot tool, see spot.yml
-func (p *Proc) Do(episodeNum int) error {
-	log.Printf("[INFO] upload episode %d, mp3 location:%q, posts location:%q", episodeNum, p.LocationMp3, p.LocationPosts)
-	mp3file := filepath.Join(p.LocationMp3, fmt.Sprintf("rt_podcast%d", episodeNum), fmt.Sprintf("rt_podcast%d.mp3", episodeNum))
-	log.Printf("[DEBUG] mp3 file %s", mp3file)
+// Do uploads an episode to all destinations. It takes the filename and extracts episode from this filename.
+// Set all the mp3 tags and add chapters. Then deploy to master and nodes. Deploy performed by spot tool, see spot.yml
+func (p *Proc) Do(mp3file string) error {
+	episodeNum, err := episodeFromFile(mp3file)
+	if err != nil {
+		return fmt.Errorf("can't get episode number from file %s, %w", mp3file, err)
+	}
+
+	log.Printf("[INFO] process file %s, episode %d, posts location:%q", mp3file, episodeNum, p.LocationPosts)
 	hugoPost := fmt.Sprintf("%s/podcast-%d.md", p.LocationPosts, episodeNum)
 	log.Printf("[DEBUG] hugo post file %s", hugoPost)
 	posstContent, err := os.ReadFile(hugoPost)
@@ -50,7 +52,7 @@ func (p *Proc) Do(episodeNum int) error {
 	}
 	log.Printf("[DEBUG] chapters %v", chapters)
 
-	err = p.setMp3Tags(episodeNum, chapters)
+	err = p.setMp3Tags(mp3file, episodeNum, chapters)
 	if err != nil {
 		log.Printf("[WARN] can't set mp3 tags for %s, %v", mp3file, err)
 	}
@@ -60,8 +62,8 @@ func (p *Proc) Do(episodeNum int) error {
 		return nil
 	}
 
-	p.Run("spot", "-e mp3:"+mp3file, `--task="deploy to master"`, "-v")
-	p.Run("spot", "-e mp3:"+mp3file, `--task="deploy to nodes"`, "-v")
+	p.Run("spot", "-p /etc/spot.yml", "-e mp3:"+mp3file, `--task="deploy to master"`, "-v")
+	p.Run("spot", "-p /etc/spot.yml", "-e mp3:"+mp3file, `--task="deploy to nodes"`, "-v")
 	return nil
 }
 
@@ -74,8 +76,7 @@ type chapter struct {
 
 // setMp3Tags sets mp3 tags for a given episode. It uses artifactsFS to read cover.jpg
 // and uses the chapter information to set the chapter tags.
-func (p *Proc) setMp3Tags(episodeNum int, chapters []chapter) error {
-	mp3file := fmt.Sprintf("%s/rt_podcast%d/rt_podcast%d.mp3", p.LocationMp3, episodeNum, episodeNum)
+func (p *Proc) setMp3Tags(mp3file string, episodeNum int, chapters []chapter) error {
 	log.Printf("[INFO] set mp3 tags for %s", mp3file)
 	if p.Dry {
 		return nil
@@ -303,4 +304,15 @@ func (p *Proc) ShowAllTags(fname string) {
 			}
 		}
 	}
+}
+
+// episodeFromFile takes full path to mp3 file and returns episode number
+func episodeFromFile(mp3Location string) (int, error) {
+	name := filepath.Base(mp3Location)
+	re := regexp.MustCompile(`rt_podcast(\d+)\.mp3`)
+	matches := re.FindStringSubmatch(name)
+	if len(matches) != 2 {
+		return 0, fmt.Errorf("can't find episode number in %s", mp3Location)
+	}
+	return strconv.Atoi(matches[1])
 }

@@ -37,7 +37,7 @@ RUN \
     spot --version
 
 COPY --from=build /build/bin/publisher /usr/local/bin/publisher
-COPY spot.yml /srv/spot.yml
+COPY spot.yml /etc/spot.yml
 
 WORKDIR /srv/hugo
 USER app

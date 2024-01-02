@@ -38,21 +38,20 @@ func TestProc_Do(t *testing.T) {
 
 	d := Proc{
 		Executor:      ex,
-		LocationMp3:   tempDir,
 		LocationPosts: "testdata",
 	}
 
-	err = d.Do(123)
+	err = d.Do("/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3")
 	require.NoError(t, err)
 
 	require.Equal(t, 2, len(ex.RunCalls()))
 	assert.Equal(t, "spot", ex.RunCalls()[0].Cmd)
-	assert.Equal(t, []string{"-e mp3:/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3", "--task=\"deploy to master\"", "-v"},
-		ex.RunCalls()[0].Params)
+	assert.Equal(t, []string{"-p /etc/spot.yml", "-e mp3:/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3",
+		"--task=\"deploy to master\"", "-v"}, ex.RunCalls()[0].Params)
 
 	assert.Equal(t, "spot", ex.RunCalls()[1].Cmd)
-	assert.Equal(t, []string{"-e mp3:/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3", "--task=\"deploy to nodes\"", "-v"},
-		ex.RunCalls()[1].Params)
+	assert.Equal(t, []string{"-p /etc/spot.yml", "-e mp3:/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3",
+		"--task=\"deploy to nodes\"", "-v"}, ex.RunCalls()[1].Params)
 }
 
 func TestProc_setMp3Tags(t *testing.T) {
@@ -74,9 +73,10 @@ func TestProc_setMp3Tags(t *testing.T) {
 	_, err = io.Copy(dst, src)
 	require.NoError(t, err)
 
+	u := Proc{}
+
 	t.Run("without chapters", func(t *testing.T) {
-		u := Proc{LocationMp3: tempDir}
-		err = u.setMp3Tags(123, nil)
+		err = u.setMp3Tags(dst.Name(), 123, nil)
 		require.NoError(t, err)
 
 		tag, err := id3v2.Open(dst.Name(), id3v2.Options{Parse: true})
@@ -89,8 +89,7 @@ func TestProc_setMp3Tags(t *testing.T) {
 	})
 
 	t.Run("with chapters", func(t *testing.T) {
-		u := Proc{LocationMp3: tempDir}
-		err = u.setMp3Tags(123, []chapter{
+		err = u.setMp3Tags(dst.Name(), 123, []chapter{
 			{"Chapter One", "http://example.com/one", time.Second},
 			{"Chapter Two", "http://example.com/two", time.Second * 5},
 		})
@@ -212,4 +211,44 @@ filename = "rt_podcast686"
 	result, err := u.parseChapters(realDataContent)
 	assert.NoError(t, err)
 	assert.Equal(t, expectedChapters, result)
+}
+
+func TestEpisodeFromFile(t *testing.T) {
+	testCases := []struct {
+		name      string
+		input     string
+		expected  int
+		expectErr bool
+	}{
+		{
+			name:      "valid episode number",
+			input:     "/path/to/rt_podcast123.mp3",
+			expected:  123,
+			expectErr: false,
+		},
+		{
+			name:      "missing episode number",
+			input:     "/another/path/to/rt_podcast.mp3",
+			expected:  0,
+			expectErr: true,
+		},
+		{
+			name:      "non-numeric episode number",
+			input:     "/yet/another/path/to/rt_podcastXYZ.mp3",
+			expected:  0,
+			expectErr: true,
+		},
+	}
+
+	for _, tc := range testCases {
+		t.Run(tc.name, func(t *testing.T) {
+			result, err := episodeFromFile(tc.input)
+			if tc.expectErr {
+				assert.Error(t, err, "Expected an error but didn't get one")
+			} else {
+				assert.NoError(t, err, "Expected no error but got one")
+				assert.Equal(t, tc.expected, result, "Mismatch in expected and actual result")
+			}
+		})
+	}
 }
