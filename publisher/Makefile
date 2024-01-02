@@ -26,8 +26,8 @@ prep:
 	@${subl} ${makefile_dir}/../hugo/`tail -n 1 ${TMPFILE} | tr -d '\r'`;
 
 # set necessary tags to episode mp3 file and upload it to master and all nodes
-upload-mp3:
-	@docker-compose run --rm -it publisher upload --episode="$$EPISODE" --dbg
+proc:
+	@docker-compose run --rm -it publisher proc --episode="$$EPISODE" --dbg
 
 # deploy new podcast episode page to https://radio-t.com and regenerate site
 deploy:

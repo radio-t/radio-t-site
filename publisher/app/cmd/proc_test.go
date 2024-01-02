@@ -14,7 +14,7 @@ import (
 	"github.com/radio-t/radio-t-site/publisher/app/cmd/mocks"
 )
 
-func TestUpload_Do(t *testing.T) {
+func TestProc_Do(t *testing.T) {
 	tempDir := "/tmp/publisher_test"
 	defer os.RemoveAll(tempDir)
 
@@ -36,7 +36,7 @@ func TestUpload_Do(t *testing.T) {
 		RunFunc: func(cmd string, params ...string) {},
 	}
 
-	d := Upload{
+	d := Proc{
 		Executor:      ex,
 		LocationMp3:   tempDir,
 		LocationPosts: "testdata",
@@ -55,7 +55,7 @@ func TestUpload_Do(t *testing.T) {
 		ex.RunCalls()[1].Params)
 }
 
-func TestUpload_setMp3Tags(t *testing.T) {
+func TestProc_setMp3Tags(t *testing.T) {
 	tempDir, err := os.MkdirTemp("", "tags")
 	require.NoError(t, err)
 	defer os.RemoveAll(tempDir)
@@ -75,7 +75,7 @@ func TestUpload_setMp3Tags(t *testing.T) {
 	require.NoError(t, err)
 
 	t.Run("without chapters", func(t *testing.T) {
-		u := Upload{LocationMp3: tempDir}
+		u := Proc{LocationMp3: tempDir}
 		err = u.setMp3Tags(123, nil)
 		require.NoError(t, err)
 
@@ -89,7 +89,7 @@ func TestUpload_setMp3Tags(t *testing.T) {
 	})
 
 	t.Run("with chapters", func(t *testing.T) {
-		u := Upload{LocationMp3: tempDir}
+		u := Proc{LocationMp3: tempDir}
 		err = u.setMp3Tags(123, []chapter{
 			{"Chapter One", "http://example.com/one", time.Second},
 			{"Chapter Two", "http://example.com/two", time.Second * 5},
@@ -115,7 +115,7 @@ func TestUpload_setMp3Tags(t *testing.T) {
 
 }
 
-func TestUpload_parseChapters(t *testing.T) {
+func TestProc_parseChapters(t *testing.T) {
 	tests := []struct {
 		name        string
 		content     string
@@ -151,7 +151,7 @@ func TestUpload_parseChapters(t *testing.T) {
 		},
 	}
 
-	u := &Upload{}
+	u := &Proc{}
 
 	for _, tc := range tests {
 		t.Run(tc.name, func(t *testing.T) {
@@ -166,7 +166,7 @@ func TestUpload_parseChapters(t *testing.T) {
 	}
 }
 
-func TestUpload_parseChaptersWithRealData(t *testing.T) {
+func TestProc_parseChaptersWithRealData(t *testing.T) {
 	realDataContent := `
 +++
 title = "Радио-Т 686"
@@ -207,7 +207,7 @@ filename = "rt_podcast686"
 		{"Темы слушателей", "https://radio-t.com/p/2020/01/21/prep-686/", 111*time.Minute + 56*time.Second},
 	}
 
-	u := &Upload{}
+	u := &Proc{}
 
 	result, err := u.parseChapters(realDataContent)
 	assert.NoError(t, err)

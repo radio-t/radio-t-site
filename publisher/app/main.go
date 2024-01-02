@@ -27,11 +27,15 @@ var opts struct {
 		Dest string `long:"dest" env:"DEST" default:"./content/posts" description:"path to posts"`
 	} `command:"prep" description:"make new prep podcast post"`
 
-	UploadCmd struct {
+	ProcessCmd struct {
 		Location     string `long:"location" env:"LOCATION" default:"/episodes" description:"podcast location"`
 		HugoPosts    string `long:"hugo-posts" env:"HUGO_POSTS" default:"/srv/hugo/content/posts" description:"hugo posts location"`
 		SkipTransfer bool   `long:"skip-transfer" env:"SKIP_TRANSFER" description:"skip transfer to remote locations"`
-	} `command:"upload" description:"upload podcast"`
+	} `command:"proc" description:"proces podcast - tag mp3 and upload"`
+
+	ShowTags struct {
+		FileName string `long:"file" env:"FILE" description:"mp3 file name" required:"true"`
+	} `command:"tags" description:"show mp3 tags"`
 
 	DeployCmd struct {
 		NewsAPI    string `long:"news" env:"NEWS" default:"https://news.radio-t.com/api/v1/news" description:"news API url"`
@@ -70,12 +74,16 @@ func main() {
 		runPrep(episodeNum)
 	}
 
-	if p.Active != nil && p.Command.Find("upload") == p.Active {
-		runUpload(episodeNum)
+	if p.Active != nil && p.Command.Find("proc") == p.Active {
+		runProc(episodeNum)
 	}
 
 	if p.Active != nil && p.Command.Find("deploy") == p.Active {
 		runDeploy(episodeNum)
+	}
+
+	if p.Active != nil && p.Command.Find("tags") == p.Active {
+		runTags()
 	}
 }
 
@@ -123,18 +131,23 @@ func runPrep(episodeNum int) {
 	fmt.Printf("%s/prep-%d.md", opts.PrepShowCmd.Dest, episodeNum) // don't delete! used by external callers
 }
 
-func runUpload(episodeNum int) {
-	upload := cmd.Upload{
+func runProc(episodeNum int) {
+	proc := cmd.Proc{
 		Executor:      &cmd.ShellExecutor{Dry: opts.Dry},
-		LocationMp3:   opts.UploadCmd.Location,
-		LocationPosts: opts.UploadCmd.HugoPosts,
-		SkipTransfer:  opts.UploadCmd.SkipTransfer,
+		LocationMp3:   opts.ProcessCmd.Location,
+		LocationPosts: opts.ProcessCmd.HugoPosts,
+		SkipTransfer:  opts.ProcessCmd.SkipTransfer,
 		Dry:           opts.Dry,
 	}
-	if err := upload.Do(episodeNum); err != nil {
-		log.Fatalf("[ERROR] failed to upload #%d, %v", episodeNum, err)
+	if err := proc.Do(episodeNum); err != nil {
+		log.Fatalf("[ERROR] failed to proc #%d, %v", episodeNum, err)
 	}
 	log.Printf("[INFO] deployed #%d", episodeNum)
+}
+
+func runTags() {
+	proc := cmd.Proc{}
+	proc.ShowAllTags(opts.ShowTags.FileName)
 }
 
 func runDeploy(episodeNum int) {

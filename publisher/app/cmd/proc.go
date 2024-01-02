@@ -21,8 +21,8 @@ import (
 //go:embed artifacts/*
 var artifactsFS embed.FS
 
-// Upload handles podcast upload to all destinations. It sets mp3 tags first and then deploys to master and nodes via spot tool.
-type Upload struct {
+// Proc handles podcast upload to all destinations. It sets mp3 tags first and then deploys to master and nodes via spot tool.
+type Proc struct {
 	Executor
 	LocationMp3   string
 	LocationPosts string
@@ -37,34 +37,34 @@ type Upload struct {
 //  3. Deploy to nodes.
 //
 // deploy performed by spot tool, see spot.yml
-func (u *Upload) Do(episodeNum int) error {
-	log.Printf("[INFO] upload episode %d, mp3 location:%q, posts location:%q", episodeNum, u.LocationMp3, u.LocationPosts)
-	mp3file := filepath.Join(u.LocationMp3, fmt.Sprintf("rt_podcast%d", episodeNum), fmt.Sprintf("rt_podcast%d.mp3", episodeNum))
+func (p *Proc) Do(episodeNum int) error {
+	log.Printf("[INFO] upload episode %d, mp3 location:%q, posts location:%q", episodeNum, p.LocationMp3, p.LocationPosts)
+	mp3file := filepath.Join(p.LocationMp3, fmt.Sprintf("rt_podcast%d", episodeNum), fmt.Sprintf("rt_podcast%d.mp3", episodeNum))
 	log.Printf("[DEBUG] mp3 file %s", mp3file)
-	hugoPost := fmt.Sprintf("%s/podcast-%d.md", u.LocationPosts, episodeNum)
+	hugoPost := fmt.Sprintf("%s/podcast-%d.md", p.LocationPosts, episodeNum)
 	log.Printf("[DEBUG] hugo post file %s", hugoPost)
 	posstContent, err := os.ReadFile(hugoPost)
 	if err != nil {
 		return fmt.Errorf("can't read post file %s, %w", hugoPost, err)
 	}
-	chapters, err := u.parseChapters(string(posstContent))
+	chapters, err := p.parseChapters(string(posstContent))
 	if err != nil {
 		return fmt.Errorf("can't parse chapters from post %s, %w", hugoPost, err)
 	}
 	log.Printf("[DEBUG] chapters %v", chapters)
 
-	err = u.setMp3Tags(episodeNum, chapters)
+	err = p.setMp3Tags(episodeNum, chapters)
 	if err != nil {
 		log.Printf("[WARN] can't set mp3 tags for %s, %v", mp3file, err)
 	}
 
-	if u.SkipTransfer {
+	if p.SkipTransfer {
 		log.Printf("[WARN] skip transfer of %s", mp3file)
 		return nil
 	}
 
-	u.Run("spot", "-e mp3:"+mp3file, `--task="deploy to master"`, "-v")
-	u.Run("spot", "-e mp3:"+mp3file, `--task="deploy to nodes"`, "-v")
+	p.Run("spot", "-e mp3:"+mp3file, `--task="deploy to master"`, "-v")
+	p.Run("spot", "-e mp3:"+mp3file, `--task="deploy to nodes"`, "-v")
 	return nil
 }
 
@@ -77,10 +77,10 @@ type chapter struct {
 
 // setMp3Tags sets mp3 tags for a given episode. It uses artifactsFS to read cover.jpg
 // and uses the chapter information to set the chapter tags.
-func (u *Upload) setMp3Tags(episodeNum int, chapters []chapter) error {
-	mp3file := fmt.Sprintf("%s/rt_podcast%d/rt_podcast%d.mp3", u.LocationMp3, episodeNum, episodeNum)
+func (p *Proc) setMp3Tags(episodeNum int, chapters []chapter) error {
+	mp3file := fmt.Sprintf("%s/rt_podcast%d/rt_podcast%d.mp3", p.LocationMp3, episodeNum, episodeNum)
 	log.Printf("[INFO] set mp3 tags for %s", mp3file)
-	if u.Dry {
+	if p.Dry {
 		return nil
 	}
 
@@ -90,8 +90,9 @@ func (u *Upload) setMp3Tags(episodeNum int, chapters []chapter) error {
 	}
 	defer tag.Close()
 
-	tag.DeleteAllFrames() // clear all existing tags
+	tag.DeleteAllFrames()
 
+	tag.SetVersion(4)
 	tag.SetDefaultEncoding(id3v2.EncodingUTF8)
 
 	title := fmt.Sprintf("Радио-Т %d", episodeNum)
@@ -116,14 +117,19 @@ func (u *Upload) setMp3Tags(episodeNum int, chapters []chapter) error {
 	tag.AddAttachedPicture(pic)
 
 	// we need to get mp3 duration to set the correct end time for the last chapter
-	duration, err := u.getMP3Duration(mp3file)
+	duration, err := p.getMP3Duration(mp3file)
 	if err != nil {
 		return fmt.Errorf("can't get mp3 duration, %w", err)
 	}
 
 	// create a CTOC frame manually
-	ctocFrame := u.createCTOCFrame(chapters)
+	ctocFrame := p.createCTOCFrame(chapters)
 	tag.AddFrame(tag.CommonID("CTOC"), ctocFrame)
+
+	// add other tags
+	tag.AddFrame("TLEN", id3v2.TextFrame{Encoding: id3v2.EncodingISO, Text: strconv.FormatInt(duration.Milliseconds(), 10)})
+	tag.AddFrame("TYER", id3v2.TextFrame{Encoding: id3v2.EncodingISO, Text: fmt.Sprintf("%d", time.Now().Year())})
+	tag.AddFrame("TENC", id3v2.TextFrame{Encoding: id3v2.EncodingISO, Text: "Forecast"})
 
 	// add chapters
 	for i, chapter := range chapters {
@@ -138,28 +144,32 @@ func (u *Upload) setMp3Tags(episodeNum int, chapters []chapter) error {
 			return fmt.Errorf("chapter title contains invalid UTF-8 characters")
 		}
 		chapFrame := id3v2.ChapterFrame{
-			ElementID:   strconv.Itoa(i + 1),
+			ElementID:   fmt.Sprintf("chp%d", i),
 			StartTime:   chapter.Begin,
 			EndTime:     endTime,
 			StartOffset: id3v2.IgnoredOffset,
 			EndOffset:   id3v2.IgnoredOffset,
 			Title: &id3v2.TextFrame{
-				Encoding: id3v2.EncodingUTF8,
+				Encoding: id3v2.EncodingUTF16,
 				Text:     chapterTitle,
 			},
 			Description: &id3v2.TextFrame{
-				Encoding: id3v2.EncodingUTF8,
+				Encoding: id3v2.EncodingUTF16,
 				Text:     chapterTitle,
 			},
 		}
 		tag.AddChapterFrame(chapFrame)
 	}
 
-	return tag.Save()
+	if err := tag.Save(); err != nil {
+		return err
+	}
+	p.ShowAllTags(mp3file)
+	return nil
 }
 
 // parseChapters parses md post content and returns a list of chapters
-func (u *Upload) parseChapters(content string) ([]chapter, error) {
+func (p *Proc) parseChapters(content string) ([]chapter, error) {
 	parseDuration := func(timestamp string) (time.Duration, error) {
 		parts := strings.Split(timestamp, ":")
 		if len(parts) != 3 {
@@ -213,7 +223,7 @@ func (u *Upload) parseChapters(content string) ([]chapter, error) {
 	return chapters, nil
 }
 
-func (u *Upload) getMP3Duration(filePath string) (time.Duration, error) {
+func (p *Proc) getMP3Duration(filePath string) (time.Duration, error) {
 	file, err := os.Open(filePath)
 	if err != nil {
 		return 0, err
@@ -234,18 +244,50 @@ func (u *Upload) getMP3Duration(filePath string) (time.Duration, error) {
 	return time.Second * time.Duration(duration), nil
 }
 
-func (u *Upload) createCTOCFrame(chapters []chapter) *id3v2.UnknownFrame {
+// createCTOCFrame creates a CTOC frame for the given list of chapters in the provided mp3 file.
+// Note: all this insanity is an attempt to make CTOC frames because id3v2 doesn't support it directly.
+// It also is trying to replicate the behavior of the Python script that was used to create CTOC frames before this.
+// Another reference for this code was the output of Forecast app, which also creates proper chapter frames and CTOC frames.
+func (p *Proc) createCTOCFrame(chapters []chapter) *id3v2.UnknownFrame {
 	var frameBody bytes.Buffer
-	frameBody.WriteByte(0x03)                // write flags (e.g., 0x03 for top-level and ordered chapters)
-	frameBody.WriteByte(byte(len(chapters))) // write the number of child elements
 
-	// append child element IDs (chapter IDs)
-	for i, _ := range chapters {
-		elementID := fmt.Sprintf("%d", i+1)
+	// TOC ID (encoded in ASCII, equivalent to "toc".encode("ascii") in Python)
+	tocID := "toc"
+	frameBody.WriteString(tocID)
+	frameBody.WriteByte(0x00) // Null terminator for TOC ID
+
+	// flags (0x03 for top-level and ordered chapters)
+	frameBody.WriteByte(0x03)
+
+	// number of child elements
+	frameBody.WriteByte(byte(len(chapters)))
+
+	// append child element IDs (chapter IDs) formatted as "chapter#i"
+	for i := range chapters {
+		elementID := fmt.Sprintf("chp%d", i)
 		frameBody.WriteString(elementID)
 		frameBody.WriteByte(0x00) // Null separator for IDs
 	}
 
 	// create and return an UnknownFrame with the constructed body
 	return &id3v2.UnknownFrame{Body: frameBody.Bytes()}
+}
+
+// ShowAllTags shows all tags for a given mp3 file
+func (p *Proc) ShowAllTags(fname string) {
+	log.Printf("[DEBUG] show all tags for %s", fname)
+	tag, err := id3v2.Open(fname, id3v2.Options{Parse: true})
+	if err != nil {
+		log.Printf("[WARN] can't open mp3 file %s, %v", fname, err)
+		return
+	}
+	defer tag.Close()
+	frames := tag.AllFrames()
+
+	for name, frame := range frames {
+		if name == "APIC" {
+			continue
+		}
+		log.Printf("[DEBUG] frame %s: %+v", name, frame)
+	}
 }
