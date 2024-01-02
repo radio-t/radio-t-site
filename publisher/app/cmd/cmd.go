@@ -3,11 +3,12 @@ package cmd
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 	"net/http"
 	"os/exec"
 	"strings"
 
-	log "github.com/go-pkgz/lgr"
+	"github.com/go-pkgz/lgr"
 	"github.com/pkg/errors"
 )
 
@@ -64,7 +65,7 @@ func (c *ShellExecutor) do(cmd string) error {
 		return nil
 	}
 	ex := exec.Command("sh", "-c", cmd)
-	ex.Stdout = log.ToWriter(log.Default(), "INFO")
-	ex.Stderr = log.ToWriter(log.Default(), "WARN")
+	ex.Stdout = lgr.ToWriter(lgr.Default(), "INFO")
+	ex.Stderr = lgr.ToWriter(lgr.Default(), "WARN")
 	return errors.Wrapf(ex.Run(), "failed to run %q", cmd)
 }

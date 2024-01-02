@@ -2,10 +2,10 @@ package cmd
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 	"strings"
 
-	log "github.com/go-pkgz/lgr"
 	"github.com/pkg/errors"
 )
 

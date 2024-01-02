@@ -5,7 +5,9 @@ import (
 	"embed"
 	"fmt"
 	"io"
+	"log"
 	"os"
+	"path/filepath"
 	"regexp"
 	"strconv"
 	"strings"
@@ -13,7 +15,6 @@ import (
 	"unicode/utf8"
 
 	"github.com/bogem/id3v2/v2"
-	log "github.com/go-pkgz/lgr"
 	"github.com/tcolgate/mp3"
 )
 
@@ -38,7 +39,7 @@ type Upload struct {
 // deploy performed by spot tool, see spot.yml
 func (u *Upload) Do(episodeNum int) error {
 	log.Printf("[INFO] upload episode %d, mp3 location:%q, posts location:%q", episodeNum, u.LocationMp3, u.LocationPosts)
-	mp3file := fmt.Sprintf("%s/rt_podcast%d/rt_podcast%d.mp3", u.LocationMp3, episodeNum, episodeNum)
+	mp3file := filepath.Join(u.LocationMp3, fmt.Sprintf("rt_podcast%d", episodeNum), fmt.Sprintf("rt_podcast%d.mp3", episodeNum))
 	log.Printf("[DEBUG] mp3 file %s", mp3file)
 	hugoPost := fmt.Sprintf("%s/podcast-%d.md", u.LocationPosts, episodeNum)
 	log.Printf("[DEBUG] hugo post file %s", hugoPost)
@@ -100,7 +101,7 @@ func (u *Upload) setMp3Tags(episodeNum int, chapters []chapter) error {
 	tag.SetYear(fmt.Sprintf("%d", time.Now().Year()))
 	tag.SetGenre("Podcast")
 
-	// Set artwork
+	// set artwork
 	artwork, err := artifactsFS.ReadFile("artifacts/cover.png")
 	if err != nil {
 		return fmt.Errorf("can't read cover.png from artifacts, %w", err)

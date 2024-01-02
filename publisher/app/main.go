@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 	"os"
 	"time"
 
-	log "github.com/go-pkgz/lgr"
+	"github.com/go-pkgz/lgr"
 	"github.com/pkg/errors"
 	"github.com/umputun/go-flags"
 
@@ -59,7 +60,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("[ERROR] can't get last podcast number, %v", err)
 	}
-	log.Printf("[DEBUG] dtected episode: %d", episodeNum)
+	log.Printf("[DEBUG] detcted episode: %d", episodeNum)
 
 	if p.Active != nil && p.Command.Find("new") == p.Active {
 		runNew(episodeNum)
@@ -152,9 +153,10 @@ func runDeploy(episodeNum int) {
 }
 
 func setupLog(dbg bool) {
+	logOpts := []lgr.Option{lgr.Msec, lgr.LevelBraces, lgr.StackTraceOnError}
 	if dbg {
-		log.Setup(log.Debug, log.CallerFile, log.CallerFunc, log.Msec, log.LevelBraces)
-		return
+		logOpts = []lgr.Option{lgr.Debug, lgr.CallerFile, lgr.CallerFunc, lgr.Msec, lgr.LevelBraces, lgr.StackTraceOnError}
 	}
-	log.Setup(log.Msec, log.LevelBraces)
+	lgr.SetupStdLogger(logOpts...)
+	lgr.Setup(logOpts...)
 }

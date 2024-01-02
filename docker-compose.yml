@@ -23,19 +23,3 @@ services:
     volumes:
       - /home/umputun/.ssh/id_rsa.pub:/home/app/.ssh/id_rsa.pub
       - /home/umputun/.ssh/id_rsa:/home/app/.ssh/id_rsa
-
-  publisher:
-    image: radio-t/publisher
-    build: publisher
-    hostname: publisher
-    container_name: publisher
-    restart: always
-    logging: *default_logging
-    environment:
-      PYTHONPATH: /srv/publisher
-      RT_NEWS_ADMIN:
-    volumes:
-      - .:/srv/
-      - /Users/umputun/.ssh/id_rsa.pub:/home/app/.ssh/id_rsa.pub
-      - /Users/umputun/.ssh/id_rsa:/home/app/.ssh/id_rsa
-      - /Volumes/Podcasts/radio-t:/episodes
