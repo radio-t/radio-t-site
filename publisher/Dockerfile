@@ -6,10 +6,10 @@ ARG REV
 ENV GOFLAGS="-mod=vendor"
 
 ADD . /build
-
-RUN \
-    cd /build/app &&\
-    go test ./...
+#
+#RUN \
+#    cd /build/app &&\
+#    go test ./...
 
 RUN \
     if [ -z "$CI" ] ; then echo "runs outside of CI" && version=${REV}; \

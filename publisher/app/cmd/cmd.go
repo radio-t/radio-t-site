@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"os/exec"
 	"strings"
 
@@ -54,7 +55,8 @@ type ShellExecutor struct {
 func (c *ShellExecutor) Run(cmd string, params ...string) {
 	command := fmt.Sprintf("%s %s", cmd, strings.Join(params, " "))
 	if err := c.do(command); err != nil {
-		log.Fatalf("[ERROR] %v", err)
+		log.Printf("[ERROR] %v", err)
+		os.Exit(1) // failed cmd stops everything
 	}
 }
 
@@ -67,5 +69,5 @@ func (c *ShellExecutor) do(cmd string) error {
 	ex := exec.Command("sh", "-c", cmd)
 	ex.Stdout = lgr.ToWriter(lgr.Default(), "INFO")
 	ex.Stderr = lgr.ToWriter(lgr.Default(), "WARN")
-	return errors.Wrapf(ex.Run(), "failed to run %q", cmd)
+	return errors.Wrapf(ex.Run(), "failed to run command: %s", cmd)
 }

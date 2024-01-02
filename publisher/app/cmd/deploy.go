@@ -35,14 +35,15 @@ func (d *Deploy) Do(episodeNum int) error {
 	d.Run(fmt.Sprintf(`git pull && git commit -am "episode %d" && git push`, episodeNum))
 
 	log.Printf("[INFO] remote site update")
-	d.Run("ssh umputun@master.radio-t.com", `cd /srv/site.hugo && git pull && docker-compose run --rm hugo`)
+	d.Run("ssh umputun@master.radio-t.com",
+		`"cd /srv/site.hugo && git pull && /usr/local/bin/docker-compose run --rm hugo"`)
 
 	log.Printf("[INFO] create chat log")
 	slParams := []string{}
 	for _, s := range superUsersTelegram {
 		slParams = append(slParams, fmt.Sprintf("--super=%s", s))
 	}
-	d.Run("ssh umputun@master.radio-t.com", fmt.Sprintf(`docker exec -i super-bot /srv/telegram-rt-bot %s --dbg --export-num=%d --export-path=/srv/html`,
+	d.Run("ssh umputun@master.radio-t.com", fmt.Sprintf(`"docker exec -i super-bot /srv/telegram-rt-bot %s --dbg --export-num=%d --export-path=/srv/html"`,
 		strings.Join(slParams, " "), episodeNum))
 
 	log.Printf("[INFO] archive news")

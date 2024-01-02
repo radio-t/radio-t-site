@@ -12,7 +12,7 @@ services:
         max-size: "10m"
         max-file: "5"
     environment:
-       - RT_NEWS_ADMIN
+       - NEWS_PASSWD=${RT_NEWS_ADMIN}
     volumes:
       - ../:/srv/
       - /Volumes/Podcasts/radio-t:/Volumes/Podcasts/radio-t
