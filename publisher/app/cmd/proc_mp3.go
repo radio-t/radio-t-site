@@ -62,8 +62,7 @@ func (p *Proc) Do(mp3file string) error {
 		return nil
 	}
 
-	p.Run("spot", "-p /etc/spot.yml", "-e mp3:"+mp3file, `--task="deploy to master"`)
-	p.Run("spot", "-p /etc/spot.yml", "-e mp3:"+mp3file, `--task="deploy to nodes"`, "-c 2")
+	p.Run("spot", "-p /etc/spot.yml", "-e mp3:"+mp3file, `--task="deploy to master"`, `--task="deploy to nodes"`, "-c 2")
 	return nil
 }
 
@@ -157,6 +156,7 @@ func (p *Proc) setMp3Tags(mp3file string, episodeNum int, chapters []chapter) er
 			},
 		}
 		tag.AddChapterFrame(chapFrame)
+		log.Printf("[INFO] added chapter: %s [%v - %v]", chapterTitle, chapter.Begin, endTime)
 	}
 
 	if err := tag.Save(); err != nil {
@@ -166,7 +166,6 @@ func (p *Proc) setMp3Tags(mp3file string, episodeNum int, chapters []chapter) er
 	return nil
 }
 
-// parseChapters parses md post content and returns a list of chapters
 func (p *Proc) parseChapters(content string) ([]chapter, error) {
 	parseDuration := func(timestamp string) (time.Duration, error) {
 		parts := strings.Split(timestamp, ":")
@@ -190,23 +189,39 @@ func (p *Proc) parseChapters(content string) ([]chapter, error) {
 		return time.Duration(hours)*time.Hour + time.Duration(minutes)*time.Minute + time.Duration(seconds)*time.Second, nil
 	}
 
-	chapters := []chapter{
-		{Title: "Вступление", Begin: 0},
-	}
+	chapters := []chapter{{Title: "Вступление", Begin: 0}}
+	lines := strings.Split(content, "\n")
 
-	// get form md like this "- [Chapter One](http://example.com/one) - *00:01:00*."
-	chapterRegex := regexp.MustCompile(`-\s+\[(.*?)\]\((.*?)\)\s+-\s+\*(.*?)\*\.`)
-	matches := chapterRegex.FindAllStringSubmatch(content, -1)
-	for _, match := range matches {
-		if len(match) == 4 {
-			title := match[1]
-			url := match[2]
-			timestamp := match[3]
-
-			begin, err := parseDuration(timestamp)
-			if err != nil {
-				return nil, err
+	for _, line := range lines {
+		if strings.HasPrefix(line, "- ") {
+			// Extracting the timestamp
+			timestampRegex := regexp.MustCompile(`\*\s*(.*?)\s*\*`)
+			timestampMatches := timestampRegex.FindStringSubmatch(line)
+			if len(timestampMatches) < 2 {
+				continue // Skip if no valid timestamp
 			}
+			begin, err := parseDuration(timestampMatches[1])
+			if err != nil {
+				return []chapter{}, fmt.Errorf("can't parse duration %s, %w", timestampMatches[1], err)
+			}
+
+			// Extracting and cleaning the title and URL
+			titleRegex := regexp.MustCompile(`\[(.*?)\]\((.*?)\)`)
+			titleMatches := titleRegex.FindStringSubmatch(line)
+
+			var title, url string
+			if len(titleMatches) >= 3 {
+				title = strings.Replace(line, titleMatches[0], titleMatches[1], 1)
+				url = titleMatches[2]
+			} else {
+				title = line
+			}
+
+			// Cleaning the title
+			title = strings.TrimPrefix(title, "- ")
+			title = timestampRegex.ReplaceAllString(title, "")
+			title = strings.TrimSuffix(title, " - .")
+			title = strings.TrimSpace(title)
 
 			chapters = append(chapters, chapter{
 				Title: title,
@@ -215,9 +230,11 @@ func (p *Proc) parseChapters(content string) ([]chapter, error) {
 			})
 		}
 	}
+
 	if len(chapters) == 1 {
-		return []chapter{}, nil // no chapters found, don't return the introduction chapter
+		return []chapter{}, nil // Return empty slice if no chapters found and only the introduction chapter is present
 	}
+
 	return chapters, nil
 }
 

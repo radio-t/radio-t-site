@@ -44,14 +44,10 @@ func TestProc_Do(t *testing.T) {
 	err = d.Do("/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3")
 	require.NoError(t, err)
 
-	require.Equal(t, 2, len(ex.RunCalls()))
+	require.Equal(t, 1, len(ex.RunCalls()))
 	assert.Equal(t, "spot", ex.RunCalls()[0].Cmd)
 	assert.Equal(t, []string{"-p /etc/spot.yml", "-e mp3:/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3",
-		"--task=\"deploy to master\""}, ex.RunCalls()[0].Params)
-
-	assert.Equal(t, "spot", ex.RunCalls()[1].Cmd)
-	assert.Equal(t, []string{"-p /etc/spot.yml", "-e mp3:/tmp/publisher_test/rt_podcast123/rt_podcast123.mp3",
-		"--task=\"deploy to nodes\"", "-c 2"}, ex.RunCalls()[1].Params)
+		"--task=\"deploy to master\"", "--task=\"deploy to nodes\"", "-c 2"}, ex.RunCalls()[0].Params)
 }
 
 func TestProc_setMp3Tags(t *testing.T) {
@@ -204,6 +200,43 @@ filename = "rt_podcast686"
 		{"Как начать работать когда не хочется", "https://www.deprocrastination.co/blog/3-tricks-to-start-working-despite-not-feeling-like-it", 76*time.Minute + 3*time.Second},
 		{"Apple отказалась от полного шифрования", "https://www.reuters.com/article/us-apple-fbi-icloud-exclusive-idUSKBN1ZK1CT", 101*time.Minute + 6*time.Second},
 		{"Темы слушателей", "https://radio-t.com/p/2020/01/21/prep-686/", 111*time.Minute + 56*time.Second},
+	}
+
+	u := &Proc{}
+
+	result, err := u.parseChapters(realDataContent)
+	assert.NoError(t, err)
+	assert.Equal(t, expectedChapters, result)
+}
+
+func TestProc_parseChaptersWithRealData2(t *testing.T) {
+	realDataContent := `
++++
+title = "Радио-Т 890"
+date = "2023-12-30T17:50:37"
+categories = ["podcast"]
+image = "https://radio-t.com/images/radio-t/rt890.jpg"
+filename = "rt_podcast890"
++++
+
+![](https://radio-t.com/images/radio-t/rt.jpg)
+
+- Новогодний выпуск - *00:51:51*.
+- Под новый год отменяем часовые пояса - *00:21:15*.
+- Откровенный [разговор о грустном](https://www.jetbrains.com/ai) с гостем из JB - *01:19:20*.
+- [Темы слушателей](https://radio-t.com/p/2023/12/19/prep-889/) - *02:11:12*.
+
+
+[аудио](https://cdn.radio-t.com/rt_podcast890.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-890.html)
+<audio src="https://cdn.radio-t.com/rt_podcast890.mp3" preload="none"></audio>
+`
+
+	expectedChapters := []chapter{
+		{"Вступление", "", 0},
+		{"Новогодний выпуск", "", 51*time.Minute + 51*time.Second},
+		{"Под новый год отменяем часовые пояса", "", 21*time.Minute + 15*time.Second},
+		{"Откровенный разговор о грустном с гостем из JB", "https://www.jetbrains.com/ai", 79*time.Minute + 20*time.Second},
+		{"Темы слушателей", "https://radio-t.com/p/2023/12/19/prep-889/", 131*time.Minute + 12*time.Second},
 	}
 
 	u := &Proc{}

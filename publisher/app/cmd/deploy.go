@@ -36,7 +36,7 @@ func (d *Deploy) Do(episodeNum int) error {
 
 	log.Printf("[INFO] remote site update")
 	d.Run("ssh umputun@master.radio-t.com",
-		`"cd /srv/site.hugo && git pull && /usr/local/bin/docker-compose run --rm hugo"`)
+		`"cd /srv/site.hugo && git pull && docker-compose run --rm hugo"`)
 
 	log.Printf("[INFO] create chat log")
 	slParams := []string{}
