@@ -70,6 +70,7 @@ $podcast-player-cover-margin: 0.5rem;
   }
 }
 .btn-player-icon {
+  touch-action: manipulation;
   display: inline-flex;
   padding: 0.25em;
   margin: auto;
@@ -110,6 +111,7 @@ $podcast-player-cover-margin: 0.5rem;
   min-width: $podcast-player-cover-size;
 }
 .player-rate {
+  touch-action: manipulation;
   min-width: 60px;
   text-align: center;
   font-weight: 600;
