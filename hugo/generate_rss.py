@@ -9,6 +9,7 @@ pip install pytoml mistune
 import glob
 import subprocess
 import argparse
+import sys
 
 import mistune
 import pytoml as toml
@@ -46,7 +47,12 @@ def parse_file(name, source):
             data.append(line)
 
     toml_data = '\n'.join(config_lines)
-    conf = toml.loads(toml_data)
+    try:
+        conf = toml.loads(toml_data)
+    except toml.TomlError as e:
+        print(f"Error parsing TOML data in file {name}: {e}", file=sys.stderr)
+        raise
+
     date = datetime.strptime(conf['date'], "%Y-%m-%dT%H:%M:%S")
     url = 'p/{}/{}/'.format(date.strftime('%Y/%m/%d'), name)
 
