@@ -15,7 +15,7 @@ import (
 
 var newShowTmpl = `+++
 title = "Радио-Т {{.EpisodeNum}}"
-date = {{.TS.Format "2006-01-02T15:04:05"}}
+date = "{{.TS.Format "2006-01-02T15:04:05"}}"
 categories = ["podcast"]
 image = "https://radio-t.com/images/radio-t/rt{{.EpisodeNum}}.jpg"
 filename = "rt_podcast{{.EpisodeNum}}"
@@ -31,7 +31,7 @@ filename = "rt_podcast{{.EpisodeNum}}"
 
 var prepShowTmpl = `+++
 title = "Темы для {{.EpisodeNum}}"
-date = {{.TS.Format "2006-01-02T15:04:05"}}
+date = "{{.TS.Format "2006-01-02T15:04:05"}}"
 categories = ["prep"]
 +++
 `

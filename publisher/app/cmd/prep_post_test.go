@@ -34,7 +34,7 @@ func TestPrep_MakeShow(t *testing.T) {
 	require.NoError(t, err)
 	exp := `+++
 title = "Радио-Т 123"
-date = 2020-02-03T20:18:53
+date = "2020-02-03T20:18:53"
 categories = ["podcast"]
 image = "https://radio-t.com/images/radio-t/rt123.jpg"
 filename = "rt_podcast123"
@@ -67,7 +67,7 @@ func TestPrep_MakePrep(t *testing.T) {
 	require.NoError(t, err)
 	exp := `+++
 title = "Темы для 123"
-date = 2020-02-03T20:18:53
+date = "2020-02-03T20:18:53"
 categories = ["prep"]
 +++
 `
