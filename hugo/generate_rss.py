@@ -10,7 +10,9 @@ import glob
 import subprocess
 import argparse
 
-import mistune
+from mistune import create_markdown
+from mistune.renderers import HTMLRenderer
+
 import pytoml as toml
 from datetime import datetime
 
@@ -64,8 +66,8 @@ def get_mp3_size(mp3file):
 
 def run():
     print("generate rss")
-    renderer = mistune.Renderer(escape=False)
-    markdown = mistune.Markdown(renderer=renderer)
+    renderer = HTMLRenderer(escape=False)
+    markdown = create_markdown(renderer=renderer)
 
     # загружаем настройки
     with open('config.toml', encoding='utf-8') as f:
