@@ -7,3 +7,4 @@ publisher/utils/eyeD3/*.pyc
 .DS_Store
 publisher/target/
 .idea
+rss_generator/target/
