@@ -20,11 +20,7 @@ RUN cd /build && go build -o /build/bin/rss_generator -ldflags "-s -w" && ls -la
 FROM alpine:3.18
 
 RUN \
-    apk add --update --no-cache tzdata curl openssl git openssh-client python3 ca-certificates && \
-    apk add --no-cache --virtual .build-deps python3-dev && \
-    python3 -m ensurepip && pip3 install --upgrade pip && \
-    pip3 install pytoml mistune && \
-    apk del .build-deps && \
+    apk add --update --no-cache tzdata curl openssl git openssh-client ca-certificates && \
     cp /usr/share/zoneinfo/EST /etc/localtime && \
     echo "CDT" > /etc/timezone && date && \
     rm -rf /var/cache/apk/*
