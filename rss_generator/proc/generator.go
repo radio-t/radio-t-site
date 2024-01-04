@@ -126,7 +126,6 @@ func (g *RSSGenerator) Save(feedCfg FeedConfig, data FeedData) error {
 		return fmt.Errorf("error executing template: %v", err)
 	}
 	return nil
-
 }
 
 // createItemData prepares the ItemData for each post.
@@ -174,10 +173,7 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 
 // getMp3Size returns the size of remote mp3 file in bytes
 func (g *RSSGenerator) getMp3Size(mp3File string) (int, error) {
-	url := g.BaseArchiveURL + "/" + mp3File
-	if strings.HasSuffix(url, "/") {
-		url = g.BaseArchiveURL + mp3File
-	}
+	url := strings.TrimSuffix(g.BaseArchiveURL, "/") + "/" + mp3File
 	req, err := http.NewRequest("HEAD", url, http.NoBody)
 	if err != nil {
 		return 0, fmt.Errorf("error creating request: %v", err)
