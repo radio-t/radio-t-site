@@ -1,7 +1,7 @@
 FROM node:10-alpine as build
 
 WORKDIR /app
-
+RUN apk add --update --no-cache python make g++
 COPY hugo/package.json hugo/package-lock.json ./
 RUN npm ci
 
