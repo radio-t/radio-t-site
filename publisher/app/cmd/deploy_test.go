@@ -33,7 +33,8 @@ func TestDeploy_Do(t *testing.T) {
 
 	require.NoError(t, d.Do(123))
 	require.Equal(t, 3, len(ex.RunCalls()))
-	assert.Equal(t, "git pull && git add . && git commit -m \"episode 123\" && git push", ex.RunCalls()[0].Cmd)
+	assert.Equal(t, "git pull && git add . && git diff --staged --exit-code --quiet || git commit -m \"episode 123\" && git push",
+		ex.RunCalls()[0].Cmd)
 	assert.Equal(t, 0, len(ex.RunCalls()[0].Params))
 	assert.Equal(t, `ssh umputun@master.radio-t.com`, ex.RunCalls()[1].Cmd)
 	assert.Equal(t, 1, len(ex.RunCalls()[1].Params))
