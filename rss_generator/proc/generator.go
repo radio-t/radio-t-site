@@ -33,6 +33,7 @@ type FeedConfig struct {
 	Size            bool
 	FeedSubtitle    string
 	FeedDescription string
+	Verbose         bool
 }
 
 // ItemData is the struct for each item in the feed
@@ -97,6 +98,9 @@ func (g *RSSGenerator) MakeFeed(feedCfg FeedConfig, posts []Post) (FeedData, err
 			return FeedData{}, fmt.Errorf("error creating item data: %v", err)
 		}
 		feedData.Items = append(feedData.Items, item)
+		if feedCfg.Verbose {
+			log.Printf("[INFO] added %q to feed", item.Title)
+		}
 	}
 	log.Printf("[INFO] total items in feed %q: %d", feedCfg.Name, len(feedData.Items))
 	return feedData, nil
