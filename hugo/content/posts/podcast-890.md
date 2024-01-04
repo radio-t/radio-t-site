@@ -6,7 +6,7 @@ image = "https://radio-t.com/images/radio-t/rt890.jpg"
 filename = "rt_podcast890"
 +++
 
-![](https://radio-t.com/images/radio-t/rt.jpg)
+![](https://radio-t.com/images/radio-t/rt890.jpg)
 
 - Новогодний выпуск - *00:51:51*.
 - Под новый год отменяем часовые пояса - *00:21:15*.
