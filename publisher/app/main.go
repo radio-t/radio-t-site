@@ -38,9 +38,6 @@ var opts struct {
 	} `command:"tags" description:"show mp3 tags"`
 
 	DeployCmd struct {
-		NewsAPI    string `long:"news" env:"NEWS" default:"https://news.radio-t.com/api/v1/news" description:"news API url"`
-		NewsHrs    int    `long:"news-hrs" env:"NEWS_HRS" default:"12" description:"news duration in hours"`
-		NewsPasswd string `long:"news-passwd" env:"NEWS_PASSWD" required:"true" description:"news api admin passwd"`
 	} `command:"deploy" description:"deploy podcast to site"`
 
 	Episode int  `short:"e" long:"episode" default:"-1" description:"episode number"`
@@ -82,7 +79,7 @@ func main() {
 	}
 
 	if p.Active != nil && p.Command.Find("deploy") == p.Active {
-		runDeploy(episodeNum())
+		runDeploy()
 	}
 
 	if p.Active != nil && p.Command.Find("tags") == p.Active {
@@ -152,19 +149,10 @@ func runTags() {
 	proc.ShowAllTags(opts.ShowTags.FileName)
 }
 
-func runDeploy(episodeNum int) {
-	deploy := cmd.Deploy{
-		Client:     http.Client{Timeout: 10 * time.Second},
-		Executor:   &cmd.ShellExecutor{Dry: opts.Dry},
-		NewsAPI:    opts.DeployCmd.NewsAPI,
-		NewsPasswd: opts.DeployCmd.NewsPasswd,
-		NewsHrs:    opts.DeployCmd.NewsHrs,
-		Dry:        opts.Dry,
-	}
-	if err := deploy.Do(episodeNum); err != nil {
-		log.Fatalf("[ERROR] failed to deploy #%d, %v", episodeNum, err)
-	}
-	log.Printf("[INFO] deployed #%d", episodeNum)
+func runDeploy() {
+	deploy := cmd.Deploy{Executor: &cmd.ShellExecutor{Dry: opts.Dry}}
+	deploy.Do()
+	log.Printf("[INFO] site deployed")
 }
 
 func setupLog(dbg bool) {
