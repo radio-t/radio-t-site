@@ -44,7 +44,7 @@ var feeds = []proc.FeedConfig{
 		Name:            "podcast-archives-short",
 		Title:           "Радио-Т Архивы",
 		Image:           "https://radio-t.com/images/covers/cover-archive.png",
-		Count:           25,
+		Count:           200,
 		Size:            false,
 		FeedSubtitle:    "Подкаст выходного дня - импровизации на темы высоких технологий",
 		FeedDescription: "Разговоры на темы хайтек, высоких компьютерных технологий, гаджетов, облаков, программирования и прочего интересного из мира ИТ.",
