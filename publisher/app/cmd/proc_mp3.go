@@ -27,6 +27,7 @@ type Proc struct {
 	LocationPosts string
 	Dry           bool
 	SkipTransfer  bool
+	Dbg           bool
 }
 
 var authors = []string{"Umputun", "Bobuk", "Gray", "Ksenks", "Alek.sys"}
@@ -62,7 +63,12 @@ func (p *Proc) Do(mp3file string) error {
 		return nil
 	}
 
-	p.Run("spot", "-p /etc/spot.yml", "-e mp3:"+mp3file, `--task="deploy to master"`, `--task="deploy to nodes"`, "-c 2")
+	args := []string{"-p /etc/spot.yml", "-e mp3:" + mp3file, `--task="deploy to master"`,
+		`--task="deploy to nodes"`, "-c 2", "-v"}
+	if p.Dbg {
+		args = append(args, "--dbg")
+	}
+	p.Run("spot", args...)
 	return nil
 }
 

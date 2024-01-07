@@ -137,6 +137,7 @@ func runProc() {
 		LocationPosts: opts.ProcessCmd.HugoPosts,
 		SkipTransfer:  opts.ProcessCmd.SkipTransfer,
 		Dry:           opts.Dry,
+		Dbg:           opts.Dbg,
 	}
 	if err := proc.Do(opts.ProcessCmd.File); err != nil {
 		log.Fatalf("[ERROR] failed to proc %s, %v", opts.ProcessCmd.File, err)

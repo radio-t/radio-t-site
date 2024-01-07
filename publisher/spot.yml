@@ -23,14 +23,21 @@ tasks:
     - name: upload mp3 file
       copy: {src: "$mp3", dst: "$DST_MP3_FILE_NAME", mkdir: true}
 
+    - name: set permissions
+      script: chmod 644 $DST_MP3_FILE_NAME
+      options: {sudo: true}
+
     - name: create chat log
-      script: docker exec -it super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayodesa --super=aleks_sys  --export-num=$EPISODE_NUMBER --export-path=/srv/html --dbg
+      script: docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayodesa --super=aleks_sys  --export-num=$EPISODE_NUMBER --export-path=/srv/html --dbg
 
     - name: archive news
-      script: curl -s -u admin:$NEWS_PASSWD -X DELETE https://news.radio-t.com/api/v1/news/active/last/12
+      script: curl -s -u $NEWS_PASSWD -X DELETE https://news.radio-t.com/api/v1/news/active/last/12
 
     - name: copy to archive
-      script: cp -fv $DST_MP3_FILE_NAME $DST_MP3_ARCHIVE_FILE_NAME
+      script: |
+        cp -fv $DST_MP3_FILE_NAME $DST_MP3_ARCHIVE_FILE_NAME
+        chmod 644 $DST_MP3_ARCHIVE_FILE_NAME
+      options: {sudo: true}
 
     - name: clean old files
       script: find /srv/master-node/var/media -type f -mtime +60 -mtime -1200 -iname *.mp3 -exec rm {} \;
