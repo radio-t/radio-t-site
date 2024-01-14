@@ -63,8 +63,9 @@ func (p *Proc) Do(mp3file string) error {
 		return nil
 	}
 
+	newsAdminCreds := fmt.Sprintf("RT_NEWS_ADMIN:%q", os.Getenv("RT_NEWS_ADMIN"))
 	args := []string{"-p /etc/spot.yml", "-e mp3:" + mp3file, `--task="deploy to master"`,
-		`--task="deploy to nodes"`, "-c 2", "-v"}
+		`--task="deploy to nodes"`, "-c 2", "-v", "-e", newsAdminCreds}
 	if p.Dbg {
 		args = append(args, "--dbg")
 	}

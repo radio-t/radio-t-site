@@ -31,7 +31,8 @@ tasks:
       script: docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayodesa --super=aleks_sys  --export-num=$EPISODE_NUMBER --export-path=/srv/html --dbg
 
     - name: archive news
-      script: curl -s -u $NEWS_PASSWD -X DELETE https://news.radio-t.com/api/v1/news/active/last/12
+      script: |
+        curl -s -u ${RT_NEWS_ADMIN} -X DELETE https://news.radio-t.com/api/v1/news/active/last/12
 
     - name: copy to archive
       script: |
