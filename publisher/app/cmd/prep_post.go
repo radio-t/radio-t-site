@@ -23,6 +23,7 @@ filename = "rt_podcast{{.EpisodeNum}}"
 
 ![](https://radio-t.com/images/radio-t/rt{{.EpisodeNum}}.jpg)
 
+- Вступление - *00:00:00*.
 {{.News}}
 
 [аудио](https://cdn.radio-t.com/rt_podcast{{.EpisodeNum}}.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-{{.EpisodeNum}}.html)

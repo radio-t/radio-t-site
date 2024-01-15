@@ -42,6 +42,7 @@ filename = "rt_podcast123"
 
 ![](https://radio-t.com/images/radio-t/rt123.jpg)
 
+- Вступление - *00:00:00*.
 - blah1
 - blah2
 
