@@ -196,7 +196,7 @@ func (p *Proc) parseChapters(content string) ([]chapter, error) {
 		return time.Duration(hours)*time.Hour + time.Duration(minutes)*time.Minute + time.Duration(seconds)*time.Second, nil
 	}
 
-	chapters := []chapter{{Title: "Вступление", Begin: 0}}
+	chapters := []chapter{}
 	lines := strings.Split(content, "\n")
 
 	for _, line := range lines {
@@ -242,6 +242,9 @@ func (p *Proc) parseChapters(content string) ([]chapter, error) {
 		return []chapter{}, nil // Return empty slice if no chapters found and only the introduction chapter is present
 	}
 
+	if len(chapters) > 0 && chapters[0].Title != "Вступление" {
+		chapters = append([]chapter{{Title: "Вступление", Begin: 0}}, chapters...)
+	}
 	return chapters, nil
 }
 
