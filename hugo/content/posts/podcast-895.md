@@ -15,6 +15,5 @@ filename = "rt_podcast895"
 - [Microsoft переходит на Rust](https://www.theregister.com/2024/01/31/microsoft_seeks_rust_developers/) - *01:51:38*.
 - [Темы слушателей](https://radio-t.com/p/2024/01/30/prep-895/) - *02:11:36*.
 
-
 [аудио](https://cdn.radio-t.com/rt_podcast895.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-895.html)
 <audio src="https://cdn.radio-t.com/rt_podcast895.mp3" preload="none"></audio>
