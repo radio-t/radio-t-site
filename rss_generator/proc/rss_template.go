@@ -19,10 +19,8 @@ var rssTemplate = `<?xml version="1.0" encoding="utf-8"?>
 
 	<itunes:image href="{{.FeedImage}}" />
 
-	<itunes:category text="Technology">
-		<itunes:category text="Tech News"/>
-	</itunes:category><itunes:category text="Technology">
-	<itunes:category text="Gadgets"/></itunes:category>
+	<itunes:category text="Technology"><itunes:category text="Tech News"/></itunes:category>
+	<itunes:category text="Technology"><itunes:category text="Gadgets"/></itunes:category>
 
 	<itunes:keywords>hitech,russian,radiot,tech,news,радио</itunes:keywords>
 
