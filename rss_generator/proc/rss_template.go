@@ -6,12 +6,12 @@ var rssTemplate = `<?xml version="1.0" encoding="utf-8"?>
 	<title>{{.FeedTitle}}</title>
 	<link>{{.FeedURL}}</link>
 	<language>ru</language>
-	<copyright>Umputun, Bobuk, Gray, Ksenks, Alek.sys</copyright>
+	<copyright>Creative Commons - Attribution, Noncommercial, No Derivative Works 3.0 License.</copyright>
 	<itunes:author>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:author>
 	<itunes:subtitle>{{.FeedSubtitle}}</itunes:subtitle>
 	<description>{{.FeedDescription}}</description>
 	<itunes:explicit>no</itunes:explicit>
-
+	<itunes:summary>Еженедельные импровизации на хай–тек темы</itunes:summary>
 	<itunes:owner>
 		<itunes:name>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:name>
 		<itunes:email>podcast@radio-t.com</itunes:email>
@@ -21,7 +21,8 @@ var rssTemplate = `<?xml version="1.0" encoding="utf-8"?>
 
 	<itunes:category text="Technology">
 		<itunes:category text="Tech News"/>
-	</itunes:category>
+	</itunes:category><itunes:category text="Technology">
+	<itunes:category text="Gadgets"/></itunes:category>
 
 	<itunes:keywords>hitech,russian,radiot,tech,news,радио</itunes:keywords>
 
