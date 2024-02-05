@@ -39,6 +39,7 @@ func TestRSSGenerator_MakeFeed(t *testing.T) {
 	assert.Equal(t, 0, res.Items[0].FileSize)
 	assert.Contains(t, res.Items[0].Description, "Apple останавливает продажи часов")
 	assert.Contains(t, res.Items[0].Summary, "Apple останавливает продажи часов")
+	assert.Contains(t, res.Items[0].ItunesSubtitle, "Apple останавливает продажи часов - 00:08:46. Весь код это технический долг - 00:27:21. Нет, это не так - 00:34:02.")
 
 	assert.Equal(t, "https://radio-t.com/p/2023/03/18/podcast-850/", res.Items[1].URL)
 }
@@ -163,5 +164,85 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		assert.Equal(t, "https://radio-t.com/images/radio-t/rt850.jpg", res.Image)
 		assert.Equal(t, "https://cdn.com/rt_podcast850.mp3", res.EnclosureURL)
 		assert.Equal(t, 1234, res.FileSize)
+	})
+}
+
+func TestRSSGenerator_htmlToPlainText(t *testing.T) {
+	g := RSSGenerator{}
+
+	t.Run("converts HTML content to plain text", func(t *testing.T) {
+		htmlContent := "<p>Hello, World!</p>"
+		expected := "Hello, World!"
+
+		result, err := g.htmlToPlainText(htmlContent)
+
+		assert.NoError(t, err)
+		assert.Equal(t, expected, result)
+	})
+
+	t.Run("handles empty HTML content", func(t *testing.T) {
+		htmlContent := ""
+		expected := ""
+
+		result, err := g.htmlToPlainText(htmlContent)
+
+		assert.NoError(t, err)
+		assert.Equal(t, expected, result)
+	})
+
+	t.Run("handles HTML content with multiple text nodes", func(t *testing.T) {
+		htmlContent := "<p>Hello,</p><p>World!</p>"
+		expected := "Hello,World!"
+
+		result, err := g.htmlToPlainText(htmlContent)
+
+		assert.NoError(t, err)
+		assert.Equal(t, expected, result)
+	})
+
+	t.Run("handles HTML content with multiple lines", func(t *testing.T) {
+		htmlContent := "<p>Hello,</p><p>World!</p>\n<p>Another line</p>"
+		expected := "Hello,World! Another line"
+
+		result, err := g.htmlToPlainText(htmlContent)
+
+		assert.NoError(t, err)
+		assert.Equal(t, expected, result)
+	})
+
+	t.Run("ignores HTML tags", func(t *testing.T) {
+		htmlContent := "<p><strong>Hello,</strong> <em>World!</em></p>"
+		expected := "Hello, World!"
+
+		result, err := g.htmlToPlainText(htmlContent)
+
+		assert.NoError(t, err)
+		assert.Equal(t, expected, result)
+	})
+
+	t.Run("real-life example", func(t *testing.T) {
+		htmlContent := `
+<p><img src="https://radio-t.com/images/radio-t/rt894.jpg" alt="" /></p>
+
+<p><em>Темы</em><ul>
+<li>Вступление - <em>00:00:00</em>.</li>
+<li><a href="https://9to5mac.com/2024/01/25/third-party-default-browsers-engines/">Apple откроется в народ, но только в Европе</a> - <em>00:01:02</em>.</li>
+<li><a href="https://trunk.io/blog/git-commit-messages-are-useless">Git commit messages</a> - <em>00:14:12</em>.</li>
+<li><a href="https://www.docker.com/blog/introducing-docker-build-cloud/">Docker Build Cloud</a> - <em>00:49:23</em>.</li>
+<li><a href="https://archive.ph/1waXO">Удаленная работа не испортила ничего</a> - <em>01:15:11</em>.</li>
+<li><a href="https://www.hottakes.space/p/remote-work-won-dont-let-anyone-gaslight">Но, при этом, победила</a> - <em>01:16:15</em>.</li>
+<li><a href="https://seykafu.medium.com/a-realistic-day-in-the-life-of-an-ai-product-manager-354d5b86318b">Тяжелая жизнь Product Manager</a> - <em>01:27:45</em>.</li>
+<li><a href="https://radio-t.com/p/2024/01/23/prep-894/">Темы слушателей</a> - <em>01:51:47</em>.</li>
+</ul></p>
+
+<p><a href="https://cdn.radio-t.com/rt_podcast894.mp3">аудио</a> • <a href="https://chat.radio-t.com/logs/radio-t-894.html">лог чата</a>
+<audio src="https://cdn.radio-t.com/rt_podcast894.mp3" preload="none"></audio></p>
+`
+		expected := "Темы Вступление - 00:00:00. Apple откроется в народ, но только в Европе - 00:01:02. Git commit messages - 00:14:12. Docker Build Cloud - 00:49:23. Удаленная работа не испортила ничего - 01:15:11. Но, при этом, победила - 01:16:15. Тяжелая жизнь Product Manager - 01:27:45. Темы слушателей - 01:51:47.   аудио • лог чата"
+
+		result, err := g.htmlToPlainText(htmlContent)
+
+		assert.NoError(t, err)
+		assert.Equal(t, expected, result)
 	})
 }

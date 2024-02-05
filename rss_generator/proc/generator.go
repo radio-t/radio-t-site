@@ -1,6 +1,7 @@
 package proc
 
 import (
+	"bytes"
 	"fmt"
 	"log"
 	"net/http"
@@ -11,6 +12,7 @@ import (
 	"text/template"
 
 	"github.com/russross/blackfriday/v2"
+	"golang.org/x/net/html"
 )
 
 //go:generate moq --out mocks/http_client.go --pkg mocks --with-resets --skip-ensure . HttpClient
@@ -38,15 +40,16 @@ type FeedConfig struct {
 
 // ItemData is the struct for each item in the feed
 type ItemData struct {
-	Title        string
-	Description  string
-	URL          string
-	GUID         string
-	Date         string
-	Summary      string
-	Image        string
-	EnclosureURL string
-	FileSize     int
+	Title          string
+	Description    string
+	URL            string
+	GUID           string
+	Date           string
+	Summary        string
+	Image          string
+	EnclosureURL   string
+	FileSize       int
+	ItunesSubtitle string
 }
 
 // FeedData is the struct that matches the placeholders in the rssTemplate
@@ -151,6 +154,7 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 	fixedURL := post.URL
 	fixedURL = strings.Replace(fixedURL, "//p", "/p", 1)
 	guid := strings.Replace(fixedURL, "/podcast-", "//podcast-", 1) // to match the old feed guid
+
 	res := ItemData{
 		Description:  rssDescriptionHTML,
 		URL:          fixedURL,
@@ -166,6 +170,12 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 	}
 	if r, ok := post.Config["image"].(string); ok {
 		res.Image = r
+	}
+
+	if r, err := g.htmlToPlainText(postDescriptionHTML); err == nil {
+		res.ItunesSubtitle = r
+	} else {
+		log.Printf("[WARN] error converting HTML to plain text: %v", err)
 	}
 
 	return res, nil
@@ -206,6 +216,30 @@ func (g *RSSGenerator) getMp3Size(mp3File string) (int, error) {
 		return 0, fmt.Errorf("unexpected status code %d for %s", resp.StatusCode, req.URL)
 	}
 	return int(resp.ContentLength), nil
+}
+
+// htmlToPlainText converts HTML content to plain text
+func (g *RSSGenerator) htmlToPlainText(htmlContent string) (string, error) {
+	doc, err := html.Parse(strings.NewReader(htmlContent))
+	if err != nil {
+		return "", err
+	}
+
+	var b bytes.Buffer
+	var f func(*html.Node)
+	f = func(n *html.Node) {
+		if n.Type == html.TextNode {
+			b.WriteString(n.Data)
+		}
+		for c := n.FirstChild; c != nil; c = c.NextSibling {
+			f(c)
+		}
+	}
+	f(doc)
+
+	res := strings.TrimSpace(b.String())
+	res = strings.ReplaceAll(res, "\n", " ")
+	return res, nil
 }
 
 func contains(slice []any, item any) bool {

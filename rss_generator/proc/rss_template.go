@@ -13,33 +13,37 @@ var rssTemplate = `<?xml version="1.0" encoding="utf-8"?>
 	<itunes:explicit>no</itunes:explicit>
 
 	<itunes:owner>
-		  <itunes:name>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:name>
-		  <itunes:email>podcast@radio-t.com</itunes:email>
+		<itunes:name>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:name>
+		<itunes:email>podcast@radio-t.com</itunes:email>
 	</itunes:owner>
 
 	<itunes:image href="{{.FeedImage}}" />
 
 	<itunes:category text="Technology">
-		  <itunes:category text="Tech News"/>
+		<itunes:category text="Tech News"/>
 	</itunes:category>
 
 	<itunes:keywords>hitech,russian,radiot,tech,news,радио</itunes:keywords>
 
 	{{- range .Items}}
 	<item>
-		  <title>{{.Title}}</title>
-          {{- if .Description}}
-		  <description><![CDATA[{{- .Description -}}]]></description>
-		  {{- end}}
-		  <link>{{.URL}}</link>
-		  <guid>{{.GUID}}</guid>
-		  <pubDate>{{.Date}}</pubDate>
-		  <itunes:author>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:author>
-		  {{- if .Summary}}
-		  <itunes:summary><![CDATA[{{.Summary -}}]]></itunes:summary>
-		  {{- end}}
-		  <itunes:image href="{{.Image}}" />
-		  <enclosure url="{{.EnclosureURL}}" type="audio/mp3" {{ if .FileSize -}} length="{{.FileSize}}"{{- end }} />
+		<title>{{.Title}}</title>
+		{{- if .Description}}
+		<description><![CDATA[{{- .Description -}}]]></description>
+		{{- end}}
+		<link>{{.URL}}</link>
+		<guid>{{.GUID}}</guid>
+		<pubDate>{{.Date}}</pubDate>
+		<itunes:author>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:author>
+		{{- if .Summary}}
+		<itunes:summary><![CDATA[{{.Summary -}}]]></itunes:summary>
+		{{- end}}
+		<itunes:image href="{{.Image}}" />
+		<enclosure url="{{.EnclosureURL}}" type="audio/mp3" {{ if .FileSize -}} length="{{.FileSize}}"{{- end }} />
+		<author>podcast@radio-t.com (Umputun, Bobuk, Gray, Ksenks, Alek.sys)</author>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:subtitle>{{.ItunesSubtitle}}</itunes:subtitle>
+		<itunes:keywords>hitech,russian,radiot,tech,news,радио</itunes:keywords>
 	</item>
 	{{- end}}
   </channel>
