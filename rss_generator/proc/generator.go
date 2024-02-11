@@ -177,6 +177,7 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 		if len([]rune(r)) > 250 {
 			res.ItunesSubtitle = string([]rune(r)[:250]) + "..."
 		}
+		res.ItunesSubtitle = g.cleanStringForXML(res.ItunesSubtitle)
 	} else {
 		log.Printf("[WARN] error converting HTML to plain text: %v", err)
 	}
@@ -243,6 +244,21 @@ func (g *RSSGenerator) htmlToPlainText(htmlContent string) (string, error) {
 	res := strings.TrimSpace(b.String())
 	res = strings.ReplaceAll(res, "\n", " ")
 	return res, nil
+}
+
+func (g *RSSGenerator) cleanStringForXML(input string) string {
+	replacements := map[string]string{
+		"&":  "&amp;",
+		"<":  "&lt;",
+		">":  "&gt;",
+		"\"": "&quot;",
+		"'":  "&apos;",
+	}
+	// Iterate over the map and replace each character with its entity reference
+	for old, new := range replacements {
+		input = strings.ReplaceAll(input, old, new)
+	}
+	return input
 }
 
 func contains(slice []any, item any) bool {
