@@ -174,8 +174,8 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 
 	if r, err := g.htmlToPlainText(postDescriptionHTML); err == nil {
 		res.ItunesSubtitle = r
-		if len([]rune(r)) > 250 {
-			res.ItunesSubtitle = string([]rune(r)[:250]) + "..."
+		if len([]rune(r)) > 240 {
+			res.ItunesSubtitle = string([]rune(r)[:240]) + "..."
 		}
 		res.ItunesSubtitle = g.cleanStringForXML(res.ItunesSubtitle)
 	} else {

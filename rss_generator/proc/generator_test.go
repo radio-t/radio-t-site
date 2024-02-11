@@ -3,6 +3,7 @@ package proc
 import (
 	"net/http"
 	"net/http/httptest"
+	"strings"
 	"testing"
 	"time"
 
@@ -85,6 +86,41 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		return
 	}))
 	defer testServer.Close()
+
+	t.Run("long description", func(t *testing.T) {
+		client := &http.Client{Timeout: time.Second}
+		g := RSSGenerator{
+			Client:         client,
+			BaseArchiveURL: testServer.URL,
+			BaseURL:        "https://example.com",
+			BaseCdnURL:     "https://cdn.com",
+		}
+
+		data := strings.Repeat("1234567890", 50)
+		res, err := g.createItemData(FeedConfig{
+			Name:            "name1",
+			Title:           "title1",
+			Image:           "image1",
+			Count:           10,
+			Size:            false,
+			FeedSubtitle:    "sub",
+			FeedDescription: "desc",
+		}, Post{
+			CreatedAt: time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC),
+			URL:       "http://example.com/post1/",
+			Config: map[string]interface{}{
+				"title":      "title1",
+				"filename":   "rt_podcast850",
+				"categories": []interface{}{"podcast"},
+				"image":      "https://radio-t.com/images/radio-t/rt850.jpg",
+			},
+			Data: data,
+		})
+		require.NoError(t, err)
+		t.Logf("%+v", res)
+		assert.Contains(t, res.ItunesSubtitle, "...")
+		assert.Len(t, res.ItunesSubtitle, 240+3)
+	})
 
 	t.Run("no mp3 size", func(t *testing.T) {
 		client := &http.Client{Timeout: time.Second}
