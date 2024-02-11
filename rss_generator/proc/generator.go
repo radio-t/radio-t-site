@@ -174,6 +174,9 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 
 	if r, err := g.htmlToPlainText(postDescriptionHTML); err == nil {
 		res.ItunesSubtitle = r
+		if len([]rune(r)) > 250 {
+			res.ItunesSubtitle = string([]rune(r)[:250]) + "..."
+		}
 	} else {
 		log.Printf("[WARN] error converting HTML to plain text: %v", err)
 	}
