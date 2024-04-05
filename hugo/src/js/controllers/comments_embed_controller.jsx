@@ -12,6 +12,7 @@ export default class extends Controller {
       window.REMARK42.destroy();
       window.REMARK42.createInstance(window.remark_config);
     }
+    this.changeTheme = this.changeTheme.bind(this);
   }
 
   connect() {
