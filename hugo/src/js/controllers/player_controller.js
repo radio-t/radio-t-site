@@ -34,6 +34,28 @@ export default class extends Controller {
     return this.state;
   }
 
+  get storedVolumeLevel() {
+    return getLocalStorage('player-parameters', (player) => player['volume'] || 100);
+  }
+
+  set storedVolumeLevel(volumeLevel) {
+    updateLocalStorage('player-parameters', (player) => {
+      player['volume'] = volumeLevel;
+      return player;
+    });
+  }
+
+  get rate() {
+    return getLocalStorage('player-parameters', (player) => player['rate'] || 1);
+  }
+
+  set rate(rate) {
+    updateLocalStorage('player-parameters', (player) => {
+      player['rate'] = rate;
+      return player;
+    });
+  }
+
   updateState(state) {
     Object.assign(this.constructor.state, state);
     this.dispatchEvent(
@@ -139,6 +161,8 @@ export default class extends Controller {
       this.numberTarget.textContent = detail.number;
       this.audioTarget.load();
       this.rateTarget.textContent = this.audioTarget.playbackRate;
+      this.updateVolumeLevel(this.storedVolumeLevel);
+      this.updatePlaybackRate(this.rate);
       if (!detail.online) {
         if (!detail.timeLabel) {
           const podcast = getLocalStorage(
@@ -222,6 +246,11 @@ export default class extends Controller {
     this.audioTarget.volume = volumeLevel / 100;
   }
 
+  updateVolumeLevel(volumeLevel) {
+    this.volumeLevelTarget.value = volumeLevel;
+    this.setVolume(volumeLevel);
+  }
+
   close() {
     window.localStorage.removeItem('player');
     this.element.classList.add('d-none');
@@ -276,12 +305,10 @@ export default class extends Controller {
 
   muteUnmute() {
     if (this.isMuted) {
-      this.setVolume(this.storedVolumeLevel);
-      this.volumeLevelTarget.value = this.storedVolumeLevel;
+      this.updateVolumeLevel(this.storedVolumeLevel);
     } else {
-      this.setVolume(0);
       this.storedVolumeLevel = this.volumeLevelTarget.value;
-      this.volumeLevelTarget.value = 0;
+      this.updateVolumeLevel(0);
     }
   }
 
@@ -292,6 +319,11 @@ export default class extends Controller {
       rate = 0.5;
     }
 
+    this.updatePlaybackRate(rate);
+  }
+
+  updatePlaybackRate(rate) {
+    this.rate = rate;
     this.audioTarget.playbackRate = rate;
     this.rateTarget.innerText = rate;
   }
