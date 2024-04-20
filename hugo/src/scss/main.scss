@@ -840,6 +840,7 @@ $ripple-scale-out: 3.4;
 [data-target='online.time'] {
   cursor: default;
   user-select: none;
+  transform: translateZ(0);
 }
 .podcast-progress {
   position: absolute;
@@ -850,6 +851,7 @@ $ripple-scale-out: 3.4;
   background-color: $gray-300;
   z-index: 3;
   pointer-events: none;
+  transform: translateZ(0);
 }
 .podcast-progress-bar {
   position: absolute;

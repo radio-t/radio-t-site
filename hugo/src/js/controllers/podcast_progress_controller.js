@@ -26,11 +26,16 @@ export default class extends Controller {
     }
 
     this.data.set('init', '1');
+    this.lastPercentage = 0;
   }
 
   renderProgress(podcast) {
     this.progressTarget.style.display = 'block';
-    this.durationTarget.innerText = composeTime(podcast.duration);
-    this.barTarget.style.width = `${(podcast.currentTime / podcast.duration) * 100}%`;
+    this.durationTarget.innerText = composeTime(podcast.currentTime);
+    const percentage = (podcast.currentTime / podcast.duration) * 100;
+    if (Math.abs(percentage - this.lastPercentage) > 0.2) {
+      this.barTarget.style.width = `${percentage}%`;
+      this.lastPercentage = percentage;
+    }
   }
 }
