@@ -1,5 +1,4 @@
-import debounce from 'lodash/debounce';
-import capitalize from 'lodash/capitalize';
+import { debounce, capitalize, throttle } from 'lodash';
 
 import { Events } from '../events';
 import Controller from '../base_controller';
@@ -28,6 +27,7 @@ export default class extends Controller {
     'mute',
     'unmute',
     'rate',
+    'container',
   ];
 
   static getState() {
@@ -74,15 +74,18 @@ export default class extends Controller {
 
   // https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events
   addEventListeners() {
-    ['timeupdate', 'durationchange', 'play', 'pause', 'ended'].forEach((event) => {
+    ['durationchange', 'play', 'pause', 'ended'].forEach((event) => {
       const handlerName = `on${capitalize(event)}`;
       if (this[handlerName]) this.audioTarget.addEventListener(event, this[handlerName].bind(this));
     });
 
-    const updateLoadingState = debounce(
-      (isLoading) => this.element.classList.toggle('player-loading', isLoading),
-      500
-    );
+    this.audioTarget.addEventListener('timeupdate', throttle(this.onTimeupdate.bind(this), 500));
+
+    const updateLoadingState = debounce((isLoading) => {
+      this.element.classList.toggle('player-loading', isLoading);
+      this.element.classList.remove('player-loading-completed');
+    }, 500);
+
     const eventsLoadingOn = ['seeking', 'waiting', 'loadstart'];
     const eventsLoadingOff = ['playing', 'seeked', 'canplay', 'loadeddata', 'error'];
     eventsLoadingOn.forEach((event) =>
@@ -135,6 +138,16 @@ export default class extends Controller {
           duration: this.audioTarget.duration,
         })
       );
+    });
+
+    this.containerTarget.addEventListener('transitionend', (e) => {
+      if (e.pseudoElement !== '::after' || e.propertyName !== 'opacity') {
+        return;
+      }
+      const style = window.getComputedStyle(e.target, ':after');
+      if (style.opacity === '0') {
+        this.element.classList.add('player-loading-completed');
+      }
     });
   }
 

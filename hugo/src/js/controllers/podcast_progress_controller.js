@@ -1,3 +1,4 @@
+import { throttle } from 'lodash';
 import Controller from '../base_controller';
 import { composeTime, getLocalStorage } from '../utils';
 
@@ -6,9 +7,10 @@ export default class extends Controller {
 
   initialize() {
     super.initialize();
-    this.subscribe(`playing-progress-${this.numberTarget.innerText}`, (podcast) => {
-      this.renderProgress(podcast);
-    });
+    this.subscribe(
+      `playing-progress-${this.numberTarget.innerText}`,
+      throttle(this.renderProgress.bind(this), 1000)
+    );
   }
 
   connect() {
