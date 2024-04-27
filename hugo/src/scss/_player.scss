@@ -36,6 +36,10 @@ $podcast-player-cover-margin: 0.5rem;
       opacity: 1;
       transition-delay: 200ms;
     }
+
+    .player-loading-completed & {
+      animation: none;
+    }
   }
 }
 .podcast-player {
