@@ -95,37 +95,37 @@ export default class extends Controller {
       this.audioTarget.addEventListener(event, updateLoadingState.bind(this, false))
     );
 
-    const debugEvents = [
-      'abort',
-      'canplay',
-      'canplaythrough',
-      'durationchange',
-      'emptied',
-      'encrypted',
-      'ended',
-      'error',
-      'interruptbegin',
-      'interruptend',
-      'loadeddata',
-      'loadedmetadata',
-      'loadstart',
-      'mozaudioavailable',
-      'pause',
-      'play',
-      'playing',
-      'progress',
-      'ratechange',
-      'seeked',
-      'seeking',
-      'stalled',
-      'suspend',
-      'timeupdate',
-      'volumechange',
-      'waiting',
-    ];
-    debugEvents.forEach((event) =>
-      this.audioTarget.addEventListener(event, (e) => this.debug('audio event', event, e))
-    );
+    // const debugEvents = [
+    //   'abort',
+    //   'canplay',
+    //   'canplaythrough',
+    //   'durationchange',
+    //   'emptied',
+    //   'encrypted',
+    //   'ended',
+    //   'error',
+    //   'interruptbegin',
+    //   'interruptend',
+    //   'loadeddata',
+    //   'loadedmetadata',
+    //   'loadstart',
+    //   'mozaudioavailable',
+    //   'pause',
+    //   'play',
+    //   'playing',
+    //   'progress',
+    //   'ratechange',
+    //   'seeked',
+    //   'seeking',
+    //   'stalled',
+    //   'suspend',
+    //   'timeupdate',
+    //   'volumechange',
+    //   'waiting',
+    // ];
+    // debugEvents.forEach((event) =>
+    //   this.audioTarget.addEventListener(event, (e) => this.debug('audio event', event, e))
+    // );
 
     window.addEventListener('beforeunload', () => {
       const isPlaying = this.constructor.state.src && !this.constructor.state.paused;
