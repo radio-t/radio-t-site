@@ -13,7 +13,7 @@ COPY ./hugo/layouts /app/layouts/
 
 RUN npm run build
 
-FROM golang:1.21-alpine as go-build
+FROM golang:1.22-alpine as go-build
 COPY rss_generator /build
 RUN cd /build && go build -o /build/bin/rss_generator -ldflags "-s -w" && ls -la /build/bin/rss_generator
 
