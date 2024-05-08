@@ -1,4 +1,4 @@
-FROM node:10-alpine as build
+FROM node:22-alpine as build
 
 WORKDIR /app
 RUN apk add --update --no-cache python make g++
