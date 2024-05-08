@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.19
 
 # https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#docker
 LABEL org.opencontainers.image.source="https://github.com/radio-t/radio-t-site"
