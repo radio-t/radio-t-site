@@ -20,15 +20,15 @@ jobs:
         node: [14.15]
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
 
       - run: npm ci --loglevel warn
         working-directory: ./hugo
 
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: ${{ github.workspace }}/hugo/node_modules/.cache
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}

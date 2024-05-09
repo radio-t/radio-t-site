@@ -1,4 +1,4 @@
-FROM node:10-alpine as build
+FROM node:22-alpine as build
 
 WORKDIR /app
 RUN apk add --update --no-cache python make g++
@@ -13,11 +13,14 @@ COPY ./hugo/layouts /app/layouts/
 
 RUN npm run build
 
-FROM golang:1.21-alpine as go-build
+FROM golang:1.22-alpine as go-build
 COPY rss_generator /build
 RUN cd /build && go build -o /build/bin/rss_generator -ldflags "-s -w" && ls -la /build/bin/rss_generator
 
-FROM alpine:3.18
+FROM alpine:3.19
+
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#docker
+LABEL org.opencontainers.image.source="https://github.com/radio-t/radio-t-site"
 
 # enables automatic changelog generation by tools like Dependabot
 LABEL org.opencontainers.image.source="https://github.com/radio-t/radio-t-site"

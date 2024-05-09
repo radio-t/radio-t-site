@@ -6,9 +6,9 @@ require (
 	github.com/BurntSushi/toml v1.3.2
 	github.com/go-pkgz/lgr v0.11.1
 	github.com/russross/blackfriday/v2 v2.1.0
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.9.0
 	github.com/umputun/go-flags v1.5.1
-	golang.org/x/net v0.20.0
+	golang.org/x/net v0.25.0
 )
 
 require (
