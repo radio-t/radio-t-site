@@ -21,6 +21,9 @@ RUN \
 
 FROM umputun/baseimage:app-latest
 
+# enables automatic changelog generation by tools like Dependabot
+LABEL org.opencontainers.image.source="https://github.com/radio-t/radio-t-site"
+
 RUN \
     apk add --update openssh-client git && \
     mkdir -p /home/app/.ssh && \

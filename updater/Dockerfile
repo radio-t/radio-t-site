@@ -1,5 +1,8 @@
 FROM alpine:3.8
 
+# enables automatic changelog generation by tools like Dependabot
+LABEL org.opencontainers.image.source="https://github.com/radio-t/radio-t-site"
+
 ENV \
     TERM=xterm-color           \
     TIME_ZONE=America/Chicago  \
