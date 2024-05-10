@@ -13,18 +13,6 @@ updates:
       "GitHub Actions updates":
         patterns:
           - "*"
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "monthly"
-  - package-ecosystem: "docker"
-    directory: "/publisher"
-    schedule:
-      interval: "monthly"
-  - package-ecosystem: "docker"
-    directory: "/updater"
-    schedule:
-      interval: "monthly"
   - package-ecosystem: "gomod"
     directory: "/rss_generator"
     schedule:
@@ -32,8 +20,6 @@ updates:
     groups:
       "Go modules updates":
         dependency-type: "production"
-      "Go modules updates for tests":
-        dependency-type: "development"
   - package-ecosystem: "gomod"
     directory: "/publisher"
     schedule:
@@ -41,8 +27,6 @@ updates:
     groups:
       "Go modules updates":
         dependency-type: "production"
-      "Go modules updates for tests":
-        dependency-type: "development"
   - package-ecosystem: "npm"
     directory: "/hugo"
     schedule:
