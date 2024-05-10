@@ -22,6 +22,9 @@ FROM alpine:3.19
 # https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#docker
 LABEL org.opencontainers.image.source="https://github.com/radio-t/radio-t-site"
 
+# enables automatic changelog generation by tools like Dependabot
+LABEL org.opencontainers.image.source="https://github.com/radio-t/radio-t-site"
+
 RUN \
     apk add --update --no-cache tzdata curl openssl git openssh-client ca-certificates && \
     cp /usr/share/zoneinfo/EST /etc/localtime && \

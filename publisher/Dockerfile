@@ -21,7 +21,7 @@ RUN \
 
 FROM umputun/baseimage:app-latest
 
-# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#docker
+# enables automatic changelog generation by tools like Dependabot
 LABEL org.opencontainers.image.source="https://github.com/radio-t/radio-t-site"
 
 RUN \
