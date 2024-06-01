@@ -3,7 +3,7 @@ module github.com/radio-t/radio-t-site/rss_generator
 go 1.21
 
 require (
-	github.com/BurntSushi/toml v1.3.2
+	github.com/BurntSushi/toml v1.4.0
 	github.com/go-pkgz/lgr v0.11.1
 	github.com/russross/blackfriday/v2 v2.1.0
 	github.com/stretchr/testify v1.9.0
