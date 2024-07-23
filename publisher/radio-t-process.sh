@@ -32,7 +32,7 @@ make proc-mp3 FILE=${selectedFile}
 echo "done"
 
 osascript -e "display notification \"processing completed for $episodeNumber\" with title \"RADIO-T\""
-say "completed processing for episode $episodeNumber"
+say -v "Evan (Enhanced)" "completed processing for episode $episodeNumber"
 EOF
 
 # Make the script executable
