@@ -17,24 +17,24 @@ help:
 
 # generate new episode post markdown file and open it using SublimeText 
 new-episode:
-	@docker-compose run --rm -it publisher new | tee ${TMPFILE};
+	@docker compose run --rm -it publisher new | tee ${TMPFILE};
 	@${subl} ${makefile_dir}/../hugo/`tail -n 1 ${TMPFILE} | tr -d '\r'`;
 
 # generate new prep post markdown file and open it using SublimeText 
 prep-show-post:
-	@docker-compose run --rm -it publisher prep | tee ${TMPFILE};
+	@docker compose run --rm -it publisher prep | tee ${TMPFILE};
 	@${subl} ${makefile_dir}/../hugo/`tail -n 1 ${TMPFILE} | tr -d '\r'`;
 
 # show tags for mp3 file
 show-tags:
-	@docker-compose run --rm -it publisher tags --file="$$FILE" --dbg
+	@docker compose run --rm -it publisher tags --file="$$FILE" --dbg
 
 proc-mp3:
-	@docker-compose run --rm -it publisher proc --file="$$FILE"
+	@docker compose run --rm -it publisher proc --file="$$FILE"
 
 # deploy new podcast episode page to https://radio-t.com and regenerate site
 deploy-site:
-	@docker-compose run --rm -it publisher deploy
+	@docker compose run --rm -it publisher deploy
 
 build:
 	@echo $(REV)
