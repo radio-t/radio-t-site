@@ -241,8 +241,10 @@ func (g *RSSGenerator) htmlToPlainText(htmlContent string) (string, error) {
 	}
 	f(doc)
 
-	res := strings.TrimSpace(b.String())
-	res = strings.ReplaceAll(res, "\n", " ")
+	res := strings.ReplaceAll(b.String(), "\n", " ")
+	res = strings.Replace(res, "аудио • лог чата", "", 1) // remove suffix "аудио • лог чата" from the description
+	res = strings.TrimSpace(res)
+
 	return res, nil
 }
 

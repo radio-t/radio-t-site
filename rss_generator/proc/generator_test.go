@@ -274,7 +274,7 @@ func TestRSSGenerator_htmlToPlainText(t *testing.T) {
 <p><a href="https://cdn.radio-t.com/rt_podcast894.mp3">аудио</a> • <a href="https://chat.radio-t.com/logs/radio-t-894.html">лог чата</a>
 <audio src="https://cdn.radio-t.com/rt_podcast894.mp3" preload="none"></audio></p>
 `
-		expected := "Темы Вступление - 00:00:00. Apple откроется в народ, но только в Европе - 00:01:02. Git commit messages - 00:14:12. Docker Build Cloud - 00:49:23. Удаленная работа не испортила ничего - 01:15:11. Но, при этом, победила - 01:16:15. Тяжелая жизнь Product Manager - 01:27:45. Темы слушателей - 01:51:47.   аудио • лог чата"
+		expected := "Темы Вступление - 00:00:00. Apple откроется в народ, но только в Европе - 00:01:02. Git commit messages - 00:14:12. Docker Build Cloud - 00:49:23. Удаленная работа не испортила ничего - 01:15:11. Но, при этом, победила - 01:16:15. Тяжелая жизнь Product Manager - 01:27:45. Темы слушателей - 01:51:47."
 
 		result, err := g.htmlToPlainText(htmlContent)
 
