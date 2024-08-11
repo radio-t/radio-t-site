@@ -15,8 +15,6 @@ import (
 	"golang.org/x/net/html"
 )
 
-//go:generate moq --out mocks/http_client.go --pkg mocks --with-resets --skip-ensure . HttpClient
-
 // RSSGenerator is a primary struct for RSS generation.
 type RSSGenerator struct {
 	Client          HttpClient
