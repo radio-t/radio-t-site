@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import re
 import glob
@@ -14,20 +14,20 @@ def extract_image(post_file, post):
     match = re.match(exp, post.content)
     image = match.group(1) if match else None
 
-    if (image and ('image' in post.metadata)):
-        if (post.metadata['image'] != image):
-            print('Different images in ' + post_file)
+    if image and 'image' in post.metadata:
+        if post.metadata['image'] != image:
+            print(f'Different images in {post_file}')
             return post
-    
-    if (not (image or ('image' in post.metadata))):
-        print('No images in ' + post_file)
+
+    if not (image or 'image' in post.metadata):
+        print(f'No images in {post_file}')
         return post
-    
-    image = image if image else post.metadata['image']
+
+    image = image or post.metadata['image']
 
     # add image from post content
     post.content = re.sub(exp, '', post.content)
-    post.content = Template('![]($image)\n\n$content').substitute({'image': image, 'content': post.content})
+    post.content = Template('![]($image)\n\n$content').substitute(image=image, content=post.content)
 
     # add image to frontmatter
     post.metadata['image'] = image
@@ -35,17 +35,14 @@ def extract_image(post_file, post):
     return post
 
 def get_prep_link(number):
-    prep_file = 'content/posts/prep-' + number + '.md'
+    prep_file = f'content/posts/prep-{number}.md'
     prep = frontmatter.load(prep_file)
     date = dateutil.parser.parse(prep.metadata['date'])
-    permalink = date.strftime('/p/%Y/%m/%d/prep-' + number + '/')
+    permalink = date.strftime(f'/p/%Y/%m/%d/prep-{number}/')
     return permalink
 
-
 def fix_prep_link(post_file, post):
-    # exp = r"http://radio-t\.com/temi_dlja_vipuskov/[\w-]+-(\d+)/"
     exp = r"http://new.radio-t.com/\d+/\d+/(\d+).html"
-
     match = re.search(exp, post.content)
     number = match.group(1) if match else None
     if number:
@@ -57,15 +54,15 @@ def insert_final_newline(file):
     exp = r"\s*$"
     write(file, re.sub(exp, "\n", content))
 
-
 def run():
-    # # extract image
+    # Uncomment the sections you need to run
+    # extract image
     # for post_file in glob.glob('content/posts/podcast-*'):
     #     post = frontmatter.load(post_file)
     #     post = extract_image(post_file, post)
     #     write(post_file, frontmatter.dumps(post))
 
-    # # fix prep links
+    # fix prep links
     # for post_file in glob.glob('content/posts/podcast-*'):
     #     post = frontmatter.load(post_file)
     #     post = fix_prep_link(post_file, post)
@@ -74,7 +71,6 @@ def run():
 
     for file in glob.glob('content/posts/*.md'):
         insert_final_newline(file)
-
 
 if __name__ == '__main__':
     run()
