@@ -3,7 +3,6 @@ const glob = require('glob');
 const mix = require('laravel-mix');
 const babel = require('@babel/core');
 const PurgecssPlugin = require('purgecss-webpack-plugin');
-const nodeSass = require('node-sass');
 const purgecssHtml = require('purgecss-from-html');
 
 mix.disableNotifications();
@@ -22,10 +21,10 @@ mix
 
 ['app', 'vendor'].forEach((style) => {
   mix
-    .sass(`src/scss/${style}.scss`, '.', { implementation: nodeSass })
+    .sass(`src/scss/${style}.scss`, '.')
     .options({ postCss: [require('cssnano')] });
   mix
-    .sass(`src/scss/${style}-dark.scss`, '.', { implementation: nodeSass })
+    .sass(`src/scss/${style}-dark.scss`, '.')
     .options({ postCss: [require('cssnano')] });
 });
 
