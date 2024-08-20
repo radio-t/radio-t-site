@@ -3,7 +3,6 @@ ARG GIT_BRANCH
 ARG GITHUB_SHA
 ARG CI
 ARG REV
-ENV GOFLAGS="-mod=vendor"
 
 ADD . /build
 
