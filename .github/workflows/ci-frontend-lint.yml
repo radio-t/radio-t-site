@@ -5,10 +5,12 @@ on:
     branches:
     tags:
     paths:
+      - '.github/workflows/ci-frontend-lint.yml'
       - "hugo/**/*.jsx?"
       - "hugo/**/*.tsx?"
   pull_request:
     paths:
+      - '.github/workflows/ci-frontend-lint.yml'
       - "hugo/**/*.jsx?"
       - "hugo/**/*.tsx?"
 
@@ -17,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [14.15]
+        node: [14]
 
     steps:
       - uses: actions/checkout@v4

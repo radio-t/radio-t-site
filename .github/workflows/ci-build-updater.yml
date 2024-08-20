@@ -1,0 +1,25 @@
+name: build-updater
+on:
+  push:
+    branches:
+    tags:
+    paths:
+      - '.github/workflows/ci-build-updater.yml'
+      - 'updater/**'
+  pull_request:
+    paths:
+      - '.github/workflows/ci-build-updater.yml'
+      - 'updater/**'
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: check out code
+      uses: actions/checkout@v4
+
+    - name: build updater image
+      run: docker build -t radio-t/updater .
+      working-directory: updater
