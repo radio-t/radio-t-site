@@ -52,7 +52,7 @@ func TestRSSGenerator_getMp3Size(t *testing.T) {
 			return
 		}
 		if r.URL.Path == "/other-file.mp3" && r.Method == "GET" {
-			w.Write([]byte("Hello world"))
+			_, _ = w.Write([]byte("Hello world"))
 			return
 		}
 		w.WriteHeader(http.StatusNotFound)
@@ -83,7 +83,6 @@ func TestRSSGenerator_getMp3Size(t *testing.T) {
 func TestRSSGenerator_createItemData(t *testing.T) {
 	testServer := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Length", "1234")
-		return
 	}))
 	defer testServer.Close()
 
