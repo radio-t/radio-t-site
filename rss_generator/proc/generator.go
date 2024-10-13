@@ -209,6 +209,9 @@ func (g *RSSGenerator) getMp3Size(mp3File string) (int, error) {
 
 	// if no Content-Length header from HEAD request, try GET request
 	req, err = http.NewRequest("GET", url, http.NoBody)
+	if err != nil {
+		return 0, fmt.Errorf("error creating request: %v", err)
+	}
 	resp, err = g.Client.Do(req)
 	if err != nil {
 		return 0, fmt.Errorf("error getting response for %s: %v", req.URL, err)
