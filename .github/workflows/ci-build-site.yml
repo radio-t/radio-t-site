@@ -1,0 +1,38 @@
+name: build-site
+on:
+  push:
+    branches:
+    tags:
+    paths-ignore:
+      - 'publisher/**'
+      - 'updater/**'
+      - '.github/workflows/ci-build-publisher.yml'
+      - '.github/workflows/ci-build-updater.yml'
+      - '.github/workflows/ci-frontend-check.yml'
+      - '.github/workflows/ci-frontend-lint.yml'
+      - '.github/dependabot.yml'
+      - '.github/FUNDING.yml'
+      - 'hugo/content/**' # content likely won't break the build
+  pull_request:
+    paths-ignore:
+      - 'publisher/**'
+      - 'updater/**'
+      - '.github/workflows/ci-build-publisher.yml'
+      - '.github/workflows/ci-build-updater.yml'
+      - '.github/workflows/ci-frontend-check.yml'
+      - '.github/workflows/ci-frontend-lint.yml'
+      - '.github/dependabot.yml'
+      - '.github/FUNDING.yml'
+      - 'hugo/content/**' # content likely won't break the build
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: check out code
+      uses: actions/checkout@v4
+
+    - name: build site image
+      run: docker build -t radio-t/site .

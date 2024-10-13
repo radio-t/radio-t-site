@@ -1,14 +1,14 @@
-name: build
+name: build-publisher
 on:
   push:
     branches:
     tags:
     paths:
-      - '.github/workflows/ci.yml'
+      - '.github/workflows/ci-build-publisher.yml'
       - 'publisher/**'
   pull_request:
     paths:
-      - '.github/workflows/ci.yml'
+      - '.github/workflows/ci-build-publisher.yml'
       - 'publisher/**'
 
 jobs:
