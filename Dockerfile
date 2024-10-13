@@ -19,9 +19,6 @@ RUN cd /build && go build -o /build/bin/rss_generator -ldflags "-s -w" && ls -la
 
 FROM alpine:3.19
 
-# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#docker
-LABEL org.opencontainers.image.source="https://github.com/radio-t/radio-t-site"
-
 # enables automatic changelog generation by tools like Dependabot
 LABEL org.opencontainers.image.source="https://github.com/radio-t/radio-t-site"
 
