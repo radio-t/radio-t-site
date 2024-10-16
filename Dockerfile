@@ -1,11 +1,12 @@
-FROM node:10-alpine as build
+FROM node:22-alpine as build
 
 WORKDIR /app
-RUN apk add --update --no-cache python make g++
 COPY hugo/package.json hugo/package-lock.json ./
 RUN npm ci
 
 ENV NODE_ENV=production
+# needed only for old webpack version
+ENV NODE_OPTIONS=--openssl-legacy-provider
 
 COPY ./hugo/webpack.mix.js ./hugo/tsconfig.json ./hugo/.babelrc.js /app/
 COPY ./hugo/src/ /app/src/

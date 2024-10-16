@@ -1,7 +1,8 @@
-name: "Check size limit for CSS and JS bundles"
+name: "Check and Validate CSS/JS Bundle Size with Node Setup"
 on:
   pull_request:
     paths:
+      - '.github/workflows/ci-frontend-check.yml'
       - "hugo/**/*.jsx?"
       - "hugo/**/*.tsx?"
       - "hugo/**/*.scss"
@@ -11,9 +12,31 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CI_JOB_NUMBER: 1
+      NODE_OPTIONS: --openssl-legacy-provider
     steps:
-      - uses: actions/checkout@v4
-      - uses: andresz1/size-limit-action@v1
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # these steps are run in the size-limit-action anyway,
+      # but exposed separately so that in case there is a problem not with the file size
+      # but with the setup, we can see that failure clearly
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        working-directory: hugo
+        with:
+          node-version: '22.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: hugo
+
+      - name: Build project
+        run: npm run build
+        working-directory: hugo
+
+      - name: Check bundle size limits
+        uses: andresz1/size-limit-action@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           directory: hugo/
