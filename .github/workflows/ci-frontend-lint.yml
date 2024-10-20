@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: '22.x'
           cache: 'npm'
+          cache-dependency-path: hugo
 
       - run: npm ci --loglevel warn
         working-directory: hugo
