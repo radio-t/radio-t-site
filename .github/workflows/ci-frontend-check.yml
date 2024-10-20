@@ -22,10 +22,10 @@ jobs:
       # but with the setup, we can see that failure clearly
       - name: Set up Node.js
         uses: actions/setup-node@v4
-        working-directory: hugo
         with:
           node-version: '22.x'
           cache: 'npm'
+          cache-dependency-path: hugo
 
       - name: Install dependencies
         run: npm install

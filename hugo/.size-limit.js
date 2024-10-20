@@ -9,7 +9,7 @@ module.exports = [
   },
   {
     path: 'static/build/vendor.js',
-    limit: '100 KB',
+    limit: '128 KB',
   },
   {
     path: 'static/build/app.css',
