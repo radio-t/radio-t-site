@@ -1,7 +1,7 @@
-import quicklink from 'quicklink/dist/quicklink.mjs';
+import {prefetch} from 'quicklink/dist/quicklink.mjs';
 
 function start(options = {}) {
-  quicklink({
+  prefetch({
     ignores: [
       (_, elem) => String(elem.getAttribute('href'))[0] === '#',
       (_, elem) => elem.matches('[noprefetch]') || elem.closest('[noprefetch]'),
