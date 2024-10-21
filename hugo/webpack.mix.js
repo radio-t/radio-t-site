@@ -2,7 +2,7 @@ const fs = require('fs');
 const glob = require('glob');
 const mix = require('laravel-mix');
 const babel = require('@babel/core');
-const PurgecssPlugin = require('purgecss-webpack-plugin');
+const PurgeCSSPlugin = require('purgecss-webpack-plugin');
 const purgecssHtml = require('purgecss-from-html');
 
 mix.disableNotifications();
@@ -30,7 +30,7 @@ mix
 
 mix.webpackConfig({
   plugins: [
-    new PurgecssPlugin({
+    new PurgeCSSPlugin({
       paths: [
         ...glob.sync('layouts/**/*.html', { nodir: true }),
         ...glob.sync('src/**/*.{js,ts,jsx,tsx}', { nodir: true }),
