@@ -1,6 +1,16 @@
 // TODO: fix babel-loader and use import
 require('./polyfills');
 
+let sentryInitialized = false;
+
+async function loadSentry() {
+  if (!sentryInitialized) {
+    sentryInitialized = true;
+    const {initSentry} = await import('./sentry');
+    await initSentry();
+  }
+}
+
 if (process.env.NODE_ENV !== 'production') {
   // Include here for dev, but inline for prod
   require('./inline');
@@ -13,6 +23,8 @@ if (process.env.NODE_ENV === 'production' || process.env.MIX_TURBO) {
   require('./quicklink');
 }
 
+// Lazy load Sentry only on error
 if (process.env.NODE_ENV === 'production' || process.env.ENABLE_SENTRY) {
-  require('./sentry');
+  window.addEventListener('error', loadSentry);
+  window.addEventListener('unhandledrejection', loadSentry);
 }
