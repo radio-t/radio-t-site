@@ -121,8 +121,8 @@ jobs:
 
       - name: Remove hashes from CSS and JS files references
         run: |
-          find ${{ steps.set-dirs.outputs.old_dir }}/public -type f -exec sed -i 's/\(js\|css\)?id=[^"'\''"]\+//g' {} +
-          find ${{ steps.set-dirs.outputs.new_dir }}/public -type f -exec sed -i 's/\(js\|css\)?id=[^"'\''"]\+//g' {} +
+          find ${{ steps.set-dirs.outputs.old_dir }}/public -type f -exec sed -i 's/\(js\|css\)?id=[^"'\''"]\+/\1/g' {} +
+          find ${{ steps.set-dirs.outputs.new_dir }}/public -type f -exec sed -i 's/\(js\|css\)?id=[^"'\''"]\+/\1/g' {} +
 
       - name: Generate diff
         run: |
