@@ -99,7 +99,7 @@ $podcast-player-cover-margin: 0.5rem;
   background-color: currentColor;
   height: $podcast-player-seek-thumb-height;
   width: $podcast-player-seek-thumb-width;
-  margin: -($podcast-player-seek-thumb-height - $podcast-player-seek-height)/2 -2px;
+  margin: -($podcast-player-seek-thumb-height - $podcast-player-seek-height)*0.5 -2px;
 }
 .player-time {
   font-family: $font-family-monospace;
