@@ -58,7 +58,7 @@ jobs:
       - name: Build previous version
         run: |
           git checkout ${{ steps.get-comparison-commit.outputs.compare_sha }}
-          docker build -t radio-t/site:previous .
+          docker build -t radio-t/site:previous --build-arg DO_NOT_MINIFY=true .
           
           # Create directories for previous build
           mkdir -p ${{ steps.set-dirs.outputs.old_dir }}/hugo
@@ -78,7 +78,7 @@ jobs:
       - name: Build current version
         run: |
           git checkout ${{ github.event.pull_request.head.sha || github.sha }}
-          docker build -t radio-t/site:current .
+          docker build -t radio-t/site:current --build-arg DO_NOT_MINIFY=true .
           
           # Create directories for current build
           mkdir -p ${{ steps.set-dirs.outputs.new_dir }}/hugo
@@ -194,7 +194,7 @@ jobs:
             -d "api_paste_format=diff" \
             -d "api_paste_private=0" \
             -d "api_paste_name=${paste_name}" \
-            --data-urlencode "api_paste_code@changes.diff" || echo "curl call to pastebin failed")
+            -d "api_paste_code=$(< changes.diff)" || echo "curl call to pastebin failed")
 
           # Check if the output is a valid URL, otherwise print an error
           if [[ "$paste_output" == "https://"* ]]; then
@@ -222,6 +222,12 @@ jobs:
         id: get-comment-body
         run: |
           SUMMARY=$(cat changes.md)
+          
+          # Truncate SUMMARY if it exceeds 20,000 characters
+          if [ ${#SUMMARY} -gt 20000 ]; then
+            SUMMARY="${SUMMARY:0:20000}... (truncated)"
+          fi
+          
           echo "body<<EOF" >> $GITHUB_OUTPUT
           echo "### Site Build Comparison" >> $GITHUB_OUTPUT
           echo "" >> $GITHUB_OUTPUT
