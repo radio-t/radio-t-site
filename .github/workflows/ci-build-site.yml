@@ -35,6 +35,14 @@ jobs:
         with:
           fetch-depth: 0 # Needed to fetch all history for comparison
 
+      # for prettier as it's unknown how to build css and js without them being minimized
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+          cache: 'npm'
+          cache-dependency-path: hugo
+
       - name: Set directory names
         id: set-dirs
         run: |
@@ -74,6 +82,8 @@ jobs:
           
           # Copy the generated manifest.json from the old build
           cp ${{ steps.set-dirs.outputs.old_dir }}/hugo/data/manifest.json ${{ steps.set-dirs.outputs.old_dir }}/manifest.json
+          # chown everything to the calling user as otherwise it's not possible to change it with sed and prettier later
+          sudo chown -R $USER:$USER ${{ steps.set-dirs.outputs.old_dir }}/public
 
       - name: Build current version
         run: |
@@ -94,6 +104,19 @@ jobs:
           
           # Copy the generated manifest.json from the new build
           cp ${{ steps.set-dirs.outputs.new_dir }}/hugo/data/manifest.json ${{ steps.set-dirs.outputs.new_dir }}/manifest.json
+          # chown everything to the calling user as otherwise it's not possible to change it with sed and prettier later
+          sudo chown -R $USER:$USER ${{ steps.set-dirs.outputs.new_dir }}/public
+
+
+      - name: Install Prettier
+        run: npm install -g prettier
+
+      - name: Prettify CSS and JS in public directories
+        run: |
+          prettier --write "${{ steps.set-dirs.outputs.old_dir }}/public/**/*.css"
+          prettier --write "${{ steps.set-dirs.outputs.old_dir }}/public/**/*.js"
+          prettier --write "${{ steps.set-dirs.outputs.new_dir }}/public/**/*.css"
+          prettier --write "${{ steps.set-dirs.outputs.new_dir }}/public/**/*.js"
 
       - name: Remove itunes:subtitle from RSS feeds before comparison
         run: |
@@ -123,7 +146,7 @@ jobs:
 
               # Perform replacement if IDs differ
               if [[ -n "$old_id" && -n "$new_id" && "$old_id" != "$new_id" ]]; then
-                find ${{ steps.set-dirs.outputs.new_dir }}/public -name '*.html' -exec sudo sed -i "s?id=$new_id?id=$old_id?g" {} +
+                find ${{ steps.set-dirs.outputs.new_dir }}/public -name '*.html' -exec sed -i "s?id=$new_id?id=$old_id?g" {} +
               fi
             fi
           done <"$old_manifest" 3<"$new_manifest"
@@ -250,6 +273,7 @@ jobs:
             echo "\`\`\`" >> $GITHUB_OUTPUT
             echo "</details>" >> $GITHUB_OUTPUT
           fi
+          echo "" >> $GITHUB_OUTPUT
           echo "[View full changes diff](${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID})" >> $GITHUB_OUTPUT
           if [ -n "$PASTE_URL" ]; then
             echo "[View diff on Pastebin]($PASTE_URL)" >> $GITHUB_OUTPUT
