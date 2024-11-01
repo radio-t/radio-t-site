@@ -4,6 +4,9 @@ const mix = require('laravel-mix');
 const babel = require('@babel/core');
 const PurgeCSSPlugin = require('purgecss-webpack-plugin');
 const purgecssHtml = require('purgecss-from-html');
+const process = require('process');
+
+const shouldMinify = process.env.DO_NOT_MINIFY !== 'true';
 
 mix.disableNotifications();
 
@@ -19,13 +22,14 @@ mix
   .ts('src/js/app.js', '.')
   .version();
 
+// Process CSS with conditional minification
 ['app', 'vendor'].forEach((style) => {
   mix
     .sass(`src/scss/${style}.scss`, '.')
-    .options({ postCss: [require('cssnano')] });
+    .options({ postCss: shouldMinify ? [require('cssnano')] : [] }); // Conditionally include cssnano
   mix
     .sass(`src/scss/${style}-dark.scss`, '.')
-    .options({ postCss: [require('cssnano')] });
+    .options({ postCss: shouldMinify ? [require('cssnano')] : [] }); // Conditionally include cssnano
 });
 
 mix.webpackConfig({
@@ -86,7 +90,7 @@ if (mix.inProduction()) {
   mix.extract();
   mix.then(() => {
     const { code } = babel.transformFileSync('src/js/inline.js', {
-      minified: true,
+      minified: shouldMinify, // Conditionally set minification for JS
       presets: [
         [
           '@babel/preset-env',

@@ -4,6 +4,8 @@ WORKDIR /app
 COPY hugo/package.json hugo/package-lock.json ./
 RUN npm ci
 
+ARG DO_NOT_MINIFY
+
 ENV NODE_ENV=production
 # needed only for old webpack version
 ENV NODE_OPTIONS=--openssl-legacy-provider
