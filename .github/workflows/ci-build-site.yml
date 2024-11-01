@@ -87,6 +87,13 @@ jobs:
             -v ${{ github.workspace }}/${{ steps.set-dirs.outputs.new_dir }}/public:/srv/hugo/public \
             radio-t/site:current
 
+      - name: Remove itunes:subtitle from RSS feeds before comparison
+        run: |
+          sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.old_dir }}/public/podcast-archives-short.rss
+          sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.new_dir }}/public/podcast-archives-short.rss
+          sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.old_dir }}/public/podcast-archives.rss
+          sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.new_dir }}/public/podcast-archives.rss
+
       - name: Generate diff
         run: |
           # Generate initial diff
@@ -99,19 +106,27 @@ jobs:
           diff_size=$(wc -c < changes.diff)
           echo "diff_size=$diff_size" >> $GITHUB_ENV
           
+          # Delete changes.diff if it's empty
+          if [ ! -s changes.diff ]; then
+              rm changes.diff
+          fi
+          
           # Generate a summary of changed files
-          echo "Changed files:" > summary.txt
           find ${{ steps.set-dirs.outputs.new_dir }}/public -type f -exec sh -c '
             old_dir="${{ steps.set-dirs.outputs.old_dir }}"
             new_dir="${{ steps.set-dirs.outputs.new_dir }}"
             file_path=${1#$new_dir/public/}
             prev_file="$old_dir/public/$file_path"
             if [ ! -f "$prev_file" ]; then
-              echo "New: $file_path"
+              echo "- New: `$file_path`"
             elif ! cmp -s "$1" "$prev_file"; then
-              echo "Modified: $file_path"
+              echo "- Modified: `$file_path`"
             fi
-          ' sh {} \; >> summary.txt
+          ' sh {} \; >> changes.md
+          # add line in the beginning of the file only if it's not empty
+          if [ -s changes.md ]; then
+              sed -i '1s/^/Changed files:\n\n/' changes.md
+          fi
           
           find ${{ steps.set-dirs.outputs.old_dir }}/public -type f -exec sh -c '
             old_dir="${{ steps.set-dirs.outputs.old_dir }}"
@@ -119,16 +134,15 @@ jobs:
             file_path=${1#$old_dir/public/}
             current_file="$new_dir/public/$file_path"
             if [ ! -f "$current_file" ]; then
-              echo "Deleted: $file_path"
+              echo "- Deleted: `$file_path`"
             fi
-          ' sh {} \; >> summary.txt
-          
-          # Add size comparison
-          echo -e "\nSize comparison:" >> summary.txt
-          du -sh ${{ steps.set-dirs.outputs.old_dir }} >> summary.txt
-          du -sh ${{ steps.set-dirs.outputs.new_dir }} >> summary.txt
+          ' sh {} \; >> changes.md
+          # delete summary if it's empty
+          if [ ! -s changes.md ]; then
+              rm changes.md
+          fi
 
-      - name: Create Pastebin Paste with the diff
+      - name: Create Pastebin Paste with the diff in case it's too large
         if: github.event_name == 'pull_request' && env.diff_size >= 20000
         env:
           PASTEBIN_API_KEY: ${{ secrets.PASTEBIN_API_KEY }}
@@ -157,11 +171,20 @@ jobs:
         with:
           name: changes.diff
           path: changes.diff
+          if-no-files-found: ignore
 
-      - name: Generate comment body
+      - name: Upload changes.md as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: changes.md
+          path: changes.md
+          if-no-files-found: ignore
+
+      - name: Generate comment body in case there are changes
+        if: env.diff_size != 0
         id: get-comment-body
         run: |
-          SUMMARY=$(cat summary.txt)
+          SUMMARY=$(cat changes.md)
           echo "body<<EOF" >> $GITHUB_OUTPUT
           echo "### Site Build Comparison" >> $GITHUB_OUTPUT
           echo "" >> $GITHUB_OUTPUT
@@ -191,6 +214,18 @@ jobs:
 
           echo "EOF" >> $GITHUB_OUTPUT
 
+      - name: Generate comment body in case there are no changes
+        if: env.diff_size == 0
+        id: get-comment-body-no-changes
+        run: |
+          echo "body<<EOF" >> $GITHUB_OUTPUT
+          echo "### Site Build Comparison" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "**Build completed at:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "No changes detected." >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
       - name: Find existing comment
         id: find-comment
         if: github.event_name == 'pull_request'
@@ -205,5 +240,5 @@ jobs:
         with:
           comment-id: ${{ steps.find-comment.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}
-          body: ${{ steps.get-comment-body.outputs.body }}
+          body: ${{ steps.get-comment-body.outputs.body }}${{ steps.get-comment-body-no-changes.outputs.body }}
           edit-mode: replace
