@@ -1,4 +1,4 @@
-FROM node:22-alpine as build
+FROM node:22-alpine AS build
 
 WORKDIR /app
 COPY hugo/package.json hugo/package-lock.json ./
@@ -14,7 +14,7 @@ COPY ./hugo/layouts /app/layouts/
 
 RUN npm run build
 
-FROM golang:1.22-alpine as go-build
+FROM golang:1.22-alpine AS go-build
 COPY rss_generator /build
 RUN cd /build && go build -o /build/bin/rss_generator -ldflags "-s -w" && ls -la /build/bin/rss_generator
 

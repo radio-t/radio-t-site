@@ -94,6 +94,40 @@ jobs:
           sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.old_dir }}/public/podcast-archives.rss
           sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.new_dir }}/public/podcast-archives.rss
 
+      - name: Copy New Manifest and Retrieve Old Manifest
+        run: |
+          set -x
+          # Copy the generated manifest.json from the new build
+          cp ${{ steps.set-dirs.outputs.new_dir }}/hugo/data/manifest.json ${{ steps.set-dirs.outputs.new_dir }}/manifest.json
+
+          # Check out the old commit to get its manifest.json
+          git checkout ${{ steps.get-comparison-commit.outputs.compare_sha }} -- hugo/data/manifest.json
+          mv hugo/data/manifest.json ${{ steps.set-dirs.outputs.old_dir }}/manifest.json
+
+          # Define paths to old and new manifests
+          old_manifest="${{ steps.set-dirs.outputs.old_dir }}/manifest.json"
+          new_manifest="${{ steps.set-dirs.outputs.new_dir }}/manifest.json"
+
+          # Step 3: Compare manifest.json files and handle ID replacements if they differ
+          if cmp -s "$old_manifest" "$new_manifest"; then
+            echo "No differences in manifest.json. Skipping ID replacements."
+            exit 0
+          fi
+
+          # Step 4: Extract and replace differing IDs
+          while IFS= read -r old_line && IFS= read -r new_line <&3; do
+            if [[ "$old_line" != "$new_line" ]]; then
+              # Extract ID from both lines
+              old_id=$(echo "$old_line" | grep -oP 'id=\K[^"]+')
+              new_id=$(echo "$new_line" | grep -oP 'id=\K[^"]+')
+
+              # Perform replacement if IDs differ
+              if [[ -n "$old_id" && -n "$new_id" && "$old_id" != "$new_id" ]]; then
+                find ${{ steps.set-dirs.outputs.new_dir }}/public -name '*.html' -exec sudo sed -i "s?id=$new_id?id=$old_id?g" {} +
+              fi
+            fi
+          done <"$old_manifest" 3<"$new_manifest"
+
       - name: Generate diff
         run: |
           # Generate initial diff
@@ -148,7 +182,10 @@ jobs:
           PASTEBIN_API_KEY: ${{ secrets.PASTEBIN_API_KEY }}
         id: create-pastebin
         run: |
-          diff_content=$(cat changes.diff)
+          # Use a URL-encoded paste name to handle special characters
+          paste_name=$(echo "radio-t.com Site Changes for PR #${{ github.event.pull_request.number }}, commit ${{ github.sha }}" | jq -sRr @uri)
+          
+          # Post the diff file directly from changes.diff
           # https://pastebin.com/doc_api
           paste_output=$(curl --silent "https://pastebin.com/api/api_post.php" \
             -d "api_dev_key=$PASTEBIN_API_KEY" \
@@ -156,11 +193,11 @@ jobs:
             -d "api_paste_expire_date=1M" \
             -d "api_paste_format=diff" \
             -d "api_paste_private=0" \
-            -d "api_paste_code=${diff_content}" \
-            -d "api_paste_name=radio-t.com Site Changes for PR #${{ github.event.pull_request.number }}, commit ${{ github.sha }}")
-          
-          # Check if the output is a valid URL, otherwise print error
-          if [[ "$paste_url" == "https://"* ]]; then
+            -d "api_paste_name=${paste_name}" \
+            --data-urlencode "api_paste_code@changes.diff" || echo "curl call to pastebin failed")
+
+          # Check if the output is a valid URL, otherwise print an error
+          if [[ "$paste_output" == "https://"* ]]; then
             echo "PASTE_URL=$paste_output" >> $GITHUB_ENV
           else
             echo "Error: Failed to create Pastebin paste: $paste_output" >&2
