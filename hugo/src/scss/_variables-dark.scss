@@ -3,6 +3,8 @@
 //// Variables should follow the `$component-state-property-size` formula for
 //// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 //
+@use "sass:math";
+
 $theme: 'dark';
 $theme-suffix: '-dark'; // Add suffix to filenames, eg logo-dark.svg
 //// Color system
@@ -292,7 +294,7 @@ $component-active-bg: $primary;
 //$font-family-base:            $font-family-sans-serif;
 //// stylelint-enable value-keyword-case
 //
-$font-size-base: 15/16 * 1rem; // Assumes the browser default, typically `16px`
+$font-size-base: math.div(15, 16) * 1rem; // Assumes the browser default, typically `16px`
 //$font-size-lg:                ($font-size-base * 1.25);
 //$font-size-sm:                ($font-size-base * .875);
 //
@@ -332,8 +334,8 @@ $display-line-height: 1.1; //$headings-line-height;
 //$lead-font-size:              ($font-size-base * 1.25);
 //$lead-font-weight:            300;
 //
-$small-font-size: 13/15 * 100%;
-$smaller-font-size: 12/15 * 100%;
+$small-font-size: math.div(13, 15) * 100%;
+$smaller-font-size: math.div(12, 15) * 100%;
 //
 $text-muted: $gray-500;
 //

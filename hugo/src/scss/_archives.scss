@@ -94,8 +94,8 @@
     content: '';
     position: absolute;
     bottom: 0;
-    left: $grid-gutter-width / 2;
-    right: $grid-gutter-width / 2;
+    left: $grid-gutter-width * 0.5;
+    right: $grid-gutter-width * 0.5;
     height: 1px;
     background-color: $border-color;
   }

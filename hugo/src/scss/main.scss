@@ -1,3 +1,5 @@
+@use "sass:math";
+
 @import 'player';
 @import 'navbar';
 @import 'sidebar';
@@ -186,7 +188,7 @@ $jumbotron-arc-height: 5%;
 $jumbotron-arc-width: 120%;
 .jumbotron {
   position: relative;
-  margin-bottom: ($jumbotron-arc-height / 2);
+  margin-bottom: ($jumbotron-arc-height * 0.5);
   padding-bottom: 3rem;
   h1 > small {
     font-size: 75%;
@@ -209,7 +211,7 @@ $jumbotron-arc-width: 120%;
   height: 0;
   bottom: 0;
   padding-bottom: $jumbotron-arc-height;
-  margin-bottom: -($jumbotron-arc-height / 2);
+  margin-bottom: -($jumbotron-arc-height * 0.5);
   &:before {
     content: '';
     position: absolute;
@@ -217,7 +219,7 @@ $jumbotron-arc-width: 120%;
     height: 100%;
     background-color: $jumbotron-bg;
     border-radius: 50%;
-    margin: 0 (-($jumbotron-arc-width - 100) / 2);
+    margin: 0 (-($jumbotron-arc-width - 100) * 0.5);
   }
 }
 .jumbotron-logo {
@@ -226,7 +228,7 @@ $jumbotron-arc-width: 120%;
   max-width: 15vw;
   bottom: 0;
   left: 50%;
-  margin-bottom: -($jumbotron-arc-height / 2); // bottom of arc
+  margin-bottom: -($jumbotron-arc-height * 0.5); // bottom of arc
 }
 .jumbotron-logo-img {
   position: relative;
@@ -337,7 +339,7 @@ $jumbotron-arc-width: 120%;
 }
 .post-time {
   font-size: $smaller-font-size;
-  line-height: $line-height-base * (1/0.8);
+  line-height: $line-height-base * math.div(1, 0.8);
   .comments-counter + & {
     margin-top: $topic-spacer;
   }
@@ -462,7 +464,7 @@ $jumbotron-arc-width: 120%;
       }
       > div {
         flex-grow: 1;
-        margin-left: $grid-gutter-width / 2;
+        margin-left: $grid-gutter-width * 0.5;
       }
     }
     @include media-breakpoint-down('sm') {
@@ -485,7 +487,7 @@ $jumbotron-arc-width: 120%;
         }
         > div {
           margin-left: 0;
-          margin-right: $grid-gutter-width / 2;
+          margin-right: $grid-gutter-width * 0.5;
         }
       }
     }
@@ -556,8 +558,8 @@ $jumbotron-arc-width: 120%;
   left: 50%;
   width: $play-button-size;
   height: $play-button-size;
-  margin-top: (-$play-button-size) / 2;
-  margin-left: (-$play-button-size) / 2;
+  margin-top: (-$play-button-size) * 0.5;
+  margin-left: (-$play-button-size) * 0.5;
   padding: 0;
   background-color: rgba($link-hover-color, 0.65);
   backdrop-filter: $backdrop-filter;
@@ -581,7 +583,7 @@ $jumbotron-arc-width: 120%;
     box-shadow: inset 0 0 0 1px #fff, 0 0 0 1px rgba($link-hover-color, 0.65);
   }
   .icon {
-    font-size: $play-button-size / 2;
+    font-size: $play-button-size * 0.5;
     cursor: pointer;
   }
   .play-icon {
@@ -621,13 +623,13 @@ $ripple-scale-out: 3.4;
   left: 50%;
   width: $dot-size;
   height: $dot-size;
-  margin-top: -($dot-size / 2);
-  margin-left: -($dot-size / 2);
+  margin-top: -($dot-size * 0.5);
+  margin-left: -($dot-size * 0.5);
   background-color: darken($primary, 15%);
   border: 3px solid #fff;
   border-radius: 50%;
-  animation: online-animation-dot ($online-animation-duration / 2) ease-out
-    ($online-animation-duration / 8 - $online-animation-duration) infinite alternate;
+  animation: online-animation-dot ($online-animation-duration * 0.5) ease-out
+    ($online-animation-duration * 0.125 - $online-animation-duration) infinite alternate;
 }
 .online-animation-ripple {
   position: absolute;
@@ -636,8 +638,8 @@ $ripple-scale-out: 3.4;
   left: 50%;
   width: $dot-size;
   height: $dot-size;
-  margin-top: -($dot-size / 2);
-  margin-left: -($dot-size / 2);
+  margin-top: -($dot-size * 0.5);
+  margin-left: -($dot-size * 0.5);
   //border: 1px solid #fff;
   background-image: radial-gradient(
     circle closest-side,
@@ -675,7 +677,7 @@ $ripple-scale-out: 3.4;
     opacity: 0.8;
   }
   30% {
-    transform: scale($ripple-scale-out / 2);
+    transform: scale($ripple-scale-out * 0.5);
     opacity: 0.4;
   }
   100% {
@@ -802,7 +804,7 @@ $ripple-scale-out: 3.4;
 .page-cover-image {
   display: block;
   width: 100%;
-  padding-bottom: (100% / 3);
+  padding-bottom: math.div(100%, 3);
   background-color: $gray-200;
   background-size: cover;
   background-position: center center;

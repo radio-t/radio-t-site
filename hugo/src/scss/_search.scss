@@ -1,5 +1,7 @@
+@use "sass:math";
+
 @function remVw($rem, $breakpoint: 'xl') {
-  @return (($rem / 1 * 16px) / map_get($grid-breakpoints, $breakpoint) * 100) * 1vw;
+  @return (math.div(math.div($rem, 1) * 16px, map_get($grid-breakpoints, $breakpoint)) * 100) * 1vw;
 }
 label[for='page-search-input'] {
   -webkit-appearance: none;
@@ -92,7 +94,7 @@ label[for='page-search-input'] {
   .podcast-cover {
     float: right;
     width: 4rem;
-    margin-left: $grid-gutter-width / 2;
+    margin-left: $grid-gutter-width * 0.5;
   }
 }
 .page-search-list {

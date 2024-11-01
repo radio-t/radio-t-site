@@ -1,12 +1,14 @@
+@use "sass:math";
+
 @function px($px) {
-  @return $px * 1rem / 15;
+  @return math.div($px * 1rem, 15);
 }
 
 @mixin logo-size($width) {
-  $logo-ar: 123/50; // width/height
+  $logo-ar: 123*0.02; // width/height
   width: $width;
-  height: $width / $logo-ar;
-  margin-top: -($width / 15);
+  height: math.div($width, $logo-ar);
+  margin-top: -(math.div($width, 15));
 }
 
 @mixin text-uppercase() {
