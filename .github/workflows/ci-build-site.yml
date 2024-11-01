@@ -69,7 +69,11 @@ jobs:
           docker run --rm \
             -v ${{ github.workspace }}/${{ steps.set-dirs.outputs.old_dir }}/hugo:/srv/hugo \
             -v ${{ github.workspace }}/${{ steps.set-dirs.outputs.old_dir }}/public:/srv/hugo/public \
+            -e DO_NOT_MINIFY_HUGO=true \
             radio-t/site:previous
+          
+          # Copy the generated manifest.json from the old build
+          cp ${{ steps.set-dirs.outputs.old_dir }}/hugo/data/manifest.json ${{ steps.set-dirs.outputs.old_dir }}/manifest.json
 
       - name: Build current version
         run: |
@@ -85,7 +89,11 @@ jobs:
           docker run --rm \
             -v ${{ github.workspace }}/${{ steps.set-dirs.outputs.new_dir }}/hugo:/srv/hugo \
             -v ${{ github.workspace }}/${{ steps.set-dirs.outputs.new_dir }}/public:/srv/hugo/public \
+            -e DO_NOT_MINIFY_HUGO=true \
             radio-t/site:current
+          
+          # Copy the generated manifest.json from the new build
+          cp ${{ steps.set-dirs.outputs.new_dir }}/hugo/data/manifest.json ${{ steps.set-dirs.outputs.new_dir }}/manifest.json
 
       - name: Remove itunes:subtitle from RSS feeds before comparison
         run: |
@@ -96,14 +104,6 @@ jobs:
 
       - name: Copy New Manifest and Retrieve Old Manifest
         run: |
-          set -x
-          # Copy the generated manifest.json from the new build
-          cp ${{ steps.set-dirs.outputs.new_dir }}/hugo/data/manifest.json ${{ steps.set-dirs.outputs.new_dir }}/manifest.json
-
-          # Check out the old commit to get its manifest.json
-          git checkout ${{ steps.get-comparison-commit.outputs.compare_sha }} -- hugo/data/manifest.json
-          mv hugo/data/manifest.json ${{ steps.set-dirs.outputs.old_dir }}/manifest.json
-
           # Define paths to old and new manifests
           old_manifest="${{ steps.set-dirs.outputs.old_dir }}/manifest.json"
           new_manifest="${{ steps.set-dirs.outputs.new_dir }}/manifest.json"
@@ -152,9 +152,9 @@ jobs:
             file_path=${1#$new_dir/public/}
             prev_file="$old_dir/public/$file_path"
             if [ ! -f "$prev_file" ]; then
-              echo "- New: `$file_path`"
+              echo "- New: \`$file_path\`"
             elif ! cmp -s "$1" "$prev_file"; then
-              echo "- Modified: `$file_path`"
+              echo "- Modified: \`$file_path\`"
             fi
           ' sh {} \; >> changes.md
           # add line in the beginning of the file only if it's not empty
@@ -168,7 +168,7 @@ jobs:
             file_path=${1#$old_dir/public/}
             current_file="$new_dir/public/$file_path"
             if [ ! -f "$current_file" ]; then
-              echo "- Deleted: `$file_path`"
+              echo "- Deleted: \`$file_path\`"
             fi
           ' sh {} \; >> changes.md
           # delete summary if it's empty
