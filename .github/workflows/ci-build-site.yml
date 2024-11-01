@@ -1,4 +1,4 @@
-name: build-site
+name: build-site-and-compare
 on:
   push:
     branches:
@@ -27,12 +27,183 @@ on:
 
 jobs:
   build:
-    name: build
+    name: build-and-compare
     runs-on: ubuntu-latest
     steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Needed to fetch all history for comparison
 
-    - name: check out code
-      uses: actions/checkout@v4
+      - name: Set directory names
+        id: set-dirs
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "old_dir=master" >> $GITHUB_OUTPUT
+            echo "new_dir=pr-${{ github.event.pull_request.number }}" >> $GITHUB_OUTPUT
+          else
+            echo "old_dir=old-master" >> $GITHUB_OUTPUT
+            echo "new_dir=new-master" >> $GITHUB_OUTPUT
+          fi
 
-    - name: build site image
-      run: docker build -t radio-t/site .
+      - name: Get comparison commit
+        id: get-comparison-commit
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "compare_sha=$(git merge-base ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})" >> $GITHUB_OUTPUT
+          else
+            echo "compare_sha=$(git rev-parse HEAD^1)" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build previous version
+        run: |
+          git checkout ${{ steps.get-comparison-commit.outputs.compare_sha }}
+          docker build -t radio-t/site:previous .
+          
+          # Create directories for previous build
+          mkdir -p ${{ steps.set-dirs.outputs.old_dir }}/hugo
+          cp -r hugo/* ${{ steps.set-dirs.outputs.old_dir }}/hugo/
+          mkdir -p ${{ steps.set-dirs.outputs.old_dir }}/public
+          
+          # Run the container with proper volume mounts
+          docker run --rm \
+            -v ${{ github.workspace }}/${{ steps.set-dirs.outputs.old_dir }}/hugo:/srv/hugo \
+            -v ${{ github.workspace }}/${{ steps.set-dirs.outputs.old_dir }}/public:/srv/hugo/public \
+            radio-t/site:previous
+
+      - name: Build current version
+        run: |
+          git checkout ${{ github.event.pull_request.head.sha || github.sha }}
+          docker build -t radio-t/site:current .
+          
+          # Create directories for current build
+          mkdir -p ${{ steps.set-dirs.outputs.new_dir }}/hugo
+          cp -r hugo/* ${{ steps.set-dirs.outputs.new_dir }}/hugo/
+          mkdir -p ${{ steps.set-dirs.outputs.new_dir }}/public
+          
+          # Run the container with proper volume mounts
+          docker run --rm \
+            -v ${{ github.workspace }}/${{ steps.set-dirs.outputs.new_dir }}/hugo:/srv/hugo \
+            -v ${{ github.workspace }}/${{ steps.set-dirs.outputs.new_dir }}/public:/srv/hugo/public \
+            radio-t/site:current
+
+      - name: Generate diff
+        run: |
+          # Generate initial diff
+          diff -r -N -u ${{ steps.set-dirs.outputs.old_dir }}/public ${{ steps.set-dirs.outputs.new_dir }}/public > temp.diff || true
+          
+          # Process diff file to adjust paths
+          sed -E 's#^(---|\+\+\+) (.+)/public/#\1 \2/#' temp.diff > changes.diff
+          
+          # Store diff size for later use
+          diff_size=$(wc -c < changes.diff)
+          echo "diff_size=$diff_size" >> $GITHUB_ENV
+          
+          # Generate a summary of changed files
+          echo "Changed files:" > summary.txt
+          find ${{ steps.set-dirs.outputs.new_dir }}/public -type f -exec sh -c '
+            old_dir="${{ steps.set-dirs.outputs.old_dir }}"
+            new_dir="${{ steps.set-dirs.outputs.new_dir }}"
+            file_path=${1#$new_dir/public/}
+            prev_file="$old_dir/public/$file_path"
+            if [ ! -f "$prev_file" ]; then
+              echo "New: $file_path"
+            elif ! cmp -s "$1" "$prev_file"; then
+              echo "Modified: $file_path"
+            fi
+          ' sh {} \; >> summary.txt
+          
+          find ${{ steps.set-dirs.outputs.old_dir }}/public -type f -exec sh -c '
+            old_dir="${{ steps.set-dirs.outputs.old_dir }}"
+            new_dir="${{ steps.set-dirs.outputs.new_dir }}"
+            file_path=${1#$old_dir/public/}
+            current_file="$new_dir/public/$file_path"
+            if [ ! -f "$current_file" ]; then
+              echo "Deleted: $file_path"
+            fi
+          ' sh {} \; >> summary.txt
+          
+          # Add size comparison
+          echo -e "\nSize comparison:" >> summary.txt
+          du -sh ${{ steps.set-dirs.outputs.old_dir }} >> summary.txt
+          du -sh ${{ steps.set-dirs.outputs.new_dir }} >> summary.txt
+
+      - name: Create Pastebin Paste with the diff
+        if: github.event_name == 'pull_request' && env.diff_size >= 20000
+        env:
+          PASTEBIN_API_KEY: ${{ secrets.PASTEBIN_API_KEY }}
+        id: create-pastebin
+        run: |
+          diff_content=$(cat changes.diff)
+          # https://pastebin.com/doc_api
+          paste_output=$(curl --silent "https://pastebin.com/api/api_post.php" \
+            -d "api_dev_key=$PASTEBIN_API_KEY" \
+            -d "api_option=paste" \
+            -d "api_paste_expire_date=1M" \
+            -d "api_paste_format=diff" \
+            -d "api_paste_private=0" \
+            -d "api_paste_code=${diff_content}" \
+            -d "api_paste_name=radio-t.com Site Changes for PR #${{ github.event.pull_request.number }}, commit ${{ github.sha }}")
+          
+          # Check if the output is a valid URL, otherwise print error
+          if [[ "$paste_url" == "https://"* ]]; then
+            echo "PASTE_URL=$paste_output" >> $GITHUB_ENV
+          else
+            echo "Error: Failed to create Pastebin paste: $paste_output" >&2
+          fi
+
+      - name: Upload changes.diff as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: changes.diff
+          path: changes.diff
+
+      - name: Generate comment body
+        id: get-comment-body
+        run: |
+          SUMMARY=$(cat summary.txt)
+          echo "body<<EOF" >> $GITHUB_OUTPUT
+          echo "### Site Build Comparison" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "**Build completed at:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "\`\`\`" >> $GITHUB_OUTPUT
+          echo "$SUMMARY" >> $GITHUB_OUTPUT
+          echo "\`\`\`" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          
+          # If diff is small enough (<20KB), include it directly under spoiler
+          if [ "$diff_size" -lt 20000 ]; then
+            echo "**Full changes:**" >> $GITHUB_OUTPUT
+            echo "" >> $GITHUB_OUTPUT
+            echo "<details>" >> $GITHUB_OUTPUT
+            echo "<summary>Click to expand diff</summary>" >> $GITHUB_OUTPUT
+            echo "" >> $GITHUB_OUTPUT
+            echo "\`\`\`diff" >> $GITHUB_OUTPUT
+            cat changes.diff >> $GITHUB_OUTPUT
+            echo "\`\`\`" >> $GITHUB_OUTPUT
+            echo "</details>" >> $GITHUB_OUTPUT
+          fi
+          echo "[View full changes diff](${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID})" >> $GITHUB_OUTPUT
+          if [ -n "$PASTE_URL" ]; then
+            echo "[View diff on Pastebin]($PASTE_URL)" >> $GITHUB_OUTPUT
+          fi
+
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Find existing comment
+        id: find-comment
+        if: github.event_name == 'pull_request'
+        uses: peter-evans/find-comment@v3
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body-includes: "### Site Build Comparison"
+
+      - name: Create or update comment
+        if: github.event_name == 'pull_request'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: ${{ steps.get-comment-body.outputs.body }}
+          edit-mode: replace
