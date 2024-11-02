@@ -28,12 +28,9 @@ function formatSeconds(totalSeconds) {
  * So we'll skip all the timezone's troubles
  */
 export function timer(now = new Date()) {
-  const showStart = new Date(Date.UTC(
-    now.getUTCFullYear(),
-    now.getUTCMonth(),
-    now.getUTCDate() + 6 - now.getUTCDay(),
-    20
-  ));
+  const showStart = new Date(
+    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 6 - now.getUTCDay(), 20)
+  );
 
   let totalSeconds = Math.floor((showStart - now) / 1000);
   if (totalSeconds <= -3 * 60 * 60) {

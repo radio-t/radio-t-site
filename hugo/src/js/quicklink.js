@@ -1,4 +1,4 @@
-import {prefetch} from 'quicklink/dist/quicklink.mjs';
+import { prefetch } from 'quicklink/dist/quicklink.mjs';
 
 function start(options = {}) {
   prefetch({
