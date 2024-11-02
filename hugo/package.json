@@ -62,7 +62,7 @@
     "eslint": "^7.22.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-react": "^7.22.0",
-    "laravel-mix": "^4.1.4",
+    "laravel-mix": "^6.0.49",
     "prettier": "^2.2.1",
     "purgecss-from-html": "^4.1.1",
     "purgecss-webpack-plugin": "^4.1.3",
