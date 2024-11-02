@@ -28,7 +28,7 @@ jobs:
           cache-dependency-path: hugo
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
         working-directory: hugo
 
       - name: Build project
