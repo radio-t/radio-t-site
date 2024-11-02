@@ -4,3 +4,4 @@ dev/
 golayouts/
 .netlify
 .direnv/
+.hugo_build.lock

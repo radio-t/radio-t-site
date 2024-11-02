@@ -7,8 +7,6 @@ RUN npm ci --omit=dev --omit optional
 ARG DO_NOT_MINIFY
 
 ENV NODE_ENV=production
-# needed only for old webpack version
-ENV NODE_OPTIONS=--openssl-legacy-provider
 
 COPY ./hugo/webpack.mix.js ./hugo/tsconfig.json ./hugo/.babelrc.js /app/
 COPY ./hugo/src/ /app/src/
