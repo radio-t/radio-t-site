@@ -2,7 +2,7 @@
   "description": "Сайт подкаста Радио-Т",
   "scripts": {
     "build": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "build:stats": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --config=node_modules/laravel-mix/setup/webpack.config.js --profile --json=stats.json",
+    "build:stats": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --config=node_modules/laravel-mix/setup/webpack.config.js --profile --json > stats.json",
     "hugo": "cross-env-shell hugo serve --minify --port ${HUGO_PORT:-1313}",
     "hugo:no-live": "cross-env-shell hugo serve --minify --disableLiveReload --port ${HUGO_PORT:-1313}",
     "dev": "cross-env NODE_ENV=development run-p dev:watch hugo",
@@ -51,21 +51,14 @@
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/preset-react": "^7.12.13",
     "@size-limit/file": "^4.10.1",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
-    "@typescript-eslint/parser": "^4.18.0",
-    "babel-preset-preact": "^2.0.0",
     "browser-sync": "^2.29.3",
     "browser-sync-webpack-plugin": "^2.2.2",
     "eslint": "^7.22.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-react": "^7.22.0",
-    "prettier": "^2.2.1",
-    "raw-loader": "^3.0.0",
-    "size-limit": "^4.10.1",
-    "url-polyfill": "^1.1.5",
-    "webpack-bundle-analyzer": "^4.10.2"
+    "npm-run-all": "^4.1.5",
+    "size-limit": "^4.10.1"
   }
 }

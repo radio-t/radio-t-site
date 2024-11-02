@@ -5,6 +5,7 @@ on:
       - '.github/workflows/ci-frontend-check.yml'
       - 'hugo/package.json'
       - 'hugo/package-lock.json'
+      - 'hugo/.size-limit.js'
       - "hugo/**/*.jsx?"
       - "hugo/**/*.tsx?"
       - "hugo/**/*.scss"
