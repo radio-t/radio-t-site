@@ -27,7 +27,7 @@
     "date-fns": "^2.16.1",
     "imagesloaded": "^4.1.4",
     "intersection-observer": "^0.7.0",
-    "laravel-mix": "^4.1.4",
+    "laravel-mix": "^6.0.49",
     "light-event-bus": "^1.0.1",
     "lozad": "^1.9.0",
     "mark.js": "^8.11.1",
