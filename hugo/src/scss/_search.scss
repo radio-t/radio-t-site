@@ -1,4 +1,4 @@
-@use "sass:math";
+@use 'sass:math';
 
 @function remVw($rem, $breakpoint: 'xl') {
   @return (math.div(math.div($rem, 1) * 16px, map_get($grid-breakpoints, $breakpoint)) * 100) * 1vw;
