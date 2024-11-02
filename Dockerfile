@@ -2,7 +2,7 @@ FROM node:22-alpine AS build
 
 WORKDIR /app
 COPY hugo/package.json hugo/package-lock.json ./
-RUN npm ci
+RUN npm ci --omit=dev --omit optional
 
 ARG DO_NOT_MINIFY
 
