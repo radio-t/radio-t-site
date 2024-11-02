@@ -6,11 +6,19 @@ on:
     tags:
     paths:
       - '.github/workflows/ci-frontend-lint.yml'
+      - 'hugo/package.json'
+      - 'hugo/package-lock.json'
+      - 'hugo/package-lock.json'
+      - 'hugo/.eslintignore'
       - "hugo/**/*.jsx?"
       - "hugo/**/*.tsx?"
   pull_request:
     paths:
       - '.github/workflows/ci-frontend-lint.yml'
+      - 'hugo/package.json'
+      - 'hugo/package-lock.json'
+      - 'hugo/package-lock.json'
+      - 'hugo/.eslintignore'
       - "hugo/**/*.jsx?"
       - "hugo/**/*.tsx?"
 
