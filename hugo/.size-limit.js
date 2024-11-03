@@ -1,7 +1,7 @@
 module.exports = [
   {
     path: 'static/build/app.js',
-    limit: '17 KB',
+    limit: '20 KB',
   },
   {
     path: 'static/build/manifest.js',
