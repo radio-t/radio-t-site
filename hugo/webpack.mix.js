@@ -16,14 +16,11 @@ mix
       alias: {
         'react': 'preact/compat',
         'react-dom': 'preact/compat',
-      },
-      fallback: {
-        "buffer": require.resolve("buffer/")
       }
     },
   })
   .ts('src/js/app.js', '.')
-  .extract(['@sentry/browser'], 'vendor~sentry.js')
+  .extract(['@sentry', '@sentry-internal'], 'vendor~sentry.js')
   .version();
 
 
