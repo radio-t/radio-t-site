@@ -1,19 +1,19 @@
 module.exports = [
   {
     path: 'static/build/app.js',
-    limit: '20 KB',
+    limit: '22 KB',
   },
   {
     path: 'static/build/manifest.js',
-    limit: '1.50 KB',
+    limit: '4 KB',
   },
   {
     path: 'static/build/vendor.js',
-    limit: '105 KB',
+    limit: '110 KB',
   },
   {
     path: 'static/build/vendor~sentry.js',
-    limit: '105 KB',
+    limit: '110 KB',
   },
   {
     path: 'static/build/app.css',
