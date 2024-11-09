@@ -23,7 +23,9 @@ mix
     },
   })
   .ts('src/js/app.js', '.')
+  .extract(['@sentry/browser'], 'vendor~sentry.js')
   .version();
+
 
 // Process CSS with conditional minification
 ['app', 'vendor'].forEach((style) => {
@@ -77,7 +79,7 @@ mix.webpackConfig({
         },
       ],
     }),
-  ],
+  ]
 });
 
 if (process.env.ANALYZE) {
@@ -139,3 +141,11 @@ if (mix.inProduction()) {
     },
   });
 }
+mix.webpackConfig({
+  output: {
+    publicPath: '/build',
+  },
+  optimization: {
+    splitChunks: 'all',
+  },
+})

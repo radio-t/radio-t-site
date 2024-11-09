@@ -9,7 +9,7 @@ docker-compose run --rm hugo
 
 ## публикация подкаста
 
-Перед использованием, необходимо иметь собранный docker образ `publisher`. Команда сборки при помощи docker-compose (конфиг в руте репозитария): `docker-compose build publisher`.
+Перед использованием, необходимо иметь собранный docker образ `publisher`. Команда сборки при помощи docker-compose (конфиг в руте репозитория): `docker-compose build publisher`.
 
 Скрипты публикации могут быть вызваны при помощи make в директории `./publisher`:
 
@@ -25,6 +25,14 @@ docker-compose run --rm hugo
 
 ## фронтенд
 
+### зависимости
+
+- [Node v22](https://nodejs.org/en/download/package-manager)
+- [GoLang](https://go.dev/doc/install)
+- [Hugo v0.81.0](https://gohugo.io/installation/macos/#build-from-source)
+
+### девелопмент
+
 ```bash
 # node 10
 cd hugo
@@ -33,17 +41,19 @@ npm install
 
 # разработка на localhost:3000
 # с hugo LiveReload, без turbolinks
-npm run start
+npm run dev
 # без hugo LiveReload, с turbolinks
-npm run start-turbo
+npm run dev:turbo
 
-# сборка для прода
+# сборка для prod
 # результаты сборки:
 # - hugo/static/build/
 # - hugo/data/manifest.json
 npm run production
 ```
 
+### файловая структура
+
 - лого в `src/images/`
-- фавиконки в `static/` и описаны в `layouts/partials/favicons.html`
+- favicons в `static/` и описаны в `layouts/partials/favicons.html`
 - обложки в `static/images/covers/` (для сохранения совместимости также оставлены обложки `static/images/cover.jpg` и `static/images/cover_rt_big_archive.png`)
