@@ -16,14 +16,13 @@ mix
       alias: {
         'react': 'preact/compat',
         'react-dom': 'preact/compat',
-      },
-      fallback: {
-        "buffer": require.resolve("buffer/")
       }
     },
   })
   .ts('src/js/app.js', '.')
+  .extract(['@sentry', '@sentry-internal'], 'vendor~sentry.js')
   .version();
+
 
 // Process CSS with conditional minification
 ['app', 'vendor'].forEach((style) => {
@@ -77,7 +76,7 @@ mix.webpackConfig({
         },
       ],
     }),
-  ],
+  ]
 });
 
 if (process.env.ANALYZE) {
@@ -139,3 +138,8 @@ if (mix.inProduction()) {
     },
   });
 }
+mix.webpackConfig({
+  output: {
+    publicPath: '/build',
+  },
+})

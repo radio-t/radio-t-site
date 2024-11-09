@@ -1,5 +1,7 @@
 // TODO: fix babel-loader and use import
 require('./polyfills');
+import './sentry'
+
 
 if (process.env.NODE_ENV !== 'production') {
   // Include here for dev, but inline for prod
@@ -13,6 +15,4 @@ if (process.env.NODE_ENV === 'production' || process.env.MIX_TURBO) {
   require('./quicklink');
 }
 
-if (process.env.NODE_ENV === 'production' || process.env.ENABLE_SENTRY) {
-  require('./sentry');
-}
+
