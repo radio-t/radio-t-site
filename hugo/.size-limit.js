@@ -12,6 +12,10 @@ module.exports = [
     limit: '135 KB',
   },
   {
+    path: 'static/build/vendor~sentry.js',
+    limit: '15 KB',
+  },
+  {
     path: 'static/build/app.css',
     limit: '8 KB',
   },
