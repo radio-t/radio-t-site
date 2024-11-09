@@ -142,7 +142,4 @@ mix.webpackConfig({
   output: {
     publicPath: '/build',
   },
-  optimization: {
-    splitChunks: 'all',
-  },
 })
