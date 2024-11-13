@@ -2,6 +2,7 @@
   "description": "Сайт подкаста Радио-Т",
   "scripts": {
     "build": "mix build --production",
+    "build:analyze": "ANALYZE=true mix build --production",
     "hugo": "cross-env-shell hugo serve --minify --port ${HUGO_PORT:-1313}",
     "hugo:no-live": "cross-env-shell hugo serve --minify --disableLiveReload --port ${HUGO_PORT:-1313}",
     "dev": "cross-env NODE_ENV=development run-p dev:watch hugo",
