@@ -8,6 +8,7 @@ async function handleException(errorEvent) {
       Sentry.init({
         dsn: 'https://86c7b8de1ad3cf69978fdf409a776f28@o510231.ingest.us.sentry.io/4508265848897536',
         enabled: process.env.NODE_ENV === 'production' || process.env.ENABLE_SENTRY,
+        ignoreErrors: ['Network Error'],
       });
     }
     Sentry.captureException(errorEvent);
