@@ -277,6 +277,7 @@ jobs:
       - name: Create or update comment
         if: github.event_name == 'pull_request'
         uses: peter-evans/create-or-update-comment@v4
+        continue-on-error: true
         with:
           comment-id: ${{ steps.find-comment.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}
