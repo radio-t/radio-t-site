@@ -8,7 +8,7 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0
 	github.com/stretchr/testify v1.10.0
 	github.com/umputun/go-flags v1.5.1
-	golang.org/x/net v0.33.0
+	golang.org/x/net v0.34.0
 )
 
 require (
