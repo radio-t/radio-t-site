@@ -4,6 +4,8 @@ targets:
     hosts: [{host: "n10.radio-t.com"}, {host: "n11.radio-t.com"}]
   master:
     hosts: [{host: "master.radio-t.com"}]
+  nas:
+    hosts: [{host: "nas.umputun.com"}]
 
 # this task expects "mp3" param (full location of mp3 file) to be set by cli, i.e. -e mp3:/Podcasts/radio-t/123/rt_podcast123.mp3
 tasks:
@@ -43,10 +45,19 @@ tasks:
     - name: clean old files
       script: find /srv/master-node/var/media -type f -mtime +60 -mtime -1200 -iname *.mp3 -exec rm {} \;
 
-    - name: copy to NAS archive
-      copy: {src: "$mp3", dst: "$DST_MP3_NAS_FILE_NAME"}
-      options: {local: true}
+  # deploy to nas task uploads mp3 to NAS
+  - name: deploy to nas
+    targets: ["nas"]
+    commands:
+    - name: set mp3 file name
+      script: export DST_MP3_FILE_NAME=/volume1/Podcasts/radio-t/$(basename $mp3)
 
+    - name: copy mp3 file
+      copy: {src: "$mp3", dst: "$DST_MP3_FILE_NAME", mkdir: true, force: true}
+
+    - name: set permissions
+      script: chmod 644 $DST_MP3_FILE_NAME
+      options: {sudo: true}
 
   # deploy to nodes task uploads mp3 to all nodes and cleans old files
   - name: deploy to nodes
