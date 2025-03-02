@@ -11,7 +11,7 @@ filename = "rt_podcast950"
 - Вступление - *00:00:00*.
 - [Claude 3.7 Sonnet и Claude Code](https://www.anthropic.com/news/claude-3-7-sonnet) - *00:06:41*.
 - [Современный подход](https://alexp.pl/2025/02/19/vibe-coding.html) - *00:34:59*.
-- [Срранная штука в ответ - GPT-4.5](https://openai.com/index/introducing-gpt-4-5/) - *01:12:05*.
+- [Странная штука в ответ - GPT-4.5](https://openai.com/index/introducing-gpt-4-5/) - *01:12:05*.
 - [Внезапно Skype закрывают](https://www.microsoft.com/en-us/microsoft-365/blog/2025/02/28/the-next-chapter-moving-from-skype-to-microsoft-teams/) - *01:21:05*.
 - [Framework показал новинки](https://www.tomshardware.com/laptops/framework-moves-into-desktops-2-in-1-laptops-at-second-gen-event) - *01:32:54*.
 - [Там умирают мечты](https://www.trevorlasn.com/blog/open-source-is-where-dreams-go-to-die) - *01:47:05*.
