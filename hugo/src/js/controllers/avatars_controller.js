@@ -4,7 +4,7 @@ import filter from 'lodash/filter';
 import lozad from 'lozad';
 import imagesLoaded from 'imagesloaded';
 import Controller from '../base_controller';
-import http from '../http-get';
+import { fetchJSON } from '../http-get';
 
 const limit = 30;
 
@@ -14,7 +14,7 @@ export default class extends Controller {
     lozad(this.element, {
       load: async () => {
         this.element.classList.add('loaded');
-        const { data } = await this.getComments();
+        const data = await this.getComments();
         const pictures = uniq(filter(map(data.comments, 'user.picture'))).reverse();
         this.element.innerHTML = '';
         pictures.slice(0, limit).forEach((picture, index) => {
@@ -34,10 +34,10 @@ export default class extends Controller {
     }).observe();
   }
 
-  getComments() {
+  async getComments() {
     const url = this.data.get('url');
 
-    return http.get(
+    return fetchJSON(
       `https://remark42.radio-t.com/api/v1/find?url=https://radio-t.com${url}&sort=-time&site=radiot&view=user`
     );
   }
