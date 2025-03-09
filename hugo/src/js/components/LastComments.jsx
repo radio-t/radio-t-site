@@ -1,6 +1,6 @@
 import { h } from 'preact';
 import { useCallback, useEffect, useState } from 'preact/hooks';
-import http from 'axios';
+import http from '../http-get';
 import locale from 'date-fns/locale/ru';
 import { formatDistanceToNowStrict, format, parseISO } from 'date-fns';
 import { getTextSnippet } from '../utils';
