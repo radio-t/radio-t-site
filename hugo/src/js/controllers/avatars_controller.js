@@ -4,7 +4,7 @@ import filter from 'lodash/filter';
 import lozad from 'lozad';
 import imagesLoaded from 'imagesloaded';
 import Controller from '../base_controller';
-import http from '../http-client';
+import http from '../http-get';
 
 const limit = 30;
 

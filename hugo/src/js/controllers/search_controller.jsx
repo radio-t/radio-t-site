@@ -4,7 +4,7 @@ import locale from 'date-fns/locale/ru';
 import debounce from 'lodash/debounce';
 import Mark from 'mark.js';
 import Controller from '../base_controller';
-import http from '../http-client';
+import http from '../http-get';
 
 const Results = function ({ results }) {
   return (
