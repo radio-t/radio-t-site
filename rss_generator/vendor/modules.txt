@@ -1,12 +1,12 @@
-# github.com/BurntSushi/toml v1.4.0
+# github.com/BurntSushi/toml v1.5.0
 ## explicit; go 1.18
 github.com/BurntSushi/toml
 github.com/BurntSushi/toml/internal
 # github.com/davecgh/go-spew v1.1.1
 ## explicit
 github.com/davecgh/go-spew/spew
-# github.com/go-pkgz/lgr v0.11.1
-## explicit; go 1.20
+# github.com/go-pkgz/lgr v0.12.0
+## explicit; go 1.21
 github.com/go-pkgz/lgr
 # github.com/pmezard/go-difflib v1.0.0
 ## explicit
@@ -22,7 +22,7 @@ github.com/stretchr/testify/require
 # github.com/umputun/go-flags v1.5.1
 ## explicit; go 1.12
 github.com/umputun/go-flags
-# golang.org/x/net v0.37.0
+# golang.org/x/net v0.38.0
 ## explicit; go 1.23.0
 golang.org/x/net/html
 golang.org/x/net/html/atom
