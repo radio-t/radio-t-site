@@ -1,6 +1,6 @@
 import { h } from 'preact';
 import { useCallback, useEffect, useState } from 'preact/hooks';
-import http from 'axios';
+import { fetchJSON } from '../http-get';
 import locale from 'date-fns/locale/ru';
 import { formatDistanceToNowStrict, format, parseISO } from 'date-fns';
 import { getTextSnippet } from '../utils';
@@ -57,9 +57,7 @@ function LastComments() {
 
   const updateComments = useCallback(async () => {
     try {
-      const { data } = await http.get('https://remark42.radio-t.com/api/v1/last/30', {
-        params: { site: 'radiot' },
-      });
+      const data = await fetchJSON('https://remark42.radio-t.com/api/v1/last/30?site=radiot');
       setComments(data);
     } catch (e) {
       //

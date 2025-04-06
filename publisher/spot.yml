@@ -4,22 +4,29 @@ targets:
     hosts: [{host: "n10.radio-t.com"}, {host: "n11.radio-t.com"}]
   master:
     hosts: [{host: "master.radio-t.com"}]
+  nas:
+    hosts: [{host: "nas.umputun.com"}]
 
 # this task expects "mp3" param (full location of mp3 file) to be set by cli, i.e. -e mp3:/Podcasts/radio-t/123/rt_podcast123.mp3
 tasks:
 
-  # "deploy to master" uploads mp3 to master, copy to archive, copy to local NAS, cleans old files, creates chat log and archives news
-  - name: deploy to master
-    targets: ["master"]
+  # set file names task sets destination file names based on episode number
+  - name: set file names
+    targets: [local]
     commands:
     - name: set mp3 file name
       script: |
-        export EPISODE_NUMBER=$(echo $mp3 | sed -n 's/.*rt_podcast\(.*\)\.mp3/\1/p')
-        export DST_MP3_FILE_NAME=/srv/master-node/var/media/$(basename $mp3)
-        export DST_MP3_ARCHIVE_FILE_NAME=/data/archive/radio-t/media/$(basename $mp3)
-        export DST_MP3_NAS_FILE_NAME=/Volumes/Podcasts/radio-t/$(basename $mp3)
+        EPISODE_NUMBER=$(echo $mp3 | sed -n 's/.*rt_podcast\(.*\)\.mp3/\1/p')
+        DST_MP3_FILE_NAME=/srv/master-node/var/media/$(basename $mp3)
+        DST_MP3_ARCHIVE_FILE_NAME=/data/archive/radio-t/media/$(basename $mp3)
+        DST_MP3_NAS_FILE_NAME=/Podcasts/radio-t/$(basename $mp3)
       options: {local: true}
+      register: [EPISODE_NUMBER, DST_MP3_FILE_NAME, DST_MP3_ARCHIVE_FILE_NAME, DST_MP3_NAS_FILE_NAME]
 
+  # "deploy to master" uploads mp3 to master, copy to archive, cleans old files, creates chat log and archives news
+  - name: deploy to master
+    targets: ["master"]
+    commands:
     - name: upload mp3 file
       copy: {src: "$mp3", dst: "$DST_MP3_FILE_NAME", mkdir: true}
 
@@ -43,19 +50,20 @@ tasks:
     - name: clean old files
       script: find /srv/master-node/var/media -type f -mtime +60 -mtime -1200 -iname *.mp3 -exec rm {} \;
 
-    - name: copy to NAS archive
-      copy: {src: "$mp3", dst: "$DST_MP3_NAS_FILE_NAME"}
-      options: {local: true}
+  # deploy to nas task uploads mp3 to NAS
+  - name: deploy to nas
+    targets: ["nas"]
+    commands:
+    - name: echo mp3 file name
+      echo: "$mp3 -> $DST_MP3_NAS_FILE_NAME"
 
+    - name: copy mp3 file
+      copy: {src: "$mp3", dst: "$DST_MP3_NAS_FILE_NAME",  mkdir: true, force: true}
 
   # deploy to nodes task uploads mp3 to all nodes and cleans old files
   - name: deploy to nodes
     targets: ["nodes"]
     commands:
-    - name: set mp3 file name
-      script: export DST_MP3_FILE_NAME=/srv/media/radio-t/$(basename $mp3)
-      options: {local: true}
-
     - name: copy mp3 file
       copy: {src: "$mp3", dst: "$DST_MP3_FILE_NAME", mkdir: true, force: true}
 

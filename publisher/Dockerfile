@@ -1,4 +1,4 @@
-FROM umputun/baseimage:buildgo-latest as build
+FROM umputun/baseimage:buildgo-latest AS build
 ARG GIT_BRANCH
 ARG GITHUB_SHA
 ARG CI
@@ -32,10 +32,11 @@ RUN \
     chmod 700 /home/app/.ssh
 
 RUN \
-    wget https://github.com/umputun/spot/releases/download/v1.12.0/spot_v1.12.0_linux_amd64.apk && \
-    ls -la spot_v1.12.0_linux_amd64.apk && \
-    apk add --allow-untrusted  spot_v1.12.0_linux_amd64.apk && \
-    rm spot_v1.12.0_linux_amd64.apk && \
+    export SPOT_VERSION=v1.16.4 && \
+    wget https://github.com/umputun/spot/releases/download/${SPOT_VERSION}/spot_${SPOT_VERSION}_linux_amd64.apk && \
+    ls -la spot_${SPOT_VERSION}_linux_amd64.apk && \
+    apk add --allow-untrusted  spot_${SPOT_VERSION}_linux_amd64.apk && \
+    rm spot_${SPOT_VERSION}_linux_amd64.apk && \
     spot --version
 
 COPY --from=build /build/bin/publisher /usr/local/bin/publisher

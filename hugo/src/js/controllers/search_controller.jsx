@@ -4,7 +4,7 @@ import locale from 'date-fns/locale/ru';
 import debounce from 'lodash/debounce';
 import Mark from 'mark.js';
 import Controller from '../base_controller';
-import http from '../http-client';
+import { fetchJSON } from '../http-get';
 
 const Results = function ({ results }) {
   return (
@@ -72,9 +72,7 @@ export default class extends Controller {
 
   makeSearchRequest = debounce(async (query) => {
     if (this.searchQuery !== query) return;
-    const { data } = await http.get('https://radio-t.com/site-api/search', {
-      params: { q: query },
-    });
+    const data = await fetchJSON(`https://radio-t.com/site-api/search?q=${encodeURIComponent(query)}`);
     if (this.searchQuery !== query) return;
     this.destroy();
     this.scrollTarget.scrollTo(0, 0);
