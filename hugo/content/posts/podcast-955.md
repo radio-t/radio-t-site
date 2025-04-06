@@ -14,7 +14,7 @@ filename = "rt_podcast955"
 - [AI 2027](https://ai-2027.com/) - *00:24:21*.
 - [Все эстимейты отстой, и как их надо делать](https://newsletter.techworld-with-milan.com/p/all-estimations-are-wrong-but-none) - *00:54:08*.
 - [GitHub Copilot Pro+](https://github.blog/changelog/2025-04-04-announcing-github-copilot-pro/) - *01:17:28*.
-- [Nintendo Switch 2](https://www.theverge.com/nintendo/642420/nintendo-switch-2-hands-on-preview) - *01:34:16*.
+- [Nintendo Switch 2](https://www.theverge.com/nintendo/642420/nintendo-switch-2-hands-on-preview) - *01:50:35*.
 - [Темы слушателей](https://radio-t.com/p/2025/04/03/prep-955/) - *01:55:08*.
 
 
