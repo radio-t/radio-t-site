@@ -15,7 +15,7 @@ filename = "rt_podcast955"
 - [Все эстимейты отстой, и как их надо делать](https://newsletter.techworld-with-milan.com/p/all-estimations-are-wrong-but-none) - *01:10:08*.
 - [GitHub Copilot Pro+](https://github.blog/changelog/2025-04-04-announcing-github-copilot-pro/) - *01:34:28*.
 - [Nintendo Switch 2](https://www.theverge.com/nintendo/642420/nintendo-switch-2-hands-on-preview) - *01:50:16*.
-- [Темы слушателей](https://radio-t.com/p/2025/04/03/prep-955/) - *01:55:08*.
+- [Темы слушателей](https://radio-t.com/p/2025/04/03/prep-955/) - *02:11:08*.
 
 
 [аудио](https://cdn.radio-t.com/rt_podcast955.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-955.html)
