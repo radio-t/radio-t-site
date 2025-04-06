@@ -10,11 +10,11 @@ filename = "rt_podcast955"
 
 - Вступление - *00:00:00*.
 - [JEP который сделает нам настоящий, честный final](https://openjdk.org/jeps/8349536) - *08:50:33*.
-- [Празднуем 50 лет Microsoft](https://www.gatesnotes.com/meet-bill/source-code/reader/microsoft-original-source-code) - *00:16:36*.
-- [AI 2027](https://ai-2027.com/) - *00:24:21*.
-- [Все эстимейты отстой, и как их надо делать](https://newsletter.techworld-with-milan.com/p/all-estimations-are-wrong-but-none) - *00:54:08*.
-- [GitHub Copilot Pro+](https://github.blog/changelog/2025-04-04-announcing-github-copilot-pro/) - *01:17:28*.
-- [Nintendo Switch 2](https://www.theverge.com/nintendo/642420/nintendo-switch-2-hands-on-preview) - *01:34:16*.
+- [Празднуем 50 лет Microsoft](https://www.gatesnotes.com/meet-bill/source-code/reader/microsoft-original-source-code) - *00:33:33*.
+- [AI 2027](https://ai-2027.com/) - *00:41:00*.
+- [Все эстимейты отстой, и как их надо делать](https://newsletter.techworld-with-milan.com/p/all-estimations-are-wrong-but-none) - *01:10:08*.
+- [GitHub Copilot Pro+](https://github.blog/changelog/2025-04-04-announcing-github-copilot-pro/) - *01:34:28*.
+- [Nintendo Switch 2](https://www.theverge.com/nintendo/642420/nintendo-switch-2-hands-on-preview) - *01:50:16*.
 - [Темы слушателей](https://radio-t.com/p/2025/04/03/prep-955/) - *01:55:08*.
 
 
