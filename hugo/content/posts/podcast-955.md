@@ -9,7 +9,7 @@ filename = "rt_podcast955"
 ![](https://radio-t.com/images/radio-t/rt955.jpg)
 
 - Вступление - *00:00:00*.
-- [JEP который сделает нам настоящий, честный final](https://openjdk.org/jeps/8349536) - *08:50:33*.
+- [JEP который сделает нам настоящий, честный final](https://openjdk.org/jeps/8349536) - *00:07:40*.
 - [Празднуем 50 лет Microsoft](https://www.gatesnotes.com/meet-bill/source-code/reader/microsoft-original-source-code) - *00:33:33*.
 - [AI 2027](https://ai-2027.com/) - *00:41:00*.
 - [Все эстимейты отстой, и как их надо делать](https://newsletter.techworld-with-milan.com/p/all-estimations-are-wrong-but-none) - *01:10:08*.
