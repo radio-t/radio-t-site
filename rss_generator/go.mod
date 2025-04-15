@@ -9,7 +9,7 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0
 	github.com/stretchr/testify v1.10.0
 	github.com/umputun/go-flags v1.5.1
-	golang.org/x/net v0.38.0
+	golang.org/x/net v0.39.0
 )
 
 require (
