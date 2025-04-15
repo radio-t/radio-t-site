@@ -20,6 +20,7 @@ updates:
     groups:
       "Go modules updates":
         dependency-type: "production"
+        applies-to: "security-updates"
   - package-ecosystem: "gomod"
     directory: "/publisher"
     schedule:
@@ -27,6 +28,7 @@ updates:
     groups:
       "Go modules updates":
         dependency-type: "production"
+        applies-to: "security-updates"
   - package-ecosystem: "npm"
     directory: "/hugo"
     schedule:
