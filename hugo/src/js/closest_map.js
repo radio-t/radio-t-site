@@ -5,7 +5,8 @@ class ClosestMap {
    */
   constructor(entries = []) {
     this.map = new Map(entries);
-    this._sortKeys();
+    this._isDirty = true;
+    this._sortedKeys = [];
   }
 
   /**
@@ -15,11 +16,15 @@ class ClosestMap {
    */
   add(key, value) {
     this.map.set(key, value);
-    this._sortKeys();
+    this._isDirty = true;
   }
 
   _sortKeys() {
-    this.sortedKeys = [...this.map.keys()].sort((a, b) => a - b);
+    if (!this._isDirty) {
+      return;
+    }
+    this._sortedKeys = [...this.map.keys()].sort((a, b) => a - b);
+    this._isDirty = false;
   }
 
   /**
@@ -28,14 +33,15 @@ class ClosestMap {
    * @returns {*|null} value or null
    */
   getFloor(key) {
+    this._sortKeys();
     let left = 0;
-    let right = this.sortedKeys.length - 1;
+    let right = this._sortedKeys.length - 1;
     let result = null;
 
     while (left <= right) {
       const mid = Math.floor((left + right) / 2);
-      if (this.sortedKeys[mid] <= key) {
-        result = this.sortedKeys[mid];
+      if (this._sortedKeys[mid] <= key) {
+        result = this._sortedKeys[mid];
         left = mid + 1;
       } else {
         right = mid - 1;
