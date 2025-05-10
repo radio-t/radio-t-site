@@ -8,3 +8,4 @@ publisher/utils/eyeD3/*.pyc
 publisher/target/
 .idea
 rss_generator/target/
+.claude/

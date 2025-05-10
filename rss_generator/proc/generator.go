@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strconv"
 	"strings"
 	"text/template"
@@ -145,6 +146,12 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 	data := blackfriday.Run([]byte(post.Data), blackfriday.WithRenderer(renderer))
 	postDescriptionHTML := string(data)
 	postDescriptionHTML = strings.TrimSuffix(postDescriptionHTML, "\n")
+
+	// Convert the timestamp format to YouTube format (HH:MM Topic)
+	// Find patterns like "<li>Topic - <em>HH:MM:SS</em></li>" and convert to "<li>HH:MM Topic</li>"
+	timestampRegex := regexp.MustCompile(`<li>(.*?) - <em>(\d{2}:\d{2}):\d{2}</em></li>`)
+	postDescriptionHTML = timestampRegex.ReplaceAllString(postDescriptionHTML, `<li>$2 $1</li>`)
+
 	rssDescriptionHTML := strings.Replace(postDescriptionHTML, "<ul>", "<p><em>Темы</em><ul>", 1)
 	rssDescriptionHTML = strings.Replace(rssDescriptionHTML, "</ul>", "</ul></p>", 1)
 	rssDescriptionHTML = strings.TrimSuffix(rssDescriptionHTML, "\n")

@@ -3,6 +3,7 @@ package proc
 import (
 	"net/http"
 	"net/http/httptest"
+	"regexp"
 	"strings"
 	"testing"
 	"time"
@@ -200,6 +201,26 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		assert.Equal(t, "https://cdn.com/rt_podcast850.mp3", res.EnclosureURL)
 		assert.Equal(t, 1234, res.FileSize)
 	})
+}
+
+func TestTimestampFormatConversion(t *testing.T) {
+	// Test our timestamp conversion regex
+	timestampRegex := regexp.MustCompile(`<li>(.*?) - <em>(\d{2}:\d{2}):\d{2}</em></li>`)
+
+	// Test case 1: Basic conversion
+	html := `<li>Topic Title - <em>01:23:45</em></li>`
+	result := timestampRegex.ReplaceAllString(html, `<li>$2 $1</li>`)
+	assert.Equal(t, `<li>01:23 Topic Title</li>`, result)
+
+	// Test case 2: With link
+	html = `<li><a href="https://example.com">Topic Title</a> - <em>01:23:45</em></li>`
+	result = timestampRegex.ReplaceAllString(html, `<li>$2 $1</li>`)
+	assert.Equal(t, `<li>01:23 <a href="https://example.com">Topic Title</a></li>`, result)
+
+	// Test case 3: Multiple timestamps
+	html = `<li>Topic One - <em>01:23:45</em></li><li>Topic Two - <em>02:34:56</em></li>`
+	result = timestampRegex.ReplaceAllString(html, `<li>$2 $1</li>`)
+	assert.Equal(t, `<li>01:23 Topic One</li><li>02:34 Topic Two</li>`, result)
 }
 
 func TestRSSGenerator_htmlToPlainText(t *testing.T) {
