@@ -241,7 +241,7 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		require.NoError(t, err)
 
 		// check that timestamps were converted to YouTube format (HH:MM:SS for videos over 1 hour)
-		assert.Contains(t, res.Description, "00:00:00 Вступление\n")
+		assert.Contains(t, res.Description, "00:00:00 Вступление<br>")
 		assert.Contains(t, res.Description, "00:08:46 <a href")
 		assert.Contains(t, res.Description, "00:27:21 <a href")
 		assert.Contains(t, res.Description, "01:51:51 <a href")
@@ -291,9 +291,9 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		})
 		require.NoError(t, err)
 
-		expectedDescription := `00:00:00 Вступление
-00:08:46 <a href="https://example.com/apple">Apple останавливает продажи часов</a>
-00:27:21 <a href="https://example.com/debt">Весь код это технический долг</a>
+		expectedDescription := `00:00:00 Вступление<br>
+00:08:46 <a href="https://example.com/apple">Apple останавливает продажи часов</a><br>
+00:27:21 <a href="https://example.com/debt">Весь код это технический долг</a><br>
 01:51:51 Темы слушателей
 <p><img src="https://example.com/image.jpg" alt="" /></p>
 
@@ -345,7 +345,7 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		require.NoError(t, err)
 
 		// should still convert properly without the period
-		assert.Contains(t, res.Description, "00:00:00 Intro\n")
+		assert.Contains(t, res.Description, "00:00:00 Intro<br>")
 		assert.Contains(t, res.Description, "00:15:30 <a href")
 		assert.Contains(t, res.Description, "01:45:20 <a href")
 	})

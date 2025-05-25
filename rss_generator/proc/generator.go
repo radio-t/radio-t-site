@@ -174,8 +174,8 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 		ulRegex := regexp.MustCompile(`<ul>[\s\S]*?</ul>`)
 		cleanedHTML := ulRegex.ReplaceAllString(postDescriptionHTML, "")
 		
-		// YouTube chapters as plain text
-		chaptersText := strings.Join(youtubeChapters, "\n")
+		// YouTube chapters with HTML line breaks
+		chaptersText := strings.Join(youtubeChapters, "<br>\n")
 		
 		// combine chapters with remaining HTML (image and audio links)
 		rssDescriptionHTML = chaptersText + "\n" + cleanedHTML
