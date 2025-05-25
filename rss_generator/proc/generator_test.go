@@ -41,7 +41,7 @@ func TestRSSGenerator_MakeFeed(t *testing.T) {
 	assert.Equal(t, 0, res.Items[0].FileSize)
 	assert.Contains(t, res.Items[0].Description, "Apple останавливает продажи часов")
 	assert.Contains(t, res.Items[0].Summary, "Apple останавливает продажи часов")
-	assert.Contains(t, res.Items[0].ItunesSubtitle, "00:08:46 Apple останавливает продажи часов")
+	assert.Contains(t, res.Items[0].Description, "00:08:46 <a href")
 
 	assert.Equal(t, "https://radio-t.com/p/2023/03/18/podcast-850/", res.Items[1].URL)
 }
@@ -245,12 +245,77 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		assert.Contains(t, res.Description, "00:27:21 <a href")
 		assert.Contains(t, res.Description, "01:51:51 <a href")
 
-		// should NOT contain the old format with - <em>
-		assert.NotContains(t, res.Description, " - <em>")
+		// should still contain the HTML list with timestamps
+		assert.Contains(t, res.Description, " - <em>")
 
 		// should have the topic after the timestamp
 		assert.Contains(t, res.Description, ">Apple останавливает продажи часов</a>")
 		assert.Contains(t, res.Description, ">Весь код это технический долг</a>")
+	})
+
+	t.Run("complete item with youtube format", func(t *testing.T) {
+		client := &http.Client{Timeout: time.Second}
+
+		g := RSSGenerator{
+			Client:         client,
+			BaseArchiveURL: testServer.URL,
+			BaseURL:        "https://example.com",
+			BaseCdnURL:     "https://cdn.com",
+		}
+
+		markdownData := `![](https://example.com/image.jpg)
+
+- Вступление - *00:00:00*.
+- [Apple останавливает продажи часов](https://example.com/apple) - *00:08:46*.
+- [Весь код это технический долг](https://example.com/debt) - *00:27:21*.
+- Темы слушателей - *01:51:51*.
+
+[аудио](https://cdn.example.com/podcast.mp3) • [лог чата](https://example.com/chat.html)
+<audio src="https://cdn.example.com/podcast.mp3" preload="none"></audio>`
+
+		res, err := g.createItemData(FeedConfig{
+			Name: "test",
+		}, Post{
+			CreatedAt: time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC),
+			URL:       "http://example.com/post1/",
+			Config: map[string]interface{}{
+				"title":      "Test Episode",
+				"filename":   "test_podcast",
+				"categories": []interface{}{"podcast"},
+				"image":      "https://example.com/cover.jpg",
+			},
+			Data: markdownData,
+		})
+		require.NoError(t, err)
+
+		expectedDescription := `00:00:00 Вступление
+00:08:46 <a href="https://example.com/apple">Apple останавливает продажи часов</a>
+00:27:21 <a href="https://example.com/debt">Весь код это технический долг</a>
+01:51:51 Темы слушателей
+
+<p><img src="https://example.com/image.jpg" alt="" /></p>
+
+<p><em>Темы</em><ul>
+<li>Вступление - <em>00:00:00</em>.</li>
+<li><a href="https://example.com/apple">Apple останавливает продажи часов</a> - <em>00:08:46</em>.</li>
+<li><a href="https://example.com/debt">Весь код это технический долг</a> - <em>00:27:21</em>.</li>
+<li>Темы слушателей - <em>01:51:51</em>.</li>
+</ul></p>
+
+<p><a href="https://cdn.example.com/podcast.mp3">аудио</a> • <a href="https://example.com/chat.html">лог чата</a>
+<audio src="https://cdn.example.com/podcast.mp3" preload="none"></audio></p>`
+
+		assert.Equal(t, expectedDescription, res.Description)
+		assert.Equal(t, "http://example.com/post1/", res.URL)
+		assert.Equal(t, "http://example.com/post1/", res.GUID)
+		assert.Equal(t, "Wed, 01 Jan 2020 00:00:00 UTC", res.Date)
+		assert.Equal(t, "Test Episode", res.Title)
+		assert.Equal(t, "https://example.com/cover.jpg", res.Image)
+		assert.Equal(t, "https://cdn.com/test_podcast.mp3", res.EnclosureURL)
+		assert.Equal(t, 0, res.FileSize)
+		
+		// check ItunesSubtitle has original format
+		assert.Equal(t, "Вступление - 00:00:00. Apple останавливает продажи часов - 00:08:46. Весь код это технический долг - 00:27:21. Темы слушателей - 01:51:51.", res.ItunesSubtitle)
 	})
 
 	t.Run("youtube timestamp format without period", func(t *testing.T) {

@@ -142,21 +142,44 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 		}
 	}
 
+	// first, extract timestamps from markdown for YouTube format
+	markdownTimestampRegex := regexp.MustCompile(`- (.*?) - \*(\d{2}:\d{2}:\d{2})\*\.?`)
+	var youtubeChapters []string
+	matches := markdownTimestampRegex.FindAllStringSubmatch(post.Data, -1)
+	for _, match := range matches {
+		topic := match[1]
+		timestamp := match[2]
+
+		// check if topic is a markdown link and convert to HTML
+		linkRegex := regexp.MustCompile(`\[(.*?)\]\((.*?)\)`)
+		if linkMatch := linkRegex.FindStringSubmatch(topic); linkMatch != nil {
+			// convert markdown link to HTML: [text](url) -> <a href="url">text</a>
+			topic = fmt.Sprintf(`<a href="%s">%s</a>`, linkMatch[2], linkMatch[1])
+		}
+
+		// format: "HH:MM:SS Topic"
+		youtubeChapters = append(youtubeChapters, fmt.Sprintf("%s %s", timestamp, topic))
+	}
+
 	renderer := blackfriday.NewHTMLRenderer(blackfriday.HTMLRendererParameters{Flags: blackfriday.UseXHTML})
 	data := blackfriday.Run([]byte(post.Data), blackfriday.WithRenderer(renderer))
 	postDescriptionHTML := string(data)
 	postDescriptionHTML = strings.TrimSuffix(postDescriptionHTML, "\n")
 
-	// convert the timestamp format to YouTube format
-	// for podcasts over 1 hour, YouTube requires HH:MM:SS format with first timestamp as 00:00:00
-	// find patterns like "<li>Topic - <em>HH:MM:SS</em>.</li>" and convert to "HH:MM:SS Topic\n"
-	// the period after </em> is optional to handle different markdown renderers
-	timestampRegex := regexp.MustCompile(`<li>(.*?) - <em>(\d{2}:\d{2}:\d{2})</em>\.?</li>`)
-	postDescriptionHTML = timestampRegex.ReplaceAllString(postDescriptionHTML, "$2 $1\n")
-
-	rssDescriptionHTML := strings.Replace(postDescriptionHTML, "<ul>", "<p><em>Темы</em><ul>", 1)
-	rssDescriptionHTML = strings.Replace(rssDescriptionHTML, "</ul>", "</ul></p>", 1)
-	rssDescriptionHTML = strings.TrimSuffix(rssDescriptionHTML, "\n")
+	// create description with YouTube chapters at the beginning if they exist
+	var rssDescriptionHTML string
+	if len(youtubeChapters) > 0 {
+		// YouTube chapters should be plain text at the start of description
+		chaptersText := strings.Join(youtubeChapters, "\n") + "\n\n"
+		// then add the HTML content
+		htmlWithThemes := strings.Replace(postDescriptionHTML, "<ul>", "<p><em>Темы</em><ul>", 1)
+		htmlWithThemes = strings.Replace(htmlWithThemes, "</ul>", "</ul></p>", 1)
+		rssDescriptionHTML = chaptersText + htmlWithThemes
+	} else {
+		rssDescriptionHTML = strings.Replace(postDescriptionHTML, "<ul>", "<p><em>Темы</em><ul>", 1)
+		rssDescriptionHTML = strings.Replace(rssDescriptionHTML, "</ul>", "</ul></p>", 1)
+		rssDescriptionHTML = strings.TrimSuffix(rssDescriptionHTML, "\n")
+	}
 
 	fixedURL := post.URL
 	fixedURL = strings.Replace(fixedURL, "//p", "/p", 1)
