@@ -149,10 +149,10 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 
 	// convert the timestamp format to YouTube format
 	// for podcasts over 1 hour, YouTube requires HH:MM:SS format with first timestamp as 00:00:00
-	// find patterns like "<li>Topic - <em>HH:MM:SS</em>.</li>" and convert to "<li>HH:MM:SS Topic</li>"
+	// find patterns like "<li>Topic - <em>HH:MM:SS</em>.</li>" and convert to "HH:MM:SS Topic\n"
 	// the period after </em> is optional to handle different markdown renderers
 	timestampRegex := regexp.MustCompile(`<li>(.*?) - <em>(\d{2}:\d{2}:\d{2})</em>\.?</li>`)
-	postDescriptionHTML = timestampRegex.ReplaceAllString(postDescriptionHTML, `<li>$2 $1</li>`)
+	postDescriptionHTML = timestampRegex.ReplaceAllString(postDescriptionHTML, "$2 $1\n")
 
 	rssDescriptionHTML := strings.Replace(postDescriptionHTML, "<ul>", "<p><em>Темы</em><ul>", 1)
 	rssDescriptionHTML = strings.Replace(rssDescriptionHTML, "</ul>", "</ul></p>", 1)
