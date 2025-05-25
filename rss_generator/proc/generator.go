@@ -147,9 +147,11 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 	postDescriptionHTML := string(data)
 	postDescriptionHTML = strings.TrimSuffix(postDescriptionHTML, "\n")
 
-	// Convert the timestamp format to YouTube format (HH:MM Topic)
-	// Find patterns like "<li>Topic - <em>HH:MM:SS</em></li>" and convert to "<li>HH:MM Topic</li>"
-	timestampRegex := regexp.MustCompile(`<li>(.*?) - <em>(\d{2}:\d{2}):\d{2}</em></li>`)
+	// convert the timestamp format to YouTube format
+	// for podcasts over 1 hour, YouTube requires HH:MM:SS format with first timestamp as 00:00:00
+	// find patterns like "<li>Topic - <em>HH:MM:SS</em>.</li>" and convert to "<li>HH:MM:SS Topic</li>"
+	// the period after </em> is optional to handle different markdown renderers
+	timestampRegex := regexp.MustCompile(`<li>(.*?) - <em>(\d{2}:\d{2}:\d{2})</em>\.?</li>`)
 	postDescriptionHTML = timestampRegex.ReplaceAllString(postDescriptionHTML, `<li>$2 $1</li>`)
 
 	rssDescriptionHTML := strings.Replace(postDescriptionHTML, "<ul>", "<p><em>Темы</em><ul>", 1)
@@ -264,7 +266,7 @@ func (g *RSSGenerator) cleanStringForXML(input string) string {
 		"\"": "&quot;",
 		"'":  "&apos;",
 	}
-	// Iterate over the map and replace each character with its entity reference
+	// iterate over the map and replace each character with its entity reference
 	for old, new := range replacements {
 		input = strings.ReplaceAll(input, old, new)
 	}

@@ -41,7 +41,7 @@ func TestRSSGenerator_MakeFeed(t *testing.T) {
 	assert.Equal(t, 0, res.Items[0].FileSize)
 	assert.Contains(t, res.Items[0].Description, "Apple останавливает продажи часов")
 	assert.Contains(t, res.Items[0].Summary, "Apple останавливает продажи часов")
-	assert.Contains(t, res.Items[0].ItunesSubtitle, "Apple останавливает продажи часов - 00:08:46. Весь код это технический долг - 00:27:21. Нет, это не так - 00:34:02.")
+	assert.Contains(t, res.Items[0].ItunesSubtitle, "00:08:46 Apple останавливает продажи часов")
 
 	assert.Equal(t, "https://radio-t.com/p/2023/03/18/podcast-850/", res.Items[1].URL)
 }
@@ -201,26 +201,117 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		assert.Equal(t, "https://cdn.com/rt_podcast850.mp3", res.EnclosureURL)
 		assert.Equal(t, 1234, res.FileSize)
 	})
+
+	t.Run("youtube timestamp format conversion", func(t *testing.T) {
+		client := &http.Client{Timeout: time.Second}
+
+		g := RSSGenerator{
+			Client:         client,
+			BaseArchiveURL: testServer.URL,
+			BaseURL:        "https://example.com",
+			BaseCdnURL:     "https://cdn.com",
+		}
+
+		// test with actual Radio-T format timestamps (including the period)
+		markdownData := `- Вступление - *00:00:00*.
+- [Apple останавливает продажи часов](https://example.com/apple) - *00:08:46*.
+- [Весь код это технический долг](https://example.com/debt) - *00:27:21*.
+- [Темы слушателей](https://example.com/topics) - *01:51:51*.`
+
+		res, err := g.createItemData(FeedConfig{
+			Name:            "test",
+			Title:           "Test Feed",
+			Image:           "test.jpg",
+			Count:           10,
+			Size:            false,
+			FeedSubtitle:    "sub",
+			FeedDescription: "desc",
+		}, Post{
+			CreatedAt: time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC),
+			URL:       "http://example.com/post1/",
+			Config: map[string]interface{}{
+				"title":      "Test Episode",
+				"filename":   "test_podcast",
+				"categories": []interface{}{"podcast"},
+				"image":      "test.jpg",
+			},
+			Data: markdownData,
+		})
+		require.NoError(t, err)
+
+		// check that timestamps were converted to YouTube format (HH:MM:SS for videos over 1 hour)
+		assert.Contains(t, res.Description, "<li>00:00:00 Вступление</li>")
+		assert.Contains(t, res.Description, "<li>00:08:46 <a href")
+		assert.Contains(t, res.Description, "<li>00:27:21 <a href")
+		assert.Contains(t, res.Description, "<li>01:51:51 <a href")
+
+		// should NOT contain the old format with - <em>
+		assert.NotContains(t, res.Description, " - <em>")
+
+		// should have the topic after the timestamp
+		assert.Contains(t, res.Description, ">Apple останавливает продажи часов</a></li>")
+		assert.Contains(t, res.Description, ">Весь код это технический долг</a></li>")
+	})
+
+	t.Run("youtube timestamp format without period", func(t *testing.T) {
+		client := &http.Client{Timeout: time.Second}
+
+		g := RSSGenerator{
+			Client:         client,
+			BaseArchiveURL: testServer.URL,
+			BaseURL:        "https://example.com",
+			BaseCdnURL:     "https://cdn.com",
+		}
+
+		// test without period after timestamp (some markdown renderers might not add it)
+		markdownData := `- Intro - *00:00:00*
+- [Topic One](https://example.com/one) - *00:15:30*
+- [Topic Two](https://example.com/two) - *01:45:20*`
+
+		res, err := g.createItemData(FeedConfig{
+			Name: "test",
+		}, Post{
+			CreatedAt: time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC),
+			URL:       "http://example.com/post1/",
+			Config: map[string]interface{}{
+				"title":      "Test Episode",
+				"filename":   "test_podcast",
+				"categories": []interface{}{"podcast"},
+			},
+			Data: markdownData,
+		})
+		require.NoError(t, err)
+
+		// should still convert properly without the period
+		assert.Contains(t, res.Description, "<li>00:00:00 Intro</li>")
+		assert.Contains(t, res.Description, "<li>00:15:30 <a href")
+		assert.Contains(t, res.Description, "<li>01:45:20 <a href")
+	})
 }
 
 func TestTimestampFormatConversion(t *testing.T) {
-	// Test our timestamp conversion regex
-	timestampRegex := regexp.MustCompile(`<li>(.*?) - <em>(\d{2}:\d{2}):\d{2}</em></li>`)
+	// test our timestamp conversion regex - matches the actual implementation
+	timestampRegex := regexp.MustCompile(`<li>(.*?) - <em>(\d{2}:\d{2}:\d{2})</em>\.?</li>`)
 
-	// Test case 1: Basic conversion
-	html := `<li>Topic Title - <em>01:23:45</em></li>`
+	// test case 1: Basic conversion with period
+	html := `<li>Topic Title - <em>01:23:45</em>.</li>`
 	result := timestampRegex.ReplaceAllString(html, `<li>$2 $1</li>`)
-	assert.Equal(t, `<li>01:23 Topic Title</li>`, result)
+	assert.Equal(t, `<li>01:23:45 Topic Title</li>`, result)
 
-	// Test case 2: With link
-	html = `<li><a href="https://example.com">Topic Title</a> - <em>01:23:45</em></li>`
+	// test case 2: Without period
+	html = `<li>Topic Title - <em>01:23:45</em></li>`
 	result = timestampRegex.ReplaceAllString(html, `<li>$2 $1</li>`)
-	assert.Equal(t, `<li>01:23 <a href="https://example.com">Topic Title</a></li>`, result)
+	assert.Equal(t, `<li>01:23:45 Topic Title</li>`, result)
 
-	// Test case 3: Multiple timestamps
-	html = `<li>Topic One - <em>01:23:45</em></li><li>Topic Two - <em>02:34:56</em></li>`
+	// test case 3: With link and period
+	html = `<li><a href="https://example.com">Topic Title</a> - <em>01:23:45</em>.</li>`
 	result = timestampRegex.ReplaceAllString(html, `<li>$2 $1</li>`)
-	assert.Equal(t, `<li>01:23 Topic One</li><li>02:34 Topic Two</li>`, result)
+	assert.Equal(t, `<li>01:23:45 <a href="https://example.com">Topic Title</a></li>`, result)
+
+	// test case 4: Multiple timestamps
+	html = `<li>Topic One - <em>01:23:45</em>.</li><li>Topic Two - <em>02:34:56</em></li>`
+	result = timestampRegex.ReplaceAllString(html, `<li>$2 $1</li>`)
+	assert.Equal(t, `<li>01:23:45 Topic One</li><li>02:34:56 Topic Two</li>`, result)
 }
 
 func TestRSSGenerator_htmlToPlainText(t *testing.T) {
