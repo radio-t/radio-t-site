@@ -166,15 +166,20 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 	postDescriptionHTML := string(data)
 	postDescriptionHTML = strings.TrimSuffix(postDescriptionHTML, "\n")
 
-	// create description with YouTube chapters at the beginning if they exist
+	// create description with YouTube chapters format
 	var rssDescriptionHTML string
 	if len(youtubeChapters) > 0 {
-		// YouTube chapters should be plain text at the start of description
-		chaptersText := strings.Join(youtubeChapters, "\n") + "\n\n"
-		// then add the HTML content
-		htmlWithThemes := strings.Replace(postDescriptionHTML, "<ul>", "<p><em>Темы</em><ul>", 1)
-		htmlWithThemes = strings.Replace(htmlWithThemes, "</ul>", "</ul></p>", 1)
-		rssDescriptionHTML = chaptersText + htmlWithThemes
+		// remove the HTML list with timestamps from the original HTML
+		// find and remove <ul>...</ul> that contains the timestamps (non-greedy match)
+		ulRegex := regexp.MustCompile(`<ul>[\s\S]*?</ul>`)
+		cleanedHTML := ulRegex.ReplaceAllString(postDescriptionHTML, "")
+		
+		// YouTube chapters as plain text
+		chaptersText := strings.Join(youtubeChapters, "\n")
+		
+		// combine chapters with remaining HTML (image and audio links)
+		rssDescriptionHTML = chaptersText + "\n" + cleanedHTML
+		rssDescriptionHTML = strings.TrimSpace(rssDescriptionHTML)
 	} else {
 		rssDescriptionHTML = strings.Replace(postDescriptionHTML, "<ul>", "<p><em>Темы</em><ul>", 1)
 		rssDescriptionHTML = strings.Replace(rssDescriptionHTML, "</ul>", "</ul></p>", 1)
