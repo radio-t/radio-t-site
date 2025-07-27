@@ -9,8 +9,8 @@ filename = "rt_podcast971"
 ![](https://radio-t.com/images/radio-t/rt971.jpg)
 
 - Вступление - *00:00:00*.
-- [В Claude Code завезли Sub agents](https://docs.anthropic.com/en/docs/claude-code/sub-agents) - *00:17:24*.
-- [Мобильбые приложения против сайтов](https://idiallo.com/blog/dont-download-apps) - *00:34:05*.
+- [В Claude Code завезли спец-агентов](https://docs.anthropic.com/en/docs/claude-code/sub-agents) - *00:17:24*.
+- [Мобильные приложения против сайтов](https://idiallo.com/blog/dont-download-apps) - *00:34:05*.
 - [Google закрывает goo.gl и поломает интернет](https://www.theverge.com/news/713125/google-url-shortener-links-shutdown-deadline) - *01:10:06*.
 - [UK запретили договариваться с хакерами](https://www.bleepingcomputer.com/news/security/uk-to-ban-public-sector-orgs-from-paying-ransomware-gangs/) - *01:16:50*.
 - [И еще они хотят знать ваш возраст](https://www.wired.com/story/the-age-checked-internet-has-arrived/) - *01:24:50*.
