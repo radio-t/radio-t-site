@@ -13,11 +13,10 @@ filename = "rt_podcast979"
 - [Уход культуры безумных программистов](https://dayvster.com/blog/dev-culture-is-dying-the-curious-developer-is-gone/).
 - [В iTerm2 теперь есть и браузер](https://iterm2.com/documentation-web.html).
 - [Meta Ray-Ban](https://www.meta.com/en-gb/blog/meta-ray-ban-display-ai-glasses-connect-2025/).
-- [Самая недуачная демонстрация](https://techcrunch.com/2025/09/19/meta-cto-explains-why-the-smart-glasses-demos-failed-at-meta-connect-and-it-wasnt-the-wi-fi/?utm_campaign=social).
+- [Самая неудачная демонстрация](https://techcrunch.com/2025/09/19/meta-cto-explains-why-the-smart-glasses-demos-failed-at-meta-connect-and-it-wasnt-the-wi-fi/?utm_campaign=social).
 - [Аnthropic отчитались о багах](https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues).
 - [Gemini завезли прямо в Chrome](https://gemini.google/overview/gemini-in-chrome/).
 - [Темы слушателей 979](https://radio-t.com/p/2025/09/16/prep-979/) - *00:00:07*.
-
 
 [аудио](https://cdn.radio-t.com/rt_podcast979.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-979.html)
 <audio src="https://cdn.radio-t.com/rt_podcast979.mp3" preload="none"></audio>
