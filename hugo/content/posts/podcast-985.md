@@ -13,7 +13,7 @@ filename = "rt_podcast985"
 - [Шум вокруг нового агента goose](https://github.com/block/goose) - *00:32:25*.
 - [OpenAI и проблема самоубийств](https://techcrunch.com/2025/10/27/openai-says-over-a-million-people-talk-to-chatgpt-about-suicide-weekly/) - *00:38:49*.
 - [Хорошо переписали с Go ... на Go](https://www.honeycomb.io/blog/how-we-saved-70-cpu-60-memory-refinery) - *01:04:26*.
-- [Релизы и тегу на GitHub могут быть неизменяемые](https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available/) - *01:14:04*.
+- [Релизы и теги на GitHub могут быть неизменяемые](https://github.blog/changelog/2025-10-28-immutable-releases-are-now-generally-available/) - *01:14:04*.
 - [Дизайн который пугает пользователей](http://danieldelaney.net/normal/) - *01:22:51*.
 - [Ошибки код ревью](https://www.seangoedecke.com/good-code-reviews/) - *01:34:07*.
 - [Темы слушателей](https://radio-t.com/p/2025/10/29/prep-985/) - *02:28:53*.
