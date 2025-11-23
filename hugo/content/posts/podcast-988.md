@@ -16,5 +16,6 @@ filename = "rt_podcast988"
 - [Странный случай рефакторинга](https://theaxolot.wordpress.com/2025/11/18/dont-refactor-like-uncle-bob-second-edition/) - *01:37:52*.
 - [Темы слушателей](https://radio-t.com/p/2025/11/18/prep-988/) - *01:59:17*.
 
+
 [аудио](https://cdn.radio-t.com/rt_podcast988.mp3) • [лог чата](https://chat.radio-t.com/logs/radio-t-988.html)
 <audio src="https://cdn.radio-t.com/rt_podcast988.mp3" preload="none"></audio>
