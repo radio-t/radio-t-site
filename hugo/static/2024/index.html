@@ -3,83 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Радио-Т 2024 — Ретроспектива</title>
+    <title>Радио-Т 2024 — Итоги года</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
     <script src="/js/chart.min.js"></script>
     <style>
         :root {
-            --bg-deep: #0d0221;
-            --bg-purple: #1a0533;
-            --bg-card: rgba(26, 5, 51, 0.7);
-            --neon-pink: #ff2a6d;
-            --neon-cyan: #05d9e8;
-            --neon-purple: #d300c5;
-            --neon-blue: #7b2cbf;
-            --neon-yellow: #f9dc5c;
-            --text-white: #ffffff;
-            --text-dim: rgba(255, 255, 255, 0.7);
-            --text-muted: rgba(255, 255, 255, 0.4);
-            --grid-color: rgba(5, 217, 232, 0.1);
+            --bg-base: #0c0c0e;
+            --bg-elevated: #131316;
+            --bg-card: rgba(255, 255, 255, 0.03);
+            --bg-card-hover: rgba(255, 255, 255, 0.06);
+            --accent: #00d4aa;
+            --accent-dim: rgba(0, 212, 170, 0.15);
+            --accent-glow: rgba(0, 212, 170, 0.4);
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a8;
+            --text-muted: #5c5c66;
+            --border: rgba(255, 255, 255, 0.08);
+            --border-accent: rgba(0, 212, 170, 0.3);
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
-            font-family: 'Rajdhani', sans-serif;
-            background: var(--bg-deep);
-            color: var(--text-white);
+            font-family: 'Sora', -apple-system, sans-serif;
+            background: var(--bg-base);
+            color: var(--text-primary);
             line-height: 1.6;
-            font-size: 18px;
+            font-size: 16px;
             overflow-x: hidden;
         }
 
-        /* Animated grid background */
-        body::before {
-            content: '';
+        /* Gradient mesh background */
+        .bg-mesh {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background:
-                linear-gradient(180deg, transparent 0%, var(--bg-deep) 100%),
-                linear-gradient(90deg, var(--grid-color) 1px, transparent 1px),
-                linear-gradient(0deg, var(--grid-color) 1px, transparent 1px);
-            background-size: 100% 100%, 60px 60px, 60px 60px;
-            pointer-events: none;
             z-index: -1;
-            animation: gridMove 20s linear infinite;
+            overflow: hidden;
         }
 
-        @keyframes gridMove {
-            0% { background-position: 0 0, 0 0, 0 0; }
-            100% { background-position: 0 100%, 0 60px, 60px 0; }
+        .mesh-blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.4;
+            animation: float 20s ease-in-out infinite;
         }
 
-        /* Scanlines overlay */
-        body::after {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: repeating-linear-gradient(
-                0deg,
-                rgba(0, 0, 0, 0.1) 0px,
-                rgba(0, 0, 0, 0.1) 1px,
-                transparent 1px,
-                transparent 3px
-            );
-            pointer-events: none;
-            z-index: 1000;
+        .mesh-blob:nth-child(1) {
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, var(--accent) 0%, transparent 70%);
+            top: -200px;
+            right: -100px;
+            animation-delay: 0s;
         }
 
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        .mesh-blob:nth-child(2) {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, #6366f1 0%, transparent 70%);
+            bottom: 20%;
+            left: -150px;
+            animation-delay: -7s;
+        }
 
-        /* Hero with sunset gradient */
+        .mesh-blob:nth-child(3) {
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, #0ea5e9 0%, transparent 70%);
+            top: 50%;
+            right: 10%;
+            animation-delay: -14s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -30px) scale(1.05); }
+            66% { transform: translate(-20px, 20px) scale(0.95); }
+        }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+        /* Hero */
         .hero {
             min-height: 100vh;
             display: flex;
@@ -87,633 +97,673 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            position: relative;
-            background:
-                radial-gradient(ellipse at bottom, #1a0533 0%, transparent 70%),
-                linear-gradient(180deg,
-                    var(--bg-deep) 0%,
-                    #1a0533 30%,
-                    #2d1b4e 50%,
-                    #f9dc5c 85%,
-                    #ff2a6d 95%,
-                    var(--neon-pink) 100%
-                );
-            overflow: hidden;
+            padding: 60px 24px;
         }
 
-        .hero::before {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 40%;
-            background: linear-gradient(180deg, transparent, var(--bg-deep));
-            z-index: 1;
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+            backdrop-filter: blur(20px);
         }
 
-        /* Sun */
-        .sun {
-            position: absolute;
-            bottom: 15%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 300px;
-            height: 300px;
-            background: linear-gradient(180deg, #f9dc5c 0%, #ff2a6d 50%, #d300c5 100%);
+        .hero-badge-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--accent);
             border-radius: 50%;
-            box-shadow:
-                0 0 60px #ff2a6d,
-                0 0 120px rgba(255, 42, 109, 0.5);
-            clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
-            animation: sunPulse 4s ease-in-out infinite;
+            animation: pulse 2s ease-in-out infinite;
         }
 
-        @keyframes sunPulse {
-            0%, 100% { box-shadow: 0 0 60px #ff2a6d, 0 0 120px rgba(255, 42, 109, 0.5); }
-            50% { box-shadow: 0 0 80px #ff2a6d, 0 0 160px rgba(255, 42, 109, 0.7); }
-        }
-
-        .sun-lines {
-            position: absolute;
-            bottom: 15%;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 300px;
-            height: 150px;
-            overflow: hidden;
-        }
-
-        .sun-lines::before {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: repeating-linear-gradient(
-                0deg,
-                transparent 0px,
-                transparent 8px,
-                var(--bg-deep) 8px,
-                var(--bg-deep) 16px
-            );
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-        }
-
-        .hero-pre {
-            font-family: 'Share Tech Mono', monospace;
-            font-size: 1rem;
-            letter-spacing: 8px;
-            text-transform: uppercase;
-            color: var(--neon-cyan);
-            text-shadow: 0 0 10px var(--neon-cyan);
-            margin-bottom: 20px;
-            animation: flicker 3s infinite;
-        }
-
-        @keyframes flicker {
-            0%, 100% { opacity: 1; }
-            92% { opacity: 1; }
-            93% { opacity: 0.8; }
-            94% { opacity: 1; }
-            96% { opacity: 0.9; }
-            97% { opacity: 1; }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
         }
 
         .hero h1 {
-            font-family: 'Orbitron', sans-serif;
-            font-size: clamp(3rem, 10vw, 7rem);
-            font-weight: 900;
-            letter-spacing: 4px;
-            background: linear-gradient(180deg, #fff 0%, var(--neon-pink) 100%);
+            font-size: clamp(3rem, 10vw, 6rem);
+            font-weight: 700;
+            letter-spacing: -2px;
+            line-height: 1;
+            margin-bottom: 24px;
+        }
+
+        .hero h1 span {
+            background: linear-gradient(135deg, var(--accent) 0%, #0ea5e9 50%, #6366f1 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            text-shadow: none;
-            filter: drop-shadow(0 0 30px rgba(255, 42, 109, 0.5));
-            margin-bottom: 20px;
         }
 
-        .hero-year {
-            font-family: 'Orbitron', sans-serif;
-            font-size: clamp(5rem, 15vw, 12rem);
-            font-weight: 900;
-            color: transparent;
-            -webkit-text-stroke: 2px var(--neon-cyan);
-            text-shadow:
-                0 0 20px var(--neon-cyan),
-                0 0 40px var(--neon-cyan),
-                0 0 80px rgba(5, 217, 232, 0.5);
-            animation: glow 2s ease-in-out infinite alternate;
+        .hero-stats {
+            display: flex;
+            gap: 48px;
+            margin-top: 48px;
         }
 
-        @keyframes glow {
-            from { text-shadow: 0 0 20px var(--neon-cyan), 0 0 40px var(--neon-cyan); }
-            to { text-shadow: 0 0 30px var(--neon-cyan), 0 0 60px var(--neon-cyan), 0 0 100px var(--neon-cyan); }
+        .hero-stat {
+            text-align: center;
         }
 
-        .hero-sub {
-            font-family: 'Share Tech Mono', monospace;
-            font-size: 1.1rem;
-            color: var(--text-dim);
-            margin-top: 40px;
-            letter-spacing: 2px;
+        .hero-stat-value {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            line-height: 1;
+        }
+
+        .hero-stat-label {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 8px;
+        }
+
+        /* Glass cards */
+        .glass-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 32px;
+            backdrop-filter: blur(20px);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--border-accent);
+            transform: translateY(-2px);
         }
 
         /* Sections */
         .section {
             padding: 100px 0;
-            position: relative;
         }
 
-        .section-header {
-            text-align: center;
-            margin-bottom: 60px;
-        }
-
-        .section-number {
-            font-family: 'Share Tech Mono', monospace;
-            font-size: 0.9rem;
-            color: var(--neon-cyan);
-            letter-spacing: 4px;
-            margin-bottom: 16px;
-            text-shadow: 0 0 10px var(--neon-cyan);
-        }
-
-        .section-title {
-            font-family: 'Orbitron', sans-serif;
-            font-size: clamp(1.8rem, 4vw, 2.5rem);
-            font-weight: 700;
-            color: var(--text-white);
+        .section-label {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--accent);
             text-transform: uppercase;
-            letter-spacing: 4px;
-        }
-
-        .section-title span {
-            color: var(--neon-pink);
-            text-shadow: 0 0 20px var(--neon-pink);
-        }
-
-        /* Neon cards */
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 24px;
-        }
-
-        .stat-card {
-            background: var(--bg-card);
-            border: 1px solid var(--neon-cyan);
-            padding: 40px 24px;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-        }
-
-        .stat-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--neon-cyan), transparent);
-            animation: scanline 2s linear infinite;
-        }
-
-        @keyframes scanline {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100%); }
-        }
-
-        .stat-card:hover {
-            border-color: var(--neon-pink);
-            box-shadow:
-                0 0 20px rgba(255, 42, 109, 0.3),
-                inset 0 0 40px rgba(255, 42, 109, 0.1);
-        }
-
-        .stat-value {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 3.5rem;
-            font-weight: 700;
-            color: var(--neon-pink);
-            text-shadow: 0 0 20px var(--neon-pink);
-            line-height: 1;
+            letter-spacing: 2px;
             margin-bottom: 12px;
         }
 
-        .stat-label {
-            font-family: 'Share Tech Mono', monospace;
-            font-size: 0.85rem;
-            color: var(--text-dim);
-            text-transform: uppercase;
-            letter-spacing: 2px;
+        .section-title {
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            font-weight: 600;
+            letter-spacing: -1px;
+            margin-bottom: 48px;
         }
 
-        /* Bar charts - neon style */
-        .neon-bars {
-            max-width: 800px;
-            margin: 0 auto;
+        /* Company bars */
+        .bar-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
         }
 
-        .neon-bar-row {
+        .bar-item {
             display: flex;
             align-items: center;
-            margin-bottom: 20px;
+            gap: 16px;
         }
 
-        .neon-bar-label {
-            width: 140px;
-            font-family: 'Rajdhani', sans-serif;
-            font-size: 1rem;
-            font-weight: 600;
-            color: var(--text-dim);
+        .bar-label {
+            width: 120px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-secondary);
             text-align: right;
-            padding-right: 20px;
         }
 
-        .neon-bar-track {
+        .bar-track {
             flex: 1;
-            height: 32px;
-            background: rgba(5, 217, 232, 0.1);
-            border: 1px solid rgba(5, 217, 232, 0.3);
-            position: relative;
+            height: 40px;
+            background: var(--bg-card);
+            border-radius: 8px;
             overflow: hidden;
+            position: relative;
         }
 
-        .neon-bar-fill {
+        .bar-fill {
             height: 100%;
+            background: linear-gradient(90deg, var(--accent), #0ea5e9);
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: flex-end;
-            padding-right: 12px;
-            position: relative;
-            transition: width 1s ease-out;
+            padding-right: 16px;
+            transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        .neon-bar-fill.pink {
-            background: linear-gradient(90deg, rgba(255, 42, 109, 0.3), var(--neon-pink));
-            box-shadow: 0 0 20px var(--neon-pink), inset 0 0 20px rgba(255, 42, 109, 0.5);
-        }
-
-        .neon-bar-fill.cyan {
-            background: linear-gradient(90deg, rgba(5, 217, 232, 0.3), var(--neon-cyan));
-            box-shadow: 0 0 20px var(--neon-cyan), inset 0 0 20px rgba(5, 217, 232, 0.5);
-        }
-
-        .neon-bar-fill.purple {
-            background: linear-gradient(90deg, rgba(211, 0, 197, 0.3), var(--neon-purple));
-            box-shadow: 0 0 20px var(--neon-purple), inset 0 0 20px rgba(211, 0, 197, 0.5);
-        }
-
-        .neon-bar-fill.yellow {
-            background: linear-gradient(90deg, rgba(249, 220, 92, 0.3), var(--neon-yellow));
-            box-shadow: 0 0 20px var(--neon-yellow), inset 0 0 20px rgba(249, 220, 92, 0.5);
-        }
-
-        .neon-bar-value {
-            font-family: 'Share Tech Mono', monospace;
+        .bar-value {
+            font-family: 'IBM Plex Mono', monospace;
             font-size: 0.85rem;
-            color: var(--text-white);
-            text-shadow: 0 0 10px currentColor;
+            font-weight: 500;
+            color: var(--bg-base);
         }
 
-        /* Topic type hexagons */
-        .hex-grid {
+        /* Topic types */
+        .types-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .type-card {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 30px;
-            margin: 40px 0;
+            align-items: center;
+            gap: 20px;
+            padding: 24px;
         }
 
-        .hex-item {
-            width: 160px;
-            text-align: center;
-        }
-
-        .hex-icon {
-            width: 80px;
-            height: 80px;
-            margin: 0 auto 16px;
-            background: var(--bg-card);
-            border: 2px solid var(--neon-cyan);
+        .type-icon {
+            width: 56px;
+            height: 56px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2rem;
-            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-            transition: all 0.3s ease;
+            font-size: 1.5rem;
+            background: var(--accent-dim);
+            border-radius: 16px;
         }
 
-        .hex-item:hover .hex-icon {
-            border-color: var(--neon-pink);
-            box-shadow: 0 0 30px var(--neon-pink);
-            transform: scale(1.1);
+        .type-info {
+            flex: 1;
         }
 
-        .hex-name {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 0.9rem;
-            font-weight: 600;
-            color: var(--text-white);
+        .type-name {
+            font-weight: 500;
+            color: var(--text-primary);
             margin-bottom: 4px;
         }
 
-        .hex-count {
-            font-family: 'Share Tech Mono', monospace;
+        .type-count {
+            font-family: 'IBM Plex Mono', monospace;
             font-size: 1.5rem;
-            color: var(--neon-pink);
-            text-shadow: 0 0 10px var(--neon-pink);
+            font-weight: 600;
+            color: var(--accent);
         }
 
-        /* Timeline - vertical neon */
+        /* Two column layout */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        /* Sentiment */
+        .sentiment-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .sentiment-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .sentiment-emoji {
+            font-size: 2rem;
+            width: 48px;
+            text-align: center;
+        }
+
+        .sentiment-info {
+            flex: 1;
+        }
+
+        .sentiment-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 6px;
+        }
+
+        .sentiment-bar {
+            height: 8px;
+            background: var(--bg-elevated);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .sentiment-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 1s ease;
+        }
+
+        .sentiment-fill.positive { background: var(--accent); }
+        .sentiment-fill.negative { background: #ef4444; }
+        .sentiment-fill.neutral { background: #6366f1; }
+        .sentiment-fill.mixed { background: #f59e0b; }
+
+        .sentiment-value {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            width: 60px;
+            text-align: right;
+        }
+
+        /* Timeline */
         .timeline {
             position: relative;
-            max-width: 800px;
-            margin: 0 auto;
-            padding-left: 60px;
+            padding-left: 32px;
         }
 
         .timeline::before {
             content: '';
             position: absolute;
-            left: 20px;
-            top: 0;
-            bottom: 0;
+            left: 0;
+            top: 8px;
+            bottom: 8px;
             width: 2px;
-            background: linear-gradient(180deg, var(--neon-cyan), var(--neon-pink), var(--neon-purple));
-            box-shadow: 0 0 10px var(--neon-cyan);
+            background: linear-gradient(180deg, var(--accent), #6366f1);
+            border-radius: 1px;
         }
 
         .timeline-item {
             position: relative;
-            padding-bottom: 50px;
+            padding-bottom: 40px;
         }
+
+        .timeline-item:last-child { padding-bottom: 0; }
 
         .timeline-item::before {
             content: '';
             position: absolute;
-            left: -48px;
+            left: -36px;
             top: 8px;
-            width: 16px;
-            height: 16px;
-            background: var(--neon-pink);
-            border: 3px solid var(--bg-deep);
-            box-shadow: 0 0 20px var(--neon-pink);
-            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            width: 10px;
+            height: 10px;
+            background: var(--accent);
+            border-radius: 50%;
+            box-shadow: 0 0 20px var(--accent-glow);
         }
 
         .timeline-date {
-            font-family: 'Share Tech Mono', monospace;
-            font-size: 0.85rem;
-            color: var(--neon-cyan);
-            text-shadow: 0 0 10px var(--neon-cyan);
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
             margin-bottom: 8px;
         }
 
         .timeline-title {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: 600;
-            color: var(--text-white);
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .timeline-desc {
-            font-size: 0.95rem;
-            color: var(--text-dim);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
         }
 
-        /* Glitch text effect */
-        .glitch {
-            position: relative;
-        }
-
-        .glitch::before,
-        .glitch::after {
-            content: attr(data-text);
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-        .glitch::before {
-            left: 2px;
-            text-shadow: -2px 0 var(--neon-pink);
-            clip: rect(44px, 450px, 56px, 0);
-            animation: glitch-anim 5s infinite linear alternate-reverse;
-        }
-
-        .glitch::after {
-            left: -2px;
-            text-shadow: -2px 0 var(--neon-cyan);
-            clip: rect(44px, 450px, 56px, 0);
-            animation: glitch-anim2 5s infinite linear alternate-reverse;
-        }
-
-        @keyframes glitch-anim {
-            0% { clip: rect(31px, 9999px, 94px, 0); }
-            20% { clip: rect(62px, 9999px, 42px, 0); }
-            40% { clip: rect(16px, 9999px, 78px, 0); }
-            60% { clip: rect(89px, 9999px, 13px, 0); }
-            80% { clip: rect(48px, 9999px, 71px, 0); }
-            100% { clip: rect(23px, 9999px, 85px, 0); }
-        }
-
-        @keyframes glitch-anim2 {
-            0% { clip: rect(65px, 9999px, 12px, 0); }
-            20% { clip: rect(29px, 9999px, 83px, 0); }
-            40% { clip: rect(77px, 9999px, 41px, 0); }
-            60% { clip: rect(8px, 9999px, 96px, 0); }
-            80% { clip: rect(54px, 9999px, 27px, 0); }
-            100% { clip: rect(38px, 9999px, 69px, 0); }
-        }
-
-        /* Sentiment meters */
-        .sentiment-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 24px;
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        .sentiment-meter {
-            text-align: center;
-            padding: 30px;
-            background: var(--bg-card);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .sentiment-emoji {
-            font-size: 3rem;
-            margin-bottom: 16px;
-            filter: drop-shadow(0 0 20px currentColor);
-        }
-
-        .sentiment-bar-v {
-            width: 40px;
-            height: 120px;
-            margin: 0 auto 16px;
-            background: rgba(255, 255, 255, 0.1);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .sentiment-fill-v {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            transition: height 1s ease-out;
-        }
-
-        .sentiment-fill-v.positive {
-            background: linear-gradient(0deg, var(--neon-cyan), rgba(5, 217, 232, 0.3));
-            box-shadow: 0 0 20px var(--neon-cyan);
-        }
-
-        .sentiment-fill-v.negative {
-            background: linear-gradient(0deg, var(--neon-pink), rgba(255, 42, 109, 0.3));
-            box-shadow: 0 0 20px var(--neon-pink);
-        }
-
-        .sentiment-fill-v.neutral {
-            background: linear-gradient(0deg, var(--neon-purple), rgba(211, 0, 197, 0.3));
-            box-shadow: 0 0 20px var(--neon-purple);
-        }
-
-        .sentiment-fill-v.mixed {
-            background: linear-gradient(0deg, var(--neon-yellow), rgba(249, 220, 92, 0.3));
-            box-shadow: 0 0 20px var(--neon-yellow);
-        }
-
-        .sentiment-value {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--text-white);
-        }
-
-        .sentiment-label {
-            font-family: 'Share Tech Mono', monospace;
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-        }
-
-        /* Facts grid */
+        /* Facts */
         .facts-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 24px;
-            max-width: 900px;
-            margin: 0 auto;
+            gap: 20px;
         }
 
         .fact-card {
-            background: var(--bg-card);
-            border: 1px solid var(--neon-purple);
-            padding: 30px;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .fact-card::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: conic-gradient(
-                transparent 0deg,
-                var(--neon-purple) 90deg,
-                transparent 180deg
-            );
-            animation: rotate 4s linear infinite;
-            opacity: 0.1;
-        }
-
-        @keyframes rotate {
-            100% { transform: rotate(360deg); }
+            padding: 28px;
         }
 
         .fact-icon {
-            font-size: 2rem;
+            font-size: 1.75rem;
             margin-bottom: 16px;
         }
 
         .fact-title {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 1rem;
-            font-weight: 600;
-            color: var(--neon-cyan);
+            font-size: 0.85rem;
+            color: var(--text-muted);
             margin-bottom: 8px;
         }
 
-        .fact-text {
-            font-size: 0.95rem;
-            color: var(--text-dim);
+        .fact-value {
+            font-size: 1.1rem;
+            font-weight: 500;
         }
 
-        .fact-text strong {
-            color: var(--neon-pink);
-            text-shadow: 0 0 10px var(--neon-pink);
+        .fact-value strong {
+            color: var(--accent);
         }
 
-        /* Chart container */
-        .chart-container {
-            background: var(--bg-card);
-            border: 1px solid var(--neon-cyan);
-            padding: 40px;
-            max-width: 900px;
-            margin: 40px auto;
+        /* Chart */
+        .chart-wrapper {
+            padding: 32px;
+            height: 350px;
+        }
+
+        /* Stacked bar sentiment */
+        .stacked-bar { display: flex; flex-direction: column; gap: 16px; }
+
+        .stacked-row {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .stacked-label {
+            width: 100px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            text-align: right;
+        }
+
+        .stacked-track {
+            flex: 1;
+            height: 32px;
+            display: flex;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .stacked-seg {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--bg-base);
+        }
+
+        .stacked-seg.pos { background: var(--accent); }
+        .stacked-seg.neg { background: #ef4444; }
+        .stacked-seg.neu { background: #6366f1; }
+        .stacked-seg.mix { background: #f59e0b; }
+
+        /* Quarters */
+        .quarters-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .quarter-card {
+            text-align: center;
+            padding: 32px 20px;
+            position: relative;
+        }
+
+        .quarter-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            border-radius: 2px;
+        }
+
+        .quarter-card.q1::before { background: #3b82f6; }
+        .quarter-card.q2::before { background: var(--accent); }
+        .quarter-card.q3::before { background: #f59e0b; }
+        .quarter-card.q4::before { background: #ef4444; }
+
+        .quarter-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .quarter-stats { display: flex; flex-direction: column; gap: 12px; }
+
+        .quarter-stat {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+        }
+
+        .quarter-stat-label { color: var(--text-muted); }
+        .quarter-stat-value { font-weight: 600; color: var(--text-primary); }
+
+        /* Incidents */
+        .incidents-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+
+        .incident-card {
+            padding: 20px;
+            border-left: 3px solid #ef4444;
+        }
+
+        .incident-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
+        .incident-episode {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #ef4444;
+            background: rgba(239, 68, 68, 0.15);
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+
+        .incident-company {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .incident-title {
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            line-height: 1.4;
+        }
+
+        /* Top topics */
+        .top-topics { display: flex; flex-direction: column; gap: 12px; }
+
+        .top-topic-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 16px 20px;
+        }
+
+        .top-episode {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.8rem;
+            color: #0ea5e9;
+            background: rgba(14, 165, 233, 0.15);
+            padding: 6px 12px;
+            border-radius: 8px;
+        }
+
+        .top-duration {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent);
+            min-width: 60px;
+        }
+
+        .top-title {
+            flex: 1;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+
+        /* Versus */
+        .versus-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .versus-card {
+            padding: 32px;
+            min-width: 280px;
+            text-align: center;
+            border: 2px solid var(--versus-color);
+        }
+
+        .versus-logo {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--versus-color);
+            margin-bottom: 24px;
+        }
+
+        .versus-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+
+        .versus-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+        }
+
+        .versus-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        .versus-divider {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--text-muted);
+        }
+
+        /* Insight boxes */
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 32px;
+        }
+
+        .insight-box {
+            text-align: center;
+            padding: 28px;
+        }
+
+        .insight-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        .insight-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+
+        .insight-desc {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        /* Sources */
+        .sources-list { display: flex; flex-direction: column; gap: 12px; }
+
+        .source-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 16px 20px;
+        }
+
+        .source-domain {
+            width: 140px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .source-bar {
+            flex: 1;
+            height: 24px;
+            background: var(--bg-elevated);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .source-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent), #0ea5e9);
+            border-radius: 4px;
+        }
+
+        .source-time {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            width: 70px;
+            text-align: right;
+        }
+
+        @media (max-width: 900px) {
+            .quarters-grid { grid-template-columns: repeat(2, 1fr); }
+            .incidents-grid { grid-template-columns: 1fr; }
+            .versus-container { flex-direction: column; gap: 24px; }
+            .insights-grid { grid-template-columns: 1fr; }
         }
 
         /* Footer */
         .footer {
             padding: 60px 0;
             text-align: center;
-            background: linear-gradient(180deg, var(--bg-deep), #000);
-            border-top: 1px solid var(--neon-pink);
+            border-top: 1px solid var(--border);
         }
 
         .footer-logo {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-weight: 700;
-            color: var(--neon-pink);
-            text-shadow: 0 0 20px var(--neon-pink);
-            margin-bottom: 16px;
+            margin-bottom: 12px;
+        }
+
+        .footer-logo span {
+            color: var(--accent);
         }
 
         .footer-text {
-            font-family: 'Share Tech Mono', monospace;
-            color: var(--text-muted);
             font-size: 0.9rem;
+            color: var(--text-muted);
         }
 
         .footer-link {
-            color: var(--neon-cyan);
+            color: var(--accent);
             text-decoration: none;
-            text-shadow: 0 0 10px var(--neon-cyan);
         }
 
-        /* Scroll animations */
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
         .fade-up {
             opacity: 0;
-            transform: translateY(40px);
-            transition: opacity 0.8s ease, transform 0.8s ease;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
         }
 
         .fade-up.visible {
@@ -724,134 +774,107 @@
         /* Responsive */
         @media (max-width: 900px) {
             .stats-grid { grid-template-columns: repeat(2, 1fr); }
-            .sentiment-grid { grid-template-columns: repeat(2, 1fr); }
-            .hex-grid { gap: 20px; }
-            .hex-item { width: 140px; }
+            .types-grid { grid-template-columns: repeat(2, 1fr); }
+            .two-col { grid-template-columns: 1fr; }
+            .hero-stats { gap: 32px; }
         }
 
         @media (max-width: 600px) {
             .container { padding: 0 16px; }
             .stats-grid { grid-template-columns: 1fr; }
-            .sentiment-grid { grid-template-columns: 1fr 1fr; }
+            .types-grid { grid-template-columns: 1fr; }
             .facts-grid { grid-template-columns: 1fr; }
-            .timeline { padding-left: 40px; }
-            .timeline::before { left: 10px; }
-            .timeline-item::before { left: -38px; }
-            .sun { width: 200px; height: 200px; }
+            .hero-stats { flex-direction: column; gap: 24px; }
+            .bar-label { width: 80px; font-size: 0.85rem; }
         }
     </style>
 </head>
 <body>
 
+<div class="bg-mesh">
+    <div class="mesh-blob"></div>
+    <div class="mesh-blob"></div>
+    <div class="mesh-blob"></div>
+</div>
+
 <section class="hero">
-    <div class="sun"></div>
-    <div class="sun-lines"></div>
-    <div class="hero-content">
-        <p class="hero-pre">// RETROSPECTIVE_MODE</p>
-        <h1 class="glitch" data-text="РАДИО-Т">РАДИО-Т</h1>
-        <div class="hero-year">2024</div>
-        <p class="hero-sub">50 ВЫПУСКОВ • 283 ТЕМЫ • 73 ЧАСА ЭФИРА</p>
+    <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Итоги года
     </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <div class="section-header fade-up">
-            <div class="section-number">// 001</div>
-            <h2 class="section-title">СИСТЕМНАЯ <span>СТАТИСТИКА</span></h2>
+    <h1>Радио-Т <span>2024</span></h1>
+    <div class="hero-stats">
+        <div class="hero-stat">
+            <div class="hero-stat-value">50</div>
+            <div class="hero-stat-label">выпусков</div>
         </div>
-
-        <div class="stats-grid fade-up">
-            <div class="stat-card">
-                <div class="stat-value">50</div>
-                <div class="stat-label">Выпусков</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value">283</div>
-                <div class="stat-label">Тем</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value">73</div>
-                <div class="stat-label">Часов</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value">18.8</div>
-                <div class="stat-label">Мин/Тема</div>
-            </div>
+        <div class="hero-stat">
+            <div class="hero-stat-value">283</div>
+            <div class="hero-stat-label">темы</div>
+        </div>
+        <div class="hero-stat">
+            <div class="hero-stat-value">73ч</div>
+            <div class="hero-stat-label">эфира</div>
+        </div>
+        <div class="hero-stat">
+            <div class="hero-stat-value">19</div>
+            <div class="hero-stat-label">мин/тема</div>
         </div>
     </div>
 </section>
 
 <section class="section">
     <div class="container">
-        <div class="section-header fade-up">
-            <div class="section-number">// 002</div>
-            <h2 class="section-title">КОРПОРАТИВНЫЙ <span>РАДАР</span></h2>
-        </div>
+        <div class="section-label fade-up">Компании</div>
+        <h2 class="section-title fade-up">Кого обсуждали чаще всего</h2>
 
-        <div class="neon-bars fade-up">
-            <div class="neon-bar-row">
-                <div class="neon-bar-label">Google</div>
-                <div class="neon-bar-track">
-                    <div class="neon-bar-fill pink" style="width: 100%;">
-                        <span class="neon-bar-value">29</span>
-                    </div>
+        <div class="bar-list fade-up">
+            <div class="bar-item">
+                <div class="bar-label">Google</div>
+                <div class="bar-track">
+                    <div class="bar-fill" style="width: 100%;"><span class="bar-value">29</span></div>
                 </div>
             </div>
-            <div class="neon-bar-row">
-                <div class="neon-bar-label">Apple</div>
-                <div class="neon-bar-track">
-                    <div class="neon-bar-fill cyan" style="width: 96%;">
-                        <span class="neon-bar-value">28</span>
-                    </div>
+            <div class="bar-item">
+                <div class="bar-label">Apple</div>
+                <div class="bar-track">
+                    <div class="bar-fill" style="width: 96%;"><span class="bar-value">28</span></div>
                 </div>
             </div>
-            <div class="neon-bar-row">
-                <div class="neon-bar-label">OpenAI</div>
-                <div class="neon-bar-track">
-                    <div class="neon-bar-fill purple" style="width: 62%;">
-                        <span class="neon-bar-value">18</span>
-                    </div>
+            <div class="bar-item">
+                <div class="bar-label">OpenAI</div>
+                <div class="bar-track">
+                    <div class="bar-fill" style="width: 62%;"><span class="bar-value">18</span></div>
                 </div>
             </div>
-            <div class="neon-bar-row">
-                <div class="neon-bar-label">Microsoft</div>
-                <div class="neon-bar-track">
-                    <div class="neon-bar-fill purple" style="width: 62%;">
-                        <span class="neon-bar-value">18</span>
-                    </div>
+            <div class="bar-item">
+                <div class="bar-label">Microsoft</div>
+                <div class="bar-track">
+                    <div class="bar-fill" style="width: 62%;"><span class="bar-value">18</span></div>
                 </div>
             </div>
-            <div class="neon-bar-row">
-                <div class="neon-bar-label">Anthropic</div>
-                <div class="neon-bar-track">
-                    <div class="neon-bar-fill yellow" style="width: 31%;">
-                        <span class="neon-bar-value">9</span>
-                    </div>
+            <div class="bar-item">
+                <div class="bar-label">Anthropic</div>
+                <div class="bar-track">
+                    <div class="bar-fill" style="width: 31%;"><span class="bar-value">9</span></div>
                 </div>
             </div>
-            <div class="neon-bar-row">
-                <div class="neon-bar-label">GitHub</div>
-                <div class="neon-bar-track">
-                    <div class="neon-bar-fill yellow" style="width: 31%;">
-                        <span class="neon-bar-value">9</span>
-                    </div>
+            <div class="bar-item">
+                <div class="bar-label">GitHub</div>
+                <div class="bar-track">
+                    <div class="bar-fill" style="width: 31%;"><span class="bar-value">9</span></div>
                 </div>
             </div>
-            <div class="neon-bar-row">
-                <div class="neon-bar-label">Meta</div>
-                <div class="neon-bar-track">
-                    <div class="neon-bar-fill cyan" style="width: 27%;">
-                        <span class="neon-bar-value">8</span>
-                    </div>
+            <div class="bar-item">
+                <div class="bar-label">Meta</div>
+                <div class="bar-track">
+                    <div class="bar-fill" style="width: 27%;"><span class="bar-value">8</span></div>
                 </div>
             </div>
-            <div class="neon-bar-row">
-                <div class="neon-bar-label">JetBrains</div>
-                <div class="neon-bar-track">
-                    <div class="neon-bar-fill pink" style="width: 24%;">
-                        <span class="neon-bar-value">7</span>
-                    </div>
+            <div class="bar-item">
+                <div class="bar-label">JetBrains</div>
+                <div class="bar-track">
+                    <div class="bar-fill" style="width: 24%;"><span class="bar-value">7</span></div>
                 </div>
             </div>
         </div>
@@ -860,41 +883,77 @@
 
 <section class="section">
     <div class="container">
-        <div class="section-header fade-up">
-            <div class="section-number">// 003</div>
-            <h2 class="section-title">КЛАССИФИКАЦИЯ <span>ТЕМ</span></h2>
+        <div class="section-label fade-up">Тональность</div>
+        <h2 class="section-title fade-up">Как говорили о компаниях</h2>
+
+        <div class="stacked-bar fade-up">
+            <div class="stacked-row">
+                <div class="stacked-label">Google</div>
+                <div class="stacked-track">
+                    <div class="stacked-seg pos" style="width: 38%;">11</div>
+                    <div class="stacked-seg neg" style="width: 31%;">9</div>
+                    <div class="stacked-seg neu" style="width: 17%;">5</div>
+                    <div class="stacked-seg mix" style="width: 14%;">4</div>
+                </div>
+            </div>
+            <div class="stacked-row">
+                <div class="stacked-label">Apple</div>
+                <div class="stacked-track">
+                    <div class="stacked-seg pos" style="width: 54%;">15</div>
+                    <div class="stacked-seg mix" style="width: 21%;">6</div>
+                    <div class="stacked-seg neg" style="width: 14%;">4</div>
+                    <div class="stacked-seg neu" style="width: 11%;">3</div>
+                </div>
+            </div>
+            <div class="stacked-row">
+                <div class="stacked-label">OpenAI</div>
+                <div class="stacked-track">
+                    <div class="stacked-seg pos" style="width: 67%;">12</div>
+                    <div class="stacked-seg neg" style="width: 17%;">3</div>
+                    <div class="stacked-seg neu" style="width: 11%;">2</div>
+                    <div class="stacked-seg mix" style="width: 5%;">1</div>
+                </div>
+            </div>
+            <div class="stacked-row">
+                <div class="stacked-label">Microsoft</div>
+                <div class="stacked-track">
+                    <div class="stacked-seg pos" style="width: 56%;">10</div>
+                    <div class="stacked-seg neu" style="width: 17%;">3</div>
+                    <div class="stacked-seg mix" style="width: 17%;">3</div>
+                    <div class="stacked-seg neg" style="width: 10%;">2</div>
+                </div>
+            </div>
+            <div class="stacked-row">
+                <div class="stacked-label">Meta</div>
+                <div class="stacked-track">
+                    <div class="stacked-seg pos" style="width: 100%;">8</div>
+                </div>
+            </div>
+            <div class="stacked-row">
+                <div class="stacked-label">GitHub</div>
+                <div class="stacked-track">
+                    <div class="stacked-seg pos" style="width: 78%;">7</div>
+                    <div class="stacked-seg mix" style="width: 22%;">2</div>
+                </div>
+            </div>
         </div>
 
-        <div class="hex-grid fade-up">
-            <div class="hex-item">
-                <div class="hex-icon">🚀</div>
-                <div class="hex-name">РЕЛИЗЫ</div>
-                <div class="hex-count">106</div>
+        <div style="display: flex; justify-content: center; gap: 32px; margin-top: 32px; flex-wrap: wrap;" class="fade-up">
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <div style="width: 12px; height: 12px; background: var(--accent); border-radius: 3px;"></div>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">Позитив</span>
             </div>
-            <div class="hex-item">
-                <div class="hex-icon">📰</div>
-                <div class="hex-name">НОВОСТИ</div>
-                <div class="hex-count">73</div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <div style="width: 12px; height: 12px; background: #ef4444; border-radius: 3px;"></div>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">Негатив</span>
             </div>
-            <div class="hex-item">
-                <div class="hex-icon">💭</div>
-                <div class="hex-name">МНЕНИЯ</div>
-                <div class="hex-count">33</div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <div style="width: 12px; height: 12px; background: #6366f1; border-radius: 3px;"></div>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">Нейтрально</span>
             </div>
-            <div class="hex-item">
-                <div class="hex-icon">⚡</div>
-                <div class="hex-name">ИНЦИДЕНТЫ</div>
-                <div class="hex-count">33</div>
-            </div>
-            <div class="hex-item">
-                <div class="hex-icon">📊</div>
-                <div class="hex-name">АНАЛИТИКА</div>
-                <div class="hex-count">21</div>
-            </div>
-            <div class="hex-item">
-                <div class="hex-icon">🛠️</div>
-                <div class="hex-name">TOOLS</div>
-                <div class="hex-count">17</div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <div style="width: 12px; height: 12px; background: #f59e0b; border-radius: 3px;"></div>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">Смешанно</span>
             </div>
         </div>
     </div>
@@ -902,41 +961,141 @@
 
 <section class="section">
     <div class="container">
-        <div class="section-header fade-up">
-            <div class="section-number">// 004</div>
-            <h2 class="section-title">AI <span>ВОЙНА</span></h2>
-        </div>
+        <div class="section-label fade-up">Категории</div>
+        <h2 class="section-title fade-up">Типы тем</h2>
 
-        <div class="neon-bars fade-up">
-            <div class="neon-bar-row">
-                <div class="neon-bar-label">OpenAI</div>
-                <div class="neon-bar-track">
-                    <div class="neon-bar-fill pink" style="width: 100%;">
-                        <span class="neon-bar-value">18 тем</span>
+        <div class="types-grid fade-up">
+            <div class="glass-card type-card">
+                <div class="type-icon">🚀</div>
+                <div class="type-info">
+                    <div class="type-name">Релизы</div>
+                    <div class="type-count">106</div>
+                </div>
+            </div>
+            <div class="glass-card type-card">
+                <div class="type-icon">📰</div>
+                <div class="type-info">
+                    <div class="type-name">Новости</div>
+                    <div class="type-count">73</div>
+                </div>
+            </div>
+            <div class="glass-card type-card">
+                <div class="type-icon">💭</div>
+                <div class="type-info">
+                    <div class="type-name">Мнения</div>
+                    <div class="type-count">33</div>
+                </div>
+            </div>
+            <div class="glass-card type-card">
+                <div class="type-icon">⚡</div>
+                <div class="type-info">
+                    <div class="type-name">Инциденты</div>
+                    <div class="type-count">33</div>
+                </div>
+            </div>
+            <div class="glass-card type-card">
+                <div class="type-icon">📊</div>
+                <div class="type-info">
+                    <div class="type-name">Аналитика</div>
+                    <div class="type-count">21</div>
+                </div>
+            </div>
+            <div class="glass-card type-card">
+                <div class="type-icon">🛠</div>
+                <div class="type-info">
+                    <div class="type-name">Инструменты</div>
+                    <div class="type-count">17</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="two-col">
+            <div>
+                <div class="section-label fade-up">Релизы</div>
+                <h2 class="section-title fade-up">Кто больше выпустил</h2>
+
+                <div class="bar-list fade-up">
+                    <div class="bar-item">
+                        <div class="bar-label">Apple</div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 100%;"><span class="bar-value">13</span></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-label">Google</div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 85%;"><span class="bar-value">11</span></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-label">OpenAI</div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 54%;"><span class="bar-value">7</span></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-label">Microsoft</div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 54%;"><span class="bar-value">7</span></div>
+                        </div>
+                    </div>
+                    <div class="bar-item">
+                        <div class="bar-label">Meta</div>
+                        <div class="bar-track">
+                            <div class="bar-fill" style="width: 46%;"><span class="bar-value">6</span></div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="neon-bar-row">
-                <div class="neon-bar-label">Anthropic</div>
-                <div class="neon-bar-track">
-                    <div class="neon-bar-fill cyan" style="width: 50%;">
-                        <span class="neon-bar-value">9 тем</span>
+
+            <div>
+                <div class="section-label fade-up">Настроение</div>
+                <h2 class="section-title fade-up">Тональность эфиров</h2>
+
+                <div class="sentiment-list fade-up">
+                    <div class="sentiment-item">
+                        <div class="sentiment-emoji">😊</div>
+                        <div class="sentiment-info">
+                            <div class="sentiment-label">Позитивные</div>
+                            <div class="sentiment-bar">
+                                <div class="sentiment-fill positive" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                        <div class="sentiment-value">142</div>
                     </div>
-                </div>
-            </div>
-            <div class="neon-bar-row">
-                <div class="neon-bar-label">Meta AI</div>
-                <div class="neon-bar-track">
-                    <div class="neon-bar-fill purple" style="width: 44%;">
-                        <span class="neon-bar-value">8 тем</span>
+                    <div class="sentiment-item">
+                        <div class="sentiment-emoji">😤</div>
+                        <div class="sentiment-info">
+                            <div class="sentiment-label">Негативные</div>
+                            <div class="sentiment-bar">
+                                <div class="sentiment-fill negative" style="width: 20%;"></div>
+                            </div>
+                        </div>
+                        <div class="sentiment-value">58</div>
                     </div>
-                </div>
-            </div>
-            <div class="neon-bar-row">
-                <div class="neon-bar-label">Google AI</div>
-                <div class="neon-bar-track">
-                    <div class="neon-bar-fill yellow" style="width: 33%;">
-                        <span class="neon-bar-value">6 тем</span>
+                    <div class="sentiment-item">
+                        <div class="sentiment-emoji">😐</div>
+                        <div class="sentiment-info">
+                            <div class="sentiment-label">Нейтральные</div>
+                            <div class="sentiment-bar">
+                                <div class="sentiment-fill neutral" style="width: 16%;"></div>
+                            </div>
+                        </div>
+                        <div class="sentiment-value">46</div>
+                    </div>
+                    <div class="sentiment-item">
+                        <div class="sentiment-emoji">🤔</div>
+                        <div class="sentiment-info">
+                            <div class="sentiment-label">Смешанные</div>
+                            <div class="sentiment-bar">
+                                <div class="sentiment-fill mixed" style="width: 13%;"></div>
+                            </div>
+                        </div>
+                        <div class="sentiment-value">37</div>
                     </div>
                 </div>
             </div>
@@ -946,43 +1105,33 @@
 
 <section class="section">
     <div class="container">
-        <div class="section-header fade-up">
-            <div class="section-number">// 005</div>
-            <h2 class="section-title">ЭМОЦИОНАЛЬНЫЙ <span>СПЕКТР</span></h2>
+        <div class="section-label fade-up">Длительность</div>
+        <h2 class="section-title fade-up">Что обсуждали дольше</h2>
+
+        <div class="two-col">
+            <div class="glass-card chart-wrapper fade-up">
+                <canvas id="durationSentimentChart"></canvas>
+            </div>
+            <div class="glass-card chart-wrapper fade-up">
+                <canvas id="durationTypeChart"></canvas>
+            </div>
         </div>
 
-        <div class="sentiment-grid fade-up">
-            <div class="sentiment-meter">
-                <div class="sentiment-emoji">😊</div>
-                <div class="sentiment-bar-v">
-                    <div class="sentiment-fill-v positive" style="height: 100%;"></div>
-                </div>
-                <div class="sentiment-value">142</div>
-                <div class="sentiment-label">Позитив</div>
+        <div class="insights-grid fade-up">
+            <div class="glass-card insight-box">
+                <div class="insight-value" style="color: #6366f1;">20.6</div>
+                <div class="insight-label">минут на нейтральные</div>
+                <div class="insight-desc">Факты обсуждали долго и детально</div>
             </div>
-            <div class="sentiment-meter">
-                <div class="sentiment-emoji">😤</div>
-                <div class="sentiment-bar-v">
-                    <div class="sentiment-fill-v negative" style="height: 41%;"></div>
-                </div>
-                <div class="sentiment-value">58</div>
-                <div class="sentiment-label">Негатив</div>
+            <div class="glass-card insight-box">
+                <div class="insight-value" style="color: #ef4444;">18.7</div>
+                <div class="insight-label">минут на негатив</div>
+                <div class="insight-desc">Проблемы тоже требовали времени</div>
             </div>
-            <div class="sentiment-meter">
-                <div class="sentiment-emoji">😐</div>
-                <div class="sentiment-bar-v">
-                    <div class="sentiment-fill-v neutral" style="height: 32%;"></div>
-                </div>
-                <div class="sentiment-value">46</div>
-                <div class="sentiment-label">Нейтрал</div>
-            </div>
-            <div class="sentiment-meter">
-                <div class="sentiment-emoji">🤔</div>
-                <div class="sentiment-bar-v">
-                    <div class="sentiment-fill-v mixed" style="height: 26%;"></div>
-                </div>
-                <div class="sentiment-value">37</div>
-                <div class="sentiment-label">Смешанный</div>
+            <div class="glass-card insight-box">
+                <div class="insight-value" style="color: var(--accent);">18.5</div>
+                <div class="insight-label">минут на позитив</div>
+                <div class="insight-desc">Хорошие новости шли бодро</div>
             </div>
         </div>
     </div>
@@ -990,49 +1139,278 @@
 
 <section class="section">
     <div class="container">
-        <div class="section-header fade-up">
-            <div class="section-number">// 006</div>
-            <h2 class="section-title">ХРОНОЛОГИЯ <span>СОБЫТИЙ</span></h2>
+        <div class="section-label fade-up">Динамика</div>
+        <h2 class="section-title fade-up">Год по кварталам</h2>
+
+        <div class="quarters-grid fade-up">
+            <div class="glass-card quarter-card q1">
+                <div class="quarter-name">Q1</div>
+                <div class="quarter-stats">
+                    <div class="quarter-stat">
+                        <span class="quarter-stat-label">Тем</span>
+                        <span class="quarter-stat-value">52</span>
+                    </div>
+                    <div class="quarter-stat">
+                        <span class="quarter-stat-label">Ср. время</span>
+                        <span class="quarter-stat-value">19.3 мин</span>
+                    </div>
+                </div>
+            </div>
+            <div class="glass-card quarter-card q2">
+                <div class="quarter-name">Q2</div>
+                <div class="quarter-stats">
+                    <div class="quarter-stat">
+                        <span class="quarter-stat-label">Тем</span>
+                        <span class="quarter-stat-value">58</span>
+                    </div>
+                    <div class="quarter-stat">
+                        <span class="quarter-stat-label">Ср. время</span>
+                        <span class="quarter-stat-value">18.2 мин</span>
+                    </div>
+                </div>
+            </div>
+            <div class="glass-card quarter-card q3">
+                <div class="quarter-name">Q3</div>
+                <div class="quarter-stats">
+                    <div class="quarter-stat">
+                        <span class="quarter-stat-label">Тем</span>
+                        <span class="quarter-stat-value">60</span>
+                    </div>
+                    <div class="quarter-stat">
+                        <span class="quarter-stat-label">Ср. время</span>
+                        <span class="quarter-stat-value">18.3 мин</span>
+                    </div>
+                </div>
+            </div>
+            <div class="glass-card quarter-card q4">
+                <div class="quarter-name">Q4</div>
+                <div class="quarter-stats">
+                    <div class="quarter-stat">
+                        <span class="quarter-stat-label">Тем</span>
+                        <span class="quarter-stat-value">63</span>
+                    </div>
+                    <div class="quarter-stat">
+                        <span class="quarter-stat-label">Ср. время</span>
+                        <span class="quarter-stat-value">19.4 мин</span>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-label fade-up">Инциденты</div>
+        <h2 class="section-title fade-up">Что пошло не так в 2024</h2>
+
+        <div class="incidents-grid fade-up">
+            <div class="glass-card incident-card">
+                <div class="incident-meta">
+                    <span class="incident-episode">#892</span>
+                    <span class="incident-company">Cloudflare</span>
+                </div>
+                <div class="incident-title">Видео с увольнением сотрудника становится вирусным</div>
+            </div>
+            <div class="glass-card incident-card">
+                <div class="incident-meta">
+                    <span class="incident-episode">#898</span>
+                    <span class="incident-company">Google</span>
+                </div>
+                <div class="incident-title">Gemini генерирует расово разнообразных нацистов</div>
+            </div>
+            <div class="glass-card incident-card">
+                <div class="incident-meta">
+                    <span class="incident-episode">#903</span>
+                    <span class="incident-company">Linux</span>
+                </div>
+                <div class="incident-title">XZ Utils backdoor — бэкдор в SSH-утилитах Linux</div>
+            </div>
+            <div class="glass-card incident-card">
+                <div class="incident-meta">
+                    <span class="incident-episode">#906</span>
+                    <span class="incident-company">—</span>
+                </div>
+                <div class="incident-title">Women Who Code закрывается</div>
+            </div>
+            <div class="glass-card incident-card">
+                <div class="incident-meta">
+                    <span class="incident-episode">#908</span>
+                    <span class="incident-company">Google</span>
+                </div>
+                <div class="incident-title">Увольнения в командах Flutter, Dart и Python</div>
+            </div>
+            <div class="glass-card incident-card">
+                <div class="incident-meta">
+                    <span class="incident-episode">#909</span>
+                    <span class="incident-company">Stack Overflow</span>
+                </div>
+                <div class="incident-title">Массовые баны пользователей за противостояние OpenAI</div>
+            </div>
+            <div class="glass-card incident-card">
+                <div class="incident-meta">
+                    <span class="incident-episode">#911</span>
+                    <span class="incident-company">OpenAI</span>
+                </div>
+                <div class="incident-title">Голос ChatGPT похож на Скарлетт Йоханссон</div>
+            </div>
+            <div class="glass-card incident-card">
+                <div class="incident-meta">
+                    <span class="incident-episode">#920</span>
+                    <span class="incident-company">CrowdStrike</span>
+                </div>
+                <div class="incident-title">Один апдейт выводит из строя миллионы Windows</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-label fade-up">Топ</div>
+        <h2 class="section-title fade-up">Самые долгие обсуждения</h2>
+
+        <div class="top-topics fade-up">
+            <div class="glass-card top-topic-item">
+                <span class="top-episode">#891</span>
+                <span class="top-duration">106 мин</span>
+                <span class="top-title">Bazel — система сборки от Google</span>
+            </div>
+            <div class="glass-card top-topic-item">
+                <span class="top-episode">#914</span>
+                <span class="top-duration">78 мин</span>
+                <span class="top-title">WWDC 2024: Apple Intelligence и всё остальное</span>
+            </div>
+            <div class="glass-card top-topic-item">
+                <span class="top-episode">#928</span>
+                <span class="top-duration">72 мин</span>
+                <span class="top-title">WordPress vs WP Engine — война Мэтта</span>
+            </div>
+            <div class="glass-card top-topic-item">
+                <span class="top-episode">#926</span>
+                <span class="top-duration">66 мин</span>
+                <span class="top-title">iPhone 16 Event — 8 главных анонсов</span>
+            </div>
+            <div class="glass-card top-topic-item">
+                <span class="top-episode">#939</span>
+                <span class="top-duration">64 мин</span>
+                <span class="top-title">Dependency fatigue: почему Go+HTMX вместо React</span>
+            </div>
+            <div class="glass-card top-topic-item">
+                <span class="top-episode">#934</span>
+                <span class="top-duration">63 мин</span>
+                <span class="top-title">SSH Remoting в Zed — новый редактор наступает</span>
+            </div>
+            <div class="glass-card top-topic-item">
+                <span class="top-episode">#941</span>
+                <span class="top-duration">62 мин</span>
+                <span class="top-title">Итоги 2024 на GitHub</span>
+            </div>
+            <div class="glass-card top-topic-item">
+                <span class="top-episode">#895</span>
+                <span class="top-duration">60 мин</span>
+                <span class="top-title">Apple Vision Pro Review — магия, пока не перестаёт</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-label fade-up">Противостояние</div>
+        <h2 class="section-title fade-up">Google vs Apple</h2>
+
+        <div class="versus-container fade-up">
+            <div class="glass-card versus-card" style="--versus-color: #3b82f6;">
+                <div class="versus-logo">Google</div>
+                <div class="versus-stats">
+                    <div>
+                        <div class="versus-value">29</div>
+                        <div class="versus-label">тем</div>
+                    </div>
+                    <div>
+                        <div class="versus-value">18.4</div>
+                        <div class="versus-label">мин/тема</div>
+                    </div>
+                    <div>
+                        <div class="versus-value">478</div>
+                        <div class="versus-label">минут всего</div>
+                    </div>
+                    <div>
+                        <div class="versus-value" style="color: #ef4444;">9</div>
+                        <div class="versus-label">негатив</div>
+                    </div>
+                </div>
+            </div>
+            <div class="versus-divider">VS</div>
+            <div class="glass-card versus-card" style="--versus-color: #a1a1aa;">
+                <div class="versus-logo">Apple</div>
+                <div class="versus-stats">
+                    <div>
+                        <div class="versus-value">28</div>
+                        <div class="versus-label">тем</div>
+                    </div>
+                    <div>
+                        <div class="versus-value">24.5</div>
+                        <div class="versus-label">мин/тема</div>
+                    </div>
+                    <div>
+                        <div class="versus-value">515</div>
+                        <div class="versus-label">минут всего</div>
+                    </div>
+                    <div>
+                        <div class="versus-value" style="color: var(--accent);">15</div>
+                        <div class="versus-label">позитив</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-label fade-up">Хронология</div>
+        <h2 class="section-title fade-up">Главные события года</h2>
 
         <div class="timeline fade-up">
             <div class="timeline-item">
-                <div class="timeline-date">// ЯНВАРЬ</div>
+                <div class="timeline-date">Январь</div>
                 <div class="timeline-title">Apple Vision Pro</div>
-                <div class="timeline-desc">Первая VR/AR гарнитура Apple выходит в продажу — $3499 за будущее</div>
+                <div class="timeline-desc">Первая VR/AR гарнитура Apple выходит в продажу за $3499</div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">// МАРТ</div>
-                <div class="timeline-title">Claude 3 > GPT-4</div>
-                <div class="timeline-desc">Anthropic впервые обходит OpenAI в бенчмарках</div>
+                <div class="timeline-date">Март</div>
+                <div class="timeline-title">Claude 3 обходит GPT-4</div>
+                <div class="timeline-desc">Anthropic впервые занимает первое место в бенчмарках</div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">// АПРЕЛЬ</div>
+                <div class="timeline-date">Апрель</div>
                 <div class="timeline-title">Meta Llama 3</div>
                 <div class="timeline-desc">Самая мощная открытая модель на момент релиза</div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">// МАЙ</div>
-                <div class="timeline-title">GPT-4o + Google I/O</div>
+                <div class="timeline-date">Май</div>
+                <div class="timeline-title">GPT-4o и Google I/O</div>
                 <div class="timeline-desc">Мультимодальный AI и битва презентаций</div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">// ИЮНЬ</div>
+                <div class="timeline-date">Июнь</div>
                 <div class="timeline-title">WWDC: Apple Intelligence</div>
                 <div class="timeline-desc">Apple наконец вступает в AI-гонку</div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">// ИЮЛЬ</div>
-                <div class="timeline-title">CrowdStrike Incident</div>
+                <div class="timeline-date">Июль</div>
+                <div class="timeline-title">CrowdStrike инцидент</div>
                 <div class="timeline-desc">Один апдейт выводит из строя миллионы Windows-машин</div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">// СЕНТЯБРЬ</div>
-                <div class="timeline-title">OpenAI o1 «Reasoning»</div>
-                <div class="timeline-desc">AI, который «думает» перед ответом</div>
+                <div class="timeline-date">Сентябрь</div>
+                <div class="timeline-title">OpenAI o1</div>
+                <div class="timeline-desc">AI с «reasoning» — модель, которая думает перед ответом</div>
             </div>
             <div class="timeline-item">
-                <div class="timeline-date">// ОКТЯБРЬ</div>
+                <div class="timeline-date">Октябрь</div>
                 <div class="timeline-title">Claude Computer Use</div>
                 <div class="timeline-desc">AI берёт управление десктопом</div>
             </div>
@@ -1042,31 +1420,29 @@
 
 <section class="section">
     <div class="container">
-        <div class="section-header fade-up">
-            <div class="section-number">// 007</div>
-            <h2 class="section-title">ИНТЕРЕСНЫЕ <span>ФАКТЫ</span></h2>
-        </div>
+        <div class="section-label fade-up">Интересное</div>
+        <h2 class="section-title fade-up">Факты года</h2>
 
         <div class="facts-grid fade-up">
-            <div class="fact-card">
-                <div class="fact-icon">📺</div>
-                <div class="fact-title">LONGEST_TOPIC</div>
-                <div class="fact-text">WWDC 2024 — обсуждали <strong>78 минут</strong></div>
+            <div class="glass-card fact-card">
+                <div class="fact-icon">🏗</div>
+                <div class="fact-title">Самая долгая тема</div>
+                <div class="fact-value">Bazel — <strong>106 минут</strong></div>
             </div>
-            <div class="fact-card">
-                <div class="fact-icon">🎙️</div>
-                <div class="fact-title">MAX_DENSITY_EPISODE</div>
-                <div class="fact-text">Выпуск #898 — <strong>9 тем</strong> за эфир</div>
+            <div class="glass-card fact-card">
+                <div class="fact-icon">🎙</div>
+                <div class="fact-title">Самый насыщенный выпуск</div>
+                <div class="fact-value">Выпуск #898 — <strong>9 тем</strong></div>
             </div>
-            <div class="fact-card">
+            <div class="glass-card fact-card">
                 <div class="fact-icon">💀</div>
-                <div class="fact-title">RIP_2024</div>
-                <div class="fact-text">ICQ, Cortana, Humane AI Pin, Apple Car</div>
+                <div class="fact-title">RIP 2024</div>
+                <div class="fact-value">ICQ, Cortana, Humane AI Pin, Apple Car</div>
             </div>
-            <div class="fact-card">
+            <div class="glass-card fact-card">
                 <div class="fact-icon">🔥</div>
-                <div class="fact-title">SCANDAL_OF_YEAR</div>
-                <div class="fact-text">WordPress vs WP Engine — <strong>война Мэтта</strong></div>
+                <div class="fact-title">Скандал года</div>
+                <div class="fact-value">WordPress vs WP Engine — <strong>война Мэтта</strong></div>
             </div>
         </div>
     </div>
@@ -1074,20 +1450,68 @@
 
 <section class="section">
     <div class="container">
-        <div class="section-header fade-up">
-            <div class="section-number">// 008</div>
-            <h2 class="section-title">МЕСЯЧНЫЙ <span>ГРАФИК</span></h2>
-        </div>
+        <div class="section-label fade-up">Активность</div>
+        <h2 class="section-title fade-up">Темы по месяцам</h2>
 
-        <div class="chart-container fade-up">
-            <canvas id="monthlyChart" height="300"></canvas>
+        <div class="glass-card chart-wrapper fade-up">
+            <canvas id="monthlyChart"></canvas>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-label fade-up">Источники</div>
+        <h2 class="section-title fade-up">Откуда брали темы</h2>
+
+        <div class="sources-list fade-up">
+            <div class="glass-card source-item">
+                <div class="source-domain">techcrunch.com</div>
+                <div class="source-bar"><div class="source-fill" style="width: 100%;"></div></div>
+                <div class="source-time">373 мин</div>
+            </div>
+            <div class="glass-card source-item">
+                <div class="source-domain">theverge.com</div>
+                <div class="source-bar"><div class="source-fill" style="width: 88%;"></div></div>
+                <div class="source-time">330 мин</div>
+            </div>
+            <div class="glass-card source-item">
+                <div class="source-domain">arstechnica.com</div>
+                <div class="source-bar"><div class="source-fill" style="width: 69%;"></div></div>
+                <div class="source-time">256 мин</div>
+            </div>
+            <div class="glass-card source-item">
+                <div class="source-domain">openai.com</div>
+                <div class="source-bar"><div class="source-fill" style="width: 42%;"></div></div>
+                <div class="source-time">157 мин</div>
+            </div>
+            <div class="glass-card source-item">
+                <div class="source-domain">zed.dev</div>
+                <div class="source-bar"><div class="source-fill" style="width: 37%;"></div></div>
+                <div class="source-time">138 мин</div>
+            </div>
+            <div class="glass-card source-item">
+                <div class="source-domain">bazel.build</div>
+                <div class="source-bar"><div class="source-fill" style="width: 28%;"></div></div>
+                <div class="source-time">106 мин</div>
+            </div>
+            <div class="glass-card source-item">
+                <div class="source-domain">blog.jetbrains.com</div>
+                <div class="source-bar"><div class="source-fill" style="width: 25%;"></div></div>
+                <div class="source-time">94 мин</div>
+            </div>
+            <div class="glass-card source-item">
+                <div class="source-domain">apple.com</div>
+                <div class="source-bar"><div class="source-fill" style="width: 24%;"></div></div>
+                <div class="source-time">90 мин</div>
+            </div>
         </div>
     </div>
 </section>
 
 <footer class="footer">
     <div class="container">
-        <div class="footer-logo">РАДИО-Т</div>
+        <div class="footer-logo">Радио-<span>Т</span></div>
         <p class="footer-text">
             Еженедельный подкаст с 2005 года<br>
             <a href="https://radio-t.com" class="footer-link">radio-t.com</a>
@@ -1107,7 +1531,64 @@ const observer = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
-// Chart
+// Chart defaults
+Chart.defaults.color = '#a0a0a8';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.08)';
+Chart.defaults.font.family = "'Sora', sans-serif";
+
+// Duration by Sentiment Chart
+const durationSentimentCtx = document.getElementById('durationSentimentChart');
+if (durationSentimentCtx) {
+    new Chart(durationSentimentCtx, {
+        type: 'bar',
+        data: {
+            labels: ['Нейтральные', 'Негативные', 'Позитивные', 'Смешанные'],
+            datasets: [{
+                data: [20.6, 18.7, 18.5, 18.0],
+                backgroundColor: ['#6366f1', '#ef4444', '#00d4aa', '#f59e0b'],
+                borderRadius: 6
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { beginAtZero: true, max: 25, grid: { color: 'rgba(255,255,255,0.05)' } },
+                y: { grid: { display: false } }
+            }
+        }
+    });
+}
+
+// Duration by Type Chart
+const durationTypeCtx = document.getElementById('durationTypeChart');
+if (durationTypeCtx) {
+    new Chart(durationTypeCtx, {
+        type: 'bar',
+        data: {
+            labels: ['Аналитика', 'Инструменты', 'Мнения', 'Релизы', 'Инциденты', 'Новости'],
+            datasets: [{
+                data: [23.7, 22.8, 19.0, 18.9, 17.9, 16.7],
+                backgroundColor: ['#8b5cf6', '#00d4aa', '#f59e0b', '#3b82f6', '#ef4444', '#6366f1'],
+                borderRadius: 6
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+                x: { beginAtZero: true, max: 28, grid: { color: 'rgba(255,255,255,0.05)' } },
+                y: { grid: { display: false } }
+            }
+        }
+    });
+}
+
+// Monthly Chart
 const ctx = document.getElementById('monthlyChart');
 if (ctx) {
     new Chart(ctx, {
@@ -1116,13 +1597,12 @@ if (ctx) {
             labels: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн', 'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек'],
             datasets: [{
                 label: 'Темы',
-                data: [22, 25, 28, 24, 26, 22, 20, 24, 28, 26, 20, 18],
-                backgroundColor: 'rgba(255, 42, 109, 0.8)',
-                borderColor: '#ff2a6d',
-                borderWidth: 2,
-                borderRadius: 0,
-                hoverBackgroundColor: '#ff2a6d',
-                hoverBorderColor: '#05d9e8'
+                data: [11, 19, 26, 27, 23, 21, 15, 26, 26, 20, 28, 41],
+                backgroundColor: 'rgba(0, 212, 170, 0.8)',
+                borderColor: '#00d4aa',
+                borderWidth: 0,
+                borderRadius: 6,
+                hoverBackgroundColor: '#00d4aa'
             }]
         },
         options: {
@@ -1134,18 +1614,12 @@ if (ctx) {
             scales: {
                 y: {
                     beginAtZero: true,
-                    grid: { color: 'rgba(5, 217, 232, 0.1)' },
-                    ticks: {
-                        color: 'rgba(255,255,255,0.6)',
-                        font: { family: 'Share Tech Mono' }
-                    }
+                    grid: { color: 'rgba(255,255,255,0.05)' },
+                    ticks: { color: '#5c5c66', font: { family: 'IBM Plex Mono' } }
                 },
                 x: {
                     grid: { display: false },
-                    ticks: {
-                        color: 'rgba(255,255,255,0.6)',
-                        font: { family: 'Share Tech Mono' }
-                    }
+                    ticks: { color: '#5c5c66', font: { family: 'IBM Plex Mono' } }
                 }
             }
         }
