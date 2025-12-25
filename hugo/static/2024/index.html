@@ -3,42 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Радио-Т: Год 2024 — Ретроспектива</title>
+    <title>Радио-Т 2024 — Ретроспектива</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <script src="/js/chart.min.js"></script>
     <style>
         :root {
-            --bg-paper: #faf8f3;
-            --bg-cream: #f5f2eb;
-            --bg-card: #ffffff;
-            --navy-dark: #1a2744;
-            --navy-mid: #2d3f5e;
-            --navy-light: #4a5d7a;
-            --gold: #c9a227;
-            --gold-light: #e8d48a;
-            --gold-dark: #9a7b1c;
-            --rust: #a85a32;
-            --sage: #6b7c5e;
-            --text-primary: #1a2744;
-            --text-secondary: #4a5d7a;
-            --text-muted: #8a96a8;
-            --border: #e5e1d8;
-            --border-dark: #c9c4b8;
+            --bg-deep: #0d0221;
+            --bg-purple: #1a0533;
+            --bg-card: rgba(26, 5, 51, 0.7);
+            --neon-pink: #ff2a6d;
+            --neon-cyan: #05d9e8;
+            --neon-purple: #d300c5;
+            --neon-blue: #7b2cbf;
+            --neon-yellow: #f9dc5c;
+            --text-white: #ffffff;
+            --text-dim: rgba(255, 255, 255, 0.7);
+            --text-muted: rgba(255, 255, 255, 0.4);
+            --grid-color: rgba(5, 217, 232, 0.1);
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
-            font-family: 'Source Serif 4', Georgia, serif;
-            background: var(--bg-paper);
-            color: var(--text-primary);
-            line-height: 1.7;
+            font-family: 'Rajdhani', sans-serif;
+            background: var(--bg-deep);
+            color: var(--text-white);
+            line-height: 1.6;
             font-size: 18px;
+            overflow-x: hidden;
         }
 
-        /* Subtle paper texture */
+        /* Animated grid background */
         body::before {
             content: '';
             position: fixed;
@@ -46,640 +43,740 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+            background:
+                linear-gradient(180deg, transparent 0%, var(--bg-deep) 100%),
+                linear-gradient(90deg, var(--grid-color) 1px, transparent 1px),
+                linear-gradient(0deg, var(--grid-color) 1px, transparent 1px);
+            background-size: 100% 100%, 60px 60px, 60px 60px;
+            pointer-events: none;
+            z-index: -1;
+            animation: gridMove 20s linear infinite;
+        }
+
+        @keyframes gridMove {
+            0% { background-position: 0 0, 0 0, 0 0; }
+            100% { background-position: 0 100%, 0 60px, 60px 0; }
+        }
+
+        /* Scanlines overlay */
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.1) 0px,
+                rgba(0, 0, 0, 0.1) 1px,
+                transparent 1px,
+                transparent 3px
+            );
             pointer-events: none;
             z-index: 1000;
         }
 
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 40px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 
-        /* Masthead */
-        .masthead {
-            border-bottom: 3px double var(--border-dark);
-            padding: 60px 0 40px;
+        /* Hero with sunset gradient */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            background: linear-gradient(180deg, var(--bg-cream) 0%, var(--bg-paper) 100%);
+            position: relative;
+            background:
+                radial-gradient(ellipse at bottom, #1a0533 0%, transparent 70%),
+                linear-gradient(180deg,
+                    var(--bg-deep) 0%,
+                    #1a0533 30%,
+                    #2d1b4e 50%,
+                    #f9dc5c 85%,
+                    #ff2a6d 95%,
+                    var(--neon-pink) 100%
+                );
+            overflow: hidden;
         }
 
-        .masthead-pre {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 12px;
-            letter-spacing: 4px;
+        .hero::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 40%;
+            background: linear-gradient(180deg, transparent, var(--bg-deep));
+            z-index: 1;
+        }
+
+        /* Sun */
+        .sun {
+            position: absolute;
+            bottom: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            height: 300px;
+            background: linear-gradient(180deg, #f9dc5c 0%, #ff2a6d 50%, #d300c5 100%);
+            border-radius: 50%;
+            box-shadow:
+                0 0 60px #ff2a6d,
+                0 0 120px rgba(255, 42, 109, 0.5);
+            clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+            animation: sunPulse 4s ease-in-out infinite;
+        }
+
+        @keyframes sunPulse {
+            0%, 100% { box-shadow: 0 0 60px #ff2a6d, 0 0 120px rgba(255, 42, 109, 0.5); }
+            50% { box-shadow: 0 0 80px #ff2a6d, 0 0 160px rgba(255, 42, 109, 0.7); }
+        }
+
+        .sun-lines {
+            position: absolute;
+            bottom: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            height: 150px;
+            overflow: hidden;
+        }
+
+        .sun-lines::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent 0px,
+                transparent 8px,
+                var(--bg-deep) 8px,
+                var(--bg-deep) 16px
+            );
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-pre {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 1rem;
+            letter-spacing: 8px;
             text-transform: uppercase;
-            color: var(--gold-dark);
+            color: var(--neon-cyan);
+            text-shadow: 0 0 10px var(--neon-cyan);
+            margin-bottom: 20px;
+            animation: flicker 3s infinite;
+        }
+
+        @keyframes flicker {
+            0%, 100% { opacity: 1; }
+            92% { opacity: 1; }
+            93% { opacity: 0.8; }
+            94% { opacity: 1; }
+            96% { opacity: 0.9; }
+            97% { opacity: 1; }
+        }
+
+        .hero h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: clamp(3rem, 10vw, 7rem);
+            font-weight: 900;
+            letter-spacing: 4px;
+            background: linear-gradient(180deg, #fff 0%, var(--neon-pink) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: none;
+            filter: drop-shadow(0 0 30px rgba(255, 42, 109, 0.5));
             margin-bottom: 20px;
         }
 
-        .masthead h1 {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: clamp(3rem, 8vw, 6rem);
-            font-weight: 800;
-            color: var(--navy-dark);
-            letter-spacing: -2px;
-            line-height: 1;
-            margin-bottom: 16px;
+        .hero-year {
+            font-family: 'Orbitron', sans-serif;
+            font-size: clamp(5rem, 15vw, 12rem);
+            font-weight: 900;
+            color: transparent;
+            -webkit-text-stroke: 2px var(--neon-cyan);
+            text-shadow:
+                0 0 20px var(--neon-cyan),
+                0 0 40px var(--neon-cyan),
+                0 0 80px rgba(5, 217, 232, 0.5);
+            animation: glow 2s ease-in-out infinite alternate;
         }
 
-        .masthead-year {
-            display: inline-block;
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: clamp(4rem, 12vw, 9rem);
-            font-weight: 400;
-            font-style: italic;
-            color: var(--gold);
-            line-height: 1;
-            margin: 20px 0;
+        @keyframes glow {
+            from { text-shadow: 0 0 20px var(--neon-cyan), 0 0 40px var(--neon-cyan); }
+            to { text-shadow: 0 0 30px var(--neon-cyan), 0 0 60px var(--neon-cyan), 0 0 100px var(--neon-cyan); }
+        }
+
+        .hero-sub {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 1.1rem;
+            color: var(--text-dim);
+            margin-top: 40px;
+            letter-spacing: 2px;
+        }
+
+        /* Sections */
+        .section {
+            padding: 100px 0;
             position: relative;
         }
 
-        .masthead-year::before,
-        .masthead-year::after {
-            content: '―';
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--border-dark);
-            font-style: normal;
-        }
-
-        .masthead-year::before { right: calc(100% + 30px); }
-        .masthead-year::after { left: calc(100% + 30px); }
-
-        .masthead-sub {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            font-style: italic;
-            max-width: 500px;
-            margin: 0 auto;
-        }
-
-        /* Section styling */
-        .section {
-            padding: 80px 0;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .section:last-child { border-bottom: none; }
-
         .section-header {
-            display: flex;
-            align-items: baseline;
-            gap: 20px;
-            margin-bottom: 50px;
-        }
-
-        .section-number {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 4rem;
-            font-weight: 300;
-            color: var(--gold);
-            line-height: 1;
-        }
-
-        .section-title {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 2.2rem;
-            font-weight: 600;
-            color: var(--navy-dark);
-            border-bottom: 2px solid var(--gold);
-            padding-bottom: 8px;
-        }
-
-        /* Big numbers grid */
-        .numbers-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 40px;
+            text-align: center;
             margin-bottom: 60px;
         }
 
-        .number-card {
-            text-align: center;
-            padding: 40px 20px;
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            position: relative;
+        .section-number {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--neon-cyan);
+            letter-spacing: 4px;
+            margin-bottom: 16px;
+            text-shadow: 0 0 10px var(--neon-cyan);
         }
 
-        .number-card::before {
+        .section-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            font-weight: 700;
+            color: var(--text-white);
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        .section-title span {
+            color: var(--neon-pink);
+            text-shadow: 0 0 20px var(--neon-pink);
+        }
+
+        /* Neon cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--neon-cyan);
+            padding: 40px 24px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+        }
+
+        .stat-card::before {
             content: '';
             position: absolute;
             top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 40px;
-            height: 3px;
-            background: var(--gold);
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--neon-cyan), transparent);
+            animation: scanline 2s linear infinite;
         }
 
-        .number-value {
-            font-family: 'Playfair Display', Georgia, serif;
+        @keyframes scanline {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        .stat-card:hover {
+            border-color: var(--neon-pink);
+            box-shadow:
+                0 0 20px rgba(255, 42, 109, 0.3),
+                inset 0 0 40px rgba(255, 42, 109, 0.1);
+        }
+
+        .stat-value {
+            font-family: 'Orbitron', sans-serif;
             font-size: 3.5rem;
             font-weight: 700;
-            color: var(--navy-dark);
+            color: var(--neon-pink);
+            text-shadow: 0 0 20px var(--neon-pink);
             line-height: 1;
             margin-bottom: 12px;
         }
 
-        .number-label {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
+        .stat-label {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text-dim);
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 2px;
         }
 
-        /* Pull quote */
-        .pull-quote {
-            max-width: 700px;
-            margin: 60px auto;
-            padding: 40px 60px;
-            text-align: center;
-            position: relative;
-            background: var(--bg-cream);
+        /* Bar charts - neon style */
+        .neon-bars {
+            max-width: 800px;
+            margin: 0 auto;
         }
 
-        .pull-quote::before {
-            content: '"';
-            position: absolute;
-            top: -20px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 8rem;
-            color: var(--gold);
-            line-height: 1;
-            opacity: 0.3;
-        }
-
-        .pull-quote p {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.6rem;
-            font-style: italic;
-            color: var(--navy-dark);
-            line-height: 1.5;
-        }
-
-        .pull-quote cite {
-            display: block;
-            margin-top: 20px;
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            font-style: normal;
-        }
-
-        /* Company rankings */
-        .rankings {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-        }
-
-        .ranking-list {
-            list-style: none;
-        }
-
-        .ranking-item {
-            display: flex;
-            align-items: center;
-            padding: 16px 0;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .ranking-pos {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.8rem;
-            font-weight: 600;
-            color: var(--gold);
-            width: 50px;
-        }
-
-        .ranking-name {
-            flex: 1;
-            font-weight: 500;
-            color: var(--navy-dark);
-        }
-
-        .ranking-count {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            background: var(--bg-cream);
-            padding: 4px 12px;
-            border-radius: 2px;
-        }
-
-        /* Bar charts editorial style */
-        .bar-chart {
-            margin: 40px 0;
-        }
-
-        .bar-row {
+        .neon-bar-row {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
         }
 
-        .bar-label {
+        .neon-bar-label {
             width: 140px;
-            font-size: 0.95rem;
-            color: var(--text-secondary);
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-dim);
             text-align: right;
             padding-right: 20px;
         }
 
-        .bar-track {
+        .neon-bar-track {
             flex: 1;
-            height: 28px;
-            background: var(--bg-cream);
+            height: 32px;
+            background: rgba(5, 217, 232, 0.1);
+            border: 1px solid rgba(5, 217, 232, 0.3);
             position: relative;
             overflow: hidden;
         }
 
-        .bar-fill {
+        .neon-bar-fill {
             height: 100%;
-            background: linear-gradient(90deg, var(--navy-dark), var(--navy-mid));
             display: flex;
             align-items: center;
             justify-content: flex-end;
             padding-right: 12px;
+            position: relative;
             transition: width 1s ease-out;
         }
 
-        .bar-fill.gold {
-            background: linear-gradient(90deg, var(--gold-dark), var(--gold));
+        .neon-bar-fill.pink {
+            background: linear-gradient(90deg, rgba(255, 42, 109, 0.3), var(--neon-pink));
+            box-shadow: 0 0 20px var(--neon-pink), inset 0 0 20px rgba(255, 42, 109, 0.5);
         }
 
-        .bar-fill.rust {
-            background: linear-gradient(90deg, var(--rust), #c97a52);
+        .neon-bar-fill.cyan {
+            background: linear-gradient(90deg, rgba(5, 217, 232, 0.3), var(--neon-cyan));
+            box-shadow: 0 0 20px var(--neon-cyan), inset 0 0 20px rgba(5, 217, 232, 0.5);
         }
 
-        .bar-fill.sage {
-            background: linear-gradient(90deg, var(--sage), #8a9d7e);
+        .neon-bar-fill.purple {
+            background: linear-gradient(90deg, rgba(211, 0, 197, 0.3), var(--neon-purple));
+            box-shadow: 0 0 20px var(--neon-purple), inset 0 0 20px rgba(211, 0, 197, 0.5);
         }
 
-        .bar-value {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.8rem;
-            color: white;
-            font-weight: 500;
+        .neon-bar-fill.yellow {
+            background: linear-gradient(90deg, rgba(249, 220, 92, 0.3), var(--neon-yellow));
+            box-shadow: 0 0 20px var(--neon-yellow), inset 0 0 20px rgba(249, 220, 92, 0.5);
         }
 
-        /* Topic type cards */
-        .topic-types {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 24px;
-        }
-
-        .topic-type-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            padding: 30px;
-            text-align: center;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .topic-type-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 30px rgba(26, 39, 68, 0.1);
-        }
-
-        .topic-type-icon {
-            font-size: 2rem;
-            margin-bottom: 16px;
-        }
-
-        .topic-type-name {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: var(--navy-dark);
-            margin-bottom: 8px;
-        }
-
-        .topic-type-count {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 2rem;
-            color: var(--gold);
-            font-weight: 500;
-        }
-
-        .topic-type-percent {
+        .neon-bar-value {
+            font-family: 'Share Tech Mono', monospace;
             font-size: 0.85rem;
-            color: var(--text-muted);
+            color: var(--text-white);
+            text-shadow: 0 0 10px currentColor;
         }
 
-        /* Sentiment gauge */
-        .sentiment-section {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: center;
-        }
-
-        .sentiment-bars {
+        /* Topic type hexagons */
+        .hex-grid {
             display: flex;
-            flex-direction: column;
-            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px 0;
         }
 
-        .sentiment-row {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-        }
-
-        .sentiment-emoji {
-            font-size: 1.5rem;
-            width: 40px;
+        .hex-item {
+            width: 160px;
             text-align: center;
         }
 
-        .sentiment-track {
-            flex: 1;
-            height: 24px;
-            background: var(--bg-cream);
-            border-radius: 2px;
-            overflow: hidden;
-        }
-
-        .sentiment-fill {
-            height: 100%;
+        .hex-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 16px;
+            background: var(--bg-card);
+            border: 2px solid var(--neon-cyan);
             display: flex;
             align-items: center;
-            padding-left: 12px;
+            justify-content: center;
+            font-size: 2rem;
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            transition: all 0.3s ease;
         }
 
-        .sentiment-fill.positive { background: var(--sage); }
-        .sentiment-fill.negative { background: var(--rust); }
-        .sentiment-fill.neutral { background: var(--navy-light); }
-        .sentiment-fill.mixed { background: var(--gold); }
-
-        .sentiment-text {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.8rem;
-            color: white;
+        .hex-item:hover .hex-icon {
+            border-color: var(--neon-pink);
+            box-shadow: 0 0 30px var(--neon-pink);
+            transform: scale(1.1);
         }
 
-        .sentiment-summary {
-            padding: 40px;
-            background: var(--navy-dark);
-            color: white;
+        .hex-name {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-white);
+            margin-bottom: 4px;
         }
 
-        .sentiment-summary h4 {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.4rem;
-            font-weight: 500;
-            margin-bottom: 16px;
-            color: var(--gold-light);
+        .hex-count {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 1.5rem;
+            color: var(--neon-pink);
+            text-shadow: 0 0 10px var(--neon-pink);
         }
 
-        .sentiment-summary p {
-            font-size: 1rem;
-            line-height: 1.7;
-            color: rgba(255,255,255,0.85);
-        }
-
-        /* Timeline */
+        /* Timeline - vertical neon */
         .timeline {
             position: relative;
-            padding-left: 80px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding-left: 60px;
         }
 
         .timeline::before {
             content: '';
             position: absolute;
-            left: 30px;
+            left: 20px;
             top: 0;
             bottom: 0;
             width: 2px;
-            background: var(--border-dark);
+            background: linear-gradient(180deg, var(--neon-cyan), var(--neon-pink), var(--neon-purple));
+            box-shadow: 0 0 10px var(--neon-cyan);
         }
 
         .timeline-item {
             position: relative;
-            padding-bottom: 40px;
+            padding-bottom: 50px;
         }
 
         .timeline-item::before {
             content: '';
             position: absolute;
-            left: -58px;
-            top: 6px;
-            width: 14px;
-            height: 14px;
-            background: var(--gold);
-            border: 3px solid var(--bg-paper);
-            border-radius: 50%;
+            left: -48px;
+            top: 8px;
+            width: 16px;
+            height: 16px;
+            background: var(--neon-pink);
+            border: 3px solid var(--bg-deep);
+            box-shadow: 0 0 20px var(--neon-pink);
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
         }
 
         .timeline-date {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.8rem;
-            color: var(--gold-dark);
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--neon-cyan);
+            text-shadow: 0 0 10px var(--neon-cyan);
             margin-bottom: 8px;
         }
 
         .timeline-title {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.3rem;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.2rem;
             font-weight: 600;
-            color: var(--navy-dark);
+            color: var(--text-white);
             margin-bottom: 8px;
         }
 
         .timeline-desc {
             font-size: 0.95rem;
-            color: var(--text-secondary);
+            color: var(--text-dim);
+        }
+
+        /* Glitch text effect */
+        .glitch {
+            position: relative;
+        }
+
+        .glitch::before,
+        .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .glitch::before {
+            left: 2px;
+            text-shadow: -2px 0 var(--neon-pink);
+            clip: rect(44px, 450px, 56px, 0);
+            animation: glitch-anim 5s infinite linear alternate-reverse;
+        }
+
+        .glitch::after {
+            left: -2px;
+            text-shadow: -2px 0 var(--neon-cyan);
+            clip: rect(44px, 450px, 56px, 0);
+            animation: glitch-anim2 5s infinite linear alternate-reverse;
+        }
+
+        @keyframes glitch-anim {
+            0% { clip: rect(31px, 9999px, 94px, 0); }
+            20% { clip: rect(62px, 9999px, 42px, 0); }
+            40% { clip: rect(16px, 9999px, 78px, 0); }
+            60% { clip: rect(89px, 9999px, 13px, 0); }
+            80% { clip: rect(48px, 9999px, 71px, 0); }
+            100% { clip: rect(23px, 9999px, 85px, 0); }
+        }
+
+        @keyframes glitch-anim2 {
+            0% { clip: rect(65px, 9999px, 12px, 0); }
+            20% { clip: rect(29px, 9999px, 83px, 0); }
+            40% { clip: rect(77px, 9999px, 41px, 0); }
+            60% { clip: rect(8px, 9999px, 96px, 0); }
+            80% { clip: rect(54px, 9999px, 27px, 0); }
+            100% { clip: rect(38px, 9999px, 69px, 0); }
+        }
+
+        /* Sentiment meters */
+        .sentiment-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .sentiment-meter {
+            text-align: center;
+            padding: 30px;
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .sentiment-emoji {
+            font-size: 3rem;
+            margin-bottom: 16px;
+            filter: drop-shadow(0 0 20px currentColor);
+        }
+
+        .sentiment-bar-v {
+            width: 40px;
+            height: 120px;
+            margin: 0 auto 16px;
+            background: rgba(255, 255, 255, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .sentiment-fill-v {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            transition: height 1s ease-out;
+        }
+
+        .sentiment-fill-v.positive {
+            background: linear-gradient(0deg, var(--neon-cyan), rgba(5, 217, 232, 0.3));
+            box-shadow: 0 0 20px var(--neon-cyan);
+        }
+
+        .sentiment-fill-v.negative {
+            background: linear-gradient(0deg, var(--neon-pink), rgba(255, 42, 109, 0.3));
+            box-shadow: 0 0 20px var(--neon-pink);
+        }
+
+        .sentiment-fill-v.neutral {
+            background: linear-gradient(0deg, var(--neon-purple), rgba(211, 0, 197, 0.3));
+            box-shadow: 0 0 20px var(--neon-purple);
+        }
+
+        .sentiment-fill-v.mixed {
+            background: linear-gradient(0deg, var(--neon-yellow), rgba(249, 220, 92, 0.3));
+            box-shadow: 0 0 20px var(--neon-yellow);
+        }
+
+        .sentiment-value {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-white);
+        }
+
+        .sentiment-label {
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        /* Facts grid */
+        .facts-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .fact-card {
+            background: var(--bg-card);
+            border: 1px solid var(--neon-purple);
+            padding: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .fact-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(
+                transparent 0deg,
+                var(--neon-purple) 90deg,
+                transparent 180deg
+            );
+            animation: rotate 4s linear infinite;
+            opacity: 0.1;
+        }
+
+        @keyframes rotate {
+            100% { transform: rotate(360deg); }
+        }
+
+        .fact-icon {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .fact-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--neon-cyan);
+            margin-bottom: 8px;
+        }
+
+        .fact-text {
+            font-size: 0.95rem;
+            color: var(--text-dim);
+        }
+
+        .fact-text strong {
+            color: var(--neon-pink);
+            text-shadow: 0 0 10px var(--neon-pink);
+        }
+
+        /* Chart container */
+        .chart-container {
+            background: var(--bg-card);
+            border: 1px solid var(--neon-cyan);
+            padding: 40px;
+            max-width: 900px;
+            margin: 40px auto;
         }
 
         /* Footer */
         .footer {
             padding: 60px 0;
             text-align: center;
-            background: var(--navy-dark);
-            color: white;
+            background: linear-gradient(180deg, var(--bg-deep), #000);
+            border-top: 1px solid var(--neon-pink);
         }
 
         .footer-logo {
-            font-family: 'Playfair Display', Georgia, serif;
+            font-family: 'Orbitron', sans-serif;
             font-size: 2rem;
             font-weight: 700;
+            color: var(--neon-pink);
+            text-shadow: 0 0 20px var(--neon-pink);
             margin-bottom: 16px;
         }
 
         .footer-text {
-            color: rgba(255,255,255,0.6);
+            font-family: 'Share Tech Mono', monospace;
+            color: var(--text-muted);
             font-size: 0.9rem;
         }
 
         .footer-link {
-            color: var(--gold-light);
+            color: var(--neon-cyan);
             text-decoration: none;
+            text-shadow: 0 0 10px var(--neon-cyan);
         }
 
-        .footer-link:hover {
-            text-decoration: underline;
-        }
-
-        /* Chart container */
-        .chart-container {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            padding: 40px;
-            margin: 40px 0;
-        }
-
-        .chart-title {
-            font-family: 'Playfair Display', Georgia, serif;
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: var(--navy-dark);
-            margin-bottom: 24px;
-            text-align: center;
-        }
-
-        /* Animations */
-        .fade-in {
+        /* Scroll animations */
+        .fade-up {
             opacity: 0;
-            transform: translateY(30px);
+            transform: translateY(40px);
             transition: opacity 0.8s ease, transform 0.8s ease;
         }
 
-        .fade-in.visible {
+        .fade-up.visible {
             opacity: 1;
             transform: translateY(0);
         }
 
         /* Responsive */
         @media (max-width: 900px) {
-            .numbers-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
-            .rankings { grid-template-columns: 1fr; }
-            .topic-types { grid-template-columns: repeat(2, 1fr); }
-            .sentiment-section { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .sentiment-grid { grid-template-columns: repeat(2, 1fr); }
+            .hex-grid { gap: 20px; }
+            .hex-item { width: 140px; }
         }
 
         @media (max-width: 600px) {
-            .container { padding: 0 20px; }
-            .numbers-grid { grid-template-columns: 1fr; }
-            .topic-types { grid-template-columns: 1fr; }
-            .section-header { flex-direction: column; gap: 10px; }
-            .masthead-year::before, .masthead-year::after { display: none; }
+            .container { padding: 0 16px; }
+            .stats-grid { grid-template-columns: 1fr; }
+            .sentiment-grid { grid-template-columns: 1fr 1fr; }
+            .facts-grid { grid-template-columns: 1fr; }
+            .timeline { padding-left: 40px; }
+            .timeline::before { left: 10px; }
+            .timeline-item::before { left: -38px; }
+            .sun { width: 200px; height: 200px; }
         }
     </style>
 </head>
 <body>
 
-<header class="masthead">
-    <div class="container">
-        <p class="masthead-pre">Ежегодная ретроспектива</p>
-        <h1>Радио-Т</h1>
-        <div class="masthead-year">2024</div>
-        <p class="masthead-sub">Пятьдесят выпусков. Двести восемьдесят три темы. Один год в технологиях.</p>
-    </div>
-</header>
-
-<section class="section">
-    <div class="container">
-        <div class="section-header fade-in">
-            <span class="section-number">I</span>
-            <h2 class="section-title">Год в цифрах</h2>
-        </div>
-
-        <div class="numbers-grid fade-in">
-            <div class="number-card">
-                <div class="number-value">50</div>
-                <div class="number-label">Выпусков</div>
-            </div>
-            <div class="number-card">
-                <div class="number-value">283</div>
-                <div class="number-label">Тем</div>
-            </div>
-            <div class="number-card">
-                <div class="number-value">73</div>
-                <div class="number-label">Часов обсуждений</div>
-            </div>
-            <div class="number-card">
-                <div class="number-value">18.8</div>
-                <div class="number-label">Минут на тему</div>
-            </div>
-        </div>
-
-        <div class="pull-quote fade-in">
-            <p>Год, когда AI перестал быть будущим и стал настоящим — 98 тем были связаны с искусственным интеллектом</p>
-            <cite>— Радио-Т, 2024</cite>
-        </div>
+<section class="hero">
+    <div class="sun"></div>
+    <div class="sun-lines"></div>
+    <div class="hero-content">
+        <p class="hero-pre">// RETROSPECTIVE_MODE</p>
+        <h1 class="glitch" data-text="РАДИО-Т">РАДИО-Т</h1>
+        <div class="hero-year">2024</div>
+        <p class="hero-sub">50 ВЫПУСКОВ • 283 ТЕМЫ • 73 ЧАСА ЭФИРА</p>
     </div>
 </section>
 
 <section class="section">
     <div class="container">
-        <div class="section-header fade-in">
-            <span class="section-number">II</span>
-            <h2 class="section-title">Главные герои года</h2>
+        <div class="section-header fade-up">
+            <div class="section-number">// 001</div>
+            <h2 class="section-title">СИСТЕМНАЯ <span>СТАТИСТИКА</span></h2>
         </div>
 
-        <div class="rankings fade-in">
-            <div>
-                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 24px; color: var(--navy-mid);">Компании</h3>
-                <ul class="ranking-list">
-                    <li class="ranking-item">
-                        <span class="ranking-pos">1</span>
-                        <span class="ranking-name">Google</span>
-                        <span class="ranking-count">29 тем</span>
-                    </li>
-                    <li class="ranking-item">
-                        <span class="ranking-pos">2</span>
-                        <span class="ranking-name">Apple</span>
-                        <span class="ranking-count">28 тем</span>
-                    </li>
-                    <li class="ranking-item">
-                        <span class="ranking-pos">3</span>
-                        <span class="ranking-name">OpenAI</span>
-                        <span class="ranking-count">18 тем</span>
-                    </li>
-                    <li class="ranking-item">
-                        <span class="ranking-pos">4</span>
-                        <span class="ranking-name">Microsoft</span>
-                        <span class="ranking-count">18 тем</span>
-                    </li>
-                    <li class="ranking-item">
-                        <span class="ranking-pos">5</span>
-                        <span class="ranking-name">GitHub</span>
-                        <span class="ranking-count">9 тем</span>
-                    </li>
-                </ul>
+        <div class="stats-grid fade-up">
+            <div class="stat-card">
+                <div class="stat-value">50</div>
+                <div class="stat-label">Выпусков</div>
             </div>
-            <div>
-                <h3 style="font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 24px; color: var(--navy-mid);">Источники</h3>
-                <ul class="ranking-list">
-                    <li class="ranking-item">
-                        <span class="ranking-pos">1</span>
-                        <span class="ranking-name">The Verge</span>
-                        <span class="ranking-count">18 статей</span>
-                    </li>
-                    <li class="ranking-item">
-                        <span class="ranking-pos">2</span>
-                        <span class="ranking-name">TechCrunch</span>
-                        <span class="ranking-count">17 статей</span>
-                    </li>
-                    <li class="ranking-item">
-                        <span class="ranking-pos">3</span>
-                        <span class="ranking-name">Ars Technica</span>
-                        <span class="ranking-count">15 статей</span>
-                    </li>
-                    <li class="ranking-item">
-                        <span class="ranking-pos">4</span>
-                        <span class="ranking-name">OpenAI Blog</span>
-                        <span class="ranking-count">9 статей</span>
-                    </li>
-                    <li class="ranking-item">
-                        <span class="ranking-pos">5</span>
-                        <span class="ranking-name">9to5Mac</span>
-                        <span class="ranking-count">7 статей</span>
-                    </li>
-                </ul>
+            <div class="stat-card">
+                <div class="stat-value">283</div>
+                <div class="stat-label">Тем</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">73</div>
+                <div class="stat-label">Часов</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">18.8</div>
+                <div class="stat-label">Мин/Тема</div>
             </div>
         </div>
     </div>
@@ -687,97 +784,73 @@
 
 <section class="section">
     <div class="container">
-        <div class="section-header fade-in">
-            <span class="section-number">III</span>
-            <h2 class="section-title">О чём говорили</h2>
+        <div class="section-header fade-up">
+            <div class="section-number">// 002</div>
+            <h2 class="section-title">КОРПОРАТИВНЫЙ <span>РАДАР</span></h2>
         </div>
 
-        <div class="topic-types fade-in">
-            <div class="topic-type-card">
-                <div class="topic-type-icon">🚀</div>
-                <div class="topic-type-name">Релизы</div>
-                <div class="topic-type-count">106</div>
-                <div class="topic-type-percent">37% всех тем</div>
-            </div>
-            <div class="topic-type-card">
-                <div class="topic-type-icon">📰</div>
-                <div class="topic-type-name">Новости</div>
-                <div class="topic-type-count">73</div>
-                <div class="topic-type-percent">26% всех тем</div>
-            </div>
-            <div class="topic-type-card">
-                <div class="topic-type-icon">💭</div>
-                <div class="topic-type-name">Мнения</div>
-                <div class="topic-type-count">33</div>
-                <div class="topic-type-percent">12% всех тем</div>
-            </div>
-            <div class="topic-type-card">
-                <div class="topic-type-icon">⚡</div>
-                <div class="topic-type-name">Инциденты</div>
-                <div class="topic-type-count">33</div>
-                <div class="topic-type-percent">12% всех тем</div>
-            </div>
-            <div class="topic-type-card">
-                <div class="topic-type-icon">📊</div>
-                <div class="topic-type-name">Аналитика</div>
-                <div class="topic-type-count">21</div>
-                <div class="topic-type-percent">7% всех тем</div>
-            </div>
-            <div class="topic-type-card">
-                <div class="topic-type-icon">🛠️</div>
-                <div class="topic-type-name">Инструменты</div>
-                <div class="topic-type-count">17</div>
-                <div class="topic-type-percent">6% всех тем</div>
-            </div>
-        </div>
-
-        <div class="bar-chart fade-in" style="margin-top: 60px;">
-            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 30px; color: var(--navy-mid);">Распределение по типам</h3>
-            <div class="bar-row">
-                <div class="bar-label">Релизы</div>
-                <div class="bar-track">
-                    <div class="bar-fill gold" style="width: 100%;">
-                        <span class="bar-value">106</span>
+        <div class="neon-bars fade-up">
+            <div class="neon-bar-row">
+                <div class="neon-bar-label">Google</div>
+                <div class="neon-bar-track">
+                    <div class="neon-bar-fill pink" style="width: 100%;">
+                        <span class="neon-bar-value">29</span>
                     </div>
                 </div>
             </div>
-            <div class="bar-row">
-                <div class="bar-label">Новости</div>
-                <div class="bar-track">
-                    <div class="bar-fill" style="width: 69%;">
-                        <span class="bar-value">73</span>
+            <div class="neon-bar-row">
+                <div class="neon-bar-label">Apple</div>
+                <div class="neon-bar-track">
+                    <div class="neon-bar-fill cyan" style="width: 96%;">
+                        <span class="neon-bar-value">28</span>
                     </div>
                 </div>
             </div>
-            <div class="bar-row">
-                <div class="bar-label">Мнения</div>
-                <div class="bar-track">
-                    <div class="bar-fill rust" style="width: 31%;">
-                        <span class="bar-value">33</span>
+            <div class="neon-bar-row">
+                <div class="neon-bar-label">OpenAI</div>
+                <div class="neon-bar-track">
+                    <div class="neon-bar-fill purple" style="width: 62%;">
+                        <span class="neon-bar-value">18</span>
                     </div>
                 </div>
             </div>
-            <div class="bar-row">
-                <div class="bar-label">Инциденты</div>
-                <div class="bar-track">
-                    <div class="bar-fill rust" style="width: 31%;">
-                        <span class="bar-value">33</span>
+            <div class="neon-bar-row">
+                <div class="neon-bar-label">Microsoft</div>
+                <div class="neon-bar-track">
+                    <div class="neon-bar-fill purple" style="width: 62%;">
+                        <span class="neon-bar-value">18</span>
                     </div>
                 </div>
             </div>
-            <div class="bar-row">
-                <div class="bar-label">Аналитика</div>
-                <div class="bar-track">
-                    <div class="bar-fill sage" style="width: 20%;">
-                        <span class="bar-value">21</span>
+            <div class="neon-bar-row">
+                <div class="neon-bar-label">Anthropic</div>
+                <div class="neon-bar-track">
+                    <div class="neon-bar-fill yellow" style="width: 31%;">
+                        <span class="neon-bar-value">9</span>
                     </div>
                 </div>
             </div>
-            <div class="bar-row">
-                <div class="bar-label">Инструменты</div>
-                <div class="bar-track">
-                    <div class="bar-fill sage" style="width: 16%;">
-                        <span class="bar-value">17</span>
+            <div class="neon-bar-row">
+                <div class="neon-bar-label">GitHub</div>
+                <div class="neon-bar-track">
+                    <div class="neon-bar-fill yellow" style="width: 31%;">
+                        <span class="neon-bar-value">9</span>
+                    </div>
+                </div>
+            </div>
+            <div class="neon-bar-row">
+                <div class="neon-bar-label">Meta</div>
+                <div class="neon-bar-track">
+                    <div class="neon-bar-fill cyan" style="width: 27%;">
+                        <span class="neon-bar-value">8</span>
+                    </div>
+                </div>
+            </div>
+            <div class="neon-bar-row">
+                <div class="neon-bar-label">JetBrains</div>
+                <div class="neon-bar-track">
+                    <div class="neon-bar-fill pink" style="width: 24%;">
+                        <span class="neon-bar-value">7</span>
                     </div>
                 </div>
             </div>
@@ -787,98 +860,41 @@
 
 <section class="section">
     <div class="container">
-        <div class="section-header fade-in">
-            <span class="section-number">IV</span>
-            <h2 class="section-title">Гонка AI-гигантов</h2>
+        <div class="section-header fade-up">
+            <div class="section-number">// 003</div>
+            <h2 class="section-title">КЛАССИФИКАЦИЯ <span>ТЕМ</span></h2>
         </div>
 
-        <div class="bar-chart fade-in">
-            <div class="bar-row">
-                <div class="bar-label">OpenAI</div>
-                <div class="bar-track">
-                    <div class="bar-fill gold" style="width: 100%;">
-                        <span class="bar-value">18 тем</span>
-                    </div>
-                </div>
+        <div class="hex-grid fade-up">
+            <div class="hex-item">
+                <div class="hex-icon">🚀</div>
+                <div class="hex-name">РЕЛИЗЫ</div>
+                <div class="hex-count">106</div>
             </div>
-            <div class="bar-row">
-                <div class="bar-label">Anthropic</div>
-                <div class="bar-track">
-                    <div class="bar-fill" style="width: 50%;">
-                        <span class="bar-value">9 тем</span>
-                    </div>
-                </div>
+            <div class="hex-item">
+                <div class="hex-icon">📰</div>
+                <div class="hex-name">НОВОСТИ</div>
+                <div class="hex-count">73</div>
             </div>
-            <div class="bar-row">
-                <div class="bar-label">Meta AI</div>
-                <div class="bar-track">
-                    <div class="bar-fill rust" style="width: 44%;">
-                        <span class="bar-value">8 тем</span>
-                    </div>
-                </div>
+            <div class="hex-item">
+                <div class="hex-icon">💭</div>
+                <div class="hex-name">МНЕНИЯ</div>
+                <div class="hex-count">33</div>
             </div>
-            <div class="bar-row">
-                <div class="bar-label">Google AI</div>
-                <div class="bar-track">
-                    <div class="bar-fill sage" style="width: 33%;">
-                        <span class="bar-value">6 тем</span>
-                    </div>
-                </div>
+            <div class="hex-item">
+                <div class="hex-icon">⚡</div>
+                <div class="hex-name">ИНЦИДЕНТЫ</div>
+                <div class="hex-count">33</div>
             </div>
-        </div>
-
-        <div class="pull-quote fade-in">
-            <p>2024 — год, когда OpenAI выпустил GPT-4o и o1, Anthropic представил Claude 3.5 Sonnet, а Meta открыла Llama 3</p>
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <div class="section-header fade-in">
-            <span class="section-number">V</span>
-            <h2 class="section-title">Настроение эфиров</h2>
-        </div>
-
-        <div class="sentiment-section fade-in">
-            <div class="sentiment-bars">
-                <div class="sentiment-row">
-                    <span class="sentiment-emoji">😊</span>
-                    <div class="sentiment-track">
-                        <div class="sentiment-fill positive" style="width: 50%;">
-                            <span class="sentiment-text">142 (50%)</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="sentiment-row">
-                    <span class="sentiment-emoji">😤</span>
-                    <div class="sentiment-track">
-                        <div class="sentiment-fill negative" style="width: 20%;">
-                            <span class="sentiment-text">58 (20%)</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="sentiment-row">
-                    <span class="sentiment-emoji">😐</span>
-                    <div class="sentiment-track">
-                        <div class="sentiment-fill neutral" style="width: 16%;">
-                            <span class="sentiment-text">46 (16%)</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="sentiment-row">
-                    <span class="sentiment-emoji">🤔</span>
-                    <div class="sentiment-track">
-                        <div class="sentiment-fill mixed" style="width: 13%;">
-                            <span class="sentiment-text">37 (13%)</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="hex-item">
+                <div class="hex-icon">📊</div>
+                <div class="hex-name">АНАЛИТИКА</div>
+                <div class="hex-count">21</div>
             </div>
-
-            <div class="sentiment-summary">
-                <h4>Позитивный год</h4>
-                <p>Половина обсуждаемых тем 2024 года были позитивными — в основном благодаря обилию интересных релизов и новых технологий. Негатив (20%) в основном связан с инцидентами безопасности и корпоративными скандалами.</p>
+            <div class="hex-item">
+                <div class="hex-icon">🛠️</div>
+                <div class="hex-name">TOOLS</div>
+                <div class="hex-count">17</div>
             </div>
         </div>
     </div>
@@ -886,79 +902,43 @@
 
 <section class="section">
     <div class="container">
-        <div class="section-header fade-in">
-            <span class="section-number">VI</span>
-            <h2 class="section-title">Главные события года</h2>
+        <div class="section-header fade-up">
+            <div class="section-number">// 004</div>
+            <h2 class="section-title">AI <span>ВОЙНА</span></h2>
         </div>
 
-        <div class="timeline fade-in">
-            <div class="timeline-item">
-                <div class="timeline-date">Январь</div>
-                <div class="timeline-title">Apple Vision Pro выходит в продажу</div>
-                <div class="timeline-desc">Первая VR/AR гарнитура Apple — самая обсуждаемая тема начала года</div>
+        <div class="neon-bars fade-up">
+            <div class="neon-bar-row">
+                <div class="neon-bar-label">OpenAI</div>
+                <div class="neon-bar-track">
+                    <div class="neon-bar-fill pink" style="width: 100%;">
+                        <span class="neon-bar-value">18 тем</span>
+                    </div>
+                </div>
             </div>
-            <div class="timeline-item">
-                <div class="timeline-date">Март</div>
-                <div class="timeline-title">Claude 3 обходит GPT-4</div>
-                <div class="timeline-desc">Anthropic впервые занимает первое место в бенчмарках</div>
+            <div class="neon-bar-row">
+                <div class="neon-bar-label">Anthropic</div>
+                <div class="neon-bar-track">
+                    <div class="neon-bar-fill cyan" style="width: 50%;">
+                        <span class="neon-bar-value">9 тем</span>
+                    </div>
+                </div>
             </div>
-            <div class="timeline-item">
-                <div class="timeline-date">Апрель</div>
-                <div class="timeline-title">Meta выпускает Llama 3</div>
-                <div class="timeline-desc">Самая мощная открытая языковая модель на момент выхода</div>
+            <div class="neon-bar-row">
+                <div class="neon-bar-label">Meta AI</div>
+                <div class="neon-bar-track">
+                    <div class="neon-bar-fill purple" style="width: 44%;">
+                        <span class="neon-bar-value">8 тем</span>
+                    </div>
+                </div>
             </div>
-            <div class="timeline-item">
-                <div class="timeline-date">Май</div>
-                <div class="timeline-title">GPT-4o и Google I/O</div>
-                <div class="timeline-desc">OpenAI представляет мультимодальную модель, Google отвечает Gemini 1.5</div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">Июнь</div>
-                <div class="timeline-title">WWDC 2024: Apple Intelligence</div>
-                <div class="timeline-desc">Apple наконец интегрирует AI в свои устройства</div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">Июль</div>
-                <div class="timeline-title">CrowdStrike выводит из строя миллионы ПК</div>
-                <div class="timeline-desc">Крупнейший IT-инцидент года — один апдейт парализует бизнесы по всему миру</div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">Сентябрь</div>
-                <div class="timeline-title">OpenAI o1 с «рассуждениями»</div>
-                <div class="timeline-desc">Новый подход к AI — модель, которая «думает» перед ответом</div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">Октябрь</div>
-                <div class="timeline-title">Claude использует компьютер</div>
-                <div class="timeline-desc">Anthropic показывает AI, который может управлять десктопом</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section" style="background: var(--bg-cream);">
-    <div class="container">
-        <div class="section-header fade-in">
-            <span class="section-number">VII</span>
-            <h2 class="section-title">Прочее интересное</h2>
-        </div>
-
-        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px;" class="fade-in">
-            <div style="background: var(--bg-card); padding: 30px; border: 1px solid var(--border);">
-                <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--navy-dark); margin-bottom: 16px;">📺 Самая долгая тема</h4>
-                <p style="color: var(--text-secondary); font-size: 0.95rem;">WWDC 2024 — обсуждали <strong>78 минут</strong></p>
-            </div>
-            <div style="background: var(--bg-card); padding: 30px; border: 1px solid var(--border);">
-                <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--navy-dark); margin-bottom: 16px;">🎙️ Самый насыщенный выпуск</h4>
-                <p style="color: var(--text-secondary); font-size: 0.95rem;">Выпуск #898 — <strong>9 тем</strong> за эфир</p>
-            </div>
-            <div style="background: var(--bg-card); padding: 30px; border: 1px solid var(--border);">
-                <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--navy-dark); margin-bottom: 16px;">💀 RIP 2024</h4>
-                <p style="color: var(--text-secondary); font-size: 0.95rem;">ICQ, Cortana, Humane AI Pin, Apple Car Project</p>
-            </div>
-            <div style="background: var(--bg-card); padding: 30px; border: 1px solid var(--border);">
-                <h4 style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--navy-dark); margin-bottom: 16px;">🔥 Главный скандал</h4>
-                <p style="color: var(--text-secondary); font-size: 0.95rem;">WordPress vs WP Engine — война Мэтта Мулленвега</p>
+            <div class="neon-bar-row">
+                <div class="neon-bar-label">Google AI</div>
+                <div class="neon-bar-track">
+                    <div class="neon-bar-fill yellow" style="width: 33%;">
+                        <span class="neon-bar-value">6 тем</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -966,12 +946,140 @@
 
 <section class="section">
     <div class="container">
-        <div class="section-header fade-in">
-            <span class="section-number">VIII</span>
-            <h2 class="section-title">Темы по месяцам</h2>
+        <div class="section-header fade-up">
+            <div class="section-number">// 005</div>
+            <h2 class="section-title">ЭМОЦИОНАЛЬНЫЙ <span>СПЕКТР</span></h2>
         </div>
 
-        <div class="chart-container fade-in">
+        <div class="sentiment-grid fade-up">
+            <div class="sentiment-meter">
+                <div class="sentiment-emoji">😊</div>
+                <div class="sentiment-bar-v">
+                    <div class="sentiment-fill-v positive" style="height: 100%;"></div>
+                </div>
+                <div class="sentiment-value">142</div>
+                <div class="sentiment-label">Позитив</div>
+            </div>
+            <div class="sentiment-meter">
+                <div class="sentiment-emoji">😤</div>
+                <div class="sentiment-bar-v">
+                    <div class="sentiment-fill-v negative" style="height: 41%;"></div>
+                </div>
+                <div class="sentiment-value">58</div>
+                <div class="sentiment-label">Негатив</div>
+            </div>
+            <div class="sentiment-meter">
+                <div class="sentiment-emoji">😐</div>
+                <div class="sentiment-bar-v">
+                    <div class="sentiment-fill-v neutral" style="height: 32%;"></div>
+                </div>
+                <div class="sentiment-value">46</div>
+                <div class="sentiment-label">Нейтрал</div>
+            </div>
+            <div class="sentiment-meter">
+                <div class="sentiment-emoji">🤔</div>
+                <div class="sentiment-bar-v">
+                    <div class="sentiment-fill-v mixed" style="height: 26%;"></div>
+                </div>
+                <div class="sentiment-value">37</div>
+                <div class="sentiment-label">Смешанный</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-header fade-up">
+            <div class="section-number">// 006</div>
+            <h2 class="section-title">ХРОНОЛОГИЯ <span>СОБЫТИЙ</span></h2>
+        </div>
+
+        <div class="timeline fade-up">
+            <div class="timeline-item">
+                <div class="timeline-date">// ЯНВАРЬ</div>
+                <div class="timeline-title">Apple Vision Pro</div>
+                <div class="timeline-desc">Первая VR/AR гарнитура Apple выходит в продажу — $3499 за будущее</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">// МАРТ</div>
+                <div class="timeline-title">Claude 3 > GPT-4</div>
+                <div class="timeline-desc">Anthropic впервые обходит OpenAI в бенчмарках</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">// АПРЕЛЬ</div>
+                <div class="timeline-title">Meta Llama 3</div>
+                <div class="timeline-desc">Самая мощная открытая модель на момент релиза</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">// МАЙ</div>
+                <div class="timeline-title">GPT-4o + Google I/O</div>
+                <div class="timeline-desc">Мультимодальный AI и битва презентаций</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">// ИЮНЬ</div>
+                <div class="timeline-title">WWDC: Apple Intelligence</div>
+                <div class="timeline-desc">Apple наконец вступает в AI-гонку</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">// ИЮЛЬ</div>
+                <div class="timeline-title">CrowdStrike Incident</div>
+                <div class="timeline-desc">Один апдейт выводит из строя миллионы Windows-машин</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">// СЕНТЯБРЬ</div>
+                <div class="timeline-title">OpenAI o1 «Reasoning»</div>
+                <div class="timeline-desc">AI, который «думает» перед ответом</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">// ОКТЯБРЬ</div>
+                <div class="timeline-title">Claude Computer Use</div>
+                <div class="timeline-desc">AI берёт управление десктопом</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-header fade-up">
+            <div class="section-number">// 007</div>
+            <h2 class="section-title">ИНТЕРЕСНЫЕ <span>ФАКТЫ</span></h2>
+        </div>
+
+        <div class="facts-grid fade-up">
+            <div class="fact-card">
+                <div class="fact-icon">📺</div>
+                <div class="fact-title">LONGEST_TOPIC</div>
+                <div class="fact-text">WWDC 2024 — обсуждали <strong>78 минут</strong></div>
+            </div>
+            <div class="fact-card">
+                <div class="fact-icon">🎙️</div>
+                <div class="fact-title">MAX_DENSITY_EPISODE</div>
+                <div class="fact-text">Выпуск #898 — <strong>9 тем</strong> за эфир</div>
+            </div>
+            <div class="fact-card">
+                <div class="fact-icon">💀</div>
+                <div class="fact-title">RIP_2024</div>
+                <div class="fact-text">ICQ, Cortana, Humane AI Pin, Apple Car</div>
+            </div>
+            <div class="fact-card">
+                <div class="fact-icon">🔥</div>
+                <div class="fact-title">SCANDAL_OF_YEAR</div>
+                <div class="fact-text">WordPress vs WP Engine — <strong>война Мэтта</strong></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-header fade-up">
+            <div class="section-number">// 008</div>
+            <h2 class="section-title">МЕСЯЧНЫЙ <span>ГРАФИК</span></h2>
+        </div>
+
+        <div class="chart-container fade-up">
             <canvas id="monthlyChart" height="300"></canvas>
         </div>
     </div>
@@ -979,33 +1087,27 @@
 
 <footer class="footer">
     <div class="container">
-        <div class="footer-logo">Радио-Т</div>
+        <div class="footer-logo">РАДИО-Т</div>
         <p class="footer-text">
-            Еженедельный подкаст о технологиях с 2005 года<br>
+            Еженедельный подкаст с 2005 года<br>
             <a href="https://radio-t.com" class="footer-link">radio-t.com</a>
         </p>
     </div>
 </footer>
 
 <script>
-// Fade in on scroll
-const observerOptions = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.1
-};
-
+// Scroll animations
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('visible');
         }
     });
-}, observerOptions);
+}, { threshold: 0.1 });
 
-document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
-// Monthly chart
+// Chart
 const ctx = document.getElementById('monthlyChart');
 if (ctx) {
     new Chart(ctx, {
@@ -1013,12 +1115,14 @@ if (ctx) {
         data: {
             labels: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн', 'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек'],
             datasets: [{
-                label: 'Количество тем',
+                label: 'Темы',
                 data: [22, 25, 28, 24, 26, 22, 20, 24, 28, 26, 20, 18],
-                backgroundColor: '#c9a227',
-                borderColor: '#9a7b1c',
-                borderWidth: 1,
-                borderRadius: 2
+                backgroundColor: 'rgba(255, 42, 109, 0.8)',
+                borderColor: '#ff2a6d',
+                borderWidth: 2,
+                borderRadius: 0,
+                hoverBackgroundColor: '#ff2a6d',
+                hoverBorderColor: '#05d9e8'
             }]
         },
         options: {
@@ -1030,12 +1134,18 @@ if (ctx) {
             scales: {
                 y: {
                     beginAtZero: true,
-                    grid: { color: '#e5e1d8' },
-                    ticks: { font: { family: 'Source Serif 4' } }
+                    grid: { color: 'rgba(5, 217, 232, 0.1)' },
+                    ticks: {
+                        color: 'rgba(255,255,255,0.6)',
+                        font: { family: 'Share Tech Mono' }
+                    }
                 },
                 x: {
                     grid: { display: false },
-                    ticks: { font: { family: 'Source Serif 4' } }
+                    ticks: {
+                        color: 'rgba(255,255,255,0.6)',
+                        font: { family: 'Share Tech Mono' }
+                    }
                 }
             }
         }
