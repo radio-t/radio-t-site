@@ -467,6 +467,9 @@ $jumbotron-arc-width: 120%;
         margin-left: $grid-gutter-width * 0.5;
       }
     }
+    li.active .podcast-topic-label {
+      font-style: italic;
+    }
     @include media-breakpoint-down('sm') {
       margin-top: $spacer * 1.5 !important;
       padding-top: $spacer * 1.5 !important;

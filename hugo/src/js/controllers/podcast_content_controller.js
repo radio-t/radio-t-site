@@ -1,14 +1,54 @@
-import find from 'lodash/find';
+import { throttle, find } from 'lodash';
 
 import Controller from '../base_controller';
-import { composeTime, parseTime } from '../utils';
+import { composeTime, parseTime, getLocalStorage } from '../utils';
+import ClosestMap from '../closest_map';
 
 export default class extends Controller {
+  timeToTopic = new ClosestMap();
+  activeTopic = null;
+  podcastNumber = null;
+
+  initialize() {
+    super.initialize();
+    this.podcastNumber = Number(
+      this.element.closest('.post-podcast').querySelector('.podcast-title-number').innerText
+    );
+    this.subscribe(
+      `playing-progress-${this.podcastNumber}`,
+      throttle(this.updateActiveTopic.bind(this), 1000)
+    );
+  }
+
   connect() {
     super.connect();
     this.timeLabels();
     this.removeFirstImage();
+    this.setInitialActiveTopic();
     this.element.classList.remove('no-js');
+  }
+
+  setInitialActiveTopic() {
+    const podcasts = getLocalStorage(`podcasts`) || {};
+    if (podcasts[this.podcastNumber]) {
+      const { currentTime } = podcasts[this.podcastNumber];
+      this.updateActiveTopic({ currentTime });
+    }
+  }
+
+  updateActiveTopic({ currentTime = 0 }) {
+    const currentTopic = this.timeToTopic.getFloor(currentTime);
+
+    if (!currentTopic || currentTopic === this.activeTopic) {
+      return;
+    }
+
+    if (this.activeTopic) {
+      this.activeTopic.classList.remove('active');
+    }
+
+    this.activeTopic = currentTopic;
+    currentTopic.classList.add('active');
   }
 
   removeFirstImage() {
@@ -31,7 +71,9 @@ export default class extends Controller {
 
       if (timeLabel) {
         timeLabel.remove();
-        timeLabel.textContent = composeTime(parseTime(timeLabel.textContent));
+        const time = parseTime(timeLabel.textContent);
+        this.timeToTopic.add(time, li);
+        timeLabel.textContent = composeTime(time);
         timeLabel.dataset.action = `click->podcast#goToTimeLabel`;
         const icon = document.createElement('i');
         icon.innerHTML = `<svg width="18" height="18" viewBox="0 0 512 512"><use xlink:href="#icon-forward-step" /></svg>`;
