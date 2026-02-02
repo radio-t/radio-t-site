@@ -22,29 +22,52 @@ func TestRSSGenerator_MakeFeed(t *testing.T) {
 
 	posts, err := s.ReadPosts()
 	require.NoError(t, err)
-	res, err := g.MakeFeed(FeedConfig{
-		Name:            "name1",
-		Title:           "title1",
-		Image:           "image1",
-		Count:           10,
-		Size:            false,
-		FeedSubtitle:    "sub",
-		FeedDescription: "desc",
-	}, posts)
-	require.NoError(t, err)
-	t.Logf("%+v", res)
-	require.Equal(t, 2, len(res.Items))
-	assert.Equal(t, "https://radio-t.com/p/2023/12/23/podcast-889/", res.Items[0].URL)
-	assert.Equal(t, "Радио-Т 889", res.Items[0].Title)
-	assert.Equal(t, "https://radio-t.com/images/radio-t/rt889.jpg", res.Items[0].Image)
-	assert.Equal(t, "https://cdn.rucast.net/rt_podcast889.mp3", res.Items[0].EnclosureURL)
-	assert.Equal(t, 0, res.Items[0].FileSize)
-	assert.Contains(t, res.Items[0].Description, "00:08:46 <a href")
-	assert.Contains(t, res.Items[0].Description, "Apple останавливает продажи часов")
-	assert.NotContains(t, res.Items[0].Description, " - <em>")
-	assert.Contains(t, res.Items[0].Summary, "Apple останавливает продажи часов")
 
-	assert.Equal(t, "https://radio-t.com/p/2023/03/18/podcast-850/", res.Items[1].URL)
+	t.Run("with count limit", func(t *testing.T) {
+		res, err := g.MakeFeed(FeedConfig{
+			Name:            "name1",
+			Title:           "title1",
+			Image:           "image1",
+			Count:           10,
+			Size:            false,
+			FeedSubtitle:    "sub",
+			FeedDescription: "desc",
+		}, posts)
+		require.NoError(t, err)
+		t.Logf("%+v", res)
+		require.Equal(t, 2, len(res.Items))
+		assert.Equal(t, "https://radio-t.com/p/2023/12/23/podcast-889/", res.Items[0].URL)
+		assert.Equal(t, "Радио-Т 889", res.Items[0].Title)
+		assert.Equal(t, "https://radio-t.com/images/radio-t/rt889.jpg", res.Items[0].Image)
+		assert.Equal(t, "https://cdn.rucast.net/rt_podcast889.mp3", res.Items[0].EnclosureURL)
+		assert.Equal(t, 0, res.Items[0].FileSize)
+		assert.Contains(t, res.Items[0].Description, "00:08:46 <a href")
+		assert.Contains(t, res.Items[0].Description, "Apple останавливает продажи часов")
+		assert.NotContains(t, res.Items[0].Description, " - <em>")
+		assert.Contains(t, res.Items[0].Summary, "Apple останавливает продажи часов")
+
+		assert.Equal(t, "https://radio-t.com/p/2023/03/18/podcast-850/", res.Items[1].URL)
+	})
+
+	t.Run("with count=1 limits to one item", func(t *testing.T) {
+		res, err := g.MakeFeed(FeedConfig{
+			Name:  "limited",
+			Title: "Limited Feed",
+			Count: 1,
+		}, posts)
+		require.NoError(t, err)
+		assert.Equal(t, 1, len(res.Items), "count=1 should limit to exactly 1 item")
+	})
+
+	t.Run("with count=0 returns all items (unlimited)", func(t *testing.T) {
+		res, err := g.MakeFeed(FeedConfig{
+			Name:  "unlimited",
+			Title: "Unlimited Feed",
+			Count: 0,
+		}, posts)
+		require.NoError(t, err)
+		assert.Equal(t, 2, len(res.Items), "count=0 should return all podcast items")
+	})
 }
 
 func TestRSSGenerator_getMp3Size(t *testing.T) {
@@ -310,7 +333,7 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		assert.Equal(t, "https://example.com/cover.jpg", res.Image)
 		assert.Equal(t, "https://cdn.com/test_podcast.mp3", res.EnclosureURL)
 		assert.Equal(t, 0, res.FileSize)
-		
+
 		// check ItunesSubtitle has original format
 		assert.Equal(t, "Вступление - 00:00:00. Apple останавливает продажи часов - 00:08:46. Весь код это технический долг - 00:27:21. Темы слушателей - 01:51:51.", res.ItunesSubtitle)
 	})

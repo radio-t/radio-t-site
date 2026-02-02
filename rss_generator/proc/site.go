@@ -63,7 +63,7 @@ func (h *HugoSite) ReadPosts() ([]Post, error) {
 func (h *HugoSite) parsePodcastMdFile(filePath string) (Post, error) {
 	var post Post
 	var configLines []string
-	file, err := os.Open(filePath)
+	file, err := os.Open(filePath) //nolint:gosec // path from filepath.Walk, not user input
 	if err != nil {
 		return post, err
 	}
@@ -84,13 +84,13 @@ func (h *HugoSite) parsePodcastMdFile(filePath string) (Post, error) {
 		}
 	}
 
-	if err := scanner.Err(); err != nil {
-		return post, err
+	if scanErr := scanner.Err(); scanErr != nil {
+		return post, scanErr
 	}
 
 	tomlData := strings.Join(configLines, "\n")
-	if _, err := toml.Decode(tomlData, &post.Config); err != nil {
-		return post, err
+	if _, decodeErr := toml.Decode(tomlData, &post.Config); decodeErr != nil {
+		return post, decodeErr
 	}
 
 	if dateStr, ok := post.Config["date"].(string); ok {
