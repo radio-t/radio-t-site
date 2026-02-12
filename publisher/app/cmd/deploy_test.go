@@ -23,5 +23,5 @@ func TestDeploy_Do(t *testing.T) {
 
 	assert.Equal(t, `ssh umputun@master.radio-t.com`, ex.RunCalls()[1].Cmd)
 	assert.Equal(t, 1, len(ex.RunCalls()[1].Params))
-	assert.Equal(t, `"cd /srv/site.hugo && git pull && docker-compose run --rm hugo"`, ex.RunCalls()[1].Params[0])
+	assert.Equal(t, `"cd /srv/site.hugo && git pull && docker compose run --rm hugo"`, ex.RunCalls()[1].Params[0])
 }
