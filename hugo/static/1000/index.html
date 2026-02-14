@@ -14,7 +14,7 @@
   --border:rgba(255,190,60,0.08);--border-strong:rgba(255,190,60,0.15);
   --gold:#f0b030;--gold-dim:#c89020;--gold-glow:rgba(240,176,48,0.3);
   --fg:#e8e4dc;--fg-dim:#9a9690;--fg-muted:#5a5650;
-  --red:#e63946;--blue:#5b8fb9;--green:#6a994e;--yellow:#e9c46a;--orange:#f77f00;--purple:#9d7bcd;--cyan:#56b4d3;
+  --red:#e63946;--blue:#5b8fb9;--green:#6a994e;--yellow:#e9c46a;--orange:#f77f00;--purple:#9d7bcd;--cyan:#56b4d3;--pink:#e87ba4;--orchid:#da70d6;--teal:#20c997;
   --font-display:'Playfair Display',Georgia,serif;
   --font-body:'Onest',system-ui,sans-serif;
   --font-mono:'JetBrains Mono','SF Mono',monospace;
@@ -208,12 +208,12 @@ body::before{content:'';position:fixed;inset:0;background:url("data:image/svg+xm
 .ht-label-left{padding-left:0;padding-right:6px;text-align:right}
 .ht-line.c-red{background:var(--red);box-shadow:0 0 8px rgba(230,57,70,0.4)}
 .ht-line.c-blue{background:var(--blue);box-shadow:0 0 8px rgba(91,143,185,0.4)}
-.ht-line.c-cyan{background:var(--cyan);box-shadow:0 0 8px rgba(86,180,211,0.3)}
+.ht-line.c-teal{background:var(--teal);box-shadow:0 0 8px rgba(32,201,151,0.4)}
 .ht-line.c-green{background:var(--green);box-shadow:0 0 8px rgba(106,153,78,0.4)}
-.ht-line.c-lavale{background:#8b6f8e;box-shadow:0 0 8px rgba(139,111,142,0.3)}
-.ht-line.c-orange{background:var(--orange);box-shadow:0 0 8px rgba(247,127,0,0.3)}
+.ht-line.c-orchid{background:var(--orchid);box-shadow:0 0 8px rgba(218,112,214,0.4)}
 .ht-line.c-yellow{background:var(--yellow);box-shadow:0 0 8px rgba(233,196,106,0.4)}
 .ht-line.c-purple{background:var(--purple);box-shadow:0 0 8px rgba(157,123,205,0.4)}
+.ht-line.c-pink{background:var(--pink);box-shadow:0 0 8px rgba(232,123,164,0.4)}
 
 /* REVEAL */
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
@@ -482,7 +482,7 @@ function smooth(arr,w){const out=[];for(let i=0;i<arr.length;i++){let s=0,n=0;fo
 
 const labels=D.episodes;
 const cc=(b,a)=>b+a+')';
-const red='rgba(230,57,70,',blue='rgba(91,143,185,',green='rgba(106,153,78,',yellow='rgba(233,196,106,',purple='rgba(157,123,205,',gold='rgba(240,176,48,',orange='rgba(247,127,0,',cyan='rgba(86,180,211,';
+const red='rgba(230,57,70,',blue='rgba(91,143,185,',green='rgba(106,153,78,',yellow='rgba(233,196,106,',purple='rgba(157,123,205,',gold='rgba(240,176,48,',orange='rgba(247,127,0,',cyan='rgba(86,180,211,',pink='rgba(232,123,164,',orchid='rgba(218,112,214,',teal='rgba(32,201,151,';
 const hostColorMap={Umputun:blue,Bobuk:red,Gray:green,Ksenks:yellow,'Alek.sys':purple};
 const gridColor='rgba(255,190,60,0.04)';
 
@@ -525,7 +525,7 @@ hostData.forEach(h=>{
 const presColorMap={
   'Bobuk':'var(--red)','Umputun':'var(--blue)','Gray':'var(--green)',
   'Ksenks':'var(--yellow)','Alek.sys':'var(--purple)',
-  'Olyapka':'var(--cyan)','Marin_k_a':'var(--orange)','Lavale':'#8b6f8e'
+  'Olyapka':'var(--teal)','Marin_k_a':'var(--orchid)','Lavale':'var(--pink)'
 };
 const presChart=document.getElementById('presenceChart');
 const presHosts=D.presence.presence_hosts;
@@ -577,9 +577,9 @@ new Chart(document.getElementById('chartHostsArea'),{type:'line',data:{labels,da
   {label:'Gray',data:smooth(D.host_Gray,15),fill:true,backgroundColor:cc(green,'0.55'),borderColor:cc(green,'0.8'),borderWidth:1,pointRadius:0,tension:.3},
   {label:'Ksenks',data:smooth(D.host_Ksenks,15),fill:true,backgroundColor:cc(yellow,'0.55'),borderColor:cc(yellow,'0.8'),borderWidth:1,pointRadius:0,tension:.3},
   {label:'Alek.sys',data:smooth(D.host_Alek_sys,15),fill:true,backgroundColor:cc(purple,'0.55'),borderColor:cc(purple,'0.8'),borderWidth:1,pointRadius:0,tension:.3},
-  {label:'Olyapka',data:smooth(D.host_Olyapka,15),fill:true,backgroundColor:'rgba(219,112,147,0.55)',borderColor:'rgba(219,112,147,0.8)',borderWidth:1,pointRadius:0,tension:.3},
-  {label:'Lavale',data:smooth(D.host_Lavale,15),fill:true,backgroundColor:'rgba(139,111,142,0.55)',borderColor:'rgba(139,111,142,0.8)',borderWidth:1,pointRadius:0,tension:.3},
-  {label:'Marin_k_a',data:smooth(D.host_Marin_k_a,15),fill:true,backgroundColor:cc(orange,'0.55'),borderColor:cc(orange,'0.8'),borderWidth:1,pointRadius:0,tension:.3},
+  {label:'Olyapka',data:smooth(D.host_Olyapka,15),fill:true,backgroundColor:cc(teal,'0.55'),borderColor:cc(teal,'0.8'),borderWidth:1,pointRadius:0,tension:.3},
+  {label:'Lavale',data:smooth(D.host_Lavale,15),fill:true,backgroundColor:cc(pink,'0.55'),borderColor:cc(pink,'0.8'),borderWidth:1,pointRadius:0,tension:.3},
+  {label:'Marin_k_a',data:smooth(D.host_Marin_k_a,15),fill:true,backgroundColor:cc(orchid,'0.55'),borderColor:cc(orchid,'0.8'),borderWidth:1,pointRadius:0,tension:.3},
 ]},options:{responsive:true,interaction:{mode:'index',intersect:false},scales:{x:{ticks:{maxTicksLimit:10},grid:{display:false}},y:{stacked:true,title:{display:true,text:'минуты'},grid:{color:gridColor}}},plugins:{legend:{position:'top'}}}});
 
 // 2. RATIO
@@ -638,10 +638,10 @@ D.eras.forEach((era,i)=>{
 const hostsTL=[
   {name:'Bobuk',start:0,end:999,cls:'c-red'},
   {name:'Umputun',start:0,end:999,cls:'c-blue'},
-  {name:'Olyapka',start:63,end:89,cls:'c-cyan'},
+  {name:'Olyapka',start:63,end:89,cls:'c-teal'},
   {name:'Gray',start:86,end:999,cls:'c-green'},
-  {name:'Lavale',start:109,end:139,cls:'c-lavale'},
-  {name:'Marin_k_a',start:145,end:303,cls:'c-orange'},
+  {name:'Lavale',start:109,end:139,cls:'c-pink'},
+  {name:'Marin_k_a',start:145,end:303,cls:'c-orchid'},
   {name:'Ksenks',start:307,end:999,cls:'c-yellow'},
   {name:'Alek.sys',start:700,end:999,cls:'c-purple'},
 ];
@@ -717,9 +717,9 @@ new Chart(document.getElementById('chartBalance'),{type:'line',data:{labels,data
 // 16. WOMEN SECTION
 const womenData=[
   {name:'Ksenks',hours:197.3,eps:564,range:'ep 301–999',color:'var(--yellow)',colorRaw:yellow,status:'ведущая',guest:'4 выпуска гостем'},
-  {name:'Marin_k_a',hours:20.1,eps:110,range:'ep 106–586',color:'var(--orange)',colorRaw:orange,status:'бывшая ведущая',guest:'2 выпуска гостем'},
-  {name:'Olyapka',hours:6.0,eps:33,range:'ep 63–586',color:'var(--cyan)',colorRaw:cyan,status:'бывшая ведущая',guest:'10 выпусков гостем'},
-  {name:'Lavale',hours:3.0,eps:25,range:'ep 109–199',color:'var(--purple)',colorRaw:purple,status:'бывшая ведущая',guest:'1 выпуск гостем'},
+  {name:'Marin_k_a',hours:20.1,eps:110,range:'ep 106–586',color:'var(--orchid)',colorRaw:orchid,status:'бывшая ведущая',guest:'2 выпуска гостем'},
+  {name:'Olyapka',hours:6.0,eps:33,range:'ep 63–586',color:'var(--teal)',colorRaw:teal,status:'бывшая ведущая',guest:'10 выпусков гостем'},
+  {name:'Lavale',hours:3.0,eps:25,range:'ep 109–199',color:'var(--pink)',colorRaw:pink,status:'бывшая ведущая',guest:'1 выпуск гостем'},
 ];
 const wc=document.getElementById('womenCards');
 womenData.forEach(w=>{
