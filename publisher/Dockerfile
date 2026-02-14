@@ -33,10 +33,11 @@ RUN \
 
 RUN \
     export SPOT_VERSION=v1.16.4 && \
-    wget https://github.com/umputun/spot/releases/download/${SPOT_VERSION}/spot_${SPOT_VERSION}_linux_amd64.apk && \
-    ls -la spot_${SPOT_VERSION}_linux_amd64.apk && \
-    apk add --allow-untrusted  spot_${SPOT_VERSION}_linux_amd64.apk && \
-    rm spot_${SPOT_VERSION}_linux_amd64.apk && \
+    ARCH=$(uname -m) && \
+    if [ "$ARCH" = "aarch64" ]; then SPOT_ARCH="arm64"; else SPOT_ARCH="amd64"; fi && \
+    wget https://github.com/umputun/spot/releases/download/${SPOT_VERSION}/spot_${SPOT_VERSION}_linux_${SPOT_ARCH}.apk && \
+    apk add --allow-untrusted spot_${SPOT_VERSION}_linux_${SPOT_ARCH}.apk && \
+    rm spot_${SPOT_VERSION}_linux_${SPOT_ARCH}.apk && \
     spot --version
 
 COPY --from=build /build/bin/publisher /usr/local/bin/publisher
