@@ -182,12 +182,13 @@ body::before{content:'';position:fixed;inset:0;background:url("data:image/svg+xm
 .guest-hours-lbl{font-family:var(--font-mono);font-size:10px;color:var(--fg-muted);text-transform:uppercase;text-align:right}
 
 /* ERAS */
-.eras-strip{display:flex;height:56px;border-radius:8px;overflow:hidden;margin-bottom:20px}
-.era-segment{display:flex;align-items:center;justify-content:center;flex-direction:column;transition:opacity .2s;cursor:default}
-.eras-strip:hover .era-segment{opacity:0.5}
-.eras-strip:hover .era-segment:hover{opacity:1}
-.era-label{font-family:var(--font-body);font-weight:600;font-size:14px;color:var(--bg-deep)}
-.era-range{font-family:var(--font-mono);font-size:10px;color:rgba(10,10,18,0.6)}
+.eras-strip{display:flex;height:80px;border-radius:12px;overflow:hidden;box-shadow:0 8px 40px rgba(0,0,0,0.4);position:relative;z-index:2}
+.era-segment{display:flex;align-items:center;justify-content:center;flex-direction:column;transition:all .4s ease;cursor:pointer;position:relative;overflow:hidden}
+.era-segment::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg, rgba(255,255,255,0.2) 0%, transparent 40%, rgba(0,0,0,0.15) 100%)}
+.eras-strip:hover .era-segment{opacity:0.35;filter:blur(1px)}
+.eras-strip:hover .era-segment:hover{opacity:1;filter:blur(0)}
+.era-label{font-family:var(--font-body);font-weight:600;font-size:14px;color:var(--bg-deep);z-index:1}
+.era-range{font-family:var(--font-mono);font-size:10px;color:rgba(10,10,18,0.6);z-index:1;margin-top:2px}
 .eras-detail{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 @media(max-width:768px){.eras-detail{grid-template-columns:repeat(2,1fr)}}
 .era-card{background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:16px;position:relative;overflow:hidden;transition:border-color .2s}
@@ -196,13 +197,23 @@ body::before{content:'';position:fixed;inset:0;background:url("data:image/svg+xm
 .era-card-name{font-family:var(--font-display);font-weight:700;font-size:20px;color:var(--fg);margin-top:4px}
 .era-card-range{font-family:var(--font-mono);font-size:12px;color:var(--fg-muted);margin-top:4px}
 .era-card-hosts{font-family:var(--font-body);font-size:13px;color:var(--fg-dim);margin-top:8px;font-weight:300;line-height:1.6}
-.hosts-timeline{margin-top:12px;margin-bottom:20px}
-.ht-row{position:relative;height:26px;margin-bottom:2px;display:flex;align-items:center}
-.ht-bar{position:absolute;height:18px;border-radius:4px;opacity:0.7;transition:opacity .2s}
-.ht-bar:hover{opacity:1}
-.ht-bar.departed{opacity:0.45}
-.ht-bar.departed:hover{opacity:0.8}
-.ht-label{position:absolute;font-family:var(--font-mono);font-size:11px;color:var(--fg-dim);white-space:nowrap;padding-left:8px}
+.hosts-timeline{position:relative;overflow-x:visible;overflow-y:hidden;transition:opacity .3s ease;opacity:0;margin-top:8px;margin-bottom:12px;height:84px}
+.hosts-timeline.visible{opacity:1}
+.ht-era{display:none}
+.ht-era.active{display:block}
+.ht-row{position:relative;height:12px;margin-bottom:2px;display:flex;align-items:center;overflow:visible}
+.ht-line{position:absolute;height:4px;border-radius:2px;transition:all .25s ease}
+.ht-line:hover{height:7px;margin-top:-1.5px}
+.ht-label{position:absolute;top:50%;transform:translateY(-50%);font-family:var(--font-mono);font-size:10px;color:var(--fg-dim);white-space:nowrap;padding-left:6px}
+.ht-label-left{padding-left:0;padding-right:6px;text-align:right}
+.ht-line.c-red{background:var(--red);box-shadow:0 0 8px rgba(230,57,70,0.4)}
+.ht-line.c-blue{background:var(--blue);box-shadow:0 0 8px rgba(91,143,185,0.4)}
+.ht-line.c-cyan{background:var(--cyan);box-shadow:0 0 8px rgba(86,180,211,0.3)}
+.ht-line.c-green{background:var(--green);box-shadow:0 0 8px rgba(106,153,78,0.4)}
+.ht-line.c-lavale{background:#8b6f8e;box-shadow:0 0 8px rgba(139,111,142,0.3)}
+.ht-line.c-orange{background:var(--orange);box-shadow:0 0 8px rgba(247,127,0,0.3)}
+.ht-line.c-yellow{background:var(--yellow);box-shadow:0 0 8px rgba(233,196,106,0.4)}
+.ht-line.c-purple{background:var(--purple);box-shadow:0 0 8px rgba(157,123,205,0.4)}
 
 /* REVEAL */
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
@@ -292,7 +303,12 @@ body::before{content:'';position:fixed;inset:0;background:url("data:image/svg+xm
       <div class="section-subtitle">От дуэта до квинтета — эволюция состава ведущих</div>
     </div>
     <div class="eras-strip reveal" id="erasStrip"></div>
-    <div class="hosts-timeline reveal" id="hostsTimeline"></div>
+    <div class="hosts-timeline reveal" id="hostsTimeline">
+      <div class="ht-era" data-era="0"></div>
+      <div class="ht-era" data-era="1"></div>
+      <div class="ht-era" data-era="2"></div>
+      <div class="ht-era" data-era="3"></div>
+    </div>
     <div class="eras-detail reveal" id="erasDetail"></div>
   </div>
 </section>
@@ -611,30 +627,56 @@ D.top20_names.forEach((name,i)=>{
 // 11. ERAS
 const erasStrip=document.getElementById('erasStrip');
 const erasDetail=document.getElementById('erasDetail');
-D.eras.forEach(era=>{
+D.eras.forEach((era,i)=>{
   const width=((era.end-era.start+1)/1000*100).toFixed(1);
-  erasStrip.innerHTML+=`<div class="era-segment" style="width:${width}%;background:${era.color}"><div class="era-label">${era.name}</div><div class="era-range">${era.years}</div></div>`;
+  erasStrip.innerHTML+=`<div class="era-segment" data-era="${i}" style="width:${width}%;background:${era.color}"><div class="era-label">${era.name}</div><div class="era-range">${era.years}</div></div>`;
   erasDetail.innerHTML+=`<div class="era-card"><div class="era-card-accent" style="background:${era.color}"></div><div class="era-card-name">${era.name}</div><div class="era-card-range">${era.range}<br>${era.years}</div><div class="era-card-hosts">${era.hosts}</div></div>`;
 });
 
-// 11b. HOSTS TIMELINE
+// 11b. HOSTS TIMELINE (per-era, neon lines)
 const hostsTL=[
-  {name:'Bobuk',start:0,end:999,color:'var(--red)',active:true},
-  {name:'Umputun',start:0,end:999,color:'var(--blue)',active:true},
-  {name:'Olyapka',start:63,end:89,color:'var(--cyan)',active:false},
-  {name:'Gray',start:86,end:999,color:'var(--green)',active:true},
-  {name:'Lavale',start:109,end:139,color:'#8b6f8e',active:false},
-  {name:'Marin_k_a',start:145,end:303,color:'var(--orange)',active:false},
-  {name:'Ksenks',start:307,end:999,color:'var(--yellow)',active:true},
-  {name:'Alek.sys',start:700,end:999,color:'var(--purple)',active:true},
+  {name:'Bobuk',start:0,end:999,cls:'c-red'},
+  {name:'Umputun',start:0,end:999,cls:'c-blue'},
+  {name:'Olyapka',start:63,end:89,cls:'c-cyan'},
+  {name:'Gray',start:86,end:999,cls:'c-green'},
+  {name:'Lavale',start:109,end:139,cls:'c-lavale'},
+  {name:'Marin_k_a',start:145,end:303,cls:'c-orange'},
+  {name:'Ksenks',start:307,end:999,cls:'c-yellow'},
+  {name:'Alek.sys',start:700,end:999,cls:'c-purple'},
 ];
 const htEl=document.getElementById('hostsTimeline');
-hostsTL.forEach(h=>{
-  const left=(h.start/1000*100).toFixed(1);
-  const width=((h.end-h.start+1)/1000*100).toFixed(1);
-  const rightPct=(h.end+1)/1000*100;
-  const cls=h.active?'ht-bar':'ht-bar departed';
-  htEl.innerHTML+=`<div class="ht-row"><div class="${cls}" style="left:${left}%;width:${width}%;background:${h.color}"></div><span class="ht-label" style="left:${rightPct.toFixed(1)}%">${h.name}</span></div>`;
+D.eras.forEach((era,i)=>{
+  const eraEl=htEl.querySelector(`[data-era="${i}"]`);
+  const isLast=i===D.eras.length-1;
+  hostsTL.forEach(h=>{
+    if(h.start>era.end||h.end<era.start) return;
+    const barStart=Math.max(h.start,era.start);
+    const barEnd=Math.min(h.end,era.end);
+    const left=(barStart/1000*100).toFixed(1);
+    const width=((barEnd-barStart+1)/1000*100).toFixed(1);
+    const labelPos=isLast?`right:${((1000-barStart)/1000*100).toFixed(1)}%`:`left:${((barEnd+1)/1000*100).toFixed(1)}%`;
+    const labelCls=isLast?'ht-label ht-label-left':'ht-label';
+    eraEl.innerHTML+=`<div class="ht-row"><div class="ht-line ${h.cls}" style="left:${left}%;width:${width}%"></div><span class="${labelCls}" style="${labelPos}">${h.name}</span></div>`;
+  });
+});
+// Hover interaction
+const htTL=htEl;
+const htEras=htEl.querySelectorAll('.ht-era');
+let htTimer=null;
+erasStrip.querySelectorAll('.era-segment').forEach(seg=>{
+  seg.addEventListener('mouseenter',()=>{
+    if(htTimer){clearTimeout(htTimer);htTimer=null}
+    const id=seg.dataset.era;
+    htEras.forEach(e=>e.classList.toggle('active',e.dataset.era===id));
+    htTL.classList.add('visible');
+  });
+});
+erasStrip.addEventListener('mouseleave',()=>{
+  if(htTimer)clearTimeout(htTimer);
+  htTimer=setTimeout(()=>{
+    htTL.classList.remove('visible');
+    setTimeout(()=>htEras.forEach(e=>e.classList.remove('active')),300);
+  },80);
 });
 
 // 12. KEYWORD TRENDS
