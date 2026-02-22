@@ -14,9 +14,9 @@ export default class extends Controller {
 
     const postPodcast = this.element.closest('.post-podcast');
     const podcastTitleNumber = postPodcast?.querySelector('.podcast-title-number');
-    this.podcastNumber = Number(podcastTitleNumber?.innerText);
+    this.podcastNumber = podcastTitleNumber?.innerText?.trim() || null;
 
-    if (!Number.isFinite(this.podcastNumber)) {
+    if (!this.podcastNumber) {
       return;
     }
 
@@ -35,7 +35,7 @@ export default class extends Controller {
   }
 
   setInitialActiveTopic() {
-    if (!Number.isFinite(this.podcastNumber)) {
+    if (!this.podcastNumber) {
       return;
     }
 
@@ -82,6 +82,7 @@ export default class extends Controller {
 
   timeLabels() {
     this.topics = [];
+    this.activeTopic = null;
 
     function isEmpty(child) {
       return (
@@ -112,7 +113,7 @@ export default class extends Controller {
       while (li.lastChild && isEmpty(li.lastChild)) {
         li.lastChild.remove();
       }
-      if (li.childNodes && li.lastChild.nodeName === '#text') {
+      if (li.lastChild && li.lastChild.nodeName === '#text') {
         li.lastChild.textContent = li.lastChild.textContent.replace(/[\s\-.]+$/, '');
       }
 
