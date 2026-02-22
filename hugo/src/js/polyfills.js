@@ -1,5 +1,4 @@
 import 'custom-event-polyfill';
-import 'intersection-observer';
 import 'core-js/features/dom-collections';
 import smoothscroll from 'smoothscroll-polyfill';
 
