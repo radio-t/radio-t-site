@@ -1,19 +1,25 @@
-import { throttle, find } from 'lodash';
+import throttle from 'lodash/throttle';
+import find from 'lodash/find';
 
 import Controller from '../base_controller';
 import { composeTime, parseTime, getLocalStorage } from '../utils';
-import ClosestMap from '../closest_map';
 
 export default class extends Controller {
-  timeToTopic = new ClosestMap();
+  topics = [];
   activeTopic = null;
   podcastNumber = null;
 
   initialize() {
     super.initialize();
-    this.podcastNumber = Number(
-      this.element.closest('.post-podcast').querySelector('.podcast-title-number').innerText
-    );
+
+    const postPodcast = this.element.closest('.post-podcast');
+    const podcastTitleNumber = postPodcast?.querySelector('.podcast-title-number');
+    this.podcastNumber = Number(podcastTitleNumber?.innerText);
+
+    if (!Number.isFinite(this.podcastNumber)) {
+      return;
+    }
+
     this.subscribe(
       `playing-progress-${this.podcastNumber}`,
       throttle(this.updateActiveTopic.bind(this), 1000)
@@ -29,6 +35,10 @@ export default class extends Controller {
   }
 
   setInitialActiveTopic() {
+    if (!Number.isFinite(this.podcastNumber)) {
+      return;
+    }
+
     const podcasts = getLocalStorage(`podcasts`) || {};
     if (podcasts[this.podcastNumber]) {
       const { currentTime } = podcasts[this.podcastNumber];
@@ -36,8 +46,22 @@ export default class extends Controller {
     }
   }
 
+  findTopicForTime(time) {
+    let result = null;
+
+    for (const [topicTime, el] of this.topics) {
+      if (topicTime <= time) {
+        result = el;
+      } else {
+        break;
+      }
+    }
+
+    return result;
+  }
+
   updateActiveTopic({ currentTime = 0 }) {
-    const currentTopic = this.timeToTopic.getFloor(currentTime);
+    const currentTopic = this.findTopicForTime(currentTime);
 
     if (!currentTopic || currentTopic === this.activeTopic) {
       return;
@@ -72,7 +96,7 @@ export default class extends Controller {
       if (timeLabel) {
         timeLabel.remove();
         const time = parseTime(timeLabel.textContent);
-        this.timeToTopic.add(time, li);
+        this.topics.push([time, li]);
         timeLabel.textContent = composeTime(time);
         timeLabel.dataset.action = `click->podcast#goToTimeLabel`;
         const icon = document.createElement('i');
