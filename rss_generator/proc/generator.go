@@ -7,6 +7,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strconv"
 	"strings"
 	"text/template"
@@ -17,7 +18,7 @@ import (
 
 // RSSGenerator is a primary struct for RSS generation.
 type RSSGenerator struct {
-	Client          HttpClient
+	Client          HTTPClient
 	BaseURL         string // BaseURL is a base URL for posts https://radio-t.com
 	BaseArchiveURL  string // BaseArchiveURL is a base URL for mp3 files http://archive.rucast.net/radio-t/media"
 	BaseCdnURL      string // BaseCdnURL is a base URL for mp3 files https://cdn.rucast.net"
@@ -29,7 +30,7 @@ type FeedConfig struct {
 	Name            string
 	Title           string
 	Image           string
-	Count           int
+	Count           int // max number of items in feed; 0 means unlimited
 	Size            bool
 	FeedSubtitle    string
 	FeedDescription string
@@ -60,8 +61,8 @@ type FeedData struct {
 	Items           []ItemData
 }
 
-// HttpClient is an interface that represents an HTTP client, compatible with the standard library.
-type HttpClient interface {
+// HTTPClient is an interface that represents an HTTP client, compatible with the standard library.
+type HTTPClient interface {
 	Do(req *http.Request) (*http.Response, error)
 }
 
@@ -81,7 +82,7 @@ func (g *RSSGenerator) MakeFeed(feedCfg FeedConfig, posts []Post) (FeedData, err
 	}
 
 	for _, post := range posts {
-		if len(feedData.Items) >= feedCfg.Count {
+		if feedCfg.Count > 0 && len(feedData.Items) >= feedCfg.Count {
 			break
 		}
 		if _, ok := post.Config["categories"]; !ok {
@@ -118,7 +119,7 @@ func (g *RSSGenerator) Save(feedCfg FeedConfig, data FeedData) error {
 		return fmt.Errorf("error parsing template: %v", err)
 	}
 
-	file, err := os.Create(savePath)
+	file, err := os.Create(savePath) //nolint:gosec // path constructed from config, not user input
 	if err != nil {
 		return fmt.Errorf("error creating file: %v", err)
 	}
@@ -141,13 +142,49 @@ func (g *RSSGenerator) createItemData(feed FeedConfig, post Post) (ItemData, err
 		}
 	}
 
+	// first, extract timestamps from markdown for YouTube format
+	markdownTimestampRegex := regexp.MustCompile(`- (.*?) - \*(\d{2}:\d{2}:\d{2})\*\.?`)
+	var youtubeChapters []string
+	matches := markdownTimestampRegex.FindAllStringSubmatch(post.Data, -1)
+	for _, match := range matches {
+		topic := match[1]
+		timestamp := match[2]
+
+		// check if topic is a markdown link and convert to HTML
+		linkRegex := regexp.MustCompile(`\[(.*?)\]\((.*?)\)`)
+		if linkMatch := linkRegex.FindStringSubmatch(topic); linkMatch != nil {
+			// convert markdown link to HTML: [text](url) -> <a href="url">text</a>
+			topic = `<a href="` + linkMatch[2] + `">` + linkMatch[1] + `</a>`
+		}
+
+		// format: "HH:MM:SS Topic"
+		youtubeChapters = append(youtubeChapters, fmt.Sprintf("%s %s", timestamp, topic))
+	}
+
 	renderer := blackfriday.NewHTMLRenderer(blackfriday.HTMLRendererParameters{Flags: blackfriday.UseXHTML})
 	data := blackfriday.Run([]byte(post.Data), blackfriday.WithRenderer(renderer))
 	postDescriptionHTML := string(data)
 	postDescriptionHTML = strings.TrimSuffix(postDescriptionHTML, "\n")
-	rssDescriptionHTML := strings.Replace(postDescriptionHTML, "<ul>", "<p><em>Темы</em><ul>", 1)
-	rssDescriptionHTML = strings.Replace(rssDescriptionHTML, "</ul>", "</ul></p>", 1)
-	rssDescriptionHTML = strings.TrimSuffix(rssDescriptionHTML, "\n")
+
+	// create description with YouTube chapters format
+	var rssDescriptionHTML string
+	if len(youtubeChapters) > 0 {
+		// remove the HTML list with timestamps from the original HTML
+		// find and remove <ul>...</ul> that contains the timestamps (non-greedy match)
+		ulRegex := regexp.MustCompile(`<ul>[\s\S]*?</ul>`)
+		cleanedHTML := ulRegex.ReplaceAllString(postDescriptionHTML, "")
+
+		// YouTube chapters with HTML line breaks
+		chaptersText := strings.Join(youtubeChapters, "<br>\n")
+
+		// combine chapters with remaining HTML (image and audio links)
+		rssDescriptionHTML = chaptersText + "\n" + cleanedHTML
+		rssDescriptionHTML = strings.TrimSpace(rssDescriptionHTML)
+	} else {
+		rssDescriptionHTML = strings.Replace(postDescriptionHTML, "<ul>", "<p><em>Темы</em><ul>", 1)
+		rssDescriptionHTML = strings.Replace(rssDescriptionHTML, "</ul>", "</ul></p>", 1)
+		rssDescriptionHTML = strings.TrimSuffix(rssDescriptionHTML, "\n")
+	}
 
 	fixedURL := post.URL
 	fixedURL = strings.Replace(fixedURL, "//p", "/p", 1)
@@ -199,9 +236,9 @@ func (g *RSSGenerator) getMp3Size(mp3File string) (int, error) {
 	if resp.StatusCode == http.StatusOK {
 		// check if Content-Length header is available
 		if size, ok := resp.Header["Content-Length"]; ok && len(size) > 0 {
-			sizeBytes, err := strconv.Atoi(size[0])
-			if err != nil {
-				return 0, fmt.Errorf("error converting content length %s to int: %v", size[0], err)
+			sizeBytes, parseErr := strconv.Atoi(size[0])
+			if parseErr != nil {
+				return 0, fmt.Errorf("error converting content length %s to int: %v", size[0], parseErr)
 			}
 			return sizeBytes, nil
 		}
@@ -257,7 +294,7 @@ func (g *RSSGenerator) cleanStringForXML(input string) string {
 		"\"": "&quot;",
 		"'":  "&apos;",
 	}
-	// Iterate over the map and replace each character with its entity reference
+	// iterate over the map and replace each character with its entity reference
 	for old, new := range replacements {
 		input = strings.ReplaceAll(input, old, new)
 	}

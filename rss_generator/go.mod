@@ -1,7 +1,6 @@
 module github.com/radio-t/radio-t-site/rss_generator
 
-go 1.21
-toolchain go1.24.1
+go 1.24
 
 require (
 	github.com/BurntSushi/toml v1.5.0
@@ -9,7 +8,7 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0
 	github.com/stretchr/testify v1.10.0
 	github.com/umputun/go-flags v1.5.1
-	golang.org/x/net v0.39.0
+	golang.org/x/net v0.40.0
 )
 
 require (

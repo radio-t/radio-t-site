@@ -9,7 +9,7 @@ filename = "rt_podcast951"
 ![](https://radio-t.com/images/radio-t/rt951.jpg)
 
 - Вступление - *00:00:00*.
-- [Apple переставили новые Mac Studio для богатых](https://www.theverge.com/news/624193/apple-mac-studio-m4-max-m3-ultra-launch-price-specs-availability) - *00:09:04*.
+- [Apple представили новые Mac Studio для богатых](https://www.theverge.com/news/624193/apple-mac-studio-m4-max-m3-ultra-launch-price-specs-availability) - *00:09:04*.
 - [MacBook Air 13 и 15 - оба хороши, особенно голубенький](https://www.apple.com/macbook-air/) - *00:22:58*.
 - [GitHub Copilot code review - странно и бестолково](https://docs-internal.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review) - *00:38:22*.
 - [GitHub Spark шаг в интересную сторону](https://githubnext.com/projects/github-spark) - *01:08:27*.

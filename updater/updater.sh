@@ -11,7 +11,7 @@ if [ $LOCAL != $REMOTE ]; then
     sleep 5
     echo "$(date) git update detected"
     git pull origin master
-    docker-compose build hugo
-    docker-compose run --rm hugo
+    docker compose build hugo
+    docker compose run --rm hugo
     echo "$(date) update completed"
 fi
