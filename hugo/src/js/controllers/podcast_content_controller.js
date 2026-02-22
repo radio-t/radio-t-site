@@ -81,6 +81,8 @@ export default class extends Controller {
   }
 
   timeLabels() {
+    this.topics = [];
+
     function isEmpty(child) {
       return (
         (child.nodeName === '#text' && child.textContent.match(/^[\s\-.]+$/)) ||
