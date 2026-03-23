@@ -1,9 +1,7 @@
 user: umputun
 targets:
-  nodes:
-    hosts: [{host: "n10.radio-t.com"}, {host: "n11.radio-t.com"}]
-  master:
-    hosts: [{host: "master.radio-t.com"}]
+  server:
+    hosts: [{host: "65.21.206.58"}]
   nas:
     hosts: [{host: "nas.umputun.com"}]
 
@@ -17,15 +15,14 @@ tasks:
     - name: set mp3 file name
       script: |
         EPISODE_NUMBER=$(echo $mp3 | sed -n 's/.*rt_podcast\(.*\)\.mp3/\1/p')
-        DST_MP3_FILE_NAME=/srv/master-node/var/media/$(basename $mp3)
-        DST_MP3_ARCHIVE_FILE_NAME=/data/archive/radio-t/media/$(basename $mp3)
+        DST_MP3_FILE_NAME=/srv/radio-t/media/$(basename $mp3)
         DST_MP3_NAS_FILE_NAME=/Podcasts/radio-t/$(basename $mp3)
       options: {local: true}
-      register: [EPISODE_NUMBER, DST_MP3_FILE_NAME, DST_MP3_ARCHIVE_FILE_NAME, DST_MP3_NAS_FILE_NAME]
+      register: [EPISODE_NUMBER, DST_MP3_FILE_NAME, DST_MP3_NAS_FILE_NAME]
 
-  # "deploy to master" uploads mp3 to master, copy to archive, cleans old files, creates chat log and archives news
-  - name: deploy to master
-    targets: ["master"]
+  # deploy to server uploads mp3, creates chat log and archives news
+  - name: deploy to server
+    targets: ["server"]
     commands:
     - name: upload mp3 file
       copy: {src: "$mp3", dst: "$DST_MP3_FILE_NAME", mkdir: true}
@@ -41,15 +38,6 @@ tasks:
       script: |
         curl -s -u ${RT_NEWS_ADMIN} -X DELETE https://news.radio-t.com/api/v1/news/active/last/12
 
-    - name: copy to archive
-      script: |
-        cp -fv $DST_MP3_FILE_NAME $DST_MP3_ARCHIVE_FILE_NAME
-        chmod 644 $DST_MP3_ARCHIVE_FILE_NAME
-      options: {sudo: true}
-
-    - name: clean old files
-      script: find /srv/master-node/var/media -type f -mtime +60 -mtime -1200 -iname *.mp3 -exec rm {} \;
-
   # deploy to nas task uploads mp3 to NAS
   - name: deploy to nas
     targets: ["nas"]
@@ -59,18 +47,3 @@ tasks:
 
     - name: copy mp3 file
       copy: {src: "$mp3", dst: "$DST_MP3_NAS_FILE_NAME",  mkdir: true, force: true}
-
-  # deploy to nodes task uploads mp3 to all nodes and cleans old files
-  - name: deploy to nodes
-    targets: ["nodes"]
-    commands:
-    - name: copy mp3 file
-      copy: {src: "$mp3", dst: "$DST_MP3_FILE_NAME", mkdir: true, force: true}
-
-    - name: set permissions
-      script: chmod 644 $DST_MP3_FILE_NAME
-      options: {sudo: true}
-
-    - name: clean old files
-      script: find /srv/media/radio-t -type f -mtime +60 -mtime -1200 -iname *.mp3 -exec rm {} \;
-
