@@ -72,7 +72,7 @@ func main() {
 		Client:          &http.Client{Timeout: 10 * time.Second},
 		BaseURL:         "https://radio-t.com",
 		BaseArchiveURL:  "http://archive.rucast.net/radio-t/media",
-		BaseCdnURL:      "http://cdn.radio-t.com",
+		BaseCdnURL:      "https://cdn.radio-t.com",
 		RssRootLocation: opts.SaveTo,
 	}
 
