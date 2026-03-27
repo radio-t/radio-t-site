@@ -42,7 +42,7 @@
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         <description>![CDATA[{{.Content | markdownify }}]]</description>
 
-        <enclosure url="http://cdn.radio-t.com/{{ .Params.filename }}.mp3" type="audio/mpeg" />
+        <enclosure url="https://cdn.radio-t.com/{{ .Params.filename }}.mp3" type="audio/mpeg" />
         <guid>{{ .Permalink }}</guid>
 
         <itunes:author>{{ .Params.author }}</itunes:author>

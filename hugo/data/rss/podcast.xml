@@ -7,5 +7,5 @@
       <itunes:author>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:author>
       <itunes:summary><![CDATA[{summary}]]></itunes:summary>
       <itunes:image href="{image}" />
-      <enclosure url="http://cdn.radio-t.com/{filename}.mp3" type="audio/mp3" length="{filesize}" />
+      <enclosure url="https://cdn.radio-t.com/{filename}.mp3" type="audio/mp3" length="{filesize}" />
     </item>
