@@ -12,8 +12,14 @@ services:
         max-file: "5"
     environment:
       - RT_NEWS_ADMIN
+      - GIT_AUTHOR_NAME=Umputun
+      - GIT_AUTHOR_EMAIL=umputun@gmail.com
+      - GIT_COMMITTER_NAME=Umputun
+      - GIT_COMMITTER_EMAIL=umputun@gmail.com
     volumes:
       - ../:/srv/
+      - ../../.git/modules/radio-t-site:/.git/modules/radio-t-site
+      - ../:/radio-t-site/
       - /Volumes/DataExt/Podcasts/radio-t:/Volumes/DataExt/Podcasts/radio-t
       - /Users/umputun/.ssh/id_rsa.pub:/home/app/.ssh/id_rsa.pub
       - /Users/umputun/.ssh/id_rsa:/home/app/.ssh/id_rsa

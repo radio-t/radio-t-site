@@ -1,0 +1,25 @@
+services:
+  cronn:
+    build:
+      context: ..
+      dockerfile: sched-tasks/Dockerfile
+    image: radio-t/cronn-publisher
+    hostname: cronn-scheduler
+    container_name: radio-t-cronn
+    restart: always
+    command: ["-f", "/config/crontab", "--log.enabled", "--log.prefix"]
+    volumes:
+      - ./crontab:/config/crontab:ro
+      - ../../:/srv:rw
+      - /Users/umputun/.ssh/id_rsa.pub:/home/app/.ssh/id_rsa.pub:ro
+      - /Users/umputun/.ssh/id_rsa:/home/app/.ssh/id_rsa:ro
+    environment:
+      - CRONN_LOG_ENABLED=true
+      - CRONN_LOG_PREFIX=true
+      - TZ=America/Chicago
+      - RT_NEWS_ADMIN=${RT_NEWS_ADMIN}
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
