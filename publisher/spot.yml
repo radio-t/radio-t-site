@@ -32,7 +32,7 @@ tasks:
       options: {sudo: true}
 
     - name: create chat log
-      script: docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=grayodesa --super=aleks_sys  --export-num=$EPISODE_NUMBER --export-path=/srv/html --dbg
+      script: docker exec -i super-bot /srv/telegram-rt-bot --super=umputun --super=bobuk --super=ksenks --super=aleks_sys --export-num=$EPISODE_NUMBER --export-path=/srv/html --dbg
 
     - name: archive news
       script: |

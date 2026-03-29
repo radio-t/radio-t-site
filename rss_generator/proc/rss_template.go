@@ -7,13 +7,13 @@ var rssTemplate = `<?xml version="1.0" encoding="utf-8"?>
 	<link>{{.FeedURL}}</link>
 	<language>ru</language>
 	<copyright>Creative Commons - Attribution, Noncommercial, No Derivative Works 3.0 License.</copyright>
-	<itunes:author>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:author>
+	<itunes:author>Umputun, Bobuk, Ksenks, Alek.sys</itunes:author>
 	<itunes:subtitle>{{.FeedSubtitle}}</itunes:subtitle>
 	<description>{{.FeedDescription}}</description>
 	<itunes:explicit>no</itunes:explicit>
 	<itunes:summary>Еженедельные импровизации на хай–тек темы</itunes:summary>
 	<itunes:owner>
-		<itunes:name>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:name>
+		<itunes:name>Umputun, Bobuk, Ksenks, Alek.sys</itunes:name>
 		<itunes:email>podcast@radio-t.com</itunes:email>
 	</itunes:owner>
 
@@ -33,13 +33,13 @@ var rssTemplate = `<?xml version="1.0" encoding="utf-8"?>
 		<link>{{.URL}}</link>
 		<guid>{{.GUID}}</guid>
 		<pubDate>{{.Date}}</pubDate>
-		<itunes:author>Umputun, Bobuk, Gray, Ksenks, Alek.sys</itunes:author>
+		<itunes:author>Umputun, Bobuk, Ksenks, Alek.sys</itunes:author>
 		{{- if .Summary}}
 		<itunes:summary><![CDATA[{{.Summary -}}]]></itunes:summary>
 		{{- end}}
 		<itunes:image href="{{.Image}}" />
 		<enclosure url="{{.EnclosureURL}}" type="audio/mp3" {{ if .FileSize -}} length="{{.FileSize}}"{{- end }} />
-		<author>podcast@radio-t.com (Umputun, Bobuk, Gray, Ksenks, Alek.sys)</author>
+		<author>podcast@radio-t.com (Umputun, Bobuk, Ksenks, Alek.sys)</author>
 		<itunes:explicit>no</itunes:explicit>
 		<itunes:subtitle>{{.ItunesSubtitle}}</itunes:subtitle>
 		<itunes:keywords>hitech,russian,radiot,tech,news,радио</itunes:keywords>
