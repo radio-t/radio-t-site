@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /404.html
+
+Sitemap: https://radio-t.com/sitemap.xml

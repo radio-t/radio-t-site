@@ -1,3 +1,10 @@
+{{ define "head" }}
+  {{ $pn := 1 }}
+  {{ with .Scratch.Get "paginator" }}{{ $pn = .PageNumber }}{{ end }}
+  {{ with .Paginator }}{{ if gt .PageNumber 1 }}{{ $pn = .PageNumber }}{{ end }}{{ end }}
+  {{ if gt $pn 1 }}<meta name="robots" content="noindex, follow">{{ end }}
+{{ end }}
+
 {{ define "main" }}
 
   {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
