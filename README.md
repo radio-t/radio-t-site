@@ -29,7 +29,7 @@ docker compose run --rm hugo
 
 - [Node v22](https://nodejs.org/en/download/package-manager)
 - [GoLang](https://go.dev/doc/install)
-- [Hugo v0.81.0](https://gohugo.io/installation/macos/#build-from-source)
+- [Hugo v0.160.1](https://gohugo.io/installation/macos/)
 
 ### девелопмент
 

@@ -5,17 +5,36 @@ baseurl = "https://radio-t.com"
 
 title = "Радио-Т Подкаст"
 
-paginate = 15
-paginatePath = "page"
 pygmentsUseClasses = true
+
+[pagination]
+  pagerSize = 15
+  path = "page"
+
 publishdir = "public"
-ignoreFiles = [ "\\.xml$"]
+
+[[module.mounts]]
+  source = "content"
+  target = "content"
+
+[[module.mounts]]
+  source = "data"
+  target = "data"
+  excludeFiles = ["rss/**"]
+
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+
+[[module.mounts]]
+  source = "static"
+  target = "static"
 
 [author]
   name = "radio-t"
 
 [permalinks]
-  posts = "/p/:year/:month/:day/:filename"
+  posts = "/p/:year/:month/:day/:contentbasename"
 
 [params]
   url = "https://radio-t.com"
