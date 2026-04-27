@@ -1,12 +1,3 @@
-{{ define "head" }}
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
-  <meta name="twitter:url" content="{{ .Site.Params.url }}{{ .RelPermalink }}">
-  <meta name="twitter:title" content="{{ .Title }}">
-  <meta name="twitter:description" content="{{ .Site.Params.twitterCardDescription }}">
-  {{ with .Params.image }}<meta name="twitter:image" content="{{ . }}">{{ end }}
-{{ end }}
-
 {{ define "main" }}
   <div class="pt-4 pt-md-5 pt-lg-6">
     {{ if in .Params.categories "podcast" }}

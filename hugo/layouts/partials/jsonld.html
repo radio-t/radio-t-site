@@ -1,0 +1,44 @@
+{{ if eq .RelPermalink "/" -}}
+{{- $p := .Scratch.Get "paginator" -}}
+{{ if or (not $p) (eq $p.PageNumber 1) -}}
+{{- $series := dict
+  "@context" "https://schema.org"
+  "@type" "PodcastSeries"
+  "name" .Site.Title
+  "description" .Site.Params.description
+  "url" .Site.Params.url
+  "image" "https://radio-t.com/images/cover.jpg"
+  "inLanguage" "ru-RU"
+  "webFeed" "https://radio-t.com/podcast.rss"
+-}}
+<script type="application/ld+json">{{ $series | jsonify | safeJS }}</script>
+{{- end }}
+{{- end }}
+
+{{ if in .Params.categories "podcast" -}}
+{{- $img := "https://radio-t.com/images/cover.jpg" -}}
+{{- with .Params.image }}{{ $img = . }}{{ end -}}
+{{- $audio := dict
+  "@type" "MediaObject"
+  "contentUrl" (printf "https://cdn.radio-t.com/%s.mp3" .Params.filename)
+  "encodingFormat" "audio/mpeg"
+-}}
+{{- $publisher := dict
+  "@type" "Organization"
+  "name" .Site.Title
+  "url" .Site.Params.url
+-}}
+{{- $post := dict
+  "@context" "https://schema.org"
+  "@type" "BlogPosting"
+  "headline" .Title
+  "url" .Permalink
+  "datePublished" (.Date.Format "2006-01-02")
+  "dateModified" (.Lastmod.Format "2006-01-02")
+  "image" $img
+  "inLanguage" "ru-RU"
+  "audio" $audio
+  "publisher" $publisher
+-}}
+<script type="application/ld+json">{{ $post | jsonify | safeJS }}</script>
+{{- end }}
