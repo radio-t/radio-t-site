@@ -4,15 +4,60 @@
   {{ if eq .RelPermalink "/" }}{{ .Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}
 </title>
 
-<meta name="description" content="{{ .Site.Params.description }}">
+{{ $desc := .Site.Params.description }}
+{{ with .Description }}
+  {{ $desc = . }}
+{{ else }}
+  {{ $sum := .Summary | plainify | strings.TrimSpace | truncate 160 }}
+  {{ if $sum }}{{ $desc = $sum }}{{ end }}
+{{ end }}
+
+{{ $canonical := .Permalink }}
+{{ if eq .Kind "home" }}
+  {{ $hp := where site.RegularPages "Type" "posts" | .Paginate }}
+  {{ .Scratch.Set "paginator" $hp }}
+  {{ if gt $hp.PageNumber 1 }}{{ $canonical = $hp.URL | absURL }}{{ end }}
+{{ end }}
+{{ if or (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") }}
+  {{ with .Paginator }}
+    {{ if gt .PageNumber 1 }}{{ $canonical = .URL | absURL }}{{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $ogType := "website" }}
+{{ if or (in .Params.categories "podcast") (in .Params.categories "prep") }}
+  {{ $ogType = "article" }}
+{{ end }}
+
+{{ $ogImage := "https://radio-t.com/images/cover.jpg" }}
+{{ with .Params.image }}{{ $ogImage = . | absURL }}{{ end }}
+
+<meta name="description" content="{{ $desc }}">
 <meta name="keywords" content="{{ .Site.Params.keywords }}">
 <meta name="author" content="{{ .Site.Params.author }}">
+
+<meta property="og:type" content="{{ $ogType }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ $canonical }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="{{ $ogImage }}">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{ .Site.Params.twitter }}">
+<meta name="twitter:url" content="{{ $canonical }}">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $ogImage }}">
 
 <!-- <meta name="google-site-verification" content="pLcR_MdStXodoLp6CHNHNRlrvyokHov1zoR_gWeflQo"> -->
 <!-- <meta name="yandex-verification" content="43172e34fa5a4627"> -->
 
-<link rel="canonical" href="{{ .Permalink }}">
+<link rel="canonical" href="{{ $canonical }}">
 <link type="application/rss+xml" rel="alternate" title="{{ .Site.Title }}" href="http://feeds.rucast.net/radio-t"/>
+
+{{ partial "jsonld.html" . }}
 
 {{ partial "assets" . }}
 

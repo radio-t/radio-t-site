@@ -10,8 +10,8 @@
 
   <channel>
     <title>{{ .Site.Title }}</title>
-    <atom:link href="{{ .Site.BaseURL }}/index.xml" rel="self" type="application/rss+xml" />
-    <link>{{ .Site.BaseURL }}</link>
+    <atom:link href="{{ "/index.xml" | absURL }}" rel="self" type="application/rss+xml" />
+    <link>{{ .Site.Home.Permalink }}</link>
     <description>{{ .Site.Params.description }}</description>
     <lastBuildDate>{{ .Date }}</lastBuildDate>
     <sy:updatePeriod>hourly</sy:updatePeriod>
