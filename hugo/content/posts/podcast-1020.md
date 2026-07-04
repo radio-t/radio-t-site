@@ -9,7 +9,7 @@ filename = "rt_podcast1020"
 ![](https://radio-t.com/images/radio-t/rt1020.jpg)
 
 - Вступление - *00:00:00*.
-- [Непонятны Claude Sonnet 5 вышел](https://www.anthropic.com/news/claude-sonnet-5) - *00:37:02*.
+- [Непонятный Claude Sonnet 5 вышел](https://www.anthropic.com/news/claude-sonnet-5) - *00:37:02*.
 - [Возвращение Fable](https://www.anthropic.com/news/redeploying-fable-5) - *00:49:56*.
 - [Правила Страуструпа](https://buttondown.com/hillelwayne/archive/stroustrups-rule/) - *00:58:20*.
 - [Опять про SOLID и Clean Code](https://devz.cl/posts/solid-never-felt-solid/) - *01:22:45*.
