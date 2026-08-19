@@ -33,7 +33,7 @@ func TestProc_Do(t *testing.T) {
 	require.NoError(t, err)
 
 	ex := &mocks.ExecutorMock{
-		RunFunc: func(cmd string, params ...string) {},
+		RunFunc: func(_ string, _ ...string) {},
 	}
 
 	d := Proc{
@@ -73,7 +73,7 @@ func TestProc_setMp3Tags(t *testing.T) {
 	u := Proc{}
 
 	t.Run("without chapters", func(t *testing.T) {
-		err = u.setMp3Tags(dst.Name(), 123, nil)
+		err := u.setMp3Tags(dst.Name(), 123, nil)
 		require.NoError(t, err)
 
 		tag, err := id3v2.Open(dst.Name(), id3v2.Options{Parse: true})
@@ -83,10 +83,11 @@ func TestProc_setMp3Tags(t *testing.T) {
 		assert.Equal(t, "Радио-Т", tag.Album())
 		assert.Equal(t, fmt.Sprintf("%d", time.Now().Year()), tag.Year())
 		assert.Equal(t, "Podcast", tag.Genre())
+		assert.Empty(t, tag.GetFrames(tag.CommonID("CTOC")), "no table of contents without chapters")
 	})
 
 	t.Run("with chapters", func(t *testing.T) {
-		err = u.setMp3Tags(dst.Name(), 123, []chapter{
+		err := u.setMp3Tags(dst.Name(), 123, []chapter{
 			{"Chapter One", "http://example.com/one", time.Second},
 			{"Chapter Two", "http://example.com/two", time.Second * 5},
 		})

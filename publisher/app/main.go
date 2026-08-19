@@ -31,7 +31,7 @@ var opts struct {
 		File         string `long:"file" env:"FILE" description:"mp3 file name"`
 		HugoPosts    string `long:"hugo-posts" env:"HUGO_POSTS" default:"/srv/hugo/content/posts" description:"hugo posts location"`
 		SkipTransfer bool   `long:"skip-transfer" env:"SKIP_TRANSFER" description:"skip transfer to remote locations"`
-	} `command:"proc" description:"proces podcast - tag mp3 and upload"`
+	} `command:"proc" description:"process podcast - tag mp3 and upload"`
 
 	ShowTags struct {
 		FileName string `long:"file" env:"FILE" description:"mp3 file name" required:"true"`
@@ -66,23 +66,23 @@ func main() {
 		return num
 	}
 
-	if p.Active != nil && p.Command.Find("new") == p.Active {
+	if p.Active != nil && p.Find("new") == p.Active {
 		runNew(episodeNum())
 	}
 
-	if p.Active != nil && p.Command.Find("prep") == p.Active {
+	if p.Active != nil && p.Find("prep") == p.Active {
 		runPrep(episodeNum())
 	}
 
-	if p.Active != nil && p.Command.Find("proc") == p.Active {
+	if p.Active != nil && p.Find("proc") == p.Active {
 		runProc()
 	}
 
-	if p.Active != nil && p.Command.Find("deploy") == p.Active {
+	if p.Active != nil && p.Find("deploy") == p.Active {
 		runDeploy()
 	}
 
-	if p.Active != nil && p.Command.Find("tags") == p.Active {
+	if p.Active != nil && p.Find("tags") == p.Active {
 		runTags()
 	}
 }
