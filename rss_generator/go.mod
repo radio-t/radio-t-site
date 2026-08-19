@@ -1,6 +1,6 @@
 module github.com/radio-t/radio-t-site/rss_generator
 
-go 1.24
+go 1.26
 
 require (
 	github.com/BurntSushi/toml v1.5.0
