@@ -25,10 +25,16 @@ on:
       - '.github/FUNDING.yml'
       - 'hugo/content/**' # content likely won't break the build
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: build-and-compare
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write # the build comparison result is posted as a PR comment
     steps:
       - name: Check out code
         uses: actions/checkout@v4

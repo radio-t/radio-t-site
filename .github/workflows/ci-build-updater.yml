@@ -11,6 +11,9 @@ on:
       - '.github/workflows/ci-build-updater.yml'
       - 'updater/**'
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: build
