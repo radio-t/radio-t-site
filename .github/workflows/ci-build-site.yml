@@ -31,13 +31,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0 # Needed to fetch all history for comparison
 
       # for prettier as it's unknown how to build css and js without them being minimized
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '22.x'
           cache: 'npm'
@@ -200,14 +200,14 @@ jobs:
           fi
 
       - name: Upload changes.diff as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: changes.diff
           path: changes.diff
           if-no-files-found: ignore
 
       - name: Upload changes.md as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: changes.md
           path: changes.md
@@ -269,14 +269,14 @@ jobs:
       - name: Find existing comment
         id: find-comment
         if: github.event_name == 'pull_request'
-        uses: peter-evans/find-comment@v3
+        uses: peter-evans/find-comment@v4
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body-includes: "### Site Build Comparison"
 
       - name: Create or update comment
         if: github.event_name == 'pull_request'
-        uses: peter-evans/create-or-update-comment@v4
+        uses: peter-evans/create-or-update-comment@v5
         continue-on-error: true
         with:
           comment-id: ${{ steps.find-comment.outputs.comment-id }}

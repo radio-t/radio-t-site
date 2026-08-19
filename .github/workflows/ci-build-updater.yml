@@ -18,7 +18,7 @@ jobs:
     steps:
 
     - name: check out code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
     - name: build updater image
       run: docker build -t radio-t/updater .

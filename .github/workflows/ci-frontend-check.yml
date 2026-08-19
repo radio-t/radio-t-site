@@ -17,13 +17,13 @@ jobs:
       CI_JOB_NUMBER: 1
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # these steps are run in the size-limit-action anyway,
       # but exposed separately so that in case there is a problem not with the file size
       # but with the setup, we can see that failure clearly
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '22.x'
           cache: 'npm'
