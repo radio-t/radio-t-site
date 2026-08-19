@@ -112,13 +112,6 @@ jobs:
           prettier --write "${{ steps.set-dirs.outputs.old_dir }}/public/**/*.css"
           prettier --write "${{ steps.set-dirs.outputs.new_dir }}/public/**/*.css"
 
-      - name: Remove itunes:subtitle from RSS feeds before comparison
-        run: |
-          sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.old_dir }}/public/podcast-archives-short.rss
-          sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.new_dir }}/public/podcast-archives-short.rss
-          sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.old_dir }}/public/podcast-archives.rss
-          sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.new_dir }}/public/podcast-archives.rss
-
       - name: Remove hashes from CSS and JS files references
         run: |
           find ${{ steps.set-dirs.outputs.old_dir }}/public -type f -exec sed -i 's/\(js\|css\)?id=[^"'\''"]\+/\1/g' {} +
