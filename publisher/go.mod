@@ -1,6 +1,6 @@
 module github.com/radio-t/radio-t-site/publisher
 
-go 1.21
+go 1.26
 
 require (
 	github.com/bogem/id3v2/v2 v2.1.4
