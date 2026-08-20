@@ -287,17 +287,16 @@ func (g *RSSGenerator) htmlToPlainText(htmlContent string) (string, error) {
 	return res, nil
 }
 
+// xmlEscaper replaces characters special to XML with their entity references in a single pass,
+// so the entities it produces are not escaped again
+var xmlEscaper = strings.NewReplacer(
+	"&", "&amp;",
+	"<", "&lt;",
+	">", "&gt;",
+	`"`, "&quot;",
+	"'", "&apos;",
+)
+
 func (g *RSSGenerator) cleanStringForXML(input string) string {
-	replacements := map[string]string{
-		"&":  "&amp;",
-		"<":  "&lt;",
-		">":  "&gt;",
-		"\"": "&quot;",
-		"'":  "&apos;",
-	}
-	// iterate over the map and replace each character with its entity reference
-	for old, new := range replacements {
-		input = strings.ReplaceAll(input, old, new)
-	}
-	return input
+	return xmlEscaper.Replace(input)
 }
