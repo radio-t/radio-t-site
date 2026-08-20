@@ -8,6 +8,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"slices"
 	"strconv"
 	"strings"
 	"text/template"
@@ -90,7 +91,7 @@ func (g *RSSGenerator) MakeFeed(feedCfg FeedConfig, posts []Post) (FeedData, err
 		}
 
 		categories, ok := post.Config["categories"].([]any)
-		if !ok || !contains(categories, "podcast") {
+		if !ok || !slices.Contains(categories, "podcast") {
 			continue
 		}
 
@@ -286,26 +287,16 @@ func (g *RSSGenerator) htmlToPlainText(htmlContent string) (string, error) {
 	return res, nil
 }
 
-func (g *RSSGenerator) cleanStringForXML(input string) string {
-	replacements := map[string]string{
-		"&":  "&amp;",
-		"<":  "&lt;",
-		">":  "&gt;",
-		"\"": "&quot;",
-		"'":  "&apos;",
-	}
-	// iterate over the map and replace each character with its entity reference
-	for old, new := range replacements {
-		input = strings.ReplaceAll(input, old, new)
-	}
-	return input
-}
+// xmlEscaper replaces characters special to XML with their entity references in a single pass,
+// so the entities it produces are not escaped again
+var xmlEscaper = strings.NewReplacer(
+	"&", "&amp;",
+	"<", "&lt;",
+	">", "&gt;",
+	`"`, "&quot;",
+	"'", "&apos;",
+)
 
-func contains(slice []any, item any) bool {
-	for _, v := range slice {
-		if v == item {
-			return true
-		}
-	}
-	return false
+func (g *RSSGenerator) cleanStringForXML(input string) string {
+	return xmlEscaper.Replace(input)
 }

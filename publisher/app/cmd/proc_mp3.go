@@ -198,9 +198,9 @@ func (p *Proc) parseChapters(content string) ([]chapter, error) {
 	}
 
 	chapters := []chapter{}
-	lines := strings.Split(content, "\n")
+	lines := strings.SplitSeq(content, "\n")
 
-	for _, line := range lines {
+	for line := range lines {
 		if !strings.HasPrefix(line, "- ") {
 			continue
 		}
