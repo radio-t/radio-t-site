@@ -22,6 +22,9 @@ on:
       - "hugo/**/*.jsx?"
       - "hugo/**/*.tsx?"
 
+permissions:
+  contents: read
+
 jobs:
   frontend-lint:
     runs-on: ubuntu-latest
