@@ -62,11 +62,11 @@ func (c *ShellExecutor) Run(cmd string, params ...string) {
 
 // Do executes command and returns error if failed
 func (c *ShellExecutor) do(cmd string) error {
-	log.Printf("[INFO] execute: %s", cmd)
+	log.Printf("[INFO] execute: %s", cmd) //nolint:gosec // the command is composed locally, log injection is not a concern for a CLI tool
 	if c.Dry {
 		return nil
 	}
-	ex := exec.Command("sh", "-c", cmd)
+	ex := exec.Command("sh", "-c", cmd) //nolint:gosec // running shell commands is what this executor is for
 	ex.Stdout = lgr.ToWriter(lgr.Default(), "INFO")
 	ex.Stderr = lgr.ToWriter(lgr.Default(), "WARN")
 	return errors.Wrapf(ex.Run(), "failed to run command: %s", cmd)

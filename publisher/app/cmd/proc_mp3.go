@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"log"
+	"math"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -43,7 +44,7 @@ func (p *Proc) Do(mp3file string) error {
 	log.Printf("[INFO] process file %s, episode %d, posts location:%q", mp3file, episodeNum, p.LocationPosts)
 	hugoPost := fmt.Sprintf("%s/podcast-%d.md", p.LocationPosts, episodeNum)
 	log.Printf("[DEBUG] hugo post file %s", hugoPost)
-	posstContent, err := os.ReadFile(hugoPost)
+	posstContent, err := os.ReadFile(hugoPost) //nolint:gosec // path comes from the command line
 	if err != nil {
 		return fmt.Errorf("can't read post file %s, %w", hugoPost, err)
 	}
@@ -125,9 +126,10 @@ func (p *Proc) setMp3Tags(mp3file string, episodeNum int, chapters []chapter) er
 		return fmt.Errorf("can't get mp3 duration, %w", err)
 	}
 
-	// create a CTOC frame manually
-	ctocFrame := p.createCTOCFrame(chapters)
-	tag.AddFrame(tag.CommonID("CTOC"), ctocFrame)
+	// create a CTOC frame manually, it requires at least one entry so it is skipped for a chapterless episode
+	if len(chapters) > 0 {
+		tag.AddFrame(tag.CommonID("CTOC"), p.createCTOCFrame(chapters))
+	}
 
 	// add other tags
 	tag.AddFrame("TLEN", id3v2.TextFrame{Encoding: id3v2.EncodingUTF8, Text: strconv.FormatInt(duration.Milliseconds(), 10)})
@@ -199,42 +201,44 @@ func (p *Proc) parseChapters(content string) ([]chapter, error) {
 	lines := strings.SplitSeq(content, "\n")
 
 	for line := range lines {
-		if strings.HasPrefix(line, "- ") {
-			// Extracting the timestamp
-			timestampRegex := regexp.MustCompile(`\*\s*(.*?)\s*\*`)
-			timestampMatches := timestampRegex.FindStringSubmatch(line)
-			if len(timestampMatches) < 2 {
-				continue // Skip if no valid timestamp
-			}
-			begin, err := parseDuration(timestampMatches[1])
-			if err != nil {
-				return []chapter{}, fmt.Errorf("can't parse duration %s, %w", timestampMatches[1], err)
-			}
-
-			// Extracting and cleaning the title and URL
-			titleRegex := regexp.MustCompile(`\[(.*?)\]\((.*?)\)`)
-			titleMatches := titleRegex.FindStringSubmatch(line)
-
-			var title, url string
-			if len(titleMatches) >= 3 {
-				title = strings.Replace(line, titleMatches[0], titleMatches[1], 1)
-				url = titleMatches[2]
-			} else {
-				title = line
-			}
-
-			// Cleaning the title
-			title = strings.TrimPrefix(title, "- ")
-			title = timestampRegex.ReplaceAllString(title, "")
-			title = strings.TrimSuffix(title, " - .")
-			title = strings.TrimSpace(title)
-
-			chapters = append(chapters, chapter{
-				Title: title,
-				URL:   url,
-				Begin: begin,
-			})
+		if !strings.HasPrefix(line, "- ") {
+			continue
 		}
+
+		// Extracting the timestamp
+		timestampRegex := regexp.MustCompile(`\*\s*(.*?)\s*\*`)
+		timestampMatches := timestampRegex.FindStringSubmatch(line)
+		if len(timestampMatches) < 2 {
+			continue // Skip if no valid timestamp
+		}
+		begin, err := parseDuration(timestampMatches[1])
+		if err != nil {
+			return []chapter{}, fmt.Errorf("can't parse duration %s, %w", timestampMatches[1], err)
+		}
+
+		// Extracting and cleaning the title and URL
+		titleRegex := regexp.MustCompile(`\[(.*?)\]\((.*?)\)`)
+		titleMatches := titleRegex.FindStringSubmatch(line)
+
+		var title, url string
+		if len(titleMatches) >= 3 {
+			title = strings.Replace(line, titleMatches[0], titleMatches[1], 1)
+			url = titleMatches[2]
+		} else {
+			title = line
+		}
+
+		// Cleaning the title
+		title = strings.TrimPrefix(title, "- ")
+		title = timestampRegex.ReplaceAllString(title, "")
+		title = strings.TrimSuffix(title, " - .")
+		title = strings.TrimSpace(title)
+
+		chapters = append(chapters, chapter{
+			Title: title,
+			URL:   url,
+			Begin: begin,
+		})
 	}
 
 	if len(chapters) == 1 {
@@ -250,7 +254,7 @@ func (p *Proc) parseChapters(content string) ([]chapter, error) {
 // getMP3Duration returns the duration of an MP3 file given its file path.
 // It takes the file path as an input and returns the duration as a time.Duration and an error if any.
 func (p *Proc) getMP3Duration(filePath string) (time.Duration, error) {
-	file, err := os.Open(filePath)
+	file, err := os.Open(filePath) //nolint:gosec // path comes from the command line
 	if err != nil {
 		return 0, err
 	}
@@ -283,8 +287,12 @@ func (p *Proc) createCTOCFrame(chapters []chapter) *id3v2.UnknownFrame {
 	// flags (0x03 for top-level and ordered chapters)
 	frameBody.WriteByte(0x03)
 
-	// number of child elements
-	frameBody.WriteByte(byte(len(chapters)))
+	// number of child elements, a single byte, so the frame can't list more than 255 chapters
+	if len(chapters) > math.MaxUint8 {
+		log.Printf("[WARN] %d chapters don't fit into a CTOC frame, listing first %d", len(chapters), math.MaxUint8)
+		chapters = chapters[:math.MaxUint8]
+	}
+	frameBody.WriteByte(byte(len(chapters))) //nolint:gosec // the length is clamped to math.MaxUint8 right above
 
 	// append child element IDs (chapter IDs) formatted as "chapter#i"
 	for i := range chapters {

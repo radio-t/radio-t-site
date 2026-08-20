@@ -11,7 +11,7 @@ import (
 
 func TestDeploy_Do(t *testing.T) {
 	ex := &mocks.ExecutorMock{
-		RunFunc: func(cmd string, params ...string) {},
+		RunFunc: func(_ string, _ ...string) {},
 	}
 
 	d := Deploy{Executor: ex}
