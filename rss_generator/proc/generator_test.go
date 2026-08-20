@@ -135,10 +135,10 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		}, Post{
 			CreatedAt: time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC),
 			URL:       "http://example.com/post1/",
-			Config: map[string]interface{}{
+			Config: map[string]any{
 				"title":      "title1",
 				"filename":   "rt_podcast850",
-				"categories": []interface{}{"podcast"},
+				"categories": []any{"podcast"},
 				"image":      "https://radio-t.com/images/radio-t/rt850.jpg",
 			},
 			Data: data,
@@ -170,10 +170,10 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		}, Post{
 			CreatedAt: time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC),
 			URL:       "http://example.com/post1/",
-			Config: map[string]interface{}{
+			Config: map[string]any{
 				"title":      "title1",
 				"filename":   "rt_podcast850",
-				"categories": []interface{}{"podcast"},
+				"categories": []any{"podcast"},
 				"image":      "https://radio-t.com/images/radio-t/rt850.jpg",
 			},
 			Data: "data1",
@@ -210,10 +210,10 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		}, Post{
 			CreatedAt: time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC),
 			URL:       "http://example.com/post1/",
-			Config: map[string]interface{}{
+			Config: map[string]any{
 				"title":      "title1",
 				"filename":   "rt_podcast850",
-				"categories": []interface{}{"podcast"},
+				"categories": []any{"podcast"},
 				"image":      "https://radio-t.com/images/radio-t/rt850.jpg",
 			},
 			Data: "data1",
@@ -256,10 +256,10 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		}, Post{
 			CreatedAt: time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC),
 			URL:       "http://example.com/post1/",
-			Config: map[string]interface{}{
+			Config: map[string]any{
 				"title":      "Test Episode",
 				"filename":   "test_podcast",
-				"categories": []interface{}{"podcast"},
+				"categories": []any{"podcast"},
 				"image":      "test.jpg",
 			},
 			Data: markdownData,
@@ -307,10 +307,10 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		}, Post{
 			CreatedAt: time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC),
 			URL:       "http://example.com/post1/",
-			Config: map[string]interface{}{
+			Config: map[string]any{
 				"title":      "Test Episode",
 				"filename":   "test_podcast",
-				"categories": []interface{}{"podcast"},
+				"categories": []any{"podcast"},
 				"image":      "https://example.com/cover.jpg",
 			},
 			Data: markdownData,
@@ -361,10 +361,10 @@ func TestRSSGenerator_createItemData(t *testing.T) {
 		}, Post{
 			CreatedAt: time.Date(2020, 1, 1, 0, 0, 0, 0, time.UTC),
 			URL:       "http://example.com/post1/",
-			Config: map[string]interface{}{
+			Config: map[string]any{
 				"title":      "Test Episode",
 				"filename":   "test_podcast",
-				"categories": []interface{}{"podcast"},
+				"categories": []any{"podcast"},
 			},
 			Data: markdownData,
 		})

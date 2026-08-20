@@ -8,6 +8,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"slices"
 	"strconv"
 	"strings"
 	"text/template"
@@ -90,7 +91,7 @@ func (g *RSSGenerator) MakeFeed(feedCfg FeedConfig, posts []Post) (FeedData, err
 		}
 
 		categories, ok := post.Config["categories"].([]any)
-		if !ok || !contains(categories, "podcast") {
+		if !ok || !slices.Contains(categories, "podcast") {
 			continue
 		}
 
@@ -298,13 +299,4 @@ var xmlEscaper = strings.NewReplacer(
 
 func (g *RSSGenerator) cleanStringForXML(input string) string {
 	return xmlEscaper.Replace(input)
-}
-
-func contains(slice []any, item any) bool {
-	for _, v := range slice {
-		if v == item {
-			return true
-		}
-	}
-	return false
 }
