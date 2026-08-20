@@ -18,6 +18,12 @@ type Executor interface {
 	Run(cmd string, params ...string)
 }
 
+// ShellExecutorIface runs commands and shell scripts, for callers which need both
+type ShellExecutorIface interface {
+	Executor
+	RunShell(script string)
+}
+
 // LastShow get the number of the latest published podcast via site-api
 // GET /last/{posts}?categories=podcast
 func LastShow(client http.Client, siteAPI string) (int, error) {
@@ -46,28 +52,41 @@ func LastShow(client http.Client, siteAPI string) (int, error) {
 	return showInfo[0].Num, nil
 }
 
-// ShellExecutor is a simple wrapper to execute command within shell
+// ShellExecutor runs commands, either as argv via Run or as a shell script via RunShell
 type ShellExecutor struct {
 	Dry bool
 }
 
-// Run makes the final command in printf style and panic on error
+// Run executes cmd with params passed as separate arguments, without a shell, and exits on error.
+// Values are never re-parsed, so paths and credentials may contain spaces and shell metacharacters.
 func (c *ShellExecutor) Run(cmd string, params ...string) {
-	command := fmt.Sprintf("%s %s", cmd, strings.Join(params, " "))
-	if err := c.do(command); err != nil {
+	log.Printf("[INFO] execute: %s %s", cmd, strings.Join(params, " ")) //nolint:gosec // the command is composed locally, log injection is not a concern for a CLI tool
+	if c.Dry {
+		return
+	}
+	ex := exec.Command(cmd, params...) //nolint:gosec // the command is composed by the caller, not by external input
+	if err := c.exec(ex, cmd); err != nil {
 		log.Printf("[ERROR] %v", err)
 		os.Exit(1) // failed cmd stops everything
 	}
 }
 
-// Do executes command and returns error if failed
-func (c *ShellExecutor) do(cmd string) error {
-	log.Printf("[INFO] execute: %s", cmd) //nolint:gosec // the command is composed locally, log injection is not a concern for a CLI tool
+// RunShell executes script with sh, for commands which need shell syntax, and exits on error.
+func (c *ShellExecutor) RunShell(script string) {
+	log.Printf("[INFO] execute: %s", script) //nolint:gosec // the script is composed locally, log injection is not a concern for a CLI tool
 	if c.Dry {
-		return nil
+		return
 	}
-	ex := exec.Command("sh", "-c", cmd) //nolint:gosec // running shell commands is what this executor is for
+	ex := exec.Command("sh", "-c", script) //nolint:gosec // running a shell script is what this method is for
+	if err := c.exec(ex, script); err != nil {
+		log.Printf("[ERROR] %v", err)
+		os.Exit(1) // failed cmd stops everything
+	}
+}
+
+// exec runs the prepared command, piping its output to the log
+func (c *ShellExecutor) exec(ex *exec.Cmd, descr string) error {
 	ex.Stdout = lgr.ToWriter(lgr.Default(), "INFO")
 	ex.Stderr = lgr.ToWriter(lgr.Default(), "WARN")
-	return errors.Wrapf(ex.Run(), "failed to run command: %s", cmd)
+	return errors.Wrapf(ex.Run(), "failed to run command: %s", descr)
 }
