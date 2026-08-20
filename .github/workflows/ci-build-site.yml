@@ -25,10 +25,16 @@ on:
       - '.github/FUNDING.yml'
       - 'hugo/content/**' # content likely won't break the build
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: build-and-compare
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write # the build comparison result is posted as a PR comment
     steps:
       - name: Check out code
         uses: actions/checkout@v7
@@ -111,13 +117,6 @@ jobs:
         run: |
           prettier --write "${{ steps.set-dirs.outputs.old_dir }}/public/**/*.css"
           prettier --write "${{ steps.set-dirs.outputs.new_dir }}/public/**/*.css"
-
-      - name: Remove itunes:subtitle from RSS feeds before comparison
-        run: |
-          sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.old_dir }}/public/podcast-archives-short.rss
-          sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.new_dir }}/public/podcast-archives-short.rss
-          sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.old_dir }}/public/podcast-archives.rss
-          sed -i 's#<itunes:subtitle>.*</itunes:subtitle>##' ${{ steps.set-dirs.outputs.new_dir }}/public/podcast-archives.rss
 
       - name: Remove hashes from CSS and JS files references
         run: |

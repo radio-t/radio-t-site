@@ -10,9 +10,15 @@ on:
       - "hugo/**/*.tsx?"
       - "hugo/**/*.scss"
 
+permissions:
+  contents: read
+
 jobs:
   size:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write # size-limit-action posts the bundle size report as a PR comment
     env:
       CI_JOB_NUMBER: 1
     steps:

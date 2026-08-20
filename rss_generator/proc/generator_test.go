@@ -1,8 +1,11 @@
 package proc
 
 import (
+	"encoding/xml"
 	"net/http"
 	"net/http/httptest"
+	"os"
+	"path/filepath"
 	"regexp"
 	"strings"
 	"testing"
@@ -477,4 +480,74 @@ func TestRSSGenerator_htmlToPlainText(t *testing.T) {
 		assert.NoError(t, err)
 		assert.Equal(t, expected, result)
 	})
+}
+
+func TestRSSGenerator_cleanStringForXML(t *testing.T) {
+	g := RSSGenerator{}
+
+	tbl := []struct {
+		name     string
+		input    string
+		expected string
+	}{
+		{"empty", "", ""},
+		{"nothing to escape", "Радио-Т 869", "Радио-Т 869"},
+		{"ampersand", "R&D", "R&amp;D"},
+		{"less than", "a < b", "a &lt; b"},
+		{"greater than", "a > b", "a &gt; b"},
+		{"double quote", `say "hi"`, "say &quot;hi&quot;"},
+		{"single quote", "Twitter теперь 'X'", "Twitter теперь &apos;X&apos;"},
+		{"all specials at once", `&<>"'`, "&amp;&lt;&gt;&quot;&apos;"},
+		{"entity produced by escaping is not escaped again", "'X' & 'Y'", "&apos;X&apos; &amp; &apos;Y&apos;"},
+		{"already escaped input is escaped once more", "&amp;", "&amp;amp;"},
+	}
+
+	for _, tt := range tbl {
+		t.Run(tt.name, func(t *testing.T) {
+			assert.Equal(t, tt.expected, g.cleanStringForXML(tt.input))
+		})
+	}
+
+	t.Run("stable across repeated calls", func(t *testing.T) {
+		input := `Twitter теперь 'X' & "Y" <z>`
+		expected := g.cleanStringForXML(input)
+		for i := 0; i < 100; i++ {
+			assert.Equal(t, expected, g.cleanStringForXML(input), "call %d produced a different result", i)
+		}
+		assert.Equal(t, `Twitter теперь &apos;X&apos; &amp; &quot;Y&quot; &lt;z&gt;`, expected)
+	})
+}
+
+func TestRSSGenerator_SaveEscapedSubtitle(t *testing.T) {
+	g := RSSGenerator{RssRootLocation: t.TempDir()}
+
+	const subtitle = `Twitter теперь 'X' & "Y" <z>`
+	data := FeedData{
+		FeedTitle:       "Радио-Т",
+		FeedURL:         "https://radio-t.com",
+		FeedSubtitle:    "sub",
+		FeedDescription: "desc",
+		Items: []ItemData{{
+			Title:          "Радио-Т 869",
+			URL:            "https://radio-t.com/p/2023/12/23/podcast-869/",
+			GUID:           "https://radio-t.com/p//2023/12/23/podcast-869/",
+			Date:           "Sat, 23 Dec 2023 00:00:00 -0500",
+			EnclosureURL:   "https://cdn.radio-t.com/rt_podcast869.mp3",
+			ItunesSubtitle: g.cleanStringForXML(subtitle),
+		}},
+	}
+
+	require.NoError(t, g.Save(FeedConfig{Name: "test-feed"}, data))
+
+	res, err := os.ReadFile(filepath.Join(g.RssRootLocation, "test-feed.rss"))
+	require.NoError(t, err)
+
+	var parsed struct {
+		Items []struct {
+			Subtitle string `xml:"subtitle"`
+		} `xml:"channel>item"`
+	}
+	require.NoError(t, xml.Unmarshal(res, &parsed), "generated feed is not well-formed XML")
+	require.Len(t, parsed.Items, 1)
+	assert.Equal(t, subtitle, parsed.Items[0].Subtitle, "subtitle should decode back to the original text")
 }

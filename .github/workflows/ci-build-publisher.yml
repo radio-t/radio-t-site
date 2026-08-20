@@ -11,6 +11,9 @@ on:
       - '.github/workflows/ci-build-publisher.yml'
       - 'publisher/**'
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: build
