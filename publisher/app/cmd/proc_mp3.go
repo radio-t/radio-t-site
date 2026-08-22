@@ -64,8 +64,8 @@ func (p *Proc) Do(mp3file string) error {
 		return nil
 	}
 
-	newsAdminCreds := fmt.Sprintf("RT_NEWS_ADMIN:%q", os.Getenv("RT_NEWS_ADMIN"))
-	args := []string{"-p /etc/spot.yml", "-e mp3:" + mp3file, "-c 2", "-v", "-e", newsAdminCreds}
+	newsAdminCreds := "RT_NEWS_ADMIN:" + os.Getenv("RT_NEWS_ADMIN")
+	args := []string{"-p", "/etc/spot.yml", "-e", "mp3:" + mp3file, "-c", "2", "-v", "-e", newsAdminCreds}
 	if p.Dbg {
 		args = append(args, "--dbg")
 	}
