@@ -42,7 +42,7 @@ export default class extends Controller {
       });
     });
 
-    $script.get('https://remark42.radio-t.com/web/counter.js', () => {});
+    $script.get('https://remark42.radio-t.com/web/counter.mjs', () => {});
 
     this.data.set('init', '1');
   }
