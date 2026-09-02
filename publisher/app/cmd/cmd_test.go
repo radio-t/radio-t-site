@@ -58,6 +58,7 @@ func TestShellExecutor_Run(t *testing.T) {
 
 	t.Run("argument with spaces and metacharacters reaches the command intact", func(t *testing.T) {
 		dir := t.TempDir()
+		t.Chdir(dir) // a reverted implementation splits the name, so keep the stray files out of the package directory
 		name := filepath.Join(dir, "a file $(id -un) `date`.txt")
 		c.Run("touch", name)
 		assert.FileExists(t, name, "the name must not be split or expanded on the way to touch")
