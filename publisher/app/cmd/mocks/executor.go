@@ -88,3 +88,140 @@ func (mock *ExecutorMock) ResetCalls() {
 	mock.calls.Run = nil
 	mock.lockRun.Unlock()
 }
+
+// ShellExecutorIfaceMock is a mock implementation of cmd.ShellExecutorIface.
+//
+//	func TestSomethingThatUsesShellExecutorIface(t *testing.T) {
+//
+//		// make and configure a mocked cmd.ShellExecutorIface
+//		mockedShellExecutorIface := &ShellExecutorIfaceMock{
+//			RunFunc: func(cmd string, params ...string)  {
+//				panic("mock out the Run method")
+//			},
+//			RunShellFunc: func(script string)  {
+//				panic("mock out the RunShell method")
+//			},
+//		}
+//
+//		// use mockedShellExecutorIface in code that requires cmd.ShellExecutorIface
+//		// and then make assertions.
+//
+//	}
+type ShellExecutorIfaceMock struct {
+	// RunFunc mocks the Run method.
+	RunFunc func(cmd string, params ...string)
+
+	// RunShellFunc mocks the RunShell method.
+	RunShellFunc func(script string)
+
+	// calls tracks calls to the methods.
+	calls struct {
+		// Run holds details about calls to the Run method.
+		Run []struct {
+			// Cmd is the cmd argument value.
+			Cmd string
+			// Params is the params argument value.
+			Params []string
+		}
+		// RunShell holds details about calls to the RunShell method.
+		RunShell []struct {
+			// Script is the script argument value.
+			Script string
+		}
+	}
+	lockRun      sync.RWMutex
+	lockRunShell sync.RWMutex
+}
+
+// Run calls RunFunc.
+func (mock *ShellExecutorIfaceMock) Run(cmd string, params ...string) {
+	if mock.RunFunc == nil {
+		panic("ShellExecutorIfaceMock.RunFunc: method is nil but ShellExecutorIface.Run was just called")
+	}
+	callInfo := struct {
+		Cmd    string
+		Params []string
+	}{
+		Cmd:    cmd,
+		Params: params,
+	}
+	mock.lockRun.Lock()
+	mock.calls.Run = append(mock.calls.Run, callInfo)
+	mock.lockRun.Unlock()
+	mock.RunFunc(cmd, params...)
+}
+
+// RunCalls gets all the calls that were made to Run.
+// Check the length with:
+//
+//	len(mockedShellExecutorIface.RunCalls())
+func (mock *ShellExecutorIfaceMock) RunCalls() []struct {
+	Cmd    string
+	Params []string
+} {
+	var calls []struct {
+		Cmd    string
+		Params []string
+	}
+	mock.lockRun.RLock()
+	calls = mock.calls.Run
+	mock.lockRun.RUnlock()
+	return calls
+}
+
+// ResetRunCalls reset all the calls that were made to Run.
+func (mock *ShellExecutorIfaceMock) ResetRunCalls() {
+	mock.lockRun.Lock()
+	mock.calls.Run = nil
+	mock.lockRun.Unlock()
+}
+
+// RunShell calls RunShellFunc.
+func (mock *ShellExecutorIfaceMock) RunShell(script string) {
+	if mock.RunShellFunc == nil {
+		panic("ShellExecutorIfaceMock.RunShellFunc: method is nil but ShellExecutorIface.RunShell was just called")
+	}
+	callInfo := struct {
+		Script string
+	}{
+		Script: script,
+	}
+	mock.lockRunShell.Lock()
+	mock.calls.RunShell = append(mock.calls.RunShell, callInfo)
+	mock.lockRunShell.Unlock()
+	mock.RunShellFunc(script)
+}
+
+// RunShellCalls gets all the calls that were made to RunShell.
+// Check the length with:
+//
+//	len(mockedShellExecutorIface.RunShellCalls())
+func (mock *ShellExecutorIfaceMock) RunShellCalls() []struct {
+	Script string
+} {
+	var calls []struct {
+		Script string
+	}
+	mock.lockRunShell.RLock()
+	calls = mock.calls.RunShell
+	mock.lockRunShell.RUnlock()
+	return calls
+}
+
+// ResetRunShellCalls reset all the calls that were made to RunShell.
+func (mock *ShellExecutorIfaceMock) ResetRunShellCalls() {
+	mock.lockRunShell.Lock()
+	mock.calls.RunShell = nil
+	mock.lockRunShell.Unlock()
+}
+
+// ResetCalls reset all the calls that were made to all mocked methods.
+func (mock *ShellExecutorIfaceMock) ResetCalls() {
+	mock.lockRun.Lock()
+	mock.calls.Run = nil
+	mock.lockRun.Unlock()
+
+	mock.lockRunShell.Lock()
+	mock.calls.RunShell = nil
+	mock.lockRunShell.Unlock()
+}

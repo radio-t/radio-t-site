@@ -10,18 +10,20 @@ import (
 )
 
 func TestDeploy_Do(t *testing.T) {
-	ex := &mocks.ExecutorMock{
-		RunFunc: func(_ string, _ ...string) {},
+	ex := &mocks.ShellExecutorIfaceMock{
+		RunFunc:      func(_ string, _ ...string) {},
+		RunShellFunc: func(_ string) {},
 	}
 
-	d := Deploy{Executor: ex}
+	d := Deploy{ShellExecutorIface: ex}
 	d.Do()
 
-	require.Equal(t, 2, len(ex.RunCalls()))
-	assert.Equal(t, `git pull && git add . && git diff --staged --exit-code --quiet || git commit -m auto && git push`, ex.RunCalls()[0].Cmd)
-	assert.Equal(t, 0, len(ex.RunCalls()[0].Params))
+	require.Equal(t, 1, len(ex.RunShellCalls()))
+	assert.Equal(t, `git pull && git add . && git diff --staged --exit-code --quiet || git commit -m auto && git push`,
+		ex.RunShellCalls()[0].Script)
 
-	assert.Equal(t, `ssh umputun@master.radio-t.com`, ex.RunCalls()[1].Cmd)
-	assert.Equal(t, 1, len(ex.RunCalls()[1].Params))
-	assert.Equal(t, `"cd /srv/radio-t/site.hugo && git pull && docker compose run --rm hugo"`, ex.RunCalls()[1].Params[0])
+	require.Equal(t, 1, len(ex.RunCalls()))
+	assert.Equal(t, "ssh", ex.RunCalls()[0].Cmd)
+	assert.Equal(t, []string{"umputun@master.radio-t.com",
+		"cd /srv/radio-t/site.hugo && git pull && docker compose run --rm hugo"}, ex.RunCalls()[0].Params)
 }
