@@ -151,7 +151,7 @@ func runTags() {
 }
 
 func runDeploy() {
-	deploy := cmd.Deploy{Executor: &cmd.ShellExecutor{Dry: opts.Dry}}
+	deploy := cmd.Deploy{ShellExecutorIface: &cmd.ShellExecutor{Dry: opts.Dry}}
 	deploy.Do()
 	log.Printf("[INFO] site deployed")
 }
