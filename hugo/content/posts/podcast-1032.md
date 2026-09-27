@@ -11,7 +11,7 @@ filename = "rt_podcast1032"
 - Вступление - *00:00:00*.
 - [Claude Opus 5.5 опять хорош](https://www.anthropic.com/claude-opus-5-5) - *00:22:21*.
 - [Токены скоро станут очень дешевыми](https://jyn.dev/tokens-too-cheap-to-meter/) - *00:32:49*.
-- [Вуход GPT-6 Sol и Luna - все не так радужно](https://openai.com/index/introducing-gpt-6-sol-and-luna/) - *00:52:04*.
+- [Выход GPT-6 Sol и Luna — все не так радужно](https://openai.com/index/introducing-gpt-6-sol-and-luna/) - *00:52:04*.
 - [Grok 4.7 тоже вышел](https://x.ai/news/grok-4-7) - *01:05:12*.
 - [OpenAI приостановили создание SkyNet](https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause) - *01:09:55*.
 - [Docker Sandboxes для агентов](https://www.docker.com/products/docker-sandboxes/) - *01:33:22*.
