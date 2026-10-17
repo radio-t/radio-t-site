@@ -12,7 +12,7 @@ filename = "rt_podcast1034"
 - [Apple HomeView и прочие странные новинки](https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/) - *00:31:39*.
 - [Anthropic забанит за жестокое отношения к Claude](https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6) - *00:52:18*.
 - [Больше кода, но столько-же результата](https://forkast.news/ai-coding-agents-write-30-more-code-and-resolve-zero-additional-issues-harvard-study-finds/) - *01:12:55*.
-- [Как Claude Code провидит code review](https://claude.dev/blog/solving-code-review-at-anthropic/) - *01:27:00*.
+- [Как Claude Code проводит code review](https://claude.dev/blog/solving-code-review-at-anthropic/) - *01:27:00*.
 - [Клон продуктов Photoshop наносит удар](https://www.shokunin.studio/blog/2026/10/9/attack-of-the-vibe-coded-photoshop-clones) - *01:55:18*.
 - [Темы слушателей](https://radio-t.com/p/2026/10/13/prep-1034/) - *02:17:16*.
 
