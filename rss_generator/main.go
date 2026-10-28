@@ -71,7 +71,7 @@ func main() {
 	g := proc.RSSGenerator{
 		Client:          &http.Client{Timeout: 10 * time.Second},
 		BaseURL:         "https://radio-t.com",
-		BaseArchiveURL:  "http://archive.rucast.net/radio-t/media",
+		BaseArchiveURL:  "https://archive.rucast.net/radio-t/media",
 		BaseCdnURL:      "https://cdn.radio-t.com",
 		RssRootLocation: opts.SaveTo,
 	}
