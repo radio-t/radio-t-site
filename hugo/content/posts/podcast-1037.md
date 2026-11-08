@@ -9,7 +9,7 @@ filename = "rt_podcast1037"
 ![](https://radio-t.com/images/radio-t/rt1037.jpg)
 
 - Вступление - *00:00:00*.
-- [*sshole наступил](https://sshhole.com/) - *00:40:59*.
+- [.sshole наступил](https://sshhole.com/) - *00:40:59*.
 - [Кому Ruby on Rails все еще нужен](https://tech.dirkjonker.nl/does-ruby-on-rails-make-sense/) - *00:58:28* ?
 - [Токсичные эксперты](https://nedbatchelder.com/blog/201711/toxic_experts) - *01:20:37*.
 - [Postman тихо ставит плагины и хуки для агентов](https://github.com/postmanlabs/postman-app-support/issues/14370) - *01:56:52*.
