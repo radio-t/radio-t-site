@@ -175,8 +175,8 @@ export default class extends Controller {
       this.audioTarget.load();
       this.rateTarget.textContent = this.audioTarget.playbackRate;
       this.updateVolumeLevel(this.storedVolumeLevel);
-      this.updatePlaybackRate(this.rate);
       if (!detail.online) {
+        this.updatePlaybackRate(this.rate);
         if (!detail.timeLabel) {
           const podcast = getLocalStorage(
             'podcasts',
@@ -186,6 +186,10 @@ export default class extends Controller {
             detail.timeLabel = composeTime(podcast.currentTime);
           }
         }
+      } else {
+        // live stream can't play faster than real time; don't persist so the podcast rate is kept
+        this.audioTarget.playbackRate = 1;
+        this.rateTarget.textContent = 1;
       }
       this.once(this.audioTarget, 'canplay', () => this.setTimeLabel(detail.timeLabel));
       return true;
