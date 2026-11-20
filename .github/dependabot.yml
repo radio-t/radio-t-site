@@ -20,3 +20,7 @@ updates:
     schedule:
       interval: "monthly"
     open-pull-requests-limit: 0
+    ignore:
+      # laravel-mix 6 requires webpack/lib/SizeFormatHelpers, removed in webpack 5.97
+      - dependency-name: "webpack"
+        versions: [">=5.97.0"]
