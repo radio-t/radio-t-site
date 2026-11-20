@@ -74,7 +74,7 @@ export default class extends Controller {
 
   // https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Media_events
   addEventListeners() {
-    ['durationchange', 'play', 'pause', 'ended'].forEach((event) => {
+    ['durationchange', 'play', 'pause', 'ended', 'waiting', 'stalled'].forEach((event) => {
       const handlerName = `on${capitalize(event)}`;
       if (this[handlerName]) this.audioTarget.addEventListener(event, this[handlerName].bind(this));
     });
@@ -314,6 +314,20 @@ export default class extends Controller {
 
   onEnded() {
     // @todo:
+  }
+
+  onWaiting() {
+    this.resetRateAtStreamEnd();
+  }
+
+  onStalled() {
+    this.resetRateAtStreamEnd();
+  }
+
+  resetRateAtStreamEnd() {
+    if (!this.detail.online || this.audioTarget.playbackRate <= 1) return;
+    this.audioTarget.playbackRate = 1;
+    this.rateTarget.innerText = 1;
   }
 
   muteUnmute() {
