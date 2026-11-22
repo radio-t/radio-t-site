@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-go@v7
         with:
           go-version-file: rss_generator/go.mod
-          cache-dependency-path: rss_generator/go.sum # setup-go looks for go.sum at the repo root
+          cache-dependency-path: rss_generator/go.sum # the module is not at the repo root, where setup-go looks by default
 
       - name: build
         run: go build ./...
