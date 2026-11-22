@@ -1,7 +1,7 @@
 name: build-rss-generator
 on:
   push:
-    branches: [master] # no feature-branch pushes, same-repo PRs would run twice
+    branches: [master] # avoids duplicate runs for same-repo pull requests
     paths:
       - '.github/workflows/ci-build-rss-generator.yml'
       - 'rss_generator/**'
