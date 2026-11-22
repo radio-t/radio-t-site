@@ -1,0 +1,36 @@
+name: build-rss-generator
+on:
+  push:
+    branches: [master] # no feature-branch pushes, same-repo PRs would run twice
+    paths:
+      - '.github/workflows/ci-build-rss-generator.yml'
+      - 'rss_generator/**'
+  pull_request:
+    paths:
+      - '.github/workflows/ci-build-rss-generator.yml'
+      - 'rss_generator/**'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out code
+        uses: actions/checkout@v7
+
+      - name: set up go
+        uses: actions/setup-go@v7
+        with:
+          go-version-file: rss_generator/go.mod
+          cache-dependency-path: rss_generator/go.sum # setup-go looks for go.sum at the repo root
+
+      - name: build
+        run: go build ./...
+        working-directory: rss_generator
+
+      - name: test
+        run: go test -race ./...
+        working-directory: rss_generator
