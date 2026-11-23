@@ -40,7 +40,7 @@ func TestDeploy_DoCommitScript(t *testing.T) {
 		wantAutoCommit bool
 		wantPushed     bool
 	}{
-		{name: "failed pull with a staged change makes no commit", prep: func(t *testing.T, work string) { // regression: #537
+		{name: "failed pull with a staged change makes no commit", prep: func(t *testing.T, work string) {
 			gitRun(t, work, "remote", "set-url", "origin", filepath.Join(t.TempDir(), "missing.git"))
 			writeFile(t, work, "f.txt", "changed")
 			gitRun(t, work, "add", "f.txt")
