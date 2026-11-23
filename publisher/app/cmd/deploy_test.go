@@ -84,6 +84,7 @@ func TestDeploy_DoCommitScript(t *testing.T) {
 			if tt.wantAutoCommit {
 				assert.Equal(t, localBefore, gitRun(t, work, "rev-parse", "HEAD~1"))
 				assert.Equal(t, "auto", gitRun(t, work, "log", "-1", "--format=%s"))
+				assert.Empty(t, gitRun(t, work, "status", "--porcelain"), "untracked files must be committed too")
 			} else {
 				assert.Equal(t, localBefore, localAfter, "no commit expected")
 			}
